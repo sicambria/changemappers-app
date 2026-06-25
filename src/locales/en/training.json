@@ -1,0 +1,234 @@
+{
+  "title": "Training",
+  "peerTraining": "Peer Training",
+  "activeOffers": "Active training offers",
+  "browseOffers": "Browse Offers",
+  "findTraining": "Find Training",
+  "formats": {
+    "oneOnOne": "1-on-1",
+    "group": "Group",
+    "workshop": "Workshop"
+  },
+  "levels": {
+    "beginner": "Beginner",
+    "advanced": "Advanced"
+  },
+  "createOffer": "Create Training Offer",
+  "describeWhatYouCanTeach": "Describe what you can teach...",
+  "offer": "Training Offer",
+  "workshop": "Workshop",
+  "course": "Course",
+  "demo": "Demo",
+  "anonymous": "Anonymous",
+  "editOffer": "Edit Training Offer",
+  "updateDetails": "Update the details",
+  "myOffers": "My Training Offers",
+  "newOffer": "New Offer",
+  "noOffersYet": "You have not created any training offers",
+  "postRequest": "Post a Training Request",
+  "describeSkillsToDevelop": "Describe the skills you want to develop",
+  "myConnections": "My Training Connections",
+  "status": {
+    "active": "Active",
+    "pending": "Pending",
+    "complete": "Complete",
+    "cancelled": "Cancelled"
+  },
+  "nav": {
+    "find": "Find Training",
+    "offer": "Offer Training",
+    "connections": "My Engagements"
+  },
+  "find": {
+    "title": "Find Training",
+    "subtitle": "Structured skill and knowledge transfer from practitioners who have done it",
+    "filters": {
+      "domain": "Domain",
+      "format": "Format",
+      "level": "Level",
+      "sync": "Synchronous only"
+    },
+    "empty": "No training offers match your filters.",
+    "loading": "Loading offers...",
+    "activeOffersSummary": "{{count}} active offer from the network",
+    "activeOffersSummary_plural": "{{count}} active offers from the network",
+    "emptyCta": "Be the first to create one →",
+    "engaged": "{{count}} engaged",
+    "formatLabels": {
+      "ONE_ON_ONE": "1-on-1",
+      "GROUP": "Group",
+      "WORKSHOP": "Workshop",
+      "ASYNC": "Async",
+      "MENTORING": "Mentoring"
+    },
+    "levelLabels": {
+      "BEGINNER": "Beginner",
+      "INTERMEDIATE": "Intermediate",
+      "ADVANCED": "Advanced",
+      "ALL": "All levels"
+    }
+  },
+  "offerSection": {
+    "create": "Create Training Offer",
+    "edit": "Edit Offer",
+    "domain": "Domain / Topic",
+    "format": "Format",
+    "level": "Level",
+    "isSync": "Synchronous (live sessions)",
+    "isGroup": "Group format",
+    "timeCommitment": "Time commitment",
+    "capacity": "Capacity (leave blank for unlimited)",
+    "description": "Description",
+    "formats": {
+      "WORKSHOP": "Workshop",
+      "COURSE": "Course",
+      "DEMO": "Demonstration",
+      "RESOURCE": "Resources / Reading",
+      "GUIDED_PRACTICE": "Guided Practice"
+    },
+    "levels": {
+      "BEGINNER": "Beginner",
+      "PARTIAL": "Some experience",
+      "ADVANCED": "Advanced"
+    }
+  },
+  "request": {
+    "create": "Request Training",
+    "domain": "What domain or skill do you want to learn?",
+    "skillGap": "Describe your skill gap",
+    "formatPreference": "Preferred format (optional)",
+    "levelPreference": "Your current level (optional)"
+  },
+  "engagement": {
+    "status": {
+      "PENDING": "Pending",
+      "ACTIVE": "Active",
+      "COMPLETE": "Complete",
+      "CANCELLED": "Cancelled"
+    },
+    "accept": "Accept request",
+    "decline": "Decline",
+    "cancel": "Cancel",
+    "complete": "Mark complete",
+    "empty": "No engagements yet.",
+    "browseOffers": "Browse training offers",
+    "or": "or",
+    "offerTraining": "offer training",
+    "trainer": "Trainer: {{name}}",
+    "learner": "Learner: {{name}}",
+    "unknown": "Unknown",
+    "completedDate": "Completed {{date}}",
+    "reflection": "Reflection",
+    "writeReflection": "Write a reflection →"
+  },
+  "feedback": {
+    "title": "Reflect on this training",
+    "learnerPrompt": "What did you come in not knowing? What shifted? What would you tell someone considering this training?",
+    "trainerPrompt": "What did the learner bring to the experience? (Optional observation — not an assessment)",
+    "submit": "Send reflection",
+    "publicNote": "This reflection will be visible on the engagement record."
+  },
+  "card": {
+    "by": "Offered by",
+    "level": "Level",
+    "format": "Format",
+    "time": "Time commitment",
+    "request": "Request this training"
+  },
+  "offerForm": {
+    "updated": "Offer updated!",
+    "created": "Training offer created successfully!",
+    "levelExplorer": "Explorer",
+    "levelPractitioner": "Practitioner",
+    "levelGuide": "Guide",
+    "deliveryMode": "Delivery Mode",
+    "deliveryOnline": "Online",
+    "deliveryInPerson": "In Person",
+    "deliveryHybrid": "Hybrid",
+    "cityLabel": "City (for in-person/hybrid)",
+    "cityPlaceholder": "e.g., Budapest",
+    "professionalUrl": "Professional URL (optional)",
+    "professionalUrlHint": "Must be a valid URL (https://...)",
+    "minChars": "Minimum {{min}} characters",
+    "min": "{{min}} min",
+    "timeCommitmentPlaceholder": "e.g. 2h/week for 4 weeks",
+    "capacityOptional": "Capacity (optional)",
+    "synchronous": "Synchronous",
+    "groupFormat": "Group format",
+    "saving": "Saving…",
+    "update": "Update Offer",
+    "create": "Create Offer"
+  },
+  "feedbackForm": {
+    "success": "Thank you for your reflection. Feedback submitted.",
+    "yourReflection": "Your reflection",
+    "yourReflectionPlaceholder": "What did you learn? What will you apply? How did this experience change your thinking?",
+    "minChars": "Minimum {{min}} characters",
+    "min": "{{min}} min",
+    "trainerObservation": "Trainer observation",
+    "optional": "(optional)",
+    "trainerObservationPlaceholder": "Observations for the trainer — what worked well, what could improve?",
+    "submitting": "Submitting…",
+    "submit": "Send feedback"
+  },
+  "requestForm": {
+    "success": "Training request submitted! You will be matched with suitable trainers.",
+    "skillGapPlaceholder": "What do you want to learn and why?",
+    "minChars": "Minimum {{min}} characters ({{count}}/{{min}})",
+    "any": "Any",
+    "levelBeginner": "Beginner",
+    "levelPartial": "Partial",
+    "levelAdvanced": "Advanced",
+    "submitting": "Submitting…",
+    "submit": "Send request"
+  },
+  "overviewSubtitle": "Share what you know. Learn from others. Changemappers grow through reciprocal skill exchange - find a trainer, offer your expertise, or post a learning request.",
+  "requestOpen": "Open",
+  "requestPrompt": "Post your learning request",
+  "findTrainersDescription": "Find trainers offering skills that match your growth goals.",
+  "viewConnections": "View my training connections →",
+  "viewMyRequests": "View my training requests →",
+  "myRequests": {
+    "title": "My Training Requests",
+    "subtitle": "Your pending training requests. Withdraw a request if it is no longer needed.",
+    "empty": "You have no pending training requests.",
+    "cardTitle": "Training Request",
+    "domainLabel": "Domain",
+    "skillGapLabel": "Skill gap",
+    "formatLabel": "Format preference",
+    "levelLabel": "Level preference",
+    "withdraw": "Withdraw",
+    "withdrawConfirm": "Withdraw this request?",
+    "withdrawYes": "Yes, withdraw",
+    "withdrawPending": "Withdrawing…",
+    "withdrawError": "Failed to withdraw request."
+  },
+  "connectionsSummary": "{{count}} engagement across all statuses",
+  "connectionsSummary_plural": "{{count}} engagements across all statuses",
+  "noConnections": "You do not have any training connections yet.",
+  "findTrainer": "Find a trainer →",
+  "postRequestCta": "Post a request →",
+  "unknownTrainer": "Unknown trainer",
+  "trainingFallback": "Training",
+  "completeNeedsReflection": "This engagement is complete. Share your reflection to close the loop.",
+  "completedOn": "Completed {{date}}",
+  "offerDetail": {
+    "backToOffers": "Back to offers",
+    "engagementCount": "{{count}} engagement",
+    "engagementCount_plural": "{{count}} engagements",
+    "trainer": "Trainer",
+    "postRequestMatch": "Post a request to match",
+    "formatLabels": {
+      "WORKSHOP": "Workshop",
+      "COURSE": "Course",
+      "DEMO": "Demo",
+      "RESOURCE": "Resource",
+      "GUIDED_PRACTICE": "Guided Practice"
+    },
+    "levelLabels": {
+      "BEGINNER": "Beginner",
+      "PARTIAL": "Partial",
+      "ADVANCED": "Advanced"
+    }
+  }
+}

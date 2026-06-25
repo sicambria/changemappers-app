@@ -1,0 +1,199 @@
+{
+  "title": "Mapa de Sistemas",
+  "nav": {
+    "canvases": "Mapas",
+    "patterns": "Biblioteca de Patrones",
+    "new": "Nuevo Mapa"
+  },
+  "drawingBoard": {
+    "title": "Pizarra de Dibujo",
+    "subtitle": "Crea y comparte diagramas, mapas y modelos visuales con tu comunidad.",
+    "newDiagram": "Nuevo diagrama",
+    "noDiagrams": "Aún no hay diagramas. Crea uno para empezar a colaborar.",
+    "backToBoard": "← Pizarra de Dibujo",
+    "viewOnly": "Solo ver",
+    "saving": "Guardando…",
+    "saved": "✓ Guardado",
+    "saveFailed": "Error al guardar — intenta de nuevo",
+    "savedLocally": "Guardado localmente, esperando red",
+    "syncToCloud": "Sincronizar con la nube",
+    "save": "Guardar",
+    "by": "por",
+    "unknown": "Desconocido"
+  },
+  "form": {
+    "newDiagram": "Nuevo Diagrama",
+    "subtitle": "Nombra tu diagrama y elige quién puede verlo. Irás directamente al editor.",
+    "diagramTitle": "Título del diagrama",
+    "diagramTitleRequired": "Título del diagrama",
+    "diagramTitlePlaceholder": "ej., Mapa del Sistema Alimentario, Estrategia Q2, …",
+    "description": "Descripción",
+    "descriptionOptional": "Descripción",
+    "descriptionPlaceholder": "¿De qué trata este diagrama?",
+    "whoCanView": "¿Quién puede ver este diagrama?",
+    "visibilityPublic": "Público — cualquiera, incluyendo visitantes",
+    "visibilityRegistered": "Solo usuarios registrados",
+    "visibilityCommunity": "Solo miembros de la comunidad",
+    "visibilityNote": "Solo tú puedes editar. Otros con acceso pueden ver.",
+    "visibilityNoteCommunity": " La visibilidad de comunidad requiere membresía activa.",
+    "visibilityNoteNoCommunity": " La visibilidad de comunidad requiere una comunidad vinculada.",
+    "createAndOpen": "Crear y abrir editor",
+    "creating": "Creando…",
+    "errorPrefix": "Algo salió mal. Por favor intenta de nuevo."
+  },
+  "visibility": {
+    "PUBLIC": "Público",
+    "REGISTERED": "Miembros",
+    "MEMBERS_ONLY": "Solo miembros",
+    "COMMUNITY": "Comunidad",
+    "COMMUNITY_ONLY": "Solo comunidad"
+  },
+  "metadata": {
+    "newTitle": "Nuevo Diagrama | Pizarra de Dibujo",
+    "newDescription": "Crear un nuevo diagrama en la Pizarra de Dibujo."
+  },
+  "find": {
+    "title": "Mapas de Sistemas Comunitarios",
+    "subtitle": "Sentido colectivo — desde la sensación de que algo está mal hasta un mapa compartido de lo que lo produce.",
+    "empty": "Aún no hay mapas. Crea el primero.",
+    "active": "Activo",
+    "archived": "Archivado"
+  },
+  "canvas": {
+    "create": "Crear Mapa",
+    "edit": "Editar Mapa",
+    "title": "Título",
+    "description": "Descripción (opcional)",
+    "archive": "Archivar mapa",
+    "community": "Comunidad (opcional)"
+  },
+  "node": {
+    "add": "Añadir nodo",
+    "edit": "Editar nodo",
+    "delete": "Eliminar nodo",
+    "title": "Título",
+    "description": "Descripción (opcional)",
+    "types": {
+      "PROBLEM": "Problema",
+      "PATTERN": "Patrón",
+      "ROOT_CAUSE": "Causa Raíz",
+      "SOLUTION_PATTERN": "Patrón de Solución",
+      "INTERVENTION": "Intervención"
+    },
+    "typeDescriptions": {
+      "PROBLEM": "Un problema concreto y observado basado en experiencia específica",
+      "PATTERN": "La dinámica recurrente detrás de múltiples problemas",
+      "ROOT_CAUSE": "Condición estructural o conductual subyacente que produce el patrón",
+      "SOLUTION_PATTERN": "Una práctica probada que aborda patrones específicos",
+      "INTERVENTION": "Un experimento concreto que la comunidad está realizando o ha realizado"
+    }
+  },
+  "link": {
+    "add": "Añadir enlace",
+    "from": "Desde",
+    "to": "Hacia",
+    "types": {
+      "CAUSES": "Causa",
+      "REINFORCES": "Refuerza",
+      "CONTRIBUTES_TO": "Contribuye a",
+      "MITIGATES": "Mitiga",
+      "SOLVED_BY": "Resuelto por",
+      "RELATED_PATTERN": "Patrón relacionado"
+    }
+  },
+  "diagnostic": {
+    "title": "Diagnóstico de Causa Raíz",
+    "subtitle": "Preguntas de orientación rápida para localizar causas raíz. Son iniciadores de conversación, no instrumentos.",
+    "decisionClarity": "¿Qué tan claros son los roles de toma de decisiones para todos los afectados? (1 = muy poco claro, 10 = cristalino)",
+    "preDecisionDisagreement": "¿Con qué frecuencia surge el desacuerdo antes de que se finalicen las decisiones? (1 = raramente, 10 = siempre)",
+    "coordinationAwareness": "¿Con qué frecuencia actúan las personas sin saber lo que otros están haciendo? (1 = muy frecuente, 10 = raramente)",
+    "submit": "Enviar diagnóstico"
+  },
+  "patterns": {
+    "title": "Biblioteca de Patrones",
+    "subtitle": "Bienes comunes de prácticas probadas gestionados por la comunidad. Depende del contexto.",
+    "propose": "Proponer un patrón",
+    "proposedBy": "Propuesto por {{name}}",
+    "edit": "Editar patrón",
+    "retire": "Retirar patrón",
+    "status": {
+      "PROPOSED": "Propuesto",
+      "VALIDATED": "Validado",
+      "RETIRED": "Retirado"
+    },
+    "name": "Nombre del patrón",
+    "category": "Categoría",
+    "applicableContexts": "Contextos aplicables",
+    "requirements": "Qué requiere",
+    "limitations": "Qué no resuelve",
+    "examples": "Ejemplos documentados",
+    "categories": {
+      "GOVERNANCE": "Gobernanza y Autoridad",
+      "DECISION_MAKING": "Toma de Decisiones",
+      "COORDINATION": "Coordinación y Flujo",
+      "COMMUNICATION": "Comunicación y Transparencia",
+      "TRUST_CONFLICT": "Confianza y Conflicto",
+      "RESOURCE": "Asignación de Recursos",
+      "ENGAGEMENT": "Participación Comunitaria"
+    }
+  },
+  "intervention": {
+    "add": "Añadir registro de intervención",
+    "outcome": "Resultado",
+    "reflection": "Qué se intentó, en qué condiciones, qué pasó, qué le dirías a otra comunidad",
+    "outcomes": {
+      "TRYING": "Actualmente probando",
+      "HELPED": "Ayudó",
+      "DIDNT_HELP": "No ayudó",
+      "MADE_WORSE": "Empeoró la situación"
+    }
+  },
+  "comment": {
+    "add": "Añadir comentario",
+    "reply": "Responder",
+    "delete": "Eliminar",
+    "placeholder": "Comenta sobre este nodo..."
+  },
+  "suggestions": {
+    "title": "Patrones sugeridos",
+    "subtitle": "Basado en el problema o patrón que has descrito."
+  },
+  "contextMenu": {
+    "selectType": "Seleccionar tipo de nodo",
+    "selectEntity": "Seleccionar tipo de entidad",
+    "selectState": "Seleccionar estado de energía",
+    "nodeTypes": {
+      "PROBLEM": "Problema",
+      "PATTERN": "Patrón",
+      "ROOT_CAUSE": "Causa Raíz",
+      "SOLUTION_PATTERN": "Patrón de Solución",
+      "INTERVENTION": "Intervención"
+    }
+  },
+  "editSidebar": {
+    "editNode": "Editar Nodo",
+    "title": "Título",
+    "titlePlaceholder": "Título del nodo",
+    "type": "Tipo",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Añadir una descripción…",
+    "position": "Posición",
+    "posX": "X",
+    "posY": "Y",
+    "links": "Enlaces",
+    "noLinks": "Sin enlaces",
+    "comments": "Comentarios",
+    "unknown": "Desconocido",
+    "moreComments": "+{{count}} más comentarios",
+    "remove": "Eliminar",
+    "saving": "Guardando...",
+    "deleteNode": "Eliminar Nodo",
+    "deleteConfirm": "¿Eliminar este nodo? Esta acción no se puede deshacer."
+  },
+  "keyboard": {
+    "add": "Presiona N para añadir",
+    "link": "Presiona L para enlazar",
+    "undo": "Ctrl+Z para deshacer",
+    "redo": "Ctrl+Shift+Z para rehacer"
+  }
+}

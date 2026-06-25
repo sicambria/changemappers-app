@@ -1,0 +1,268 @@
+{
+  "title": "Önkéntesség",
+  "nav": {
+    "browse": "Lehetőségek böngészése",
+    "post": "Kérés közzététele",
+    "myOpportunities": "Jelentkezéseim",
+    "applications": "Jelentkezéseim"
+  },
+  "hero": {
+    "title": "Találj értékes önkéntes munkát",
+    "subtitle": "Fedezd fel az értékeiddel, készségeiddel és rendelkezésre állásoddal összhangban lévő lehetőségeket"
+  },
+  "browse": {
+    "title": "Önkéntes lehetőségek böngészése",
+    "filters": {
+      "rdgDomain": "RDG terület",
+      "specificRdg": "Konkrét RDG",
+      "topic": "Társadalmi ügy témája",
+      "impactScale": "Hatás skálája",
+      "format": "Formátum",
+      "location": "Helyszín",
+      "commitment": "Időbeli elkötelezettség",
+      "skills": "Készségek",
+      "rollingApplications": "Folyamatos jelentkezés"
+    },
+    "empty": "Nincs a szűrőknek megfelelő lehetőség.",
+    "loading": "Lehetőségek betöltése...",
+    "loadMore": "Továbbiak betöltése"
+  },
+  "card": {
+    "primaryRdg": "Elsődleges RDG",
+    "format": "Formátum",
+    "location": "Helyszín",
+    "timeCommitment": "Időbeli elkötelezettség",
+    "skillsNeeded": "Szükséges készségek",
+    "physicalRequirements": "Fizikai követelmények",
+    "rollingApplications": "Folyamatos jelentkezés",
+    "deadline": "Jelentkezési határidő",
+    "spotsRemaining": "hely elérhető",
+    "apply": "Jelentkezés",
+    "save": "Mentés",
+    "saved": "Mentve",
+    "remote": "Távoli",
+    "hoursPerWeek": "{{count}} óra/hét",
+    "beginnerFriendly": "Kezdőbarát"
+  },
+  "request": {
+    "create": "Önkéntes kérés közzététele",
+    "edit": "Lehetőség szerkesztése",
+    "basicInfo": {
+      "title": "Alapinformációk",
+      "titleLabel": "Lehetőség címe",
+      "summaryLabel": "Rövid összefoglaló",
+      "descriptionLabel": "Részletes leírás",
+      "requesterTypeLabel": "Kérő típusa",
+      "organizationLabel": "Szervezet neve",
+      "subtitle": "Add meg a lehetőség alapvető adatait."
+    },
+    "rdg": {
+      "title": "Regeneratív Fejlődési Célok",
+      "required": "Válassz 1-3 RDG-t, amelyet ez a lehetőség támogat",
+      "selected": "Kiválasztva",
+      "primaryLabel": "Elsődleges RDG igazítás (kötelező, 1-3)",
+      "additionalLabel": "További RDG kapcsolatok (opcionális, legfeljebb 5)",
+      "topicsLabel": "Társadalmi ügy témák",
+      "impactScaleLabel": "Hatás skálája"
+    },
+    "time": {
+      "title": "Idő és Elkötelezettség",
+      "commitmentTypeLabel": "Elkötelezettség típusa",
+      "startDateLabel": "Kezdő dátum",
+      "endDateLabel": "Befejező dátum",
+      "eventDateLabel": "Esemény dátuma",
+      "deadlineLabel": "Jelentkezési határidő",
+      "rollingApplicationsLabel": "Folyamatosan fogadja a jelentkezéseket",
+      "moreInfoUrlLabel": "További Információ URL",
+      "weeklyHoursLabel": "Heti órák",
+      "totalHoursLabel": "Várható összes óra",
+      "shiftLengthLabel": "Műszak hossza",
+      "timePreferenceLabel": "Időpont előny",
+      "subtitle": "Add meg az időráfordítást és a jelentkezési határidőket."
+    },
+    "requirements": {
+      "title": "Önkéntes Követelmények",
+      "requiredSkillsLabel": "Szükséges készségek",
+      "niceToHaveSkillsLabel": "Előnyös készségek",
+      "experienceLevelLabel": "Szükséges tapasztalati szint",
+      "beginnerFriendlyLabel": "Kezdőknek",
+      "trainingProvidedLabel": "Képzés biztosított",
+      "languageRequirementsLabel": "Nyelvi követelmények",
+      "volunteersNeededLabel": "Szükséges önkéntesek száma",
+      "teamBasedLabel": "Csapatmunka",
+      "subtitle": "Mit kell tudniuk vagy mire számíthatnak az önkéntesek?"
+    },
+    "physical": {
+      "title": "Fizikai és Gyakorlati Követelmények",
+      "effortLevelLabel": "Fizikai erőfeszítés szintje",
+      "requirementsLabel": "Konkrét fizikai követelmények",
+      "accessibilityLabel": "Akadálymentesítési támogatás",
+      "indoorOutdoorLabel": "Munkakörnyezet",
+      "weatherExposedLabel": "Időjárásnak kitett",
+      "travelRequiredLabel": "Utazás szükséges",
+      "transportProvidedLabel": "Szállítás biztosított",
+      "equipmentLabel": "Szükséges felszerelés",
+      "dressCodeLabel": "Öltözködési Előírás vagy Védőruházat"
+    },
+    "trust": {
+      "title": "Bizalom és Biztonság",
+      "backgroundCheckLabel": "Háttérellenőrzés szükséges",
+      "referencesLabel": "Ajánlások szükségesek",
+      "codeOfConductLabel": "Magatartási kódex elfogadása",
+      "vulnerableLabel": "Kiskorúakkal vagy Sérülhető Csoportokkal Való Munka",
+      "supervisionLabel": "Felügyeleti Szint",
+      "riskLevelLabel": "Kockázati szint"
+    },
+    "location": {
+      "title": "Helyszín és Formátum",
+      "formatLabel": "Formátum",
+      "locationLabel": "Helyszín",
+      "regionLabel": "Régió",
+      "remoteCapableLabel": "Távoli munka lehetősége",
+      "subtitle": "Hogyan és hol valósul meg?",
+      "searchPlaceholder": "Hely keresése..."
+    },
+    "description": "Hozz létre új önkéntes lehetőséget, és találj embereket, akik osztoznak a küldetésedben.",
+    "optional": "(opcionális)",
+    "tooltips": {
+      "titleLength": "5-200 karakter",
+      "summaryLength": "20-500 karakter",
+      "validUrl": "Érvényes URL szükséges (https://...)",
+      "volunteerCount": "1-1000"
+    },
+    "actions": {
+      "saving": "Mentés...",
+      "saveDraft": "Piszkozat mentése",
+      "draftId": "Piszkozat: {{id}}",
+      "publishing": "Közzététel...",
+      "publishRequest": "Kérés közzététele"
+    }
+  },
+  "application": {
+    "title": "Jelentkezés a lehetőségre",
+    "messageLabel": "Üzenet a Kérőnek",
+    "availabilityLabel": "Rendelkezésre állásod",
+    "experienceLabel": "Releváns tapasztalat",
+    "submit": "Jelentkezés elküldése",
+    "cancel": "Mégse",
+    "status": {
+      "PENDING": "Függőben",
+      "ACCEPTED": "Elfogadva",
+      "DECLINED": "Elutasítva",
+      "CONFIRMED": "Visszaigazolva",
+      "CANCELLED": "Visszavonva",
+      "COMPLETED": "Befejezve"
+    },
+    "messagePlaceholder": "Miért érdekel ez a lehetőség?",
+    "availabilityPlaceholder": "pl. hétvégén, esténként 18 óra után",
+    "experiencePlaceholder": "Kapcsolódó tapasztalat vagy készségek"
+  },
+  "status": {
+    "DRAFT": "Piszkozat",
+    "PUBLISHED": "Közzétéve",
+    "ACCEPTING": "Önkénteseket Fogad",
+    "PARTIALLY_FILLED": "Részben betöltve",
+    "FULL": "Betelt",
+    "PAUSED": "Szüneteltetve",
+    "CLOSED": "Lezárva",
+    "CANCELLED": "Visszavonva",
+    "COMPLETED": "Befejezve"
+  },
+  "format": {
+    "ONLINE": "Online",
+    "OFFLINE": "Jelenlét",
+    "HYBRID": "Hibrid"
+  },
+  "commitmentType": {
+    "ONE_TIME": "Egyszeri",
+    "RECURRING": "Ismétlődő",
+    "ONGOING": "Folyamatos"
+  },
+  "impactScale": {
+    "LOCAL": "Helyi",
+    "BIOREGIONAL": "Bioregionális",
+    "NATIONAL": "Nemzeti",
+    "GLOBAL": "Globális"
+  },
+  "urgency": {
+    "LOW": "Alacsony",
+    "NORMAL": "Normál",
+    "HIGH": "Magas",
+    "URGENT": "Sürgős"
+  },
+  "experienceLevel": {
+    "ANY": "Bármilyen szint",
+    "BEGINNER": "Kezdő",
+    "INTERMEDIATE": "Középhaladó",
+    "ADVANCED": "Haladó"
+  },
+  "physicalEffort": {
+    "LIGHT": "Könnyű",
+    "MODERATE": "Közepes",
+    "HEAVY": "Nehéz"
+  },
+  "requesterType": {
+    "INDIVIDUAL": "Egyén",
+    "NGO": "Civil szervezet",
+    "SCHOOL": "Iskola",
+    "COMMUNITY_GROUP": "Közösségi csoport",
+    "PUBLIC_INSTITUTION": "Közintézmény"
+  },
+  "errors": {
+    "notFound": "A lehetőség nem található",
+    "unauthorized": "Nincs jogosultságod a művelet végrehajtásához",
+    "rdgRequired": "Legalább egy RDG-t ki kell választani",
+    "rdgMax": "Legfeljebb {{max}} RDG választható",
+    "saveFailed": "Nem sikerült menteni a lehetőséget",
+    "applyFailed": "Nem sikerült elküldeni a jelentkezést"
+  },
+  "rdgs": {
+    "rdg-1": "RDG 1: Az emberi fejlődés alapjai",
+    "rdg-2": "RDG 2: Trauma-tudatos társadalmak",
+    "rdg-3": "RDG 3: Belső fejlődési kompetenciák",
+    "rdg-4": "RDG 4: Vezetői érettségi sztenderdek",
+    "rdg-5": "RDG 5: Episztemikus integritás és értelemalkotás",
+    "rdg-6": "RDG 6: Regeneratív kulturális narratívák",
+    "rdg-7": "RDG 7: Klímastabilizáció és alkalmazkodás",
+    "rdg-8": "RDG 8: Biodiverzitás és élőhely-helyreállítás",
+    "rdg-9": "RDG 9: Regeneratív élelmiszer- és talajrendszerek",
+    "rdg-10": "RDG 10: Víz körforgása és vízgyűjtők integritása",
+    "rdg-11": "RDG 11: Bioreregionális kormányzás",
+    "rdg-12": "RDG 12: Város-vidék ökológiai integrációja",
+    "rdg-13": "RDG 13: Alapvető szükségletek biztonsága",
+    "rdg-14": "RDG 14: Regeneratív és körforgásos gazdaság",
+    "rdg-15": "RDG 15: Befogadó megélhetés és értelmes munka",
+    "rdg-16": "RDG 16: Rugalmas infrastruktúra és mérnöki megoldások",
+    "rdg-17": "RDG 17: Felelős technológiai kormányzás",
+    "rdg-18": "RDG 18: Elosztott megújuló energiarendszerek",
+    "rdg-19": "RDG 19: Átlátható és elszámoltatható intézmények",
+    "rdg-20": "RDG 20: Policentrikus és részvételi kormányzás",
+    "rdg-21": "RDG 21: Méltányosság és strukturális befogadás",
+    "rdg-22": "RDG 22: Béképítés és konfliktus-átalakítás",
+    "rdg-23": "RDG 23: Nyílt tudomány és a közös tudáskincs",
+    "rdg-24": "RDG 24: Visszacsatolás-alapú szakpolitikai tanulás",
+    "rdg-25": "RDG 25: Egzisztenciális kockázatok csökkentése",
+    "rdg-26": "RDG 26: Intergenerációs képviselet",
+    "rdg-27": "RDG 27: Globális korai riasztási és előrejelző rendszerek",
+    "rdg-28": "RDG 28: Integrált belső-külső mérőszámok",
+    "rdg-29": "RDG 29: Civilizációs léptékű átmeneti stratégia",
+    "rdg-30": "RDG 30: Bolygó-gondnoksági identitás"
+  },
+  "rdgDomains": {
+    "1": "1. terület: emberi fejlődés",
+    "2": "2. terület: élő rendszerek",
+    "3": "3. terület: regeneratív gazdaság",
+    "4": "4. terület: kormányzás",
+    "5": "5. terület: civilizációs ellenálló képesség"
+  },
+  "indoorOutdoor": {
+    "INDOOR": "Beltéri",
+    "OUTDOOR": "Kültéri",
+    "BOTH": "Beltéri és kültéri"
+  },
+  "supervisionLevel": {
+    "DIRECT": "Közvetlen",
+    "CHECK_INS": "Rendszeres egyeztetés",
+    "INDEPENDENT": "Önálló"
+  }
+}

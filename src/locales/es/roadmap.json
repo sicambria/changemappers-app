@@ -1,0 +1,97 @@
+{
+  "metaTitle": "Hoja de Ruta de Desarrollo",
+  "metaDescription": "¡Espéranos! Trabajamos continuamente en la ampliación y mejora del Portal.",
+  "title": "Hoja de ruta de desarrollo",
+    "description": "¡Espéranos! Trabajamos continuamente en la ampliación y mejora del Portal.",
+    "backToHome": "Volver al inicio",
+    "milestones": {
+        "mvp": {
+            "title": "MVP (Producto Mínimo Viable)",
+            "status": "En progreso",
+            "description": "Sentar las bases de la plataforma: Visualización en mapa, registro, perfiles de comunidad y eventos."
+        },
+        "phase2": {
+            "title": "Fase 2: Conexión y Comunicación",
+            "status": "Planificado",
+            "description": "Sistema de mensajería interna, ajuste fino de notificaciones y desarrollo del algoritmo de búsqueda de aliados."
+        },
+        "phase3": {
+            "title": "Fase 3: Compartición de Recursos",
+            "status": "Planificado",
+            "description": "Mercado y funciones de intercambio para facilitar el compartir herramientas, conocimientos y otros recursos."
+        }
+    },
+    "waitForUs": "¡Espéranos!",
+    "waitForUsDescription": "Próximamente más funciones. ¡Únete a nuestro boletín o síguenos en redes sociales!",
+    "contact": "Contacto",
+    "followUs": "Síguenos",
+    "ideas": {
+        "boardTitle": "Ideas de la comunidad",
+        "boardSubtitle": "Comparte lo que te gustaría ver y vota lo que más importa.",
+        "submitButton": "Compartir una idea",
+        "empty": "Aún no hay ideas. ¡Sé el primero en compartir una!",
+        "vote": "Votar a favor",
+        "voteFailed": "No se pudo registrar tu voto. Inténtalo de nuevo.",
+        "fetchFailed": "No se pudieron cargar las ideas. Inténtalo de nuevo.",
+        "anonymous": "Anónimo",
+        "commentsCount": "{{count}} comentarios",
+        "commentsCount_one": "{{count}} comentario",
+        "commentsCount_other": "{{count}} comentarios",
+        "noComments": "Aún no hay comentarios.",
+        "commentPlaceholder": "Añadir un comentario...",
+        "submitComment": "Publicar comentario",
+        "deleteComment": "Eliminar comentario",
+        "commentFailed": "No se pudo publicar tu comentario. Inténtalo de nuevo.",
+        "commentDeleteFailed": "No se pudo eliminar el comentario. Inténtalo de nuevo.",
+        "rdgPlaceholder": "Selecciona objetivos relacionados (opcional)",
+        "rdgDomains": {
+            "D1": "Desarrollo humano y capacidad interior",
+            "D2": "Regeneración de sistemas vivos",
+            "D3": "Economía regenerativa e infraestructura",
+            "D4": "Gobernanza e inteligencia colectiva",
+            "D5": "Custodia y resiliencia a largo plazo"
+        },
+        "types": {
+            "PAIN_POINT": "Problema",
+            "FEATURE_IDEA": "Idea de función",
+            "BUG_FIX": "Corrección de error"
+        },
+        "statuses": {
+            "OPEN": "Abierta",
+            "PLANNED": "Planificada",
+            "IN_PROGRESS": "En curso",
+            "DONE": "Hecha",
+            "DECLINED": "Rechazada"
+        },
+        "filters": {
+            "allTypes": "Todos los tipos",
+            "allStatuses": "Todos los estados",
+            "mostVoted": "Más votadas",
+            "newest": "Más recientes",
+            "searchPlaceholder": "Buscar ideas..."
+        },
+        "loginPrompt": {
+            "title": "Únete a la conversación",
+            "description": "Inicia sesión para compartir ideas, votar y comentar en la hoja de ruta de la comunidad.",
+            "login": "Iniciar sesión",
+            "register": "Crear cuenta"
+        },
+        "submit": {
+            "title": "Compartir una idea",
+            "titleLabel": "Título",
+            "titlePlaceholder": "Un título breve y claro",
+            "descriptionLabel": "Descripción",
+            "descriptionPlaceholder": "Describe tu idea, problema o error...",
+            "typeLabel": "Tipo",
+            "rdgLabel": "Objetivos relacionados (opcional)",
+            "tagsLabel": "Etiquetas (opcional)",
+            "tagsPlaceholder": "p. ej. mapa, búsqueda, móvil",
+            "tagsHint": "Separa las etiquetas con comas.",
+            "submit": "Publicar idea",
+            "submitting": "Publicando...",
+            "success": "¡Tu idea ha sido publicada!",
+            "failed": "No se pudo publicar tu idea. Inténtalo de nuevo.",
+            "close": "Cerrar"
+        }
+    }
+}

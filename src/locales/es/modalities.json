@@ -1,0 +1,235 @@
+{
+  "menu": {
+    "connect": "Conectar",
+    "act": "Actuar",
+    "connectSubtitle": "Encuentra lo que necesitas",
+    "actSubtitle": "Pon en el mundo lo que llevas"
+  },
+  "selector": {
+    "training": {
+      "label": "Formación",
+      "description": "Transferencia estructurada de habilidades o conocimiento — saldrás sabiendo algo que no sabías"
+    },
+    "mentoring": {
+      "label": "Mentoría",
+      "description": "Orientación de alguien que ha estado donde tú estás — puede darte su opinión honesta"
+    },
+    "peer": {
+      "label": "Apoyo entre pares",
+      "description": "Acompañamiento de alguien en una situación similar — sin consejos a menos que los pidas"
+    },
+    "coaching": {
+      "label": "Coaching",
+      "description": "Pensamiento facilitado — tu coach no te dirá qué hacer, te ayudará a encontrar lo que ya sabes"
+    },
+    "contribute": {
+      "label": "Contribuir",
+      "description": "Ofrece una habilidad, conocimiento o tu presencia a alguien que necesita lo que llevas"
+    }
+  },
+  "availability": {
+    "DELIVERING": "Entregando",
+    "BUILDING": "Construyendo",
+    "BETWEEN": "Entre proyectos",
+    "REFLECTING": "Reflexionando",
+    "RESTING": "Descansando",
+    "descriptions": {
+      "DELIVERING": "Trabajando activamente en un compromiso",
+      "BUILDING": "En un arco de aprendizaje — disponible para dar y recibir",
+      "BETWEEN": "En transición — completamente disponible",
+      "REFLECTING": "Integrando experiencia reciente — puede navegar, no aparece para otros",
+      "RESTING": "Recuperación — eliminado de todas las colas de emparejamiento"
+    }
+  },
+  "forwardReciprocity": {
+    "title": "¿Qué llevas ahora que alguien más necesita?",
+    "body": "Después de recibir algo valioso, el siguiente movimiento es hacia adelante — no devolver el favor, sino ofrecer algo a alguien que está donde tú estabas.",
+    "createOffer": "Crear una oferta",
+    "skip": "Ahora no"
+  },
+  "noScores": {
+    "note": "Sin calificaciones ni puntuaciones — solo reflexiones escritas. El esfuerzo de escribir es el filtro."
+  },
+  "act": {
+    "prompt": "¿Qué llevas que alguien más necesita?",
+    "subtitle": "Antes de conectar con lo que necesitas, considera qué estás listo/a para ofrecer."
+  },
+  "connectNature": {
+    "headerTag": "Guía de Campo Interactiva",
+    "heroTitle": "Reasilvestrar lo Cotidiano",
+    "heroSub": "Formas prácticas y accesibles de restaurar tu conexión con el mundo natural, ya sea en un bosque o mirando por una ventana de la ciudad.",
+    "heroBtn": "Explora las Prácticas ↓",
+    "contextTitle": "La Brecha de Desconexión",
+    "contextDesc": "Comprender por qué nos sentimos separados de la naturaleza es el primer paso. No se trata solo de ubicación; se trata de atención.",
+    "whyLoseTitle": "Por qué perdemos la conexión",
+    "whyLose1": "<strong>Economía de la Atención:</strong> Las pantallas mantienen nuestro enfoque estrecho y rápido.",
+    "whyLose2": "<strong>Arquitectura Interior:</strong> El control del clima y la luz artificial nos aíslan de las variaciones sensoriales.",
+    "whyLose3": "<strong>Mentalidad Utilitaria:</strong> Ver la naturaleza solo como un 'recurso' o 'gimnasio' impide el pensamiento relacional.",
+    "justBeingTitle": "Por qué 'solo estar allí' no basta",
+    "justBeingSub": "Muchos caminan por hermosos bosques pero regresan sin cambios. ¿Por qué?",
+    "justBeing1": "<strong>Transporte Mental:</strong> Puedes estar físicamente en el bosque mientras tu mente está en la oficina.",
+    "justBeing2": "<strong>Filtrado Sensorial:</strong> El cerebro adulto filtra datos 'irrelevantes' a menos que te involucres activamente.",
+    "justBeing3": "<strong>Ritmo:</strong> Moverse a 'velocidad de ciudad' en la naturaleza causa fricción. La naturaleza es más lenta.",
+    "catalogTitle": "El Catálogo de Prácticas",
+    "catalogDesc": "Selecciona una categoría para explorar prácticas de bajo costo. El gráfico ilustra el perfil mental y físico de cada una.",
+    "profileTitle": "Perfil de la Práctica",
+    "whyHelpsTitle": "Por qué ayuda a reconectar",
+    "examplesTitle": "Ejemplos Concretos (Cotidianos)",
+    "adaptTitle": "Cómo adaptar esto",
+    "adaptForest": "En un Bosque",
+    "adaptPark": "Parque Urbano",
+    "adaptBalcony": "En un Balcón",
+    "adaptIndoor": "Interiores/Ventana",
+    "smallestTitle": "La Acción Más Pequeña Posible",
+    "smallestSub": "¿Y si tienes exactamente 10 segundos?",
+    "smallestName": "La Respiración del Cielo",
+    "smallestDesc": "Ve a una ventana. Mira exclusivamente al cielo (ignorando edificios). Toma una sola respiración profunda. Reconoce que es el mismo cielo que cubre los lugares más salvajes.",
+    "shortlistTitle": "Lista Diaria para Principiantes",
+    "shortlistDesc": "Si te sientes abrumado, elige solo una de estas 3 prácticas gratuitas para comenzar hoy:",
+    "sl1Title": "1. Comprobación del Clima (Sensorial)",
+    "sl1Desc": "Antes de mirar una pantalla por la mañana, sal (o abre una ventana). Siente la temperatura y huele el aire con tu cuerpo, no con una app. Toma 30 segundos.",
+    "sl2Title": "2. El Viaje Textural (Movimiento/Atención)",
+    "sl2Desc": "Al caminar al trabajo, pisa intencionalmente diferentes texturas. Cruje una hoja seca, pisa pasto en lugar de asfalto, toca una pared rugosa.",
+    "sl3Title": "3. Encuentra lo No Humano (Observación)",
+    "sl3Desc": "Una vez al día, observa intencionalmente un ser vivo no humano durante 1 minuto. Nota un detalle nuevo.",
+    "footerText": "Un enfoque estructurado para la reconexión natural. Construido para la accesibilidad.",
+    "chartBaseline": "Línea Base Ciudad",
+    "chartLabels": {
+      "accessibility": "Accesibilidad",
+      "sensoryDepth": "Profundidad Sensorial",
+      "physicalMovement": "Movimiento Físico",
+      "cognitiveRest": "Descanso Cognitivo",
+      "timeEfficiency": "Eficiencia de Tiempo"
+    },
+    "categories": {
+      "SEN-01": {
+        "title": "Conexión Sensorial",
+        "explanation": "Involucrar directamente los cinco sentidos para eludir el pensamiento excesivo y anclar tu conciencia en el entorno físico presente.",
+        "why": "La vida moderna está sesgada hacia la vista y el oído a través de pantallas. Activar el tacto, el olfato y la audición espacial saca al sistema nervioso del modo de planificación futura, reduciendo el cortisol.",
+        "examples": {
+          "0": "Cierra los ojos e intenta identificar tres capas distintas de sonido.",
+          "1": "Quítate los zapatos y párate sobre tierra natural durante dos minutos.",
+          "2": "Aplasta una hoja caída entre tus dedos e inhala el aroma profundamente."
+        },
+        "adaptations": {
+          "forest": "Camina descalzo sobre musgo.",
+          "park": "Acuéstate de espaldas en el pasto, sintiendo el apoyo de la tierra.",
+          "balcony": "Cierra los ojos y siente la dirección del viento en tu cara.",
+          "indoor": "Hunde un poco los dedos en la tierra de una planta de interior para sentir su humedad."
+        }
+      },
+      "ATT-02": {
+        "title": "Atención y Presencia",
+        "explanation": "Cambiar la calidad de tu enfoque de 'estrecho y rápido' a 'suave y amplio'.",
+        "why": "Nuestros antepasados usaban la 'fascinación suave', un estado relajado donde la atención fluye hacia estímulos interesantes sin exigir enfoque intenso. Esto restaura la fatiga mental.",
+        "examples": {
+          "0": "Practica 'Ojos de Búho': mira al frente, pero expande tu conciencia a tu visión periférica.",
+          "1": "Siéntate quieto y observa un solo objeto natural durante 5 minutos.",
+          "2": "Cuenta cuántos tonos diferentes de verde puedes ver."
+        },
+        "adaptations": {
+          "forest": "Siéntate en la base de un árbol y observa cómo se balancea el dosel.",
+          "park": "Observa el movimiento de las sombras en el césped.",
+          "balcony": "Sigue el movimiento lento e imperceptible de una nube.",
+          "indoor": "Observa las motas de polvo bailando en un rayo de sol."
+        }
+      },
+      "MOV-03": {
+        "title": "Movimiento y Conciencia",
+        "explanation": "Moverse por el espacio de formas no lineales e impredecibles que requieren que cerebro y cuerpo trabajen juntos.",
+        "why": "Las ciudades dictan cómo nos movemos (aceras planas). Moverse sobre terreno irregular activa la propiocepción, recordando a tu cerebro que tu cuerpo es parte de un mundo físico dinámico.",
+        "examples": {
+          "0": "Caminar haciendo equilibrio: camina sobre un tronco o bordillo bajo.",
+          "1": "Muévete en silencio: intenta dar 20 pasos sobre hojas crujientes sin hacer ruido.",
+          "2": "Cambia tu nivel: agáchate para mirar algo en el suelo."
+        },
+        "adaptations": {
+          "forest": "Pasa sobre raíces, esquiva ramas. Deja que el terreno dicte los pasos.",
+          "park": "Camina por una colina cubierta de hierba de lado o hacia atrás.",
+          "balcony": "Haz estiramientos lentos mientras miras al horizonte.",
+          "indoor": "Siéntate en el suelo en lugar de en una silla."
+        }
+      },
+      "REL-04": {
+        "title": "Relación y Reciprocidad",
+        "explanation": "Pasar de ver la naturaleza como 'telón de fondo' a tratar los elementos del mundo natural como sujetos.",
+        "why": "Fomentar un sentido de parentesco con la vida no humana crea un sentido de pertenencia a una comunidad más amplia. Cambia la visión del mundo egocéntrica a una ecocéntrica.",
+        "examples": {
+          "0": "Adopta un 'lugar para sentarse': regresa al mismo lugar al aire libre a menudo.",
+          "1": "Aprende el nombre del árbol de tu calle y salúdalo en silencio.",
+          "2": "Recoge tres pedazos de basura que no tiraste."
+        },
+        "adaptations": {
+          "forest": "Pide permiso en silencio antes de salir de un sendero.",
+          "park": "Observa las interacciones entre especies (un pájaro y un árbol).",
+          "balcony": "Cuida una planta en maceta como a un compañero de cuarto vivo.",
+          "indoor": "Rastrea el origen de tu comida mientras cortas verduras."
+        }
+      },
+      "OBS-05": {
+        "title": "Observación y Aprendizaje",
+        "explanation": "Investigar con curiosidad la mecánica, los patrones y los comportamientos del mundo natural.",
+        "why": "La curiosidad estimula la dopamina. Cuando empiezas a notar patrones, la mancha verde previamente 'invisible' se convierte en un paisaje rico y legible.",
+        "examples": {
+          "0": "Descarga una app como Seek e identifica una especie desconocida al día.",
+          "1": "Encuentra un insecto y míralo navegar obstáculos.",
+          "2": "Busca el 'micro-desierto': musgo creciendo en una pared de ladrillos."
+        },
+        "adaptations": {
+          "forest": "Busca huellas de animales o señales en árboles muertos.",
+          "park": "Nota qué árboles pierden sus hojas primero.",
+          "balcony": "Observa qué tipos de insectos visitan tu balcón.",
+          "indoor": "Mira cómo una planta de interior se inclina hacia la ventana."
+        }
+      },
+      "RIT-06": {
+        "title": "Ritual y Significado",
+        "explanation": "Crear hábitos simples e intencionales que reconozcan las transiciones del día o la temporada.",
+        "why": "Los rituales eluden la lógica y hablan de las necesidades emocionales. En un mundo de tiempo digital homogéneo, los rituales de la naturaleza proporcionan puntuación y significado.",
+        "examples": {
+          "0": "Mira el amanecer o el atardecer en silencio.",
+          "1": "Bebe tu café de la mañana afuera o junto a una ventana abierta.",
+          "2": "Recoge un pequeño elemento natural (piedra) para guardar en tu bolsillo."
+        },
+        "adaptations": {
+          "forest": "Construye un pequeño mandala temporal con hojas caídas.",
+          "park": "Entra siempre al parque por la misma puerta y respira hondo.",
+          "balcony": "Ten una silla designada donde te sientes 5 minutos en silencio.",
+          "indoor": "Crea un pequeño 'estante de la naturaleza' para piedras u hojas."
+        }
+      },
+      "SEA-07": {
+        "title": "Ritmo Estacional y Diario",
+        "explanation": "Alinear tus hábitos personales con la realidad de los ciclos de la tierra.",
+        "why": "Esperamos ser 100% productivos todo el año. La naturaleza descansa en invierno y explota en primavera. Alinearse con estos ritmos reduce el agotamiento.",
+        "examples": {
+          "0": "Come alimentos de temporada.",
+          "1": "Atenúa las luces artificiales después del atardecer para imitar el desvanecimiento de la luz.",
+          "2": "Nota el primer signo de un cambio de estación."
+        },
+        "adaptations": {
+          "forest": "Observa cómo cambia la acústica (la nieve amortigua el sonido).",
+          "park": "Toma fotos del mismo árbol una vez al mes.",
+          "balcony": "Siente la diferencia en el ángulo del sol en verano vs. invierno.",
+          "indoor": "Depende de la luz natural que entra por la ventana el mayor tiempo posible."
+        }
+      },
+      "MIC-08": {
+        "title": "Micro-prácticas",
+        "explanation": "Acciones diminutas que inyectan conciencia de la naturaleza en rutinas altamente urbanizadas.",
+        "why": "Cuando el tiempo y el acceso son nulos, son la única opción. Demuestran que la naturaleza no es un lugar al que vas; es una realidad en la que estás inmerso.",
+        "examples": {
+          "0": "Mira al cielo en lugar de tu teléfono mientras esperas el ascensor.",
+          "1": "Escucha el viento traquetear las ventanas.",
+          "2": "Mantén un trozo de naturaleza (piedra lisa) en tu escritorio y tócalo."
+        },
+        "adaptations": {
+          "forest": "(N/A - El enfoque es urbano, pero practica pausas).",
+          "park": "Rastrea el borde donde el césped cuidado se encuentra con arbustos salvajes.",
+          "balcony": "Intenta escuchar solo el viento/pájaros, filtrando la ciudad.",
+          "indoor": "Escucha un audio de 2 minutos de un bosque real con los ojos cerrados."
+        }
+      }
+    }
+  }
+}

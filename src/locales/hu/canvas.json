@@ -1,0 +1,199 @@
+{
+  "title": "Rendszertérkép",
+  "nav": {
+    "canvases": "Térképek",
+    "patterns": "Mintakönyvtár",
+    "new": "Új térkép"
+  },
+  "drawingBoard": {
+    "title": "Rajztábla",
+    "subtitle": "Diagramok, térképek és vizuális modellek létrehozása és megosztása a közösségeddel.",
+    "newDiagram": "Új diagram",
+    "noDiagrams": "Még nincs diagram. Hozz létre egyet a közös munkához.",
+    "backToBoard": "← Rajztábla",
+    "viewOnly": "Csak megtekintés",
+    "saving": "Mentés…",
+    "saved": "✓ Mentve",
+    "saveFailed": "Mentés sikertelen — próbáld újra",
+    "savedLocally": "Helyben mentve, várakozás a hálózatra",
+    "syncToCloud": "Szinkronizálás a felhőbe",
+    "save": "Mentés",
+    "by": "készítette",
+    "unknown": "Ismeretlen"
+  },
+  "form": {
+    "newDiagram": "Új diagram",
+    "subtitle": "Nevezd el a diagramot és válaszd ki, ki láthatja. A szerkesztő azonnal megnyílik.",
+    "diagramTitle": "Diagram címe",
+    "diagramTitleRequired": "Diagram címe",
+    "diagramTitlePlaceholder": "pl. Élelmiszer-rendszer térkép, Q2 Stratégia, …",
+    "description": "Leírás",
+    "descriptionOptional": "Leírás",
+    "descriptionPlaceholder": "Miről szól ez a diagram?",
+    "whoCanView": "Ki láthatja ezt a diagramot?",
+    "visibilityPublic": "Nyilvános — bárki, beleértve a látogatókat is",
+    "visibilityRegistered": "Csak regisztrált felhasználók",
+    "visibilityCommunity": "Csak közösségi tagok",
+    "visibilityNote": "Csak te szerkesztheted. Mások hozzáféréssel megtekinthetik.",
+    "visibilityNoteCommunity": " A közösségi láthatóság aktív tagságot igényel.",
+    "visibilityNoteNoCommunity": " A közösségi láthatóság kapcsolt közösséget igényel.",
+    "createAndOpen": "Létrehozás és szerkesztő megnyitása",
+    "creating": "Létrehozás…",
+    "errorPrefix": "Hiba történt. Kérlek próbáld újra."
+  },
+  "visibility": {
+    "PUBLIC": "Nyilvános",
+    "REGISTERED": "Tagok",
+    "MEMBERS_ONLY": "Csak tagok",
+    "COMMUNITY": "Közösség",
+    "COMMUNITY_ONLY": "Csak közösség"
+  },
+  "metadata": {
+    "newTitle": "Új diagram | Rajztábla",
+    "newDescription": "Új diagram létrehozása a Rajztáblán."
+  },
+  "find": {
+    "title": "Közösségi rendszertérképek",
+    "subtitle": "Kollektív értelmezés — attól az érzéstől, hogy valami nem stimmel, egy közös térképig arról, mi idézi elő.",
+    "empty": "Még nincs térkép. Hozd létre az elsőt.",
+    "active": "Aktív",
+    "archived": "Archivált"
+  },
+  "canvas": {
+    "create": "Térkép létrehozása",
+    "edit": "Térkép szerkesztése",
+    "title": "Cím",
+    "description": "Leírás (opcionális)",
+    "archive": "Térkép archiválása",
+    "community": "Közösség (opcionális)"
+  },
+  "node": {
+    "add": "Csomópont hozzáadása",
+    "edit": "Csomópont szerkesztése",
+    "delete": "Csomópont törlése",
+    "title": "Cím",
+    "description": "Leírás (opcionális)",
+    "types": {
+      "PROBLEM": "Probléma",
+      "PATTERN": "Minta",
+      "ROOT_CAUSE": "Gyökeresokul",
+      "SOLUTION_PATTERN": "Megoldásminta",
+      "INTERVENTION": "Beavatkozás"
+    },
+    "typeDescriptions": {
+      "PROBLEM": "Konkrét, tapasztalt probléma, specifikus élményből",
+      "PATTERN": "Több probléma mögött meghúzódó visszatérő dinamika",
+      "ROOT_CAUSE": "Mélyebb strukturális vagy viselkedésbeli feltétel, ami a mintát előállítja",
+      "SOLUTION_PATTERN": "Bevált gyakorlat, ami specifikus mintákat kezel",
+      "INTERVENTION": "Konkrét kísérlet, amelyet a közösség futtat vagy futtatott"
+    }
+  },
+  "link": {
+    "add": "Kapcsolat hozzáadása",
+    "from": "Forrás",
+    "to": "Cél",
+    "types": {
+      "CAUSES": "Okozza",
+      "REINFORCES": "Erősíti",
+      "CONTRIBUTES_TO": "Hozzájárul",
+      "MITIGATES": "Enyhíti",
+      "SOLVED_BY": "Megoldja",
+      "RELATED_PATTERN": "Kapcsolódó minta"
+    }
+  },
+  "diagnostic": {
+    "title": "Gyökérok-diagnosztika",
+    "subtitle": "Gyors orientációs kérdések a gyökér okok megtalálásához. Ezek párbeszéd-indítók, nem mérőeszközök.",
+    "decisionClarity": "Mennyire egyértelmű a döntéshozatali szerepek mindenki számára? (1 = nagyon homályos, 10 = kristálytiszta)",
+    "preDecisionDisagreement": "Mennyire kerül felszínre a nézeteltérés a döntések véglegesítése előtt? (1 = ritkán, 10 = mindig)",
+    "coordinationAwareness": "Milyen gyakran cselekszenek emberek anélkül, hogy tudnák, mit csinálnak mások? (1 = nagyon gyakran, 10 = ritkán)",
+    "submit": "Diagnosztika beküldése"
+  },
+  "patterns": {
+    "title": "Mintakönyvtár",
+    "subtitle": "Közösség által irányított közös bevált gyakorlatok. Kontextusfüggő — ami egy közösségben működik, máshol nem biztos.",
+    "propose": "Minta javaslása",
+    "proposedBy": "Javasolta: {{name}}",
+    "edit": "Minta szerkesztése",
+    "retire": "Minta nyugdíjazása",
+    "status": {
+      "PROPOSED": "Javasolt",
+      "VALIDATED": "Validált",
+      "RETIRED": "Nyugdíjazott"
+    },
+    "name": "Minta neve",
+    "category": "Kategória",
+    "applicableContexts": "Alkalmazható kontextusok",
+    "requirements": "Mit igényel",
+    "limitations": "Mit nem old meg",
+    "examples": "Dokumentált példák",
+    "categories": {
+      "GOVERNANCE": "Irányítás és Tekintély",
+      "DECISION_MAKING": "Döntéshozatal",
+      "COORDINATION": "Koordináció és Folyamat",
+      "COMMUNICATION": "Kommunikáció és átláthatóság",
+      "TRUST_CONFLICT": "Bizalom és Konfliktus",
+      "RESOURCE": "Erőforrás-elosztás",
+      "ENGAGEMENT": "Közösségi részvétel"
+    }
+  },
+  "intervention": {
+    "add": "Beavatkozási rekord hozzáadása",
+    "outcome": "Eredmény",
+    "reflection": "Mit próbáltak, milyen feltételek mellett, mi történt, mit mondana egy másik közösségnek",
+    "outcomes": {
+      "TRYING": "Éppen próbáljuk",
+      "HELPED": "Segített",
+      "DIDNT_HELP": "Nem segített",
+      "MADE_WORSE": "Rontotta a helyzetet"
+    }
+  },
+  "comment": {
+    "add": "Megjegyzés hozzáadása",
+    "reply": "Válasz",
+    "delete": "Törlés",
+    "placeholder": "Megjegyzés ehhez a csomóponthoz..."
+  },
+  "suggestions": {
+    "title": "Javasolt minták",
+    "subtitle": "A leírt probléma vagy minta alapján."
+  },
+  "contextMenu": {
+    "selectType": "Válasszon csomópont típust",
+    "selectEntity": "Válasszon entitás típust",
+    "selectState": "Válasszon energia állapotot",
+    "nodeTypes": {
+      "PROBLEM": "Probléma",
+      "PATTERN": "Minta",
+      "ROOT_CAUSE": "Gyökérok",
+      "SOLUTION_PATTERN": "Megoldásminta",
+      "INTERVENTION": "Beavatkozás"
+    }
+  },
+  "editSidebar": {
+    "editNode": "Csomópont szerkesztése",
+    "title": "Cím",
+    "titlePlaceholder": "Csomópont címe",
+    "type": "Típus",
+    "description": "Leírás",
+    "descriptionPlaceholder": "Leírás hozzáadása…",
+    "position": "Pozíció",
+    "posX": "X",
+    "posY": "Y",
+    "links": "Kapcsolatok",
+    "noLinks": "Nincs kapcsolat",
+    "comments": "Megjegyzések",
+    "unknown": "Ismeretlen",
+    "moreComments": "+{{count}} további megjegyzés",
+    "remove": "Eltávolítás",
+    "saving": "Mentés...",
+    "deleteNode": "Csomópont törlése",
+    "deleteConfirm": "Törlöd ezt a csomópontot? Ez nem vonható vissza."
+  },
+  "keyboard": {
+    "add": "N a hozzáadáshoz",
+    "link": "L a kapcsoláshoz",
+    "undo": "Ctrl+Z a visszavonáshoz",
+    "redo": "Ctrl+Shift+Z az ismétléshez"
+  }
+}

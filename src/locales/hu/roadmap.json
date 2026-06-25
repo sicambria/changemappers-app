@@ -1,0 +1,97 @@
+{
+  "metaTitle": "Fejlesztési Ütemterv",
+  "metaDescription": "Maradjunk kapcsolatban! Folyamatosan dolgozunk az Portál bővítésén és jobbá tételén.",
+  "title": "Fejlesztési Ütemterv",
+    "description": "Maradjunk kapcsolatban! Folyamatosan dolgozunk az Portál bővítésén és jobbá tételén.",
+    "backToHome": "Vissza a főoldalra",
+    "milestones": {
+        "mvp": {
+            "title": "MVP (Minimum Életképes Termék)",
+            "status": "Folyamatban",
+            "description": "A platform alapjainak lefektetése: Térképes megjelenítés, regisztráció, közösségi és esemény profilok."
+        },
+        "phase2": {
+            "title": "2. Fázis: Kapcsolódás és Kommunikáció",
+            "status": "Tervezett",
+            "description": "Belső üzenetküldő rendszer, értesítések finomhangolása és a 'Koma' kereső algoritmus fejlesztése."
+        },
+        "phase3": {
+            "title": "3. Fázis: Erőforrás Megosztás",
+            "status": "Tervezett",
+            "description": "Eszközök, tudás és egyéb erőforrások megosztását segítő piactér és csere-bere funkciók."
+        }
+    },
+    "waitForUs": "Maradjunk kapcsolatban",
+    "waitForUsDescription": "Hamarosan további funkciókkal jelentkezünk. Csatlakozz a hírlevelünkhöz vagy kövess minket a közösségi médiában!",
+    "contact": "Kapcsolat",
+    "followUs": "Kövess minket",
+    "ideas": {
+        "boardTitle": "Közösségi ötletek",
+        "boardSubtitle": "Oszd meg, mit szeretnél látni, és szavazz arra, ami a legfontosabb.",
+        "submitButton": "Ötlet megosztása",
+        "empty": "Még nincsenek ötletek. Légy te az első, aki megoszt egyet!",
+        "vote": "Szavazás",
+        "voteFailed": "Nem sikerült rögzíteni a szavazatodat. Próbáld újra.",
+        "fetchFailed": "Nem sikerült betölteni az ötleteket. Próbáld újra.",
+        "anonymous": "Névtelen",
+        "commentsCount": "{{count}} hozzászólás",
+        "commentsCount_one": "{{count}} hozzászólás",
+        "commentsCount_other": "{{count}} hozzászólás",
+        "noComments": "Még nincsenek hozzászólások.",
+        "commentPlaceholder": "Hozzászólás írása...",
+        "submitComment": "Hozzászólás közzététele",
+        "deleteComment": "Hozzászólás törlése",
+        "commentFailed": "Nem sikerült közzétenni a hozzászólásodat. Próbáld újra.",
+        "commentDeleteFailed": "Nem sikerült törölni a hozzászólást. Próbáld újra.",
+        "rdgPlaceholder": "Válassz kapcsolódó célokat (opcionális)",
+        "rdgDomains": {
+            "D1": "Emberi fejlődés és belső kapacitás",
+            "D2": "Élő rendszerek regenerációja",
+            "D3": "Regeneratív gazdaság és infrastruktúra",
+            "D4": "Kormányzás és kollektív intelligencia",
+            "D5": "Hosszú távú gondnokság és ellenálló képesség"
+        },
+        "types": {
+            "PAIN_POINT": "Probléma",
+            "FEATURE_IDEA": "Funkcióötlet",
+            "BUG_FIX": "Hibajavítás"
+        },
+        "statuses": {
+            "OPEN": "Nyitott",
+            "PLANNED": "Tervezett",
+            "IN_PROGRESS": "Folyamatban",
+            "DONE": "Kész",
+            "DECLINED": "Elutasítva"
+        },
+        "filters": {
+            "allTypes": "Minden típus",
+            "allStatuses": "Minden állapot",
+            "mostVoted": "Legtöbb szavazat",
+            "newest": "Legújabb",
+            "searchPlaceholder": "Ötletek keresése..."
+        },
+        "loginPrompt": {
+            "title": "Csatlakozz a beszélgetéshez",
+            "description": "Jelentkezz be, hogy ötleteket oszthass meg, szavazhass és hozzászólhass a közösségi útitervhez.",
+            "login": "Bejelentkezés",
+            "register": "Fiók létrehozása"
+        },
+        "submit": {
+            "title": "Ötlet megosztása",
+            "titleLabel": "Cím",
+            "titlePlaceholder": "Rövid, világos cím",
+            "descriptionLabel": "Leírás",
+            "descriptionPlaceholder": "Írd le az ötleted, problémád vagy a hibát...",
+            "typeLabel": "Típus",
+            "rdgLabel": "Kapcsolódó célok (opcionális)",
+            "tagsLabel": "Címkék (opcionális)",
+            "tagsPlaceholder": "pl. térkép, keresés, mobil",
+            "tagsHint": "A címkéket vesszővel válaszd el.",
+            "submit": "Ötlet közzététele",
+            "submitting": "Közzététel...",
+            "success": "Az ötleted közzétételre került!",
+            "failed": "Nem sikerült közzétenni az ötleted. Próbáld újra.",
+            "close": "Bezárás"
+        }
+    }
+}

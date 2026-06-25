@@ -1,0 +1,403 @@
+{
+  "privacy": {
+    "metadata": {
+      "title": "Adatvédelmi tájékoztató | Changemappers",
+      "description": "Hogyan gyűjti, használja, védi és törli a Changemappers a személyes adatokat."
+    },
+    "title": "Adatvédelmi tájékoztató",
+    "effective": "Hatályos: 2026-06-04 | Verzió: 1.8",
+    "backHome": "Vissza a főoldalra",
+    "sections": [
+      {
+        "heading": "1. Ki kezeli az adataidat",
+        "paragraphs": [
+          "A Changemappers adatkezelője Incze Gáspár, Magyarországon élő magánszemély. A Changemappers jelenleg nem cég, alapítvány, egyesület vagy más bejegyzett szervezet. Adatvédelmi kérdésekkel, kérelmekkel vagy aggályokkal a changemappers@pm.me címen lehet kapcsolatba lépni. Ha az email-kézbesítés nem működik, használd az alkalmazáson belüli Feedback gombot, és kezdd az üzenetet azzal, hogy \"adatvédelmi kérelem\" vagy \"feltételezett incidens\", hogy az üzemeltető adatvédelmi joggyakorlási kérelemként tudja kezelni."
+        ]
+      },
+      {
+        "heading": "2. Adatvédelmi megközelítésünk",
+        "paragraphs": [
+          "A Changemappers adatvédelemre épülő közösségi platform. Csak azokat az adatokat gyűjtjük, amelyek fiókokhoz, közösségi funkciókhoz, biztonsági kontrollokhoz és a szolgáltatás megbízható működéséhez szükségesek. Nem adunk el személyes adatot, nem építünk hirdetési profilokat, és nem használunk harmadik fél általi marketingkövetőket."
+        ]
+      },
+      {
+        "heading": "3. Milyen adatokat gyűjtünk",
+        "bullets": [
+          "Fiókadatok: email cím, megjelenített név, hitelesítési adatok és alap profilinformációk.",
+          "Profil- és közösségi adatok: hely, helypontossági szint, térkép-láthatóság, névmások, bemutatkozás, készségek, értékek, érdeklődések, szándékok, elérhetőség, ügyek, RDG fókusz és közösségi részvétel, ha ezeket megadod.",
+          "Összekapcsolási beállítások: szerepek, ajánlatok, igények vagy tanulási irányok, elérhetőségi mód, valamint szándék- és határjelzések, ha ajánlásokat engedélyezel.",
+          "Önkéntesen megadott érzékeny adatok: egyes opcionális profilmezők vagy tartalmak GDPR szerinti különleges adatot fedhetnek fel. Ilyen adatot nem kérünk kötelezően, és ahol különleges adat kezelése történik, kifejezett hozzájárulásra támaszkodunk.",
+          "Felhasználói tartalom: bejegyzések, hozzászólások, üzenetek, események, térképek, canvas elemek, visszajelzések, coaching vagy session tartalmak, jelentések és más általad létrehozott tartalmak.",
+          "Preferenciaadatok: adatvédelmi beállítások, hozzájárulások, kommunikációs preferenciák és funkciószintű kontrollok.",
+          "Technikai adatok: IP-címek, böngésző, eszközinformáció, biztonsági naplók, hibatelemetria és használati események, amelyek a stabil és biztonságos működéshez kellenek."
+        ]
+      },
+      {
+        "heading": "4. Sütik és helyi tárolás",
+        "paragraphs": [
+          "Alapvető sütiket, helyi tárhelyet és munkamenet-tárhelyet használunk bejelentkezési munkamenetekhez, regisztráció folytatásához, nyelvi és téma-beállításokhoz, cookie-hozzájáruláshoz, piszkozat-helyreállításhoz, visszavonási előzményekhez és munkamenetenkénti analitikai deduplikációhoz. Az ideiglenes regisztráció-folytatási sütik HttpOnly jelölésűek, nem tartalmazzák a jelszavadat vagy profilválaszaidat, és a regisztráció befejezésekor vagy lejáratakor törlődnek. Az opcionális analitika csak hozzájárulás után fut, és a böngészős deduplikációs kulcsa törlődik az analitikai hozzájárulás visszavonásakor. Nem használunk marketing sütiket vagy webhelyek közötti követő sütiket."
+        ]
+      },
+      {
+        "heading": "5. Miért használjuk az adataidat",
+        "paragraphs": [
+          "Személyes adatot fiókok létrehozására és kezelésére, közösségi és együttműködési funkciókra, magyarázható ajánlásokra, adatvédelmi és biztonsági beállításokra, visszaélések megelőzésére, támogatási kérelmek kezelésére és megbízhatóság javítására használunk. A jogalap lehet hozzájárulás, szerződés teljesítése, jogos érdek a biztonságban és működésben, illetve jogi kötelezettség."
+        ]
+      },
+      {
+        "heading": "6. Tárhely és adatfeldolgozók",
+        "paragraphs": [
+          "A szolgáltatáshoz Hetzner tárhelyet, Upstash Redis rate-limit tárolást, opcionális Sentry hibajelentést és monitorozást, Brevo tranzakciós emailküldési szolgáltatást, Cloudflare DNS/cache/biztonsági és hálózati védelmet használunk. Mailgun csak későbbi bevezetés esetén lehet tranzakciós email feldolgozó. EGT-n kívüli adattovábbításnál szolgáltatói DPA-kra és szükség szerint általános szerződési feltételekre támaszkodunk."
+        ]
+      },
+      {
+        "heading": "7. Megosztás és közzététel",
+        "paragraphs": [
+          "Nem adjuk el a személyes adatokat. Adatot csak akkor osztunk meg, ha ez a szolgáltatás nyújtásához, jogszabály betartásához, felhasználók vagy a platform védelméhez, illetve a láthatósági döntéseid teljesítéséhez szükséges. A nyilvános tartalom és nyilvános profilmezők a beállítások szerint láthatók lehetnek."
+        ]
+      },
+      {
+        "heading": "8. Nyilvános hozzájárulások és nyílt adatok",
+        "paragraphs": [
+          "A Changemappers egyes részei közérdekű tanulásra és térképezésre készülnek. Ha egy hozzájárulást nyilvánossá teszel, az nyilvánosan megjelenhet, és összesített vagy nyílt társadalmi hatású adatkészletekbe kerülhet."
+        ]
+      },
+      {
+        "heading": "9. Megőrzés",
+        "paragraphs": [
+          "Személyes adatot addig őrzünk, amíg a fiók aktív, vagy amíg a jelen tájékoztatóban leírt célokhoz szükséges. A bejelentkezett használat frissíti a fiókaktivitás időpontját. 180 nap inaktivitás után a profilt inaktívnak jelöljük, majd 30 napos exportálási türelmi időt tartunk. Ha ezalatt sincs aktivitás, a fiók és a személyes adatok az utolsó aktivitás után 210 nappal törlődnek. Biztonsági és technikai naplók 90 nap után törlődnek vagy anonimizálódnak, hacsak visszaélési, biztonsági vagy jogi okból hosszabb megőrzés nem szükséges."
+        ]
+      },
+      {
+        "heading": "10. Fióktörlés",
+        "paragraphs": [
+          "Bármikor kérheted a fiók törlését. A törlés az aktív rendszerekből eltávolítja vagy anonimizálja a személyes adatokat, a biztonsági, jogi, mentési vagy közösségi integritási célból szükséges korlátozott megőrzés kivételével."
+        ]
+      },
+      {
+        "heading": "11. GDPR jogaid",
+        "paragraphs": [
+          "Hozzáférhetsz az adataidhoz, kérheted a pontatlan adatok javítását, a törlést, az adatkezelés korlátozását vagy ellenezheted azt, visszavonhatod a hozzájárulást, és hordozható másolatot kérhetsz. Ha rád a GDPR alkalmazandó, panaszt is tehetsz a helyi adatvédelmi hatóságnál.",
+          "Először használd az alkalmazáson belüli eszközöket profilmódosításra, adatvédelmi és láthatósági beállításokra, az összekapcsolásból való kilépésre, adatexportra és fióktörlésre. A changemappers@pm.me címet azokhoz a joggyakorlási kérelmekhez használd, amelyeket nem tudsz önkiszolgáló módon intézni. Ha az email-kézbesítés nem működik, használd az alkalmazáson belüli Feedback gombot, és kezdd az üzenetet azzal, hogy \"adatvédelmi kérelem\". A kérelmeket 3 munkanapon belül visszaigazoljuk és 30 napon belül válaszolunk, hacsak hatósági szabály hosszabbítást nem enged."
+        ]
+      },
+      {
+        "heading": "12. Jogalapok és adatkezelési térkép",
+        "table": {
+          "headers": [
+            "Adatkezelés",
+            "Cél",
+            "GDPR jogalap"
+          ],
+          "rows": [
+            [
+              "Fiók- és azonosságkezelés",
+              "Fiók létrehozása, hitelesítése és adminisztrációja",
+              "Szerződés teljesítése (6(1)(b))"
+            ],
+            [
+              "Profilmegjelenítés és láthatóság",
+              "Profilmezők megjelenítése a választott láthatóság szerint",
+              "Szerződés teljesítése; hozzájárulás opcionális nyilvános láthatósághoz"
+            ],
+            [
+              "Opcionális profilmezők és preferenciák",
+              "Névmások, bio, készségek, értékek, érdeklődések, ügyek, szándékok és preferenciák tárolása",
+              "Hozzájárulás (6(1)(a))"
+            ],
+            [
+              "Összekapcsolási és ajánló funkciók",
+              "Opcionális ajánlások készítése profil- és aktivációs adatokból",
+              "Hozzájárulás; különleges adatnál kifejezett hozzájárulás"
+            ],
+            [
+              "Biztonsági és visszaeles-ellenes monitorozás",
+              "Kockázatkezelés és platformvédelem",
+              "Jogos érdek; jogi kötelezettség"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "13. Megőrzés adattípus szerint",
+        "table": {
+          "headers": [
+            "Kategória",
+            "Megőrzés",
+            "Ok"
+          ],
+          "rows": [
+            [
+              "Fiókprofil és beállítások",
+              "Fióktörlésig vagy anonimizálásig",
+              "Szolgáltatási folytonosság és felhasználói nyilvántartás"
+            ],
+            [
+              "PII-t tartalmazó audit naplók",
+              "90 nap, majd tisztítás vagy megőrzési döntés",
+              "Biztonsági visszakövethetőség és csalásmegelőzés"
+            ],
+            [
+              "Oldallátogatási naplók",
+              "30 nap",
+              "Használati biztonság és visszaélés-figyelés"
+            ],
+            [
+              "Frissítő token munkamenetek",
+              "Legfeljebb 7 nap vagy token-lejáratig",
+              "Munkamenet-biztonság"
+            ],
+            [
+              "Üzenetek és közvetlen kommunikáció",
+              "Törlési kérésig vagy anonimizálásig",
+              "Felhasználói kommunikáció folytonossága"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "14. Biztonság",
+        "paragraphs": [
+          "TLS titkosítást, hozzáférés-szabályozást, biztonságos hitelesítési gyakorlatokat, monitorozást és más technikai-szervezési intézkedéseket használunk. Egyetlen online szolgáltatás sem garantálhat tökéletes biztonságot, de dolgozunk a kockázat csökkentésén és a gyors reagáláson."
+        ]
+      },
+      {
+        "heading": "15. Adatvédelmi incidensek",
+        "paragraphs": [
+          "Ha egy személyesadat-incidens magas kockázatot jelent a jogaidra vagy szabadságaidra, érintett felhasználókat és az illetékes hatóságokat a jog szerint értesítjük, beleértve a 72 órás GDPR értesítési ablakot, ahol az alkalmazandó. Feltételezett incidenst a changemappers@pm.me címen lehet jelezni, vagy az alkalmazáson belüli Feedback gombbal, ha az email-kézbesítés nem működik."
+        ]
+      },
+      {
+        "heading": "16. Gyermekek",
+        "paragraphs": [
+          "A Changemappers nem 16 év alatti gyermekeknek készül. Regisztrációkor a felhasználóknak meg kell erősíteniük, hogy betöltötték a 16. életévüket. Ha úgy gondolod, hogy gyermek adott meg személyes adatot, írj a changemappers@pm.me címre, vagy használd az alkalmazáson belüli Feedback gombot, ha az email-kézbesítés nem működik."
+        ]
+      },
+      {
+        "heading": "17. A tájékoztató módosításai",
+        "paragraphs": [
+          "A tájékoztatót a Changemappers változásai szerint frissíthetjük. Lényeges módosításnál emailben, alkalmazáson belüli értesítéssel vagy egyértelmű webhely-értesítéssel tájékoztatjuk a felhasználókat.",
+          "Helyadat-kontrollok: a felhasználók megválaszthatják a profilhely pontosságát és azt, hogy megjelennek-e a térképen. A pontos koordináta opcionális, a térképes megjelenés alapból ki van kapcsolva."
+        ],
+        "table": {
+          "headers": [
+            "Dátum",
+            "Verzió",
+            "Változás"
+          ],
+          "rows": [
+            [
+              "2026-06-04",
+              "1.8",
+              "Az aktuális adatvédelmi, joggyakorlási, gyermekadat- és incidenskapcsolat changemappers@pm.me címre váltott, miközben az alkalmazáson belüli Feedback marad a tartalék út, ha az email nem érhető el."
+            ],
+            [
+              "2026-06-04",
+              "1.7",
+              "Az alkalmazáson belüli Feedback hozzáadva tartalék útvonalként adatvédelmi joggyakorlási és feltételezett incidens kérelmekhez, ha az email-kézbesítés nem működik."
+            ],
+            [
+              "2026-06-04",
+              "1.6",
+              "Pontosított böngészőtárhely-kulcsok, célok, hozzájárulási függés és törlési viselkedés."
+            ],
+            [
+              "2026-05-21",
+              "1.5",
+              "Inaktív fiókmegőrzés, figyelmeztetési időpontok, export türelmi idő és törlési időzítés hozzáadva."
+            ],
+            [
+              "2026-05-20",
+              "1.4",
+              "Ideiglenes regisztráció-folytatási sütik pontosítása."
+            ],
+            [
+              "2026-05-20",
+              "1.3",
+              "Életkor-megerősítés, helypontosság, térkép-láthatóság és Sentry alapértelmezések pontosítása."
+            ],
+            [
+              "2026-05-19",
+              "1.2",
+              "Upstash Redis hozzáadva az adatfeldolgozókhoz."
+            ],
+            [
+              "2026-05-11",
+              "1.1",
+              "GDPR kontrollok, joggyakorlási folyamat, jogalap-térkép, megőrzési kategóriák, incidenskezelés és gyermekadat-szöveg hozzáadva."
+            ],
+            [
+              "2026-05-08",
+              "1.0",
+              "Első nyilvános tájékoztató."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "terms": {
+    "metadata": {
+      "title": "Felhasználási feltételek | Changemappers",
+      "description": "A Changemappers használatára vonatkozó szabályok és felelősségek."
+    },
+    "title": "Felhasználási feltételek",
+    "effective": "Hatályos: 2026-06-04 | Verzió: 1.3",
+    "backHome": "Vissza a főoldalra",
+    "sections": [
+      {
+        "heading": "1. Üzemeltető",
+        "paragraphs": [
+          "A Changemappers jelenleg független, korai fázisú közösségi platform, amelyet Incze Gáspár, Magyarországon élő magánszemély üzemeltet. A Changemappers jelenleg nem cég, alapítvány, egyesület vagy más bejegyzett szervezet. Az üzemeltető jóhiszeműen működteti a szolgáltatást, de a felhasználóknak tudniuk kell, hogy a projektnek nincs olyan jogi, pénzügyi, biztonsági, támogatási vagy működési erőforrása, mint egy nagyobb szervezetnek. Kérdések: changemappers@pm.me."
+        ]
+      },
+      {
+        "heading": "2. Hatály",
+        "paragraphs": [
+          "Ezek a feltételek a https://changemappers.org/, a kapcsolódó alkalmazások, közösségi funkciók, együttműködési eszközök és minden Changemappers szolgáltatás használatára vonatkoznak."
+        ]
+      },
+      {
+        "heading": "3. A szolgáltatás",
+        "paragraphs": [
+          "A Changemappers digitális közösségi platform kezdeményezések térképezésére, tudásmegosztásra, együttműködés koordinációjára és rendszerszintű változás támogatására. Kísérleti és erőforrás-korlátozott. A szolgáltatás jelen állapotában érhető el, és fejlődhet, szünetelhet, romolhat, funkciókat veszthet vagy változhat."
+        ]
+      },
+      {
+        "heading": "4. Fiókok és felelősség",
+        "paragraphs": [
+          "Te felelsz az általad megadott információkért, a fiókodon keresztüli tevékenységért és a bejelentkezési adatok biztonságáért. A regisztráció összekapcsolási beállításokat is tartalmaz, mert hasznos ajánlásokhoz pontos ajánlatok, igények, ügyek, szerepek, elérhetőség és határok kellenek. Tartsd ezeket észszerűen naprakészen, és jelezd, ha jogosulatlan hozzáférést vagy visszaélést gyanítasz."
+        ]
+      },
+      {
+        "heading": "5. Tartalmak és közösségi licenc",
+        "paragraphs": [
+          "Az általad beküldött tartalom tulajdonjoga nálad marad. Beküldéssel megerősíted, hogy rendelkezel a megosztáshoz szükséges jogokkal és engedélyekkel, és nem sérted más személy adatvédelmét, titkait, szerzői jogát, védjegyet, személyiségi vagy más jogait.",
+          "A nyilvános tudáshozzájárulások Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) licenc alatt kerülnek beküldésre. Mások másolhatják, terjeszthetik, átalakítják és építhetnek rájuk, akár kereskedelmi célra is, ha betartják a licenc feltételeit.",
+          "Csak akkor küldj be nyilvános közösségi tartalmat, ha elfogadod a széles újrafelhasználási jogokat. Csak olyan információt tegyél közzé, amelyet nem tekintesz érzékenynek, és amelynek másolása, tárolása, indexelese, idézése vagy újrafelhasználása elfogadható számodra.",
+          "Nem nyilvános beküldésekre, magánüzenetekre, vázlatokra, fiókinformációkra és működési adatokra a Changemappers nem kizárólagos, világszintű, jogdíjmentes engedélyt kap a tárolásra, megjelenítésre, másolásra, moderálásra, mentésre és feldolgozásra, kizárólag a szolgáltatás működtetéséhez, védelméhez, támogatásához és fejlesztéséhez, a láthatósági beállítások és az Adatvédelmi tájékoztató szerint."
+        ]
+      },
+      {
+        "heading": "6. Elfogadható használat",
+        "paragraphs": [
+          "Ne használd a Changemapperst jogellenes tevékenységre, zaklatásra, gyűlöletre, fenyegetésre, spamre, megtévesztésre, jogosulatlan adatgyűjtésre, kártékony kódra, engedély nélküli biztonsági tesztelésre vagy a szolgáltatás megzavarására. Tartsd tiszteletben mások magánéletét, biztonságát és beleegyezését."
+        ]
+      },
+      {
+        "heading": "7. Moderáció",
+        "paragraphs": [
+          "Tartalmat felülvizsgálhatunk, korlátozhatunk, címkézhetünk, eltávolíthatunk vagy megőrizhetünk, ha ez a feltételek érvényesítéséhez, jogszabály betartásához, felhasználók védelméhez vagy platformintegritáshoz szükséges. Kockázatot okozó vagy ismételten szabálysértő fiókokat korlátozhatunk vagy felfüggeszthetünk."
+        ]
+      },
+      {
+        "heading": "8. A fiók megszüntetése",
+        "paragraphs": [
+          "Bármikor abbahagyhatod a Changemappers használatát vagy kérheted a fiók törlését. Felfüggeszthetjük vagy megszüntethetjük a hozzáférést lényeges szerződésszegés, biztonsági vagy védelmi kockázat, illetve más felhasználóknak vagy a platformnak okozott kár esetén.",
+          "Fiók fenntartásával elfogadod, hogy 180 nap hitelesített aktivitás nélkül a Changemappers inaktívnak tekintheti a fiókot. A küszöb előtt 30, 15 és 3 nappal inaktivitási figyelmeztető emaileket küldünk. 180 napnál a profil inaktív lesz, és végső értesítést küldünk 30 napos adatexport-lehetőséggel. Ha ezalatt sincs aktivitás, a fiók és személyes adatok az utolsó aktivitás után 210 nappal törlődnek."
+        ]
+      },
+      {
+        "heading": "9. Biztonság, rendelkezésre állás és felelősség",
+        "paragraphs": [
+          "Észszerű erőfeszítéseket teszünk, hogy a Changemappers hasznos, biztonságos és megbízható legyen, de internetes szolgáltatás nem garantálhat megszakítás nélküli elérhetőséget, hibamentes működést, végleges adatmegőrzést vagy teljes biztonságot. Megfontoltan használd, és csak olyan információt tegyél közzé, amelyet nem tekintesz érzékenynek.",
+          "A Changemappers használatával tudatos és tájékozott beleegyezést adsz ezekhez a korlátokhoz. A magyar jog és a közvetlenül alkalmazandó uniós jog által megengedett legnagyobb mértékben a Changemappers és üzemeltetője nem felel közvetett, járulékos, következményes, különleges, büntető, nyereségveszteségi, adatveszteségi, biztonsági incidenssel, szolgáltatáskieséssel vagy felhasználói tartalommal kapcsolatos károkért."
+        ]
+      },
+      {
+        "heading": "10. Adatvédelem",
+        "paragraphs": [
+          "A szolgáltatás használatára az Adatvédelmi tájékoztató is vonatkozik, amely elmagyarázza, milyen adatot gyűjtünk, hogyan használjuk, és milyen döntési lehetőségeid vannak."
+        ]
+      },
+      {
+        "heading": "11. Adatvédelmi tájékoztatások és jogok",
+        "paragraphs": [
+          "Adatjogokhoz, törlési támogatáshoz vagy adatvédelmi fiókkontrollokhoz használd az Adatvédelmi tájékoztatót és a fiók adatvédelmi beállításait, írj a changemappers@pm.me címre hozzáférési, helyesbítési, törlési, korlátozási, tiltakozási, hordozhatósági és panaszkérésekkel, vagy használd az alkalmazáson belüli Feedback gombot, ha az email-kézbesítés nem működik."
+        ]
+      },
+      {
+        "heading": "12. Irányadó jog",
+        "paragraphs": [
+          "Ezekre a feltételekre Magyarország joga és a közvetlenül alkalmazandó uniós jog vonatkozik. A vitákra kikötött fő bíróság a Fővárosi Törvényszék Budapesten."
+        ]
+      },
+      {
+        "heading": "13. A feltételek módosításai",
+        "paragraphs": [
+          "A platform változásával frissíthetjük ezeket a feltételeket. Lényeges módosításnál emailben, alkalmazáson belüli értesítéssel vagy egyértelmű webhely-értesítéssel tájékoztatjuk a felhasználókat. A szolgáltatás további használata az új feltételek elfogadását jelenti."
+        ],
+        "table": {
+          "headers": [
+            "Dátum",
+            "Verzió",
+            "Változás"
+          ],
+          "rows": [
+            [
+              "2026-06-04",
+              "1.3",
+              "Az aktuális adatvédelmi és adatjogi kapcsolat changemappers@pm.me címre váltott, amíg a domain postafiók útvonala nincs külsőleg igazolva."
+            ],
+            [
+              "2026-05-21",
+              "1.2",
+              "Inaktív fiók-életciklus, figyelmeztető emailek, export türelmi idő és végső törlési időzítés hozzáadva."
+            ],
+            [
+              "2026-05-11",
+              "1.1",
+              "Adatvédelmi átjáró, privacy kapcsolati cím és verzióelőzmény hozzáadva."
+            ],
+            [
+              "2026-05-08",
+              "1.0",
+              "Első felhasználási feltételek."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "impressum": {
+    "metadata": {
+      "title": "Impresszum | Changemappers",
+      "description": "A Changemappers szolgáltatói és elérhetőségi adatai."
+    },
+    "title": "Impresszum",
+    "effective": "Hatályos: 2026-06-13 | Verzió: 1.0",
+    "backHome": "Vissza a főoldalra",
+    "sections": [
+      {
+        "heading": "1. Szolgáltató",
+        "paragraphs": [
+          "A Changemappers üzemeltetője Incze Gáspár, Magyarországon élő magánszemély. A Changemappers jelenleg független, korai fázisú, nem üzleti célú közösségi platform – nem cég, alapítvány, egyesület vagy más bejegyzett szervezet."
+        ]
+      },
+      {
+        "heading": "2. Kapcsolat",
+        "paragraphs": [
+          "E-mail: changemappers@pm.me"
+        ]
+      },
+      {
+        "heading": "3. Tárhelyszolgáltató",
+        "paragraphs": [
+          "A szolgáltatás a Hetzner által biztosított infrastruktúrán működik. A feldolgozók és alfeldolgozók teljes listája az Adatvédelmi tájékoztatóban található."
+        ]
+      },
+      {
+        "heading": "4. Felügyeleti hatóság",
+        "paragraphs": [
+          "Adatvédelmi kérdésekben az illetékes felügyeleti hatóság a Nemzeti Adatvédelmi és Információszabadság Hatóság (NAIH), Budapest, Magyarország (naih.hu)."
+        ]
+      },
+      {
+        "heading": "5. További tájékoztatás",
+        "paragraphs": [
+          "Az adatkezelés részletei és a jogaid az Adatvédelmi tájékoztatóban (/privacy) olvashatók. A szolgáltatás használatának szabályait a Felhasználási feltételek (/legal/terms) tartalmazzák."
+        ]
+      }
+    ]
+  }
+}

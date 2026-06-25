@@ -1,0 +1,837 @@
+{
+  "metadata": {
+    "lifewheelTitle": "Élettükör",
+    "lifewheelDesc": "Nézz szembe önmagaddal a halálos ágy perspektívájából.",
+    "yearCompassTitle": "Évrendező+",
+    "yearCompassDesc": "Tudatos évtervező és stratégiai eszköz.",
+    "valueCompassTitle": "Értékiránytű",
+    "valueCompassDesc": "Azonosítsd és rendezd össze a legfontosabb személyes értékeidet.",
+    "principlesTitle": "Alapelveim",
+    "principlesDesc": "Személyes alapelvek és iránymutatók feltárása.",
+    "helpersTitle": "Ami segít",
+    "helpersDesc": "Mi tölt fel, mi segít — személyes erőforrások feltárása."
+  },
+  "yearCompass": {
+    "title": "ÉVRENDEZŐ +",
+    "officialLink": "Ez egy egyedi, átdolgozott digitális évrendező. A hivatalos YearCompass füzet letöltéséhez látogass el ide:",
+    "officialSiteName": "yearcompass.com",
+    "subtitle": "Önismeret • Tervezés • Megvalósítás",
+    "introTitle": "Tudatos évrendező",
+    "introDesc": "Ez a digitális eszköz segít visszatekinteni az elmúlt évre, és megtervezni a következőt. Töltsd ki a mezőket. A munkádat bármikor elmentheted a fenti \"Mentés\" gombbal.",
+    "tabs": {
+      "past": "1. A múlt lezárása",
+      "future": "2. A jövő tervezése",
+      "strategy": "3. A hogyan megtervezése (stratégia)",
+      "pastShort": "Múlt",
+      "futureShort": "Jövő",
+      "strategyShort": "Stratégia"
+    },
+    "actions": {
+      "save": "Mentés",
+      "load": "Betöltés",
+      "print": "Nyomtatás",
+      "next": "Tovább a Megvalósításra (Stratégia)",
+      "finishPast": "Év lezárása és tovább",
+      "ready": "Készen állsz?",
+      "readyDesc": "A tervezés csak az első lépés. A megvalósításban rejlik az igazi változás.",
+      "printPdf": "Terv nyomtatása / PDF mentés",
+      "backToReflect": "Vissza a reflexióhoz"
+    },
+    "past": {
+      "title": "I. A múlt lezárása",
+      "calendar": {
+        "title": "Végiglapozom a naptáramat",
+        "desc": "Nézd át a naptáradat az elmúlt évről hétről hétre. Ha látsz egy fontos eseményt, találkozót vagy feladatot, írd fel ide.",
+        "spring": "Tavasz",
+        "summer": "Nyár",
+        "autumn": "Ősz",
+        "winter": "Tél",
+        "placeholder": "Fontos események..."
+      },
+      "lifeAreas": {
+        "title": "Miről szólt az évem?",
+        "desc": "Értékeld az elmúlt évedet (1-10).",
+        "balance": "Életterületek egyensúlya",
+        "detailed": "Részletes évértékelés",
+        "labels": {
+          "family": "Magánélet, Család",
+          "career": "Karrier, Tanulmányok",
+          "friends": "Barátok, Közösség",
+          "health": "Egészség, Erőnlét",
+          "mental": "Mentális egészség",
+          "habits": "Szokások",
+          "body": "Test, Egészség, Pihenés"
+        },
+        "placeholders": {
+          "familyDetail": "Mi volt a legfontosabb? Mi változott?",
+          "careerDetail": "Milyen sikereket értél el? Mi volt nehéz?",
+          "friendsDetail": "Kivel kapcsolódtál? Kivel távolodtatok el?",
+          "healthDetail": "Hogy bántál a testeddel? Volt időd töltődni?"
+        }
+      },
+      "sixSentences": {
+        "title": "Hat mondat az előző évről",
+        "placeholder": "Írd ide...",
+        "lesson": "A legnagyobb lecke...",
+        "lessonDesc": "Amit megtanultál, és ami bölcsebbé tett idén.",
+        "success": "A legnagyobb siker...",
+        "successDesc": "Amit befejeztél, vagy amire a legbüszkébb vagy.",
+        "risk": "A legnagyobb kockázat...",
+        "riskDesc": "Amelyet vállaltál, függetlenül az eredménytől.",
+        "hardship": "A legnagyobb nehézség...",
+        "hardshipDesc": "Ami próbára tette az erődet.",
+        "gratitude": "Akiknek hálás vagyok...",
+        "gratitudeDesc": "Akik segítettek vagy mellettem álltak.",
+        "different": "Amit máshogy csinálnék...",
+        "differentDesc": "Ha újrakezdhetném az évet."
+      },
+      "bestMoments": {
+        "title": "A három legszebb pillanat",
+        "desc": "Idézd fel a legszebb, legboldogabb, legemlékezetesebb pillanatokat.",
+        "p1": "1. pillanat",
+        "p2": "2. pillanat",
+        "p3": "3. pillanat"
+      },
+      "lettingGo": {
+        "title": "Elengedés és Megbocsátás",
+        "desc": "Van-e valami, ami miatt még magadra haragszol? Vagy valaki másra? Írd le ide, hogy kiadhasd magadból.",
+        "placeholder": "Írd ide, amit el szeretnél engedni...",
+        "confirm": "Készen állsz lezárni a múltat és a jövőre összpontosítani?"
+      }
+    },
+    "future": {
+      "title": "II. A jövő tervezése",
+      "heading": "2026: Előtted az év",
+      "desc": "Álmodj nagyot. Mi minden történhet ideális esetben?",
+      "dreamBig": {
+        "title": "Merj nagyot álmodni",
+        "desc": "Hogyan néz ki a következő éved ideális esetben? Miért lesz nagyszerű? Írd le bátran, korlátok nélkül.",
+        "placeholder": "Az ideális évem ilyen lesz..."
+      },
+      "magicThrees": {
+        "title": "Mágikus hármasok a következő évre",
+        "selfLove": "Én-szereret",
+        "selfLoveDesc": "Ezt a három dolgot teszem magamért:",
+        "noPower": "Erő a NEM-hez",
+        "noPowerDesc": "Három dolog, amire nemet mondok:",
+        "results": "Eredmények",
+        "resultsDesc": "Három dolog, amit el szeretnék érni:",
+        "supports": "Támaszok",
+        "supportsDesc": "Három ember, akire számíthatok:",
+        "rewards": "Jutalmazás",
+        "rewardsDesc": "Ezzel a három ajándékkal jutalmazom magam:",
+        "discovery": "Felfedezés",
+        "discoveryDesc": "Három újdonság, amit kipróbálok:",
+        "placeholder": "Dolog..."
+      },
+      "sixSentences": {
+        "title": "Hat mondat a következő évről",
+        "s1": "Ez az év számomra azért lesz különleges, mert...",
+        "s2": "Erre az évre azt tanácsolom magamnak, hogy...",
+        "s3": "Ebben az évben akkor fogok igent mondani, ha...",
+        "s4": "Ebben az évben akkor leszek a legbátrabb, amikor...",
+        "s5": "Ebben az évben abból merítem majd a legtöbb erőt, hogy...",
+        "s6": "Ebben az évben azt nem halogatom tovább, hogy..."
+      },
+      "word": {
+        "title": "Az én szavam",
+        "desc": "A jövő évem vezérfonala.",
+        "placeholder": "SZÓ"
+      },
+      "wish": {
+        "title": "Titkos kívánság",
+        "desc": "Engedd szabadon a fantáziád.",
+        "placeholder": "Az én titkos kívánságom..."
+      }
+    },
+    "strategy": {
+      "title": "III. Stratégia (Extra)",
+      "meter": "Tudatos tervezés mérő",
+      "progress": {
+        "beginner": "Kezdő szint: Töltsd ki az alapvető elemeket!",
+        "conscious": "Tudatos tervezés: alakul! Töltsd ki a javasolt részeket is.",
+        "master": "Mesteri terv: ez egy sziklaszilárd stratégia. Hajrá!",
+        "beginnerTitle": "🌱 Kezdő terv:",
+        "consciousTitle": "🌿 Tudatos terv:",
+        "masterTitle": "🌳 Mesteri terv:"
+      },
+      "introTitle": "A megvalósítás tudománya",
+      "introDesc": "Ez a rész a pszichológia és a szervezetfejlesztés legújabb módszereivel segít, hogy a céljaid ne csak álmok maradjanak, hanem valósággá váljanak. Figyeld a jelzéseket: a {basic} elemek nélkül a terv instabil, a {suggested} elemek pedig a siker esélyét növelik.",
+      "badges": {
+        "basic": "Alapvető",
+        "suggested": "Javasolt"
+      },
+      "science": {
+        "whyTitle": "Miért működik?",
+        "behavior": "Viselkedéspszichológia",
+        "behaviorDesc": "A tartós változás nem az eredményeknél kezdődik, hanem az önazonosságnál. James Clear (Atomic Habits) kutatásai szerint az agy ahhoz igazítja a döntéseket, amilyennek magadat tartod. Ha azt mondod: „futó vagyok”, akkor a futás természetes viselkedéssé válik, nem külön erőfeszítéssé.",
+        "ikigai": "\"Kék zónák\" kutatás, Logoterápia",
+        "ikigaiDesc": "A Kék zónák kutatásai szerint a hosszú élet egyik kulcsa az, hogy az embernek van értelmes célja az életben. Viktor Frankl logoterápiája ezt megerősíti: a belső értékekkel összhangban lévő cél nem kimerít, hanem éltet. Ilyenkor a motiváció nem külső jutalmakból fakad, hanem tartós belső iránytűvé válik.",
+        "energy": "Energiamenedzsment",
+        "energyDesc": "Jim Loehr kutatása szerint nem az idő, hanem az energia a legfontosabb erőforrásunk. Az éved nem lineáris. Vannak csúcsidőszakok és hullámvölgyek. Ha a mélypontra tervezed a maratont, elbuksz.",
+        "cognitive": "Kognitív terápia, hipnózis",
+        "cognitiveDesc": "A céljaidat gyakran nem a képességeid hiánya, hanem a tudattalan hiedelmeid blokkolják (\"Nem vagyok elég jó\", \"A pénz rossz\"). Ha ezeket tudatosítod és bizonyítékot keresel az ellenkezőjére, az agyad újrahuzalozza magát (neuroplaszticitás).",
+        "system": "Rendszergondolkodás",
+        "systemDesc": "A céljaid egy rendszer részei. Hatnak egymásra, és erősen függnek a környezetedtől. A kapcsolataid, szokásmintáid és visszajelzések (meglétük vagy hiányuk) gyorsíthatják vagy akadályozhatják a fejlődést. A kis, tudatos kísérletek segítenek megtalálni az egyensúlyt.",
+        "positive": "Pozitív pszichológia, neuroplaszticitás",
+        "positiveDesc": "Amikor élénken elképzeled a jövőbeli önmagad – mit látsz, érzel, hallasz, stb. –, az agyad szinte ugyanúgy reagál, mintha tényleg megtörténne. Ilyenkor olyan idegi kapcsolatok jönnek létre, mintha már megélted volna azt az élményt. Az agyad elkezdi „valóságként” kezelni a képet, és tudattalanul segít, hogy a döntéseid, szokásaid, viselkedésed ebbe az irányba mozduljanak. Ezért olyan erős a vizualizáció: segít az agyadnak „előre gyakorolni” a sikert, így sokkal könnyebben teremted meg a valóságban is.",
+        "stress": "Kognitív és stresszpszichológia",
+        "stressDesc": "A visszaesés nem hiba, hanem várható esemény. Ha előre döntesz arról, mit teszel nehéz helyzetben, csökken a stressz és nő a kitartás. Nem az számít, hogy elesel-e, hanem hogy milyen gyorsan állsz fel.",
+        "habit": "Viselkedéspszichológia, idegtudomány",
+        "habitDesc": "Az agy a kis, ismételt mintákat szereti. Ha a szokásaid pontos időhöz, helyhez és kiváltó jelhez kötődnek, kevesebb akaraterő kell hozzájuk. A jól megtervezett apró lépések hosszú távon stabil változást hoznak."
+      },
+      "modules": {
+        "identity": {
+          "title": "1. Énkép alapú célok",
+          "desc": "Ne csak azt írd le, mit akarsz elérni, hanem azt, hogy kivé kell válnod hozzá.",
+          "goal": "A célom (Eredmény)",
+          "goalPlaceholder": "Pl. Lefogyok 10 kilót",
+          "identity": "Az énképem (Akinek látom magam)",
+          "identityPlaceholder": "Pl. Egészséges ember vagyok, aki tiszteli a testét."
+        },
+        "ikigai": {
+          "title": "2. Belső iránytű: ikigai és értékek",
+          "values": "5 fő értékem",
+          "valuesDesc": "Mi az, amiből nem engedsz? (Pl. Szabadság, Biztonság, Kreativitás)",
+          "ikigai": "Ikigai-metszet",
+          "ikigaiDesc": "Ahol a szenvedélyed, a tehetséged, más emberek szükségletei és a megélhetés találkozik.",
+          "ikigaiPlaceholder": "Hogyan élem meg egyszerre a hivatásomat, örömteli tevékenységeimet és a küldetésemet?"
+        },
+        "energy": {
+          "title": "3. Kapacitás- és energiatérkép",
+          "heading": "Melyik hónapban mennyi energiád lesz?",
+          "select": "Válassz",
+          "normal": "Normál",
+          "high": "Magas",
+          "low": "Alacsony",
+          "redirection": "Erőforrás átirányítás (Lemondás!)",
+          "redirectionDesc": "Minden \"IGEN\" egy \"NEM\" valami másra. Mit engedsz el az új célokért?",
+          "time": "IDŐ",
+          "timePlaceholder": "Miből veszek el időt?",
+          "money": "PÉNZ",
+          "moneyPlaceholder": "Mire nem költök?",
+          "energyLabel": "ENERGIA",
+          "energyPlaceholder": "Honnan vonom el a figyelmem?"
+        },
+        "belief": {
+          "title": "4. Korlátozó hiedelmek tudatosítása és átkeretezése",
+          "old": "A régi hiedelem (Ami visszatart)",
+          "oldPlaceholder": "Pl. Nem vagyok kreatív ember...",
+          "new": "Az új igazság (Ami előrevisz)",
+          "newPlaceholder": "Pl. A kreativitás tanulható, és minden nap gyakorlom...",
+          "add": "Új átkeretezés hozzáadása"
+        },
+        "connection": {
+          "title": "5. Kapcsolatok és Kísérletek",
+          "map": "Kapcsolati térkép",
+          "mapDesc": "Ki az, aki segít, és ki az, aki visszahúz?",
+          "mapPlaceholder": "Támogatók és Szkeptikusok listája...",
+          "zone": "Kísérleti zóna",
+          "zoneDesc": "Nem kell azonnal sikerülnie. Tervezz egy kísérletet!",
+          "zonePlaceholder": "Pl. 14 napig legalább 7 óra 30 percet alszom..."
+        },
+        "visualization": {
+          "title": "6. Jövőbeli én elképzelése",
+          "date": "2026. December 31.",
+          "desc": "Csukd be a szemed. Hol vagy? Mit csinálsz? Milyen illat van? Hogy érzed magad a bőrödben?",
+          "placeholder": "Látom magam, ahogy..."
+        },
+        "premortem": {
+          "title": "7. Bukásbiztos terv",
+          "desc": "Készíts \"HA... AKKOR...\" tervet a legvalószínűbb akadályokra.",
+          "if": "HA",
+          "ifPlaceholder": "Pl: Túl fáradt vagyok munka után...",
+          "then": "AKKOR",
+          "thenPlaceholder": "Pl: Csak 5 percet csinálok, de nem hagyom ki.",
+          "add": "Új akadálykezelés hozzáadása",
+          "obstacleLabel": "Akadály",
+          "solutionLabel": "Megoldás"
+        },
+        "habit": {
+          "title": "8. Szokástervező",
+          "signal": "JEL (kiváltó jelzés / esemény)",
+          "signalPlaceholder": "Pl: Reggeli kávé után...",
+          "action": "CSELEKVÉS",
+          "actionPlaceholder": "Pl: 10 perc olvasás...",
+          "reward": "JUTALOM",
+          "rewardPlaceholder": "Pl: Pipa a naptárban...",
+          "add": "Új szokás hozzáadása"
+        },
+        "extra": {
+          "title": "Extra: Rendszerindító kihívások",
+          "desc": "Válassz egyet az induláshoz (opcionális).",
+          "c1": "21 nap panasz nélkül",
+          "c2": "75 Kemény",
+          "c3": "30 napos minimalista",
+          "c4": "Tech-mentes Szombat",
+          "c5": "52 hetes pénzügyi",
+          "c6": "3 napos feltöltődés",
+          "c7": "Reggeli jegyzetek",
+          "c8": "Saját kihívás",
+          "c1desc": "Tim Ferriss és Will Bowen módszere. 21 napig nem panaszkodsz, nem kritizálsz. Ha elbuksz, újraindul. Cél: mentális higiénia.",
+          "c2desc": "Andy Frisella módszere. 75 nap: Diéta, 4L víz, 10 oldal olvasás, napi fotó, 2x45p edzés (egy kint). Cél: erős önfegyelem.",
+          "c3desc": "The Minimalists. 1-jén 1 dolog kukába, 2-án 2 dolog... 30-án 30 dolog. Cél: alapos tértisztítás.",
+          "c4desc": "Brad Stulberg. Heti egy nap képernyő nélkül. Cél: visszatérni a valósághoz.",
+          "c5desc": "1. hét 100 Ft, 2. hét 200 Ft... 52. hét 5200 Ft. Cél: Játékos tartalékképzés.",
+          "c6desc": "Töltő a takarón kívül. Ébresztőóra telefon helyett. Cél: Reggeli +10 perc nyugalom.",
+          "c7desc": "Julia Cameron. Minden reggel 3 oldal kézírás gondolkodás nélkül. Cél: kreatív blokkok oldása.",
+          "c8desc": "A saját szabályaid szerint. Alkoss egy kihívást, ami számodra fontos.",
+          "notes": "Jegyzetek a kihíváshoz",
+          "notesPlaceholder": "Ide írhatod a megvalósítás részleteit...",
+          "customTitle": "Saját kihívás Tervezése",
+          "customGoal": "Mi a kihívás célja? (Mit akarsz elérni?)",
+          "customWhy": "Miért fontos ez most?",
+          "customSuccess": "Mikor lesz a kihívás sikeres?",
+          "customDuration": "Időtartam",
+          "customFreq": "Gyakoriság",
+          "customRules": "Szabályok (Mit szabad, mit nem?)"
+        }
+      }
+    },
+    "footer": {
+      "brandName": "Évrendező",
+      "motto": "Hiszem, hogy idén minden sikerülhet.",
+      "website": "YearCompass honlap",
+      "credit": "Az Évrendező a YearCompass alapján készült, köszönjük!",
+      "license": "A tartalomra a Creative Commons Nevezd meg! - Ne add el! - Így add tovább! (CC-BY-NC-SA) 4.0 Nemzetközi licence érvényes."
+    }
+  },
+  "principles": {
+    "title": "Alapelveim",
+    "description": "Személyes alapelvek és iránymutatók feltárása."
+  },
+  "pulse": {
+    "title": "Jelenlegi pulzus",
+    "privacyNote": "Ezek a válaszok privátok — csak te látod őket, és jelenleg nem használjuk őket az egyeztetésekben.",
+    "question1Label": "Mennyire érzed, hogy az, amin dolgozol, valóban az, amit csinálni szeretnél?",
+    "question1Low": "Nagyon eltérve",
+    "question1High": "Teljesen összhangban",
+    "question2Label": "Milyen az energiaszinted most?",
+    "question2Low": "Kimerült",
+    "question2High": "Teli és friss",
+    "question3Label": "Mennyire dolgozol most olyan feladatokon, amelyek nem érződnek természetesnek számodra?",
+    "question3Low": "Teljesen bent",
+    "question3High": "Erősen kívül",
+    "outsideQuestion": "Ha kívül vagy a természetes működésmódodon — ez választás, vagy kényszer?",
+    "byChoice": "✋ Választottam",
+    "byNecessity": "⚓ Kényszer",
+    "privateNotesLabel": "Van valami, amit le akarsz írni? (csak neked)",
+    "privateNotesPlaceholder": "Gondolatok, megfigyelések, szabad asszociáció...",
+    "submit": "Rögzítés"
+  },
+  "availability": {
+    "title": "Hozzájárulási állapot",
+    "whereAreYou": "Hol tartasz most?",
+    "delivering": "🚀 Szállítás",
+    "between": "🌊 Projekt között",
+    "building": "🔨 Építek",
+    "reflecting": "🍃 Reflexió",
+    "resting": "🌙 Pihenő",
+    "markFunctions": "Jelöld be, hogyan tudsz hozzájárulni",
+    "activeNow": "aktív most",
+    "notAvailableNow": "nem elérhető most",
+    "updateOffer": "Frissítsd az ajánlatod mondatát?",
+    "updateOfferHint": "(látható lesz)",
+    "offerPlaceholder": "Pl. Most egy rövid kutatási projekthez keresek partnert...",
+    "privateContext": "Privát kontextus (csak neked)",
+    "privateContextPlaceholder": "Mi változott azóta? Miért más most az elérhetőség?",
+    "saveUpdate": "Frissítés mentése",
+    "functionsUpdatedAt": "Utoljára frissítve: {{time}}",
+    "energisingCount": "· {{count}} energizáló hozzájárulási terület",
+    "energisingCount_plural": "· {{count}} energizáló hozzájárulási terület",
+    "functionLabels": {
+      "vision_setting": "Jövőkép alkotás",
+      "facilitation": "Facilitáció",
+      "project_management": "Projektmenedzsment",
+      "writing": "Írás",
+      "research": "Kutatás",
+      "coding": "Kódolás",
+      "design": "Tervezés",
+      "mentoring": "Mentorálás",
+      "fundraising": "Forrásteremtés",
+      "teaching": "Tanítás",
+      "network_weaving": "Hálózatszövés",
+      "strategic_thinking": "Stratégiai gondolkodás",
+      "storytelling": "Mesemondás",
+      "coordination": "Koordináció",
+      "listening": "Aktív hallgatás",
+      "data_analysis": "Adatelemzés",
+      "community_hosting": "Közösség-befogadás",
+      "advocacy": "Képviselet",
+      "logistics": "Logisztika",
+      "holding_space": "Tér tartása"
+    }
+  },
+  "project": {
+    "title": "Projekt reflexió",
+    "projectName": "Projekt neve",
+    "projectNamePlaceholder": "Pl. Közösségi kert, Konferencia szervezés...",
+    "whichPhase": "Melyik szakasznál tartasz?",
+    "start": "🌱 Indulás",
+    "startDesc": "A projekt elején",
+    "mid": "🔥 Közép",
+    "midDesc": "Menet közben",
+    "closure": "🌿 Zárás",
+    "closureDesc": "A projekt végén",
+    "postClosure": "🌀 Utókövetés",
+    "postClosureDesc": "3-6 héttel később",
+    "next": "Tovább",
+    "whatFunctionsNeeded": "Milyen hozzájárulásokra van szüksége ennek a projektnek?",
+    "whatPresentNow": "Ebből mi van most jelen a csapatban?",
+    "missingFunctions": "Hiányzó hozzájárulási területek:",
+    "none": "nincs",
+    "whichActiveNow": "Mely hozzájárulási területek vannak most jelen?",
+    "whichMissing": "Mely hozzájárulási területek hiányoznak?",
+    "whatItBecame": "Mivé lett ez a projekt? (a kezdeti szándékhoz képest)",
+    "whatItBecamePlaceholder": "Hogyan tért el a tervtől? Mit hozott, amit nem vártál?",
+    "whatToCarry": "Mit viszel magaddal?",
+    "whatToCarryPlaceholder": "Amit nem hagysz el a következő projektbe lépésnél...",
+    "lookingBack": "Visszatekintve — mi maradt belőle?",
+    "lookingBackPlaceholder": "Mi él még belőle? Mi süllyedt el?",
+    "privateNotes": "Privát jegyzetek (csak neked)",
+    "privateNotesPlaceholder": "Ami nem illik a fenti keretbe, de le kell írni...",
+    "save": "Mentés",
+    "enterProjectName": "Add meg a projekt nevét",
+    "functionLabels": {
+      "vision_setting": "Jövőkép",
+      "facilitation": "Facilitáció",
+      "project_management": "Menedzsment",
+      "writing": "Írás",
+      "research": "Kutatás",
+      "coding": "Kódolás",
+      "design": "Tervezés",
+      "fundraising": "Forrás",
+      "network_weaving": "Hálózat",
+      "strategic_thinking": "Stratégia",
+      "storytelling": "Összefoglalás",
+      "coordination": "Koordináció",
+      "holding_space": "Tér tartás",
+      "data_analysis": "Adatok",
+      "listening": "Hallgatás",
+      "teaching": "Tanítás"
+    }
+  },
+  "hub": {
+    "title": "Reflexiós tér",
+    "subtitle": "Ez a tér a tiéd. Nem az értékelés helye — hanem a tájékozódásé.",
+    "quickCheckin": "⚡ Gyors bejelentkezés",
+    "deepReflection": "🧭 Mély önreflexió",
+    "currentPulse": "Jelenlegi pulzus",
+    "currentPulseDesc": "Három szempont — 2 perc. Hogyan érzed magad most?",
+    "functionalAvailability": "Hozzájárulási állapot",
+    "functionalAvailabilityDesc": "Frissítsd, hogyan tudsz most hozzájárulni — és mit nem tudsz most vállalni.",
+    "projectReflection": "Projekt reflexió",
+    "projectReflectionDesc": "Indulás, közép, zárás, utókövetés — egy projekt ívével.",
+    "yearCompass": "Év iránytű",
+    "yearCompassDesc": "Éves reflexió a YearCompass módszertan alapján.",
+    "lifewheel": "Élettükör",
+    "lifewheelDesc": "Nézz szembe önmagaddal a halálos ágy perspektívájából.",
+    "valueCompass": "Értékiránytű",
+    "valueCompassDesc": "Azonosítsd és rendezd össze a legfontosabb személyes értékeidet.",
+    "principles": "Alapelveim",
+    "principlesDesc": "Fogalmazd meg azokat az elveket, amelyek szerint élni szeretnél.",
+    "solutionPath": "SolutionPath Coach",
+    "solutionPathDesc": "Megoldásfókuszú önálló reflexió 8 lépésben.",
+    "helpers": "Ami segít",
+    "helpersDesc": "Mi tölt fel, mi segít — a személyes erőforrások felfedezése.",
+    "quickCheckins": "Gyors bejelentkezők",
+    "deepTools": "Mélyebb reflexiós eszközök",
+    "lastNever": "Még soha",
+    "lastToday": "Ma",
+    "lastYesterday": "Tegnap",
+    "lastDaysAgo": "{{count}} napja",
+    "deepLevelsComing": "A mélyebb szintek (negyedév, félév) hamarosan érkeznek.",
+    "loginPrompt": "Jelentkezz be a reflexiós térhez.",
+    "focusTest": "Változáshozó fókuszteszt",
+    "focusTestDesc": "Gyors önfelmérés fókuszról, célról, pazarlásról és innovációs stílusról.",
+    "calmingExercises": "Megnyugtató gyakorlatok",
+    "calmingExercisesDesc": "9 rövid, bevált gyakorlat stresszre, feszültségre és megnyugvásra — 10 perc alatt.",
+    "nextPromptTitle": "A következő reflexiód",
+    "nextPromptSoft": "Hamarosan esedékes",
+    "nextPromptOverdue": "Lejárt",
+    "nextPromptNever": "Még nem végezted el",
+    "nextPromptStart": "Kezdjük el"
+  },
+  "lifewheel": {
+    "title": "Élettükör",
+    "subtitle": "A halálos ágy perspektíva",
+    "intro": {
+      "backToReflect": "Vissza a reflexióhoz",
+      "cardTitle": "Képzeld el, hogy most vagy a halálos ágyadon. Visszatekintesz az életedre. Mit látsz? Mit éreznél? Mire lennél büszke? Mit bánnál meg?",
+      "cardQuote": "\"Az életet csak hátrafelé lehet megérteni, de előre kell élni.\" - Kierkegaard",
+      "explanation": "Ez az eszköz segít egy pillanatra megállni és a 'halálos ágy' perspektívájából visszatekinteni az életed legfontosabb területeire. A cél, hogy őszinte képet kapj arról, hol tartasz most, és merre tartasz a jövőben.",
+      "disclaimer": "Az alkalmazás nem menti az adataidat. Kérlek használd a nyomtatás funkciót a legvégén vagy készíts képernyőképet az eredményekről.",
+      "birthYearLabel": "Születési éved",
+      "birthYearPlaceholder": "pl. 1985",
+      "genderLabel": "Nem",
+      "genderMale": "Férfi",
+      "genderFemale": "Nő",
+      "ageInfoLine1": "{{age}} éves vagy",
+      "ageInfoLine2": "Kb. <span class='font-bold text-2xl'>{{remaining}}</span> éved van még hátra",
+      "ageInfoLine3": "magyar átlagéletkor alapján",
+      "startButton": "Vágjunk neki!"
+    },
+    "questions": {
+      "titles": {
+        "past": "5 éve ({{year}})",
+        "present": "Most ({{year}})",
+        "future": "5 év múlva ({{year}})"
+      },
+      "subtitles": {
+        "past": "🕰️ Hogyan volt ez 5 évvel ezelőtt?",
+        "present": "📍 Hogyan van ez most?",
+        "future": "🔮 Hogyan lesz ez 5 év múlva?"
+      },
+      "scale": {
+        "min": "Nagyon rossz",
+        "max": "Kitűnő"
+      },
+      "actions": {
+        "back": "Vissza",
+        "next": "Következő",
+        "results": "Eredmények"
+      },
+      "progress": "Kérdés {{current}} / {{total}}"
+    },
+    "results": {
+      "title": "Az életed tükre",
+      "subtitle": "Kb. <span class='text-purple-600 dark:text-purple-400'>{{remaining}}</span> éved van még hátra - így élnéd le?",
+      "status": {
+        "thrivingGrowing": "Virágzó és fejlődő",
+        "improving": "Javuló pályán",
+        "rising": "Emelkedő",
+        "thriving": "Virágzó",
+        "stable": "Stabil",
+        "ready": "Változásra kész"
+      },
+      "satisfactionIndex": "Életelégedettségi index (Most)",
+      "time": {
+        "past": "5 éve",
+        "present": "Most",
+        "future": "5 év múlva"
+      },
+      "improvement": "✨ {{points}} pont javulás 5 év alatt!",
+      "lifewheelTitle": "Életkerék - Három időpont",
+      "detailedAnalysisTitle": "Részletes elemzés",
+      "warning": "<strong>Figyelmeztetés!</strong> Ha minden így marad, ez az életterület tovább romlik. Változásra van szükség!",
+      "greatDirection": "<strong>Remek irány!</strong> Ha folytatod ezt az utat, ez az életterület virágozni fog!",
+      "deathbed": {
+        "title": "Üzenet a halálos ágyadról",
+        "positiveGrowth": "🎉 Gratulálok! Az elmúlt 5 évben {{points}} pontot fejlődtél. Ez nem véletlen - tudatosan építed az életedet!",
+        "positiveFuture": "✨ A jövőd még fényesebb lehet! Következő lépés: Válaszd ki azt az 1-2 területet, ahol a legnagyobb potenciált látod, és tedd meg MA az első kis lépést.",
+        "positiveStagnation": "⚠️ Vigyázz! A lendületet nem szabad elveszíteni. Mi az az 1 dolog, amit MA megtehetsz, hogy a pozitív irány folytatódjon?",
+        "stableGrowth": "Az elmúlt 5 évben stabil voltál, de van benned még rengeteg. {{futureOutlook}}",
+        "stableFuturePositive": "És te is érzed ezt - a jövőképed mutatja!",
+        "stableFutureNeutral": "Most az ideje a változásnak.",
+        "stableNextStep": "🚀 Következő lépés: Válaszd ki azt az 1 területet, ahol a legnagyobb potenciált érzed. Mi az a legkisebb lépés, amit MA megtehetsz? Egy telefonhívás? Egy tervkészítés? Egy beszélgetés?",
+        "decline": "Az elmúlt 5 év kihívásokkal teli volt. De itt vagy, kitöltötted ezt a tesztet - ez azt mutatja, hogy készen állsz a változásra!",
+        "declineNextStep": "💪 Következő lépés: NE próbálj mindent egyszerre megváltoztatni! Válassz 1 területet, ahol a legnagyobb fájdalmat érzed. Mi az a legkisebb lépés, amit MA megtehetsz ezen a területen? Írj le 3 lehetséges első lépést, és válaszd a legkönnyebbet!"
+      },
+      "recipe": {
+        "title": "📝 A változás receptje:",
+        "items": [
+          "1️⃣ Válassz 1-2 területet (ne többet!)",
+          "2️⃣ Tűzz ki apró, konkrét célokat (pl. \"heti 2x sport\" nem \"egészségesebb leszek\")",
+          "3️⃣ Az első lépés MA történjen meg - bármi, ami elindítja a labdát",
+          "4️⃣ Építs be napi/heti rutinokat - a rendszeresség a kulcs",
+          "5️⃣ Keress támogatást - senki sem változik egyedül"
+        ]
+      },
+      "actions": {
+        "restart": "Újrakezdés",
+        "print": "Eredmények nyomtatása"
+      },
+      "planning": {
+        "title": "Tervezd meg a következő lépést",
+        "stepLabel": "Mi az az EGYETLEN apró, konkrét lépés, amit a következő 24 órában megteszel a célodért?",
+        "stepPlaceholder": "Pl. Felhívom Gábort, hogy fussunk kedden.",
+        "reminderLabel": "Hogyan fogod magad emlékeztetni, hogy biztosan megtedd?",
+        "reminderPlaceholder": "Pl. Beállítok egy ébresztőt holnap reggel 9-re."
+      }
+    },
+    "categories": {
+      "health": "Egészség & Vitalitás",
+      "relationships": "Kapcsolatok & Szeretet",
+      "career": "Munka & Küldetés",
+      "growth": "Növekedés & Tanulás",
+      "joy": "Öröm & Élvezet",
+      "meaning": "Értelem & Spiritualitás",
+      "contribution": "Hozzájárulás & Örökség",
+      "freedom": "Szabadság & Autonómia"
+    },
+    "questions_data": {
+      "health": {
+        "past": "Mennyire voltál büszke a tested erejére és egészségedre 5 éve?",
+        "present": "Most mennyire vagy megelégedve az egészségeddel és energiáddal?",
+        "future": "Ha minden így marad, ahogy most, hol lesz az egészséged 5 év múlva?"
+      },
+      "relationships": {
+        "past": "Mennyire érezted 5 éve, hogy mélyen szeretnek és értékelnek?",
+        "present": "Most mennyire vagy körülvéve szeretettel és támogatással?",
+        "future": "Ha minden így marad, milyen mélyek lesznek a kapcsolataid 5 év múlva?"
+      },
+      "career": {
+        "past": "Mennyire érezted 5 éve, hogy értelmesen használod a tehetségedet?",
+        "present": "Most mennyire érzed, hogy fontos dolgon dolgozol?",
+        "future": "Ha minden így marad, mennyire leszel elégedett a karriereddel 5 év múlva?"
+      },
+      "growth": {
+        "past": "Mennyire fejlődtél személyként 5 éve?",
+        "present": "Most mennyire tanulsz és fejlődsz folyamatosan?",
+        "future": "Ha minden így marad, mennyire leszel fejlettebb ember 5 év múlva?"
+      },
+      "joy": {
+        "past": "Mennyire volt tele örömmel és nevetéssel a mindennapjaid 5 éve?",
+        "present": "Most mennyire élvezed az életet nap mint nap?",
+        "future": "Ha minden így marad, mennyire leszel boldog 5 év múlva?"
+      },
+      "meaning": {
+        "past": "Mennyire érezted 5 éve, hogy az életed értelmes?",
+        "present": "Most mennyire érzed, hogy nagyobb cél részese vagy?",
+        "future": "Ha minden így marad, mennyire lesz értelmes az életed 5 év múlva?"
+      },
+      "contribution": {
+        "past": "Mennyire érezted 5 éve, hogy pozitív nyomot hagysz a világban?",
+        "present": "Most mennyire járulsz hozzá másokhoz és a közösséghez?",
+        "future": "Ha minden így marad, milyen örökséget hagysz 5 év múlva?"
+      },
+      "freedom": {
+        "past": "Mennyire élted 5 éve a saját döntéseid szerint az életedet?",
+        "present": "Most mennyire szabadon választhatsz és autentikusan élhetsz?",
+        "future": "Ha minden így marad, mennyire leszel szabad 5 év múlva?"
+      }
+    }
+  },
+  "errors": {
+    "saveFailed": "Nem sikerült menteni"
+  },
+  "focus": {
+    "metaTitle": "Változáshozó fókuszteszt",
+    "metaDescription": "Mérd fel a fókuszod, célod és innovációs stílusod.",
+    "title": "Fókuszált vagy, vagy csak elfoglalt?",
+    "intro": "Az energiád a legértékesebb erőforrásod. Ez a rövid önfelmérés megmutatja a működési archetípusodat.",
+    "start": "Önfelmérés indítása",
+    "questionCounter": "{{current}}. kérdés / {{total}}",
+    "resultEyebrow": "Eredményed",
+    "score": "Pontszám: {{score}} / {{total}}",
+    "insights": "Gyakorlati felismerések",
+    "restart": "Teszt újrakezdése",
+    "questions": [
+      [
+        "Amikor új társadalmi projektet indítasz, mi az első lépésed?",
+        [
+          "Megkeresem a meglévő megoldásokat és keretrendszereket.",
+          "Egy bevált modellt helyi csavarral kombinálok.",
+          "Teljesen új, felforgató ötleteken kezdek gondolkodni."
+        ]
+      ],
+      [
+        "A csapatodnak szoftver kell az önkéntesek szervezéséhez. Mit teszel?",
+        [
+          "Egy széles körben használt, standard platformot választok.",
+          "Eszközöket értékelek és összekapcsolom a legjobbakat.",
+          "Egyedi platformot építek a teljes vízióhoz."
+        ]
+      ],
+      [
+        "Ha egy mondatban kell elmagyaráznod a fő kezdeményezésedet:",
+        [
+          "Van egy éles pitch-em, ami a napi prioritásokat is vezeti.",
+          "El tudom mondani az irányt, bár a részletek változnak.",
+          "Nehéz, mert egyszerre sok nagy problémát próbálunk megoldani."
+        ]
+      ],
+      [
+        "Az elmúlt havi feladatlistád többnyire ezt mutatja:",
+        [
+          "Mély munka egy-két központi célon.",
+          "Alapfeladatok néhány mellékprojekttel.",
+          "Sok tucat, egymástól független feladat és új ötlet."
+        ]
+      ],
+      [
+        "Új program bevezetésekor hogyan kerülöd el a túltermelést?",
+        [
+          "Minimálisan működő verzióval indítok, majd bizonyítékból építek tovább.",
+          "Teljes verziót készítek, majd indulás után igazítok.",
+          "Minden részletet tökéletesítek, mielőtt bárki látná."
+        ]
+      ]
+    ],
+    "results": [
+      {
+        "max": 8,
+        "title": "Lézerfókuszú optimalizáló",
+        "desc": "A célod tiszta, a cselekvéseid szorosan illeszkednek hozzá. Természetesen csökkented a pazarlást, és új építés előtt újrahasználod a meglévő rendszereket.",
+        "tips": [
+          "Tarts fenn kis keretet feltáró innovációra.",
+          "Ellenőrizd, hogy a hatékonyság nem szűkül-e csőlátássá.",
+          "Rendszeresen vizsgáld a várakozást, túltermelést és kihasználatlan tehetséget."
+        ]
+      },
+      {
+        "max": 12,
+        "title": "Dinamikus szinergista",
+        "desc": "Egyensúlyozol a fókusz és a felfedezés között. Használsz meglévő eszközöket, amikor praktikus, és akkor újítasz, ha valódi szűk keresztmetszet van.",
+        "tips": [
+          "Tarts negyedéves fókuszauditot.",
+          "Nézd át, hol várakoznak önkéntesek vagy együttműködők.",
+          "Dokumentáld, mikor érdemes a csapatnak átvenni, és mikor építeni."
+        ]
+      },
+      {
+        "max": 15,
+        "title": "Szétszórt vízionárius",
+        "desc": "Sok ötleted van, de a hatásod csökkenhet a széttöredezés, a túlzott építés és a változó prioritások miatt.",
+        "tips": [
+          "Válassz ki egy pazarlási mintát, amit ebben a hónapban megszüntetsz.",
+          "A következő hat hónapban használj kész eszközöket.",
+          "Keress operációs partnert, aki védi a fókuszt."
+        ]
+      }
+    ]
+  },
+  "calmingExercises": {
+    "title": "Megnyugtató gyakorlatok",
+    "subtitle": "Rövid, bevált technikák stresszre, feszültségre és az idegrendszer szabályozására. Válassz egyet — vagy kövesd az alján lévő napi protokollt.",
+    "backToReflect": "Vissza a reflexióhoz",
+    "expandLabel": "Gyakorlat megjelenítése",
+    "collapseLabel": "Elrejtés",
+    "timeLabel": "Idő",
+    "bestForLabel": "Mire jó",
+    "evidenceLabel": "Bizonyíték",
+    "tipLabel": "A gyakorlatban",
+    "dailyProtocol": {
+      "title": "Egyszerű napi 10 perces protokoll",
+      "steps": [
+        "0:00–5:00 — Lassú légzés: 4 másodperc be, 6 másodperc ki",
+        "5:00–8:00 — Lazíts az állkapcson, vállakon, hason és kezeken",
+        "8:00–10:00 — Önegyüttérzés- vagy helyreállító mondat"
+      ],
+      "reminder": "A cél nem az, hogy soha ne légy feszült. A cél az, hogy hamarabb vedd észre, hamarabb térj vissza, és kevesebb feszültséget örökíts tovább."
+    },
+    "safetyNote": "Trauma, pánikrohamok, erős disszociáció, depresszió vagy súlyos működési zavar esetén ezek a gyakorlatok csak támogató eszközök. Ilyen esetekben fordulj szakemberhez.",
+    "exercises": [
+      {
+        "title": "Lassú légzés — 5–6 légvétel percenként",
+        "time": "5 perc",
+        "bestFor": "Stressz, ingerlékenység, testi feszültség, érzelmi reaktivitás",
+        "evidence": "Közepes és erős",
+        "steps": [
+          "Ülj le vagy feküdj le.",
+          "Lélegezz be az orron át 4 másodperc alatt.",
+          "Lélegezz ki lassan 6 másodperc alatt.",
+          "A kilégzés legyen szelíd és hosszabb a belégzésnél.",
+          "Ismételd 5 percen át."
+        ],
+        "tip": "Feszült pillanatban már 3 lassú kilégzés is hasznos szünetet teremthet, mielőtt reagálsz."
+      },
+      {
+        "title": "Rövid progresszív izomrelaxáció",
+        "time": "7–8 perc",
+        "bestFor": "Fizikai feszültség, szorongás, elalvás előkészítése",
+        "evidence": "Közepes és erős",
+        "steps": [
+          "Minden izomcsoportnál: feszítsd meg óvatosan 5 másodpercig, majd engedd el 10 másodpercre.",
+          "Haladj végig: kezek, vállak, arc és állkapocs, has, ülőizmok, combok, vádlik, egész test.",
+          "Használj kb. 40–60%-os erőt — ne feszíts teljes erővel."
+        ]
+      },
+      {
+        "title": "Öt érzékkel való lehorgonyzás",
+        "time": "3–5 perc",
+        "bestFor": "Szorongás, túlterheltség, túlgondolkodás, disszociáció",
+        "evidence": "Közepes, mint klinikai lehorgonyzó eszköz",
+        "steps": [
+          "Nevezz meg 5 dolgot, amit látsz.",
+          "Nevezz meg 4 dolgot, amit érzékel a tested.",
+          "Nevezz meg 3 hangot, amit hallasz.",
+          "Nevezz meg 2 illatot vagy ízt.",
+          "Nevezz meg 1 dolgot, ami most biztonságosnak vagy semlegesnek tűnik.",
+          "Fejezd be: \"Most itt vagyok. Ez a pillanat nem az egész életem.\""
+        ]
+      },
+      {
+        "title": "Háromperces tudatos légzés",
+        "time": "3 perc",
+        "bestFor": "Az automatikus reakciók lassítása",
+        "evidence": "Közepes és erős",
+        "steps": [
+          "1. perc: Figyeld meg, mi történik. Nevezd meg — feszültség, düh, kimerültség.",
+          "2. perc: Figyeld a légzést. Ne próbáld megváltoztatni.",
+          "3. perc: Terjeszd ki figyelmed az egész testre — lábak, has, vállak, arc, kezek."
+        ],
+        "tip": "\"Nem kell tökéletesen reagálnom. Egy fokkal több tudatosság elég.\""
+      },
+      {
+        "title": "Önegyüttérzés szünet",
+        "time": "2–4 perc",
+        "bestFor": "Szégyen, bűntudat, önvád nehéz pillanatok után",
+        "evidence": "Közepes",
+        "steps": [
+          "Tedd az egyik kezedet a mellkasodra vagy hasadra.",
+          "Lassíts a kilégzésen.",
+          "Mondd belül: \"Ez nehéz.\"",
+          "\"Mások is átélnek ilyesmit.\"",
+          "\"Tudok-e 5%-kal kedvesebb lenni magamhoz most?\"",
+          "\"Csak a következő lépést kell megtennem, nem az egész napot megoldanom.\""
+        ],
+        "tip": "Ez nem mentegetőzés a káros viselkedésre. Ez egy módja annak, hogy megszakítsd a szégyent, és hatékonyabban tudj cselekedni."
+      },
+      {
+        "title": "STOP — mielőtt reagálsz",
+        "time": "30–90 másodperc",
+        "bestFor": "Impulzuskontroll, kirobbanás, automatikus reakciók",
+        "evidence": "Tudatossági és önszabályozási elveken alapul",
+        "steps": [
+          "S — Állj meg.",
+          "T — Végy egy hosszú kilégzést.",
+          "O — Figyelj. Mit érzek a testemben? Mit készülök csinálni?",
+          "P — Lépj tovább. Válassz egy kevésbé káros következő lépést."
+        ],
+        "tip": "Hangosan is mondhatod: \"Most nagyon feszült vagyok. Veszek három légzést, aztán válaszolok.\""
+      },
+      {
+        "title": "Ráhangolódás a biztonságra",
+        "time": "2 perc",
+        "bestFor": "Az idegrendszer fenyegetési reakciója, hiperéberség",
+        "evidence": "Közvetett; klinikai trauma-informált munkában elterjedt",
+        "steps": [
+          "Nézz lassan körbe a szobában.",
+          "Ne veszélyt keress. Semleges vagy biztonságos jeleket keress.",
+          "Nevezz meg 5 semleges tárgyat: ajtó, szék, könyv, lámpa, csésze.",
+          "Majd nevezz meg 3 biztonságos vagy kellemes részletet: meleg takaró, lágy fény, csendes sarok.",
+          "Fejezd be: \"A testem veszélyt jelez, de körülnézhetek és megnézhetem, mi igaz most.\""
+        ]
+      },
+      {
+        "title": "Légzés és helyreállítás",
+        "time": "3–5 perc",
+        "bestFor": "A kapcsolat helyreállítása konfliktus után",
+        "evidence": "Közvetett; fejlődésileg jól alátámasztott",
+        "steps": [
+          "Először szabályozd magadat: végy 3 lassú kilégzést.",
+          "Aztán mondd röviden a másiknak: \"Sajnálom, hogy így reagáltam.\"",
+          "\"Nem a te dolgod kezelni az én stresszem.\"",
+          "\"Újra kezdem, nyugodtabban.\"",
+          "\"Oldjuk meg ezt lépésről lépésre.\""
+        ],
+        "tip": "Az embereknek nem tőlünk van szükségük tökéletességre. Helyreállításra van szükségük."
+      },
+      {
+        "title": "Kopogtatás (EFT — próbáld ki, és nézd meg, működik-e neked)",
+        "time": "5–8 perc",
+        "bestFor": "Szorongás, feszültség, érzelmi intenzitás",
+        "evidence": "Vegyes és közepes",
+        "steps": [
+          "Értékeld a feszültségedet 0-tól 10-ig.",
+          "Két ujjal koppogj finoman: belső szemöldök, szem oldala, szem alatt, kulcscsont alatt, külső kar vagy mellkas.",
+          "Kopogtatás közben ismételgesd: \"Bár feszültnek érzem magam, észreveszem, hogy ez egy állapot.\"",
+          "\"A testem megpróbál megvédeni.\"",
+          "\"El tudok engedni 5%-ot.\"",
+          "A végén értékeld újra a feszültséget 0-tól 10-ig."
+        ]
+      }
+    ]
+  }
+}

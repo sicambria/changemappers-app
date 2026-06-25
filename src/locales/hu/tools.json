@@ -1,0 +1,216 @@
+{
+  "metaTitle": "Eszközök",
+  "metaDescription": "Interaktív modellek és elemzők a rendszerszintű változás megértéséhez.",
+  "impactDashboard": {
+    "metaTitle": "Társadalmi hatáspotenciál-műszerfal",
+    "metaDescription": "Modellezd azokat a feltételeket, amelyek növelik vagy csökkentik a pozitív társadalmi hatás esélyét.",
+    "clientTitle": "Társadalmi hatáspotenciál-műszerfal",
+    "clientDescription": "Állítsd a csúszkákat, és modellezd a rendszered pozitív változási potenciálját. A modell az alapkapacitásokat, a strukturális szorzókat, a pszichoszociális dinamikákat, a narratív koherenciát és a kibontakozási tényezőket veti össze a visszahúzó erőkkel.",
+    "highExample": "Magas példa",
+    "lowExample": "Alacsony példa",
+    "probabilityOfPositiveImpact": "A pozitív hatás esélye",
+    "recommendations": "Javaslatok",
+    "strengthsToBuildOn": "Erősségek, amelyekre építhetsz",
+    "strengthDescription": "Ez erős terület. Használd a gyengébb területek támogatására.",
+    "bottlenecksToAddress": "Szűk keresztmetszetek, amelyeket kezelni kell",
+    "bottleneckDescription": "Ez a szűk keresztmetszet figyelmet igényel. Ha erre fókuszálsz, az egész rendszer javulhat.",
+    "resetAllSliders": "Összes csúszka alaphelyzetbe"
+  },
+  "preMeetingAudit": {
+    "metaTitle": "Holisztikus regeneratív programvászon",
+    "metaDescription": "Tervezd meg és értékeld az eseményeidet világos célokkal, odafigyeléssel és rendszerszemlélettel.",
+    "title": "Előzetes audit eszköz"
+  },
+  "participationIndex": {
+    "metaTitle": "Részvételi index",
+    "metaDescription": "Mérd fel az állampolgári részvétel valós szintjét, és különböztesd meg a valódi bevonást a látszatkommunikációtól."
+  },
+  "valueCompass": {
+    "metaTitle": "Személyes értékiránytű",
+    "metaDescription": "Azonosítsd és egyensúlyozd ki alapvető értékeidet, hogy tudatosabban navigálhass az életedben."
+  },
+  "principles": {
+    "metaTitle": "Egyetemes közösségi alapelvek",
+    "metaDescription": "Fedezz fel több mint 200 időtlen alapelvet a fenntartható és harmonikus emberi közösségek építéséhez."
+  },
+  "innerHelpers": {
+    "metaTitle": "Belső iránytű segítők",
+    "metaDescription": "Mélyelemző eszközök a belső elakadások és kognitív minták azonosításához és feloldásához."
+  },
+  "externalNotice": {
+    "eyebrow": "Külső szolgáltatásra vonatkozó figyelmeztetés",
+    "summary": "Ez az eszköz egy beágyazott oldalon fut. A frontend erőforrások többsége már önhosztolt, de egyes eszközök még kapcsolódhatnak külső szolgáltatásokhoz vagy megnyithatnak harmadik feles linkeket.",
+    "ipDisclosure": "Ha egy eszköz külső szolgáltatáshoz kapcsolódik, az IP-címed láthatóvá válhat az adott szolgáltatás számára.",
+    "refererDisclosure": "Ilyen külső kérések esetén a böngésződ az aktuális oldalt Referer fejlécként is elküldheti.",
+    "domains": "Az aktuális harmadik feles kapcsolatok az adott eszköztől függenek, és szűkebbek a korábbi CDN-alapú megoldásnál.",
+    "remember": "A döntésedet ez az eszköz az aktuális böngészőmunkamenetben megjegyzi.",
+    "accept": "Külső eszköz betöltése",
+    "decline": "Vissza az eszközökhöz"
+  },
+  "draw": {
+    "metaTitle": "Lokális rajztábla",
+    "metaDescription": "Teljesen lokális Excalidraw rajztábla közvetlenül a Changemappersbe ágyazva.",
+    "title": "Lokális rajztábla",
+    "description": "Vázlat, térkép és diagramok közvetlenül az alkalmazásban, teljesen lokális Excalidraw munkaterülettel.",
+    "badge": "CSAK LOKÁLIS",
+    "backToTools": "Vissza az eszközökhöz",
+    "clearCanvas": "Lokális vászon törlése",
+    "reloadLocalScene": "Mentett jelenet újratöltése",
+    "localOnly": "A Changemappersen belül fut, önhostolt erőforrásokkal, iframe-függőség nélkül.",
+    "autosave": "A jelenet automatikusan mentődik ebben a böngészőben, így visszatérhetsz a befejezetlen munkához.",
+    "exportHint": "Használd az Excalidraw beépített export menüjét PNG, SVG vagy .excalidraw fájlokhoz.",
+    "helpTitle": "Lokális rajztábla súgó",
+    "helpIntro": "Vázlat, térkép és diagramok közvetlenül az alkalmazásban, teljesen lokális Excalidraw munkaterülettel.",
+    "helpClear": "Lokális vászon törlése",
+    "helpReload": "Mentett jelenet újratöltése",
+    "helpSelfHosted": "A Changemappersen belül fut, önhostolt erőforrásokkal, iframe-függőség nélkül.",
+    "helpAutosave": "A jelenet automatikusan mentődik ebben a böngészőben, így visszatérhetsz a befejezetlen munkához.",
+    "helpExport": "Használd az Excalidraw beépített export menüjét PNG, SVG vagy .excalidraw fájlokhoz.",
+    "helpLimitations": "Ez a rajztábla egyetlen helyi jelenetet tart meg a böngésződben. Több mentett diagramhoz, köztük váltáshoz, láthatósági beállításokhoz vagy megosztható csapatmunkához használd inkább a Canvast.",
+    "openCanvas": "Ugrás a Canvasra",
+    "openHelp": "Súgó",
+    "closeHelp": "Bezárás"
+  },
+  "openPlatform": {
+    "metaTitle": "Nyílt platform elemző",
+    "metaDescription": "Regeneratív platformok, civil hálózatok és kollektív intelligenciaeszközök összehasonlítása.",
+    "title": "Regeneratív portálok elemzője",
+    "subtitle": "Nyílt forráskódú platformok, hálózatok és kollektív intelligenciarendszerek összehasonlítása a Game B ökoszisztémában.",
+    "searchLabel": "Keresés név vagy leírás alapján",
+    "searchPlaceholder": "pl. Wikipedia, web3...",
+    "dimensions": "Dimenziók",
+    "filterLogic": "Szűrési logika",
+    "clear": "Szűrők törlése",
+    "results": "{{count}} portál található",
+    "gridView": "Rács nézet",
+    "tableView": "Táblázat nézet",
+    "visit": "Platform megnyitása",
+    "portal": "Portál / Platform",
+    "score": "Pontszám",
+    "features": "Fő jellemzők",
+    "audience": "Célközönség / fókusz",
+    "dimensionsList": [
+      "Vertikális fejlődés",
+      "Mentorálás / RPS",
+      "Kapcsolódások / P2P",
+      "Nyílt forráskód",
+      "Fejlett vizualizáció",
+      "Kollektív kormányzás",
+      "Web3 / tokenomika",
+      "Bioregionális fókusz",
+      "Gazdasági allokáció",
+      "Nincs gamifikált reputáció"
+    ],
+    "portals": [
+      {
+        "name": "Changemappers",
+        "type": "Alapvonal",
+        "url": "https://changemappers.org/",
+        "score": 100,
+        "audience": "Változásalkotók, rendszerszintű innovátorok",
+        "features": [
+          "Vertikális fejlődés",
+          "Mentorálás / RPS",
+          "Kapcsolódások / P2P",
+          "Nyílt forráskód",
+          "Kollektív kormányzás",
+          "Nincs gamifikált reputáció"
+        ],
+        "description": "Archetípus-komplementaritásra épülő kapcsolás, regeneratív társas támogatás és RDG-orientált koordináció változásalkotóknak."
+      },
+      {
+        "name": "Hylo",
+        "type": "Nagy illeszkedésű ökoszisztéma",
+        "url": "https://www.hylo.com",
+        "score": 92,
+        "audience": "Célvezérelt csoportok és helyi közösségek",
+        "features": [
+          "Kapcsolódások / P2P",
+          "Nyílt forráskód",
+          "Bioregionális fókusz",
+          "Kollektív kormányzás",
+          "Nincs gamifikált reputáció"
+        ],
+        "description": "Közösségvezérelt koordinációs platform bioregionális szerveződéshez, regeneratív mezőgazdasághoz és rezilienciához."
+      },
+      {
+        "name": "CoDo / Kamooni",
+        "type": "Nagy illeszkedésű ökoszisztéma",
+        "url": "https://kamooni.org/",
+        "score": 88,
+        "audience": "Civil aktivisták és környezeti menedzserek",
+        "features": [
+          "Kapcsolódások / P2P",
+          "Nyílt forráskód",
+          "Kollektív kormányzás",
+          "Gazdasági allokáció"
+        ],
+        "description": "Nyílt forráskódú civil részvételi rendszer altruista tárcamechanikákkal és folyékony demokráciával."
+      },
+      {
+        "name": "OpenCivics",
+        "type": "Nagy illeszkedésű ökoszisztéma",
+        "url": "https://opencivics.co",
+        "score": 85,
+        "audience": "Intézmények, rendszerépítők, DAO-k",
+        "features": [
+          "Nyílt forráskód",
+          "Kollektív kormányzás",
+          "Gazdasági allokáció"
+        ],
+        "description": "Decentralizált szolidaritási hálózat intézményi hidakra és rendszerszintű támogatásosztásra fókuszálva."
+      },
+      {
+        "name": "Decidim",
+        "type": "Részvételi platform",
+        "url": "https://decidim.org",
+        "score": null,
+        "audience": "Polgárok és önkormányzatok",
+        "features": [
+          "Kollektív kormányzás",
+          "Nyílt forráskód"
+        ],
+        "description": "Nyílt forráskódú platform részvételi demokráciához, gyűlésekhez, javaslatokhoz, vitákhoz és szavazásokhoz."
+      },
+      {
+        "name": "Polis",
+        "type": "Értelemalkotó eszköz",
+        "url": "https://pol.is",
+        "score": null,
+        "audience": "Nagy csoportok, polgárok, kutatók",
+        "features": [
+          "Kollektív kormányzás",
+          "Nyílt forráskód",
+          "Fejlett vizualizáció"
+        ],
+        "description": "Beszélgetési platform, amely valós idejű elemzéssel emeli ki a konszenzust és a törésvonalakat."
+      },
+      {
+        "name": "Terraso",
+        "type": "Tájkoordinátor",
+        "url": "https://terraso.org",
+        "score": 55,
+        "audience": "Földtulajdonosok, ökológusok, helyi önkormányzatok",
+        "features": [
+          "Nyílt forráskód",
+          "Fejlett vizualizáció",
+          "Bioregionális fókusz"
+        ],
+        "description": "GIS térképező platform tájléptékű partnerségekhez és ökológiai helyreállításhoz."
+      },
+      {
+        "name": "SEEDS / Hypha DHO",
+        "type": "DeFi és tokenizált",
+        "url": "https://joinseeds.earth",
+        "score": 60,
+        "audience": "Web3 közösség és regeneratív pénzügy",
+        "features": [
+          "Web3 / tokenomika",
+          "Kollektív kormányzás",
+          "Gazdasági allokáció"
+        ],
+        "description": "Blokklánc-alapú pénzügyi ökoszisztéma, amely tokenomikát és ösztönzőket használ a regenerációért."
+      }
+    ]
+  }
+}

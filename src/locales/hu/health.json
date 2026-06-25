@@ -1,0 +1,16 @@
+{
+  "title": "Rendszer Állapot",
+  "description": "A Changemappers rendszereinek és szolgáltatásainak aktuális elérhetősége",
+  "allSystemsOperational": "Minden Rendszer Operatív",
+  "serviceOutage": "Szolgáltatás Kimaradás",
+  "webInterface": "Webes Felület",
+  "webInterfaceDesc": "A fő webalkalmazás és a felhasználói felület elérhetősége",
+  "available": "Elérhető",
+  "online": "Online",
+  "databaseService": "Adatbázis Szolgáltatás",
+  "databaseDesc": "A központi adatbázis és tároló rendszerek válaszideje",
+  "connected": "Kapcsolódva",
+  "connectionError": "Hiba a kapcsolódáskor",
+  "offline": "Offline",
+  "lastUpdated": "Utolsó frissítés:"
+}

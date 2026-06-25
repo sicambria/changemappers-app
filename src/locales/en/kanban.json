@@ -1,0 +1,86 @@
+{
+  "title": "Initiatives",
+  "board": {
+    "states": {
+      "imagined": "Imagined",
+      "exploring": "Exploring",
+      "planned": "Planned",
+      "inProgress": "In Progress",
+      "integrating": "Integrating",
+      "completed": "Completed"
+    },
+    "cardOptions": "Card options",
+    "viewDetails": "View Details",
+    "edit": "Edit",
+    "archive": "Archive",
+    "update": "update",
+    "updates": "updates",
+    "retrospective": "Retrospective",
+    "dragToReorder": "Drag to reorder",
+    "dropHere": "Drop here",
+    "addInitiative": "Add initiative",
+    "archivedViaKanban": "Archived via kanban board",
+    "role": "role",
+    "roles": "roles",
+    "noInitiatives": "No initiatives",
+    "age": {
+      "y": "y",
+      "mo": "mo",
+      "w": "w",
+      "d": "d",
+      "h": "h"
+    }
+  },
+  "backlog": "Backlog",
+  "startInitiative": "Start initiative",
+  "resonance": "resonance",
+  "initiativeNotFound": "Initiative not found",
+  "backToBoard": "Back to board",
+  "roles": "Roles",
+  "updates": "Updates",
+  "startAnInitiative": "Start an Initiative",
+  "nameTheChange": "Name the change you're organizing",
+  "initiativeIntro": "Initiatives begin as imagined, then move toward action.",
+  "metrics": "Metrics",
+  "metricsSubtitle": "Lean metrics and performance analysis",
+  "metaTitle": "Start an Initiative | Changemappers",
+  "backlogEmpty": "The backlog is empty. Add ideas to see what resonates.",
+  "statuses": {
+    "imagined": "Imagined",
+    "exploring": "Exploring",
+    "planned": "Planned",
+    "inProgress": "In Progress",
+    "integrating": "Integrating",
+    "completed": "Completed",
+    "backlog": "Backlog"
+  },
+  "actions": {
+    "startInitiative": "Start Initiative",
+    "backToBoard": "Back to Board",
+    "back": "Back"
+  },
+  "labels": {
+    "roles": "Roles",
+    "updates": "Updates",
+    "resonance": "Resonance",
+    "metrics": "Metrics"
+  },
+  "messages": {
+    "initiativeNotFound": "Initiative not found",
+    "theBacklogIsEmpty": "The backlog is empty",
+    "startAnInitiative": "Start an initiative",
+    "nameTheChange": "Name the change"
+  },
+  "boardTypes": {
+    "personalBoard": "Personal Board",
+    "communityBoard": "Community Board",
+    "internationalBoard": "International Board"
+  },
+  "backlogSubtitle": "Ideas sorted by community {{resonance}}.",
+  "backlogBy": "by {{name}}",
+  "showGlobalBacklog": "Show global backlog",
+  "showingAllIdeas": "Showing all community & global ideas",
+  "communityBacklogSubtitle": "Community ideas sorted by resonance.",
+  "allBacklogSubtitle": "All ideas sorted by community resonance.",
+  "backlogByPrefix": "by"
+}

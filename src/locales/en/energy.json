@@ -1,0 +1,262 @@
+{
+  "title": "Energy Flow Canvas",
+  "subtitle": "Map power dynamics and energy flows in social systems",
+  "newCanvas": "New canvas",
+  "noCanvasesYet": "No energy canvases yet. Create your first canvas to start mapping.",
+  "patternLibrary": "Pattern Library",
+  "backToCanvases": "Back to canvases",
+  "allCanvases": "← All canvases",
+  "definition": "Definition",
+  "mechanism": "Mechanism",
+  "newEnergyCanvas": "New Energy Canvas",
+  "addEntity": "Add Entity | Energy Canvas",
+  "backToCanvas": "Back to canvas",
+  "scale": {
+    "planetary": "Planetary / International",
+    "supranational": "Supranational / Regional Bloc",
+    "national": "National",
+    "state": "State / Regional",
+    "bioregional": "Bioregional",
+    "community": "Community",
+    "local": "Local / Group"
+  },
+  "entityType": {
+    "individual": "Individual",
+    "household": "Household",
+    "workingGroup": "Working Group",
+    "community": "Community",
+    "institution": "Institution",
+    "corporation": "Corporation",
+    "norm": "Norm",
+    "commons": "Commons",
+    "infrastructure": "Infrastructure",
+    "narrative": "Narrative",
+    "bioregion": "Bioregion",
+    "nation": "Nation",
+    "treatyBody": "Treaty Body"
+  },
+  "energyState": {
+    "extractive": "Extractive",
+    "regenerative": "Regenerative",
+    "neutral": "Neutral",
+    "contested": "Contested",
+    "depleted": "Depleted",
+    "captured": "Captured"
+  },
+  "systemState": {
+    "regenerating": "Regenerating",
+    "stable": "Stable",
+    "depleting": "Depleting",
+    "collapsing": "Collapsing",
+    "contested": "Contested"
+  },
+  "panel": {
+    "systemEnergy": "System Energy State",
+    "flowBreakdown": "Flow Breakdown",
+    "extractiveFlows": "Extractive Flows",
+    "regenerativeFlows": "Regenerative Flows",
+    "netEnergy": "Net Energy Direction",
+    "dataQuality": "Data Quality",
+    "depletionChains": "Depletion Chains",
+    "regenerativePockets": "Regenerative Pockets",
+    "scorecard": "Energy Scorecard"
+  },
+  "pattern": {
+    "detectedPatterns": "Detected Patterns",
+    "confidence": {
+      "strong": "Strong Signal",
+      "possible": "Possible",
+      "worthExamining": "Worth Examining"
+    },
+    "threshold": {
+      "strict": "Strict",
+      "standard": "Standard",
+      "exploratory": "Exploratory"
+    }
+  },
+  "layer": {
+    "formalPower": "Formal Power",
+    "informalBypass": "Informal / Bypass",
+    "energyFlows": "Energy Flows",
+    "informationFlows": "Information Flows",
+    "counterFlows": "Counter-flows / Resistance",
+    "frictionPoints": "Friction Points",
+    "invisibleNorms": "Invisible Norms",
+    "detectedPatterns": "Detected Patterns"
+  },
+  "export": {
+    "pdf": "Export PDF",
+    "json": "Export JSON",
+    "svg": "Export SVG",
+    "markdown": "Export Markdown"
+  },
+  "privacy": {
+    "onlyMe": "Only me",
+    "myCommunity": "My community",
+    "public": "Public"
+  },
+  "contextMenu": {
+    "entityType": "Entity Type",
+    "energyState": "Energy State"
+  },
+  "editSidebar": {
+    "editEntity": "Edit Entity",
+    "saving": "Saving…",
+    "label": "Label",
+    "name": "Name",
+    "namePlaceholder": "Name or label",
+    "description": "Description",
+    "descriptionPlaceholder": "Add a description…",
+    "youtubeUrl": "YouTube URL or video ID",
+    "latLngCoordinates": "Lat, Lng coordinates",
+    "youtubeUrlPlaceholder": "https://youtube.com/watch?v=...",
+    "latLngPlaceholder": "47.4979, 19.0402",
+    "energyState": "Energy State",
+    "type": "Type",
+    "scaleBand": {
+      "planetary": "Planetary / International",
+      "supranational": "Supranational / Regional",
+      "national": "National",
+      "stateRegional": "State / Regional",
+      "bioregional": "Bioregional",
+      "community": "Community",
+      "localGroup": "Local Group"
+    },
+    "deleteConfirm": "Delete this entity?",
+    "delete": "Delete"
+  },
+  "canvasForm": {
+    "createTitle": "Create New Energy Canvas",
+    "titleLabel": "Title",
+    "titlePlaceholder": "e.g., Community Garden Power Dynamics",
+    "descriptionOptional": "Description (optional)",
+    "descriptionPlaceholder": "What system are you mapping?",
+    "privacyLabel": "Privacy",
+    "privacyPlaceholder": "Select privacy level",
+    "privacyNote": "Note: Role labels you enter can appear on the canvas. Avoid personal names.",
+    "creating": "Creating…",
+    "createCanvas": "Create Canvas",
+    "cancel": "Cancel",
+    "createFailed": "Failed to create canvas"
+  },
+  "canvas": {
+    "newEntityType": "New {{type}}",
+    "invalidYoutubeUrl": "No valid YouTube URL",
+    "enterCoordinates": "Enter lat,lng coordinates",
+    "saving": "Saving…",
+    "viewOnly": "View only",
+    "toolbar": {
+      "select": "Select",
+      "text": "Text",
+      "stickyNote": "Sticky note",
+      "connect": "Connect",
+      "youtubeEmbed": "YouTube embed",
+      "osmMapEmbed": "OSM map embed",
+      "zoomIn": "Zoom in",
+      "zoomOut": "Zoom out",
+      "resetView": "Reset view",
+      "help": "Help"
+    },
+    "help": {
+      "title": "Controls",
+      "rightClick": "Right-click",
+      "rightClickDesc": "to add entity",
+      "doubleClick": "Double-click",
+      "doubleClickDesc": "to rename inline",
+      "space": "Space",
+      "spaceDesc": "+ drag to pan",
+      "scroll": "Scroll",
+      "scrollDesc": "to zoom",
+      "drag": "Drag",
+      "dragDesc": "band border to resize row",
+      "undo": "undo",
+      "redo": "redo",
+      "delete": "Delete",
+      "deleteDesc": "remove selected entity"
+    },
+    "hint": {
+      "clickToAddText": "Click anywhere to add text",
+      "clickToAddStickyNote": "Click anywhere to add sticky note",
+      "clickTargetEntity": "Click target entity to connect",
+      "clickSourceEntity": "Click source entity",
+      "clickToPlaceYoutube": "Click to place YouTube embed",
+      "clickToPlaceOsm": "Click to place OpenStreetMap embed"
+    },
+    "flow": {
+      "extractive": "Extractive",
+      "generative": "Generative",
+      "captured": "Captured",
+      "diverted": "Diverted",
+      "unknown": "Unknown"
+    },
+    "linkModal": {
+      "createRelation": "Create Relation",
+      "flow": "flow",
+      "connect": "Connect",
+      "cancel": "Cancel"
+    },
+    "widgetModal": {
+      "youtubeVideo": "YouTube Video",
+      "openStreetMap": "OpenStreetMap",
+      "pasteYoutubeUrl": "Paste YouTube URL or video ID",
+      "enterCoordinates": "Enter lat,lng coordinates (e.g. 47.5, 19.0)",
+      "youtubePlaceholder": "https://youtube.com/watch?v=...",
+      "osmPlaceholder": "47.4979, 19.0402",
+      "add": "Add",
+      "cancel": "Cancel"
+    },
+    "scale": {
+      "planetary": "Planetary / International",
+      "supranational": "Supranational / Regional",
+      "national": "National",
+      "stateRegional": "State / Regional",
+      "bioregional": "Bioregional",
+      "community": "Community",
+      "localGroup": "Local Group"
+    }
+  },
+  "form": {
+    "roleLabel": "Role Label",
+    "roleLabelHint": "Use role/function, not personal name",
+    "entityType": "Entity Type",
+    "primaryScale": "Primary Scale",
+    "energyState": "Energy State",
+    "scaleBand": "Scale Band",
+    "numericValue": "Numeric Value",
+    "numericUnit": "Unit",
+    "notes": "Notes",
+    "notesHint": "Internal notes about this entity"
+  },
+  "entityForm": {
+    "addEntityTo": "Add Entity to {{title}}",
+    "privacyNote": "Note: Role labels you enter can appear on the canvas. Avoid personal names.",
+    "roleLabel": "Role Label",
+    "roleLabelPlaceholder": "e.g., Facilitator, Coordinator",
+    "roleLabelHint": "Use role/function, not personal name",
+    "entityType": "Entity Type",
+    "selectType": "Select type",
+    "primaryScale": "Primary Scale",
+    "selectScale": "Select scale",
+    "energyState": "Energy State",
+    "selectState": "Select state",
+    "scaleBand": "Scale Band",
+    "numericValue": "Numeric Value",
+    "numericValuePlaceholder": "e.g., 100",
+    "unit": "Unit",
+    "unitPlaceholder": "e.g., kWh, people",
+    "notes": "Notes",
+    "notesPlaceholder": "Internal notes about this entity",
+    "addEntity": "Add Entity",
+    "adding": "Adding…",
+    "cancel": "Cancel",
+    "createFailed": "Failed to create entity"
+  },
+  "patterns": {
+    "subtitle": "Recognized patterns in power dynamics and energy flows",
+    "empty": "No patterns have been proposed yet. Patterns are added through community contributions.",
+    "leveragePoints": "Leverage Points",
+    "proposedBy": "Proposed by {{name}}",
+    "unknownProposer": "Anonymous",
+    "proposedByPrefix": "Proposed by"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "graph": {
+    "title": "Rendszerszintű Érzékelés",
+    "subtitle": "Logikai Térkép és Egészség",
+    "filterByName": "Szűrés név alapján",
+    "searchPlaceholder": "Keresés név vagy város alapján...",
+    "visibilityLayers": "Láthatósági rétegek",
+    "layers": {
+      "all": "Összes réteg",
+      "users": "Változásvezetők",
+      "communities": "Közösségek",
+      "events": "Események"
+    },
+    "health": {
+      "missingCapacities": "Hiányzó Kapacitások",
+      "missingDescription": "A jelenlegi szűrési feltételek alapján a rendszerből (ezen a területen) teljesen hiányoznak a következő archetipusok. Ezek \"vakfoltok\" és rendszerszintű gyengeségek.",
+      "allPresent": "Minden archetipus jelen van az ökoszisztémában! ✅",
+      "visibleElements": "Látható elemek: {{count}}",
+      "visibleLinks": "Látható kötések: {{count}}"
+    },
+    "errorLoading": "Hiba a térkép betöltésekor",
+    "description": "Fedezd fel az ökoszisztéma kapcsolatait, kapacitásait és vakfoltjait."
+  }
+}

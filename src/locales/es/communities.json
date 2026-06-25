@@ -1,0 +1,83 @@
+{
+    "types": {
+        "NATURE_CONNECTED_ECO_HUB": "Centro Eco-Conectado con la Naturaleza",
+        "HEALING_SANCTUARY": "Santuario de Sanación y Retiro",
+        "INCLUSIVE_SUPPORT_NETWORK": "Red de Apoyo Inclusiva",
+        "CREATIVE_ARTS_COLONY": "Colonia de Artes Creativas",
+        "EGALITARIAN_LIVING": "Vida Igualitaria",
+        "SPIRITUAL_HAVEN": "Comunidad Espiritual y Religiosa",
+        "KNOWLEDGE_HUB": "Centro de Conocimiento y Educación",
+        "NOMADIC_NETWORK": "Red Nómada y de Viajeros",
+        "REGENERATIVE_ECONOMIC": "Cooperativa Económica Regenerativa",
+        "VISIONARY_MODEL_CITY": "Ciudad Modelo Visionaria",
+        "EARTH_REGENERATION_CENTER": "Centro de Regeneración de la Tierra",
+        "FRONTLINE_ACTIVIST": "Comunidad Activista de Primera Línea"
+    },
+    "membership": {
+        "confirmLeave": "¿Estás seguro de que quieres salir de esta comunidad?",
+        "accepting": "Aceptando miembros",
+        "title": "Membresía",
+        "banned": "Estás expulsado de esta comunidad.",
+        "rejected": "Tu solicitud fue rechazada.",
+        "isMember": "Eres miembro",
+        "leaveLoading": "Saliendo...",
+        "leave": "Salir de la comunidad",
+        "requestSent": "Solicitud enviada",
+        "openDescription": "Esta comunidad está abierta a nuevos miembros.",
+        "targetLabel": "A quién buscamos:",
+        "costLabel": "Condiciones:",
+        "joinButton": "Solicitar ingreso",
+        "notAccepting": "Actualmente no aceptan nuevos miembros."
+    },
+    "details": {
+        "about": "Sobre Nosotros",
+        "noDescription": "No se proporcionó descripción.",
+        "valuesAndTopics": "Valores y Temas",
+        "vision": "Visión",
+        "principles": "Principios",
+        "annualGoals": "Objetivos Anuales",
+        "foundedYear": "Fundada: {{year}}",
+        "memberCount": "{{count}} miembros",
+        "foundedLabel": "Fundada",
+        "country": "País",
+        "city": "Ciudad",
+        "houseRules": "Normas de la Casa"
+    },
+    "volunteer": {
+        "seekingBadge": "Buscamos voluntarios",
+        "title": "¡Buscamos voluntarios!",
+        "helpWith": "Cómo puedes ayudar:",
+        "applyButton": "Apuntarme como voluntario/a"
+    },
+    "claims": {
+        "title": "¿Lideras esta comunidad?",
+        "description": "Este perfil fue creado a partir de datos públicos. Si eres su representante, ¡reclama tus derechos de edición!",
+        "pending": "Reclamación en curso",
+        "submit": "Reclamar propiedad",
+        "loginRequired": "Inicia sesión para reclamar.",
+        "success": "¡Reclamación enviada! Esperando aprobación del admin."
+    },
+    "contact": {
+        "title": "Contacto",
+        "loginRequired": "Inicia sesión para ver los datos de contacto.",
+        "showButton": "Mostrar datos de contacto",
+        "noContact": "No se proporcionaron datos de contacto.",
+        "website": "Ver sitio web"
+    },
+    "adminPanel": {
+        "title": "Solicitudes de membresía",
+        "noPending": "No hay solicitudes pendientes.",
+        "newCount": "{{count}} nuevas"
+    },
+    "relations": {
+        "upcomingEvents": "Próximos eventos",
+        "pastEvents": "Eventos pasados",
+        "initiatives": "Iniciativas",
+        "pitches": "Propuestas",
+        "socialIssues": "Problemas sociales",
+        "signals": "Señales",
+        "causes": "Causas",
+        "members": "Miembros",
+        "empty": "Aún no hay elementos vinculados."
+    }
+}

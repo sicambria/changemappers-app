@@ -1,0 +1,40 @@
+{
+  "title": "Comparte tus comentarios",
+  "like": "Me gusta",
+  "dislike": "No me gusta",
+  "whatLiked": "¿Qué te gustó?",
+  "whatExpected": "¿Qué esperabas?",
+  "whatHappened": "¿Qué pasó en su lugar?",
+  "improvement": "¿Qué podría ser mejor?",
+  "placeholders": {
+    "like": "ej. El mapa facilitó encontrar grupos cercanos...",
+    "dislike": "ej. Quería filtrar por región...",
+    "reality": "ej. El mapa no se actualizó después de hacer clic...",
+    "improvement": "Tus sugerencias..."
+  },
+  "submit": "Enviar comentarios",
+  "sending": "Enviando...",
+  "success": "¡Comentarios enviados! Gracias.",
+  "error": "Algo salió mal",
+  "failed": "Error al enviar comentarios",
+  "validation": {
+    "like": "Por favor, cuéntanos qué te gustó",
+    "dislike": "Por favor, completa los campos obligatorios"
+  },
+  "privacyNote": "Capturamos automáticamente la versión de tu navegador y la información del sistema para ayudarnos a solucionar problemas.",
+  "publishAsIdea": {
+    "label": "Publicar también como idea pública en la hoja de ruta",
+    "hint": "Otros pueden votarla y comentarla. Los detalles de tu comentario permanecen privados.",
+    "titleLabel": "Título de la idea",
+    "titlePlaceholder": "Un título breve y claro",
+    "titleRequired": "Añade un título breve para tu idea.",
+    "typeLabel": "Categoría",
+    "types": {
+      "PAIN_POINT": "Problema",
+      "FEATURE_IDEA": "Idea de función",
+      "BUG_FIX": "Corrección de error"
+    },
+    "success": "Publicada en el tablón de la comunidad.",
+    "failed": "No se pudo publicar en el tablón de la comunidad."
+  }
+}

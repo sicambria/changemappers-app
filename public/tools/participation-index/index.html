@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & Meta Tags -->
+    <title>Real Participative Governance Index (RPGI) | Measuring Citizen Power</title>
+    <meta name="description"
+        content="A multidisciplinary analysis and framework to measure real citizen power in governance, moving beyond social theater using the RPGI framework.">
+    <meta name="keywords"
+        content="Participative Governance, RPGI, Citizen Power, Participation Theater, Governance Index, Civic Tech">
+    <meta name="author" content="RPGI Framework">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://rpgi-framework.org/">
+    <meta property="og:title" content="Real Participative Governance Index (RPGI)">
+    <meta property="og:description"
+        content="Measure real citizen power in governance. Explore the participation spectrum, identify theater, and calculate the RPGI.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1541872523-286d9a9cd911?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://rpgi-framework.org/">
+    <meta property="twitter:title" content="Real Participative Governance Index (RPGI)">
+    <meta property="twitter:description"
+        content="Measure real citizen power in governance. Explore the participation spectrum, identify theater, and calculate the RPGI.">
+    <meta property="twitter:image"
+        content="https://images.unsplash.com/photo-1541872523-286d9a9cd911?auto=format&fit=crop&w=1200&q=80">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Real Participative Governance Index (RPGI) Calculator",
+      "description": "An interactive tool to evaluate governance initiatives based on observable criteria and structural empowerment.",
+      "applicationCategory": "CivicTool",
+      "offers": {
+        "@type": "Offer",
+        "price": "0"
+      }
+    }
+    </script>
+
+    <script src="/tools/vendor/tailwind.min.js"></script>
+    <script src="/tools/vendor/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="/tools/vendor/fonts/fonts.css">
+
+    <style>
+        body {
+            background-color: #fafaf9;
+            color: #1c1917;
+            font-family: 'Source Serif 4', 'Playfair Display', Georgia, serif;
+            scroll-behavior: smooth;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: 'Playfair Display', Georgia, serif;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 400px;
+            max-height: 500px;
+        }
+
+        @media (max-width: 768px) {
+            .chart-container {
+                height: 300px;
+            }
+        }
+
+        .custom-range {
+            -webkit-appearance: none;
+            width: 100%;
+            height: 8px;
+            border-radius: 4px;
+            background: #e7e5e4;
+            outline: none;
+        }
+
+        .custom-range::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #059669;
+            cursor: pointer;
+            transition: transform 0.1s;
+        }
+
+        .custom-range::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+
+        .nav-link {
+            transition: color 0.2s, border-color 0.2s;
+        }
+
+        .nav-link:hover {
+            color: #059669;
+            border-color: #059669;
+        }
+
+        .tab-active {
+            background-color: #f5f5f4;
+            border-left: 4px solid #059669;
+            font-weight: 600;
+        }
+
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f5f5f4;
+            border-radius: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #d6d3d1;
+            border-radius: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #a8a29e;
+        }
+
+        .cm-tools-bridge {
+            background: #2D5A3D;
+            color: #FDFBF7;
+            font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+            border-bottom: 1px solid rgba(253, 251, 247, 0.22);
+        }
+        .cm-tools-bridge a { color: #FDFBF7; text-decoration: none; }
+        .cm-tools-bridge a:hover { text-decoration: underline; }
+        h1, h2, h3, .cm-tools-title { font-family: 'Playfair Display', Georgia, serif; }
+        button, input, select, textarea, .cm-tools-ui { font-family: 'DM Sans', 'Inter', system-ui, sans-serif; }
+    </style>
+</head>
+
+<body class="antialiased overflow-x-hidden">
+
+    <div class="cm-tools-bridge no-print">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 text-sm">
+            <a href="/tools" class="font-semibold">Changemappers tools</a>
+            <div class="flex gap-4 opacity-90">
+                <a href="/tools">Tools hub</a>
+                <a href="/">Changemappers</a>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="fixed top-0 w-full glass-panel z-50 border-b border-stone-200 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold font-serif tracking-tight text-stone-800" data-i18n="nav_brand">RPGI
+                        Framework</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#spectrum"
+                        class="nav-link text-sm font-medium text-stone-600 border-b-2 border-transparent pb-1"
+                        data-i18n="nav_spectrum">Participation Spectrum</a>
+                    <a href="#theater"
+                        class="nav-link text-sm font-medium text-stone-600 border-b-2 border-transparent pb-1"
+                        data-i18n="nav_theater">Participation Theater</a>
+                    <a href="#calculator"
+                        class="nav-link text-sm font-medium text-stone-600 border-b-2 border-transparent pb-1"
+                        data-i18n="nav_calculator">RPGI Calculator</a>
+                    <a href="#cases"
+                        class="nav-link text-sm font-medium text-stone-600 border-b-2 border-transparent pb-1"
+                        data-i18n="nav_cases">Case Studies</a>
+                </div>
+                <div class="flex md:hidden items-center">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-24 pb-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+        <header class="text-center max-w-4xl mx-auto mb-20">
+            <h1 class="text-4xl md:text-5xl font-black text-stone-900 mb-6 leading-tight" data-i18n="hero_title">Beyond
+                Social Theater: Measuring Real Citizen Power in Governance</h1>
+            <p class="text-xl text-stone-600 leading-relaxed">
+                <span data-i18n="hero_desc_1">A multidisciplinary analysis of the gap between performative consultation
+                    and structural empowerment. This tool applies behavioral economics, public administration, and
+                    complexity science to objectively measure governance initiatives using the falsifiable</span>
+                <strong class="text-stone-800" data-i18n="hero_desc_strong">Real Participative Governance Index
+                    (RPGI)</strong>.
+            </p>
+        </header>
+
+        <!-- 1. Spectrum Section -->
+        <section id="spectrum" class="mb-24 scroll-mt-24">
+            <div class="mb-8 border-b border-stone-200 pb-4">
+                <h2 class="text-3xl font-bold text-stone-800" data-i18n="sec1_title">1. The Spectrum of Participation
+                </h2>
+            </div>
+            <p class="text-lg text-stone-600 mb-8 max-w-3xl" data-i18n="sec1_desc">
+                This section maps the transition from symbolic acts to actual decision power. Extending Arnstein's
+                Ladder, this model defines discrete levels based purely on observable, testable characteristics
+                regarding decision authority and resource control, eliminating narrative-based classifications. Click on
+                a level to explore its structural markers.
+            </p>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div class="lg:col-span-1 flex flex-col space-y-2" id="ladder-container">
+                    <!-- Dynamically generated ladder items -->
+                </div>
+                <div
+                    class="lg:col-span-2 bg-white rounded-xl shadow-sm border border-stone-200 p-8 flex flex-col justify-center min-h-[300px]">
+                    <h3 id="spectrum-title" class="text-2xl font-bold text-stone-800 mb-4"
+                        data-i18n="sec1_select_title">Select a level</h3>
+                    <p id="spectrum-desc" class="text-stone-600 mb-6 text-lg" data-i18n="sec1_select_desc">Click a rung
+                        on the spectrum to view its objective criteria and observable signals.</p>
+                    <div id="spectrum-markers" class="grid grid-cols-1 md:grid-cols-2 gap-4 hidden">
+                        <div class="bg-stone-50 p-4 rounded-lg border border-stone-100">
+                            <span class="text-sm font-bold uppercase tracking-wider text-stone-500 mb-1 block"
+                                data-i18n="sec1_label_dec">Decision Impact</span>
+                            <span id="spectrum-dec" class="font-medium text-stone-800"></span>
+                        </div>
+                        <div class="bg-stone-50 p-4 rounded-lg border border-stone-100">
+                            <span class="text-sm font-bold uppercase tracking-wider text-stone-500 mb-1 block"
+                                data-i18n="sec1_label_res">Resource Control</span>
+                            <span id="spectrum-res" class="font-medium text-stone-800"></span>
+                        </div>
+                        <div class="bg-stone-50 p-4 rounded-lg border border-stone-100">
+                            <span class="text-sm font-bold uppercase tracking-wider text-stone-500 mb-1 block"
+                                data-i18n="sec1_label_leg">Legal Force</span>
+                            <span id="spectrum-leg" class="font-medium text-stone-800"></span>
+                        </div>
+                        <div class="bg-stone-50 p-4 rounded-lg border border-stone-100">
+                            <span class="text-sm font-bold uppercase tracking-wider text-stone-500 mb-1 block"
+                                data-i18n="sec1_label_feed">Feedback Loop</span>
+                            <span id="spectrum-feed" class="font-medium text-stone-800"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Theater Section -->
+        <section id="theater" class="mb-24 scroll-mt-24">
+            <div class="mb-8 border-b border-stone-200 pb-4">
+                <h2 class="text-3xl font-bold text-stone-800" data-i18n="sec2_title">2. Identifying "Participation
+                    Theater"</h2>
+            </div>
+            <p class="text-lg text-stone-600 mb-8 max-w-3xl" data-i18n="sec2_desc">
+                Why do leaders simulate participation instead of enabling it? Behavioral economics points to metric
+                gaming, diffusion of responsibility, and legitimacy signaling. Here we outline the systemic manipulation
+                patterns—observable inverse signals where high communication activity masks low structural impact.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- T1 -->
+                <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer theater-card"
+                    onclick="toggleTheaterDetail('t1')">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-bold text-lg text-stone-800" data-i18n="t1_title">Agenda Control</h3>
+                        <span class="text-2xl">🎭</span>
+                    </div>
+                    <p class="text-stone-600 text-sm mb-4" data-i18n="t1_desc">Restricting the scope of consultation to
+                        non-threatening administrative details rather than systemic issues.</p>
+                    <div id="t1" class="hidden text-sm border-t border-stone-100 pt-3 mt-3 text-stone-700">
+                        <strong class="text-rose-600 block mb-1" data-i18n="obs_signal">Observable Signal:</strong>
+                        <span data-i18n="t1_obs">Citizens can vote on park bench colors, but not the municipal zoning
+                            laws dictating the park's existence.</span>
+                    </div>
+                </div>
+                <!-- T2 -->
+                <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer theater-card"
+                    onclick="toggleTheaterDetail('t2')">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-bold text-lg text-stone-800" data-i18n="t2_title">Information Asymmetry</h3>
+                        <span class="text-2xl">🗄️</span>
+                    </div>
+                    <p class="text-stone-600 text-sm mb-4" data-i18n="t2_desc">Providing complex, redacted, or highly
+                        technical data formats that effectively preclude informed citizen deliberation.</p>
+                    <div id="t2" class="hidden text-sm border-t border-stone-100 pt-3 mt-3 text-stone-700">
+                        <strong class="text-rose-600 block mb-1" data-i18n="obs_signal">Observable Signal:</strong>
+                        <span data-i18n="t2_obs">Budget datasets provided as 500-page flattened PDFs rather than
+                            queryable, open-source databases.</span>
+                    </div>
+                </div>
+                <!-- T3 -->
+                <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer theater-card"
+                    onclick="toggleTheaterDetail('t3')">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-bold text-lg text-stone-800" data-i18n="t3_title">Narrative Substitution</h3>
+                        <span class="text-2xl">📢</span>
+                    </div>
+                    <p class="text-stone-600 text-sm mb-4" data-i18n="t3_desc">Replacing binding outcomes with PR
+                        language centered around "having a voice," "trust," or "community spirit."</p>
+                    <div id="t3" class="hidden text-sm border-t border-stone-100 pt-3 mt-3 text-stone-700">
+                        <strong class="text-rose-600 block mb-1" data-i18n="obs_signal">Observable Signal:</strong>
+                        <span data-i18n="t3_obs">High PR expenditure on consultation campaigns with exactly zero
+                            statutory integration of the resulting outputs.</span>
+                    </div>
+                </div>
+                <!-- T4 -->
+                <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer theater-card"
+                    onclick="toggleTheaterDetail('t4')">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-bold text-lg text-stone-800" data-i18n="t4_title">Selection Bias</h3>
+                        <span class="text-2xl">🎯</span>
+                    </div>
+                    <p class="text-stone-600 text-sm mb-4" data-i18n="t4_desc">Designing engagement formats that heavily
+                        favor time-rich, highly educated, or organized special interest groups.</p>
+                    <div id="t4" class="hidden text-sm border-t border-stone-100 pt-3 mt-3 text-stone-700">
+                        <strong class="text-rose-600 block mb-1" data-i18n="obs_signal">Observable Signal:</strong>
+                        <span data-i18n="t4_obs">Consultations held exclusively at 2 PM on Tuesdays; lack of sortition
+                            (random selection) mechanisms.</span>
+                    </div>
+                </div>
+                <!-- T5 -->
+                <div class="bg-white p-6 rounded-xl border border-stone-200 shadow-sm hover:shadow-md transition-shadow cursor-pointer theater-card"
+                    onclick="toggleTheaterDetail('t5')">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-bold text-lg text-stone-800" data-i18n="t5_title">Delayed Implementation</h3>
+                        <span class="text-2xl">⏳</span>
+                    </div>
+                    <p class="text-stone-600 text-sm mb-4" data-i18n="t5_desc">Using institutional latency to quietly
+                        abandon citizen decisions after the immediate PR value has been extracted.</p>
+                    <div id="t5" class="hidden text-sm border-t border-stone-100 pt-3 mt-3 text-stone-700">
+                        <strong class="text-rose-600 block mb-1" data-i18n="obs_signal">Observable Signal:</strong>
+                        <span data-i18n="t5_obs">Time-to-impact latency exceeding electoral cycles; zero independent
+                            auditability of execution fidelity.</span>
+                    </div>
+                </div>
+                <!-- T6 -->
+                <div class="bg-white p-6 rounded-xl border shadow-sm hover:shadow-md transition-shadow cursor-pointer theater-card bg-stone-50 border-emerald-200"
+                    onclick="toggleTheaterDetail('t6')">
+                    <div class="flex items-center justify-between mb-4">
+                        <h3 class="font-bold text-lg text-emerald-800" data-i18n="t6_title">The Ultimate Metric</h3>
+                        <span class="text-2xl">⚖️</span>
+                    </div>
+                    <p class="text-emerald-700 text-sm mb-4 font-medium" data-i18n="t6_desc">To pierce the theater, we
+                        must measure what is observable: Binding Authority and Resource Allocation.</p>
+                    <div id="t6" class="hidden text-sm border-t border-emerald-200 pt-3 mt-3 text-emerald-800"
+                        data-i18n="t6_obs">
+                        Proceed to the RPGI Framework below to evaluate systems on an empirical 0-100 scale.
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Calculator Section -->
+        <section id="calculator"
+            class="mb-24 scroll-mt-24 bg-white rounded-2xl shadow-xl border border-stone-200 overflow-hidden">
+            <div class="bg-stone-900 text-white p-8">
+                <h2 class="text-3xl font-bold mb-2" data-i18n="sec3_title">3. Real Participative Governance Index (RPGI)
+                </h2>
+                <p class="text-stone-300 max-w-3xl">
+                    <span data-i18n="sec3_desc_1">A composite, falsifiable scoring system. Move the sliders to evaluate
+                        an initiative based on observable criteria.</span>
+                    <strong data-i18n="sec3_desc_strong">Aggregation Logic:</strong> <span
+                        data-i18n="sec3_desc_2">Weighted average, but features a <em>Complexity Minimum-Threshold</em>:
+                        if any critical systemic dimension drops below 25, the total system score is aggressively
+                        capped, representing vulnerability to capture or collapse.</span>
+                </p>
+            </div>
+
+            <div class="p-8 grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Sliders -->
+                <div class="flex flex-col space-y-6 max-h-[600px] overflow-y-auto pr-4 custom-scrollbar">
+
+                    <div class="space-y-2 border-b border-stone-100 pb-4">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl1_title">1. Decision Power</label>
+                            <span id="val-dp" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-dp" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl1_min">Advisory Only (0)</span>
+                            <span data-i18n="sl1_max">Binding Authority (100)</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 border-b border-stone-100 pb-4">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl2_title">2. Resource Control</label>
+                            <span id="val-rc" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-rc" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl2_min">No Control (0)</span>
+                            <span data-i18n="sl2_max">Direct Allocation (100)</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 border-b border-stone-100 pb-4">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl3_title">3. Inclusiveness</label>
+                            <span id="val-in" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-in" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl3_min">Token/Self-Selected (0)</span>
+                            <span data-i18n="sl3_max">Sortition/Bias-Corrected (100)</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 border-b border-stone-100 pb-4">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl4_title">4. Information
+                                Symmetry</label>
+                            <span id="val-is" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-is" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl4_min">Opaque/Redacted (0)</span>
+                            <span data-i18n="sl4_max">Full Usable Transparency (100)</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 border-b border-stone-100 pb-4">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl5_title">5. Accountability</label>
+                            <span id="val-ac" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-ac" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl5_min">No Obligation (0)</span>
+                            <span data-i18n="sl5_max">Enforced Sanctions (100)</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 border-b border-stone-100 pb-4">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl6_title">6. Continuity</label>
+                            <span id="val-co" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-co" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl6_min">One-off Stunt (0)</span>
+                            <span data-i18n="sl6_max">Institutionalized (100)</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 border-b border-stone-100 pb-4">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl7_title">7. Deliberation
+                                Quality</label>
+                            <span id="val-dq" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-dq" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl7_min">Superficial Input (0)</span>
+                            <span data-i18n="sl7_max">Structured/Evidence-Based (100)</span>
+                        </div>
+                    </div>
+
+                    <div class="space-y-2 pb-2">
+                        <div class="flex justify-between items-center">
+                            <label class="font-bold text-stone-800" data-i18n="sl8_title">8. Anti-Capture
+                                Resilience</label>
+                            <span id="val-ar" class="font-mono bg-stone-100 px-2 py-1 rounded text-sm">50</span>
+                        </div>
+                        <input type="range" id="slider-ar" min="0" max="100" value="50" class="custom-range"
+                            oninput="updateRPGI()">
+                        <div class="flex justify-between text-xs text-stone-500">
+                            <span data-i18n="sl8_min">Easily Manipulated (0)</span>
+                            <span data-i18n="sl8_max">Robust Safeguards (100)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chart -->
+                <div
+                    class="flex flex-col items-center justify-center bg-stone-50 rounded-xl p-6 border border-stone-200">
+                    <div class="mb-4 text-center">
+                        <span class="block text-sm uppercase tracking-widest text-stone-500 font-bold mb-2"
+                            data-i18n="calc_aggregate">Aggregate RPGI Score</span>
+                        <div class="flex items-end justify-center space-x-2">
+                            <span id="total-score" class="text-6xl font-black text-amber-500">50</span>
+                            <span class="text-xl text-stone-400 mb-2">/ 100</span>
+                        </div>
+                        <div id="threshold-warning"
+                            class="mt-2 text-sm text-rose-600 font-semibold h-5 opacity-0 transition-opacity"
+                            data-i18n="calc_warning">
+                            Score Capped: Critical Dimension below 25
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <canvas id="rpgiRadarChart"></canvas>
+                    </div>
+                    <div class="mt-6 w-full flex justify-between space-x-2">
+                        <button onclick="presetSliders([10,0,20,30,0,10,10,10])"
+                            class="flex-1 py-2 text-xs font-bold uppercase tracking-wide bg-stone-200 hover:bg-rose-200 text-stone-700 hover:text-rose-800 rounded transition-colors"
+                            data-i18n="btn_load_theater">Load Theater Case</button>
+                        <button onclick="presetSliders([70,40,80,60,70,80,90,70])"
+                            class="flex-1 py-2 text-xs font-bold uppercase tracking-wide bg-stone-200 hover:bg-emerald-200 text-stone-700 hover:text-emerald-800 rounded transition-colors"
+                            data-i18n="btn_load_robust">Load Robust Case</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Cases Section -->
+        <section id="cases" class="mb-24 scroll-mt-24">
+            <div class="mb-8 border-b border-stone-200 pb-4">
+                <h2 class="text-3xl font-bold text-stone-800" data-i18n="sec4_title">4. Empirical Case Studies</h2>
+            </div>
+            <p class="text-lg text-stone-600 mb-8 max-w-3xl" data-i18n="sec4_desc">
+                Applying the RPGI to real-world scenarios reveals structural weaknesses. This comparative analysis
+                highlights both high-performing institutionalized assemblies and deceptive, high-PR participation
+                stunts. Select a case study to view its multi-dimensional breakdown.
+            </p>
+
+            <div class="bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden">
+                <div class="flex flex-col md:flex-row border-b border-stone-200" id="case-tabs-container">
+                    <button onclick="loadCaseData(0)"
+                        class="case-tab tab-active flex-1 py-4 px-6 text-left md:text-center text-sm font-medium hover:bg-stone-50 transition-colors"
+                        id="tab0">Standard PR Townhall</button>
+                    <button onclick="loadCaseData(1)"
+                        class="case-tab flex-1 py-4 px-6 text-left md:text-center text-sm font-medium hover:bg-stone-50 transition-colors border-t md:border-t-0 md:border-l border-stone-200 text-stone-500"
+                        id="tab1">Unstructured Referendum</button>
+                    <button onclick="loadCaseData(2)"
+                        class="case-tab flex-1 py-4 px-6 text-left md:text-center text-sm font-medium hover:bg-stone-50 transition-colors border-t md:border-t-0 md:border-l border-stone-200 text-stone-500"
+                        id="tab2">Ostbelgien Model</button>
+                    <button onclick="loadCaseData(3)"
+                        class="case-tab flex-1 py-4 px-6 text-left md:text-center text-sm font-medium hover:bg-stone-50 transition-colors border-t md:border-t-0 md:border-l border-stone-200 text-stone-500"
+                        id="tab3">Paris Part. Budget</button>
+                </div>
+
+                <div class="p-8 grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+                    <div class="lg:col-span-1">
+                        <h3 id="case-title" class="text-2xl font-bold text-stone-800 mb-3">Standard PR Townhall</h3>
+                        <div id="case-score-badge"
+                            class="inline-block px-3 py-1 rounded bg-rose-100 text-rose-800 font-bold mb-4 border border-rose-200">
+                            RPGI: 14 / 100</div>
+                        <p id="case-desc" class="text-stone-600 mb-4 text-sm leading-relaxed">
+                            A typical municipal consultation event...
+                        </p>
+                        <div class="bg-stone-50 p-4 rounded border border-stone-100">
+                            <span class="block text-xs uppercase font-bold text-stone-500 mb-1"
+                                data-i18n="case_fail_highlight">Failure Mode Highlight</span>
+                            <span id="case-fail" class="text-sm font-medium text-stone-700">Non-binding
+                                outcomes...</span>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-2">
+                        <div class="chart-container">
+                            <canvas id="caseBarChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Interventions Section -->
+        <section id="interventions" class="mb-12 scroll-mt-24">
+            <div class="mb-8 border-b border-stone-200 pb-4 flex items-center justify-between">
+                <h2 class="text-3xl font-bold text-stone-800" data-i18n="sec5_title">5. Transition Paths & Safeguards
+                </h2>
+            </div>
+            <p class="text-lg text-stone-600 mb-8 max-w-3xl" data-i18n="sec5_desc">
+                Moving from low (0-30) to high (70-100) RPGI environments requires structural engineering, not better
+                marketing. These concrete mechanisms act as anti-capture safeguards to ensure power transfer is
+                actualized.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="border border-emerald-600 bg-white p-6 rounded-r-xl shadow-sm">
+                    <h4 class="font-bold text-stone-800 text-lg mb-2" data-i18n="i1_title">Binding Participatory
+                        Budgeting</h4>
+                    <p class="text-sm text-stone-600 mb-3" data-i18n="i1_desc">Requires hardcoded legal thresholds
+                        (e.g., minimum 5% of municipal investment budget directly allocated via citizen vote). Bypasses
+                        administrative filtering.</p>
+                    <div class="flex items-center text-xs text-emerald-700 font-medium bg-emerald-50 inline-block px-2 py-1 rounded"
+                        data-i18n="i1_inc">Increases: Resource Control, Decision Power</div>
+                </div>
+
+                <div class="border border-emerald-600 bg-white p-6 rounded-r-xl shadow-sm">
+                    <h4 class="font-bold text-stone-800 text-lg mb-2" data-i18n="i2_title">Sortition (Random Selection)
+                    </h4>
+                    <p class="text-sm text-stone-600 mb-3" data-i18n="i2_desc">Replacing self-selection with
+                        demographically stratified random selection. Eliminates lobbying capture and inclusion bias
+                        toward hyper-engaged minorities.</p>
+                    <div class="flex items-center text-xs text-emerald-700 font-medium bg-emerald-50 inline-block px-2 py-1 rounded"
+                        data-i18n="i2_inc">Increases: Inclusiveness, Anti-Capture</div>
+                </div>
+
+                <div class="border border-emerald-600 bg-white p-6 rounded-r-xl shadow-sm">
+                    <h4 class="font-bold text-stone-800 text-lg mb-2" data-i18n="i3_title">Legislative Triggers</h4>
+                    <p class="text-sm text-stone-600 mb-3" data-i18n="i3_desc">Institutional rules mandating that if a
+                        citizen assembly reaches a supermajority (e.g., 80%), the parliament *must* debate and vote on
+                        the drafted bill within 90 days.</p>
+                    <div class="flex items-center text-xs text-emerald-700 font-medium bg-emerald-50 inline-block px-2 py-1 rounded"
+                        data-i18n="i3_inc">Increases: Accountability, Continuity</div>
+                </div>
+
+                <div class="border border-emerald-600 bg-white p-6 rounded-r-xl shadow-sm">
+                    <h4 class="font-bold text-stone-800 text-lg mb-2" data-i18n="i4_title">Adversarial Audits</h4>
+                    <p class="text-sm text-stone-600 mb-3" data-i18n="i4_desc">Independent verification bodies tasked
+                        specifically with tracking the "implementation fidelity" mapping initial citizen decisions to
+                        final executed codes/laws.</p>
+                    <div class="flex items-center text-xs text-emerald-700 font-medium bg-emerald-50 inline-block px-2 py-1 rounded"
+                        data-i18n="i4_inc">Increases: Information Symmetry, Accountability</div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer Section with License and Link -->
+    <footer class="bg-stone-100 py-10 border-t border-stone-200 mt-8">
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center space-y-6 text-center">
+            <div class="space-y-4">
+                <p class="text-stone-800 font-bold text-lg md:text-xl" data-i18n="footer_link">
+                    Te is szeretnél hozzájárulni a valódi rendszerváltáshoz, paradigmaváltáshoz?
+                </p>
+                <a href="https://changemappers.org/projects/" target="_blank" rel="noopener noreferrer"
+                    class="inline-block bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2 px-8 rounded-full shadow transition-colors"
+                    data-i18n="footer_btn">
+                    Tovább a projektekhez
+                </a>
+            </div>
+            <div class="text-stone-500 text-sm font-medium flex items-center space-x-1 pt-4">
+                <span data-i18n="footer_license_pre">Licenc:</span>
+                <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener noreferrer"
+                    class="hover:text-stone-800 transition-colors font-bold border-b border-transparent hover:border-stone-800">
+                    CC-BY-SA 4.0
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Functionality & Multi-Language Logic -->
+    <script>
+        // --- Internationalization (i18n) Data ---
+        const i18n = {
+            en: {
+                nav_brand: "RPGI Framework",
+                nav_spectrum: "Participation Spectrum",
+                nav_theater: "Participation Theater",
+                nav_calculator: "RPGI Calculator",
+                nav_cases: "Case Studies",
+                hero_title: "Beyond Social Theater: Measuring Real Citizen Power in Governance",
+                hero_desc_1: "A multidisciplinary analysis of the gap between performative consultation and structural empowerment. This tool applies behavioral economics, public administration, and complexity science to objectively measure governance initiatives using the falsifiable ",
+                hero_desc_strong: "Real Participative Governance Index (RPGI)",
+                sec1_title: "1. The Spectrum of Participation",
+                sec1_desc: "This section maps the transition from symbolic acts to actual decision power. Extending Arnstein's Ladder, this model defines discrete levels based purely on observable, testable characteristics regarding decision authority and resource control, eliminating narrative-based classifications. Click on a level to explore its structural markers.",
+                sec1_select_title: "Select a level",
+                sec1_select_desc: "Click a rung on the spectrum to view its objective criteria and observable signals.",
+                sec1_label_dec: "Decision Impact",
+                sec1_label_res: "Resource Control",
+                sec1_label_leg: "Legal Force",
+                sec1_label_feed: "Feedback Loop",
+                sec2_title: "2. Identifying \"Participation Theater\"",
+                sec2_desc: "Why do leaders simulate participation instead of enabling it? Behavioral economics points to metric gaming, diffusion of responsibility, and legitimacy signaling. Here we outline the systemic manipulation patterns—observable inverse signals where high communication activity masks low structural impact.",
+                t1_title: "Agenda Control",
+                t1_desc: "Restricting the scope of consultation to non-threatening administrative details rather than systemic issues.",
+                t1_obs: "Citizens can vote on park bench colors, but not the municipal zoning laws dictating the park's existence.",
+                t2_title: "Information Asymmetry",
+                t2_desc: "Providing complex, redacted, or highly technical data formats that effectively preclude informed citizen deliberation.",
+                t2_obs: "Budget datasets provided as 500-page flattened PDFs rather than queryable, open-source databases.",
+                t3_title: "Narrative Substitution",
+                t3_desc: "Replacing binding outcomes with PR language centered around \"having a voice,\" \"trust,\" or \"community spirit.\"",
+                t3_obs: "High PR expenditure on consultation campaigns with exactly zero statutory integration of the resulting outputs.",
+                t4_title: "Selection Bias",
+                t4_desc: "Designing engagement formats that heavily favor time-rich, highly educated, or organized special interest groups.",
+                t4_obs: "Consultations held exclusively at 2 PM on Tuesdays; lack of sortition (random selection) mechanisms.",
+                t5_title: "Delayed Implementation",
+                t5_desc: "Using institutional latency to quietly abandon citizen decisions after the immediate PR value has been extracted.",
+                t5_obs: "Time-to-impact latency exceeding electoral cycles; zero independent auditability of execution fidelity.",
+                t6_title: "The Ultimate Metric",
+                t6_desc: "To pierce the theater, we must measure what is observable: Binding Authority and Resource Allocation.",
+                t6_obs: "Proceed to the RPGI Framework below to evaluate systems on an empirical 0-100 scale.",
+                obs_signal: "Observable Signal:",
+                sec3_title: "3. Real Participative Governance Index (RPGI)",
+                sec3_desc_1: "A composite, falsifiable scoring system. Move the sliders to evaluate an initiative based on observable criteria. ",
+                sec3_desc_strong: "Aggregation Logic:",
+                sec3_desc_2: " Weighted average, but features a Complexity Minimum-Threshold: if any critical systemic dimension drops below 25, the total system score is aggressively capped, representing vulnerability to capture or collapse.",
+                sl1_title: "1. Decision Power", sl1_min: "Advisory Only (0)", sl1_max: "Binding Authority (100)",
+                sl2_title: "2. Resource Control", sl2_min: "No Control (0)", sl2_max: "Direct Allocation (100)",
+                sl3_title: "3. Inclusiveness", sl3_min: "Token/Self-Selected (0)", sl3_max: "Sortition/Bias-Corrected (100)",
+                sl4_title: "4. Information Symmetry", sl4_min: "Opaque/Redacted (0)", sl4_max: "Full Usable Transparency (100)",
+                sl5_title: "5. Accountability", sl5_min: "No Obligation (0)", sl5_max: "Enforced Sanctions (100)",
+                sl6_title: "6. Continuity", sl6_min: "One-off Stunt (0)", sl6_max: "Institutionalized (100)",
+                sl7_title: "7. Deliberation Quality", sl7_min: "Superficial Input (0)", sl7_max: "Structured/Evidence-Based (100)",
+                sl8_title: "8. Anti-Capture Resilience", sl8_min: "Easily Manipulated (0)", sl8_max: "Robust Safeguards (100)",
+                calc_aggregate: "Aggregate RPGI Score",
+                calc_warning: "Score Capped: Critical Dimension below 25",
+                btn_load_theater: "Load Theater Case",
+                btn_load_robust: "Load Robust Case",
+                sec4_title: "4. Empirical Case Studies",
+                sec4_desc: "Applying the RPGI to real-world scenarios reveals structural weaknesses. This comparative analysis highlights both high-performing institutionalized assemblies and deceptive, high-PR participation stunts. Select a case study to view its multi-dimensional breakdown.",
+                case_fail_highlight: "Failure Mode Highlight",
+                sec5_title: "5. Transition Paths & Safeguards",
+                sec5_desc: "Moving from low (0-30) to high (70-100) RPGI environments requires structural engineering, not better marketing. These concrete mechanisms act as anti-capture safeguards to ensure power transfer is actualized.",
+                i1_title: "Binding Participatory Budgeting", i1_desc: "Requires hardcoded legal thresholds (e.g., minimum 5% of municipal investment budget directly allocated via citizen vote). Bypasses administrative filtering.", i1_inc: "Increases: Resource Control, Decision Power",
+                i2_title: "Sortition (Random Selection)", i2_desc: "Replacing self-selection with demographically stratified random selection. Eliminates lobbying capture and inclusion bias toward hyper-engaged minorities.", i2_inc: "Increases: Inclusiveness, Anti-Capture",
+                i3_title: "Legislative Triggers", i3_desc: "Institutional rules mandating that if a citizen assembly reaches a supermajority (e.g., 80%), the parliament *must* debate and vote on the drafted bill within 90 days.", i3_inc: "Increases: Accountability, Continuity",
+                i4_title: "Adversarial Audits", i4_desc: "Independent verification bodies tasked specifically with tracking the \"implementation fidelity\" mapping initial citizen decisions to final executed codes/laws.", i4_inc: "Increases: Information Symmetry, Accountability",
+                footer_link: "Would you like to contribute to real systemic change and a healthier shared future?",
+                footer_btn: "View Projects",
+                footer_license_pre: "Licensed under"
+            },
+            hu: {
+                nav_brand: "RPGI Keretrendszer",
+                nav_spectrum: "A Részvétel Fokozatai",
+                nav_theater: "Látszatintézkedések",
+                nav_calculator: "Kalkulátor",
+                nav_cases: "Esettanulmányok",
+                hero_title: "A politikai színjátékon túl: A valós lakossági hatalom mérése",
+                hero_desc_1: "Ez az eszköz a megjátszott, látszólagos lakossági egyeztetések és a tényleges hatalomátadás közötti szakadékot méri fel. A viselkedési közgazdaságtan és a rendszerelmélet segítségével tények alapján értékeli a kezdeményezéseket a kézzelfogható ",
+                hero_desc_strong: "Valós Részvételi Kormányzás Index (RPGI)",
+                sec1_title: "1. A bevonás fokozatai",
+                sec1_desc: "Ez a rész megmutatja az utat a jelképes látszatintézkedésektől a tényleges döntéshozói hatalomig. A rendszert kézzelfogható, ellenőrizhető ismérvekre alapoztuk, mint a döntési jogkör és a pénzügyi források feletti rendelkezés. Kattintson a szintekre a részletek felfedezéséhez.",
+                sec1_select_title: "Válasszon egy szintet",
+                sec1_select_desc: "Kattintson a skála egyik fokára a részletes, tényeken alapuló ismérvek megtekintéséhez.",
+                sec1_label_dec: "Döntési jogkör",
+                sec1_label_res: "Pénzügyi rendelkezés",
+                sec1_label_leg: "Jogi kötőerő",
+                sec1_label_feed: "Visszacsatolás",
+                sec2_title: "2. A „Látszólagos részvétel” felismerése",
+                sec2_desc: "Miért csak eljátsszák a politikai vezetők a bevonást ahelyett, hogy valós hatalmat adnának? A legtöbb esetben a felelősség hárítása vagy a társadalmi elfogadottság látszatának keltése a cél. Az alábbiakban bemutatjuk a leggyakoribb trükköket, ahol a nagy médiavisszhang mögött valójában semmilyen valódi hatás nem áll.",
+                t1_title: "A napirend kisajátítása",
+                t1_desc: "A véleménykérés témáját veszélytelen, apró hivatali részletekre korlátozzák a fontos, alapvető kérdések helyett.",
+                t1_obs: "A lakosok megszavazhatják a parki padok színét, de abba már nincs beleszólásuk, hogy a területet beépítik-e vagy park marad.",
+                t2_title: "Kiegyenlítetlen tájékoztatás",
+                t2_desc: "Olyan bonyolult, megvágott vagy túlzottan szakmai formátumban adják át az adatokat, ami lehetetlenné teszi az érdemi döntéshozatalt.",
+                t2_obs: "A költségvetési adatokat kereshetetlen, 500 oldalas szkennelt dokumentumokban teszik közzé egy átlátható, digitális adatbázis helyett.",
+                t3_title: "Üres jelszavak puffogtatása",
+                t3_desc: "A konkrét döntések helyett a kommunikációt olyan hangzatos kifejezésekre építik, mint a „meghallgattuk a hangját” vagy „közösségépítés”.",
+                t3_obs: "Hatalmas összegeket költenek az egyeztetések reklámozására, de a kapott eredményeket semmilyen törvénybe vagy rendeletbe nem építik be.",
+                t4_title: "Kirekesztő kiválasztás",
+                t4_desc: "Olyan bevonási formákat terveznek, amelyek erősen kedveznek a sok szabadidővel rendelkező, jómódú vagy hangos érdekcsoportoknak.",
+                t4_obs: "A fórumokat kizárólag hétköznap kora délután tartják; és kerülik a véletlenszerű sorsolást, ami biztosítaná az átlagemberek részvételét.",
+                t5_title: "Időhúzás és elszabotálás",
+                t5_desc: "A hivatal lassúságát használják fel arra, hogy a lakosok döntéseit csendben elsüllyesszék, miután az esemény reklámértékét már kihasználták.",
+                t5_obs: "A megvalósítás annyit késik, hogy túlnyúlik egy választási cikluson; a végrehajtást pedig semmilyen független szervezet nem ellenőrzi.",
+                t6_title: "A mindent eldöntő mérce",
+                t6_desc: "A politikai színház leleplezéséhez a valóságot kell vizsgálnunk: kinek van kötelező érvényű döntési joga, és ki rendelkezik a pénz felett?",
+                t6_obs: "Lépjen tovább az alábbi RPGI Kalkulátorhoz, hogy értékelje a kezdeményezéseket egy 0-tól 100-ig terjedő, tapasztalati skálán.",
+                obs_signal: "A valóságban ez így néz ki:",
+                sec3_title: "3. Valós Részvételi Kormányzás Index (RPGI)",
+                sec3_desc_1: "Ez egy összetett, tényeken alapuló pontozási rendszer. Mozgassa a csúszkákat a különböző szempontok értékeléséhez. ",
+                sec3_desc_strong: "Számítási logika:",
+                sec3_desc_2: " A rendszer súlyozott átlagot számol, de egy fontos megkötéssel: ha bármelyik kritikus szempont 25 pont alá esik, az egész kezdeményezés pontszáma drasztikusan lecsökken, jelezve, hogy a rendszer sebezhető és látszólagos.",
+                sl1_title: "1. Döntési hatalom", sl1_min: "Csak javaslattétel (0)", sl1_max: "Kötelező érvényű (100)",
+                sl2_title: "2. Erőforrások feletti irányítás", sl2_min: "Nincs beleszólás (0)", sl2_max: "Közvetlen pénzosztás (100)",
+                sl3_title: "3. Esélyegyenlőség (Befogadás)", sl3_min: "Kirekesztő / Önkéntes (0)", sl3_max: "Sorsolásos kiválasztás (100)",
+                sl4_title: "4. Információs egyenlőség", sl4_min: "Titkosított / Érthetetlen (0)", sl4_max: "Teljesen átlátható (100)",
+                sl5_title: "5. Elszámoltathatóság", sl5_min: "Nincs semmi következmény (0)", sl5_max: "Kikényszeríthető szabályok (100)",
+                sl6_title: "6. Folytonosság", sl6_min: "Egyszeri reklámakció (0)", sl6_max: "Törvénybe iktatott (100)",
+                sl7_title: "7. A közös gondolkodás minősége", sl7_min: "Felszínes véleményezés (0)", sl7_max: "Tényeken alapuló, alapos vita (100)",
+                sl8_title: "8. Védettség a visszaélésektől", sl8_min: "Könnyen manipulálható (0)", sl8_max: "Erős garanciák védik (100)",
+                calc_aggregate: "Összesített RPGI Pontszám",
+                calc_warning: "Pontszám lecsökkentve: Egy kritikus érték 25 alatt van",
+                btn_load_theater: "Látszatintézkedés Betöltése",
+                btn_load_robust: "Működő Rendszer Betöltése",
+                sec4_title: "4. Valós Esettanulmányok",
+                sec4_desc: "A módszertan valós helyzetekre történő alkalmazása kíméletlenül feltárja a rendszerek gyengeségeit. Az alábbi összehasonlítás megmutatja a különbséget egy jól felépített lakossági gyűlés és egy nagy visszhangot kapó, de üres politikai akció között.",
+                case_fail_highlight: "A rendszer legnagyobb hibája",
+                sec5_title: "5. A valódi változás eszközei",
+                sec5_desc: "Ahhoz, hogy egy látszólagos (0-30 pontos) rendszerből valódi beleszólást biztosító (70-100 pontos) környezetet teremtsünk, jogi garanciákra és strukturális változásokra van szükség, nem pedig jobb kommunikációra.",
+                i1_title: "Kötelező érvényű részvételi költségvetés", i1_desc: "Szigorú jogi garanciákat követel (pl. a városi beruházások legalább 5%-áról közvetlenül a lakosok döntenek kötelező érvényű szavazással). Ezzel kikerülik a politikai szűrőket.", i1_inc: "Növeli: Erőforrások feletti irányítás, Döntési hatalom",
+                i2_title: "Sorsolásos bevonás", i2_desc: "Az önkéntes jelentkezés felváltása egy társadalmilag sokszínű, a teljes lakosságot hűen tükröző véletlenszerű kiválasztással (sorsolással). Így a csendes többség is szót kap, és elkerülhető az érdekcsoportok hatalomátvétele.", i2_inc: "Növeli: Esélyegyenlőség, Védettség a visszaélésektől",
+                i3_title: "Automatikus törvényhozási lépések", i3_desc: "Szabályokba foglalják, hogy ha egy lakossági gyűlés egy javaslatot nagy többséggel (pl. 80%) elfogad, azt a közgyűlésnek vagy parlamentnek kötelezően tárgyalnia kell 90 napon belül.", i3_inc: "Növeli: Elszámoltathatóság, Folytonosság",
+                i4_title: "Független civil ellenőrzés", i4_desc: "Független civil és szakmai testületek létrehozása, amelyek kifejezetten azt ellenőrzik, hogy a polgárok eredeti döntéseit milyen hűséggel hajtották végre a valóságban.", i4_inc: "Növeli: Információs egyenlőség, Elszámoltathatóság",
+                footer_link: "Te is szeretnél hozzájárulni a valódi rendszerváltáshoz, paradigmaváltáshoz?",
+                footer_btn: "Tovább a projektekhez",
+                footer_license_pre: "Licenc:"
+            }
+        };
+
+        // Arrays containing data that changes by language
+        const ladderContent = {
+            en: [
+                { level: "1. Manipulation & PR", class: "bg-rose-50 border-rose-200 text-rose-800 hover:bg-rose-100", dec: "Zero. Rubber-stamping decisions already made.", res: "Zero.", leg: "None.", feed: "One-way PR campaigns." },
+                { level: "2. Therapy / Placation", class: "bg-rose-50 border-rose-200 text-rose-800 hover:bg-rose-100", dec: "Zero. Focus is on 'educating' citizens to accept plans.", res: "Zero.", leg: "None.", feed: "Token surveys with leading questions." },
+                { level: "3. Informing", class: "bg-amber-50 border-amber-200 text-amber-800 hover:bg-amber-100", dec: "Zero.", res: "Zero.", leg: "Freedom of Information requests.", feed: "Late-stage notification of impact." },
+                { level: "4. Consultation", class: "bg-amber-50 border-amber-200 text-amber-800 hover:bg-amber-100", dec: "Advisory. Authorities retain 100% veto power.", res: "Zero.", leg: "Statutory requirement to 'listen'.", feed: "Townhalls, non-binding polls." },
+                { level: "5. Partnership", class: "bg-emerald-50 border-emerald-200 text-emerald-800 hover:bg-emerald-100", dec: "Shared. Negotiation between citizens and powerholders.", res: "Partial. Shared planning boards.", leg: "Joint committees, co-drafting.", feed: "Iterative negotiation loops." },
+                { level: "6. Delegated Power", class: "bg-emerald-50 border-emerald-200 text-emerald-800 hover:bg-emerald-100", dec: "Majority control over specific domains.", res: "Majority control of dedicated budgets.", leg: "Citizen assemblies with legislative triggers.", feed: "Direct policy implementation." },
+                { level: "7. Citizen Control", class: "bg-emerald-100 border-emerald-300 text-emerald-900 hover:bg-emerald-200", dec: "Absolute binding authority.", res: "Complete fiscal allocation power.", leg: "Binding referenda, constitutional control.", feed: "System design rights." }
+            ],
+            hu: [
+                { level: "1. Manipuláció és Arculatépítés", class: "bg-rose-50 border-rose-200 text-rose-800 hover:bg-rose-100", dec: "Nincs. A döntések már a zárt ajtók mögött megszülettek. A lakosság bevonása csupán egy utólagos színjáték, aminek a célja, hogy a vezetők kipipálhassák a kötelező köröket.", res: "Semmi. A lakosoknak nincs beleszólása a pénzosztásba.", leg: "Nincs. Tisztán politikai marketingeszköz, jogi kötelezettség nélkül.", feed: "Egyirányú, manipulatív kommunikációs kampányok, amelyek célja a látszat fenntartása." },
+                { level: "2. Lecsillapítás és Terelés", class: "bg-rose-50 border-rose-200 text-rose-800 hover:bg-rose-100", dec: "Nincs. A cél nem a lakosság valós problémáinak megoldása, hanem az elégedetlenség tompítása. Úgy tesznek, mintha kikérnék az emberek véleményét, de valójában csak meg akarják győzni őket.", res: "Semmi. Esetleg minimális, szimbolikus összegek látványos, de súlytalan intézkedésekre.", leg: "Nincs garancia.", feed: "Irányított kérdéseket tartalmazó felmérések és látszatfórumok, ahol a kritikát elhallgattatják." },
+                { level: "3. Egyirányú Tájékoztatás", class: "bg-amber-50 border-amber-200 text-amber-800 hover:bg-amber-100", dec: "Nincs. A polgárokat csupán utólagosan, kész tények elé állítva tájékoztatják a várható változásokról.", res: "Semmi.", leg: "Közérdekű adatok megismeréséhez való jog, ami sokszor lassú és bürokratikus.", feed: "Kései, véglegesített tájékoztatás, érdemi változtatási lehetőség nélkül." },
+                { level: "4. Véleménykérés (Konzultáció)", class: "bg-amber-50 border-amber-200 text-amber-800 hover:bg-amber-100", dec: "Csak javaslattétel. Kikérik a lakosok véleményét, de a hivataloknak és politikusoknak 100%-os vétójoguk van, és bármikor lesöpörhetik az eredményeket az asztalról.", res: "Semmi.", leg: "Törvényi kötelezettség a 'meghallgatásra', de az eredmények beépítése nem kötelező.", feed: "Lakossági fórumok, kérdőívek és nem kötelező érvényű szavazások." },
+                { level: "5. Partnerség és Együttműködés", class: "bg-emerald-50 border-emerald-200 text-emerald-800 hover:bg-emerald-100", dec: "Megosztott hatalom. Valódi párbeszéd és megegyezésre törekvés kezdődik a lakosok és a döntéshozók között.", res: "Részleges. A lakosok képviselői helyet kapnak a bizottságokban.", leg: "Közös munkacsoportok, együttműködési megállapodások.", feed: "Kölcsönös, folyamatos párbeszéd és közös tervezés." },
+                { level: "6. Átruházott Döntési Jog", class: "bg-emerald-50 border-emerald-200 text-emerald-800 hover:bg-emerald-100", dec: "Többségi hatalom. A közösség közvetlen és döntő befolyással rendelkezik meghatározott szakpolitikai kérdésekben.", res: "Többségi irányítás bizonyos elkülönített költségvetési keretek felett.", leg: "Intézményesített állampolgári gyűlések, amelyek kötelező szavazást indítanak el a közgyűlésben.", feed: "Közvetlen végrehajtás, a javaslatok egyenesen a döntéshozók asztalára kerülnek." },
+                { level: "7. Teljes Lakossági Irányítás", class: "bg-emerald-100 border-emerald-300 text-emerald-900 hover:bg-emerald-200", dec: "Abszolút, kötelező érvényű döntési hatalom és vétójog a közösség kezében.", res: "Teljes pénzügyi rendelkezés a közösséget érintő programok felett.", leg: "Kötelező érvényű ügydöntő népszavazások, alkotmányos szintű garanciák.", feed: "A polgárok maguk tervezik és alakítják a teljes kormányzati rendszert." }
+            ]
+        };
+
+        const caseStudies = {
+            en: [
+                { tab: "Standard PR Townhall", title: "Standard PR Townhall", data: [10, 0, 20, 30, 0, 10, 20, 10], score: 14, color: '#e11d48', desc: "A typical municipal consultation event. High public relations visibility but completely lacking in structural power. Output is strictly advisory, participants self-select (favoring the wealthy/retired), and there is zero institutional accountability or resource control.", fail: "Non-binding outcomes framed as 'having a voice'. Complete lack of continuity." },
+                { tab: "Unstructured Referendum", title: "Unstructured Referendum (e.g. Brexit)", data: [100, 100, 80, 20, 100, 0, 10, 20], score: 35, color: '#f59e0b', desc: "Absolute binding power combined with catastrophic information asymmetry and zero deliberation quality. Citizens have ultimate power over the decision but no power over the framing, information flow, or post-decision implementation details.", fail: "High Power combined with Information Asymmetry leading to manipulation via misinformation." },
+                { tab: "Ostbelgien Model", title: "Ostbelgien Model", data: [60, 0, 90, 80, 60, 100, 90, 80], score: 70, color: '#059669', desc: "A permanent, institutionalized Citizens' Council in Belgium utilizing sortition. Excellent continuity, deliberation quality, and inclusiveness. However, it still lacks direct hard veto power or direct budget allocation, relying on strong parliamentary norms instead.", fail: "Lacks direct resource control, leaning on institutional pressure rather than hard legal mechanisms." },
+                { tab: "Paris Part. Budget", title: "Paris Participatory Budgeting", data: [80, 60, 60, 70, 80, 90, 50, 60], score: 68, color: '#059669', desc: "Direct allocation of 5% of the city's investment budget via citizen vote. High resource control and accountability. Slightly lower on deliberation quality as voting often becomes a popularity contest for localized projects rather than systemic debate.", fail: "Deliberation quality can degrade into localized lobbying; broader systemic issues are excluded from the budget scope." }
+            ],
+            hu: [
+                { tab: "Hagyományos Lakossági Fórum", title: "Hagyományos Lakossági Fórum", data: [10, 0, 20, 30, 0, 10, 20, 10], score: 14, color: '#e11d48', desc: "Egy átlagos helyi fórum. Nagy a reklámértéke, de teljesen hiányzik mögüle a valódi felhatalmazás. Az eredmény szigorúan csak javaslat, a résztvevők maguk döntik el, hogy elmennek-e (ami általában a sok szabadidővel rendelkező jómódúaknak és nyugdíjasoknak kedvez), és semmilyen felelősségre vonás vagy pénzügyi döntés nem párosul hozzá.", fail: "A súlytalan eredményeket úgy állítják be a médiában, mintha a lakosság ténylegesen döntött volna. A rendszeresség és folytonosság teljesen hiányzik." },
+                { tab: "Egyszerűsített Népszavazás", title: "Egyszerűsített Népszavazás (pl. Brexit)", data: [100, 100, 80, 20, 100, 0, 10, 20], score: 35, color: '#f59e0b', desc: "A kötelező érvényű, abszolút hatalom párosul a katasztrofális tájékoztatással és a tényeken alapuló vita teljes hiányával. Bár az emberek kezében van a végső döntés, arra már nincs ráhatásuk, hogy miként teszik fel a kérdést, hogyan tájékoztatják őket, vagy mi történik a döntés után.", fail: "A hatalmas döntési jogkör mellé hiányos és torzított tájékoztatás társul, ami dezinformációhoz és manipulációhoz vezet." },
+                { tab: "Állandó Lakossági Tanács", title: "Állandó Lakossági Tanács (Kelet-Belgium)", data: [60, 0, 90, 80, 60, 100, 90, 80], score: 70, color: '#059669', desc: "Egy állandó, törvénybe iktatott Állampolgári Tanács Belgiumban, amely sorsolásos kiválasztást alkalmaz. Kiváló a folytonossága, nagyon alapos a tényeken alapuló vita és mindenki számára egyenlő esélyt ad a részvételre. Azonban még mindig hiányzik belőle a közvetlen vétójog vagy a pénzosztás joga, ehelyett arra épít, hogy a politikusok a nyomásgyakorlás miatt nem mernek szembemenni velük.", fail: "Hiányzik a közvetlen pénzügyi kontroll. Erős jogi kötelezettségek helyett inkább a politikai nyomásgyakorlásra kell támaszkodniuk." },
+                { tab: "Részvételi Költségvetés", title: "Részvételi Költségvetés (Párizs)", data: [80, 60, 60, 70, 80, 90, 50, 60], score: 68, color: '#059669', desc: "A város beruházási keretének 5%-át közvetlenül a lakosok szavazatai alapján osztják el. Magas a lakossági kontroll és az elszámoltathatóság. A közös gondolkodás és vita minősége azonban alacsonyabb, mivel a szavazás gyakran egy népszerűségi versennyé válik az apró helyi projektek (pl. padok, virágok) között a nagy, alapvető kérdések helyett.", fail: "A komoly viták helyett a folyamat egy helyi lobbiharccá süllyedhet; a város legfontosabb, nagy kérdései továbbra is ki vannak zárva a keretből." }
+            ]
+        };
+
+        const chartLabelsEn = ['Decision Power', 'Resource Control', 'Inclusiveness', 'Info Symmetry', 'Accountability', 'Continuity', 'Deliberation Qty', 'Anti-Capture'];
+        const chartLabelsHu = ['Döntési jogkör', 'Erőforrások', 'Befogadás', 'Információ', 'Elszámoltathatóság', 'Folytonosság', 'Vita minősége', 'Védettség'];
+
+        // --- State Management ---
+        let currentLang = 'en';
+        let currentSelectedLadder = null;
+        let currentCaseIndex = 0;
+
+        // --- Initialization ---
+        function initLanguage() {
+            const params = new URLSearchParams(window.location.search);
+            const requestedLang = params.get('lang') || navigator.language || navigator.userLanguage || 'en';
+            currentLang = requestedLang.startsWith('hu') ? 'hu' : 'en';
+            document.documentElement.lang = currentLang;
+            applyTranslations();
+        }
+
+        function applyTranslations() {
+            // Update Static Texts
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (i18n[currentLang][key]) {
+                    el.innerHTML = i18n[currentLang][key];
+                }
+            });
+
+            // Update Ladder
+            renderLadder();
+            // Restore selection if any, else hide details
+            if (currentSelectedLadder !== null) {
+                showSpectrumDetails(currentSelectedLadder, document.getElementById(`ladder-item-${currentSelectedLadder}`));
+            } else {
+                document.getElementById('spectrum-markers').classList.add('hidden');
+                document.getElementById('spectrum-desc').classList.remove('hidden');
+                document.getElementById('spectrum-title').innerText = i18n[currentLang]['sec1_select_title'];
+            }
+
+            // Update Charts Labels
+            rpgiChart.data.labels = currentLang === 'en' ? chartLabelsEn : chartLabelsHu;
+            rpgiChart.data.datasets[0].label = currentLang === 'en' ? 'System Score' : 'Rendszer Pontszám';
+            rpgiChart.update();
+
+            caseChart.data.labels = currentLang === 'en' ? ['Decision', 'Resource', 'Inclusive', 'Info Sym', 'Accountable', 'Continuity', 'Delib Qty', 'Anti-Cap'] : ['Döntés', 'Erőforrás', 'Inkluzivitás', 'Infó Szimm.', 'Elszámolhat.', 'Folytonosság', 'Mérleg. Min.', 'Manip. Ellen'];
+            caseChart.data.datasets[0].label = currentLang === 'en' ? 'Score' : 'Pontszám';
+            caseChart.update();
+
+            // Update Case Tabs and Content
+            document.getElementById('tab0').innerText = caseStudies[currentLang][0].tab;
+            document.getElementById('tab1').innerText = caseStudies[currentLang][1].tab;
+            document.getElementById('tab2').innerText = caseStudies[currentLang][2].tab;
+            document.getElementById('tab3').innerText = caseStudies[currentLang][3].tab;
+            loadCaseData(currentCaseIndex);
+        }
+
+        // --- Spectrum Logic ---
+        function renderLadder() {
+            const ladderContainer = document.getElementById('ladder-container');
+            ladderContainer.innerHTML = '';
+            const data = ladderContent[currentLang];
+
+            data.slice().reverse().forEach((item, index) => {
+                const originalIndex = data.length - 1 - index;
+                const el = document.createElement('div');
+                el.id = `ladder-item-${originalIndex}`;
+                el.className = `p-4 border rounded-lg cursor-pointer transition-colors font-semibold ${item.class}`;
+                el.innerText = item.level;
+                el.onclick = () => showSpectrumDetails(originalIndex, el);
+                ladderContainer.appendChild(el);
+            });
+        }
+
+        function showSpectrumDetails(index, el) {
+            currentSelectedLadder = index;
+            document.querySelectorAll('#ladder-container div').forEach(d => {
+                d.classList.remove('ring-2', 'ring-offset-2', 'ring-stone-400');
+                d.style.transform = "scale(1)";
+            });
+            if (el) {
+                el.classList.add('ring-2', 'ring-offset-2', 'ring-stone-400');
+                el.style.transform = "scale(1.02)";
+            }
+
+            const data = ladderContent[currentLang][index];
+            document.getElementById('spectrum-title').innerText = data.level;
+            document.getElementById('spectrum-desc').classList.add('hidden');
+            document.getElementById('spectrum-markers').classList.remove('hidden');
+
+            document.getElementById('spectrum-dec').innerText = data.dec;
+            document.getElementById('spectrum-res').innerText = data.res;
+            document.getElementById('spectrum-leg').innerText = data.leg;
+            document.getElementById('spectrum-feed').innerText = data.feed;
+        }
+
+        // --- Theater Logic ---
+        function toggleTheaterDetail(id) {
+            const el = document.getElementById(id);
+            if (el.classList.contains('hidden')) {
+                el.classList.remove('hidden');
+            } else {
+                el.classList.add('hidden');
+            }
+        }
+
+        // --- Chart JS Init ---
+        const ctxRadar = document.getElementById('rpgiRadarChart').getContext('2d');
+        let rpgiChart = new Chart(ctxRadar, {
+            type: 'radar',
+            data: {
+                labels: chartLabelsEn,
+                datasets: [{
+                    label: 'System Score',
+                    data: [50, 50, 50, 50, 50, 50, 50, 50],
+                    backgroundColor: 'rgba(5, 150, 105, 0.2)',
+                    borderColor: 'rgba(5, 150, 105, 1)',
+                    pointBackgroundColor: 'rgba(5, 150, 105, 1)',
+                    pointBorderColor: '#fff',
+                    pointHoverBackgroundColor: '#fff',
+                    pointHoverBorderColor: 'rgba(5, 150, 105, 1)',
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                scales: {
+                    r: {
+                        angleLines: { color: 'rgba(0,0,0,0.1)' },
+                        grid: { color: 'rgba(0,0,0,0.1)' },
+                        pointLabels: {
+                            font: { family: 'Inter', size: 11, weight: '600' },
+                            color: '#444'
+                        },
+                        min: 0,
+                        max: 100,
+                        ticks: { stepSize: 25, display: false }
+                    }
+                },
+                plugins: { legend: { display: false } }
+            }
+        });
+
+        const ctxBar = document.getElementById('caseBarChart').getContext('2d');
+        let caseChart = new Chart(ctxBar, {
+            type: 'bar',
+            data: {
+                labels: ['Decision', 'Resource', 'Inclusive', 'Info Sym', 'Accountable', 'Continuity', 'Delib Qty', 'Anti-Cap'],
+                datasets: [{
+                    label: 'Score',
+                    data: [0, 0, 0, 0, 0, 0, 0, 0], // updated dynamically
+                    backgroundColor: '#059669',
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                scales: {
+                    y: { beginAtZero: true, max: 100, grid: { color: 'rgba(0,0,0,0.05)' } },
+                    x: { grid: { display: false }, ticks: { font: { size: 10, family: 'Inter' } } }
+                },
+                plugins: { legend: { display: false } },
+                animation: { duration: 400 }
+            }
+        });
+
+        // --- Calculator Logic ---
+        const sliders = [
+            'slider-dp', 'slider-rc', 'slider-in', 'slider-is',
+            'slider-ac', 'slider-co', 'slider-dq', 'slider-ar'
+        ];
+        const valDisplays = [
+            'val-dp', 'val-rc', 'val-in', 'val-is',
+            'val-ac', 'val-co', 'val-dq', 'val-ar'
+        ];
+
+        function updateRPGI() {
+            let values = [];
+            let minVal = 100;
+
+            sliders.forEach((id, index) => {
+                const val = parseInt(document.getElementById(id).value);
+                values.push(val);
+                document.getElementById(valDisplays[index]).innerText = val;
+                if (val < minVal) minVal = val;
+            });
+
+            const sum = values.reduce((a, b) => a + b, 0);
+            let average = Math.round(sum / values.length);
+
+            const thresholdWarn = document.getElementById('threshold-warning');
+            let finalScore = average;
+
+            if (minVal < 25) {
+                finalScore = Math.min(average, 35);
+                thresholdWarn.classList.remove('opacity-0');
+            } else {
+                thresholdWarn.classList.add('opacity-0');
+            }
+
+            const scoreEl = document.getElementById('total-score');
+            scoreEl.innerText = finalScore;
+
+            scoreEl.className = 'text-6xl font-black ';
+            let ds = rpgiChart.data.datasets[0];
+            if (finalScore < 40) {
+                scoreEl.className += 'text-rose-600';
+                ds.backgroundColor = 'rgba(225, 29, 72, 0.2)';
+                ds.borderColor = 'rgba(225, 29, 72, 1)';
+                ds.pointBackgroundColor = 'rgba(225, 29, 72, 1)';
+            } else if (finalScore < 70) {
+                scoreEl.className += 'text-amber-500';
+                ds.backgroundColor = 'rgba(245, 158, 11, 0.2)';
+                ds.borderColor = 'rgba(245, 158, 11, 1)';
+                ds.pointBackgroundColor = 'rgba(245, 158, 11, 1)';
+            } else {
+                scoreEl.className += 'text-emerald-600';
+                ds.backgroundColor = 'rgba(5, 150, 105, 0.2)';
+                ds.borderColor = 'rgba(5, 150, 105, 1)';
+                ds.pointBackgroundColor = 'rgba(5, 150, 105, 1)';
+            }
+
+            rpgiChart.data.datasets[0].data = values;
+            rpgiChart.update();
+        }
+
+        function presetSliders(arr) {
+            sliders.forEach((id, index) => {
+                document.getElementById(id).value = arr[index];
+            });
+            updateRPGI();
+        }
+
+        // --- Case Studies Logic ---
+        function loadCaseData(index) {
+            currentCaseIndex = index;
+            document.querySelectorAll('.case-tab').forEach((el, i) => {
+                if (i === index) {
+                    el.classList.add('tab-active', 'text-stone-800');
+                    el.classList.remove('text-stone-500');
+                } else {
+                    el.classList.remove('tab-active', 'text-stone-800');
+                    el.classList.add('text-stone-500');
+                }
+            });
+
+            const c = caseStudies[currentLang][index];
+            document.getElementById('case-title').innerText = c.title;
+            document.getElementById('case-desc').innerText = c.desc;
+            document.getElementById('case-fail').innerText = c.fail;
+
+            const badge = document.getElementById('case-score-badge');
+            badge.innerText = `RPGI: ${c.score} / 100`;
+            badge.className = 'inline-block px-3 py-1 rounded font-bold mb-4 border ';
+            if (c.score < 40) badge.className += 'bg-rose-100 text-rose-800 border-rose-200';
+            else if (c.score < 70) badge.className += 'bg-amber-100 text-amber-800 border-amber-200';
+            else badge.className += 'bg-emerald-100 text-emerald-800 border-emerald-200';
+
+            caseChart.data.datasets[0].data = c.data;
+            caseChart.data.datasets[0].backgroundColor = c.color;
+            caseChart.update();
+        }
+
+        // --- Execution ---
+        document.addEventListener('DOMContentLoaded', () => {
+            initLanguage();
+            updateRPGI();
+        });
+
+    </script>
+</body>
+
+</html>

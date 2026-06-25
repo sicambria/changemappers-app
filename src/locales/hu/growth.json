@@ -1,0 +1,461 @@
+{
+  "title": "Növekedési Központ",
+  "subtitle": "Keress és ajánlj mentorálást, coachingot, képzést és peer támogatást",
+  "tabs": {
+    "find": "Támogatás Keresése",
+    "offer": "Támogatás Ajánlása",
+    "myOffers": "Ajánlataim",
+    "connections": "Kapcsolataim",
+    "nature": "Természet"
+  },
+  "modality": {
+    "mentor": "Mentorálás",
+    "coach": "Coaching",
+    "training": "Képzés",
+    "peer": "Peer támogatás"
+  },
+  "levels": {
+    "EXPLORER": "Felfedező",
+    "PRACTITIONER": "Gyakorló",
+    "GUIDE": "Vezető"
+  },
+  "deliveryMode": {
+    "ONLINE": "Online",
+    "IN_PERSON": "Jelenlétiben",
+    "HYBRID": "Hibrid (Online + Jelenléti)"
+  },
+  "filter": {
+    "all": "Összes Modalitás",
+    "domain": "Téma",
+    "format": "Formátum"
+  },
+  "actions": {
+    "create": "Ajánlat Létrehozása",
+    "edit": "Szerkesztés",
+    "delete": "Archiválás",
+    "contact": "Kapcsolatfelvétel",
+    "archive": "Archiválás",
+    "confirmArchive": "Archiválja ezt az ajánlatot?",
+    "confirmYes": "Igen, archiválom",
+    "archiving": "Archiválás…",
+    "cancel": "Mégse",
+    "archiveFailed": "Az archiválás nem sikerült. Próbálja újra."
+  },
+  "form": {
+    "selectModality": "Válaszd ki, mit szeretnél ajánlani",
+    "domainLabel": "Téma / Szakterület",
+    "domainPlaceholder": "pl. Permakultúra, Közösségszervezés",
+    "descriptionLabel": "Leírás",
+    "descriptionPlaceholder": "Írd le, mit ajánlasz...",
+    "formatLabel": "Formátum",
+    "levelLabel": "Szint",
+    "deliveryModeLabel": "Tartási mód",
+    "cityLabel": "Város",
+    "cityPlaceholder": "Város keresése...",
+    "urlLabel": "Professzionális weboldal vagy közösségi média",
+    "urlPlaceholder": "https://...",
+    "styleLabel": "Coaching Stílus",
+    "timeCommitmentLabel": "Időráfordítás",
+    "timeCommitmentPresets": {
+      "1-2h": "1-2 óra/hét",
+      "3-5h": "3-5 óra/hét",
+      "weekend": "Hétvégi intenzív",
+      "selfPaced": "Saját tempóban",
+      "custom": "Egyedi..."
+    },
+    "situationTypeLabel": "Helyzet Típus",
+    "maxConcurrentLabel": "Max. egyidejű kapcsolatok",
+    "customTimePlaceholder": "pl. 10 óra/hónap",
+    "stylePlaceholder": "pl. Művészeti, Szomatikus...",
+    "formatPlaceholder": "pl. 1-1 alkalom, Műhelymunkák...",
+    "situationTypePlaceholder": "pl. Karrierváltás, Gyász és veszteség...",
+    "peerFormatPlaceholder": "pl. Heti check-in...",
+    "yearsExperienceLabel": "Tapasztalat (évek száma)",
+    "coachingFormats": [
+      "Egyéni alkalmak",
+      "Csoportos alkalmak",
+      "Műhelyek",
+      "Elvonulások",
+      "Online tanfolyam"
+    ],
+    "peerSituations": [
+      "Karrierváltás",
+      "Párkapcsolati kihívások",
+      "Gyász és veszteség",
+      "Alkotói elakadások",
+      "Kiégésből felépülés",
+      "Spirituális út"
+    ],
+    "peerFormats": [
+      "Heti bejelentkezések",
+      "Havi séták",
+      "Online üzenetváltás",
+      "Személyes találkozók"
+    ]
+  },
+  "empty": {
+    "noOffers": "Nincs elérhető ajánlat",
+    "noMyOffers": "Még nem hoztál létre ajánlatot",
+    "noConnections": "Nincs aktív kapcsolat"
+  },
+  "card": {
+    "offeredBy": "Ajánlja"
+  },
+  "offer": {
+    "pageTitle": "Támogatás ajánlása",
+    "loading": "Betöltés..."
+  },
+  "compass": {
+    "shell": {
+      "title": "A Változtató Iránytű",
+      "subtitle": "Személyes fejlődéstervezés — tájékozódás az utasítás helyett.",
+      "navAriaLabel": "Iránytű pillérek"
+    },
+    "capacity": {
+      "pillarLabel": "III. Pillér",
+      "title": "Kapacitás és Erőforrások",
+      "description": "Mennyi időt, energiát és anyagi támogatást tudsz reálisan felajánlani a változásteremtésre most?",
+      "honestAssessment": "Őszinte Önértékelés",
+      "required": "Kötelező",
+      "rateEach": "Értékeld őszintén minden dimenziót — nem ott, ahol lenni szeretnél, hanem ahol ma vagy.",
+      "timeLabel": "Idő",
+      "timeDescription": "Mennyi szabadidőt tudsz megbízhatóan szánni hetente?",
+      "resourcesLabel": "Erőforrások",
+      "resourcesDescription": "Pénzügyi, anyagi vagy logisztikai erőforrások a rendelkezésedre.",
+      "bandwidthLabel": "Érzelmi és Mentális Sávszélesség",
+      "bandwidthDescription": "Jelenlegi kognitív és érzelmi kapacitásod új kötelezettségek vállalására.",
+      "scoreLabels": {
+        "1": "Alig valamennyi",
+        "2": "Nagyon korlátozott",
+        "3": "Közepes",
+        "4": "Szilárd",
+        "5": "Bőséges"
+      },
+      "notSet": "Nincs beállítva",
+      "seeSuggestedScope": "Lásd a javasolt hatókört",
+      "scopeSetting": "Hatókör Beállítása",
+      "scopeSuggestionIntro": "Az {{avg}} átlagpontszámod alapján javasoljuk:",
+      "suggestScope": {
+        "narrow": {
+          "label": "Szűk Hatókör",
+          "desc": "Egy kis, kezelhető kísérletre fókuszálj. Védd az energiádat."
+        },
+        "moderate": {
+          "label": "Közepes Hatókör",
+          "desc": "Kiegyensúlyozott megközelítés — elég a haladáshoz, de nem vállalsz túl sokat."
+        },
+        "active": {
+          "label": "Aktív Hatókör",
+          "desc": "Szilárd kapacitásod van minden téren. Vállalj ambiciózusabb kísérleteket."
+        }
+      },
+      "scopeAdjustPrompt": "Igazítsd ha kell — válaszd azt a hatókört, ami valóban illik az életedhez:",
+      "scopeOptions": {
+        "1": {
+          "label": "Szűk",
+          "desc": "1 kísérleti hely"
+        },
+        "2": {
+          "label": "Közepes",
+          "desc": "2 kísérleti hely"
+        },
+        "3": {
+          "label": "Aktív",
+          "desc": "3 kísérleti hely"
+        }
+      },
+      "optionalDepth": "Mélyebb Rétegek (Opcionális)",
+      "anyOrderPrivate": "tetszőleges sorrendben, szigorúan privát",
+      "energyPatternLabel": "Energiamintázatok",
+      "energyPatternHint": "Mikor vagy a legjobb formádban? Mikor omlasz össze? Mi merít vagy tölt fel?",
+      "riskFearsLabel": "Kockázatok és Félelmek",
+      "riskFearsHint": "Mi romolhat el? Mitől félsz — és mi segítene mégis lépni?",
+      "emotionalPatternLabel": "Érzelmi Mintázat",
+      "emotionalPatternHint": "Hogyan reagálsz tipikusan nyomás vagy bizonytalanság alatt?",
+      "supportNetworkMap": "Támogatói Hálózat Térképe",
+      "optional": "opcionális",
+      "emptyFieldsGaps": "Az üres mezők hiányokat tárnak fel — ez a lényeg.",
+      "supportNet": {
+        "mentor": "Mentor",
+        "peer": "Peer",
+        "challenger": "Kihívó",
+        "believer": "Hívő"
+      },
+      "supportNetPlaceholder": "Név vagy szerep…",
+      "emptyFieldsNote": "Az üres mezők nem kudarcok — meghívások a hálózatod bővítésére.",
+      "error": "Hiba történt. Próbáld újra.",
+      "savedMessage": "Kapacitásprofil elmentve!",
+      "planningFor": "{{count}} kísérleti hely tervezése",
+      "selectScopeAbove": "Válassz hatókört fent a folytatáshoz",
+      "saving": "Mentés…",
+      "updateCapacity": "Kapacitás Frissítése",
+      "confirmScopeUnlock": "Hatókör Megerősítése és Következő Pillér Feloldása"
+    },
+    "catalyst": {
+      "pillarLabel": "IV. Pillér",
+      "title": "Katalizátor és Kísérletezés",
+      "description": "Tervezz valósághű kísérleteket a változásteremtő hipotéziseid tesztelésére. {{count}} kísérleti helyed van.",
+      "experimentDesign": "Kísérlettervezés",
+      "atLeast1Required": "Legalább 1 kötelező",
+      "hypothesisPrompt": "Ha X-et csinálok Y-nak, akkor valami elmozdul — és így ellenőrzöm.",
+      "experimentNum": "{{num}}. kísérlet",
+      "clearExperiment": "{{num}}. kísérlet törlése",
+      "ifIDo": "Ha én…",
+      "actionPlaceholder": "pl. közösségi vacsora szervezése, készség-megosztó kör indítása",
+      "with": "Velük…",
+      "peoplePlaceholder": "pl. a szomszédaim, helyi ifjúsági csoport, szövetkezeti tagok",
+      "thenSomethingShifts": "Akkor valami elmozdul…",
+      "hypothesisPlaceholder": "pl. az emberek kicserélik elérhetőségeiket és laza hálózat alakul",
+      "impactCheck": "Hatásellenőrzés",
+      "impactCheckHint": "Honnan tudod, hogy működött? Milyen megfigyelhető jel erősítené meg a hipotézised?",
+      "impactPlaceholder": "pl. 3+ ember elérhetőséget cserél, valaki önként jelentkezik a következő szervezésére",
+      "whatHappened": "Mi történt?",
+      "outcomePlaceholder": "Mi történt valójában? Légy őszinte — a negatív eredmények is adatok.",
+      "recordWhatHappened": "Rögzíted, mi történt",
+      "domainBalanceTracker": "Tartomány-Egyensúly Követő",
+      "optional": "opcionális",
+      "imbalanceInfo": "Mely tartományok növekednek, stabilak vagy csúsznak? Az erózió itt információ, nem kudarc.",
+      "domains": {
+        "relationships": {
+          "label": "Kapcsolatok",
+          "hint": "Mélység és bizalom a kulcskapcsolatokban"
+        },
+        "resources": {
+          "label": "Erőforrások",
+          "hint": "Pénzügyi, anyagi, logisztikai"
+        },
+        "knowledge": {
+          "label": "Tudás",
+          "hint": "Készségek, információk, szakértelem"
+        },
+        "influence": {
+          "label": "Befolyás",
+          "hint": "Döntések alakításának képessége"
+        },
+        "wellbeing": {
+          "label": "Jólét",
+          "hint": "Fizikai, érzelmi, spirituális"
+        },
+        "integrity": {
+          "label": "Sértetlenség",
+          "hint": "Összhang a nem-tárgyalható értékekkel"
+        }
+      },
+      "statuses": {
+        "building": "Épülés",
+        "holding": "Tartás",
+        "eroding": "Erózió"
+      },
+      "integritySignal": "Sértetlenségi jel — egy nem-tárgyalható értéked sérülhet",
+      "integrityPrompt": "Fontold meg, kell-e ajustálni ezt a kísérletet, hogy megvédd, ami a legfontosabb.",
+      "storytelling": "Történetmesélés",
+      "optionalPrivate": "opcionális, privát",
+      "honestNotPolished": "Légy őszinte, nem fényes. Ezek neked szólnak.",
+      "story": {
+        "whyLabel": "Miért fontos nekem",
+        "whyPlaceholder": "Mi hajt belülről?",
+        "visionLabel": "A jövő, amely felé törekszem",
+        "visionPlaceholder": "Milyen a siker a saját szavaiddal?",
+        "shiftLabel": "Az elmozdulás, amit létre akarok hozni",
+        "shiftPlaceholder": "Milyen változást szeretnél látni a világban?"
+      },
+      "error": "Hiba történt. Próbáld újra.",
+      "saved": "Katalizátorprofil elmentve!",
+      "experimentComplete": "Kísérlet kész — mentheted",
+      "completeOneToSave": "Legalább egy kísérletet fejezz be a mentéshez",
+      "saving": "Mentés…",
+      "saveExperiments": "Kísérletek Mentése"
+    },
+    "clarity": {
+      "pillarLabel": "I. Pillér",
+      "title": "Átláthatóság és Irány",
+      "description": "Határozd meg a belső iránytűt, amely a változásteremtést vezeti — északi csillagod, határaid és eredettörténeted.",
+      "northStarDraft": "Északi Csillag Vázlat",
+      "required": "Kötelező",
+      "northStarPrompt": "Mi az a változás, amit a leginkább látni szeretnél a világban? Mondd el a saját szavaiddal — a vázlat tökéletes.",
+      "northStarPlaceholder": "pl. A környékemen mindenkinek van valakije, akire számíthat",
+      "valuesNonNegotiables": "Értékek és Nem-Tárgyalhatóak",
+      "requiredMin1": "Kötelező — min. 1",
+      "valuesPrompt": "Miben nem engedsz, még nyomás alatt sem? Ezek a vörös vonalaid.",
+      "nonNegotiablePlaceholder": "pl. Nincs olyan munka, amely kizsákmányolja a sebezhetőket",
+      "removeNonNegotiable": "{{num}}. nem-tárgyalható eltávolítása",
+      "addAnother": "Még egy hozzáadása",
+      "originQuestion": "Eredeti Kérdés",
+      "optional": "opcionális",
+      "originPrompt": "Milyen kérdés vagy élmény indított el ezen az úton? Mi húz vissza mindig?",
+      "originPlaceholder": "pl. Miért virágzanak egyes közösségek, míg mások alig léteznek?",
+      "bioInventory": "Életrajzi Leltár",
+      "bioDescription": "Térképezd fel az élményeket, amelyek a változásteremtő DNS-edet formálták.",
+      "bioChoosePrompts": "Válaszd a rezonáló kérdéseket — hagyd a többit.",
+      "bioPrompts": {
+        "turning": "Egy fordulópont, amely megváltoztatta az irányomat",
+        "proud": "Valami, amit tettem és büszke vagyok rá",
+        "failures": "Egy kudarc, amely valami lényegesre tanított",
+        "shapers": "Emberek vagy közösségek, akik formáltak engem",
+        "themes": "Visszatérő témák az életemben"
+      },
+      "bioThreadPrompt": "Keresd a szálat, amely összeköti ezeket — az a mintázatod.",
+      "lockedPillarsTitle": "További pillérek várnak",
+      "lockedPillarsHint": "Mentsd el ezt a pillért a következő feloldásához.",
+      "error": "Hiba történt. Próbáld újra.",
+      "updated": "Átláthatóság frissítve!",
+      "savedUnlock": "Átláthatóság elmentve — következő pillér feloldva!",
+      "readyToSave": "Készen áll a mentésre",
+      "addNorthStarAndNonNegotiable": "Adj hozzá északi csillagot és legalább egy nem-tárgyalhatót",
+      "saving": "Mentés…",
+      "updateClarity": "Átláthatóság Frissítése",
+      "saveAndUnlock": "Mentés és Következő Pillér Feloldása"
+    },
+    "context": {
+      "pillarLabel": "II. Pillér",
+      "title": "Kontextus és Ökoszisztéma",
+      "description": "Térképezd fel az embereket, hatalmi struktúrákat és kommunikációs dinamikákat a változásteremtő munkád körül.",
+      "ecosystemMap": "Ökoszisztéma Térkép",
+      "optional": "opcionális",
+      "ecosystemHint": "Ki veszi körül a munkádat? Nevesd meg az embereket és csoportokat minden gyűrűben.",
+      "rings": {
+        "sharers": {
+          "label": "Megosztók",
+          "placeholder": "pl. egy szervezőtárs, egy megbízható tanácsadó"
+        },
+        "gatekeepers": {
+          "label": "Kapuőrök",
+          "placeholder": "pl. egy támogató, egy helyi tisztviselő, egy elnökségi tag"
+        },
+        "affected": {
+          "label": "Érintettek",
+          "placeholder": "pl. a családok, akik ettől a szolgáltatástól függenek"
+        }
+      },
+      "addAnother": "Még egy hozzáadása",
+      "removeEntry": "{{num}}. bejegyzés eltávolítása innen: {{ring}}",
+      "add": "Hozzáadás",
+      "gapPrompt": "Ki hiányzik?",
+      "optionalReflection": "opcionális reflexió",
+      "gapHint": "Kinek a hangja hiányzik a térképedről — és mi kellene az bevonásához?",
+      "translationMap": "Fordítási Térkép",
+      "translationHint": "Hogyan írják le a munkádat különböző közönségek? Ezeknek a keretezéseknek a megértése segít a határok átlépésében.",
+      "trans": {
+        "mine": "Az én keretezésem",
+        "minePlaceholder": "Hogyan írom le a munkámat magamnak",
+        "allies": "A szövetségesek keretezése",
+        "alliesPlaceholder": "Hogyan írják le a szövetségeseim vagy kollégáim",
+        "power": "A hatalom birtokosainak keretezése",
+        "powerPlaceholder": "Hogyan írnák le a döntéshozók vagy támogatók"
+      },
+      "conflictStyle": "Konfliktus-stílus",
+      "conflictHint": "Hogyan jelenel meg tipikusan konfliktusban? Milyen minta az alapértelmezett — és mi lenne a preferált?",
+      "conflictPlaceholder": "pl. Tendenciózus kerülöm a konfliktust, amíg fel nem forr…",
+      "commReflection": "Kommunikációs Reflexió",
+      "commHint": "Mi a tipikus kommunikációs stílusod nyomás alatt? Mi vész el?",
+      "commPlaceholder": "pl. Túlrokonmagyarázok, ha ideges vagyok és kihagyom az érzelmi magot…",
+      "error": "Hiba történt. Próbáld újra.",
+      "savedMessage": "Kontextus elmentve!",
+      "saving": "Mentés…",
+      "saveButton": "Kontextus Mentése"
+    },
+    "entry": {
+      "introTitle": "Hol tartasz a változásteremtő úton?",
+      "introDescription": "Az Iránytű segít megtalálni a helyed a változásteremtő tájban. Válaszd a fázist, majd a szintet. Nincs rossz válasz — csak őszinte.",
+      "selectPhase": "Válaszd a fázist",
+      "phaseNum": "{{num}}. Fázis",
+      "focusLabel": "Fókusz:",
+      "phases": {
+        "I": {
+          "focus": "magam",
+          "description": "A belső átláthatóság, készségek és ellenállóképesség építésére fókuszálsz, mielőtt kifelé fordulnál. Ez az alapvető munka — a saját házad rendbe tétele.",
+          "markers": "Önismeret, személyes értékek, érzelmi mintázatok, készségfejlesztés"
+        },
+        "II": {
+          "focus": "a közösségem",
+          "description": "Aktívan kapcsolódsz a környezeted embereihez és struktúráihoz — ökoszisztémát térképezel, kapcsolatokat építesz és hatalmi dinamikákat navigálsz.",
+          "markers": "Kapcsolattérképezés, érdekelt-elemzés, konfliktus-navigáció, koalíció-építés"
+        },
+        "III": {
+          "focus": "magának az útnak",
+          "description": "A kapacitást, erőforrásokat és kísérletezést integrálod egy fenntartható gyakorlatba. A fókusz a csinálásról a létezésre vált — a változásteremtés életmóddá válik.",
+          "markers": "Erőforrás-gondozás, kísérlettervezés, történetmesélés, rendszerszintű egyensúly"
+        }
+      },
+      "whereExactly": "Pontosan hol a {{phase}}. Fázisban?",
+      "placementOptionalHint": "Ez az öbelhelyezés opcionális, de segít személyre szabni az Iránytű-élményt.",
+      "levels": {
+        "0": {
+          "archetype": "Szemlélő",
+          "sphere": "Tudatosság"
+        },
+        "1": {
+          "archetype": "Megfigyelő",
+          "sphere": "Tudatosság"
+        },
+        "2": {
+          "archetype": "Együttérző",
+          "sphere": "Tudatosság"
+        },
+        "3": {
+          "archetype": "Tanuló",
+          "sphere": "Tudatosság"
+        },
+        "4": {
+          "archetype": "Helyi Gyakorló",
+          "sphere": "Bevonódás"
+        },
+        "5": {
+          "archetype": "Közösség Szövő",
+          "sphere": "Bevonódás"
+        },
+        "6": {
+          "archetype": "Rendszer-innovátor",
+          "sphere": "Integráció"
+        },
+        "7": {
+          "archetype": "Mozgalom-építő",
+          "sphere": "Integráció"
+        },
+        "8": {
+          "archetype": "Rendszer-váltó",
+          "sphere": "Integráció"
+        },
+        "9": {
+          "archetype": "Paradigma Szövő",
+          "sphere": "Integráció"
+        }
+      },
+      "sphereLabel": "Szféra:",
+      "error": "Hiba történt. Próbáld újra.",
+      "saving": "Mentés…",
+      "confirmSelfPlacement": "Öbelhelyezés Megerősítése és Folytatás"
+    }
+  },
+  "lifecycle": {
+    "accept": {
+      "label": "Elfogadás",
+      "confirmPrompt": "Elfogadod ezt a kérést?",
+      "confirmYes": "Igen, elfogadom",
+      "pending": "Elfogadás…",
+      "failed": "Nem sikerült elfogadni. Próbáld újra."
+    },
+    "complete": {
+      "label": "Befejezettnek jelölés",
+      "confirmPrompt": "Befejezettnek jelölöd?",
+      "confirmYes": "Igen, befejezem",
+      "pending": "Befejezés…",
+      "failed": "Nem sikerült befejezni. Próbáld újra."
+    },
+    "cancelEngagement": {
+      "label": "Lemondás",
+      "confirmPrompt": "Lemondod ezt az együttműködést?",
+      "confirmYes": "Igen, lemondom",
+      "pending": "Lemondás…",
+      "failed": "Nem sikerült lemondani. Próbáld újra."
+    },
+    "close": {
+      "label": "Lezárás",
+      "confirmPrompt": "Lezárod ezt a kapcsolatot?",
+      "confirmYes": "Igen, lezárom",
+      "pending": "Lezárás…",
+      "failed": "Nem sikerült lezárni. Próbáld újra."
+    },
+    "dismiss": "Elvetés"
+  }
+}

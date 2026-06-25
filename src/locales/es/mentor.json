@@ -1,0 +1,167 @@
+{
+  "title": "Mentoría",
+  "becomeMentor": "Convertirse en Mentor",
+  "requestMentor": "Solicitar un Mentor",
+  "browseMentors": "Explorar Mentores",
+  "findMentor": "Buscar un Mentor",
+  "noMentorsAvailable": "No hay mentores disponibles actualmente",
+  "yearsExperience": "años de experiencia",
+  "mentorProfile": "Perfil de Mentor",
+  "backToMentors": "Volver a mentores",
+  "maxConcurrent": "Máx. simultáneos",
+  "editMentorProfile": "Editar Perfil de Mentor",
+  "updateMentoringDetails": "Actualiza tus detalles de mentoría",
+  "shareExpertise": "Comparte tu experiencia...",
+  "myMentorProfile": "Mi Perfil de Mentor",
+  "createMentorProfile": "Crear Perfil de Mentor",
+  "comingSoon": "próximamente",
+  "myMentoringRelationships": "Mis Relaciones de Mentoría",
+  "nav": {
+    "find": "Buscar Mentor",
+    "offer": "Convertirse en Mentor",
+    "relationships": "Mis Relaciones"
+  },
+  "distinction": "Un mentor da consejos — puede decir 'yo no haría eso' desde la experiencia vivida. Esto es diferente al coaching.",
+  "find": {
+    "title": "Buscar Mentor",
+    "subtitle": "Orientación de alguien que ha navegado un terreno similar. Puede darte su opinión honesta.",
+    "filters": {
+      "domain": "Área",
+      "experience": "Años de experiencia",
+      "arcLength": "Duración del arco"
+    },
+    "empty": "No hay perfiles de mentor que coincidan con tus filtros.",
+    "loading": "Cargando perfiles..."
+  },
+  "profile": {
+    "create": "Crear Perfil de Mentor",
+    "edit": "Editar Perfil",
+    "domain": "Área de experiencia",
+    "yearsExperience": "Años de experiencia",
+    "whatCanOffer": "Qué puedes ofrecer (juicio, navegación, perspectiva honesta)",
+    "arcLengthPreference": "Duración preferida del arco",
+    "maxConcurrent": "Máximo de mentorizados simultáneos"
+  },
+  "request": {
+    "create": "Solicitar Mentoría",
+    "domain": "¿Qué área estás navegando?",
+    "domainLabel": "Área",
+    "inflectionPoint": "Describe el punto de inflexión en el que estás",
+    "inflectionPointLabel": "Punto de inflexión",
+    "inflectionPointPlaceholder": "¿Qué transición de vida/trabajo estás atravesando?",
+    "guidanceSought": "¿Qué tipo de orientación buscas?",
+    "guidanceSoughtLabel": "Orientación buscada",
+    "guidanceSoughtPlaceholder": "¿Qué tipo de orientación buscas?",
+    "minChars": "Mínimo {{min}} caracteres ({{current}}/{{min}})",
+    "submitting": "Enviando…",
+    "submit": "Enviar solicitud",
+    "successMessage": "¡Solicitud de mentoría enviada exitosamente!"
+  },
+  "relationship": {
+    "status": {
+      "EXPLORING": "Explorando",
+      "ACTIVE": "Activo",
+      "PAUSING": "En pausa",
+      "CLOSED": "Cerrado"
+    },
+    "accept": "Aceptar solicitud",
+    "decline": "Rechazar",
+    "setArc": "Establecer duración y ritmo de encuentros",
+    "arcLength": "Duración del arco",
+    "checkInRhythm": "Ritmo de encuentros",
+    "close": "Cerrar relación",
+    "withdraw": "Retirar solicitud"
+  },
+  "feedback": {
+    "midArc": {
+      "title": "Reflexión intermedia",
+      "prompt": "¿Qué está funcionando en esta relación? ¿Qué estás evitando? ¿Cómo sería una versión más honesta?"
+    },
+    "postArc": {
+      "title": "Reflexión de cierre",
+      "prompt": "¿Qué cambió? ¿Qué aportó cada uno? ¿Qué le dirías a alguien que comienza una mentoría?"
+    },
+    "submit": "Enviar reflexión",
+    "publicNote": "Esta reflexión será visible en el registro de la relación."
+  },
+  "card": {
+    "by": "Ofrecido por",
+    "domain": "Área",
+    "experience": "Experiencia",
+    "years": "años",
+    "arcLabel": "Arco: {{arc}}",
+    "viewProfile": "Ver perfil",
+    "request": "Solicitar mentoría"
+  },
+  "myRequests": {
+    "title": "Mis Solicitudes de Mentoría",
+    "subtitle": "Tus solicitudes de mentoría pendientes. Retira una solicitud si ya no la necesitas.",
+    "empty": "No tienes solicitudes de mentoría pendientes.",
+    "cardTitle": "Solicitud de Mentoría",
+    "domainLabel": "Dominio",
+    "inflectionPointLabel": "Punto de inflexión",
+    "guidanceSoughtLabel": "Orientación buscada",
+    "withdraw": "Retirar",
+    "withdrawConfirm": "¿Retirar esta solicitud?",
+    "withdrawYes": "Sí, retirar",
+    "withdrawPending": "Retirando…",
+    "withdrawError": "No se pudo retirar la solicitud."
+  },
+  "requests": {
+    "incomingTitle": "Solicitudes de Mentoría Entrantes",
+    "incomingSubtitle": "Solicitudes abiertas de agentes de cambio que buscan mentoría. Acepta una solicitud para iniciar una relación.",
+    "incomingEmpty": "No hay solicitudes de mentoría abiertas ahora mismo.",
+    "cardTitle": "Solicitud de Mentoría",
+    "acceptButton": "Aceptar esta solicitud",
+    "acceptPending": "Aceptando…",
+    "acceptError": "No se pudo aceptar la solicitud.",
+    "cancelAccept": "Cancelar",
+    "arcLengthLabel": "Duración del arco",
+    "arcLengthPlaceholder": "ej. 3–6 meses",
+    "checkInRhythmLabel": "Ritmo de seguimiento",
+    "checkInRhythmPlaceholder": "ej. quincenal, mensual"
+  },
+  "profileForm": {
+    "created": "¡Perfil de mentor creado con éxito!",
+    "updated": "¡Perfil de mentor actualizado!",
+    "domain": "Área",
+    "yearsExperience": "Años de experiencia",
+    "whatCanOffer": "¿Qué puedes ofrecer?",
+    "whatCanOfferHint": "Describe lo que aportas — esto no es una calificación, es una invitación.",
+    "minChars": "Mínimo {{min}} caracteres",
+    "min": "{{min}} mín",
+    "arcLengthPreference": "Duración preferida del arco",
+    "arcLengthPlaceholder": "ej. 3–6 meses",
+    "maxConcurrent": "Máximo de relaciones simultáneas",
+    "saving": "Guardando…",
+    "update": "Actualizar Perfil de Mentor",
+    "create": "Crear Perfil de Mentor"
+  },
+  "relationshipList": {
+    "empty": "Aún no hay relaciones de mentoría.",
+    "defaultMentorName": "Mentor",
+    "arcLabel": "Arco: {{arc}}",
+    "checkInLabel": "Encuentro: {{rhythm}}",
+    "mentorLabel": "Mentor: {{name}}",
+    "closedReflectionPrompt": "Este arco está cerrado. Escribir una reflexión te ayuda a integrar lo que recibiste — no es una calificación.",
+    "writeReflection": "Escribir una reflexión",
+    "subtitle": "Sigue tus relaciones de mentoría activas y pasadas."
+  },
+  "overview": {
+    "carryTitle": "¿Qué llevas que otra persona necesita?",
+    "carryBody": "Si has atravesado una transición difícil - carrera, movimiento, liderazgo o pérdida -, tu experiencia tiene valor real.",
+    "browseDescription": "Encuentra mentores por dominio y experiencia. La conexión empieza con curiosidad, no con un algoritmo.",
+    "relationshipsDescription": "Sigue arcos de mentoría activos y completados. Reflexiona a mitad de camino y al cierre.",
+    "myRequests": "Mis Solicitudes",
+    "myRequestsDescription": "Ver y retirar tus solicitudes de mentoría pendientes.",
+    "incomingRequests": "Solicitudes Entrantes",
+    "incomingRequestsDescription": "Explora solicitudes de mentoría abiertas y acéptalas como mentor.",
+    "howTitle": "Cómo funciona",
+    "howItems": [
+      "Los mentores fijan un límite máximo de relaciones concurrentes y se respeta automáticamente",
+      "No hay calificaciones públicas. Las reflexiones quedan en el registro de la relación, no en el perfil",
+      "Los mentores en disponibilidad RESTING o REFLECTING no aparecen en la búsqueda",
+      "Cualquiera de las partes puede cerrar una relación; se invita a la persona mentorada a reflexionar"
+    ]
+  }
+}

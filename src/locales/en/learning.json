@@ -1,0 +1,174 @@
+{
+  "metaTitle": "Training Hub",
+  "metaDescription": "Accessible regenerative training programs for global changemakers — under $200, at any level.",
+  "learningCentral": {
+    "metaTitle": "Learning Central",
+    "metaDescription": "Find the best learning path for your goals. Explore frameworks, traditions, skills and curated training programs.",
+    "what": "What do you want to learn?",
+    "subtitle": "Choose the path that matches your question, need, or next step.",
+    "paths": {
+      "metamodels": {
+        "title": "Frameworks and models",
+        "desc": "Conceptual models for understanding systems at different scales. Best for systems thinkers, strategists, and people seeking deeper grounding.",
+        "goal": "I want to understand complex systems and frameworks"
+      },
+      "traditions": {
+        "title": "Practices & Traditions",
+        "desc": "Global wisdom traditions supporting community healing, ecological awareness and collective intelligence. Best for: those seeking embodied, relational or spiritual grounding.",
+        "goal": "I want to learn from ancient and indigenous wisdom"
+      },
+      "skills": {
+        "title": "Regenerative Skills",
+        "desc": "Individual and collective capacities essential for systemic transformation, mapped across Wilber's 4 Quadrants and the 3 Horizons framework.",
+        "goal": "I want to build specific capabilities for change"
+      },
+      "patterns": {
+        "title": "Change Patterns",
+        "desc": "Grassroots tactics and strategies for social transformation, filterable by scale, risk and context. Best for: activists, organizers and change agents ready to act.",
+        "goal": "I want to find the right strategy for my situation"
+      },
+      "glossary": {
+        "title": "Glossary",
+        "desc": "Shared language and definitions used across the Changemappers ecosystem — archetypes, system concepts and community vocabulary.",
+        "goal": "I want to understand the terms and concepts used here"
+      },
+      "causes": {
+        "title": "Regenerative Development Goals",
+        "desc": "30 interconnected goals across five domains — a systems-thinking framework for civilizational regeneration. Best for: anyone seeking a big-picture map of the change field.",
+        "goal": "I want to understand the landscape of global challenges"
+      },
+      "programs": {
+        "title": "Trainings & Programs",
+        "desc": "Accessible regenerative training programs — under $200, from 5 continents, no degree required. Best for: learners seeking structured, guided learning.",
+        "goal": "I want structured courses or training programs"
+      },
+      "stories": {
+        "title": "Stories",
+        "desc": "Open-source failures and breakthroughs from the field. Real accounts from changemakers navigating complex systems.",
+        "goal": "I want to learn from real-world experience and stories"
+      }
+    },
+    "cta": {
+      "textBefore": "Not sure where to start? The",
+      "compassName": "Changemaker Compass",
+      "textAfter": "can help you orient.",
+      "button": "Open Changemaker Compass"
+    }
+  },
+  "traditions": {
+    "metaTitle": "Practices",
+    "metaDescription": "Global traditions and regenerative practices for developing community wisdom."
+  },
+  "patterns": {
+    "metaTitle": "Change Patterns",
+    "metaDescription": "Explore grassroots change patterns and tactics for social transformation. Find the right approach for your context with advanced filtering and a pattern finder quiz.",
+    "title": "Change Patterns",
+    "subtitle": "Explore grassroots tactics and strategies for social transformation. Filter by scale, risk, time horizon and participation needs.",
+    "searchPlaceholder": "Search patterns...",
+    "findPattern": "Find your pattern",
+    "advancedFilters": "Advanced filters",
+    "filters": "Filters",
+    "clearFilters": "Clear",
+    "resultsCount": "{{count}} of {{total}} patterns",
+    "strengths": "Strengths",
+    "weaknesses": "Weaknesses",
+    "bestContext": "Best context",
+    "noResults": "No patterns match these filters.",
+    "noResultsHint": "Try fewer filters or switch the logical operator.",
+    "dbError": "Pattern library unavailable",
+    "dbErrorDetail": "The change-pattern database could not be loaded.",
+    "categoryLabels": {
+      "levelOfChange": "Level of change",
+      "primaryApproach": "Primary approach",
+      "riskLevel": "Risk level",
+      "timeHorizon": "Time horizon",
+      "participantRequirement": "Participants needed"
+    },
+    "filterValues": {
+      "levelOfChange": {
+        "Individual": "Individual",
+        "Community": "Community",
+        "Institutional": "Institutional",
+        "Policy": "Policy",
+        "Structural": "Structural",
+        "Paradigm": "Paradigm"
+      },
+      "primaryApproach": {
+        "Direct Action": "Direct action",
+        "Economic Pressure": "Economic pressure",
+        "Institutional Change": "Institutional change",
+        "Building Alternatives": "Building alternatives",
+        "Cultural/Narrative": "Cultural / narrative",
+        "Organizing & Education": "Organizing and education"
+      },
+      "riskLevel": {
+        "Low": "Low",
+        "Medium": "Medium",
+        "High": "High"
+      },
+      "timeHorizon": {
+        "Immediate": "Immediate",
+        "Short": "Short",
+        "Medium": "Medium",
+        "Long": "Long"
+      },
+      "participantRequirement": {
+        "Individual": "Individual",
+        "SmallGroup": "Small group",
+        "Community": "Community",
+        "Mass": "Mass participation"
+      }
+    },
+    "quiz": {
+      "title": "Pattern finder quiz",
+      "question": "Question",
+      "back": "Back",
+      "next": "Next",
+      "showResults": "Show results",
+      "resultsTitle": "Suggested patterns",
+      "resultsSubtitle": "Ranked by your answers and context.",
+      "bestMatch": "Best match",
+      "points": "points",
+      "reviewAnswers": "Review answers",
+      "startOver": "Start over"
+    }
+  },
+  "metamodels": {
+    "metaTitle": "Frameworks for Changemakers",
+    "metaDescription": "Sixteen models for navigating complex systems and human development, with practical uses for changemakers."
+  },
+  "skills": {
+    "metaTitle": "Regenerative Skills",
+    "metaDescription": "Explore the Regenerative Skills library - individual and collective capabilities for building new systems and easing old ones out responsibly.",
+    "title": "Regenerative Skills",
+    "subtitle": "Individual and collective capabilities for systemic change, mapped across Wilber's 4 Quadrants and the 3 Horizons framework.",
+    "searchPlaceholder": "Search skills...",
+    "filters": "Filters",
+    "clearFilters": "Clear",
+    "horizons": "3 Horizons",
+    "quadrants": "4 Quadrants",
+    "level": "Level",
+    "resultsCount": "{{count}} results",
+    "noResults": "No skills match these filters.",
+    "noResultsHint": "Try fewer filters or a broader search term.",
+    "clearFiltersBtn": "Clear filters",
+    "quadrantLabels": {
+      "UL": "Interior / intention",
+      "UR": "Behavioral practice",
+      "LL": "Culture and relationship",
+      "LR": "Systems and infrastructure"
+    },
+    "horizonLabels": {
+      "H1": "H1: Hospicing the old",
+      "H2": "H2: Bridging transition",
+      "H3": "H3: Radical new systems"
+    },
+    "levelLabels": {
+      "Micro": "Individual / micro",
+      "Meso": "Community / meso",
+      "Macro": "Societal / macro"
+    },
+    "dbError": "Database error",
+    "dbErrorDetail": "The skills library is not available right now."
+  }
+}

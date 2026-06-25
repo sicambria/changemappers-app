@@ -1,0 +1,194 @@
+{
+  "title": "SolutionPath",
+  "subtitle": "Self-Guided Reflection",
+  "nav": {
+    "coachme": "SolutionPath Coach"
+  },
+  "phases": {
+    "consent": {
+      "title": "Before You Begin",
+      "statement1": "This is a self-guided reflection tool built on Solution-Focused Brief Coaching questions. It is a structured form, not a person-led or AI-led service. It stores what you type privately and shows it back to you.",
+      "statement2": "This tool is not therapy. It is not crisis support. It is not professional advice of any kind. If you are in crisis or distress, please use the support resources linked at the bottom of every screen.",
+      "statement3": "Your outcomes depend entirely on your own reflection. The tool contributes nothing except the questions and the structure.",
+      "checkbox1": "I understand this is a pre-programmed form, not a person or AI.",
+      "checkbox2": "I understand this is not therapy, crisis support, or professional advice.",
+      "checkbox3": "I understand the tool stores my text privately and may run limited phrase-based distress checks only to show support resources.",
+      "checkbox4": "I understand I can exit or pause at any time.",
+      "startButton": "I Agree — Set Up My Private Vault",
+      "exitButton": "Exit",
+      "returningTitle": "Welcome Back",
+      "returningSummary": "This tool is a structured form, not therapy or professional advice. It stores your text privately and may show support resources when limited phrase-based checks detect distress language.",
+      "returningButton": "I Still Agree — Start Session",
+      "readFullLink": "Read the full agreement again",
+      "encryption": {
+        "title": "Choose your privacy level",
+        "recoverableTitle": "Recoverable (recommended)",
+        "recoverableDesc": "Your data can be recovered if you change or reset your password. Slightly less secure.",
+        "strongTitle": "Maximum privacy",
+        "strongDesc": "Data cannot be recovered if you change or reset your password. If you forget your password, all session data is permanently lost.",
+        "accountPasswordTitle": "Enter your account password",
+        "accountPasswordDesc": "Your account password will be used to encrypt your CoachMe data. If you change or reset your account password, you must unlock your vault with the new password.",
+        "accountPasswordPlaceholder": "Your account password"
+      },
+      "errors": {
+        "passwordEmpty": "Please enter your account password.",
+        "wrongPassword": "Incorrect password. Please try again.",
+        "saveFailed": "Could not save. Please try again."
+      }
+    },
+    "focus": {
+      "title": "What brings you here today?",
+      "focusTagLabel": "What area would you like to focus on?",
+      "focusTags": {
+        "WORK_CAREER": "Work / Career",
+        "RELATIONSHIPS": "Relationships",
+        "HEALTH": "Health",
+        "PERSONAL_GROWTH": "Personal Growth",
+        "LIFE_BALANCE": "Life Balance",
+        "OTHER": "Other"
+      },
+      "customFocusLabel": "Briefly name your focus area",
+      "customFocusPlaceholder": "e.g., Creative projects",
+      "whyImportantLabel": "Why is this important to you right now?",
+      "whyImportantPlaceholder": "e.g., It has been taking up energy and I want a clearer way forward...",
+      "sessionGoalLabel": "What is your goal for this session?",
+      "sessionGoalPlaceholder": "e.g., Decide what I want to say and what my first move is...",
+      "continueButton": "Continue",
+      "topicLabel": "What brings you here today? (topic)",
+      "topicPlaceholder": "e.g., I want to think through a conversation I keep postponing...",
+      "successCriteriaLabel": "What needs to happen for this session to feel successful?",
+      "successCriteriaPlaceholder": "e.g., I leave with one small next step I trust enough to try..."
+    },
+    "miracle": {
+      "title": "The Preferred Future",
+      "subtitle": "Picture the preferred future you want to move toward...",
+      "questionA": "Suppose a miracle happens tonight while you sleep, and the situation you brought to this session is completely resolved. Because you were sleeping, you didn't know it happened. What is the very first small thing you notice tomorrow morning that tells you the miracle occurred?",
+      "questionB": "What would be the next sign after that?",
+      "questionC": "What would the people around you notice that was different about you?",
+      "optionalLabel": "Anything else you want to add about your preferred future?",
+      "verificationTitle": "Review Your Preferred Future",
+      "verificationSubtitle": "These are exact copies of what you wrote.",
+      "editButton": "Edit this answer",
+      "confirmButton": "This is accurate — Continue"
+    },
+    "action": {
+      "title": "Your Next Step",
+      "questionLabel": "What is one concrete, realistic action you want to take from this session?",
+      "refineLabel": "Would you like to refine or improve this step? (optional)",
+      "refinePlaceholder": "e.g., Shrink it down — commit to just 15 minutes on Tuesday...",
+      "optionalLabel": "Any other possible steps or notes?"
+    },
+    "synthesis": {
+      "title": "Your Session Summary",
+      "goalHeading": "Your Goal for This Session",
+      "miracleHeading": "Your Preferred Future",
+      "firstSign": "First sign",
+      "nextSign": "Next sign",
+      "othersNotice": "What others would notice",
+      "stepHeading": "Your Next Step",
+      "originalStep": "Your original step",
+      "refinedStep": "Your refined step",
+      "closingHeading": "Closing Reflection",
+      "usefulnessLabel": "How useful was this walkthrough?",
+      "finalLabel": "Any final reflections or additional notes for this session?",
+      "actionMenuTitle": "What would you like to do next?",
+      "saveEnd": "Save & End Session",
+      "newSameFocus": "Start a new walkthrough on the same focus",
+      "differentFocus": "Choose a different focus area",
+      "exportJson": "Export this session as JSON",
+      "goBack": "Go back",
+      "discardSession": "Discard session",
+      "topicHeading": "Topic",
+      "whyImportantHeading": "Why This Matters",
+      "successCriteriaHeading": "Session Success Criteria",
+      "scalingHeading": "Scaling",
+      "currentScale": "Current position",
+      "resources": "Backpack",
+      "recentMoments": "Great moments from recent days and weeks",
+      "nextScaleStep": "One point higher"
+    },
+    "scaling": {
+      "title": "Scaling the Preferred Future",
+      "slopeLabel": "The peak is 10 (the magic dream), the base is 1 (deepest trouble). Where are you standing now?",
+      "backpackLabel": "A {{score}}? Excellent. What makes it a {{score}}? What is already in your backpack: strengths, resources, or things you have already achieved?",
+      "backpackPlaceholder": "e.g., I already know who I need to speak with, and I stayed calm once this week...",
+      "recentMomentsLabel": "What great moments have you noticed in the past days and weeks?",
+      "recentMomentsPlaceholder": "e.g., A moment when this was a little easier, lighter, or more possible...",
+      "nextStepLabel": "What would a {{nextScore}} look like? What could you do by tomorrow?",
+      "nextStepPlaceholder": "e.g., Write the first three lines, ask one person, block 15 minutes..."
+    }
+  },
+  "unlock": {
+    "title": "CoachMe Vault",
+    "description": "Enter your account password to decrypt your session data.",
+    "accountPasswordPlaceholder": "Your account password",
+    "button": "Unlock",
+    "cancel": "Cancel",
+    "wrongPassword": "Incorrect password. Please try again."
+  },
+  "safety": {
+    "pauseButton": "Pause — I need support",
+    "pauseMessage": "This walkthrough is paused. There is no rush to return.",
+    "returnButton": "Return to my walkthrough",
+    "endSession": "End this session",
+    "disclosure": "This tool may run limited phrase-based distress checks only to show support resources. If you need support at any time, press the button above.",
+    "supportResources": "Support resources",
+    "crisisLines": "Hungarian crisis lines:",
+    "emergency": "Emergency: 112",
+    "close": "Close"
+  },
+  "navigation": {
+    "continue": "Continue to next phase",
+    "backMiracle": "Return to Preferred Future",
+    "reviewAnswers": "Review & edit all my answers so far",
+    "endEarly": "End session early",
+    "addNote": "Add a note for this phase"
+  },
+  "progress": {
+    "title": "Your Progress",
+    "date": "Date",
+    "focus": "Focus",
+    "nextStep": "Next Step",
+    "filterByFocus": "Filter by focus",
+    "allFocus": "All focus areas",
+    "exportSelected": "Export selected sessions as JSON",
+    "printSelected": "Print selected sessions",
+    "empty": "No sessions yet. Start your first walkthrough to see your progress here.",
+    "actions": "Actions",
+    "export": "Export",
+    "startNewSession": "Start New Session"
+  },
+  "resume": {
+    "title": "Resume Session",
+    "message": "You have an incomplete session from {{date}}. Would you like to continue where you left off?",
+    "phase": "You were on: {{phase}}",
+    "resumeButton": "Resume Session",
+    "startFresh": "Start Fresh"
+  },
+  "autoSave": {
+    "saved": "Saved",
+    "saving": "Saving...",
+    "error": "Could not save"
+  },
+  "sessionStart": {
+    "editButton": "Edit topic and goal"
+  },
+  "errors": {
+    "minLength": "Please enter at least 3 characters",
+    "required": "This field is required",
+    "selectFocus": "Please select a focus area",
+    "sessionNotFound": "Session not found",
+    "notAuthorized": "You are not authorized to access this session",
+    "startFailed": "Failed to start session",
+    "encryptionNotConfigured": "Encryption is not configured",
+    "recoverableUnlockFailed": "Could not unlock recoverable encryption"
+  },
+  "restart": {
+    "button": "Cancel and start over",
+    "confirm": "Cancel this walkthrough and start over? Your current answers will be deleted.",
+    "error": "Could not start over. Please try again."
+  },
+  "session": {
+    "goalLabel": "Your goal"
+  }
+}

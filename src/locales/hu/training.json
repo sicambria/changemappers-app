@@ -1,0 +1,234 @@
+{
+  "title": "Képzés",
+  "peerTraining": "Társ Képzés",
+  "activeOffers": "Aktív képzési ajánlatok",
+  "browseOffers": "Ajánlatok Böngészése",
+  "findTraining": "Képzés Keresése",
+  "formats": {
+    "oneOnOne": "1-az-1-hez",
+    "group": "Csoport",
+    "workshop": "Műhely"
+  },
+  "levels": {
+    "beginner": "Kezdő",
+    "advanced": "Haladó"
+  },
+  "createOffer": "Képzési Ajánlat Létrehozása",
+  "describeWhatYouCanTeach": "Írd le, mit tudsz tanítani...",
+  "offer": "Képzési Ajánlat",
+  "workshop": "Műhely",
+  "course": "Tanfolyam",
+  "demo": "Bemutató",
+  "anonymous": "Névtelen",
+  "editOffer": "Képzési Ajánlat Szerkesztése",
+  "updateDetails": "Frissítsd a részleteket",
+  "myOffers": "Képzési Ajánlataim",
+  "newOffer": "Új Ajánlat",
+  "noOffersYet": "Még nem hoztál létre képzési ajánlatot",
+  "postRequest": "Képzési Kérés Közzététele",
+  "describeSkillsToDevelop": "Írd le a fejleszteni kívánt készségeket",
+  "myConnections": "Képzési Kapcsolataim",
+  "status": {
+    "active": "Aktív",
+    "pending": "Függőben",
+    "complete": "Befejezett",
+    "cancelled": "Lemondott"
+  },
+  "nav": {
+    "find": "Képzés keresése",
+    "offer": "Képzés ajánlása",
+    "connections": "Kapcsolataim"
+  },
+  "find": {
+    "title": "Képzés keresése",
+    "subtitle": "Strukturált tudás- és készségátadás gyakorlóktól, akik már megtették ezt az utat",
+    "filters": {
+      "domain": "Terület",
+      "format": "Formátum",
+      "level": "Szint",
+      "sync": "Csak szinkron"
+    },
+    "empty": "Nincs a szűrőknek megfelelő képzési ajánlat.",
+    "loading": "Ajánlatok betöltése...",
+    "activeOffersSummary": "{{count}} aktív ajánlat a hálózatból",
+    "activeOffersSummary_plural": "{{count}} aktív ajánlat a hálózatból",
+    "emptyCta": "Legyél te az első, aki létrehoz egyet →",
+    "engaged": "{{count}} résztvevő",
+    "formatLabels": {
+      "ONE_ON_ONE": "1:1",
+      "GROUP": "Csoportos",
+      "WORKSHOP": "Műhely",
+      "ASYNC": "Aszinkron",
+      "MENTORING": "Mentorálás"
+    },
+    "levelLabels": {
+      "BEGINNER": "Kezdő",
+      "INTERMEDIATE": "Középhaladó",
+      "ADVANCED": "Haladó",
+      "ALL": "Minden szint"
+    }
+  },
+  "offerSection": {
+    "create": "Képzési ajánlat létrehozása",
+    "edit": "Ajánlat szerkesztése",
+    "domain": "Terület / Téma",
+    "format": "Formátum",
+    "level": "Szint",
+    "isSync": "Szinkron (élő foglalkozások)",
+    "isGroup": "Csoportos formátum",
+    "timeCommitment": "Időigény",
+    "capacity": "Kapacitás (hagyd üresen, ha korlátlan)",
+    "description": "Leírás",
+    "formats": {
+      "WORKSHOP": "Workshop",
+      "COURSE": "Tanfolyam",
+      "DEMO": "Bemutató",
+      "RESOURCE": "Anyagok / Olvasmányok",
+      "GUIDED_PRACTICE": "Irányított gyakorlat"
+    },
+    "levels": {
+      "BEGINNER": "Kezdő",
+      "PARTIAL": "Némi tapasztalat",
+      "ADVANCED": "Haladó"
+    }
+  },
+  "request": {
+    "create": "Képzés kérése",
+    "domain": "Milyen területen szeretnél tanulni?",
+    "skillGap": "Írd le a tudáshiányodat",
+    "formatPreference": "Preferált formátum (opcionális)",
+    "levelPreference": "Jelenlegi szinted (opcionális)"
+  },
+  "engagement": {
+    "status": {
+      "PENDING": "Függőben",
+      "ACTIVE": "Aktív",
+      "COMPLETE": "Befejezett",
+      "CANCELLED": "Lemondott"
+    },
+    "accept": "Kérés elfogadása",
+    "decline": "Elutasítás",
+    "cancel": "Lemondás",
+    "complete": "Befejezettnek jelölés",
+    "empty": "Még nincs együttműködésed.",
+    "browseOffers": "Böngéssz a képzési ajánlatok között",
+    "or": "vagy",
+    "offerTraining": "ajánlj képzést",
+    "trainer": "Oktató: {{name}}",
+    "learner": "Tanuló: {{name}}",
+    "unknown": "Ismeretlen",
+    "completedDate": "Befejezve {{date}}",
+    "reflection": "Visszajelzés",
+    "writeReflection": "Írj visszajelzést →"
+  },
+  "feedback": {
+    "title": "Gondolkodj vissza erre a képzésre",
+    "learnerPrompt": "Mit nem tudtál korábban? Mi változott? Mit mondanál valakinek, aki ezt a képzést fontolgatja?",
+    "trainerPrompt": "Mit hozott a tanuló a folyamatba? (Opcionális megfigyelés — nem értékelés)",
+    "submit": "Visszajelzés beküldése",
+    "publicNote": "Ez a visszajelzés látható lesz az együttműködés rekordján."
+  },
+  "card": {
+    "by": "Ajánlja",
+    "level": "Szint",
+    "format": "Formátum",
+    "time": "Időigény",
+    "request": "Képzés kérése"
+  },
+  "offerForm": {
+    "updated": "Ajánlat frissítve!",
+    "created": "Képzési ajánlat sikeresen létrehozva!",
+    "levelExplorer": "Felfedező",
+    "levelPractitioner": "Gyakorló",
+    "levelGuide": "Vezető",
+    "deliveryMode": "Tartási mód",
+    "deliveryOnline": "Online",
+    "deliveryInPerson": "Személyesen",
+    "deliveryHybrid": "Hibrid",
+    "cityLabel": "Város (személyes/hibrid esetén)",
+    "cityPlaceholder": "pl., Budapest",
+    "professionalUrl": "Szakmai URL (opcionális)",
+    "professionalUrlHint": "Érvényes URL szükséges (https://...)",
+    "minChars": "Legalább {{min}} karakter",
+    "min": "{{min}} min",
+    "timeCommitmentPlaceholder": "pl. 2 óra/hét 4 héten át",
+    "capacityOptional": "Kapacitás (opcionális)",
+    "synchronous": "Szinkron",
+    "groupFormat": "Csoportos formátum",
+    "saving": "Mentés…",
+    "update": "Ajánlat frissítése",
+    "create": "Ajánlat létrehozása"
+  },
+  "feedbackForm": {
+    "success": "Köszönjük a reflexiódat. Visszajelzés elküldve.",
+    "yourReflection": "Reflexiód",
+    "yourReflectionPlaceholder": "Mit tanultál? Mit fogsz alkalmazni? Hogyan változtatta meg ezt a gondolkozásodat?",
+    "minChars": "Legalább {{min}} karakter",
+    "min": "{{min}} min",
+    "trainerObservation": "Oktató megfigyelés",
+    "optional": "(opcionális)",
+    "trainerObservationPlaceholder": "Megfigyelések az oktató számára — mi működött jól, mi javítható?",
+    "submitting": "Küldés…",
+    "submit": "Visszajelzés beküldése"
+  },
+  "requestForm": {
+    "success": "Képzési kérés elküldve! Megfelelő oktatókhoz lesz összekapcsolva.",
+    "skillGapPlaceholder": "Mit szeretnél tanulni és miért?",
+    "minChars": "Legalább {{min}} karakter ({{count}}/{{min}})",
+    "any": "Bármely",
+    "levelBeginner": "Kezdő",
+    "levelPartial": "Részleges",
+    "levelAdvanced": "Haladó",
+    "submitting": "Küldés…",
+    "submit": "Kérés beküldése"
+  },
+  "overviewSubtitle": "Oszd meg, amit tudsz. Tanulj másoktól. A Changemappers kölcsönös készségcserén keresztül fejlődik - találj trénert, ajánld fel a tudásod, vagy tegyél közzé tanulási kérést.",
+  "requestOpen": "Nyitott",
+  "requestPrompt": "Tegyél közzé tanulási kérést",
+  "findTrainersDescription": "Találj olyan trénereket, akik a fejlődési céljaidhoz illő készségeket kínálnak.",
+  "viewConnections": "Képzési kapcsolataim megtekintése →",
+  "viewMyRequests": "Képzési kéréseim megtekintése →",
+  "myRequests": {
+    "title": "Képzési kéréseim",
+    "subtitle": "Függő képzési kéréseid. Vonj vissza egy kérést, ha már nincs rá szükséged.",
+    "empty": "Nincs függő képzési kérésed.",
+    "cardTitle": "Képzési kérés",
+    "domainLabel": "Terület",
+    "skillGapLabel": "Készséghiány",
+    "formatLabel": "Formátum preferencia",
+    "levelLabel": "Szint preferencia",
+    "withdraw": "Visszavonás",
+    "withdrawConfirm": "Visszavonjuk ezt a kérést?",
+    "withdrawYes": "Igen, visszavonom",
+    "withdrawPending": "Visszavonás…",
+    "withdrawError": "Nem sikerült visszavonni a kérést."
+  },
+  "connectionsSummary": "{{count}} együttműködés az összes állapotban",
+  "connectionsSummary_plural": "{{count}} együttműködés az összes állapotban",
+  "noConnections": "Még nincs képzési kapcsolatod.",
+  "findTrainer": "Tréner keresése →",
+  "postRequestCta": "Kérés közzététele →",
+  "unknownTrainer": "Ismeretlen tréner",
+  "trainingFallback": "Képzés",
+  "completeNeedsReflection": "Ez az együttműködés lezárult. Oszd meg a reflexiódat a kör lezárásához.",
+  "completedOn": "Befejezve: {{date}}",
+  "offerDetail": {
+    "backToOffers": "Vissza az ajánlatokhoz",
+    "engagementCount": "{{count}} együttműködés",
+    "engagementCount_plural": "{{count}} együttműködés",
+    "trainer": "Tréner",
+    "postRequestMatch": "Kérés közzététele összekapcsoláshoz",
+    "formatLabels": {
+      "WORKSHOP": "Műhely",
+      "COURSE": "Kurzus",
+      "DEMO": "Demó",
+      "RESOURCE": "Forrás / olvasnivaló",
+      "GUIDED_PRACTICE": "Vezetett gyakorlat"
+    },
+    "levelLabels": {
+      "BEGINNER": "Kezdő",
+      "PARTIAL": "Van némi tapasztalat",
+      "ADVANCED": "Haladó"
+    }
+  }
+}

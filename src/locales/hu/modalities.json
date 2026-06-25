@@ -1,0 +1,235 @@
+{
+  "menu": {
+    "connect": "Kapcsolódj",
+    "act": "Cselekedj",
+    "connectSubtitle": "Találd meg, amire szükséged van",
+    "actSubtitle": "Hozd a világba, amit hordozol"
+  },
+  "selector": {
+    "training": {
+      "label": "Képzés",
+      "description": "Strukturált tudás- vagy készségátadás — valamit megtanulsz, amit nem tudtál"
+    },
+    "mentoring": {
+      "label": "Mentorálás",
+      "description": "Iránymutatás valakitől, aki ott járt, ahol te vagy — mondhat őszinte véleményt"
+    },
+    "peer": {
+      "label": "Kortárs támogatás",
+      "description": "Kíséret valakitől, aki hasonló helyzetben van — tanács csak ha kéred"
+    },
+    "coaching": {
+      "label": "Coaching",
+      "description": "Gondolkodást segítő tér — a coach nem mondja meg, mit tegyél, hanem segít megtalálni, amit már tudsz"
+    },
+    "contribute": {
+      "label": "Közreműkő",
+      "description": "Kínálj tudást, készséget vagy jelenlétet valakinek, akinek szüksége van arra, amit hordozol"
+    }
+  },
+  "availability": {
+    "DELIVERING": "Teljesít",
+    "BUILDING": "Épít",
+    "BETWEEN": "Átmenet",
+    "REFLECTING": "Reflektál",
+    "RESTING": "Pihen",
+    "descriptions": {
+      "DELIVERING": "Aktívan dolgozik egy elkötelezettségen",
+      "BUILDING": "Tanulási ívben — elérhető adni és kapni egyaránt",
+      "BETWEEN": "Átmenetben — teljesen elérhető",
+      "REFLECTING": "Legutóbbi tapasztalatait integrálja — böngészhet, másoknak nem jelenik meg",
+      "RESTING": "Regenerálódás — minden egyeztetési sorból eltávolítva"
+    }
+  },
+  "forwardReciprocity": {
+    "title": "Mit hordozol most, amire valakinek szüksége van?",
+    "body": "Miután értékes dolgot kaptál, a következő lépés előre irányul — nem a szívesség visszaadása, hanem valami felajánlása valakinek, aki még ott van, ahol te már jártál.",
+    "createOffer": "Ajánlat létrehozása",
+    "skip": "Nem most"
+  },
+  "noScores": {
+    "note": "Nincs értékelés vagy pontszám — csak írásos reflexiók. Az írás erőfeszítése a szűrő."
+  },
+  "act": {
+    "prompt": "Mit hordozol, amire valakinek szüksége van?",
+    "subtitle": "Mielőtt azzal kapcsolódsz, amire szükséged van, gondold át, mit vagy kész ajánlani."
+  },
+  "connectNature": {
+    "headerTag": "Interaktív Terepi Útmutató",
+    "heroTitle": "Mindennapi Visszavadulás",
+    "heroSub": "Gyakorlati, hozzáférhető módok a természeti világgal való kapcsolat helyreállítására - akár az erdő mélyén, akár egy ablakból nézve.",
+    "heroBtn": "Fedezd fel a gyakorlatokat ↓",
+    "contextTitle": "A Szétkapcsolódási Szakadék",
+    "contextDesc": "A kiszakadásunk okainak megértése az első lépés. Ez nem csak a helyszínről, hanem a figyelemről is szól.",
+    "whyLoseTitle": "Miért veszítjük el a kapcsolatot",
+    "whyLose1": "<strong>A Figyelemgazdaság:</strong> A képernyők folyamatosan szűk fókuszban tartanak minket.",
+    "whyLose2": "<strong>Beltéri Építészet:</strong> A klímaberendezések és a mesterséges fény elszigetelnek a szenzoros változásoktól.",
+    "whyLose3": "<strong>Haszonelvűség:</strong> Ha a természetre csak 'erőforrásként' tekintünk, elveszik a kapcsolati élmény.",
+    "justBeingTitle": "Miért nem elég 'csak ott lenni'",
+    "justBeingSub": "Sokan túráznak gyönyörű erdőkben, mégis változatlanul térnek haza. Miért?",
+    "justBeing1": "<strong>Mentális Áthelyeződés:</strong> Lehetsz fizikailag az erdőben, ha az elméd még mindig az irodában jár.",
+    "justBeing2": "<strong>Szenzoros Szűrés:</strong> A felnőtt agy kiszűri a 'lényegtelen' adatokat, hacsak nem figyelsz rájuk tudatosan.",
+    "justBeing3": "<strong>Tempó:</strong> 'Városi sebességgel' mozogni a természetben súrlódást okoz. A természet lassabb ritmusú.",
+    "catalogTitle": "Gyakorlatok Katalógusa",
+    "catalogDesc": "Válassz egy kategóriát alább. A radardiagram bemutatja az egyes kategóriák mentális és fizikai profilját.",
+    "profileTitle": "Gyakorlat Profilja",
+    "whyHelpsTitle": "Miért segít helyreállítani a kapcsolatot",
+    "examplesTitle": "Konkrét Példák (Mindennapi)",
+    "adaptTitle": "Hogyan adaptáld ezt",
+    "adaptForest": "Erdőben",
+    "adaptPark": "Városi Park",
+    "adaptBalcony": "Erkélyen",
+    "adaptIndoor": "Bent / Ablaknál",
+    "smallestTitle": "A Legkisebb Lehetséges Lépés",
+    "smallestSub": "Mi van, ha pontosan 10 másodperced van?",
+    "smallestName": "Az Égbolt Lélegzet",
+    "smallestDesc": "Menj egy ablakhoz. Nézz kizárólag az égre (az épületeket mellőzve). Vegyél egy mély lélegzetet. Tudatosítsd, hogy ez pontosan ugyanaz az ég, amely a Föld legvadabb tájait is borítja.",
+    "shortlistTitle": "Kezdők Napi Rövidlistája",
+    "shortlistDesc": "Ha túlterhelt vagy, hagyd figyelmen kívül a többit, és csak válassz egyet ebből a 3 ingyenes napi gyakorlatból:",
+    "sl1Title": "1. Reggeli Időjárás (Szenzoros)",
+    "sl1Desc": "Mielőtt reggel képernyőre néznél, lépj ki (vagy nyiss ablakot). Érezd a hőmérsékletet, szagold meg a levegőt, az applikáció helyett a testeddel. 30 másodpercet vesz igénybe.",
+    "sl2Title": "2. Texturális Inázás (Mozgás/Figyelem)",
+    "sl2Desc": "Séta közben szándékosan lépj különböző textúrákra. Ropogtass el egy száraz falevelet, lépj fűre aszfalt helyett, húzd végig a kezed egy téglafalon.",
+    "sl3Title": "3. Keresd a Nem-Emberit (Megfigyelés)",
+    "sl3Desc": "Naponta egyszer figyelj meg egy nem emberi élőlényt 1 percig. Vegyél észre egy új részletet.",
+    "footerText": "Strukturált megközelítés a természetes újrakapcsolódáshoz. Mindennapi használatra tervezve.",
+    "chartBaseline": "Városi Alapszint",
+    "chartLabels": {
+      "accessibility": "Hozzáférhetőség",
+      "sensoryDepth": "Szenzoros Mélység",
+      "physicalMovement": "Fizikai Mozgás",
+      "cognitiveRest": "Kognitív Pihenés",
+      "timeEfficiency": "Időhatékonyság"
+    },
+    "categories": {
+      "SEN-01": {
+        "title": "Szenzoros Kapcsolódás",
+        "explanation": "Az érzékszervek közvetlen bevonása, hogy megkerüljük a túlgondolást, és a jelenlegi fizikai környezethez horgonyozzuk a tudatosságot.",
+        "why": "A modern élet erősen a látásra és a hallásra támaszkodik a képernyőkön keresztül. Az érintés, a szaglás és a térbeli hallás aktiválása azonnal kirántja az idegrendszert a 'jövőtervező' módból, csökkentve a kortizolt.",
+        "examples": {
+          "0": "Csukd be a szemed, és próbálj meg azonosítani három különböző hangréteget (közel, közép, távol).",
+          "1": "Vedd le a cipőd, és állj természetes talajon két percig.",
+          "2": "Morzsolj el egy lehullott falevelet az ujjaid között, és lélegezd be mélyen az illatát."
+        },
+        "adaptations": {
+          "forest": "Sétálj mezítláb a mohán.",
+          "park": "Feküdj hanyatt a fűben, érezd, ahogy a talaj megtartja a tested.",
+          "balcony": "Csukd be a szemed, és érezd a szél irányát az arcodon.",
+          "indoor": "Fúrd az ujjaid egy szobanövény földjébe, hogy érezd a nedvességét."
+        }
+      },
+      "ATT-02": {
+        "title": "Figyelem és Jelenlét",
+        "explanation": "A fókusz minőségének megváltoztatása a 'szűk és gyors' (képernyő mód) felől a 'lágy és tág' (természet mód) felé.",
+        "why": "A természetben őseink a 'lágy lenyűgözöttség' állapotát használták – ahol a figyelem természetesen sodródik az érdekes ingerek felé intenzív fókusz nélkül. Ez megszünteti a mentális fáradtságot.",
+        "examples": {
+          "0": "Gyakorold a 'Bagoly Szemet': nézz egyenesen előre, de tágítsd a tudatosságod a perifériás látásodig.",
+          "1": "Ülj csendben, és figyelj meg egyetlen természeti objektumot (felhő, ág) 5 percig.",
+          "2": "Számold meg, hány különböző árnyalatú zöldet látsz."
+        },
+        "adaptations": {
+          "forest": "Ülj egy fa tövébe, és figyeld a lombkorona ringását.",
+          "park": "Figyeld az árnyékok mozgását a füvön.",
+          "balcony": "Kövesd egy felhő lassú mozgását az égen.",
+          "indoor": "Nézd a napsugárban táncoló porszemeket."
+        }
+      },
+      "MOV-03": {
+        "title": "Mozgás és Testtudat",
+        "explanation": "Nem lineáris, kiszámíthatatlan mozgás a térben, amely megköveteli az agy és a test együttműködését.",
+        "why": "A városok diktálják, hogyan mozgunk (sík járdák). Az egyenetlen terepen való mozgás bekapcsolja a propriocepciót, emlékeztetve az agyat, hogy a test egy dinamikus fizikai világ része.",
+        "examples": {
+          "0": "Egyensúlyozó séta: sétálj végig egy kidőlt fatörzsön vagy alacsony falon.",
+          "1": "Mozogj csendben: próbálj meg 20 lépést tenni ropogós leveleken hang nélkül.",
+          "2": "Változtass szintet: guggolj le, hogy megnézz valamit a földön."
+        },
+        "adaptations": {
+          "forest": "Lépj át gyökereken, hajolj át ágak alatt. Hagyd, hogy a terep diktálja a lépéseket.",
+          "park": "Sétálj fel egy füves dombon oldalazva vagy hátrafelé.",
+          "balcony": "Végezz lassú nyújtásokat a horizontot nézve.",
+          "indoor": "Ülj a padlón szék helyett, hogy megváltoztasd a fizikai geometriádat."
+        }
+      },
+      "REL-04": {
+        "title": "Kapcsolat és Kölcsönösség",
+        "explanation": "Áttérés a természet 'háttérként' való felfogásáról a természeti világ elemeinek szubjektumként való kezelésére.",
+        "why": "A nem emberi élettel való rokonság érzése segít a tágabb közösséghez tartozásban. Az egocentrikus világnézetet ökocentrikusra cseréli.",
+        "examples": {
+          "0": "Alakíts ki egy 'ülőhelyet': térj vissza gyakran ugyanoda a szabadban.",
+          "1": "Tanuld meg a házad előtti fa nevét, és köszöntsd némán.",
+          "2": "Szedj fel három darab szemetet, amit nem te dobtál el."
+        },
+        "adaptations": {
+          "forest": "Kérj némán engedélyt, mielőtt letérsz az ösvényről.",
+          "park": "Figyeld meg a fajok közötti interakciókat (egy madár és egy fa).",
+          "balcony": "Gondozz egy cserepes növényt élő lakótársként.",
+          "indoor": "Kövesd nyomon az ételed eredetét zöldségvágás közben."
+        }
+      },
+      "OBS-05": {
+        "title": "Megfigyelés és Tanulás",
+        "explanation": "Kíváncsian vizsgálni a természeti világ mechanizmusait, mintázatait és viselkedését.",
+        "why": "A kíváncsiság dopamint termel. Amikor elkezdesz mintákat észrevenni, a korábban 'láthatatlan' zöld homály gazdag, olvasható tájjá válik.",
+        "examples": {
+          "0": "Azonosíts naponta egy ismeretlen fajt egy alkalmazással (pl. Seek).",
+          "1": "Keress egy rovart, és nézd, ahogy navigál 2 percig.",
+          "2": "Keresd a mikro-vadont: téglafalon növő mohát."
+        },
+        "adaptations": {
+          "forest": "Keress állatnyomokat a sárban vagy jeleket a halott fákon.",
+          "park": "Figyeld meg, mely fák hullatják el először a leveleiket.",
+          "balcony": "Figyeld meg, milyen rovarok látogatják az erkélyt.",
+          "indoor": "Nézd meg, hogyan dől egy szobanövény az ablak felé."
+        }
+      },
+      "RIT-06": {
+        "title": "Rituálé és Jelentés",
+        "explanation": "Egyszerű, szándékos szokások kialakítása, amelyek elismerik a nap vagy az évszak átmeneteit.",
+        "why": "A rituálék megkerülik a logikát, és az emberi érzelmi igényekhez szólnak. A végtelen digitális idő világában a természetes rituálék jelentést adnak.",
+        "examples": {
+          "0": "Nézd a napfelkeltét vagy napnyugtát csendben.",
+          "1": "Idd meg a reggeli kávét/teát kint vagy egy nyitott ablaknál.",
+          "2": "Gyűjts egy kis természetes tárgyat (kavicsot), amit a zsebedben tarthatsz."
+        },
+        "adaptations": {
+          "forest": "Építs egy apró, ideiglenes mandalát lehullott levelekből.",
+          "park": "Mindig ugyanazon a kapun lépj be a parkba, és vegyél egy mély lélegzetet.",
+          "balcony": "Legyen egy kijelölt széked, ahol napi 5 percet ülsz csendben.",
+          "indoor": "Hozd létre a 'természet polcát' köveknek vagy szárított leveleknek."
+        }
+      },
+      "SEA-07": {
+        "title": "Szezonális Ritmus",
+        "explanation": "Személyes szokásaid összehangolása a föld ciklusainak valóságával.",
+        "why": "Azt várjuk magunktól, hogy egész évben 100%-osan produktívak legyünk. A természet télen pihen. Ezekkel a ritmusokkal való összehangolódás csökkenti a kiégést.",
+        "examples": {
+          "0": "Egyél szezonális ételeket.",
+          "1": "Halványítsd el a mesterséges fényeket napnyugta után.",
+          "2": "Vedd észre egy változó évszak első jelét (az ősz illatát)."
+        },
+        "adaptations": {
+          "forest": "Figyeld meg, hogyan változik az akusztika (a hó tompítja a hangot).",
+          "park": "Fotózd le ugyanazt a fát havonta egyszer.",
+          "balcony": "Érezd a különbséget a nap dőlésszögében nyáron és télen.",
+          "indoor": "Támaszkodj a természetes fényre, ameddig csak lehetséges."
+        }
+      },
+      "MIC-08": {
+        "title": "Mikró-gyakorlatok",
+        "explanation": "Apró, láthatatlan cselekvések, amelyek természet-tudatosságot fecskendeznek az erősen urbanizált rutinokba.",
+        "why": "Ha nincs időd, a mikró-gyakorlatok az egyetlen opció. Bizonyítják, hogy a természet nem csak egy hely, hanem egy valóság, amibe mindig beágyazódsz.",
+        "examples": {
+          "0": "Nézz az égre a telefonod helyett, amíg a liftre vársz.",
+          "1": "Hallgasd, ahogy a szél zörgeti az ablakokat az épületek között.",
+          "2": "Tarts egy darabka természetet az asztalodon, és érintsd meg hívások közben."
+        },
+        "adaptations": {
+          "forest": "(N/A - Fókusz városi, de gyakorolj mikroszüneteket).",
+          "park": "Kövesd a vonalat, ahol a gondozott gyep találkozik a vad bokrokkal.",
+          "balcony": "Próbáld kiszűrni a gépeket, és csak a szelet/madarakat hallani.",
+          "indoor": "Hallgass meg egy 2 perces hanganyagot egy igazi erdőről csukott szemmel."
+        }
+      }
+    }
+  }
+}

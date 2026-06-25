@@ -1,0 +1,332 @@
+{
+  "title": "Közreműködés",
+  "nav": {
+    "find": "Közreműködések böngészése",
+    "offer": "Közreműködés ajánlása",
+    "request": "Közreműködés kérése",
+    "connections": "Kapcsolataim"
+  },
+  "philosophy": "Mindenki egyszerre befogadó és adó. A kérdés nem az, kinek van és kinek nincs — hanem mit hordozol most, és ki van ott, ahol te már jártál.",
+  "find": {
+    "title": "Közreműködések Böngészése",
+    "subtitle": "Nézd meg, mit hordoznak mások, amire valakinek szüksége van.",
+    "filters": {
+      "type": "Közreműködés típusa",
+      "domain": "Terület"
+    },
+    "empty": "Nincs a szűrőknek megfelelő közreműködési ajánlat.",
+    "loading": "Ajánlatok betöltése...",
+    "health": "Közösségi közreműködés egészsége"
+  },
+  "types": {
+    "SKILL_OFFERING": "Készségajánlat",
+    "ACCOMPANIMENT": "Kíséret",
+    "KNOWLEDGE_COMMONS": "Tudásközös",
+    "HOLDING_SPACE": "Tér tartása"
+  },
+  "typeDescriptions": {
+    "SKILL_OFFERING": "Konkrét kapacitás, azonnal bevethető",
+    "ACCOMPANIMENT": "Valaki mellett járni egy folyamaton, amelyen te már átmentél",
+    "KNOWLEDGE_COMMONS": "Valami dokumentálása jövőbeli újrafelhasználásra — aszinkron, alacsony küszöbű",
+    "HOLDING_SPACE": "Kortárs érzelmi támogatás"
+  },
+  "offer": {
+    "create": "Közreműködési Ajánlat Létrehozása",
+    "edit": "Ajánlat szerkesztése",
+    "type": "Közreműködés típusa",
+    "domain": "Terület (opcionális)",
+    "timeCommitment": "Időigény",
+    "format": "Formátum",
+    "availability": "Elérhetőség",
+    "prerequisites": "Mi kell ahhoz, hogy elfogadj egy kérést (opcionális)",
+    "targetAudience": "Célközönség",
+    "impactType": "Hatás Típusa"
+  },
+  "targetAudience": {
+    "INDIVIDUALS": "Egyének",
+    "COMMUNITIES": "Közösségek",
+    "NGOS": "Civil szervezetek",
+    "SCHOOLS": "Iskolák",
+    "PUBLIC_INSTITUTIONS": "Közintézmények",
+    "BUSINESSES": "Vállalkozások",
+    "POLICYMAKERS": "Döntéshozók",
+    "RESEARCHERS": "Kutatók",
+    "OTHER": "Egyéb"
+  },
+  "impactType": {
+    "DIRECT_SERVICE": "Közvetlen Szolgáltatás",
+    "CAPACITY_BUILDING": "Képességfejlesztés",
+    "SYSTEMIC_CHANGE": "Rendszerszintű Változás",
+    "AWARENESS_RAISING": "Tudatosság Növelése",
+    "RESEARCH_DOCUMENTATION": "Kutatás és Dokumentáció",
+    "NETWORK_BUILDING": "Hálózatépítés",
+    "POLICY_INFLUENCE": "Politikai Hatásgyakorlás",
+    "RESOURCE_CREATION": "Erőforrás Létrehozása",
+    "OTHER": "Egyéb"
+  },
+  "request": {
+    "create": "Közreműködési Kérés Létrehozása",
+    "type": "Milyen közreműködésre van szükséged?",
+    "whatNeeded": "Mire van szükséged?",
+    "alreadyTried": "Mit próbáltál már? (opcionális)",
+    "willDoWith": "Mit teszel azzal, amit kapsz? (opcionális — nem feltétel, hanem jelzés)"
+  },
+  "connection": {
+    "status": {
+      "PENDING": "Függőben",
+      "ACTIVE": "Aktív",
+      "COMPLETED": "Befejezett",
+      "CANCELLED": "Lemondott"
+    },
+    "accept": "Elfogadás",
+    "decline": "Elutasítás",
+    "cancel": "Lemondás",
+    "complete": "Befejezettnek jelölés"
+  },
+  "feedback": {
+    "title": "Gondolkodj vissza erre a közreműködésre",
+    "prompt": "Mi történt? Mit kaptál? Mit hoztál? Mi változott?",
+    "required": "A reflexió szükséges a kapcsolat befejezéséhez.",
+    "submit": "Reflexió beküldése",
+    "publicNote": "Ez a reflexió a kapcsolat rekordján él — nem egyik fél profiljánan."
+  },
+  "forwardReciprocity": {
+    "title": "Mit hordozol most, amire valakinek szüksége van?",
+    "body": "Kaptál valami értékeset. A következő lépés: kínálj valamit valakinek, aki még ott van, ahol te jártál.",
+    "createOffer": "Ajánlat létrehozása"
+  },
+  "health": {
+    "title": "Közösségi közreműködés egészsége",
+    "delivering": "Teljesít",
+    "building": "Épít",
+    "between": "Átmenet",
+    "reflecting": "Reflektál",
+    "resting": "Pihen",
+    "alert": "A tagok kevesebb mint 15%-a van reflexióban vagy pihenőn. A közösség kimerítheti a közreműködőit.",
+    "members": "tag"
+  },
+  "card": {
+    "by": "Ajánlja",
+    "type": "Típus",
+    "time": "Idő",
+    "request": "Közreműködés kérése"
+  },
+  "landing": {
+    "title": "Mit hordozol most, amire valakinek szüksége van?",
+    "subtitle": "A közreműködés minden irányba áramlik. Ajánld fel, amid van, kérd, amire szükséged van, vagy keress valakit, aki már kínálja.",
+    "offerCard": {
+      "title": "Kínálat létrehozása",
+      "description": "Oszd meg készségedet, tudásodat vagy jelenlététedet a közösséggel."
+    },
+    "requestCard": {
+      "title": "Támogatás kérése",
+      "description": "Légy őszinte arról, amire szükséged van. Valahol valaki épp azt hordozza."
+    },
+    "browseCard": {
+      "title": "Ajánlatok böngészése",
+      "description": "Nézd meg, mit kínál már a közösség."
+    },
+    "viewConnections": "Kapcsolataim megtekintése",
+    "contributionSection": {
+      "title": "Közreműködési csere",
+      "subtitle": "Ajánld fel, amit hordozol, kérd, amire szükséged van, böngéssz az ajánlatok között, vagy kövesd az aktív kapcsolatokat."
+    },
+    "volunteerSection": {
+      "title": "Önkéntes lehetőségek",
+      "subtitle": "Találj konkrét helyeket, ahol segíthetsz, vagy tegyél közzé önkéntes kérést anélkül, hogy az önkéntes szűrők keverednének a közreműködési ajánlatokkal."
+    },
+    "connectionsCard": {
+      "title": "Kapcsolatok megtekintése",
+      "description": "Kövesd az aktív közreműködési kapcsolatokat, és zárd le őket reflexióval."
+    },
+    "myRequestsCard": {
+      "title": "Kéréseim",
+      "description": "Tekintsd meg és vonj vissza függő közreműködési kéréseket."
+    },
+    "volunteerBrowseCard": {
+      "title": "Önkéntes lehetőségek böngészése",
+      "description": "Böngéssz közzétett önkéntes kérések között terület, forma és időigény szerint."
+    },
+    "volunteerPostCard": {
+      "title": "Önkéntes kérés közzététele",
+      "description": "Hozz létre strukturált lehetőséget azoknak, akik segíteni szeretnének."
+    }
+  },
+  "browse": {
+    "title": "Ajánlatok Böngészése",
+    "count": "{{count}} közreműködés elérhető",
+    "count_plural": "{{count}} közreműködés elérhető",
+    "empty": "Még nincsenek ajánlatok. Légy te az első, aki közreműködik.",
+    "offerSomething": "Ajánlat létrehozása",
+    "connect": "Kapcsolódás"
+  },
+  "connections": {
+    "title": "Kapcsolataim",
+    "empty": "Még nincsenek kapcsolataid. Böngéssz az ajánlatok között a kezdéshez.",
+    "offerBy": "Ajánlat: {{name}}",
+    "requestedBy": "Kérte: {{name}}",
+    "addReflection": "Adj hozzá nyilvános reflexiót a kapcsolat befejezettnek jelöléséhez.",
+    "messagePartner": "Üzenet küldése"
+  },
+  "newOffer": {
+    "title": "Közreműködési ajánlat létrehozása",
+    "subtitle": "Írd le, mit hordozol és kinek szolgálhat."
+  },
+  "editOffer": {
+    "title": "Közreműködési Ajánlat Szerkesztése",
+    "subtitle": "Frissítsd ajánlatod részleteit."
+  },
+  "myOffers": {
+    "title": "Közreműködési Ajánlataim",
+    "newOffer": "Új Ajánlat",
+    "empty": "Még nem hoztál létre közreműködési ajánlatot.",
+    "noDomain": "Nincs terület"
+  },
+  "metadata": {
+    "newRequest": {
+      "title": "Támogatás Kérése",
+      "description": "Kérj a közösségtől olyan közreműködést, készséget vagy kíséretet, amire most szükséged van."
+    },
+    "newOffer": {
+      "title": "Közreműködés Ajánlása",
+      "description": "Oszd meg, mit hordozol, és hogyan szolgálhat másokat."
+    },
+    "myOffers": {
+      "title": "Közreműködési Ajánlataim"
+    },
+    "detailOffer": {
+      "title": "Közreműködési Ajánlat"
+    },
+    "editOffer": {
+      "title": "Közreműködési Ajánlat Szerkesztése"
+    }
+  },
+  "anonymous": "Névtelen",
+  "newRequest": {
+    "title": "Támogatás Kérése",
+    "subtitle": "Légy őszinte arról, amire szükséged van. Valahol valaki épp azt hordozza."
+  },
+  "detailOffer": {
+    "backToOffers": "Vissza az ajánlatokhoz",
+    "editOffer": "Ajánlat szerkesztése",
+    "prerequisites": "Előfeltételek",
+    "contributor": "Közreműködő"
+  },
+  "form": {
+    "genericError": "Valami hiba történt. Kérlek, próbáld újra.",
+    "searchPlaceholder": "Keresés...",
+    "noOptionsFound": "Nincs találat.",
+    "domainLabel": "Terület",
+    "domainPlaceholder": "Válassz RDG-területet...",
+    "targetAudiencePlaceholder": "Válassz célközönséget...",
+    "impactTypePlaceholder": "Válassz hatástípust...",
+    "typeQuestion": "Milyen típusú közreműködést ajánlasz?",
+    "typeHint": "Válaszd ki, mit hordozol.",
+    "typeOptions": {
+      "SKILL_OFFERING": {
+        "label": "Készségajánlat",
+        "description": "Oszd meg a gyakorlati készséget vagy szakértelmet, amelyet kialakítottál."
+      },
+      "ACCOMPANIMENT": {
+        "label": "Kíséret",
+        "description": "Menj valaki mellett egy folyamaton vagy kihíváson keresztül."
+      },
+      "KNOWLEDGE_COMMONS": {
+        "label": "Tudásközös",
+        "description": "Adj szabadon használható tudást egy közös erőforráshoz."
+      },
+      "HOLDING_SPACE": {
+        "label": "Tér tartása",
+        "description": "Ajánlj biztonságos, támogató jelenlétet valaki folyamatához."
+      }
+    },
+    "domainQuestion": "Terület vagy fókusz",
+    "domainHint": "Milyen szakterülethez vagy ügyhöz kapcsolódik ez a közreműködés?",
+    "whoServesQuestion": "Kinek szolgál ez?",
+    "whoServesHint": "Segíts másoknak megérteni, ki részesül a közreműködésedből.",
+    "logisticsQuestion": "Hogyan működik a gyakorlatban?",
+    "logisticsHint": "Segíts az embereknek megérteni, milyen veled dolgozni.",
+    "timeCommitmentSuggestions": [
+      "1-2 óra/hónap",
+      "2-4 óra/hónap",
+      "1 óra/hét",
+      "2-3 óra/hét",
+      "Fél nap havonta",
+      "Egy teljes nap",
+      "Rugalmas / szükség szerint",
+      "Folyamatos, fix órák nélkül"
+    ],
+    "timeCommitmentPlaceholder": "pl. 2-4 óra/hónap",
+    "timeCommitmentHint": "Mennyi időt vesz igénybe a másik féltól?",
+    "formatSuggestions": [
+      "Távoli (videóhívás)",
+      "Aszinkron (írásban, e-mailben)",
+      "Személyesen",
+      "Hibrid (távoli + személyes)",
+      "Csoportos alkalmak",
+      "1:1 alkalmak",
+      "Írásos anyagok és visszajelzés",
+      "Workshop vagy elvonulás"
+    ],
+    "formatPlaceholder": "pl. Távoli (videóhívás)",
+    "formatHint": "Hogyan kerül átadásra a közreműködés?",
+    "availabilityLabel": "Elérhetőséged",
+    "availabilitySuggestions": [
+      "Hétköznap délelőtt",
+      "Hétköznap délután",
+      "Hétköznap este",
+      "Hétvégén",
+      "Rugalmas időpontban",
+      "Csak egyeztetés alapján",
+      "Konkrét dátum később"
+    ],
+    "availabilityPlaceholder": "pl. Hétköznap este",
+    "availabilityHint": "Mikor vagy általában elérhető erre?",
+    "prereqsQuestion": "Van valamilyen követelmény a résztvevők számára?",
+    "prereqsHint": "Opcionális — hagyd üresen, ha bárki jelentkezhet.",
+    "prereqsLabel": "Előfeltételek",
+    "prerequisitesPlaceholder": "pl. Alapvető rendszerszemléleti ismeret, nyitottság a reflektív gyakorlatra...",
+    "postOffer": "Ajánlat közzététele",
+    "updateOffer": "Ajánlat frissítése",
+    "saving": "Mentés…",
+    "successCreated": "Közreműködési ajánlat létrehozva!",
+    "successUpdated": "Közreműködési ajánlat frissítve!",
+    "redirecting": "Átirányítás…",
+    "fillRequired": "Töltsd ki az időigényt, formátumot és elérhetőséget a folytatáshoz."
+  },
+  "requestForm": {
+    "successTitle": "A kérésedet beküldtük.",
+    "successBody": "Böngészd az ajánlatokat, és találd meg, ki tud segíteni.",
+    "typeLabel": "Milyen támogatásra van szükséged?",
+    "whatNeededPlaceholder": "Írd le konkrétan, mit keresel és miért fontos ez.",
+    "minimumChars": "Minimum 20 karakter",
+    "minCount": "{{count}}/20 min",
+    "alreadyTriedPlaceholder": "A kontextus segít a közreműködőknek megérteni, honnan indulsz.",
+    "willDoWithLabel": "Mit fogsz tenni ezzel?",
+    "willDoWithHint": "opcionális — nem kapu",
+    "willDoWithPlaceholder": "Az szándékod megosztása segít eldönteni, hogy valaki megfelelő-e számodra.",
+    "submit": "Kérés beküldése",
+    "submitting": "Küldés…"
+  },
+  "myRequests": {
+    "title": "Közreműködési kéréseim",
+    "subtitle": "Függő közreműködési kéréseid. Vonj vissza egy kérést, ha már nincs rá szükséged.",
+    "empty": "Nincs függő közreműködési kérésed.",
+    "cardTitle": "{{type}} kérés",
+    "whatNeededLabel": "Mire van szükség",
+    "alreadyTriedLabel": "Már kipróbált",
+    "willDoWithLabel": "Mibe fektetem",
+    "withdraw": "Visszavonás",
+    "withdrawConfirm": "Visszavonjuk ezt a kérést?",
+    "withdrawYes": "Igen, visszavonom",
+    "withdrawPending": "Visszavonás…",
+    "withdrawError": "Nem sikerült visszavonni a kérést."
+  },
+  "common": {
+    "optional": "opcionális"
+  },
+  "offerCard": {
+    "formatLabel": "Forma:",
+    "timeLabel": "Idő:"
+  }
+}

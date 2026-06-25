@@ -1,0 +1,268 @@
+{
+  "title": "Volunteering Hub",
+  "nav": {
+    "browse": "Browse Opportunities",
+    "post": "Post a Request",
+    "myOpportunities": "My Opportunities",
+    "applications": "My Applications"
+  },
+  "hero": {
+    "title": "Find Meaningful Volunteer Work",
+    "subtitle": "Discover opportunities aligned with your values, skills, and availability"
+  },
+  "browse": {
+    "title": "Browse Volunteer Opportunities",
+    "filters": {
+      "rdgDomain": "RDG Domain",
+      "specificRdg": "Specific RDG",
+      "topic": "Social Cause Topic",
+      "impactScale": "Impact Scale",
+      "format": "Format",
+      "location": "Location",
+      "commitment": "Time Commitment",
+      "skills": "Skills",
+      "rollingApplications": "Rolling Applications"
+    },
+    "empty": "No opportunities match your filters.",
+    "loading": "Loading opportunities...",
+    "loadMore": "Load More"
+  },
+  "card": {
+    "primaryRdg": "Primary RDG",
+    "format": "Format",
+    "location": "Location",
+    "timeCommitment": "Time Commitment",
+    "skillsNeeded": "Skills Needed",
+    "physicalRequirements": "Physical Requirements",
+    "rollingApplications": "Rolling Applications",
+    "deadline": "Application Deadline",
+    "spotsRemaining": "spots remaining",
+    "apply": "Apply",
+    "save": "Save",
+    "saved": "Saved",
+    "remote": "Remote",
+    "hoursPerWeek": "{{count}} hours/week",
+    "beginnerFriendly": "Beginner-friendly"
+  },
+  "request": {
+    "create": "Post a Volunteer Request",
+    "edit": "Edit Opportunity",
+    "basicInfo": {
+      "title": "Basic Information",
+      "titleLabel": "Opportunity Title",
+      "summaryLabel": "Short Summary",
+      "descriptionLabel": "Detailed Description",
+      "requesterTypeLabel": "Requester Type",
+      "organizationLabel": "Organization Name",
+      "subtitle": "Provide the core information about this opportunity."
+    },
+    "rdg": {
+      "title": "RDG Alignment",
+      "required": "Select 1-3 RDGs that this opportunity supports",
+      "selected": "Selected",
+      "primaryLabel": "Primary RDG Alignment (required, 1-3)",
+      "additionalLabel": "Additional RDG Connections (optional, up to 5)",
+      "topicsLabel": "Social Cause Topics",
+      "impactScaleLabel": "Impact Scale"
+    },
+    "time": {
+      "title": "Time & Commitment",
+      "commitmentTypeLabel": "Commitment Type",
+      "startDateLabel": "Start Date",
+      "endDateLabel": "End Date",
+      "eventDateLabel": "Event Date",
+      "deadlineLabel": "Application Deadline",
+      "rollingApplicationsLabel": "Continuously receiving applications",
+      "moreInfoUrlLabel": "More Information URL",
+      "weeklyHoursLabel": "Weekly Hours",
+      "totalHoursLabel": "Total Expected Hours",
+      "shiftLengthLabel": "Shift Length",
+      "timePreferenceLabel": "Time Preference",
+      "subtitle": "Specify the time required and application deadlines."
+    },
+    "requirements": {
+      "title": "Volunteer Requirements",
+      "requiredSkillsLabel": "Required Skills",
+      "niceToHaveSkillsLabel": "Nice-to-Have Skills",
+      "experienceLevelLabel": "Experience Level Required",
+      "beginnerFriendlyLabel": "Beginner-Friendly",
+      "trainingProvidedLabel": "Training Provided",
+      "languageRequirementsLabel": "Language Requirements",
+      "volunteersNeededLabel": "Number of Volunteers Needed",
+      "teamBasedLabel": "Team-Based Activity",
+      "subtitle": "What should volunteers know or expect?"
+    },
+    "physical": {
+      "title": "Physical & Practical Requirements",
+      "effortLevelLabel": "Physical Effort Level",
+      "requirementsLabel": "Specific Physical Requirements",
+      "accessibilityLabel": "Accessibility Accommodations",
+      "indoorOutdoorLabel": "Work Environment",
+      "weatherExposedLabel": "Weather Exposure",
+      "travelRequiredLabel": "Travel Required",
+      "transportProvidedLabel": "Transport Provided",
+      "equipmentLabel": "Equipment Needed",
+      "dressCodeLabel": "Dress Code or Safety Clothing"
+    },
+    "trust": {
+      "title": "Trust & Safety",
+      "backgroundCheckLabel": "Background Check Required",
+      "referencesLabel": "References Required",
+      "codeOfConductLabel": "Code of Conduct Acknowledgment",
+      "vulnerableLabel": "Working with Minors or Vulnerable Groups",
+      "supervisionLabel": "Supervision Level",
+      "riskLevelLabel": "Risk Level"
+    },
+    "location": {
+      "title": "Location & Format",
+      "formatLabel": "Format",
+      "locationLabel": "Location",
+      "regionLabel": "Region",
+      "remoteCapableLabel": "Remote-Capable",
+      "subtitle": "How and where will this take place?",
+      "searchPlaceholder": "Search location..."
+    },
+    "description": "Create a new volunteer opportunity and find people who share your mission.",
+    "optional": "(optional)",
+    "tooltips": {
+      "titleLength": "5-200 characters",
+      "summaryLength": "20-500 characters",
+      "validUrl": "Must be a valid URL (https://...)",
+      "volunteerCount": "1-1000"
+    },
+    "actions": {
+      "saving": "Saving...",
+      "saveDraft": "Save Draft",
+      "draftId": "Draft: {{id}}",
+      "publishing": "Publishing...",
+      "publishRequest": "Publish Request"
+    }
+  },
+  "application": {
+    "title": "Apply for Opportunity",
+    "messageLabel": "Message to Requester",
+    "availabilityLabel": "Your Availability",
+    "experienceLabel": "Relevant Experience",
+    "submit": "Send application",
+    "cancel": "Cancel",
+    "status": {
+      "PENDING": "Pending",
+      "ACCEPTED": "Accepted",
+      "DECLINED": "Declined",
+      "CONFIRMED": "Confirmed",
+      "CANCELLED": "Cancelled",
+      "COMPLETED": "Completed"
+    },
+    "messagePlaceholder": "Why are you interested in this opportunity?",
+    "availabilityPlaceholder": "e.g., Weekends, evenings after 6pm",
+    "experiencePlaceholder": "Relevant experience or skills"
+  },
+  "status": {
+    "DRAFT": "Draft",
+    "PUBLISHED": "Published",
+    "ACCEPTING": "Accepting Volunteers",
+    "PARTIALLY_FILLED": "Partially Filled",
+    "FULL": "Full",
+    "PAUSED": "Paused",
+    "CLOSED": "Closed",
+    "CANCELLED": "Cancelled",
+    "COMPLETED": "Completed"
+  },
+  "format": {
+    "ONLINE": "Online",
+    "OFFLINE": "In-Person",
+    "HYBRID": "Hybrid"
+  },
+  "commitmentType": {
+    "ONE_TIME": "One-Time",
+    "RECURRING": "Recurring",
+    "ONGOING": "Ongoing"
+  },
+  "impactScale": {
+    "LOCAL": "Local",
+    "BIOREGIONAL": "Bioregional",
+    "NATIONAL": "National",
+    "GLOBAL": "Global"
+  },
+  "urgency": {
+    "LOW": "Low",
+    "NORMAL": "Normal",
+    "HIGH": "High",
+    "URGENT": "Urgent"
+  },
+  "experienceLevel": {
+    "ANY": "Any Level",
+    "BEGINNER": "Beginner",
+    "INTERMEDIATE": "Intermediate",
+    "ADVANCED": "Advanced"
+  },
+  "physicalEffort": {
+    "LIGHT": "Light",
+    "MODERATE": "Moderate",
+    "HEAVY": "Heavy"
+  },
+  "requesterType": {
+    "INDIVIDUAL": "Individual",
+    "NGO": "NGO",
+    "SCHOOL": "School",
+    "COMMUNITY_GROUP": "Community Group",
+    "PUBLIC_INSTITUTION": "Public Institution"
+  },
+  "errors": {
+    "notFound": "Opportunity not found",
+    "unauthorized": "You are not authorized to perform this action",
+    "rdgRequired": "At least one RDG must be selected",
+    "rdgMax": "Maximum {{max}} RDGs allowed",
+    "saveFailed": "Failed to save opportunity",
+    "applyFailed": "Failed to submit application"
+  },
+  "rdgs": {
+    "rdg-1": "RDG 1: Foundations of Human Development",
+    "rdg-2": "RDG 2: Trauma-Informed Societies",
+    "rdg-3": "RDG 3: Inner Development Competencies",
+    "rdg-4": "RDG 4: Leadership Maturity Standards",
+    "rdg-5": "RDG 5: Epistemic Integrity",
+    "rdg-6": "RDG 6: Regenerative Cultural Narratives",
+    "rdg-7": "RDG 7: Climate Stabilisation",
+    "rdg-8": "RDG 8: Biodiversity and Habitat Restoration",
+    "rdg-9": "RDG 9: Regenerative Food Systems",
+    "rdg-10": "RDG 10: Water Stewardship",
+    "rdg-11": "RDG 11: Bioregional Governance",
+    "rdg-12": "RDG 12: Urban-Rural Integration",
+    "rdg-13": "RDG 13: Basic Needs Guarantee",
+    "rdg-14": "RDG 14: Circular Economy",
+    "rdg-15": "RDG 15: Regenerative Livelihoods",
+    "rdg-16": "RDG 16: Infrastructure for All",
+    "rdg-17": "RDG 17: Technology Governance",
+    "rdg-18": "RDG 18: Renewable Energy",
+    "rdg-19": "RDG 19: Transparent Institutions",
+    "rdg-20": "RDG 20: Polycentric Governance",
+    "rdg-21": "RDG 21: Equity and Inclusion",
+    "rdg-22": "RDG 22: Peacebuilding",
+    "rdg-23": "RDG 23: Open Science",
+    "rdg-24": "RDG 24: Adaptive Policy",
+    "rdg-25": "RDG 25: Existential Risk",
+    "rdg-26": "RDG 26: Future Generations",
+    "rdg-27": "RDG 27: Early Warning Systems",
+    "rdg-28": "RDG 28: Integrated Metrics",
+    "rdg-29": "RDG 29: Transition Strategy",
+    "rdg-30": "RDG 30: Planetary Stewardship"
+  },
+  "rdgDomains": {
+    "1": "Domain 1: Human Development",
+    "2": "Domain 2: Living Systems",
+    "3": "Domain 3: Regenerative Economy",
+    "4": "Domain 4: Governance",
+    "5": "Domain 5: Civilizational Resilience"
+  },
+  "indoorOutdoor": {
+    "INDOOR": "Indoor",
+    "OUTDOOR": "Outdoor",
+    "BOTH": "Indoor and outdoor"
+  },
+  "supervisionLevel": {
+    "DIRECT": "Direct",
+    "CHECK_INS": "Check-ins",
+    "INDEPENDENT": "Independent"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "minLength": "Se requieren mínimo {{min}} caracteres",
+  "maxLength": "Máximo {{max}} caracteres permitidos",
+  "email": "Por favor ingresa un email válido",
+  "url": "Por favor ingresa una URL válida (https://...)",
+  "required": "Este campo es obligatorio",
+  "password": {
+    "minLength": "Al menos 12 caracteres",
+    "uppercase": "Debe contener una mayúscula",
+    "lowercase": "Debe contener una minúscula",
+    "number": "Debe contener un número",
+    "special": "Debe contener un carácter especial"
+  }
+}

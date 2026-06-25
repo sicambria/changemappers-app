@@ -1,0 +1,1992 @@
+{
+  "appName": "Changemappers",
+  "appTagline": "Jövőképzők közössége",
+  "heroRoles": [
+    "a cselekvő reményt",
+    "a közösségszervezőket",
+    "önmagad",
+    "a jövőképzőket",
+    "a társadalmi újítókat",
+    "a szervezetfejlesztőket",
+    "a közjóért cselekvőket"
+  ],
+  "nav": {
+    "platformIntro": "Mi ez?",
+    "home": "Főoldal",
+    "feed": "Hírek",
+    "map": "Térkép",
+    "communities": "Közösségek",
+    "events": "Események",
+    "causes": "Társadalmi ügyek",
+    "projects": "Ügyek",
+    "socialIssues": "Társadalmi problémák",
+    "signals": "Jelek",
+    "profile": "Profil",
+    "onboarding": "Beérkezésem útja",
+    "dashboard": "Vezérlőpult",
+    "settings": "Beállítások",
+    "login": "Bejelentkezés",
+    "register": "Regisztráció",
+    "logout": "Kijelentkezés",
+    "glossary": "Fogalomtár",
+    "traditions": "Gyakorlatok",
+    "favorites": "Kedvencek",
+    "calendar": "Naptár",
+    "roadmap": "Fejlesztések",
+    "stories": "Történetek",
+    "feedback": "Visszajelzés",
+    "connections": "Kapcsolatok",
+    "messages": "Üzenetek",
+    "video": "Videó",
+    "admin": "Admin",
+    "reflect": "Reflexió",
+    "lifewheel": "Élettükör",
+    "compass": "Változásformáló iránytű",
+    "connect": "Kapcsolódj",
+    "learn": "Tanulj",
+    "act": "Cselekedj",
+    "matchmaking": "Összekapcsolás",
+    "connectNature": "Kapcsolódás a természethez",
+    "learningHub": "Képzések",
+    "regenerativeSkills": "Regeneratív készségek",
+    "changePatterns": "Változási mintázatok",
+    "metamodels": "Metamodellek",
+    "tools": "Eszközök",
+    "graph": "Rendszer-érzékelés",
+    "planet": "Bolygó nézet",
+    "menuOpen": "Menü megnyitása",
+    "menuClose": "Menü bezárása",
+    "grow": "Fejlődj",
+    "trainingFind": "Képzés keresése",
+    "mentorFind": "Mentor keresése",
+    "peerFind": "Peer támogatás",
+    "coachFind": "Coach keresése",
+    "contribute": "Hozzájárulás",
+    "contributeFind": "Hozzájárulás keresése",
+    "trainingOffer": "Képzés ajánlása",
+    "mentorOffer": "Mentoráljak",
+    "peerOffer": "Peer támogatás ajánlása",
+    "coachOffer": "Coaching ajánlása",
+    "contributeOffer": "Hozzájárulás ajánlása",
+    "canvas": "Rajztábla",
+    "energy": "Hatalom és energiaáramlás",
+    "draw": "Rajztábla",
+    "inviteOthers": "Meghívó küldése",
+    "kanban": "Kanban",
+    "tasks": "Feladatok",
+    "toolsSubtitle": "Elemzési és rendszereszközök",
+    "growthHub": "Növekedési központ",
+    "volunteer": "Önkéntes",
+    "scheduling": "Időpont egyeztetés",
+    "valueCompass": "Értékiránytű",
+    "principles": "Alapelveim",
+    "helpers": "Ami segít",
+    "reflectCheckin": "Gyors bejelentkezés",
+    "reflectDeep": "Mély reflexió",
+    "pitch": "Írd meg a Pitchedet",
+    "invite": "Meghívó küldése",
+    "learningCentral": "Tanulási központ",
+    "learningCentralWhat": "Mit szeretnél tanulni?",
+    "learningCentralSubtitle": "Minden tanulási cél más ajtót nyit. Találd meg azt az erőforrást, amely illik ahhoz, ahol most vagy, és amerre tartasz.",
+    "governance": "Irányítás",
+    "cases": "Esetek",
+    "coachme": "Coachingot kérek"
+  },
+  "firstLoginHelper": {
+    "openLabel": "Első bejelentkezési súgó megnyitása",
+    "helpMenu": "Súgó",
+    "title": "Első lépések túra",
+    "progress": "{{current}} / {{total}} lépés",
+    "targetMissing": "Ez a rész itt nem látható, ezért a túra kiemelés nélkül mutatja a lépést.",
+    "steps": {
+      "help": {
+        "title": "Bármikor megnyithatod ezt az útmutatót",
+        "body": "Használd a fejlécben vagy a mobil menüben lévő ? gombot, ha újra szeretnéd látni ezt a túrát."
+      },
+      "reflect": {
+        "title": "Reflexió",
+        "body": "A reflexiós eszközök segítenek megállni, irányt tisztázni és észrevenni, mi változik."
+      },
+      "connect": {
+        "title": "Kapcsolódás",
+        "body": "A Kapcsolódás alatt találod az embereket, közösségeket, kapcsolatokat és a Bolygó nézetet."
+      },
+      "learn": {
+        "title": "Tanulás",
+        "body": "A tanulási terek történeteket, bevezetőket, ügyeket és képzési erőforrásokat gyűjtenek."
+      },
+      "mapMenu": {
+        "title": "Térkép menü",
+        "body": "A térképes nézetek emberek, helyek, jelek és közeli aktivitások felfedezésében segítenek."
+      },
+      "tools": {
+        "title": "Eszközök",
+        "body": "Az eszközök vizuális gondolkodást, rendszerszintű érzékelést, rajzolást és elemzést támogatnak."
+      },
+      "act": {
+        "title": "Cselekvés",
+        "body": "A Cselekvés feladatokká, pitchekké, hozzájárulásokká, időpontokká és közös munkává alakítja a felismeréseket."
+      },
+      "profile": {
+        "title": "Profil",
+        "body": "A profilod mutatja meg, ki vagy, mit ajánlasz fel, és mennyire szeretnél látható lenni."
+      },
+      "onboarding": {
+        "title": "Bevezetés",
+        "body": "Az onboardingban idővel finomíthatod az identitásodat, szándékaidat, szükségleteidet, felajánlásaidat és értékeidet."
+      },
+      "invite": {
+        "title": "Mások meghívása",
+        "body": "Hívj meg megbízható együttműködőket, hogy a hálózat valódi kapcsolatokon keresztül nőjön."
+      },
+      "map": {
+        "title": "Térkép",
+        "body": "Nyisd meg a térképet, ha tagokat, közösségeket és jeleket szeretnél hely alapján felfedezni."
+      },
+      "planet": {
+        "title": "Bolygó",
+        "body": "A Bolygó a tágabb kapcsolati hálót mutatja, amikor az egész rendszer mintázatait szeretnéd érzékelni."
+      },
+      "messages": {
+        "title": "Üzenetek és értesítések",
+        "body": "Az értesítések és üzenetek kéznél tartják a válaszokat, kéréseket és beszélgetéseket."
+      },
+      "account": {
+        "title": "Fiókmenü",
+        "body": "A fiókmenüből éred el a profilt, onboardingot, meghívókat, beállításokat és kijelentkezést."
+      }
+    },
+    "actions": {
+      "back": "Vissza",
+      "next": "Tovább",
+      "finish": "Befejezés",
+      "exit": "Kilépés"
+    }
+  },
+  "connectNature": {
+    "metaTitle": "Kapcsolódás a Természethez — A természet visszavarázslása a mindennapokba",
+    "metaDescription": "Gyakorlati, elérhető módok a természettel való kapcsolat helyreállítására."
+  },
+  "planet": {
+    "metaTitle": "Kapcsolatok — Bolygó",
+    "metaDescription": "Fedezd fel a változásformálók, közösségek és kezdeményezések globális hálózatát."
+  },
+  "connections": {
+    "requests": "Kérelmek",
+    "find": "Keresés",
+    "chatComingSoon": "Chat hamarosan...",
+    "noConnections": "Még nincsenek kapcsolataid",
+    "noPendingRequests": "Nincsenek függő kapcsolódási kérelmek",
+    "exploreMap": "Fedezd fel a térképet",
+    "searchPlaceholder": "Kapcsolat keresése...",
+    "noResults": "Nincs találat: \"{{query}}\"",
+    "manageSubtitle": "Kezeld kapcsolataidat és kapcsolódási kérelmeidet",
+    "noRecommendations": "Nem találtunk új ajánlott kapcsolatokat.",
+    "browseMap": "Böngéssz a térképen",
+    "sendNomination": "Jelölés küldése",
+    "requestMentor": "Mentor felkérése",
+    "addAsCompanion": "Útitársnak jelöl",
+    "supportiveLink": "Támogató/Kiegészítő kapocs",
+    "message": "Üzenet",
+    "acceptRequest": "Elfogadás",
+    "declineRequest": "Elutasítás",
+    "allyFinder": "Összekapcsolás",
+    "loadError": "Nem sikerült betölteni a kapcsolataidat. Kérjük, próbáld újra.",
+    "remove": "Kapcsolat eltávolítása",
+    "confirmRemove": "Eltávolítod {{name}} személyt a kapcsolataid közül?",
+    "removeSuccess": "Kapcsolat eltávolítva",
+    "removeFailed": "Nem sikerült eltávolítani a kapcsolatot",
+    "confirmDecline": "Elutasítod ezt a kérést?"
+  },
+  "chat": {
+    "noConnections": "Nincsenek elérhető kapcsolataid.",
+    "selectConversation": "Válassz egy beszélgetést a bal oldali listából.",
+    "online": "● Elérhető",
+    "connecting": "○ Kapcsolódás...",
+    "startConversation": "Kezdj el beszélgetni!",
+    "messagePlaceholder": "Írj egy üzenetet...",
+    "startVideoCall": "Videóhívás indítása",
+    "backToConversations": "Vissza a beszélgetésekhez",
+    "deleteMessage": "Üzenet törlése",
+    "confirmDeleteMessage": "Törlöd ezt az üzenetet?",
+    "messageDeleted": "Üzenet törölve",
+    "messageDeleteFailed": "Az üzenetet nem sikerült törölni"
+  },
+  "video": {
+    "title": "Videó találkozók",
+    "subtitle": "Hozz létre szobát vagy csatlakozz egy megbízható partnerhíváshoz.",
+    "roomLabel": "Szoba neve",
+    "roomPlaceholder": "kozossegi-kor",
+    "roomHelp": "Használj 3-64 betűt, számot, kötőjelet vagy aláhúzást.",
+    "join": "Csatlakozás",
+    "meetingTitle": "Videó találkozó",
+    "roomName": "Szoba: {{roomName}}",
+    "changeRoom": "Szoba váltása",
+    "iframeTitle": "Jitsi videó találkozó",
+    "errors": {
+      "prepareRoom": "Nem sikerült előkészíteni a videószobát.",
+      "invalidRoomName": "A szobanév betűket, számokat, aláhúzást és kötőjelet tartalmazhat."
+    }
+  },
+  "notifications": {
+    "title": "Értesítések",
+    "markAllRead": "Összes olvasott",
+    "loading": "Betöltés...",
+    "empty": "Nincsenek új értesítések"
+  },
+  "glossary": {
+    "title": "Fogalomtár",
+    "subtitle": "A jövőképzés kulcsfogalmai — archetípusok, szemléletek és rendszerfogalmak a Changemappers ökoszisztémájában.",
+    "searchPlaceholder": "Keresés a fogalomtárban...",
+    "clearSearch": "Keresés törlése",
+    "related": "Kapcsolódó:",
+    "noResults": "Nincs találat",
+    "noResultsHint": "Próbáld meg másik keresőszóval vagy kategóriával.",
+    "showAll": "Összes mutatása",
+    "categories": {
+      "all": "Összes",
+      "archetypes": "Archetípusok",
+      "system": "Rendszer",
+      "community": "Közösség",
+      "process": "Folyamat"
+    }
+  },
+  "traditions": {
+    "badge": "Világkörüli hagyományok",
+    "title": "Gyakorlatok",
+    "subtitle": "Globális hagyományok, amelyek a közösségi bölcsességet, az ökopszichológiai tudatosságot és a rendszerszintű belső érést támogatják.",
+    "searchPlaceholder": "Keresés név, régió vagy leírás alapján...",
+    "showAll": "Összes mutatása",
+    "explored": "Feltárt gyakorlatok",
+    "results": "{{count}} találat",
+    "noResults": "Nincs találat",
+    "noResultsHint": "Próbáld meg másik keresőszóval vagy kategóriával.",
+    "collectedSamples": "Összegyűjtött minta",
+    "categories": {
+      "all": "Összes",
+      "dialogue": "Dialógus",
+      "ritual": "Rituálé",
+      "energy": "Energia",
+      "mentor": "Mentor"
+    },
+    "prep": "Előkészítés",
+    "agenda": "Menetrend",
+    "guideQuestions": "Vezető kérdések",
+    "awarenessShift": "Tudatossági váltás",
+    "footerTitle": "Ez csak a kezdet. A hálózatunk folyamatosan bővül.",
+    "footerSubtitle": "Ismersz olyan ősi vagy modern gyakorlatot, amely segíthet a közösségi ébredésben? Oszd meg velünk és töltsük fel közösen a térképet.",
+    "submitPractice": "Gyakorlat beküldése"
+  },
+  "metamodels": {
+    "badge": "Változásformálóknak szóló metamodellek",
+    "title": "Komplex rendszerek és az emberi fejlődés navigálása",
+    "subtitle": "Fedezd fel a <strong>{{count}} gyakorlati keretrendszert</strong> a rendszerek, kapcsolatok és a változás megértéséhez különböző skálákon.",
+    "searchPlaceholder": "Keresés név, mechanizmus, szerző, tag alapján...",
+    "filters": "Szűrők",
+    "groupByScale": "Csoportosítás léptékenként",
+    "clearAll": "Összes törlése",
+    "allScales": "Minden lépték",
+    "nativeScale": "Natív lépték",
+    "traditionOrigin": "Hagyomány / Eredet",
+    "domain": "Terület",
+    "region": "Régió",
+    "showing": "{{count}} / {{total}} metamodell megjelenítve",
+    "noResults": "Nem található metamodell",
+    "noResultsHint": "Próbáld más keresőszavakkal vagy szűrőkkel.",
+    "clearAllFilters": "Összes szűrő törlése",
+    "exploreModel": "Modell felfedezése",
+    "bce": "i.e.",
+    "coreMechanism": "Alapmechanizmus",
+    "applicability": "Kortárs alkalmazhatóság",
+    "limitations": "Korlátok és vakfoltok",
+    "critics": "Ismert kritikák",
+    "changemakerApplications": "Változásformálói alkalmazások",
+    "pairsWith": "Jól összekapcsolható",
+    "applicableFor": "Alkalmazható erre",
+    "tags": "Címkék",
+    "domains": "Területek",
+    "representationNote": "Megjegyzés a reprezentációról: A vadász-gyűjtögető kozmológiák (pl. az ausztrál bennszülöttek Álomideje) és a közép-ázsiai nomád keretek alulreprezentáltak a rendszerváltozás formális irodalmában.",
+    "categories": {
+      "cosmic": "Kozmikus és Planetáris",
+      "civilizational": "Civilizációs és Társadalmi",
+      "ecological": "Ökológiai és Szocio-Ökológiai",
+      "organizational": "Szervezeti és Csoportos",
+      "crossScale": "Keresztskálás és Transz-Szisztémás"
+    },
+    "nativeScales": {
+      "Cosmic": "Kozmikus",
+      "Planetary": "Planetáris",
+      "Civilizational": "Civilizációs",
+      "Societal": "Társadalmi",
+      "Individual": "Egyéni",
+      "Ecological": "Ökológiai",
+      "Socio-Ecological": "Szocio-ökológiai",
+      "Organizational": "Szervezeti",
+      "Community": "Közösségi",
+      "Group": "Csoportos",
+      "All Scales": "Minden lépték"
+    },
+    "domainLabels": {
+      "Energy & Technology": "Energia és Technológia",
+      "Climate & Environment": "Klíma és Környezet",
+      "Governance": "Irányítás",
+      "Economics": "Gazdaságtan",
+      "Organizational Design": "Szervezettervezés",
+      "Social Cohesion": "Társadalmi Kohézió",
+      "Community Building": "Közösségépítés",
+      "Philosophy & Ethics": "Filozófia és Etika",
+      "Social Justice": "Szociális Igazságosság",
+      "Systems Thinking": "Rendszerszintű Gondolkodás",
+      "Psychology & Values": "Pszichológia és Értékek",
+      "Leadership": "Vezetés"
+    },
+    "applicableForLabels": {
+      "Policy Design": "Szakpolitikai tervezés",
+      "Climate Strategy": "Klímastratégia",
+      "Tech Advocacy": "Technológiai érdekérvényesítés",
+      "AI Policy": "AI Szakpolitika",
+      "Organizational Reform": "Szervezeti reform",
+      "Institutional Analysis": "Intézményi elemzés",
+      "Community Organizing": "Közösségszervezés",
+      "Social Movement Building": "Társadalmi mozgalomépítés",
+      "Conflict Resolution": "Konfliktusmegoldás",
+      "Policy Advocacy": "Szakpolitikai érdekérvényesítés",
+      "Economic Localization": "Gazdasági lokalizáció",
+      "Restorative Justice": "Helyreállító igazságszolgáltatás",
+      "Curriculum Reform": "Tantervi reform",
+      "Organizational Knowledge Management": "Szervezeti tudásmenedzsment",
+      "Climate Justice": "Klímaigazságosság",
+      "Environmental Law": "Környezetjog",
+      "Urban Planning": "Városrendezés",
+      "Organizational Strategy": "Szervezeti stratégia",
+      "Environmental Management": "Környezetmenedzsment",
+      "Institutional Reform": "Intézményi reform",
+      "Commons Governance": "Közösségi javak irányítása",
+      "Digital Communities": "Digitális közösségek",
+      "Cooperative Design": "Szövetkezeti tervezés",
+      "Environmental Policy": "Környezetpolitika",
+      "Indigenous Rights": "Őshonos jogok",
+      "Impact Assessment": "Hatásvizsgálat",
+      "Organizational Design": "Szervezettervezés",
+      "Coalition Building": "Koalícióépítés",
+      "Non-Profit Management": "Nonprofit menedzsment",
+      "Government Reform": "Kormányzati reform",
+      "Community Mediation": "Közösségi mediáció",
+      "Organizational Culture": "Szervezeti kultúra",
+      "Leadership Development": "Vezetőfejlesztés",
+      "Adaptive Leadership": "Adaptív vezetés",
+      "Strategic Planning": "Stratégiai tervezés",
+      "Spatial Design": "Tértervezés",
+      "Organizational Navigation": "Szervezeti navigáció",
+      "Systems Intervention": "Rendszerszintű beavatkozás",
+      "Environmental Strategy": "Környezeti stratégia",
+      "Cultural Transformation": "Kulturális átalakulás",
+      "Holistic Strategy": "Holisztikus stratégia",
+      "Team Dynamics": "Csapatdinamika"
+    }
+  },
+  "learningHub": {
+    "searchPlaceholder": "Keresés programok között...",
+    "title": "Képzési Hub",
+    "subtitle": "Hozzáférhető, regeneratív képzések jövőképzőknek. Böngéssz {{count}}+ program között — $200 alatt, 5 kontinensről, fokozattól függetlenül.",
+    "stats": {
+      "total": "Összes program",
+      "free": "Ingyenes képzés",
+      "online": "Online formátum",
+      "categories": "Kategóriák száma"
+    },
+    "format": "Formátum",
+    "category": "Kategória",
+    "hybrid": "Hybrid / Személyes",
+    "priceAll": "Ár: összes",
+    "onlyFree": "Csak ingyenes",
+    "maxPrice100": "Legfeljebb $100",
+    "maxPrice50": "Legfeljebb $50",
+    "priceUsd": "${{cost}} USD",
+    "viewDetails": "Részletek megtekintése",
+    "clearFilters": "Szűrők törlése",
+    "results": "Találatok: {{count}} / {{total}}",
+    "noResults": "Sajnos nincs találat",
+    "noResultsHint": "Próbálj meg más szűrőfeltételeket beállítani.",
+    "clearAllFilters": "Minden szűrő törlése",
+    "entryConditions": "Belépési feltételek",
+    "noDegreeNote": "* Egyik program sem ír elő formális felsőfokú végzettséget belépési feltételként.",
+    "visitProgram": "Program oldalra",
+    "labelCategory": "Kategória",
+    "labelLevel": "Szint",
+    "labelCost": "Költség",
+    "labelDuration": "Időtartam",
+    "labelFormatLocation": "Formátum & Helyszín",
+    "labelLanguage": "Nyelv",
+    "language": "Nyelv",
+    "levels": {
+      "Beginner": "Kezdő",
+      "Intermediate": "Középhaladó",
+      "Advanced": "Haladó",
+      "Beginner to Intermediate": "Kezdő – Középhaladó",
+      "Beginner to Advanced": "Kezdő – Haladó"
+    }
+  },
+  "graph": {
+    "filterByName": "Szűrés Név/Hely alapján",
+    "searchPlaceholder": "Keresés...",
+    "visibilityLayers": "Láthatósági Rétegek",
+    "visibleNodes": "Látható elemek",
+    "visibleLinks": "Látható kötések",
+    "layers": {
+      "all": "Minden",
+      "users": "Személyek",
+      "communities": "Közösségek",
+      "events": "Események"
+    }
+  },
+  "actions": {
+    "save": "Mentés",
+    "cancel": "Mégse",
+    "delete": "Törlés",
+    "edit": "Szerkesztés",
+    "create": "Létrehozás",
+    "search": "Keresés",
+    "filter": "Szűrés",
+    "clear": "Törlés",
+    "submit": "Küldés",
+    "confirm": "Megerősítés",
+    "yes": "Igen",
+    "back": "Vissza",
+    "next": "Tovább",
+    "previous": "Előző",
+    "close": "Bezárás",
+    "add": "Hozzáadás",
+    "viewMore": "Továbbiak",
+    "viewAll": "Összes megtekintése",
+    "viewProfile": "Profil megtekintése",
+    "sendMessage": "Üzenet küldése",
+    "loadMore": "Több betöltése",
+    "loading": "Betöltés...",
+    "backToMap": "Vissza a térképre",
+    "retry": "Újrapróbálás",
+    "refresh": "Frissítés",
+    "rdgExplorer": "RDG Explorer megnyitása",
+    "saveChanges": "Változtatások mentése",
+    "addToCalendar": "Hozzáadás naptárhoz",
+    "tryAgain": "Újra próbálom"
+  },
+  "shortcuts": {
+    "undo": "Ctrl+Z",
+    "redo": "Ctrl+Shift+Z"
+  },
+  "status": {
+    "active": "Aktív",
+    "inactive": "Inaktív",
+    "pending": "Függőben",
+    "verified": "Ellenőrzött",
+    "unverified": "Nem ellenőrzött",
+    "noResults": "Nincs találat",
+    "loading": "Betöltés...",
+    "deleting": "Törlés..."
+  },
+  "levels": {
+    "0": "Tehetetlen Megfigyelő",
+    "1": "Passzív Szimpatizáns",
+    "2": "Tudatos Fogyasztó",
+    "3": "Hangadó Szószóló",
+    "4": "Helyi Szervező",
+    "5": "Megoldás-innovátor",
+    "6": "Stratégiai Skálázó",
+    "7": "Rendszergondolkodó",
+    "8": "Paradigmaváltó",
+    "9": "Transznacionális Katalizátor"
+  },
+  "errors": {
+    "saveFailed": "Hiba történt a mentés során.",
+    "deleteFailed": "Hiba történt a törlés során.",
+    "generic": "Hiba történt. Próbáld újra.",
+    "networkError": "Hálózati hiba. Ellenőrizd az internetkapcsolatot.",
+    "notFound": "Az oldal nem található.",
+    "unauthorized": "Nincs hozzáférésed ehhez az oldalhoz.",
+    "forbidden": "A művelet nem engedélyezett.",
+    "validationFailed": "Ellenőrizd a megadott adatokat.",
+    "sendFailed": "Hiba történt a küldés során.",
+    "unexpectedDescription": "Váratlan hiba történt. Próbáld újra, vagy lépj vissza a főoldalra.",
+    "loginFailed": "Bejelentkezés sikertelen",
+    "registrationFailed": "Regisztráció sikertelen",
+    "componentBoundaryTitle": "Hiba történt",
+    "componentBoundaryDescription": "Váratlan hiba történt. A lap többi része továbbra is elérhető."
+  },
+  "messages": {
+    "saveSuccess": "Sikeresen mentve.",
+    "deleteSuccess": "Sikeresen törölve.",
+    "actionSuccess": "Művelet sikeresen befejeződött.",
+    "updateSuccess": "Sikeresen frissítve."
+  },
+  "time": {
+    "today": "Ma",
+    "tomorrow": "Holnap",
+    "yesterday": "Tegnap",
+    "daysAgo": "{{count}} napja",
+    "hoursAgo": "{{count}} órája",
+    "minutesAgo": "{{count}} perce",
+    "justNow": "Épp most",
+    "weeksAgo": "{{count}} hete"
+  },
+  "footer": {
+    "about": "Rólunk",
+    "contact": "Kapcsolat",
+    "privacy": "Adatvédelem",
+    "terms": "Feltételek",
+    "copyright": "Changemappers: Connecting Self, Nature and Changemakers. Honlap: AGPLv3 / Tartalom: CC-BY-SA 4.0",
+    "mission": "Küldetés",
+    "contribute": "Közreműköd",
+    "openData": "Nyílt Adatok",
+    "newsletter": "Hírlevél",
+    "help": "Súgó",
+    "impressum": "Impresszum"
+  },
+  "pulseBanner": {
+    "badge": "Tipp",
+    "message": "Úgy látjuk, rég frissítetted az elérhetőségedet. Még mindig ugyanazon dolgozol?",
+    "updateStatus": "Állapot frissítése",
+    "close": "Bezárás"
+  },
+  "moderation": {
+    "reportUser": "Felhasználó jelentése",
+    "blockUser": "Felhasználó blokkolása",
+    "unblockUser": "Blokkolás feloldása",
+    "alreadyBlocked": "Felhasználó blokkolva",
+    "reportTitle": "Jelentés küldése",
+    "reportDescription": "Mi a probléma ezzel a tartalommal vagy felhasználóval?",
+    "reportPlaceholder": "Írd le részletesen a problémát (opcionális)",
+    "reportSuccess": "Jelentés sikeresen elküldve",
+    "blockSuccess": "Felhasználó sikeresen blokkolva",
+    "unblockSuccess": "Blokkolás sikeresen feloldva",
+    "confirmBlock": "Biztosan blokkolod {{name}}?",
+    "confirmBlockGeneric": "Biztosan blokkolod ezt a felhasználót?",
+    "targetUser": "Felhasználó: ",
+    "targetContent": "Tartalom: ",
+    "errors": {
+      "categoryRequired": "Válassz egy kategóriát"
+    }
+  },
+  "categories": {
+    "SPAM": "Spam",
+    "HARASSMENT": "Zaklatás",
+    "MISINFORMATION": "Félrevető információ",
+    "SAFETY_CONCERN": "Biztonsági aggály",
+    "GREENWASHING": "Zöldre festés (greenwashing)",
+    "OTHER": "Egyéb"
+  },
+  "dashboard": {
+    "greeting": "Hova irányul ma az energiád?",
+    "subtitle": "Válassz egy területet, ahol most a leginkább szükség van rád.",
+    "customizeOn": "✏️ Szerkesztés",
+    "customizeOff": "✓ Kész",
+    "hideCard": "Elrejt",
+    "showCard": "Megjelenít",
+    "dragHint": "Húzd a kártyákat az átrendezéshez",
+    "tiles": {
+      "connect-self": {
+        "title": "Kapcsolódás Önmagamhoz",
+        "desc": "Mindfulness, szándékkitűzés és személyes reziliencia-körök.",
+        "cta": "Önreflexió →"
+      },
+      "connect-nature": {
+        "title": "Kapcsolódás a Természethez",
+        "desc": "Ökológiai érzékelés, helyi regeneráció és biomimikri.",
+        "cta": "Természet-radar →"
+      },
+      "connect-others": {
+        "title": "Kapcsolódás Másokhoz",
+        "desc": "Peer mentorálás, közösségi körök és bizalomépítés.",
+        "cta": "Találj embereket →"
+      },
+      "learning": {
+        "title": "Tanulás & Bölcsesség",
+        "desc": "Nyílt forráskódú kudarchistóriák, sikerminták és rendszerszemléleti eszközök.",
+        "cta": "Történetek →"
+      },
+      "direct-action": {
+        "title": "Közvetlen Cselekvés",
+        "desc": "Sürgős szükségletek, önkéntesség és erőforrás-telepítés.",
+        "cta": "Akciók →"
+      },
+      "system-sensing": {
+        "title": "Rendszer-érzékelés",
+        "desc": "Ökoszisztéma-egészség, hatásvizualizáció és hiányok azonosítása.",
+        "cta": "Térkép →"
+      },
+      "grow": {
+        "title": "Fejlődj & Kapj Támogatást",
+        "desc": "Keress képzést, mentort, coachot vagy peer kísérőt a jelenlegi határaidhoz.",
+        "cta": "Támogatás keresése →"
+      },
+      "offer": {
+        "title": "Ajánlj & Hozzájárulj",
+        "desc": "Ossz meg tudást, mentorálj, kínálj peer támogatást vagy járulj hozzá közös munkához.",
+        "cta": "Ajánlj valamit →"
+      },
+      "canvas": {
+        "title": "Rendszer-vászon",
+        "desc": "Térképezzük fel együtt a problémákat, mintákat és gyökérokokat. Közös megértés.",
+        "cta": "Vászon megnyitása →"
+      },
+      "kanban": {
+        "title": "Kanban",
+        "desc": "Indíts vagy csatlakozz egy kezdeményezéshez. Az ötlettől az integrációig, közösen.",
+        "cta": "Kezdeményezések →"
+      }
+    },
+    "compass": {
+      "title": "Változásformáló Iránytű",
+      "description": "Személyes fejlődési tervező eszköz jelentős változások létrehozásához.",
+      "metaTitle": "Változásformáló Iránytű | Changemappers",
+      "metaDescription": "Személyes fejlődési tervező eszköz azoknak, akik jelentős változást szeretnének létrehozni.",
+      "label": "Energia-iránytű",
+      "step1Prompt": "Mi hív most téged?",
+      "step2Prompt": "Válaszd, ami legjobban illik:",
+      "back": "Vissza",
+      "give": "Adni szeretnék",
+      "receive": "Kapni szeretnék",
+      "sense": "Érezni / térképezni",
+      "giveGrowth": "Támogatást ajánlani",
+      "giveContribute": "Készséget megosztani",
+      "giveInitiative": "Kezdeményezést indítani",
+      "receiveGrowth": "Támogatást keresni",
+      "receiveContribute": "Hozzájárulást keresni",
+      "senseCanvas": "Rendszer-vászon",
+      "senseGraph": "Rendszergráf",
+      "sensePlanet": "Bolygónézet",
+      "dismiss": "Iránytű bezárása"
+    }
+  },
+  "home": {
+    "mapLoading": "Térkép előkészítése...",
+    "dataLoading": "Adatok betöltése...",
+    "heroDiscover": "Fedezd fel",
+    "heroSubtitle": "Csatlakozz a közösséghez, találj társakat, eseményeket és helyi kezdeményezéseket a térképen.",
+    "stats": {
+      "users": "Tag",
+      "communities": "Közösség",
+      "events": "Esemény"
+    },
+    "joinCta": "Csatlakozom",
+    "mapCta": "Teljes térkép",
+    "coverImageAlt": "Borítókép",
+    "newMembers": {
+      "title": "Új tagok a hálózaton",
+      "subtitle": "Ismerkedj meg a legújabb csatlakozókkal",
+      "viewAll": "Összes tag"
+    },
+    "communities": {
+      "title": "Legutóbb aktív közösségek",
+      "subtitle": "Fedezd fel a legfrissebb aktivitásokat",
+      "viewAll": "Összes megtekintése"
+    },
+    "events": {
+      "title": "Friss aktivitások",
+      "subtitle": "Közelgő programok a hálózaton",
+      "viewAll": "Összes esemény",
+      "online": "Online esemény",
+      "noLocation": "Helyszín nem megadott"
+    },
+    "topics": {
+      "title": "Felfedezés téma szerint",
+      "results": "{{count}} találat",
+      "permaculture": "Permakultúra",
+      "ecoArchitecture": "Ökoépítészet",
+      "communityBuilding": "Közösségépítés",
+      "localEconomy": "Helyi Gazdaság",
+      "education": "Oktatás",
+      "health": "Egészség",
+      "spirituality": "Spiritualitás",
+      "renewableEnergy": "Megújuló Energia"
+    }
+  },
+  "tools": {
+    "hero": {
+      "title": "Laboratórium és Eszközök",
+      "subtitle": "Fedezd fel a regeneratív utazásodat és közösségi értelemalkotást támogató erőforrásokat és eszközöket."
+    },
+    "available": "Elérhető eszközök",
+    "openTool": "Eszköz megnyitása",
+    "comingSoon": "Hamarosan érkezik",
+    "comingSoonLabel": "Hamarosan",
+    "impactDashboard": {
+      "title": "Hatás-Irányítópult",
+      "description": "Vizualizáld közösséged haladását különböző hatásdimenziók mentén.",
+      "badge": "ÚJ"
+    },
+    "preMeetingAudit": {
+      "title": "Gyűlés Előtti Audit",
+      "description": "Ellenőrző lista a befogadó, fókuszált és hatékony gyűlésekért.",
+      "badge": "STABIL"
+    },
+    "participationIndex": {
+      "title": "Részvételi Index",
+      "description": "Mérd és javítsd a részvétel mélységét a projektjeidben.",
+      "badge": "BÉTA"
+    },
+    "valueCompass": {
+      "title": "Érték-Iránytű",
+      "description": "Igazítsd cselekedeteidet az alapvető értékeidhez és közösségi alapelveidhez.",
+      "badge": "BÉTA"
+    },
+    "principles": {
+      "title": "Mintázat-Tár",
+      "description": "Bevált mintázatok gyűjteménye a közösségi kormányzáshoz és együttműködéshez.",
+      "badge": "ALFA"
+    },
+    "innerHelpers": {
+      "title": "Mély Önvizsgálat",
+      "description": "Eszközök a belső fejlődéshez és komplex érzelmi állapotok feldolgozásához.",
+      "badge": "ALFA"
+    },
+    "draw": {
+      "title": "Helyi Rajztábla",
+      "description": "Gyors vázlatok és rendszertérképező eszközök. Minden adat a böngésződben marad.",
+      "badge": "ALFA",
+      "backToTools": "Vissza az eszközökhöz",
+      "clearCanvas": "Vászon törlése",
+      "reloadLocalScene": "Helyi mentés újratöltése",
+      "openHelp": "Súgó megnyitása",
+      "loading": "Helyi rajztábla betöltése...",
+      "helpTitle": "Rajztábla súgó",
+      "closeHelp": "Súgó bezárása",
+      "helpIntro": "Ez a rajztábla egy helyi eszköz gyors vázlatokhoz és rendszertérképezéshez.",
+      "helpClear": "Törlés: Minden elemet eltávolít a vászonról.",
+      "helpReload": "Újratöltés: Visszaállítja az utolsó mentett állapotot a böngészőből.",
+      "helpSelfHosted": "Helyi tárolás: Semmilyen adat nem hagyja el a gépedet; minden a böngésződ helyi tárolójában marad.",
+      "helpAutosave": "Automatikus mentés: A haladásod automatikusan mentésre kerül rajzolás közben.",
+      "helpExport": "Exportálás: Munkádat képként vagy Excalidraw fájlként is elmentheted a bal oldali menüben.",
+      "helpLimitations": "Ez a rajztábla egyetlen helyi jelenetet tart meg a böngésződben. Több mentett diagramhoz, köztük váltáshoz, láthatósági beállításokhoz vagy megosztható csapatmunkához használd inkább a Canvast.",
+      "openCanvas": "Ugrás a Canvasra"
+    },
+    "archetypeGap": {
+      "title": "Arquetípus-Rés Analízis",
+      "description": "Azonosítsd a hiányzó szerepeket és arquetípusokat a közösségi csapatodban."
+    },
+    "networkHealth": {
+      "title": "Hálózati Egészség-Monitor",
+      "description": "Elemezd a közösségi kapcsolataid vitalitását és rezilienciáját."
+    },
+    "openPlatform": {
+      "title": "Nyílt platform elemző",
+      "description": "Regeneratív portálok, civic platformok és kollektív intelligencia hálózatok összehasonlítása.",
+      "badge": "ÚJ"
+    },
+    "partimap": {
+      "title": "Partimap",
+      "description": "Részvételi térképező és kérdőíves eszköz közösségi bevonáshoz és téradat-gyűjtéshez.",
+      "badge": "KÜLSŐ"
+    },
+    "polis": {
+      "title": "Pol.is",
+      "description": "Nyílt forráskódú beszélgetési platform, amely valós idejű klaszterezéssel emeli ki a konszenzust és törésvonalakat nagy csoportokban.",
+      "badge": "KÜLSŐ"
+    },
+    "geoLibre": {
+      "title": "GeoLibre",
+      "description": "Ingyenes és nyílt forráskódú térinformatikai könyvtárak és eszközök kurált gyűjteménye Föld-megfigyeléshez és adattudományhoz.",
+      "badge": "KÜLSŐ"
+    }
+  },
+  "definitions": {
+    "title": "Fogalomtár",
+    "labels": {
+      "focus": "Fókusz",
+      "goal": "Cél",
+      "characteristics": "Jellemzők"
+    },
+    "okoarc": {
+      "title": "Ökoarc (Ecological Self)",
+      "description": "Az \"Ökoarc\" az egyéni útkereső, aki elindult a fenntarthatóság és tudatosság útján. Ez a kifejezés arra utal, hogy az egyén felismeri: ő maga is a természet része, és döntései hatással vannak a környezetére.",
+      "focus": "Saját életmód átalakítása, tanulás, kísérletezés.",
+      "goal": "A belső és külső harmónia megteremtése.",
+      "characteristics": "Nyitottság, kíváncsiság, felelősségvállalás."
+    },
+    "koma": {
+      "title": "Koma (Community Member)",
+      "description": "A \"Koma\" már nem csak egyéni úton jár, hanem aktív részese egy közösségnek. A szó eredeti jelentése (barát, bajtárs, keresztkoma) a mély, bizalmon alapuló emberi kapcsolatokra utal.",
+      "focus": "Együttműködés, közösségépítés, kölcsönös segítségnyújtás.",
+      "goal": "Reziliens, megtartó közösségek létrehozása.",
+      "characteristics": "Elköteleződés, szolidaritás, szolgálat."
+    }
+  },
+  "language": {
+    "label": "Nyelv",
+    "hu": "Magyar",
+    "en": "English",
+    "es": "Español"
+  },
+  "archetypes": {
+    "MYCELIUM": "Mycelium (Gombafonal)",
+    "KEYSTONE": "Keystone (Zárókő)",
+    "POLLINATOR": "Pollinator (Beporzó)",
+    "PRISM": "Prism (Prizma)",
+    "COMPOST": "Compost (Komposztálók)",
+    "SENTINEL": "Sentinel (Őrszem)",
+    "ALCHEMIST": "Alchemist (Alkimista)",
+    "CANOPY": "Canopy (Lombkorona)",
+    "SPARK": "Spark (Szikra)",
+    "ECHO": "Echo (Visszhang)",
+    "TIDE": "Tide (Árapály)",
+    "HORIZON": "Horizon (Horizont)"
+  },
+  "skills": {
+    "title": "Regeneratív Készségek",
+    "subtitle": "A regeneratív készségek könyvtára.",
+    "searchPlaceholder": "Keresés készségre...",
+    "filters": "Szűrők",
+    "clearFilters": "Törlés",
+    "horizons": "3 Horizont",
+    "quadrants": "4 Kvadráns",
+    "level": "Szint",
+    "resultsCount": "Találatok száma: {{count}}",
+    "noResults": "Nincs a feltételeknek megfelelő készség.",
+    "noResultsHint": "Próbálj meg kevesebb szűrőt beállítani.",
+    "clearFiltersBtn": "Szűrők törlése",
+    "quadrantLabels": {
+      "UL": "Belső (Szándék)",
+      "UR": "Külső (Viselkedés)",
+      "LL": "Kulturális (Közös Belső)",
+      "LR": "Rendszerszintű (Közös Külső)"
+    },
+    "horizonLabels": {
+      "H1": "H1: Régi Kivezetése (Hospicing)",
+      "H2": "H2: Áthidalás (Bridging)",
+      "H3": "H3: Radikális Új (Visionary)"
+    },
+    "levelLabels": {
+      "Micro": "Egyéni / Mikró",
+      "Meso": "Közösségi / Mezo",
+      "Macro": "Társadalmi / Makró"
+    },
+    "dbError": "Adatbázis hiba",
+    "dbErrorDetail": "A készségek adatbázisa jelenleg nem elérhető."
+  },
+  "causes": {
+    "pageTitle": "Regeneratív Fejlesztési Célok",
+    "metaTitle": "Regeneratív Fejlesztési Célok | Changemappers",
+    "metaDescription": "Fedezd fel a 30 Regeneratív Fejlesztési Célt (RDG), a regeneratív civilizáció építésének rendszerszemléletű keretét.",
+    "notFoundTitle": "Ügy nem található | Changemappers",
+    "pageSubtitle": "30 összefüggő, egymást erősítő cél öt egymástól függő területen – egy rendszerszemléletű keret a regeneratív civilizáció felépítéséhez.",
+    "statCauses": "Társadalmi Ügy",
+    "statDomains": "Terület",
+    "statMembers": "Aktív Tag",
+    "goalCount": "{{count}} cél",
+    "mainCause": "fő ügye",
+    "interested": "érdeklődő",
+    "beFirstCard": "Légy az első csatlakozó!",
+    "uncategorizedTitle": "Közösségi Ügyek",
+    "uncategorizedSubtitle": "Helyi és globális társadalmi kihívások",
+    "discoveryTitle": "Felfedezés Témák",
+    "discoverySubtitle": "Gyakorlati eszközök és módszertanok az RDG-ken belül",
+    "subgoalsTitle": "Kapcsolódó Alcélok",
+    "subgoalsSubtitle": "Specifikus fókuszterületek e tartomány RDG-jein belül",
+    "subgoalLinkedTo": "Kapcsolódik",
+    "loadError": "Nem sikerült betölteni az ügyeket. Kérlek próbáld újra később.",
+    "domains": {
+      "1": {
+        "title": "Emberi Fejlődés és Belső Kapacitás",
+        "description": "A regeneratív civilizáció pszichológiai és kulturális alapfeltételei"
+      },
+      "2": {
+        "title": "Élő Rendszerek Regenerációja",
+        "description": "A bolygó életfenntartó rendszereinek aktív, nettó-pozitív rehabilitációja"
+      },
+      "3": {
+        "title": "Regeneratív Gazdaság és Infrastruktúra",
+        "description": "Az emberi jólét leválasztása a bio-fizikai átmenő folyamatokról"
+      },
+      "4": {
+        "title": "Kormányzás és Kollektív Intelligencia",
+        "description": "Az emberi koordináció, politika és igazságszolgáltatás operációs rendszerének frissítése"
+      },
+      "5": {
+        "title": "Hosszú Távú Gondoskodás és Civilizációs Reziliencia",
+        "description": "A civilizációs governance kiterjesztése évtizedekről évszázadokra"
+      }
+    },
+    "detail": {
+      "backToCauses": "Vissza az ügyekhez",
+      "editButton": "Szerkesztés",
+      "joinButton": "Csatlakozom",
+      "leaveButton": "Kilépek",
+      "actionBarWithMembers": "{{members}} tag, {{communities}} közösség dolgozik ezen az ügyen",
+      "actionBarEmpty": "Légy az első, aki csatlakozik ehhez az ügyhez!",
+      "descriptionTitle": "Az ügy leírása",
+      "problemsTitle": "Mik a problémák?",
+      "solutionsTitle": "Milyen megoldásokon dolgozunk?",
+      "communitiesTitle": "Támogató Közösségek",
+      "peopleTitle": "Az ügy emberei",
+      "noLocation": "Helyszín nem megadott",
+      "managersTitle": "Ügygazdák",
+      "referencesTitle": "Hivatkozások",
+      "websitesTitle": "Honlapok",
+      "domainLabel": "Terület {{num}}",
+      "rdgFramework": "RDG {{num}} – Regeneratív Fejlesztési Célok keretrendszere",
+      "rdgBelongsTo": "Ez az ügy az RDG {{num}} alá tartozik",
+      "explorerLink": "Célkitűzés részletei (Explorer)",
+      "relatedTitle": "Kapcsolódó ügyek & témák",
+      "relatedRdg": "Kapcsolódó RDG",
+      "noPrimaryMark": "Még senki sem jelölte meg főügynek.",
+      "beFirst": "Légy az első!",
+      "morePersons": "+ még {{count}} személy",
+      "notFound": "Ügy nem található",
+      "rdgExplorer": "Részletes RDG adatlap (Explorer)",
+      "mainCause": "fő ügye",
+      "communities": "közösség"
+    }
+  },
+  "patterns": {
+    "title": "Változási Mintázatok",
+    "subtitle": "Fedezd fel a társadalmi átalakulás alapvető taktikáit és stratégiáit. Szűrj változási szint, kontextus és hatás alapján.",
+    "searchPlaceholder": "Mintázatok keresése...",
+    "findPattern": "Találd meg a Mintádat",
+    "advancedFilters": "Összetett Szűrők",
+    "filters": "Szűrők",
+    "clearFilters": "Törlés",
+    "categoryLabels": {
+      "levelOfChange": "Változás Szintje",
+      "primaryApproach": "Elsődleges Megközelítés",
+      "riskLevel": "Kockázati Szint",
+      "timeHorizon": "Időhorizont",
+      "participantRequirement": "Szükséges Résztvevők"
+    },
+    "filterValues": {
+      "levelOfChange": {
+        "Individual": "Egyéni",
+        "Community": "Közösségi",
+        "Institutional": "Intézményes",
+        "Policy": "Politikai",
+        "Structural": "Strukturális",
+        "Paradigm": "Paradigma"
+      },
+      "primaryApproach": {
+        "Direct Action": "Közvetlen Akció",
+        "Economic Pressure": "Gazdasági Nyomás",
+        "Institutional Change": "Intézményes Változás",
+        "Building Alternatives": "Alternatívák Építése",
+        "Cultural/Narrative": "Kulturális/Narratív",
+        "Organizing & Education": "Szervezés és Oktatás"
+      },
+      "riskLevel": {
+        "Low": "Alacsony",
+        "Moderate": "Mérsékelt",
+        "High": "Magas",
+        "Extreme": "Extrém"
+      },
+      "timeHorizon": {
+        "Immediate (days-weeks)": "Azonnali (napok-hetek)",
+        "Short-term (months)": "Rövid távú (hónapok)",
+        "Medium-term (1-5 years)": "Közép távú (1-5 év)",
+        "Long-term (decades)": "Hosszú távú (évtizedek)"
+      },
+      "participantRequirement": {
+        "Individual": "Egyéni",
+        "Small Group": "Kis Csoport",
+        "Community": "Közösség",
+        "Mass Movement": "Tömegmozgalom"
+      }
+    },
+    "resultsCount": "{{count}} / {{total}} mintázat megjelenítése",
+    "noResults": "Nincs a feltételeknek megfelelő mintázat",
+    "noResultsHint": "Próbáld módosítani a szűrőket vagy keresési kifejezéseket.",
+    "strengths": "Erősségek",
+    "weaknesses": "Gyengeségek",
+    "bestContext": "Legjobb Kontextus",
+    "dbError": "Adatbázis hiba",
+    "dbErrorDetail": "A mintázatok adatbázisa jelenleg nem elérhető.",
+    "quiz": {
+      "title": "Mintázat-Kereső",
+      "question": "Kérdés",
+      "back": "Vissza",
+      "reviewAnswers": "Válaszok áttekintése",
+      "startOver": "Újrakezdés",
+      "resultsTitle": "Ajánlott Mintázataid",
+      "resultsSubtitle": "A válaszaid alapján itt vannak a kontextusodhoz legjobban illő változási mintázatok:",
+      "bestMatch": "Legjobb találat",
+      "points": "pont"
+    }
+  },
+  "matchmaking": {
+    "title": "Összekapcsolás",
+    "description": "Ajánlások készségek, energiaszintek, ügyek és RDG területek alapján.",
+    "errorTitle": "Hiba történt",
+    "noMatchesTitle": "Nincs találat",
+    "noMatchesDesc": "Nincs elég adat a profilodban.",
+    "connections": "Kapcsolatok",
+    "complementarySymmetric": "Kölcsönös kiegészítés",
+    "complementaryAsymmetric": "Felajánlás és szükséglet illeszkedése",
+    "fellowTraveller": "Útitársak",
+    "peer": "Peer kapcsolatok",
+    "mentorMentee": "Mentor és mentorált",
+    "otherConnections": "Egyéb kapcsolatok",
+    "recommendations": "ajánlás",
+    "results": "találat",
+    "communities": "Közösségek",
+    "sharedCauses": "Közös ügyek",
+    "structuralAsymmetry": "Strukturális Aszimmetria:",
+    "asymmetryWarning": "Ez a kapcsolattípus történelmileg egyoldalú erőforrás-áramláshoz vezetett.",
+    "whyGoodMatch": "Miért lehet jó illeszkedés",
+    "scoreTransparencyTitle": "Mit lát a pontszám, és mit nem",
+    "scoreTransparencyBody": "A pontszám profilajánlatokat, igényeket, ügyeket, RDG területeket, elérhetőséget, nyelvi átfedést és profilfrissességet használ. Nem igazolja a bizalmat, megélt kontextust, szezonális időt, föld- vagy közösségi leszármazást, sem azt, hogy a másik embernek ma van-e kapacitása. Kezeld indulópontként, nem emberek rangsoraként.",
+    "scoreAria": "Összekapcsolási pontszám: {{score}}. Ez útválasztási jelzés, nem emberek rangsora.",
+    "firstExchangeTitle": "Kezdd kölcsönösséggel",
+    "firstExchangeBody": "Mielőtt segítséget kérsz, nevezz meg egy dolgot, amit fel tudsz ajánlani, hordozni vagy könnyebbé tenni ebben a cserében.",
+    "dismissLabel": "Nem érdekel",
+    "dismissedConfirmation": "Mérkőzés elrejtve 30 napra.",
+    "errors": {
+      "authRequired": "Jelentkezz be a Szövetségeskereső használatához.",
+      "recommendationFailed": "Nem sikerült betölteni az ajánlásokat.",
+      "cannotDismiss": "Nem sikerült elutasítani ezt a párosítást.",
+      "unexpectedError": "Váratlan hiba történt."
+    },
+    "reasons": {
+      "protectiveSupport": "Védő támogatás ({{count}})",
+      "complementaryKnowledge": "Kiegészítő tudás ({{count}})",
+      "sharedSkills": "Közös készségek ({{count}})",
+      "sharedActiveRdg": "Közös aktív RDG ({{count}})",
+      "sharedCauses": "Közös ügyek ({{count}})",
+      "sameFocusMode": "Azonos fókuszmód",
+      "sameCity": "Azonos város",
+      "sameCountry": "Azonos ország",
+      "sharedRdgProfile": "Közös RDG profil ({{count}})",
+      "strongRoleLabelFit": "Erős szerepcímke-illeszkedés",
+      "sharedFocusArea": "Közös fókuszterület ({{count}})",
+      "needsYourEnergy": "Szükség van a tudásodra vagy energiádra"
+    },
+    "scoreDisclosureTitle": "mit lát és mit nem lát ez a pontszám",
+    "scoreDisclosureBody": "Ez az ajánlás a megadott szerepcímkéket, felajánlásokat, szükségleteket, ügyeket, nyelvet, elérhetőséget, friss aktivitást és nyilvános profilkörnyezetet használja. Nem látja a privát szándékot, a megélt bizalmat, az offline kötelezettségeket vagy azt, hogy a beszélgetés kölcsönösnek érződik-e majd. Egyes védő csillapítások szabályozottak és összesítettek, de soha nem jelennek meg egyéni hatalmi címkeként."
+  },
+  "communitiesPage": {
+    "subtitle": "Fedezd fel a regeneratív közösségeket a világban",
+    "newCommunity": "Új közösség",
+    "loadFailed": "Nem sikerült betölteni a közösségeket.",
+    "retry": "Újra",
+    "emptyTitle": "Még nincsenek közösségek",
+    "emptyDescription": "Légy itt az első változáshozó — hozd létre a közösségedet, és hívj meg másokat, hogy csatlakozzanak!",
+    "emptyCta": "Hozd létre az első közösséget",
+    "noResults": "Nincs a keresésnek megfelelő közösség."
+  },
+  "feedPage": {
+    "loadFailed": "Nem sikerült betölteni a hírfolyamot."
+  },
+  "canvasPage": {
+    "loading": "Canvas betöltése..."
+  },
+  "cityAutocomplete": {
+    "placeholder": "Város keresése...",
+    "typeToSearch": "Írj a kereséshez...",
+    "searching": "Keresés...",
+    "minChars": "Írj legalább 2 karaktert...",
+    "useTypedLocation": "\"{{query}}\" használata",
+    "useTypedHint": "A beírt hely használata autocomplete nélkül"
+  },
+  "domainCombobox": {
+    "placeholder": "Válassz vagy adj hozzá területet...",
+    "searchPlaceholder": "Területek keresése...",
+    "addCustom": "\"{{name}}\" hozzáadása",
+    "rdgDomains": "RDG Területek",
+    "skillsPractices": "Készségek és Gyakorlatok",
+    "noResults": "Nem található terület. Írj be egyéni területet."
+  },
+  "cookieConsent": {
+    "title": "Tiszteletben tartjuk a magánéletedet",
+    "description": "Sütiket használunk a felhasználói élmény javítására.",
+    "essential": "Alapvető",
+    "essentialDesc": "Szükséges az oldal működéséhez (bejelentkezés, biztonság).",
+    "analytics": "Analitika",
+    "analyticsDesc": "Segít nekünk megérteni, hogyan használják a platformot, hogy fejleszthessük.",
+    "marketing": "Külső tartalom",
+    "marketingDesc": "Lehetővé teszi külső tartalmak, például YouTube videók és interaktív térképek megjelenítését.",
+    "accept": "Összes elfogadása",
+    "decline": "Csak alapvető",
+    "settings": "Beállítások"
+  },
+  "compass": {
+    "title": "A Változásformáló Iránytű",
+    "description": "Találd meg a helyed a változásteremtő tájban.",
+    "metaTitle": "Változásformáló Iránytű",
+    "metaDescription": "Fedezd fel a Változásformáló Iránytűt."
+  },
+  "languageCombobox": {
+    "selectLanguage": "Válassz nyelvet",
+    "selectLanguages": "Válassz nyelveket",
+    "search": "Keresés...",
+    "noResults": "Nincs találat"
+  },
+  "request": {
+    "rdg": {
+      "selected": "Kiválasztva"
+    }
+  },
+  "loading": "Betöltés...",
+  "saving": "Mentés...",
+  "communityCombobox": {
+    "searchOrAdd": "Közösség keresése vagy hozzáadása...",
+    "searchByName": "Keresés név alapján...",
+    "startTyping": "Írj a kereséshez...",
+    "noResults": "Nincs találat.",
+    "addNew": "\"{{name}}\" hozzáadása"
+  },
+  "initiativeCombobox": {
+    "search": "Kezdeményezések keresése...",
+    "searchByName": "Keresés név alapján...",
+    "noResults": "Nincs egyező kezdeményezés."
+  },
+  "imageEditor": {
+    "uploadCover": "Borítókép feltöltése",
+    "changeImage": "Kép módosítása"
+  },
+  "privacy": {
+    "title": "Adatvédelmi beállítások",
+    "metadataTitle": "Adatvédelmi beállítások - Changemappers",
+    "metadataDescription": "GDPR-jogok: adatfeldolgozás korlátozása, algoritmikus összekapcsolás letiltása és fióktörlés ütemezése.",
+    "intro": "Az alábbi vezérlőkkel élhetsz a GDPR által biztosított jogaiddal. A változtatások azonnal életbe lépnek.",
+    "policyPrefix": "Az adatok kezeléséről részletesen a",
+    "policyLink": "Adatkezelési tájékoztatóban",
+    "policySuffix": "olvashatsz, vagy keresheted adatvédelmi kapcsolattartónkat:",
+    "deleteConfirmationRequired": "Kérlek, írd be: TÖRLÉS",
+    "processing": {
+      "title": "Adatfeldolgozás korlátozása",
+      "description": "GDPR 18. cikk - Kérheted, hogy az analitikai és ajánló funkciók leálljanak, miközben megtartod a hozzáférést a fiókodhoz. A korlátozás nem érinti az alapvető működéshez szükséges adatfeldolgozást, például a belépést és az e-mail értesítéseket.",
+      "aria": "Adatfeldolgozás korlátozása",
+      "active": "Korlátozás aktív",
+      "inactive": "Nincs korlátozás",
+      "saved": "Mentve."
+    },
+    "matching": {
+      "title": "Automatikus összekapcsolás",
+      "description": "GDPR 22. cikk - A Changemappers algoritmikus rendszert használ közösségi kapcsolatok és lehetőségek ajánlásához érdeklődési kör, elérhetőség és helyszín alapján. Kikapcsolhatod az automatikus összekapcsolást; manuálisan továbbra is böngészheted a többi tagot.",
+      "aria": "Automatikus összekapcsolás letiltása",
+      "disabled": "Automatikus összekapcsolás letiltva",
+      "enabled": "Automatikus összekapcsolás engedélyezve",
+      "saved": "Mentve.",
+      "sensitiveWithdrawn": "Az érzékeny adatokkal működő összekapcsoláshoz adott hozzájárulás visszavonva.",
+      "sensitiveTitle": "Érzékeny adatokkal működő összekapcsolási hozzájárulás",
+      "sensitiveActive": "A kifejezett hozzájárulás aktív az archetípusokat, szükségleteket, ügyeket és funkcionális profiljeleket használó összekapcsoláshoz.",
+      "sensitiveInactive": "Az érzékeny adatokkal működő összekapcsolás nem aktív ennél a fióknál.",
+      "sensitiveAcceptedAt": "Elfogadva ekkor",
+      "withdrawSensitive": "Érzékeny összekapcsolási hozzájárulás visszavonása",
+      "profileVisibilityNote": "A profil-, keresési és térkép-láthatósági beállítások azt szabályozzák, hogy mások mit láthatnak; önmagukban nem kapcsolják ki az algoritmikus összekapcsolást. Az automatikus összekapcsolást vagy az érzékeny összekapcsolási hozzájárulást itt kapcsolhatod ki."
+    },
+    "deletion": {
+      "title": "Fiók törlése",
+      "descriptionPre": "GDPR 17. cikk - A fiók törlése után személyes adataid anonimizálva lesznek. A kérés beérkezésétől",
+      "descriptionStrong": "30 napod van",
+      "descriptionPost": "visszavonni a döntést. 30 nap elteltével a törlés végleges és nem visszavonható.",
+      "scheduled": "Törlés ütemezve: {{date}}. A fiók ezt követően végleg törlődik.",
+      "cancel": "Törlési kérés visszavonása",
+      "cancelled": "Visszavonva.",
+      "confirmPrompt": "Megerősítéshez írd be:",
+      "confirmKeyword": "TÖRLÉS",
+      "aria": "Törlés megerősítése",
+      "scheduledMessage": "Törlés ütemezve.",
+      "schedule": "Törlés ütemezése",
+      "processing": "Feldolgozás...",
+      "nevermind": "Mégsem",
+      "request": "Fiók törlésének kérése"
+    },
+    "roleLabels": {
+      "title": "Szerepcímkék használata",
+      "description": "Az archetípusok és szerepcímkék kontextuális jelzések, nem identitásállítások. Csak akkor segítenek figyelmet irányítani, ha engedélyezed az összekapcsolást és az érzékeny profiljelek használatát.",
+      "currentControl": "V1 vezérlés: kapcsold ki az automatikus összekapcsolást vagy vond vissza az érzékeny összekapcsolási hozzájárulást, hogy a szerepcímkék ne legyenek használva az ajánlási pontozásban. A finom, címkénkénti vezérlés tervezett munka."
+    },
+    "export": {
+      "title": "Adataid letöltése",
+      "description": "Exportálj géppel olvasható másolatot a fiókodról, profilodról, kommunikációdról, aktivitásodról és jogkezelési adataidról.",
+      "download": "Export letöltése"
+    },
+    "cookies": {
+      "title": "Cookie-beállítások",
+      "description": "Nyisd meg újra a cookie-beállításokat, hogy bármikor visszavond az opcionális analitikai hozzájárulást.",
+      "open": "Cookie-beállítások megnyitása"
+    },
+    "policyFallback": "Ha az email-kézbesítés nem működik, használd az alkalmazáson belüli Feedback gombot, és kezdd az üzenetet azzal, hogy \"adatvédelmi kérelem\"."
+  },
+  "previous": "Előző",
+  "next": "Következő",
+  "required": "Kötelező",
+  "onboarding": {
+    "errors": {
+      "saveAgreementsFailed": "Nem sikerült menteni a megállapodásokat",
+      "saveAssessmentFailed": "Nem sikerült menteni az értékelést",
+      "deleteConfirmationRequired": "Kérlek, írd be: TÖRLÉS"
+    }
+  },
+  "favoritesPage": {
+    "eyebrow": "Mentett helyek",
+    "title": "Kedvencek",
+    "description": "A mentett emberek, oldalak és lehetőségek itt jelennek meg, ahogy a kedvenc műveletek bekerülnek a platformba.",
+    "emptyTitle": "Még nincsenek kedvencek",
+    "emptyDescription": "Indulj a hírfolyamból, és később itt követheted azokat a frissítéseket, amelyekhez visszatérnél.",
+    "exploreFeed": "Hírfolyam megnyitása"
+  },
+  "settingsPage": {
+    "eyebrow": "Fiókvezérlők",
+    "title": "Beállítások",
+    "description": "Kezeld a fiók- és adatvédelmi vezérlőket egy helyen.",
+    "privacyTitle": "Adatvédelem és megosztás",
+    "privacyDescription": "A profil láthatósága, a fediverzum-megosztás, az adatexport és a fióktörlés vezérlői a profil beállítások fülén érhetők el.",
+    "openProfileSettings": "Profilbeállítások megnyitása",
+    "cmapReviewTitle": "CMAP disclosure review",
+    "cmapReviewDescription": "Az Érkezés, Beilleszkedés és Gondozás felületek manuálisan ellenőrizendők. Az automatikus 14., 90. napos és éves emlékeztetők a V1-ben nem érhetők el.",
+    "annualReviewMonth": "Annual review month",
+    "manualReviewNow": "Mark review completed now",
+    "currentDisclosureStage": "Jelenlegi megjelenítési szakasz: {{stage}}",
+    "chooseMonth": "Válassz hónapot",
+    "lastManualReview": "Utolsó kézi felülvizsgálat: {{date}}",
+    "featureVisibilityTitle": "Navigációs funkciók",
+    "featureVisibilityDescription": "Válaszd ki, mely funkciók jelenjenek meg a navigációban. A(z) {{level}}. szintű alapértelmezés érvényes, hacsak nem módosítod.",
+    "featureVisibilityNoLevel": "Szint még nem lett értékelve — az 0-2. szint alapértelmezése jelenik meg.",
+    "reflectionRemindersTitle": "Reflexiós emlékeztetők",
+    "reflectionRemindersDescription": "Alkalmi alkalmazáson belüli emlékeztetők, ha egy reflexiós szint esedékessé válik.",
+    "reflectionReminderOptOut": "Reflexiós emlékeztetők némítása",
+    "reflectionRemindersSaved": "Beállítás mentve"
+  },
+  "featurePreferences": {
+    "save": "Beállítások mentése",
+    "saving": "Mentés…",
+    "resetToPreset": "Visszaállítás szint-alapértelmezésre",
+    "saved": "Mentve",
+    "group": {
+      "reflect": "Reflexió",
+      "connect": "Kapcsolódás",
+      "learn": "Tanulás",
+      "map": "Térkép és jelek",
+      "tools": "Eszközök",
+      "act": "Cselekvés"
+    }
+  },
+  "apiDocs": {
+    "notFoundTitle": "A dokumentáció nem található",
+    "notFoundBody": "Az OpenAPI specifikációt nem sikerült betölteni.",
+    "returnHome": "Vissza a kezdőlapra",
+    "title": "API-dokumentáció",
+    "securityTitle": "Biztonság",
+    "securityBody": "Minden útvonal érvényes munkamenet-sütiket igényel, hacsak nincs másként jelezve.",
+    "performanceTitle": "Teljesítmény",
+    "performanceBody": "Az alapértelmezett sebességkorlát érvényes: IP-címenként percenként 100 kérés.",
+    "responses": "Válaszok"
+  },
+  "globalError": {
+    "title": "Valami hiba történt",
+    "description": "Váratlan hiba történt. Próbáld újra, vagy térj vissza a kezdőlapra.",
+    "retry": "Újrapróbálom",
+    "homepage": "Kezdőlap"
+  },
+  "sentryExample": {
+    "metaTitle": "sentry-example-page",
+    "metaDescription": "Sentry tesztelése a Next.js alkalmazásban.",
+    "logoLabel": "Sentry logó",
+    "title": "sentry-example-page",
+    "descriptionPrefix": "Kattints az alábbi gombra, és nézd meg a minta hibát a Sentry",
+    "issuesPage": "hibalapján",
+    "descriptionMiddle": "A Sentry beállításáról további részleteket itt találsz:",
+    "docsLink": "dokumentáció",
+    "throwSampleError": "Minta hiba dobása",
+    "sent": "A hiba elküldve a Sentrynek.",
+    "connectivity": "Úgy tűnik, a Sentry felé menő hálózati kérések blokkolva vannak, ezért a hibák nem rögzíthetők. A teszt befejezéséhez próbáld kikapcsolni a reklámblokkolót."
+  },
+  "theme": {
+    "light": "Vilagos",
+    "dark": "Sotet",
+    "toggleTo": "Valtas {{theme}} temara"
+  },
+  "commonsLicenseNotice": {
+    "title": "A közösségi licenc publikálás előtt látható",
+    "body": "Az itt közzétett tudás alapértelmezett licence CC BY-SA 4.0, kivéve ha az űrlap szigorúbb választást kínál. Csak olyan anyagot ossz meg, amelynek megosztására jogod van, és hagyományos vagy érzékeny tudást csak a gondnokai beleegyezésével tegyél közzé."
+  },
+  "governance": {
+    "eyebrow": "Kormányzási felület",
+    "title": "Hogyan kérhető számon a Changemappers",
+    "description": "Ez az oldal megnevezi az elutasítás, vitatás és elszámoltathatóság útjait, amelyek a chartát tartják, amíg a teljesebb közösségi kormányzás épül.",
+    "charterTitle": "Charta-minimum",
+    "charterBody": "A termékdöntéseknek tiszteletben kell tartaniuk a méltóságot, beleegyezést, kölcsönösséget, közjavak gondozását, tudáspluralizmust és őszinte hiányjelzést. Az admin- és ajánlórendszerek megvalósítási részletek, nem kivételek ez alól.",
+    "aboutLink": "Projekt bemutatása",
+    "privacyLink": "Adatvédelmi vezérlők",
+    "casesLink": "Esetek böngészése",
+    "sections": {
+      "refusal": {
+        "title": "Elutasítás büntetés nélkül",
+        "body": "Korlátozhatod az adatkezelést, kiléphetsz az algoritmikus összekapcsolásból, visszavonhatod az érzékeny összekapcsolási hozzájárulást, elutasíthatsz kapcsolatot vagy törölheted a fiókod anélkül, hogy elveszítenéd a nyilvános tudáshoz való alaphozzáférést."
+      },
+      "challenge": {
+        "title": "Vitatási út",
+        "body": "Ha egy ajánlás, moderáció, címke vagy kormányzási döntés hibásnak tűnik, használj visszajelzést vagy támogatást, és nevezd meg az oldalt, döntést és kárt. A csapatnak meg kell neveznie az okot és a felülvizsgálati utat."
+      },
+      "power": {
+        "title": "Látható hatalom",
+        "body": "Az admin-only vezérlők biztonsági, jogi és működési folytonossági okból léteznek. Az útvonal-tiltást, moderációt és adathozzáférést dokumentálni és vitathatóvá kell tenni, ha felhasználót vagy közösséget érint."
+      },
+      "limits": {
+        "title": "Őszinte korlátok",
+        "body": "A jelenlegi V1 vezérlők szélesek. Több finom címke-, idő-, leszármazási és több-mint-emberi vezérlés még tervezett munka, és így kell leírni, amíg nem készült el."
+      }
+    },
+    "openWorkTitle": "Nyitott kormányzási munka",
+    "openWorkBody": "A chartát tartó állandó testület, a módosítási küszöbök és a nyilvános elutasítási nyilvántartás közösségi tervezést igényel. Addig ez a minimális felhasználói elszámoltathatósági réteg.",
+    "detailBack": "Vissza az irányításhoz",
+    "pages": {
+      "charter": {
+        "title": "Univerzális Charta",
+        "summary": "Azok a rövid kormányzási kötelezettségvállalások, amelyek a részvételt, a beleegyezést, az elutasítást, a módosítást és a közösségi gondozást rögzítik.",
+        "sections": [
+          {
+            "heading": "Tíz kötelezettség",
+            "body": [
+              "Védjük az elutasításhoz, az informált beleegyezéshez, a gyakorlati hozzájáruláshoz, az alacsony kockázatú első csere lehetőségét, a közjavak gondozását, az adatvédelmet, a transzparens korlátokat, a helyreállítást, a pluralis tudáskörnyezeteket és a kilépés jogát.",
+              "A Charta nem módosítható könnyedén. A módosításokhoz nyilvános értesítés, gyártói kerekesszék és dátumozott verziófrissítés szükséges."
+            ]
+          },
+          {
+            "heading": "Ötéves kormányzási és hatalmi felülvizsgálat",
+            "body": [
+              "Nyilvános indulástól számított öt éven belül a Changemappersnek nyilvános átfogó felülvizsgálatot kell tartania a kormányzásról, az alapító tanácsadó hatalomról, a tulajdonlásról, az örökbefogadásról és az átmeneti lehetőségekről.",
+              "Ez nem felszámolási ígéret, hanem hatalmi felülvizsgálat: az eredmény átmenet, megszűnés, gondozás-átszervezés vagy indokolt megújult felhatalmazás lehet."
+            ]
+          }
+        ]
+      },
+      "refusal-register": {
+        "title": "Elutasítási nyilvántartás",
+        "summary": "Az, amit a Changemappers nem ad fel adományozói, partnerségi, felvásárlási vagy felhasználói nyomás alatt.",
+        "sections": [
+          {
+            "heading": "Jelenlegi elutasítások",
+            "body": [
+              "Nincs privát párosítási adatok eladása.",
+              "Nincs nyilvános hozzájárulási pontszámláló vagy kölcsönösségi ranglista.",
+              "Nincs támogatói befolyás a párosítási rangsoron.",
+              "Nincs olyan partnerség, amely gyengítené az elutasítási, blokkolási vagy adatvédelmi vezérléseket.",
+              "Nincs olyan felvásárlási feltétel, amely eltörölné a Charta-módosítási folyamatot."
+            ]
+          }
+        ]
+      },
+      "challenge-path": {
+        "title": "Vitatási útvonal új belépőknek",
+        "summary": "Egyszerű út a kár, hiányosság vagy kormányzási elcsúszás javítására a belső folyamatszók nélkül.",
+        "sections": [
+          {
+            "heading": "Hogyan lehet vitatni",
+            "body": [
+              "Nevezd meg, mi tűnik rossznak vagy hiányosnak.",
+              "Írd le, kik lehetnek érintettek.",
+              "Ha van, javasolj biztonságosabb fogalmazást, folyamatot vagy korlátot.",
+              "Kérj választ a Charta gondozóitól, ha a probléma a kormányzási kötelezettségvállalásokat érinti."
+            ]
+          }
+        ]
+      },
+      "what-we-cannot-yet-hold": {
+        "title": "Amit még nem tudunk megtartani",
+        "summary": "Látható áttekintés a platform jelenlegi korlátairól hagyományok, nyelvek, munkakörnyezetek, felhasználók és termékhiányok mentén.",
+        "sections": [
+          {
+            "heading": "Ismert korlátok",
+            "body": [
+              "Sok tudástípus nem jelenik meg a jelenlegi metaadatok alapján.",
+              "Az interfész angolul és magyarul a legerősebb, más nyelveken gyengébb.",
+              "Az offline szolidaritás, trauma-szenzitív és magas kockázatú szervezőhelyzetek több biztosítékot igényelnek, mint amit a V1 tud nyújtani.",
+              "A nem emberi érintettek modellezése nem elérhető a V1-ben.",
+              "A Provenance-es esetekben nincs V1 ellenőrzési munkafolyamat."
+            ]
+          }
+        ]
+      },
+      "defederation-protocol": {
+        "title": "Defederációs protokoll",
+        "summary": "A biztonsági és kilépési folyamat, amely a föderáció vagy távoli példányok bekapcsolása előtt kötelező.",
+        "sections": [
+          {
+            "heading": "Protokoll",
+            "body": [
+              "A kiváltó okok közé tartozik ismétlődő visszaélés, adatvédelmi megsértés, kormányzási elfogás vagy elutasítási-napló megsértése egy távoli példánytól.",
+              "A folyamat bizonyítékgyűjtést, biztonságos értesítést, felhasználói export/védelem lépéseit, visszafordítható blokkokat és nyilvános naplót igényel, amikor lehetséges.",
+              "A föderáció vagy távoli példányok aktiválása előtt kötelező egy próba-próbavitel."
+            ]
+          }
+        ]
+      },
+      "governance-roster": {
+        "title": "Kormányzási névsor",
+        "summary": "A kezdeti nyilvános szereplőlista a szerepkör-átláthatóságig, amíg hivatalos kormányzási szerepkör-modell készül.",
+        "sections": [
+          {
+            "heading": "Kezdő névsor",
+            "body": [
+              "Charta-gondozó testület: három megnevezett alapító/gondozó szék tölti fel a V1 nyilvános indulása előtt.",
+              "A ciklusvégek itt jelennek meg először; a profil-szintű kormányzási szerepkör-megjelenítés a modell elkészüléséig halasztva van."
+            ]
+          }
+        ]
+      },
+      "tk-bc-labels": {
+        "title": "TK/BC protokoll címkék",
+        "summary": "A hagyományos tudás és a biokulturális címkék jogi licencek mellett elhelyezett kontextus/protokoll címkék.",
+        "sections": [
+          {
+            "heading": "Jogi egyértelműség",
+            "body": [
+              "A CC-BY-SA-4.0 továbbra is az alapértelmezett közösségi licenc a nyilvános hozzájárulásokhoz.",
+              "A TK és BC címkék nem helyettesítik a szerzői jogi licenceket. Azt jelzik az olvasónak, hogy számít az eredet, a gondozás, a beleegyezés, a szerzői hivatkozás vagy a helyhez kötött protokoll."
+            ]
+          }
+        ]
+      },
+      "term-limits-successors": {
+        "title": "Mandátumidő-korlátok és utódok",
+        "summary": "Alapértelmezett cserélhetőség és utódlás-támogatási elvárások a kormányzati szerepkörökhöz.",
+        "sections": [
+          {
+            "heading": "Szabályok",
+            "body": [
+              "Alapértelmezés szerint a gondozói időszak két év, hacsak a névsor rövidebb indulási időt nem jelöl.",
+              "A második ciklusban lévő szerepkör-tulajdonosoknak utódot kell nevetniük és aktívan mentorálniuk, vagy nyilvánosan indokolniuk, ha ez még nem lehetséges.",
+              "A cikuskivételekhez Charta-gondozói felülvizsgálat és dátumos közzététel szükséges."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "peerSupport": {
+    "title": "Peer támogatás",
+    "metaDescription": "Kapcsolódj olyan emberekhez, akik hasonló helyzeteken mentek át; ez nem terápia és nem tanácsadás.",
+    "description": "A peer támogatás azt jelenti, hogy valaki tanúként kísér, aki már járt hasonló helyzetben. Nem terápia. Nem tanácsadás. Kísérés.",
+    "offerTitle": "Min mentél már keresztül, amivel most más szembenéz?",
+    "offerBody": "Peer támogatást ajánlani előre adott kölcsönösség: megosztod a megszerzett kapacitásod valakivel, akinek most szüksége van rá.",
+    "offerCta": "Peer támogatás ajánlása",
+    "seekCta": "Peer támogatás kérése",
+    "browseTitle": "Ajánlatok böngészése",
+    "browseBody": "Találj embereket, akik hasonló helyzeteket éltek meg. Keress meg valakit kéréssel.",
+    "connectionsTitle": "Kapcsolataim",
+    "connectionsBody": "Nézd meg az aktív és korábbi peer támogatási kapcsolatokat. Záráskor reflektálhatsz.",
+    "myRequestsTitle": "Kéréseim",
+    "myRequestsBody": "Tekintsd meg és vonj vissza függő peer támogatási kéréseket.",
+    "boundariesTitle": "A tér határai",
+    "boundaries": {
+      "boundaryStatements": "A támogatók minden ajánlaton látható határmondatokat adnak meg",
+      "noRatings": "Nincsenek értékelések. Csak a támogatott személy oszthat meg privát reflexiót",
+      "pauseAnytime": "A támogatók bármikor szüneteltethetik az ajánlatot, ilyenkor eltűnnek a böngészésből",
+      "notCrisis": "Ez nem krízisszolgáltatás. A szakmai támogatási információk fent találhatók"
+    },
+    "back": "← Sorstársi támogatás",
+    "offerPage": {
+      "title": "Sorstársi támogatás felajánlása",
+      "description": "Oszd meg, amin már végigmentél. A megélt tapasztalatod maga a felajánlás."
+    },
+    "requestPage": {
+      "title": "Sorstársi támogatás kérése",
+      "description": "Találj valakit, aki már átnavigált azon, amivel most szembenézel. Ez kísérés, nem tanácsadás."
+    },
+    "detailPage": {
+      "title": "Sorstársi támogatási ajánlat",
+      "offerId": "Ajánlat azonosító:",
+      "comingSoon": "A teljes ajánlati nézet hamarosan érkezik."
+    }
+  },
+  "actionRequirements": {
+    "enterComment": "Írj hozzászólást a küldés előtt.",
+    "enterMessage": "Írj üzenetet a küldés előtt.",
+    "enterPostContent": "Adj tartalmat a bejegyzéshez a közzététel előtt.",
+    "selectCategory": "Válassz kategóriát a beküldés előtt.",
+    "enterRoomName": "Adj meg szobanevet betűkkel, számokkal, ponttal, aláhúzással vagy kötőjellel.",
+    "typeDeleteKeyword": "Gépeld be pontosan: {{keyword}}.",
+    "selectEnergyEntityType": "Válassz entitástípust.",
+    "selectEnergyPrimaryScale": "Válassz elsődleges léptéket.",
+    "selectEnergyState": "Válassz energiaállapotot.",
+    "enterInviteRecipient": "Add meg a címzett e-mail-címet.",
+    "enterInviteEmail": "Adj meg legalább egy e-mail-címet.",
+    "enterInviteSubject": "Adj meg legalább 3 karakteres tárgyat.",
+    "enterReasoningMin": "Írj legalább {{count}} karakter indoklást.",
+    "chooseRole": "Válassz legalább egy szerepet.",
+    "chooseSkills": "Válassz legalább {{count}} készséget vagy ajánlatot.",
+    "chooseNeeds": "Válassz legalább {{count}} tanulási igényt.",
+    "chooseCause": "Válassz legalább egy ügyet vagy RDG domaint.",
+    "enterContributionSeed": "Írj legalább {{count}} karakteres hozzájárulási magot.",
+    "acceptSensitiveMatching": "Fogadd el az érzékeny adatokkal működő összekapcsolási hozzájárulást.",
+    "removeSelectionBeforeChoosingAnother": "Távolíts el egy kiválasztott elemet, mielőtt másikat választasz.",
+    "enterProjectId": "Adj meg projektazonosítót a kapcsolás előtt.",
+    "enterCommunityId": "Adj meg közösségazonosítót a kapcsolás előtt.",
+    "enterCorroborationEvidence": "Írj legalább {{count}} karakter megerősítő bizonyítékot.",
+    "enterFlagReason": "Írj legalább {{count}} karakter indoklást a jelöléshez.",
+    "enterDisputeReason": "Írj legalább {{count}} karakter indoklást a vitatáshoz.",
+    "enterPassword": "Add meg a fiókod jelszavát.",
+    "enterTitle": "Adj meg egy címet.",
+    "enterSummary": "Adj meg egy összefoglalót.",
+    "chooseRdg": "Válassz legalább egy regeneratív célterületet.",
+    "enterTimeCommitment": "Írd le az időráfordítást legalább 2 karakterrel.",
+    "enterFormat": "Írd le a formátumot legalább 2 karakterrel.",
+    "enterAvailability": "Írd le az elérhetőségedet legalább 2 karakterrel.",
+    "enterParticipantName": "Add meg a neved, mielőtt elküldöd a szavazatot.",
+    "slotLimitReached": "Távolíts el egy időpontot, mielőtt újat adsz hozzá; egy időpont-egyeztetés legfeljebb 50 opciót támogat.",
+    "chooseBatchStartDate": "Válassz kezdődátumot a dátumtartományhoz.",
+    "chooseBatchEndDate": "Válassz záródátumot a dátumtartományhoz.",
+    "selectProject": "Válassz egy kezdeményezést a kapcsoláshoz",
+    "selectCommunity": "Válassz egy közösséget a kapcsoláshoz"
+  },
+  "pendingApproval": {
+    "metadataTitle": "Jóváhagyásra vár",
+    "title": "A fiók jóváhagyásra vár",
+    "body": "A regisztrációd elkészült, de egy adminisztrátornak jóvá kell hagynia a fiókot, mielőtt bejelentkezhetsz.",
+    "contactPrefix": "Ha meghívót vártál, vagy a jóváhagyás túl sokáig tart, írj erre a címre:",
+    "contactSuffix": "arról az email címről, amellyel regisztráltál.",
+    "backToLogin": "Vissza a bejelentkezéshez",
+    "emailHelp": "Email segítség"
+  },
+  "emailHelpPage": {
+    "metadataTitle": "Email segítség",
+    "title": "Nem érkezik meg az email",
+    "body": "A megerősítő, magic-login és jelszó-visszaállító linkek néhány percet késhetnek. Nézd meg a spam, promóciós és biztonsági karantén mappákat, majd kérj új linket, amikor az aktuális lejár.",
+    "contactPrefix": "Ha továbbra sem érkezik email, írj ide:",
+    "contactSuffix": "arról a címről, amelyet használni próbálsz.",
+    "backToLogin": "Vissza a bejelentkezéshez"
+  },
+  "casesPage": {
+    "metadataTitle": "Eredetkövetett esetek",
+    "metadataDescription": "Strukturált esetek hozzárendeléssel és eredetkontextussal.",
+    "eyebrow": "Eredetkövetett esetek",
+    "title": "Strukturált esetek böngészése",
+    "description": "A V1 esetek sablonmezőket, állított eredményeket, attribúciót és eredetkontextust mutatnak. Nem hitelesített címkék vagy rangsorok.",
+    "empty": "Még nincs közzétett eset."
+  },
+  "caseDetail": {
+    "back": "Vissza az esetekhez",
+    "institutionalContext": "Intézményi kontextus",
+    "outcomeClaims": "Eredményállítások",
+    "declaredConfidence": "Jelzett bizonyosság:",
+    "lessons": "Tanulságok",
+    "contributorNotes": "Közreműködői jegyzetek",
+    "attribution": "Attribúció:",
+    "lineageAcknowledgment": "Eredet elismerése:",
+    "linkedPitch": "Kapcsolt pitch:"
+  },
+  "reflectPage": {
+    "loginLink": "Jelentkezz be",
+    "loginSuffix": "a reflexiós tér használatához."
+  },
+  "rootMetadata": {
+    "description": "Kapcsolódási platform ökológiai, regeneratív életmódot kereső embereknek és közösségeknek.",
+    "keywords": [
+      "ökofalu",
+      "közösség",
+      "fenntarthatóság",
+      "permakultúra",
+      "jövőképzők",
+      "ökológia"
+    ],
+    "openGraphLocale": "hu_HU"
+  },
+  "coachmeSession": {
+    "loading": "Betöltés...",
+    "sessionNotFound": "A munkamenet nem található",
+    "redirecting": "Átirányítás..."
+  },
+  "helpPage": {
+    "metadataTitle": "Súgó és tájékozott döntések",
+    "eyebrow": "Súgóközpont",
+    "title": "Hozz tájékozott döntéseket a Changemappersen",
+    "intro": "Keress a regisztráció, összekapcsolás, profilláthatóság és adatvédelmi vezérlők alapfogalmai között, mielőtt eldöntöd, mit osztasz meg.",
+    "searchLabel": "Súgócikkek keresése",
+    "searchPlaceholder": "Keresés: összekapcsolás, elérhetőség, adatvédelem, profil...",
+    "resultsLabel": "{{count}} súgószakasz",
+    "noResultsTitle": "Nincs illeszkedő súgószakasz",
+    "noResultsBody": "Próbálj tágabb szót, például adatvédelem, összekapcsolás, elérhetőség, profil, hozzájárulás vagy térkép.",
+    "tocLabel": "Az oldalon",
+    "filterLabel": "Szűrés téma szerint",
+    "clearFilterLabel": "Szűrő törlése",
+    "sections": [
+      {
+        "id": "what-this-is-not",
+        "title": "Egy más jellegű platform",
+        "label": "Szemlélet",
+        "summary": "A Changemappers más előfeltevésre épül: a hasznos kapcsolatok fontosabbak a láthatóknál. Nincsenek követőszámok, virális rangsorok, figyelemgazdaság.",
+        "items": [
+          "Nincs lájkok szerinti rangsor, csillagos értékelés vagy influenszer-jellegű elérésgazdaság. Az ajánlások illeszkedésen és hozzájáruláson alapulnak.",
+          "A platform hozzájárulásra, kölcsönösségre és reflexióra épül, nem közvetítésre. A népszerűség nem optimalizált jel a rendszerben.",
+          "Minden ajánlásnak magyarázhatónak kell lennie: a rendszer közös kontextus alapján javasol embereket, ügyeket és közösségeket, nem fizetett elhelyezés alapján."
+        ],
+        "inlineLinks": {
+          "causes": "/causes",
+          "communities": "/communities"
+        },
+        "links": [
+          {
+            "text": "A Changemappersről",
+            "href": "/about"
+          },
+          {
+            "text": "Platform ütemterv",
+            "href": "/roadmap"
+          }
+        ]
+      },
+      {
+        "id": "what-is-changemappers",
+        "title": "Mire való a Changemappers",
+        "label": "Szemlélet",
+        "summary": "A Changemappers segít a változásformálóknak megtalálni a megfelelő embereket, közösségeket és lehetőségeket a regeneratív együttműködéshez.",
+        "items": [
+          "A platform a hasznos, megbízható kapcsolatokat és a közös növekedést értékeli, nem a népszerűséget vagy figyelem-mérőszámokat.",
+          "A Reflexió, Felfedezés, Kapcsolódás és Cselekvés a négy alapmozdulat: tudni, hol állsz, megtalálni a releváns másokat, kapcsolatokat építeni és valódi munkát végezni együtt.",
+          "A cél az elpazarolt kapcsolódások csökkentése: ezért kér a rendszer elég kontextust — szerepet, ajánlatokat, szükségleteket, ügyfókuszt —, hogy az ajánlások értelmes egyezések legyenek, ne véletlenszerűek."
+        ],
+        "inlineLinks": {
+          "communities": "/communities",
+          "causes": "/causes",
+          "profile": "/profile"
+        },
+        "links": [
+          {
+            "text": "Ügyek felfedezése",
+            "href": "/causes"
+          },
+          {
+            "text": "Közösségek keresése",
+            "href": "/communities"
+          }
+        ]
+      },
+      {
+        "id": "how-to-start",
+        "title": "Hogyan érdemes kezdeni",
+        "label": "Kezdeti lépések",
+        "summary": "Kezdd a fiók megerősítésével, az identitás beállításával, a összekapcsolás beállításával és a láthatósági döntésekkel.",
+        "items": [
+          "Hozz létre fiókot, erősítsd meg az emailedet, és fejezd be az onboarding lépéseit. Minden lépés több funkciót nyit meg.",
+          "Az összekapcsolás beállítási lépése gyűjti a hasznos ajánlásokhoz szükséges minimális kontextust: szerepcímkék, ajánlatok, szükségletek, ügy vagy RDG fókusz, hozzájárulási mag és elérhetőség. Enélkül böngészhetsz, de nem kapsz értelmes egyezési javaslatokat.",
+          "Állítsd be a profilláthatóságot a hely, avatar, profilmezők, térképes jelenlét és mások által látható adatok szerint — ezeket bármikor módosíthatod a profilbeállításokban."
+        ],
+        "inlineLinks": {
+          "RDG": "/causes",
+          "availability": "/reflect/availability",
+          "profile settings": "/profile",
+          "map": "/compass"
+        },
+        "links": [
+          {
+            "text": "Profil szerkesztése",
+            "href": "/profile"
+          },
+          {
+            "text": "Elérhetőség beállítása",
+            "href": "/reflect/availability"
+          },
+          {
+            "text": "Adatvédelmi beállítások",
+            "href": "/account/privacy"
+          }
+        ]
+      },
+      {
+        "id": "menus-progressive-disclosure",
+        "title": "Eligazodás a felületen",
+        "label": "Kezdeti lépések",
+        "summary": "Az alkalmazás akkor mutat több eszközt, amikor relevánsabbá válnak, hogy az első használat átlátható maradjon.",
+        "items": [
+          "Az új felhasználók a felfedezés, reflexió, profil és kapcsolódás alapvető eszközeivel indulnak.",
+          "A fejlettebb koordinációs, rendszerszintű és kormányzási eszközök később jelenhetnek meg, vagy beállításokból aktiválhatók.",
+          "Ez iránymutatás, nem értékítélet: a felület a túlterhelést csökkenti, nem embereket rangsorol."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "connections": "/connections"
+        },
+        "links": [
+          {
+            "text": "Profilod",
+            "href": "/profile"
+          },
+          {
+            "text": "Beállítások",
+            "href": "/settings"
+          }
+        ]
+      },
+      {
+        "id": "core-actions",
+        "title": "Alapműveletek az alkalmazásban",
+        "label": "Kezdeti lépések",
+        "summary": "A legtöbb tevékenység négy mozdulatba esik: Reflexió, Felfedezés, Kapcsolódás és Cselekvés — ezek egymásra épülnek.",
+        "items": [
+          "Reflexió: nézd meg az elérhetőségedet, fókuszodat, értékeidet és energiádat, mielőtt a külső tevékenységekbe merülnél. Ez a belső iránytű, amely szándékossá teszi a részvételedet.",
+          "Felfedezés: találj embereket, közösségeket, eseményeket, ügyeket, történeteket és térképes közelséget, amelyek illeszkednek a kontextusodhoz.",
+          "Kapcsolódás: küldj kéréseket, kezdj üzeneteket, fogadj el beszélgetéseket és építs kapcsolatokat, amelyek valódi együttműködést hordozhatnak.",
+          "Cselekvés: ajánlj vagy kérj képzést, mentorálást, coachingt, sorstársi támogatást, hozzájárulást és közösségi munkát."
+        ],
+        "inlineLinks": {
+          "communities": "/communities",
+          "causes": "/causes",
+          "messages": "/messages",
+          "connections": "/connections",
+          "map": "/compass"
+        },
+        "links": [
+          {
+            "text": "Reflexió",
+            "href": "/reflect"
+          },
+          {
+            "text": "Emberek felfedezése",
+            "href": "/discover"
+          },
+          {
+            "text": "Kapcsolataim",
+            "href": "/connections"
+          }
+        ]
+      },
+      {
+        "id": "matching-activation",
+        "title": "Hogyan működik az összekapcsolás",
+        "label": "Összekapcsolás",
+        "summary": "Az összekapcsolás beállítási lépése gyűjti a helyi ajánlásokhoz szükséges minimális jeleket: szerepet, ajánlatokat, szükségleteket, ügy vagy RDG fókuszt, hozzájárulási kontextust, elérhetőséget és kifejezett hozzájárulást.",
+        "items": [
+          "A szerepcímkék (pl. szakember, kutató, szervező, finanszírozó) megmondják az algoritmusnak, milyen együttműködést valószínűsítesz. Az ajánlatok és szükségletek a legmagasabb súlyt kapják — ők határozzák meg a cserefelületet.",
+          "Az ügy és RDG fókusz szűkíti a földrajzi és tematikus irányítást: a rendszer azonos kontextusban aktív embereket javasol, nem csak hasonló érdeklődőket globálisan.",
+          "Ezek kontextuális irányító jelek, nem végleges identitáscímkék vagy nyilvános pontszámok. Hiányos beállítás esetén böngészhetsz, de nem kapsz értelmes ajánlásokat."
+        ],
+        "inlineLinks": {
+          "RDG": "/causes",
+          "cause": "/causes",
+          "causes": "/causes",
+          "availability": "/reflect/availability",
+          "profile": "/profile"
+        },
+        "links": [
+          {
+            "text": "Profilod",
+            "href": "/profile"
+          },
+          {
+            "text": "Ügyek felfedezése",
+            "href": "/causes"
+          }
+        ]
+      },
+      {
+        "id": "availability",
+        "title": "Hogyan hat az elérhetőség a ajánlásokra",
+        "label": "Összekapcsolás",
+        "summary": "Az elérhetőség megmondja a rendszernek, hogy most irányítson-e feléd új kapcsolódási figyelmet. Ez védelmi mechanizmus, nem teljesítményjel.",
+        "items": [
+          "A Két projekt között és az Építkezés nyitott állapotok. Az algoritmus normálisan irányít feléd ajánlásokat és kéréseket.",
+          "A Megvalósítás csökkenti az ajánlási súlyodat. A rendszer még felszínre hozhat, de kisebb prioritással, mert aktív munkában vagy.",
+          "A Reflexió és a Pihenés védőállapotok. Szabadon böngészhetsz, de mások számára nem jelensz meg új ajánlásként. Ezek érvényes, szándékos állapotok — nem hibák vagy hiányok."
+        ],
+        "inlineLinks": {
+          "availability": "/reflect/availability"
+        },
+        "links": [
+          {
+            "text": "Elérhetőség beállítása",
+            "href": "/reflect/availability"
+          },
+          {
+            "text": "Reflexió",
+            "href": "/reflect"
+          }
+        ]
+      },
+      {
+        "id": "trust-safety",
+        "title": "Biztonság, bizalom és jelentés",
+        "label": "Biztonság",
+        "summary": "A biztonsági vezérlők közé tartozik a jelentés, szerepalapú admin hozzáférés, adatvédelem és elérhetőségi védelem.",
+        "items": [
+          "A gyanús vagy káros viselkedés jelenthető bármely profilról vagy tartalomkártyáról. A jelentések szerepkörhöz kötött admin területekre kerülnek, nem más felhasználókhoz.",
+          "Az érzékeny mezők (helyprecizitás, ügy részletei, személyes kontextus) tervezés szerint privátak maradhatnak. A láthatósági vezérlők önállóan alakítják a profil-, keresési-, térkép- és kártyamegjelenést.",
+          "Az elérhetőség is biztonsági elem: a Pihenés és a Reflexió megakadályozza, hogy a rendszer új kéréseket irányítson feléd. A jelenlegi elérhetőségi állapotod senki számára nem látható — csak az irányítási hatása."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "availability": "/reflect/availability",
+          "map": "/compass"
+        },
+        "links": [
+          {
+            "text": "Adatvédelmi beállítások",
+            "href": "/account/privacy"
+          },
+          {
+            "text": "Elérhetőség beállítása",
+            "href": "/reflect/availability"
+          }
+        ]
+      },
+      {
+        "id": "privacy-settings",
+        "title": "Adatvédelmi vezérlők és hozzájárulás",
+        "label": "Adatvédelem",
+        "summary": "A profilláthatóság és az összekapcsolási hozzájárulás kapcsolódik egymáshoz, de külön vezérlők. Bármikor módosíthatod őket egymástól függetlenül.",
+        "items": [
+          "A profil-, keresési-, térkép- és kártyaláthatóság azt szabályozza, mit láthatnak mások böngészés vagy keresés közben. Minden felületnek saját kapcsolója van.",
+          "Az algoritmikus összekapcsolási hozzájárulás szabályozza, hogy az ajánlataid, szükségleteid és szerepjeleid használhatók-e egyezési pontszámok kiszámításához. Az érzékeny összekapcsolási hozzájárulás egy külön, explicit opt-in személyes kontextus mezőkhoz.",
+          "Az adatvédelmi beállításokban finomhangolhatod a láthatóságot, korlátozhatod az adatkezelést, exportálhatod az adatokat, törlést kérhetsz, vagy visszavonhatod az érzékeny összekapcsolási hozzájárulást. A visszavonás a következő összekapcsolási ciklusnál lép életbe."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "map": "/compass",
+          "account privacy settings": "/account/privacy"
+        },
+        "links": [
+          {
+            "text": "Fiók adatvédelem",
+            "href": "/account/privacy"
+          },
+          {
+            "text": "Profilod",
+            "href": "/profile"
+          }
+        ]
+      },
+      {
+        "id": "feed-interactions",
+        "title": "Hírfolyam és jelek",
+        "label": "Közösség",
+        "summary": "A hírfolyam megmutatja, mi történik a hálózatodban és a releváns ügyekben — időrendi sorrendben, nem engagement-pontszám alapján.",
+        "items": [
+          "A hírfolyam időrendben rendeződik. Nincs algoritmus, amely lájkok vagy elérés alapján emelne ki bejegyzéseket.",
+          "A reakciók típusosak és specifikusak: inspirált, tanultam belőle, tudok segíteni, össze tudok kötni. Ezek hozzájárulási jelek, nem hiúsági mérőszámok.",
+          "Az RDG és kurált annotációk földrajzi és tematikus kontextust adnak anélkül, hogy a hírfolyam nyitott hashtag-zajjá válna. Szűrheted a hírfolyamot ügy vagy közösség szerint."
+        ],
+        "inlineLinks": {
+          "RDG": "/causes",
+          "cause": "/causes",
+          "causes": "/causes",
+          "communities": "/communities"
+        },
+        "links": [
+          {
+            "text": "Jelek böngészése",
+            "href": "/signals"
+          },
+          {
+            "text": "Ügyek felfedezése",
+            "href": "/causes"
+          },
+          {
+            "text": "Közösségek",
+            "href": "/communities"
+          }
+        ]
+      },
+      {
+        "id": "profile-settings",
+        "title": "Kontextusod frissítése idővel",
+        "label": "Összekapcsolás",
+        "summary": "Az összekapcsolási válaszaid módosíthatók, ahogy a helyzeted, fókuszod és energiád változik. Regisztrációkor alacsony felbontású válasz is megfelel.",
+        "items": [
+          "A profilodban bármikor módosíthatod a szerepcímkéidet, ajánlataidat, szükségleteidet, ügyfókuszodat, hozzájárulási kontextusodat és elérhetőségedet. A változások a következő összekapcsolási ciklusnál hatnak.",
+          "Az elérhetőség módosítása szünetelteti vagy újraindítja, mennyi új kapcsolódási figyelem ér el téged — hasznos projektek között, felépülés vagy fókuszváltás idején.",
+          "Regisztrációkor szándékosan homályos válaszok is elfogadhatók. Finomítsd őket, amikor pontosabban tudod, milyen segítséget, együttműködést vagy hozzájárulást keressz."
+        ],
+        "inlineLinks": {
+          "causes": "/causes",
+          "availability": "/reflect/availability",
+          "profile": "/profile"
+        },
+        "links": [
+          {
+            "text": "Profil szerkesztése",
+            "href": "/profile"
+          },
+          {
+            "text": "Elérhetőség beállítása",
+            "href": "/reflect/availability"
+          }
+        ]
+      },
+      {
+        "id": "learning-support-flows",
+        "title": "Tanulás és sorstársi támogatás",
+        "label": "Tanulás",
+        "summary": "A képzés, mentorálás, coaching, sorstársi támogatás és hozzájárulás szándékosan különböző segítségformák — mindegyiknek más a kapcsolatdinamikája.",
+        "items": [
+          "A képzés készséget vagy módszert ad át valakitől, akinek közvetlen tudása van, annak, akinek szüksége van rá. Aszimmetrikus és strukturált: van egy tanterv vagy meghatározott eredmény.",
+          "A mentorálás megélt tapasztalatból ad ítélőképességet. A coaching kérdéseken keresztül segít megtalálni a saját válaszodat tanácsok helyett. A sorstársi támogatás időhatárolt kölcsönös kísérés egyenrangúak között.",
+          "A lezárás reflexiós és tanulási feljegyzéseken keresztül dokumentálódik, nem numerikus értékelésekkel vagy népszerűségi pontszámokkal. A fókusz azon van, mi változott, nem a teljesítményen."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "connections": "/connections"
+        },
+        "links": [
+          {
+            "text": "Mentor keresése",
+            "href": "/mentor/find"
+          },
+          {
+            "text": "Coach keresése",
+            "href": "/coach/find"
+          },
+          {
+            "text": "Sorstársi támogatás",
+            "href": "/peer/find"
+          }
+        ]
+      },
+      {
+        "id": "safe-sharing",
+        "title": "Hogyan válassz biztonságosan",
+        "label": "Adatvédelem",
+        "summary": "Ossz meg eleget a hasznos kapcsolódásokhoz, de ne többet annál, amit ajánlásokhoz vagy profilkontextushoz használhatónak tartasz.",
+        "items": [
+          "Válassz őszinte elérhetőséget. A Pihenés és a Reflexió teljes, érvényes állapotok — nem hiányok vagy hibák. Választásuk öntudatosságot jelez, nem visszavonulást.",
+          "A szükségletek és ajánlatok legyenek elég konkrétak a összekapcsolás irányításához, de ne fedjenek fel olyan privát részleteket, amelyeket nem szeretnél feldolgoztatni. Megnevezheted az együttműködés típusát a személyes körülmények nélkül.",
+          "Ha egy láthatósági vagy hozzájárulási beállítás jelenleg túl tágnak tűnik, válaszd a szűkebb opciót, és bővítsd később. A beállítások visszafordíthatók; a közzétett adatokat nehezebb visszavonni."
+        ],
+        "inlineLinks": {
+          "availability": "/reflect/availability",
+          "profile": "/profile",
+          "account privacy settings": "/account/privacy"
+        },
+        "links": [
+          {
+            "text": "Adatvédelmi beállítások",
+            "href": "/account/privacy"
+          },
+          {
+            "text": "Elérhetőség beállítása",
+            "href": "/reflect/availability"
+          }
+        ]
+      }
+    ]
+  },
+  "bottomBar": {
+    "radio": {
+      "play": "Lejátszás",
+      "pause": "Szünet",
+      "prevStation": "Előző állomás",
+      "nextStation": "Következő állomás",
+      "noStations": "Nincsenek állomások",
+      "selectStation": "Válassz állomást",
+      "volume": "Hangerő"
+    },
+    "news": {
+      "tickerLabel": "Hírek",
+      "noSources": "Nincsenek hírforrások",
+      "rss": "RSS",
+      "loading": "Hírek betöltése...",
+      "pause": "Hírsáv szüneteltetése",
+      "resume": "Hírsáv folytatása"
+    },
+    "quotes": {
+      "label": "A nap idézete",
+      "noQuote": "Nincs idézet"
+    },
+    "settings": {
+      "title": "Alsó sáv",
+      "modules": "Modulok mutatása",
+      "radio": "Rádió",
+      "news": "Hírfolyam",
+      "quotes": "Idézet",
+      "newsSources": "Hírforrások",
+      "volume": "Hangerő",
+      "save": "Beállítások automatikusan mentve"
+    }
+  }
+}

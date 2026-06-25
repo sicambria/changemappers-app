@@ -1,0 +1,1078 @@
+{
+  "profile": {
+    "tabs": {
+      "profile": "Perfil",
+      "rdg": "RDG",
+      "activity": "Actividad",
+      "settings": "Cuenta y privacidad",
+      "advanced": "Avanzado",
+      "invite": "Invitación",
+      "security": "Seguridad"
+    },
+    "settings": {
+      "deleteAccountTitle": "Eliminar cuenta",
+      "deleteConfirmKeyword": "ELIMINAR",
+      "deleteConfirmLabel": "Para confirmar, escribe:",
+      "deleteConfirmError": "Por favor escribe la palabra de confirmación",
+      "deleteAccountConfirmButton": "Eliminar cuenta permanentemente",
+      "gdprTitle": "Gestión de datos (RGPD)",
+      "notificationsTitle": "Notificaciones por correo",
+      "notificationsDesc": "Recibe un resumen diario cuando tengas mensajes no leídos.",
+      "notificationsEnabled": "Resumen por correo activado",
+      "notificationsDisabled": "Resumen por correo desactivado",
+      "notificationsSaving": "Guardando…",
+      "notificationsSaved": "Guardado"
+    },
+    "page": {
+      "completenessTitle": "Perfil {{percentage}}% completado",
+      "completenessHint": "Haz clic para ver los elementos que faltan",
+      "completenessTooltip": "Haz clic para ver las tareas de completado del perfil",
+      "noBio": "Sin presentación todavía",
+      "website": "Sitio web",
+      "notSet": "Aún no registrado",
+      "retakeTest": "Repetir el test",
+      "assessLevel": "Evaluar nivel",
+      "editRdg": "Editar",
+      "rdgTitle": "Objetivos de Desarrollo Regenerativo (RDG)",
+      "rdgSelectCTA": "Seleccionar Objetivos RDG",
+      "rdgHint": "¿Qué objetivos de desarrollo te resuenan más?",
+      "mainCommunity": "Comunidad principal",
+      "intentionsTitle": "Intenciones y disponibilidad",
+      "currentFocus": "Enfoque actual",
+      "enjoysTitle": "Lo que disfruta hacer",
+      "collaborationTitle": "Formas de colaboración",
+      "remoteCapable": "Abierto a colaboración online / remota",
+      "constraintsTitle": "Límites / Capacidad",
+      "fediverseSectionTitle": "Visibilidad pública y fediverso",
+      "gdprDesc": "La exportación de datos contiene todos tus datos personales. La eliminación de la cuenta es irreversible.",
+      "signedExportBtn": "Exportación P2P firmada",
+      "signedExportLoading": "Exportando...",
+      "deleteAccountBtn": "Eliminar cuenta",
+      "localNetworkTitle": "Pares de red local",
+      "localNetworkDesc": "El descubrimiento mDNS está activo cuando se ejecuta localmente; devuelve una lista vacía en entornos cloud.",
+      "localNetworkEmpty": "No se descubrió ninguna instancia local de Changemappers.",
+      "experimentalFeaturesTitle": "Funciones Experimentales",
+      "experimentalFeaturesDesc": "Estas funciones son experimentales y se pueden activar/desactivar individualmente.",
+      "experimentalFeatureOptIn": "Opt-In (apagado por defecto)",
+      "experimentalFeatureOptOut": "Opt-Out (encendido por defecto)",
+      "experimentalFeaturesError": "Error al actualizar las preferencias de funciones experimentales.",
+      "routeOverridesTitle": "Visibilidad de funciones",
+      "routeOverridesEmpty": "Actualmente no hay funciones ocultas por el administrador que puedas reactivar.",
+      "routeOverridesCardTitle": "Funciones reactivables",
+      "routeOverridesDesc": "Estas funciones están ocultas por defecto, pero puedes reactivarlas según necesidad.",
+      "routeEnabled": "Activado",
+      "routeDisabled": "Desactivado",
+      "savingLabel": "Guardando...",
+      "saveSettings": "Guardar configuración",
+      "savedConfirmation": "✓ Guardado",
+      "signedExportError": "Error al crear la exportación firmada",
+      "deleteIrreversible": "Esta acción es <strong>irreversible</strong>.",
+      "deleteBullet1": "Datos personales, foto de perfil, presentación",
+      "deleteBullet2": "Datos de contacto y ubicación",
+      "deleteBullet3": "Habilidades, valores, competencias"
+    },
+    "connected": "✓ Conectado",
+    "pendingSent": "⏳ Solicitud enviada",
+    "pendingReceived": "⏳ Solicitud recibida",
+    "errorLoading": "No se pudo cargar el perfil",
+    "noOffers": "No especificado",
+    "noNeeds": "No especificado",
+    "security": {
+      "title": "Seguridad",
+      "passwordTitle": "Cambiar contraseña",
+      "passwordDescription": "Actualiza la contraseña usada para iniciar sesión con email y contraseña. Usa al menos 12 caracteres, con mayúsculas, minúsculas, un número y un símbolo.",
+      "currentPassword": "Contraseña actual",
+      "newPassword": "Nueva contraseña",
+      "confirmPassword": "Confirmar nueva contraseña",
+      "currentPasswordPlaceholder": "Introduce tu contraseña actual",
+      "newPasswordPlaceholder": "Introduce una contraseña más fuerte",
+      "confirmPasswordPlaceholder": "Repite la nueva contraseña",
+      "submit": "Cambiar contraseña",
+      "saving": "Cambiando...",
+      "success": "Contraseña cambiada correctamente.",
+      "mismatch": "Las nuevas contraseñas no coinciden.",
+      "genericError": "No se pudo cambiar la contraseña."
+    }
+  },
+  "individual": {
+    "title": "Perfil",
+    "editProfile": "Editar perfil",
+    "viewProfile": "Ver perfil",
+    "exportData": "Descargar mis datos (JSON)",
+    "basicInfo": {
+      "title": "Información básica",
+      "name": "Nombre",
+      "displayName": "Nombre a mostrar",
+      "bio": "Presentación",
+      "bioPlaceholder": "Cuéntanos sobre ti...",
+      "pronouns": "Pronombres",
+      "location": "Ubicación",
+      "motto": "Lema",
+      "timezone": "Zona horaria",
+      "organizationName": "Nombre de la organización",
+      "organizationDescription": "Descripción de la organización o proyecto",
+      "joined": "Unido",
+      "memberSince": "Miembro desde {{date}}"
+    },
+    "archetypes": {
+      "title": "Arquetipos Changemappers",
+      "notSet": "Aún no definido",
+      "takeQuiz": "Hacer el cuestionario",
+      "localpractitioner": "Practicante Local",
+      "localpractitionerDesc": "Trabaja directamente en la comunidad local, en la primera línea.",
+      "networkweaver": "Tejedor de redes",
+      "networkweaverDesc": "Construye conexiones entre individuos, organizaciones y sectores.",
+      "institutionalchangemaker": "Reformador Institucional",
+      "institutionalchangemakerDesc": "Inicia cambios desde dentro de las instituciones.",
+      "globalamplifier": "Amplificador Global",
+      "globalamplifierDesc": "Amplifica la voz de las iniciativas hacia una audiencia amplia.",
+      "resourcemobilizer": "Movilizador de Recursos",
+      "resourcemobilizerDesc": "Asegura los recursos necesarios para los proyectos.",
+      "innovationcatalyst": "Catalizador de Innovación",
+      "innovationcatalystDesc": "Desarrolla nuevos enfoques y herramientas.",
+      "systemdisruptor": "Disruptor del Sistema",
+      "systemdisruptorDesc": "Señala los fallos del sistema y fuerza un nuevo pensamiento.",
+      "strategicadvisor": "Asesor Estratégico",
+      "strategicadvisorDesc": "Crea visión y proporciona orientación profesional.",
+      "mycelium": "Micelio",
+      "myceliumDesc": "Construye redes invisibles bajo tierra, conectando personas y recursos.",
+      "keystone": "Piedra Angular",
+      "keystoneDesc": "Figura clave cuya presencia mantiene unido el ecosistema.",
+      "pollinator": "Polinizador",
+      "pollinatorDesc": "Lleva ideas y energía entre contextos, fertilizando movimientos cruzados.",
+      "prism": "Prisma",
+      "prismDesc": "Refracta la complejidad en claridad, haciendo visible lo invisible.",
+      "compost": "Compost",
+      "compostDesc": "Transforma lo que se ha descompuesto en terreno fértil para el nuevo crecimiento.",
+      "sentinel": "Centinela",
+      "sentinelDesc": "Protege límites, monitorea sistemas y da la alarma cuando es necesario.",
+      "alchemist": "Alquimista",
+      "alchemistDesc": "Transforma desafíos brutos en avances creativos y nuevas formas.",
+      "canopy": "Dosel",
+      "canopyDesc": "Provee refugio, recursos y condiciones para que otros florezcan.",
+      "spark": "Chispa",
+      "sparkDesc": "Enciende la acción donde había estancamiento; cataliza el cambio rápido.",
+      "echo": "Eco",
+      "echoDesc": "Amplifica voces e historias que necesitan ser escuchadas más ampliamente.",
+      "tide": "Marea",
+      "tideDesc": "Crea oleadas de cambio rítmicas y poderosas que reconfiguran la orilla.",
+      "horizon": "Horizonte",
+      "horizonDesc": "Mantiene la visión a largo plazo, guiando la dirección colectiva hacia un futuro regenerativo."
+    },
+    "changemakeLevel": {
+      "title": "Nivel de constructor de futuro",
+      "subtitle": "¿Dónde estás en tu camino como constructor de futuro?",
+      "phases": {
+        "inertia": "Fase I: Inercia y Despertar",
+        "inertiaFocus": "Enfoque: yo mismo",
+        "activation": "Fase II: Activación y Conexión",
+        "activationFocus": "Enfoque: mi comunidad",
+        "systemic": "Fase III: Impacto Sistémico y Global",
+        "systemicFocus": "Enfoque: mi viaje"
+      },
+      "level0": {
+        "name": "Observador Pasivo",
+        "description": "Estás completamente ajeno a los problemas sociales. Funciones en modo automático, enfocándote en la supervivencia inmediata o el confort personal.",
+        "quality": "Apatía",
+        "mindset": "\"Esto no es mi problema.\""
+      },
+      "level1": {
+        "name": "Empático Pasivo",
+        "description": "Eres consciente de los problemas (clima, desigualdad). Te sientes mal cuando los ves en las noticias pero aún no has cambiado tu comportamiento.",
+        "quality": "Empatía latente",
+        "mindset": "\"Ojalá alguien lo resolviera.\""
+      },
+      "level2": {
+        "name": "Consumidor Consciente",
+        "description": "Empiezas a alinear tus hábitos personales con tus valores. Reciclas, compras comercio justo, reduces el consumo. Te estás cambiando a ti mismo.",
+        "quality": "Responsabilidad personal",
+        "mindset": "\"Estoy haciendo mi parte.\""
+      },
+      "level3": {
+        "name": "Defensor Vocal",
+        "description": "Ya no te quedas en silencio. Compartes información, educas a tus amigos y familia. Estás dispuesto a incomodarte socialmente por una causa.",
+        "quality": "Comunicación valiente",
+        "mindset": "\"La gente necesita saber esto.\""
+      },
+      "level4": {
+        "name": "Organizador Local",
+        "description": "Pasas del hablar a la acción colectiva. Organizas una limpieza vecinal, un comité de trabajo o haces voluntariado. Reúnes a las personas.",
+        "quality": "Construcción comunitaria",
+        "mindset": "\"Juntos somos más fuertes.\""
+      },
+      "level5": {
+        "name": "Innovador de Soluciones",
+        "description": "No esperas que los sistemas existentes funcionen — construyes una nueva micro-solución. Puede ser una app, una empresa social o un nuevo método. Prototipas el futuro.",
+        "quality": "Resolución creativa de problemas",
+        "mindset": "\"Debe haber una mejor manera, y la construiré.\""
+      },
+      "level6": {
+        "name": "Escalador Estratégico",
+        "description": "Tienes una solución probada y ahora la escalas. Lideras una organización o movimiento que replica el éxito. Gestionas recursos y personas.",
+        "quality": "Liderazgo operacional",
+        "mindset": "\"¿Cómo llegamos a más personas de manera efectiva?\""
+      },
+      "level7": {
+        "name": "Pensador Sistémico",
+        "description": "No tratas los síntomas, atacas las causas raíz. Analizas políticas, economía e incentivos. Cambias leyes o estructuras corporativas.",
+        "quality": "Ver las conexiones",
+        "mindset": "\"Necesitamos arreglar la máquina, no solo el producto.\""
+      },
+      "level8": {
+        "name": "Cambiador de Paradigmas",
+        "description": "Trabajas a nivel de mentalidades y cultura. Introduces el pensamiento regenerativo — yendo más allá de la sostenibilidad hacia sistemas restauradores.",
+        "quality": "Sabiduría regenerativa",
+        "mindset": "\"Necesitamos pasar de la extracción a la restauración.\""
+      },
+      "level9": {
+        "name": "Catalizador Global",
+        "description": "Lideras esfuerzos de cambio a través de fronteras. Unes diversas coaliciones globales para abordar los desafíos existenciales de la humanidad.",
+        "quality": "Conciencia global",
+        "mindset": "\"Vivimos en un planeta; las crisis no tienen fronteras.\""
+      }
+    },
+    "interests": {
+      "title": "Intereses",
+      "add": "Añadir interés",
+      "permaculture": "Permacultura",
+      "transition": "Iniciativas de transición",
+      "activism": "Activismo",
+      "ecovillage": "Ecoaldeas",
+      "sustainability": "Sostenibilidad",
+      "community": "Construcción comunitaria",
+      "regenerative": "Prácticas regenerativas",
+      "education": "Educación",
+      "art": "Arte y cultura",
+      "technology": "Tecnología apropiada",
+      "food": "Sistemas alimentarios",
+      "health": "Salud y bienestar",
+      "governance": "Gobernanza comunitaria",
+      "economics": "Economía alternativa"
+    },
+    "values": {
+      "title": "Valores",
+      "add": "Añadir valor"
+    },
+    "skills": {
+      "title": "Habilidades",
+      "offered": "Lo que ofrezco",
+      "seeking": "Lo que busco",
+      "add": "Añadir habilidad"
+    },
+    "seeking": {
+      "title": "¿Qué estás buscando?",
+      "connections": "Conexiones",
+      "romance": "Relación romántica",
+      "coFounders": "Co-fundadores",
+      "support": "Apoyo",
+      "community": "Comunidad",
+      "advice": "Consejo",
+      "funding": "Financiación",
+      "partners": "Socios",
+      "mentoring": "Mentoría",
+      "space": "Espacio",
+      "volunteers": "Voluntarios",
+      "visibility": "Visibilidad"
+    },
+    "offers": {
+      "title": "¿Qué puedes ofrecer?",
+      "mentoring": "Mentoría",
+      "space": "Espacio",
+      "tools": "Herramientas",
+      "time": "Tiempo",
+      "transport": "Transporte",
+      "facilitation": "Facilitación",
+      "projectManagement": "Gestión de proyectos",
+      "permaculture": "Permacultura",
+      "coding": "Programación",
+      "cooking": "Cocina",
+      "design": "Diseño",
+      "marketing": "Marketing",
+      "translation": "Traducción",
+      "eventPlanning": "Organización de eventos",
+      "funding": "Financiación",
+      "networking": "Networking",
+      "training": "Formación"
+    },
+    "valuesList": {
+      "sustainability": "Sostenibilidad",
+      "spirituality": "Espiritualidad",
+      "pragmatism": "Pragmatismo",
+      "parenting": "Crianza",
+      "neurodiversity": "Neurodiversidad",
+      "techoriented": "Orientado a la tecnología",
+      "localfirst": "Local primero",
+      "socialjustice": "Justicia social",
+      "arts": "Artes",
+      "community": "Comunidad",
+      "regenerative": "Regenerativo",
+      "solidarity": "Solidaridad",
+      "transparency": "Transparencia",
+      "ecology": "Ecología"
+    },
+    "collaborationStyles": {
+      "onetwoone": "Individual (1:1)",
+      "group": "En grupo",
+      "occasional": "Ocasional",
+      "ongoing": "Continuo",
+      "remote": "Online / Remoto",
+      "inperson": "Presencial"
+    },
+    "skillsList": {
+      "facilitation": "Facilitación",
+      "projectmanagement": "Gestión de proyectos",
+      "permaculture": "Permacultura",
+      "coding": "Programación",
+      "cooking": "Cocina",
+      "design": "Diseño",
+      "marketing": "Marketing",
+      "mentoring": "Mentoría",
+      "translation": "Traducción",
+      "eventplanning": "Organización de eventos",
+      "writing": "Escritura",
+      "research": "Investigación",
+      "fundraising": "Captación de fondos",
+      "communication": "Comunicación",
+      "leadership": "Liderazgo"
+    },
+    "availability": {
+      "title": "Disponibilidad",
+      "available": "Disponible",
+      "busy": "Ocupado",
+      "away": "Ausente",
+      "unavailable": "No disponible"
+    },
+    "completeness": {
+      "title": "Completitud del perfil",
+      "percentage": "{{percent}}% completo",
+      "tips": "Consejos de mejora",
+      "addPhoto": "Añade una foto de perfil",
+      "addBio": "Escribe una presentación",
+      "addInterests": "Añade intereses",
+      "addLocation": "Añade tu ubicación"
+    },
+    "verification": {
+      "title": "Verificación",
+      "selfDeclared": "Autodeclarado",
+      "peerVouched": "Avalado por pares",
+      "communityVerified": "Verificado por la comunidad",
+      "adminVerified": "Verificado por admin",
+      "emailVerified": "Correo verificado",
+      "unverified": "No verificado",
+      "levels": {
+        "selfDeclared": "Autodeclarado",
+        "peerVouched": "Avalado por pares",
+        "communityVerified": "Verificado por la comunidad",
+        "adminVerified": "Verificado oficialmente"
+      }
+    },
+    "activity": {
+      "title": "Actividad",
+      "empty": "No hay actividad para mostrar",
+      "lastActive": "Última actividad {{time}}",
+      "responseTime": "Tiempo de respuesta promedio: {{time}}",
+      "joined": "Se unió {{date}}"
+    },
+    "appreciateCount": "{{count}} conexiones",
+    "connections": {
+      "title": "Conexiones",
+      "connect": "Conectar",
+      "disconnect": "Desconectar",
+      "pending": "Pendiente",
+      "accepted": "Aceptado",
+      "declined": "Rechazado",
+      "blocked": "Bloqueado",
+      "sendRequest": "Enviar solicitud de conexión",
+      "acceptRequest": "Aceptar",
+      "declineRequest": "Rechazar",
+      "message": "Mensaje",
+      "connectionTypes": {
+        "general": "Conexión general",
+        "romantic": "Interés romántico",
+        "coFounder": "Búsqueda de co-fundador",
+        "support": "Solicitud de apoyo",
+        "communityMember": "Membresía comunitaria"
+      },
+      "addMessage": "Añadir mensaje (recomendado)",
+      "sendRequestTo": "Enviar solicitud de conexión a",
+      "connectionTypeLabel": "Tipo de conexión",
+      "messagePlaceholder": "¿Por qué te gustaría conectar?",
+      "count": "{{count}} conexiones",
+      "findConnections": "Buscar conexiones",
+      "modal": {
+        "forRecipient": "para {{name}}",
+        "miniTrainingTitle": "Mini Guía: ¿Qué esperar?",
+        "messageLabel": "Mensaje inicial (opcional, pero recomendado)",
+        "messagePlaceholder": "Escribe un breve mensaje para que la otra persona entienda tu intención de conectar...",
+        "sending": "Enviando...",
+        "successMessage": "¡Solicitud enviada con éxito!",
+        "errorMessage": "Ocurrió un error al enviar.",
+        "unexpectedError": "Ocurrió un error inesperado.",
+        "types": {
+          "MENTORING": {
+            "title": "Solicitar Conexión de Mentoría",
+            "subtitle": "Transferencia asimétrica de conocimiento",
+            "rules": [
+              "Sé proactivo: Tú eres el líder de esta relación. Ven con preguntas concretas.",
+              "Respeta la experiencia: No esperes soluciones inmediatas, sino nuevas perspectivas.",
+              "Límites de tiempo: Respeta el tiempo de tu mentor y haz seguimiento de los pasos acordados."
+            ],
+            "buttonText": "Solicitar mentor"
+          },
+          "PEER_LEARNING": {
+            "title": "Aprendizaje entre Pares",
+            "subtitle": "Aprender y explorar juntos",
+            "rules": [
+              "Igualdad: Resuelven los desafíos juntos — ninguno es el experto absoluto.",
+              "Apertura: Espera conversaciones experimentales y de lluvia de ideas.",
+              "Regularidad: Más efectivo cuando tienen un ritmo compartido (ej. 30 min semanales)."
+            ],
+            "buttonText": "Agregar como par"
+          },
+          "SUPPORT": {
+            "title": "Conexión de Apoyo",
+            "subtitle": "Un espacio seguro para superar dificultades",
+            "rules": [
+              "Vulnerabilidad: Atrévete a ser honesto sobre tus niveles de energía.",
+              "Consentimiento: Siempre pregunta: \"¿Tienes capacidad para una conversación difícil ahora?\"",
+              "Atención: Espera principalmente escucha y validación, no resolución inmediata de problemas."
+            ],
+            "buttonText": "Solicitar conexión de apoyo"
+          },
+          "default": {
+            "title": "Solicitud de Conexión General",
+            "subtitle": "Redes y colaboración",
+            "rules": [
+              "Reciprocidad: Busca la creación de valor mutuo.",
+              "Breve presentación: Escribe por qué te gustaría conectar."
+            ],
+            "buttonText": "Enviar solicitud de conexión"
+          }
+        }
+      },
+      "requestSent": "Solicitud de conexión enviada"
+    }
+  },
+  "community": {
+    "title": "Comunidad",
+    "create": "Crear comunidad",
+    "edit": "Editar comunidad",
+    "view": "Ver comunidad",
+    "basics": {
+      "name": "Nombre de la comunidad",
+      "namePlaceholder": "Nombre de la comunidad",
+      "description": "Descripción",
+      "descriptionPlaceholder": "¿En qué cree y qué hace la comunidad?",
+      "foundingYear": "Año de fundación",
+      "website": "Sitio web",
+      "websitePlaceholder": "https://...",
+      "contact": "Contacto"
+    },
+    "type": {
+      "title": "Tipo de comunidad",
+      "ecovillage": "Ecoaldea",
+      "transitionTown": "Ciudad en transición",
+      "project": "Proyecto",
+      "network": "Red",
+      "cohousing": "Covivienda",
+      "intentionalCommunity": "Comunidad intencional",
+      "other": "Otro"
+    },
+    "membership": {
+      "title": "Membresía",
+      "memberCount": "{{count}} miembros",
+      "acceptingMembers": "Aceptando nuevos miembros",
+      "notAccepting": "No aceptando nuevos miembros",
+      "conditionally": "Aceptación condicional",
+      "joiningProcess": "Proceso de unión",
+      "joiningConditions": "Condiciones de unión"
+    },
+    "facilities": {
+      "title": "Instalaciones",
+      "housing": "Vivienda",
+      "garden": "Jardín",
+      "workshop": "Taller",
+      "kitchen": "Cocina compartida",
+      "guestRooms": "Habitaciones de huéspedes",
+      "meetingSpace": "Espacio de reunión"
+    },
+    "governance": {
+      "title": "Toma de decisiones",
+      "consensus": "Consenso",
+      "sociocracy": "Sociocracia",
+      "democratic": "Democrático",
+      "other": "Otro"
+    },
+    "types": {
+      "ecovillage": "Ecoaldea",
+      "transitionInitiative": "Iniciativa de transición",
+      "intentionalCommunity": "Comunidad intencional",
+      "natureConnectedEcoHub": "Ecohub conectado con la naturaleza",
+      "healingSanctuary": "Santuario de sanación",
+      "inclusiveSupportNetwork": "Red de apoyo inclusiva",
+      "creativeArtsColony": "Colonia de artes creativas",
+      "egalitarianLiving": "Comunidad de vida igualitaria",
+      "spiritualHaven": "Refugio espiritual",
+      "knowledgeHub": "Centro de conocimiento",
+      "nomadicNetwork": "Red nómada",
+      "regenerativeEconomic": "Comunidad económica regenerativa",
+      "visionaryModelCity": "Ciudad modelo visionaria",
+      "earthRegenerationCenter": "Centro de regeneración de la Tierra",
+      "frontlineActivist": "Comunidad activista de primera línea",
+      "other": "Otro"
+    },
+    "acceptingMembers": "Aceptando nuevos miembros",
+    "form": {
+      "createTitle": "Crear nueva comunidad",
+      "editTitle": "Editar comunidad",
+      "nameLabel": "Nombre de la comunidad",
+      "namePlaceholder": "p.ej. Ecoaldea Luz Solar",
+      "typeLabel": "Tipo",
+      "typePlaceholder": "Selecciona un tipo",
+      "foundingYearLabel": "Año de fundación",
+      "foundingYearPlaceholder": "p.ej. 2010",
+      "countryLabel": "País",
+      "countryPlaceholder": "p.ej. España",
+      "cityLabel": "Localidad",
+      "websiteLabel": "Sitio web",
+      "contactLabel": "Datos de contacto (Solo visible para miembros registrados)",
+      "contactEmailPlaceholder": "Dirección de email",
+      "contactPhonePlaceholder": "Número de teléfono",
+      "valuesLabel": "Valores Comunitarios (etiquetas)",
+      "valuesPlaceholder": "Escribe un valor y pulsa Enter...",
+      "coverImageLabel": "Imagen de portada",
+      "coverImageUpload": "Haz clic para subir imagen",
+      "descriptionLabel": "Breve presentación",
+      "descriptionPlaceholder": "Descripción general de la comunidad...",
+      "acceptingMembersLabel": "Aceptamos nuevos miembros",
+      "targetMemberLabel": "¿A quién buscamos?",
+      "targetMemberPlaceholder": "Descripción del público objetivo...",
+      "membershipCostLabel": "Condiciones de membresía (económicas, otras)",
+      "membershipCostPlaceholder": "p.ej. Aportación mensual, cuota de entrada...",
+      "joiningProcessLabel": "Proceso de adhesión",
+      "joiningProcessPlaceholder": "¿Cómo puede alguien unirse?",
+      "seekingVolunteersLabel": "Aceptamos voluntarios",
+      "volunteerDescLabel": "¿Qué tipo de ayuda necesitamos?",
+      "volunteerDescPlaceholder": "Descripción de oportunidades de voluntariado...",
+      "volunteerCapabilitiesLabel": "Habilidades requeridas (etiquetas)",
+      "volunteerCapabilitiesPlaceholder": "p.ej. jardinería, construcción...",
+      "detailsSectionTitle": "Información detallada (Opcional)",
+      "visionLabel": "Visión",
+      "visionPlaceholder": "¿Cómo imaginamos el futuro?",
+      "principlesLabel": "Principios",
+      "principlesPlaceholder": "¿Con qué principios operamos?",
+      "houseRulesLabel": "Reglamento / Normas",
+      "houseRulesPlaceholder": "Normas principales...",
+      "annualGoalsLabel": "Objetivos anuales",
+      "annualGoalsPlaceholder": "¿Cuáles son nuestros planes para este año?",
+      "delete": "Eliminar",
+      "deleteConfirm": "¿Estás seguro de que quieres eliminar esta comunidad? Esta acción no se puede deshacer.",
+      "saving": "Guardando...",
+      "creating": "Creando...",
+      "saveChanges": "Guardar cambios",
+      "createCommunity": "Crear comunidad",
+      "loginRequired": "Inicio de sesión requerido",
+      "genericError": "Ocurrió un error",
+      "commError": "Ocurrió un error de comunicación",
+      "deleteFailed": "Error al eliminar",
+      "deleteCommError": "Ocurrió un error al eliminar",
+      "types": {
+        "NATURE_CONNECTED_ECO_HUB": "Centro Eco-Natural Conectado",
+        "HEALING_SANCTUARY": "Santuario de Retiro y Sanación",
+        "INCLUSIVE_SUPPORT_NETWORK": "Red de Apoyo Inclusiva",
+        "CREATIVE_ARTS_COLONY": "Colonia de Artes Creativas",
+        "EGALITARIAN_LIVING": "Convivencia Igualitaria",
+        "SPIRITUAL_HAVEN": "Refugio Espiritual y Religioso",
+        "KNOWLEDGE_HUB": "Centro de Conocimiento y Formación",
+        "NOMADIC_NETWORK": "Red Nómada y Viajera",
+        "REGENERATIVE_ECONOMIC": "Cooperativa Económica Regenerativa",
+        "VISIONARY_MODEL_CITY": "Ciudad Modelo Visionaria",
+        "EARTH_REGENERATION_CENTER": "Centro de Regeneración de la Tierra",
+        "FRONTLINE_ACTIVIST": "Comunidad Activista de Primera Línea"
+      }
+    }
+  },
+  "edit": {
+    "title": "Editar perfil",
+    "displayName": "Nombre a mostrar",
+    "offers": "Lo que ofrezco",
+    "needs": "Lo que busco",
+    "causes": "Causas",
+    "valuesAndInterests": "Valores e intereses",
+    "questionnaire": "Detalles adicionales",
+    "displayNamePlaceholder": "Cómo quieres que te llamen",
+    "bio": "Presentación",
+    "bioPlaceholder": "Cuéntanos sobre ti, tu trayectoria, tus metas...",
+    "bioHelp": "Máximo 500 caracteres",
+    "location": "Ubicación",
+    "locationPlaceholder": "p.ej. Madrid, España",
+    "skills": "Habilidades",
+    "skillsPlaceholder": "p.ej. permacultura, facilitación, jardinería",
+    "skillsHelp": "Separado por comas",
+    "interests": "Intereses",
+    "interestsPlaceholder": "p.ej. ecoaldea, construcción comunitaria, transición",
+    "website": "Sitio web",
+    "websitePlaceholder": "ej. https://tusitio.com",
+    "socialLinks": "Perfiles sociales y enlaces",
+    "editProfilePhoto": "Editar foto de perfil",
+    "editCoverPhoto": "Editar foto de portada",
+    "coverImageLabel": "Imagen de portada",
+    "coverImageHint": "Tamaño recomendado: 1200x600px",
+    "changeImageAria": "Cambiar imagen",
+    "removeCoverImageAria": "Quitar imagen de portada",
+    "mainCommunity": "Comunidad principal",
+    "mainCommunityPlaceholder": "p.ej. Transition Town Madrid",
+    "mainCommunityHelp": "¿Qué comunidad es más importante para ti?",
+    "isRemoteCapable": "Participación online / remota posible",
+    "profileDetails": "Detalles del perfil",
+    "enjoyDoing": "Lo que disfrutas hacer",
+    "currentIntention": "Foco / intención actual",
+    "constraints": "Límites / restricciones (opcional)",
+    "collaborationPreference": "Forma de colaboración",
+    "intentionsBoundaries": "Intenciones y límites",
+    "identitySection": "Identidad",
+    "archetypeHelp": "¿Cuál es tu rol en el cambio? Se requiere al menos 1.",
+    "archetypesMax": "(máx. 3)",
+    "quizArchetypesReadonly": "Resultado del test de arquetipo (solo lectura):",
+    "quizArchetypesHint": "Para repetir el test, visita tu página de perfil.",
+    "causesSection": "Causas sociales",
+    "mainCauses": "Causas principales (máx. 3)",
+    "interestedCauses": "Otras causas que te interesan",
+    "customTagOther": "Otro",
+    "availability": {
+      "title": "Disponibilidad / capacidad libre",
+      "toggleDay": "{{day}} - todo",
+      "toggleSlot": "{{slot}} - todos los días",
+      "help": "Haz clic en un día u horario para seleccionar todo"
+    },
+    "placeholders": {
+      "skills": "p. ej. facilitación...",
+      "offers": "p. ej. tiempo, herramientas...",
+      "needs": "p. ej. mentoría, espacio...",
+      "values": "p. ej. solidaridad...",
+      "interests": "p. ej. permacultura...",
+      "enjoyDoing": "¿Qué te da energía?",
+      "currentIntention": "¿En qué trabajas ahora?",
+      "constraints": "p. ej. no viajar, solo online, no fines de semana..."
+    },
+    "intentions": {
+      "seekingLocalEcoCommunity": "¿Buscas una comunidad ecológica donde puedas vivir?",
+      "seekingIntentionalCommunity": "¿Buscas u organizas una comunidad intencional?",
+      "highStakesProjectHelp": "¿Tienes un proyecto social de alto impacto para tu comunidad y tu vida que necesita ayuda inmediata?",
+      "strictNoRomance": "No quieres acercamientos ni mensajes románticos",
+      "strictNoRomanceWarning": "Incumplir esta solicitud implica una expulsión permanente para la persona infractora."
+    }
+  },
+  "completeness": {
+    "title": "Completitud del perfil",
+    "displayName": "Nombre a mostrar proporcionado",
+    "bio": "Presentación (mín. 20 caracteres)",
+    "location": "Ubicación proporcionada",
+    "archetype": "Cuestionario de arquetipo completado",
+    "photo": "Foto de perfil subida",
+    "skills": "Habilidades proporcionadas",
+    "emailVerified": "Correo electrónico verificado",
+    "encouragement": "¡Un perfil más completo abre más oportunidades de conexión!"
+  },
+  "completenessModal": {
+    "title": "Completitud del Perfil",
+    "percentage": "{{percent}}% completo",
+    "categories": {
+      "basic": "Información Básica",
+      "skills": "Habilidades y Recursos",
+      "questionnaire": "Intenciones y Preferencias",
+      "links": "Enlaces y Causas",
+      "verification": "Verificación"
+    },
+    "fields": {
+      "displayName": "Nombre a mostrar",
+      "bio": "Presentación",
+      "location": "Ubicación",
+      "profilePhoto": "Foto de perfil",
+      "archetypes": "Arquetipos",
+      "skills": "Habilidades",
+      "offers": "Lo que ofreces",
+      "needs": "Lo que buscas",
+      "values": "Valores",
+      "interests": "Intereses",
+      "enjoyDoing": "Lo que disfrutas hacer",
+      "currentIntention": "Intención actual",
+      "collaborationPreference": "Preferencias de colaboración",
+      "availabilityDetails": "Disponibilidad",
+      "isRemoteCapable": "Capacidad remota",
+      "website": "Sitio web",
+      "socialLinks": "Enlaces sociales",
+      "mainCauses": "Causas principales",
+      "interestedCauses": "Causas de interés",
+      "emailVerified": "Correo verificado"
+    },
+    "benefits": "Un perfil más completo mejora tu visibilidad en el matchmaking y aumenta tus posibilidades de recibir ayuda y conexiones de otros.",
+    "editProfile": "Editar Perfil",
+    "close": "Cerrar"
+  },
+  "completenessBadge": {
+    "label": "Perfil: {{percent}}% completo",
+    "clickHint": "Haz clic para ver detalles"
+  },
+  "publicProfile": {
+    "community": {
+      "title": "Comunidad",
+      "connections": "Conexiones",
+      "communities": "Comunidades",
+      "events": "Eventos"
+    },
+    "sections": {
+      "values": "Valores",
+      "interests": "Intereses"
+    },
+    "details": {
+      "enjoyDoing": "Lo que disfruto hacer",
+      "currentIntention": "Intención actual",
+      "availability": "Disponibilidad",
+      "constraints": "Límites / obstáculos",
+      "collaboration": "Colaboración"
+    }
+  },
+  "invites": {
+    "title": "Invitaciones",
+    "myInvites": "Mis invitaciones",
+    "expires": "Caduca: {{date}}",
+    "errors": {
+      "loadFailed": "No se pudieron cargar los datos de invitación",
+      "createFailed": "No se pudo crear el código de invitación",
+      "emailFailed": "No se pudo enviar el email de invitación"
+    },
+    "status": {
+      "created": "Creada",
+      "sent": "Enviada",
+      "opened": "Abierta",
+      "accepted": "Aceptada",
+      "expired": "Caducada",
+      "revoked": "Revocada"
+    },
+    "sendDialog": {
+      "title": "Enviar invitación por email",
+      "recipientEmail": "Email del destinatario",
+      "recipientEmailPlaceholder": "ejemplo@email.com",
+      "inviteCodePrefix": "Código de invitación:"
+    },
+    "stats": {
+      "available": "Disponible",
+      "active": "Activa",
+      "accepted": "Aceptada",
+      "nextSlot": "Siguiente slot",
+      "maxReached": "Máximo alcanzado"
+    },
+    "actions": {
+      "send": "Enviar",
+      "sending": "Enviando...",
+      "creating": "Creando...",
+      "createCode": "Crear nuevo código de invitación"
+    },
+    "empty": {
+      "title": "Aún no tienes invitaciones",
+      "nextSlotHint": "Recibirás un nuevo slot de invitación el lunes"
+    },
+    "info": {
+      "weeklySlots": "• Recibes 2 slots de invitación cada lunes (no se acumulan)",
+      "expiry": "• Las invitaciones son válidas durante 7 días",
+      "revokedSlot": "• Si se revoca una invitación, el slot vuelve a estar disponible"
+    }
+  },
+  "photo": {
+    "coverImage": "Imagen de portada",
+    "changeImage": "Cambiar imagen",
+    "removeCoverImage": "Eliminar imagen de portada",
+    "coverImageHelp": "Tamaño recomendado: 1200×600px"
+  },
+  "questionnaire": {
+    "title": "Evaluación de Changemaker",
+    "progress": "Pregunta {{current}} de {{total}}",
+    "step": "Paso {{current}} de {{total}}",
+    "result": {
+      "title": "¡Evaluación completada!",
+      "description": "Basado en tus respuestas, tu orientación actual de changemaker es:",
+      "level": "Nivel {{level}}",
+      "levelPrefix": "Nivel"
+    },
+    "actions": {
+      "toProfile": "Volver al perfil",
+      "finish": "Finalizar evaluación",
+      "processing": "Procesando..."
+    },
+    "errors": {
+      "answerRequired": "Por favor, selecciona una respuesta para continuar.",
+      "maxSelectable": "Puedes seleccionar como máximo {{count}} opciones.",
+      "maxTotal": "Puedes seleccionar como máximo {{count}} opciones en total.",
+      "saveFailed": "Error al guardar el resultado.",
+      "requestFailed": "Algo salió mal."
+    },
+    "questions": {
+      "q1": {
+        "text": "¿Qué tan de cerca sigues los temas de sostenibilidad y justicia social?",
+        "options": [
+          "No me involucro mucho; ya tengo suficientes problemas propios.",
+          "A veces leo algún artículo, pero no profundizo.",
+          "Me mantengo informado con regularidad y la situación actual me preocupa.",
+          "Busco activamente soluciones y ejemplos positivos."
+        ]
+      },
+      "q2": {
+        "text": "¿Qué tan dispuesto estás a cambiar tus hábitos de consumo por el ambiente o la sociedad?",
+        "options": [
+          "Nada; la comodidad es lo más importante.",
+          "Sí, si no exige un gran sacrificio ni coste extra.",
+          "Miro conscientemente lo que compro y estoy dispuesto a pagar más por sostenibilidad.",
+          "He reorganizado de forma profunda mi estilo de vida alrededor de la sostenibilidad."
+        ]
+      },
+      "q3": {
+        "text": "¿Con qué frecuencia compartes información o defiendes públicamente una causa social o ecológica importante?",
+        "options": [
+          "Nunca; no me gustan los conflictos.",
+          "Solo hablo de esto con amistades cercanas.",
+          "A menudo comparto artículos o peticiones y sostengo mi opinión públicamente.",
+          "Organizo campañas, escribo artículos o doy charlas."
+        ]
+      },
+      "q4": {
+        "text": "¿Cuánto participas en la vida comunitaria local o en voluntariado?",
+        "options": [
+          "Nada; no tengo tiempo ni energía.",
+          "Rara vez, me sumo a limpiezas o acciones solidarias cuando me invitan.",
+          "Hago voluntariado regularmente con una organización o iniciativa local.",
+          "Inicio y lidero proyectos comunitarios locales."
+        ]
+      },
+      "q5": {
+        "text": "¿Has desarrollado una solución nueva propia para un problema?",
+        "options": [
+          "No, normalmente sigo caminos probados.",
+          "Introduzco pequeñas innovaciones en mi trabajo o vida personal.",
+          "Sí, desarrollé algo útil para una comunidad u organización pequeña.",
+          "Creé un modelo o proyecto innovador con impacto más amplio y medible."
+        ]
+      },
+      "q6": {
+        "text": "Cuando enfrentas un problema, ¿qué horizonte temporal usas para resolverlo?",
+        "options": [
+          "Cómo superar cuanto antes la incomodidad inmediata.",
+          "Cómo resolverlo para que no vuelva a ser problema por un tiempo.",
+          "Busco soluciones duraderas que entiendan las causas raíz.",
+          "Pienso sistémicamente y me enfoco en cambiar estructuras raíz durante décadas."
+        ]
+      },
+      "q7": {
+        "text": "¿Qué tan capaz eres de movilizar y coordinar recursos para una meta?",
+        "options": [
+          "Trabajo sobre todo solo y organizar no es mi fortaleza.",
+          "Puedo involucrar a algunas personas conocidas en cosas pequeñas.",
+          "Puedo liderar y motivar a un equipo o conseguir apoyo pequeño.",
+          "Movilizo grupos más grandes, coordino organizaciones o atraigo recursos significativos."
+        ]
+      },
+      "q8": {
+        "text": "¿Cuál es tu nivel de capacidad para construir redes?",
+        "options": [
+          "No me gusta conocer gente nueva y hablo sobre todo con personas que ya conozco.",
+          "Estoy abierto a nuevas conexiones cuando encuentro personas afines.",
+          "Construyo activamente relaciones entre campos para alcanzar mis metas.",
+          "Mi actividad principal es conectar personas, proyectos y sistemas en plataformas compartidas."
+        ]
+      },
+      "q9": {
+        "text": "¿Cuál ves como tu tarea o vocación personal principal?",
+        "options": [
+          "Sobrevivir el día a día y cuidar de mi familia.",
+          "Hacer trabajo que no cause daño mientras disfruto la vida.",
+          "Mejorar activamente mi propio entorno y comunidad.",
+          "Ayudar a construir las bases de un nuevo paradigma social o económico sostenible y justo."
+        ]
+      },
+      "q10": {
+        "text": "¿Cómo te relacionas con la colaboración internacional y transnacional?",
+        "options": [
+          "Solo me interesa mi microentorno inmediato.",
+          "Sigo noticias internacionales, pero no formo parte de esas redes.",
+          "A veces aprendo de ejemplos de otros países o asisto a eventos internacionales.",
+          "Participo activamente en redes internacionales e intercambio conocimiento globalmente."
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacidad",
+    "levels": {
+      "public": "Público",
+      "registered": "Usuarios registrados",
+      "connections": "Solo conexiones",
+      "private": "Privado"
+    },
+    "visibility": {
+      "title": "Visibilidad",
+      "profile": "Visibilidad del perfil",
+      "location": "Visibilidad de la ubicación",
+      "email": "Visibilidad del correo"
+    },
+    "discoverability": {
+      "title": "Descubribilidad",
+      "showOnMap": "Mostrar en el mapa",
+      "showOnMapDesc": "Tu apodo puede aparecer en el mapa de Descubrimiento. Las visitas anónimas solo reciben un marcador a nivel de país; las personas registradas ven la precisión que elijas abajo.",
+      "allowConnections": "Permitir solicitudes de conexión",
+      "allowConnectionsDesc": "Otros pueden enviarte solicitudes de conexión",
+      "allowMessages": "Permitir mensajes",
+      "locationPrecision": "Precisión de ubicación en el mapa",
+      "precision": {
+        "country": {
+          "label": "País",
+          "example": "Solo Hungría; el marcador se coloca cerca del centro del país."
+        },
+        "city": {
+          "label": "Ciudad",
+          "example": "Zona de Budapest; no tu calle."
+        },
+        "exact": {
+          "label": "Precisa",
+          "example": "Lugar exacto seleccionado; solo coordenadas, sin guardar dirección."
+        }
+      }
+    }
+  },
+  "profileLinks": {
+    "communities": "Comunidades",
+    "events": "Eventos",
+    "pitches": "Propuestas",
+    "causes": "Causas",
+    "empty": "Aún no hay elementos vinculados."
+  },
+  "fediverse": {
+    "cardTitle": "Fediverso y uso público",
+    "whatThisControls": "Qué controla esto",
+    "whatThisControlsDesc": "Estos ajustes determinan qué aparece en tu página de perfil público, qué puede exponerse a través de ActivityPub, y si los enlaces de perfil externos deben marcarse con rel=\"me\" para verificación de identidad.",
+    "privacyNote": "Nota importante de privacidad",
+    "privacyNoteDesc": "Changemappers puede dejar de exponer datos futuros inmediatamente, pero los servidores remotos del fediverso pueden haber copiado contenido público. Usa ActivityPub solo para información que te resulte cómodo hacer ampliamente pública.",
+    "publicProfile": "Página de perfil público",
+    "activitypub": "Exposición ActivityPub",
+    "activitypubBlocked": "La visibilidad general de tu perfil es actualmente <strong>{{visibility}}</strong>. La exportación ActivityPub solo funciona cuando la visibilidad de tu perfil es <strong>PUBLIC</strong>.",
+    "verification": "Herramientas de verificación",
+    "consentStatus": "Estado del consentimiento: {{status}}",
+    "consentGranted": "concedido",
+    "consentNotGranted": "no concedido",
+    "firstConsentRecorded": "Primer consentimiento registrado: {{date}}",
+    "firstConsentNotRecorded": "Primer consentimiento registrado: aún no registrado",
+    "saveButton": "Guardar ajustes de uso",
+    "savedMessage": "Ajustes de fediverso y uso público guardados.",
+    "saveFailed": "Error al guardar",
+    "toggles": {
+      "showAvatar": {
+        "label": "Mostrar avatar",
+        "desc": "Permitir que tu foto de perfil aparezca en tu página de perfil público."
+      },
+      "showCoverImage": {
+        "label": "Mostrar imagen de portada",
+        "desc": "Permitir que tu imagen de portada aparezca en tu página de perfil público."
+      },
+      "showBio": {
+        "label": "Mostrar biografía",
+        "desc": "Exponer tu presentación en tu perfil público."
+      },
+      "showLocation": {
+        "label": "Mostrar ubicación",
+        "desc": "Mostrar tu ciudad y país en tu perfil público."
+      },
+      "showWebsite": {
+        "label": "Mostrar sitio web",
+        "desc": "Mostrar tu sitio web en la página de perfil público."
+      },
+      "showSocialLinks": {
+        "label": "Mostrar enlaces sociales",
+        "desc": "Mostrar enlaces externos de redes sociales/perfil en la página de perfil público."
+      },
+      "showSkills": {
+        "label": "Mostrar habilidades",
+        "desc": "Muestra tus habilidades generales en tu perfil público."
+      },
+      "showValues": {
+        "label": "Mostrar valores",
+        "desc": "Exponer tus valores en la página de perfil público."
+      },
+      "showInterests": {
+        "label": "Mostrar intereses",
+        "desc": "Exponer tus intereses en la página de perfil público."
+      },
+      "showIntentions": {
+        "label": "Mostrar intenciones y disponibilidad",
+        "desc": "Muestra intenciones actuales, disponibilidad y preferencias de colaboración en tu perfil público."
+      },
+      "enableActivityPub": {
+        "label": "Habilitar ActivityPub",
+        "desc": "Permitir que Changemappers exponga un actor del fediverso legible por máquina para tu perfil público."
+      },
+      "discoverableActor": {
+        "label": "Actor descubrible",
+        "desc": "Marcar tu actor como descubrible para el software compatible del fediverso."
+      },
+      "exposeProfile": {
+        "label": "Exponer perfil a través de ActivityPub",
+        "desc": "Hacer que tu perfil público esté disponible a través de los endpoints de actor de ActivityPub."
+      },
+      "exposePublicPosts": {
+        "label": "Exponer publicaciones públicas a través de ActivityPub",
+        "desc": "Permitir que solo las publicaciones ya marcadas como PUBLIC aparezcan en tu outbox y endpoints de notas de ActivityPub."
+      },
+      "showWebsiteInActor": {
+        "label": "Incluir sitio web en el perfil del actor",
+        "desc": "Exponer tu sitio web como metadatos de perfil en ActivityPub."
+      },
+      "showSocialLinksInActor": {
+        "label": "Incluir enlaces sociales en el perfil del actor",
+        "desc": "Exponer tus enlaces de perfil externo en los metadatos del actor de ActivityPub."
+      },
+      "showLocationInActor": {
+        "label": "Incluir ubicación en el perfil del actor",
+        "desc": "Exponer tu ciudad/país como metadatos de ActivityPub."
+      },
+      "relMeLinks": {
+        "label": "Marcar enlaces externos con rel=\"me\"",
+        "desc": "Útil para la verificación de perfil al estilo Mastodon. Solo habilita esto para enlaces que realmente te pertenecen."
+      },
+      "showOffers": {
+        "label": "Mostrar ofertas",
+        "desc": "Muestra lo que puedes ofrecer en tu perfil público."
+      },
+      "showNeeds": {
+        "label": "Mostrar necesidades",
+        "desc": "Muestra lo que buscas en tu perfil público."
+      },
+      "showRdgAreas": {
+        "label": "Mostrar áreas RDG",
+        "desc": "Muestra tus áreas de desarrollo regenerativo en tu perfil público."
+      },
+      "showCauses": {
+        "label": "Mostrar causas",
+        "desc": "Muestra tus causas principales y de interés en tu perfil público."
+      },
+      "showArchetypes": {
+        "label": "Mostrar arquetipos",
+        "desc": "Muestra tus arquetipos de agente de cambio en tu perfil público."
+      },
+      "showChangemakerLevel": {
+        "label": "Mostrar nivel futuremaker",
+        "desc": "Muestra tu nivel futuremaker en tu perfil público."
+      },
+      "showBoundaries": {
+        "label": "Mostrar límites",
+        "desc": "Muestra límites de capacidad y colaboración en tu perfil público."
+      }
+    },
+    "consent": {
+      "title": "Consentimiento inicial del fediverso",
+      "body1": "Habilitar ActivityPub puede hacer que tu perfil público y tus publicaciones públicas estén disponibles en servidores remotos fuera de Changemappers.",
+      "body2": "Esos servidores pueden almacenar copias, indexar tu contenido público y aplicar sus propias reglas de moderación y retención. Desactivarlo más tarde no garantiza la eliminación inmediata en todas partes.",
+      "body3": "Solo los perfiles con visibilidad general establecida en <strong>PUBLIC</strong> pueden exponerse a través de ActivityPub. Los perfiles solo registrados o solo conexiones permanecen bloqueados para la exportación del protocolo.",
+      "checkboxLabel": "Entiendo que habilitar el uso del fediverso puede publicar mis datos públicos más allá de este sitio y que pueden seguir siendo visibles en servidores remotos después de cambiar los ajustes más adelante.",
+      "cancel": "Cancelar",
+      "confirm": "Doy mi consentimiento y habilito"
+    }
+  }
+}

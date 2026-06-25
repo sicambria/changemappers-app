@@ -1,0 +1,118 @@
+{
+  "metaTitle": "Történetek",
+  "metaDescription": "Nyílt történetek áttörésekről, kudarcokról és valós tanulásról.",
+  "title": "Történetek",
+  "description": "Nyílt történetek áttörésekről, kudarcokról és valós tanulásról.",
+  "backToHome": "Vissza a főoldalra",
+  "badge": "Történetek",
+  "heading": "Nyílt történetek arról, mi segített, mi nem működött, és mi változott utána.",
+  "commons": "Ez az oldal egy valódi történetközös. Az emberek siker- és kudarctörténeteket publikálhatnak, 30 napig frissíthetik őket a közzététel után, és később utólagos megjegyzéseket fűzhetnek hozzá, ahogy a helyzet alakul.",
+  "categories": {
+    "connections": "Kapcsolódások",
+    "communities": "Közösségek",
+    "impact": "Hatás"
+  },
+  "stories": {
+    "story1": {
+      "title": "Két ökoarc találkozása a térképen",
+      "summary": "Anna és Bence a platform segítségével találtak egymásra, és mára közös permakultúrás kertet gondoznak.",
+      "author": "Kovács Anna"
+    },
+    "story2": {
+      "title": "A Zöld Sziget közösség növekedése",
+      "summary": "Egy hónap alatt 5 új tag csatlakozott a közösségünkhöz a Changemappers hírlevelének köszönhetően.",
+      "author": "Nagy Péter"
+    }
+  },
+  "shareYourStory": "Oszd meg a saját történeted!",
+  "shareDescription": "Írd le őszintén, mi segített, mi nem működött, és mi változott utána.",
+  "beforePublish": {
+    "title": "Mielőtt közzéteszel",
+    "noDeletion": "A történeteket később nem lehet törölni. Ha törlöd a fiókodat, a szerzőség anonimizálttá válik, de a történet megmarad a közösben. Minden beküldött történet a következő licenc alatt áll:",
+    "useDetail": "Használj konkrét részleteket. Nevezd meg a kontextust, a kihívást, mi történt valójában, és mit tanultál. A kudarctörténetek kifejezetten üdvözlöttek."
+  },
+  "form": {
+    "editTitle": "Történeted szerkesztése",
+    "shareTitle": "Történet megosztása",
+    "publishingAs": "Közzététel mint: {{name}}",
+    "signInPrompt": "Jelentkezz be egy történet közzétételéhez vagy saját történeteidhez utólagos megjegyzések hozzáadásához.",
+    "browseWithoutLogin": "Bejelentkezés nélkül is böngészheted az összes történetet.",
+    "signIn": "Bejelentkezés a hozzájáruláshoz",
+    "storyTypeLabel": "Történet típusa",
+    "successLabel": "Sikertörténet",
+    "successHint": "Egy áttörés, győzelem vagy megközelítés, ami segített.",
+    "failureLabel": "Kudarctörténet",
+    "failureHint": "Egy hiányosság, visszaesés vagy próbálkozás, ami nem működött.",
+    "fields": {
+      "title": "Cím",
+      "titleHint": "Rövid, specifikus és kereshető.",
+      "summary": "Összefoglaló",
+      "summaryHint": "Egy tömör bekezdés, amelyet az emberek gyorsan átnézhetnek.",
+      "context": "Kontextus",
+      "contextHint": "Milyen környezetben, csapatban vagy projektben történt?",
+      "challenge": "Kihívás",
+      "challengeHint": "Milyen problémával, feszültséggel vagy kockázattal szembesültél?",
+      "whatHappened": "Mi történt",
+      "whatHappenedHint": "Írd le a folyamatot, nem a csiszolt verziót.",
+      "outcome": "Eredmény",
+      "outcomeHint": "Mi változott, javult, kudarcot vallott, vagy maradt megoldatlan?",
+      "lessonsLearned": "Tanulságok",
+      "lessonsLearnedHint": "Mit kellene másoknak megérteniük, mielőtt valami hasonlót próbálnak?"
+    },
+    "retrospective": {
+      "title": "Mini retrospektív (opcionális)",
+      "hint": "Tartsd könnyednek. Ezek a mezők opcionálisak, de hasznosak.",
+      "whatWorked": "Mi működött",
+      "whatToChange": "Mit változtatnál legközelebb",
+      "advice": "Tanács másoknak"
+    },
+    "acknowledgements": {
+      "noDeletion": "Megértem, hogy ezt a történetet később nem lehet törölni, és csak akkor válik anonimmá, ha törlöm a platformfiókomat.",
+      "license": "Beleegyezem, hogy ezt a történetet CC-BY-SA 4.0 licenc alatt teszem közzé."
+    },
+    "submit": "Történet közzététele",
+    "save": "Történet mentése",
+    "saving": "Mentés...",
+    "cancelEdit": "Szerkesztés megszakítása"
+  },
+  "published": {
+    "title": "Közzétett történetek",
+    "count": "{{count}} történet",
+    "count_one": "{{count}} történet a közösben",
+    "count_other": "{{count}} történet a közösben",
+    "empty": "Még nincs történet. Az első lehet siker vagy kudarc. Mindkettő hasznos.",
+    "publishedOn": "Közzétéve: {{date}}",
+    "by": "Szerző: {{name}}",
+    "updated": "frissítve {{time}}",
+    "edit": "Szerkesztés",
+    "editingClosed": "A szerkesztés {{date}}-án zárult le, mert a történetek csak 30 napig szerkeszthetők a közzététel után."
+  },
+  "sections": {
+    "summary": "Összefoglaló",
+    "context": "Kontextus",
+    "challenge": "Kihívás",
+    "whatHappened": "Mi történt",
+    "outcome": "Eredmény",
+    "lessonsLearned": "Tanulságok",
+    "miniRetrospective": "Mini retrospektív",
+    "whatWorked": "Mi működött",
+    "whatToChange": "Mit változtass",
+    "adviceForOthers": "Tanács másoknak"
+  },
+  "comments": {
+    "title": "Beküldő megjegyzései",
+    "empty": "Még nincs utólagos megjegyzés.",
+    "addLabel": "Utólagos megjegyzés hozzáadása",
+    "placeholder": "Mi változott a közzététel után? Mit tennél hozzá most?",
+    "posting": "Közzététel...",
+    "submit": "Megjegyzés hozzáadása"
+  },
+  "typeLabels": {
+    "SUCCESS": "Siker",
+    "FAILURE": "Kudarc"
+  },
+  "errors": {
+    "commentTooShort": "A megjegyzésnek legalább 3 karakteresnek kell lennie.",
+    "commentFailed": "Jelenleg nem sikerült hozzáadni a megjegyzést."
+  }
+}

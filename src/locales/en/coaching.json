@@ -1,0 +1,198 @@
+{
+  "title": "Coaching",
+  "subtitle": "Coaching is structured inquiry — not mentoring, not therapy, not advice. A coach holds space for you to locate your own next step. Matching here uses style and format only; domain expertise belongs in mentoring.",
+  "nav": {
+    "find": "Find a Coach",
+    "offer": "Offer Coaching",
+    "engagements": "My Engagements"
+  },
+  "distinction": "Your coach won't tell you what to do — they'll help you find what you already know. No advice; topic or domain expertise is for mentoring, not coaching.",
+  "overview": {
+    "stylePrompt": "What's your coaching style?",
+    "styleDescription": "If you hold people in inquiry — Socratic, somatic, challenge-based, or otherwise — offer it here.",
+    "offerButton": "Offer Coaching",
+    "requestButton": "Request coaching",
+    "browseCoaches": "Browse Coaches",
+    "browseDescription": "Find coaches by style and format only. If you need subject-matter expertise, use mentoring.",
+    "myEngagements": "My Engagements",
+    "engagementsDescription": "View active and past coaching engagements. Write your arc reflection when complete.",
+    "myRequests": "My Requests",
+    "myRequestsDescription": "View and withdraw your pending coaching requests.",
+    "incomingRequests": "Incoming Requests",
+    "incomingRequestsDescription": "Browse open coaching requests and accept them as a coach.",
+    "howItWorks": "How coaching matching works",
+    "howItWorksItems": {
+      "matching": "Matching is based on style compatibility and format only; domain expertise belongs in mentoring",
+      "accept": "Coaches accept requests; the engagement is then active",
+      "noRatings": "No ratings. The coachee writes a reflection; the coach may add an observation (not an assessment)",
+      "availability": "Coaches in RESTING or REFLECTING availability are not shown in browse"
+    }
+  },
+  "find": {
+    "title": "Find a Coach",
+    "subtitle": "Explore coaches who are available for new engagements.",
+    "filters": {
+      "style": "Coaching style",
+      "format": "Format",
+      "arcLength": "Arc length"
+    },
+    "empty": "No coaching offers match your filters.",
+    "noOffers": "No coaching offers available right now. Check back soon.",
+    "loading": "Loading offers..."
+  },
+  "offer": {
+    "create": "Create Coaching Offer",
+    "edit": "Edit Offer",
+    "new": "New Offer",
+    "style": "Coaching style (e.g. Socratic, somatic, systemic)",
+    "format": "Format",
+    "arcLengthOption": "Arc length options",
+    "availability": "Availability",
+    "coacheeKnow": "What a coachee should know before we start",
+    "stylePlaceholder": "e.g. Socratic, reflective, challenge-based",
+    "formatPlaceholder": "e.g. 1:1 video, async text, hybrid",
+    "arcLengthPlaceholder": "e.g. 4 sessions, 3 months",
+    "availabilityPlaceholder": "e.g. 2 slots/month",
+    "coacheeKnowPlaceholder": "What should the coachee know before requesting?",
+    "updated": "Coaching offer updated!",
+    "createdSuccess": "Coaching offer created successfully!",
+    "saving": "Saving…",
+    "pageTitle": "Offer Coaching",
+    "pageDescription": "Describe your coaching style, format, and availability.",
+    "editPageTitle": "Edit Coaching Offer",
+    "editPageDescription": "Update your coaching offer details.",
+    "backToOffers": "← Back to offers",
+    "backToOffer": "← Back to offer",
+    "editButton": "Edit offer",
+    "myOffers": {
+      "title": "My Coaching Offers",
+      "empty": "You have not created any coaching offers yet."
+    },
+    "detail": {
+      "title": "Coaching Offer",
+      "coach": "Coach"
+    }
+  },
+  "request": {
+    "create": "Request coaching",
+    "stuckOn": "What are you stuck on?",
+    "shiftsWanted": "What shifts would make a difference?",
+    "formatPreference": "Preferred format (optional)",
+    "pageTitle": "Request coaching",
+    "pageDescription": "Share where you are stuck and what shifts you are hoping for.",
+    "detail": {
+      "title": "Coaching Request",
+      "stuckOn": "Stuck on",
+      "shiftsWanted": "Shifts wanted",
+      "formatPreference": "Format preference",
+      "requester": "Requester"
+    },
+    "backToConnections": "← Back to connections",
+    "stuckOnLabel": "Stuck on",
+    "shiftsWantedLabel": "Shifts wanted",
+    "formatPreferenceLabel": "Format preference"
+  },
+  "myRequests": {
+    "title": "My Coaching Requests",
+    "subtitle": "Your pending coaching requests. Withdraw a request if it is no longer needed.",
+    "empty": "You have no pending coaching requests.",
+    "cardTitle": "Coaching Request",
+    "withdraw": "Withdraw",
+    "withdrawConfirm": "Withdraw this request?",
+    "withdrawYes": "Yes, withdraw",
+    "withdrawPending": "Withdrawing…",
+    "withdrawError": "Failed to withdraw request."
+  },
+  "requests": {
+    "incomingTitle": "Incoming Coaching Requests",
+    "incomingSubtitle": "Open requests from changemakers seeking coaching. Accept a request to start an engagement.",
+    "incomingEmpty": "No open coaching requests right now.",
+    "cardTitle": "Coaching Request",
+    "acceptButton": "Accept this request",
+    "acceptPending": "Accepting…",
+    "acceptError": "Failed to accept request.",
+    "cancelAccept": "Cancel",
+    "offerLabel": "Your offer",
+    "offerPlaceholder": "Select one of your offers",
+    "offerRequired": "Please select an offer",
+    "styleLabel": "Style",
+    "stylePlaceholder": "e.g. Socratic, somatic",
+    "formatLabel": "Format",
+    "formatPlaceholder": "e.g. 1:1 video, hybrid",
+    "arcLengthLabel": "Arc length",
+    "arcLengthPlaceholder": "e.g. 3 months, 4 sessions",
+    "checkInRhythmLabel": "Check-in rhythm (optional)",
+    "checkInRhythmPlaceholder": "e.g. bi-weekly, monthly"
+  },
+  "connections": {
+    "title": "My Coaching Connections",
+    "subtitle": "Track your coaching engagements across all stages.",
+    "empty": "No coaching engagements yet.",
+    "unknownCoach": "Unknown coach"
+  },
+  "engagement": {
+    "status": {
+      "PENDING": "Pending",
+      "ACTIVE": "Active",
+      "COMPLETE": "Complete",
+      "CANCELLED": "Cancelled"
+    },
+    "accept": "Accept request",
+    "decline": "Decline",
+    "cancel": "Cancel",
+    "complete": "Mark complete",
+    "style": "Style",
+    "arcLength": "Arc length",
+    "checkInRhythm": "Session rhythm"
+  },
+  "feedback": {
+    "coachee": {
+      "title": "Reflect on this coaching engagement",
+      "prompt": "What did you come in stuck on? What shifted? What did this engagement make possible?"
+    },
+    "coach": {
+      "title": "Optional: what did the coachee bring to the work?",
+      "prompt": "An observation about the quality of the engagement — not an assessment of the coachee's progress.",
+      "note": "This is optional."
+    },
+    "submit": "Send reflection",
+    "publicNote": "This reflection will be visible on the engagement record."
+  },
+  "feedbackForm": {
+    "successMessage": "Reflection submitted. Thank you.",
+    "yourReflectionLabel": "Your reflection",
+    "yourReflectionHint": "What shifted? What did this engagement make possible?",
+    "yourReflectionPlaceholder": "Share your honest reflection on this engagement…",
+    "minChars": "Minimum {{count}} characters",
+    "charCount": "{{current}}/{{min}}",
+    "coachObservationLabel": "Coach observation",
+    "coachObservationHint": "An observation about the quality of the engagement — not an assessment.",
+    "coachObservationPlaceholder": "Optional observation about the coachee's engagement…",
+    "optional": "optional",
+    "submitting": "Submitting…",
+    "submit": "Send reflection"
+  },
+  "requestForm": {
+    "successMessage": "Coaching request submitted.",
+    "stuckOnLabel": "What are you stuck on?",
+    "stuckOnPlaceholder": "Describe what you're stuck on…",
+    "minChars": "Minimum {{min}} characters ({{current}}/{{min}})",
+    "minCharsShort": "Minimum {{min}} characters ({{current}}/{{min}})",
+    "shiftsWantedLabel": "What shifts would make a difference?",
+    "shiftsWantedPlaceholder": "What would a meaningful shift look like?",
+    "formatPreferenceLabel": "Preferred format",
+    "formatPreferencePlaceholder": "e.g. video call, async email, in-person",
+    "optional": "optional",
+    "submitting": "Submitting…",
+    "submit": "Request coaching"
+  },
+  "card": {
+    "by": "Offered by",
+    "availabilityLabel": "Availability: {{availability}}",
+    "viewOffer": "View Offer",
+    "style": "Style",
+    "format": "Format",
+    "request": "Request coaching"
+  },
+  "anonymous": "Anonymous"
+}

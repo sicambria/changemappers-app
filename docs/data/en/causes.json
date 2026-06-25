@@ -1,0 +1,881 @@
+[
+  {
+    "title": "RDG 1: Foundations of Human Development",
+    "slug": "rdg-1-foundations-of-human-development",
+    "description": "Long-term societal resilience requires guaranteeing conditions for optimal physical, emotional, cognitive and relational maturation. Holistic psychological development, secure attachment, healthy neurological conditions.",
+    "coverImage": null,
+    "problems": "Education focuses only on basic literacy, neglecting holistic psychological development.",
+    "solutions": "Holistic redesign of education systems; intergenerational mentoring; early childhood interventions; IDG Framework.",
+    "websites": "domain:1|rdg:1",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG01",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 2: Trauma-Informed Societies",
+    "slug": "rdg-2-trauma-informed-societies",
+    "description": "Structural violence and intergenerational wounds actively sabotage peacebuilding. Embedding trauma awareness into public policy, healthcare and justice systems.",
+    "coverImage": null,
+    "problems": "State institutions often re-traumatise the vulnerable. Collective trauma is excluded from decision-making.",
+    "solutions": "SAMHSA principles in public policy; trauma-informed justice; community-level trauma processing.",
+    "websites": "domain:1|rdg:2",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG02",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 3: Inner Development Competencies",
+    "slug": "rdg-3-inner-development-competencies",
+    "description": "The IDG framework institutionalises 23 core skills into global education and corporate training systems: Being, Thinking, Relating, Collaborating, Acting.",
+    "coverImage": null,
+    "problems": "Education neglects inner development skills, leading to tribal polarisation.",
+    "solutions": "IDG framework institutionalisation; competency-based assessment; self-awareness and collaboration skills in curricula.",
+    "websites": "domain:1|rdg:3",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG03",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 4: Leadership Maturity Standards",
+    "slug": "rdg-4-leadership-maturity-standards",
+    "description": "Public-sector and corporate leadership must be evaluated based on vertical development, cultivating leaders who operate from post-conventional, regenerative action logics.",
+    "coverImage": null,
+    "problems": "Current leaders act from short-term thinking, unable to dissolve their own immunity to change.",
+    "solutions": "Vertically-developmental leadership programmes; maturity assessments; post-conventional logic development.",
+    "websites": "domain:1|rdg:4",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG04",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 5: Epistemic Integrity and Sensemaking",
+    "slug": "rdg-5-epistemic-integrity-and-sensemaking",
+    "description": "The spread of algorithmic bias, automated disinformation and synthetic media threatens collective intelligence and democratic viability.",
+    "coverImage": null,
+    "problems": "False narratives, AI-generated disinformation and cognitive biases undermine democracy.",
+    "solutions": "Mandatory AI transparency requirements; metacognitive competencies; protection of knowledge commons.",
+    "websites": "domain:1|rdg:5",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG05",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 6: Regenerative Cultural Narratives",
+    "slug": "rdg-6-regenerative-cultural-narratives",
+    "description": "Systemic transformation is preceded by cultural transformation. Active movement away from extractive consumption and hyperindividualism toward responsibility and pluriversal worldviews.",
+    "coverImage": null,
+    "problems": "Dominant cultural narratives reinforce extraction and individualism.",
+    "solutions": "Art and media carrying regenerative narratives; pluriversal education; Earth-stewardship identity.",
+    "websites": "domain:1|rdg:6",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG06",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 7: Climate Stabilisation and Adaptation",
+    "slug": "rdg-7-climate-stabilisation-and-adaptation",
+    "description": "Going beyond simple emissions reduction: massive atmospheric carbon drawdown and radical adaptive capacity. Deep climate variability is already locked into the Earth system.",
+    "coverImage": null,
+    "problems": "Carbon emission reductions alone are insufficient — massive drawdown and adaptation to extreme events are simultaneously required.",
+    "solutions": "Natural climate solutions; carbon removal technologies; anticipatory climate governance; infrastructure adaptation.",
+    "websites": "domain:2|rdg:7",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG07",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 8: Biodiversity and Habitat Restoration",
+    "slug": "rdg-8-biodiversity-and-habitat-restoration",
+    "description": "Scaled, net-positive regeneration of terrestrial, freshwater and marine ecosystems. Creation of continental-scale ecological corridors.",
+    "coverImage": null,
+    "problems": "Habitat fragmentation, invasive species, industrial agriculture and urbanisation are drivers of the planet's sixth mass extinction.",
+    "solutions": "Continental ecological corridors; rewilding programmes; extending conservation to 30% of land and ocean.",
+    "websites": "domain:2|rdg:8",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG08",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 9: Regenerative Food and Soil Systems",
+    "slug": "rdg-9-regenerative-food-and-soil-systems",
+    "description": "Full transition from industrial, chemical-intensive agriculture to agroecological, perennial and soil-regenerating food systems.",
+    "coverImage": null,
+    "problems": "Industrial agriculture destroys soil by depleting organic carbon content while threatening biodiversity.",
+    "solutions": "Regenerative agriculture (on at least 40% of global cropland); agroforestry; soil carbon measurement systems.",
+    "websites": "domain:2|rdg:9",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG09",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 10: Water Cycle and Watershed Integrity",
+    "slug": "rdg-10-water-cycle-and-watershed-integrity",
+    "description": "Shifting water management from siloed urban utility regulation toward holistic watershed stewardship.",
+    "coverImage": null,
+    "problems": "Water management is fragmented, groundwater levels are falling, and wetland degradation has accelerated.",
+    "solutions": "Watershed-level governance; groundwater recharge zone restoration; river renaturalisation.",
+    "websites": "domain:2|rdg:10",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG10",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 11: Bioregional Governance",
+    "slug": "rdg-11-bioregional-governance",
+    "description": "Economic and political decision-making aligned with natural bioregions (watersheds, mountain ranges) rather than artificial political boundaries.",
+    "coverImage": null,
+    "problems": "Nation-state borders cut across ecosystems, leading to the tragedy of the commons.",
+    "solutions": "Bioregional decision-making; strengthening local ecological-cultural identity; cross-border ecological partnerships.",
+    "websites": "domain:2|rdg:11",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG11",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 12: Urban-Rural Ecological Integration",
+    "slug": "rdg-12-urban-rural-ecological-integration",
+    "description": "Understanding human settlements as active, functional components within the wider ecosystem. Cities must be designed to restore the natural environment of their hinterlands.",
+    "coverImage": null,
+    "problems": "Cities currently burden ecosystems rather than being part of them.",
+    "solutions": "Nature-based solutions in cities; green infrastructure networks; closed-loop urban resource flows.",
+    "websites": "domain:2|rdg:12",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG12",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 13: Basic Needs Security",
+    "slug": "rdg-13-basic-needs-security",
+    "description": "Guaranteeing absolute baseline security — access to clean water, housing, healthcare, energy and education — as an unconditional human right.",
+    "coverImage": null,
+    "problems": "Millions' biological survival depends on unstable labour markets, creating poverty traps and vulnerability.",
+    "solutions": "Unconditional basic income pilots; housing guarantee programmes (Housing First); decentralised energy provision.",
+    "websites": "domain:3|rdg:13",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG13",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 14: Regenerative and Circular Economy",
+    "slug": "rdg-14-regenerative-and-circular-economy",
+    "description": "Shifting from the industrial linear \"take-make-dispose\" model to mandatory, systemic circularity. Full internalisation of all ecological and social costs into market prices.",
+    "coverImage": null,
+    "problems": "Material throughput strains planetary boundaries. External social and ecological costs are not reflected in profits.",
+    "solutions": "Circular industrial systems; extended producer responsibility; ecological tax systems; Doughnut Economics.",
+    "websites": "domain:3|rdg:14",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG14",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 15: Inclusive Livelihoods and Meaningful Work",
+    "slug": "rdg-15-inclusive-livelihoods-and-meaningful-work",
+    "description": "Replacing the simple metric of aggregate job creation with focus on the quality, dignity and purpose of livelihoods. Economic democracy and fair income distribution.",
+    "coverImage": null,
+    "problems": "The quantitative focus on job creation obscures work quality and worker dignity.",
+    "solutions": "Social enterprises; worker ownership models; fair wage standards; retraining programmes.",
+    "websites": "domain:3|rdg:15",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG15",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 16: Resilient Infrastructure and Engineering",
+    "slug": "rdg-16-resilient-infrastructure-and-engineering",
+    "description": "Adopting \"regenerative engineering\" principles for every civil, structural and digital project. Infrastructure must achieve net-positive impact.",
+    "coverImage": null,
+    "problems": "Current infrastructure design is linear and fails catastrophically in extreme weather events.",
+    "solutions": "Bio-based building materials with carbon-sequestration capacity; modular and repairable systems; climate-volatility-ready design.",
+    "websites": "domain:3|rdg:16",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG16",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 17: Responsible Technology Governance",
+    "slug": "rdg-17-responsible-technology-governance",
+    "description": "Advanced technology governed as a critical part of the social commons. Aligning biotechnology, artificial intelligence and digital infrastructure with human dignity.",
+    "coverImage": null,
+    "problems": "Technological monopolisation and \"digital enclosure\" threaten data sovereignty and technology access.",
+    "solutions": "Participatory AI regulation; data sovereignty; open-source ecosystems; ethical AI safeguards.",
+    "websites": "domain:3|rdg:17",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG17",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 18: Distributed Renewable Energy Systems",
+    "slug": "rdg-18-distributed-renewable-energy-systems",
+    "description": "Accelerating the transition to zero-carbon energy through mandatory expansion of decentralised microgrids and community-owned renewable networks.",
+    "coverImage": null,
+    "problems": "Dependence on monolithic energy monopolies makes systems fragile. The fossil energy transition is not fast enough.",
+    "solutions": "Community-owned renewable energy projects; microgrid technologies; decentralised storage capacity; energy communities.",
+    "websites": "domain:3|rdg:18",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG18",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 19: Transparent and Accountable Institutions",
+    "slug": "rdg-19-transparent-and-accountable-institutions",
+    "description": "Strengthening the rule of law and restoring broken public institutional trust through radical transparency and anti-corruption guarantees.",
+    "coverImage": null,
+    "problems": "Regulatory capture, institutional corruption and lack of accountability undermine sustainable development.",
+    "solutions": "Government open-data mandates; strong anti-corruption institutions; civil society involvement in oversight.",
+    "websites": "domain:4|rdg:19",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG19",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 20: Polycentric and Participatory Governance",
+    "slug": "rdg-20-polycentric-and-participatory-governance",
+    "description": "Operationalising Nobel laureate Elinor Ostrom's principles for managing the commons. Decentralising power through subsidiarity.",
+    "coverImage": null,
+    "problems": "One-size-fits-all national mandates fail to adapt to local ecological and social diversity.",
+    "solutions": "Institutionalising Ostrom's principles; participatory decision-making platforms; community-developed rules.",
+    "websites": "domain:4|rdg:20",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG20",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 21: Equity and Structural Inclusion",
+    "slug": "rdg-21-equity-and-structural-inclusion",
+    "description": "Addressing the deeper causes of social marginalisation by dismantling systemic inequalities along lines of gender, race, geography and social origin.",
+    "coverImage": null,
+    "problems": "Superficial equal opportunities are insufficient — systemic inequality destabilises society.",
+    "solutions": "Targeted equity policies; redistribution of economic power; strong social floor standards.",
+    "websites": "domain:4|rdg:21",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG21",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 22: Peacebuilding and Conflict Transformation",
+    "slug": "rdg-22-peacebuilding-and-conflict-transformation",
+    "description": "Transcending militarised security models by foregrounding restorative justice, community mediation and systemic de-escalation.",
+    "coverImage": null,
+    "problems": "Climate-change-induced resource scarcity increasingly leads to inter-group violence.",
+    "solutions": "Restorative justice systems; community mediation; prevention-focused conflict management.",
+    "websites": "domain:4|rdg:22",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG22",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 23: Open Science and the Knowledge Commons",
+    "slug": "rdg-23-open-science-and-the-knowledge-commons",
+    "description": "Defining critical scientific knowledge, environmental data and technological innovations as non-exclusive public goods.",
+    "coverImage": null,
+    "problems": "Patent accumulation and paywalled journals prevent the rapid spread of necessary technologies.",
+    "solutions": "Open-source research communities; open-access publishing standards; technology transfer to the Global South.",
+    "websites": "domain:4|rdg:23",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG23",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 24: Feedback-Based Policy Learning",
+    "slug": "rdg-24-feedback-based-policy-learning",
+    "description": "Introducing robust \"anticipatory governance\" models across all levels of the public sector. Requiring institutions to shift toward flexible, adaptive policy pathways.",
+    "coverImage": null,
+    "problems": "Rigid, long-term legislative planning does not adapt to highly uncertain futures.",
+    "solutions": "Horizon-scanning systems; rapid pilot testing; iterative feedback loops; anticipatory policy frameworks.",
+    "websites": "domain:4|rdg:24",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG24",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 25: Existential Risk Reduction",
+    "slug": "rdg-25-existential-risk-reduction",
+    "description": "Integrating global catastrophic risk (GCR) reduction into development frameworks. Coordinated global protocols for risks from AI, synthetic bioweapons and nuclear proliferation.",
+    "coverImage": null,
+    "problems": "Development frameworks ignore existential risks threatening civilisational survival.",
+    "solutions": "Global existential risk monitoring systems; proactive AI safety protocols; biosafety frameworks.",
+    "websites": "domain:5|rdg:25",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG25",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 26: Intergenerational Representation",
+    "slug": "rdg-26-intergenerational-representation",
+    "description": "Legal institutionalisation of the rights and systemic representation of future generations. Decade-long impact assessments for all public-institution decisions, modelled on the Welsh Future Generations Act.",
+    "coverImage": null,
+    "problems": "Political decision-making is short-sighted, focused on electoral cycles while ignoring future generations.",
+    "solutions": "Future Generations Commissioner institution; statutory long-term impact assessment obligations; legal representation of children.",
+    "websites": "domain:5|rdg:26",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG26",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 27: Global Early Warning and Foresight Systems",
+    "slug": "rdg-27-global-early-warning-and-foresight-systems",
+    "description": "Integrated satellite and field monitoring networks capable of identifying non-linear tipping points in both Earth systems and social systems.",
+    "coverImage": null,
+    "problems": "Systemic early warning systems for ecological tipping points and social system collapse are absent.",
+    "solutions": "Integrated satellite monitoring networks; machine-learning-based early signal detection; global tipping-point dashboard.",
+    "websites": "domain:5|rdg:27",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG27",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 28: Integrated Inner-Outer Metrics",
+    "slug": "rdg-28-integrated-inner-outer-metrics",
+    "description": "Categorically replacing GDP as the primary indicator of national success with comprehensive dashboards measuring structural vulnerability, ecological integrity and human developmental maturity.",
+    "coverImage": null,
+    "problems": "GDP as a success indicator misleads decision-makers by ignoring ecological and social dimensions.",
+    "solutions": "WISE framework and Genuine Progress Indicators (GPI); ecological integrity measures; complex wellbeing dashboards.",
+    "websites": "domain:5|rdg:28",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG28",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 29: Civilisational-Scale Transition Strategy",
+    "slug": "rdg-29-civilisational-scale-transition-strategy",
+    "description": "Exiting the fossil, hyper-extractive era requires coordinated, gradual and conscious macroeconomic and cultural descent.",
+    "coverImage": null,
+    "problems": "Rapid shutdown of unsustainable industries can cause massive social disruption. The transition has proceeded without coordination.",
+    "solutions": "Geels multi-level perspective; just transition programmes; industrial brownfield rehabilitation.",
+    "websites": "domain:5|rdg:29",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG29",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 30: Planetary Stewardship Identity",
+    "slug": "rdg-30-planetary-stewardship-identity",
+    "description": "The ultimate north star of the RDG framework: humanity's shift from dominance and separateness toward interconnectedness and symbiosis.",
+    "coverImage": null,
+    "problems": "Human civilisation is based on the myth of separation and dominance, which generates all other problems.",
+    "solutions": "Education in planetary stewardship identity; embedding Earth-system ecology in cultural narratives.",
+    "websites": "domain:5|rdg:30",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG30",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Permaculture",
+    "slug": "topic-permaculture",
+    "description": "Design and implementation of sustainable agricultural and lifestyle systems.",
+    "coverImage": null,
+    "problems": "Industrial agriculture and urban lifestyles have disconnected from natural processes, leading to unsustainable resource consumption.",
+    "solutions": "Learning and applying permaculture design principles; community gardens; agroforestry systems; natural architecture.",
+    "websites": "domain:2|rdg:9|sub:1|topic:1|icon:🌱",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D2",
+    "primaryRdgId": "RDG09",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Eco-Architecture",
+    "slug": "topic-eco-architecture",
+    "description": "Design and implementation of energy-efficient, ecosystem-friendly built environments.",
+    "coverImage": null,
+    "problems": "The construction industry is one of the largest carbon emitters and resource consumers, contributing significantly to climate change.",
+    "solutions": "Natural building materials (adobe, wood, stone); passive house design; green roofs and walls; solar-integrated design; bioclimatic principles.",
+    "websites": "domain:3|rdg:16|sub:1|topic:1|icon:🏠",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D3",
+    "primaryRdgId": "RDG16",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Community Building",
+    "slug": "topic-community-building",
+    "description": "Communication culture deepening and human connection at local and global levels.",
+    "coverImage": null,
+    "problems": "In atomized, individualistic societies, people suffer from loneliness and lack of community, weakening collective action capacity.",
+    "solutions": "Creating community spaces; sociocratic decision-making; sharing tools and resources; intergenerational programs.",
+    "websites": "domain:4|rdg:20|sub:1|topic:1|icon:🤝",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D4",
+    "primaryRdgId": "RDG20",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Local Economy",
+    "slug": "topic-local-economy",
+    "description": "Strengthening local economic activity and money circulation, increasing community self-sufficiency and reducing local vulnerability to global capital forces.",
+    "coverImage": null,
+    "problems": "In the globalized economy, most local resources and purchasing power flow to multinational corporations, weakening local self-determination.",
+    "solutions": "Local currencies and exchange programs; community cooperatives; prioritizing local products and services; community funds.",
+    "websites": "domain:3|rdg:14|sub:1|topic:1|icon:💰",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D3",
+    "primaryRdgId": "RDG14",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Education",
+    "slug": "topic-education",
+    "description": "Supporting lifelong learning that develops critical thinking and creativity.",
+    "coverImage": null,
+    "problems": "Traditional education overly focuses on memorization and testing, neglecting holistic development, nature connection, and systems thinking.",
+    "solutions": "Alternative pedagogies (Waldorf, Montessori, democratic schools); project-based learning; nature-based education; mentoring systems.",
+    "websites": "domain:1|rdg:3|sub:1|topic:1|icon:📚",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D1",
+    "primaryRdgId": "RDG03",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Health",
+    "slug": "topic-health",
+    "description": "An integrated approach to holistic health — physical, mental, spiritual and community wellbeing. Prevention-focused, nature-centred and accessible healthcare.",
+    "coverImage": null,
+    "problems": "Modern medicine often focuses on treating symptoms rather than nurturing the roots of health: nature connection, diet, movement, and relationships.",
+    "solutions": "Integrative medicine; prevention and lifestyle medicine; naturopathy and evidence-based traditional methods; community health programs.",
+    "websites": "domain:1|rdg:1|sub:1|topic:1|icon:❤️",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D1",
+    "primaryRdgId": "RDG01",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Spirituality",
+    "slug": "topic-spirituality",
+    "description": "Seeking deep meaning in life and the experience of interconnectedness.",
+    "coverImage": null,
+    "problems": "Materialist culture alienates from life's deeper meaning and connection with each other and nature, leading to inner emptiness and value crises.",
+    "solutions": "Meditation and contemplation; time in nature; rituals and community ceremonies; interspiritual dialogue; psychological development work.",
+    "websites": "domain:5|rdg:30|sub:1|topic:1|icon:✨",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D5",
+    "primaryRdgId": "RDG30",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Renewable Energy",
+    "slug": "topic-renewable-energy",
+    "description": "Accelerating the transition to solar, wind, hydro and other renewable energy sources.",
+    "coverImage": null,
+    "problems": "Dependence on fossil fuels increases energy costs, weakens local self-determination, and contributes to climate change.",
+    "solutions": "Community solar projects; wind energy cooperatives; energy efficiency retrofits; energy storage and smart grids; local energy communities.",
+    "websites": "domain:3|rdg:18|sub:1|topic:1|icon:⚡",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D3",
+    "primaryRdgId": "RDG18",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Clean Water Access",
+    "slug": "clean-water-access",
+    "description": "Ensuring universal access to safe drinking water — a prerequisite for health, dignity and human security.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:2|rdg:10|sub:1|xrdg:13",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D2",
+    "primaryRdgId": "RDG10",
+    "crossRdgIds": [
+      "RDG13"
+    ]
+  },
+  {
+    "title": "Basic Sanitation",
+    "slug": "basic-sanitation",
+    "description": "Ensuring adequate sanitation facilities for all people — essential for preventing disease and protecting human dignity.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:3|rdg:13|sub:1|xrdg:9",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D3",
+    "primaryRdgId": "RDG13",
+    "crossRdgIds": [
+      "RDG09"
+    ]
+  },
+  {
+    "title": "Mental Health",
+    "slug": "mental-health",
+    "description": "Destigmatising psychological suffering and making professional mental health support widely accessible.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:1|rdg:2|sub:1|xrdg:1,3",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D1",
+    "primaryRdgId": "RDG02",
+    "crossRdgIds": [
+      "RDG01",
+      "RDG03"
+    ]
+  },
+  {
+    "title": "Children's Rights",
+    "slug": "childrens-rights",
+    "description": "Guaranteeing a non-violent, safe and nurturing environment for every child that enables their full potential to unfold.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:1|rdg:1|sub:1|xrdg:2,26",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D1",
+    "primaryRdgId": "RDG01",
+    "crossRdgIds": [
+      "RDG02",
+      "RDG26"
+    ]
+  },
+  {
+    "title": "Dignity in Old Age",
+    "slug": "dignity-in-old-age",
+    "description": "Respecting the physical and emotional needs of older people and supporting their active participation in society.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:5|rdg:26|sub:1|xrdg:21",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D5",
+    "primaryRdgId": "RDG26",
+    "crossRdgIds": [
+      "RDG21"
+    ]
+  },
+  {
+    "title": "Intergenerational Solidarity",
+    "slug": "intergenerational-solidarity",
+    "description": "Building meaningful bonds and mutual support between younger and older generations for a cohesive, forward-looking society.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:5|rdg:26|sub:1|xrdg:1",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D5",
+    "primaryRdgId": "RDG26",
+    "crossRdgIds": [
+      "RDG01"
+    ]
+  },
+  {
+    "title": "Safe Housing",
+    "slug": "safe-housing",
+    "description": "Ensuring healthy and affordable homes for everyone — the foundation of stability and human dignity.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:3|rdg:13|sub:1|xrdg:16",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D3",
+    "primaryRdgId": "RDG13",
+    "crossRdgIds": [
+      "RDG16"
+    ]
+  },
+  {
+    "title": "Animal Welfare",
+    "slug": "animal-welfare",
+    "description": "Respecting the life and dignity of all sentient beings and eliminating unnecessary suffering in human-animal relations.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:2|rdg:8|sub:1|xrdg:9,6",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D2",
+    "primaryRdgId": "RDG08",
+    "crossRdgIds": [
+      "RDG09",
+      "RDG06"
+    ]
+  },
+  {
+    "title": "Cultural Heritage",
+    "slug": "cultural-heritage",
+    "description": "Protecting the world's diverse languages, wisdom traditions and cultural expressions as humanity's irreplaceable shared legacy.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:1|rdg:6|sub:1|xrdg:30",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D1",
+    "primaryRdgId": "RDG06",
+    "crossRdgIds": [
+      "RDG30"
+    ]
+  },
+  {
+    "title": "Human Diversity",
+    "slug": "human-diversity",
+    "description": "Celebrating the plurality of human identities, backgrounds and ways of life as a source of collective resilience and creativity.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:4|rdg:21|sub:1|xrdg:22",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D4",
+    "primaryRdgId": "RDG21",
+    "crossRdgIds": [
+      "RDG22"
+    ]
+  },
+  {
+    "title": "Disaster Preparedness",
+    "slug": "disaster-preparedness",
+    "description": "Building the capacity of communities to anticipate, respond to and recover from natural and human-caused crises.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:5|rdg:27|sub:1|xrdg:7,25",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D5",
+    "primaryRdgId": "RDG27",
+    "crossRdgIds": [
+      "RDG07",
+      "RDG25"
+    ]
+  },
+  {
+    "title": "Community Resilience",
+    "slug": "community-resilience",
+    "description": "Strengthening the social fabric and adaptive capacity of local communities to sustain collective wellbeing under disruption.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:4|rdg:20|sub:1|xrdg:22,13",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D4",
+    "primaryRdgId": "RDG20",
+    "crossRdgIds": [
+      "RDG22",
+      "RDG13"
+    ]
+  }
+]

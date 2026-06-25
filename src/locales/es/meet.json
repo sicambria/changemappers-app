@@ -1,0 +1,18 @@
+{
+  "title": "Reunirse",
+  "metaTitle": "Encontrar Nuestro Horario | Changemappers",
+  "metaDescription": "Crea una encuesta de programación para encontrar el mejor momento para que tu grupo se reúna.",
+  "createPoll": "Crear Encuesta",
+  "joinPoll": "Unirse a Encuesta",
+  "managePoll": "Gestionar Encuesta",
+  "errors": {
+    "pollNotFound": "Encuesta no encontrada"
+  },
+  "labels": {
+    "findOurTime": "Encontrar Nuestro Horario",
+    "createSchedulingPoll": "Crear Encuesta de Programación",
+    "joinSchedulingPoll": "Unirse a encuesta de programación",
+    "manageSchedulingPoll": "Gestionar tu encuesta de programación",
+    "pollNotFound": "Encuesta No Encontrada"
+  }
+}

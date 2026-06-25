@@ -1,0 +1,97 @@
+{
+  "metaTitle": "Development Roadmap",
+  "metaDescription": "Stay with us! We are continuously working on expanding and improving the Portal.",
+  "title": "Development Roadmap",
+    "description": "Stay with us! We are continuously working on expanding and improving the Portal.",
+    "backToHome": "Back to home",
+    "milestones": {
+        "mvp": {
+            "title": "MVP (Minimum Viable Product)",
+            "status": "In Progress",
+            "description": "Laying the foundations of the platform: Map display, registration, community and event profiles."
+        },
+        "phase2": {
+            "title": "Phase 2: Connection and Communication",
+            "status": "Planned",
+            "description": "Internal messaging system, notification fine-tuning and development of the 'Ally' matching algorithm."
+        },
+        "phase3": {
+            "title": "Phase 3: Resource Sharing",
+            "status": "Planned",
+            "description": "Marketplace and exchange features to facilitate sharing of tools, knowledge and other resources."
+        }
+    },
+    "waitForUs": "Stay with us!",
+    "waitForUsDescription": "More features coming soon. Join our newsletter or follow us on social media!",
+    "contact": "Contact",
+    "followUs": "Follow us",
+    "ideas": {
+        "boardTitle": "Community ideas",
+        "boardSubtitle": "Share what you'd love to see, and vote on what matters most.",
+        "submitButton": "Share an idea",
+        "empty": "No ideas yet. Be the first to share one!",
+        "vote": "Upvote",
+        "voteFailed": "Could not register your vote. Please try again.",
+        "fetchFailed": "Could not load ideas. Please try again.",
+        "anonymous": "Anonymous",
+        "commentsCount": "{{count}} comments",
+        "commentsCount_one": "{{count}} comment",
+        "commentsCount_other": "{{count}} comments",
+        "noComments": "No comments yet.",
+        "commentPlaceholder": "Add a comment...",
+        "submitComment": "Post comment",
+        "deleteComment": "Delete comment",
+        "commentFailed": "Could not post your comment. Please try again.",
+        "commentDeleteFailed": "Could not delete the comment. Please try again.",
+        "rdgPlaceholder": "Select related goals (optional)",
+        "rdgDomains": {
+            "D1": "Human Development & Inner Capacity",
+            "D2": "Living Systems Regeneration",
+            "D3": "Regenerative Economy & Infrastructure",
+            "D4": "Governance & Collective Intelligence",
+            "D5": "Long-Term Stewardship & Resilience"
+        },
+        "types": {
+            "PAIN_POINT": "Pain point",
+            "FEATURE_IDEA": "Feature idea",
+            "BUG_FIX": "Bug fix"
+        },
+        "statuses": {
+            "OPEN": "Open",
+            "PLANNED": "Planned",
+            "IN_PROGRESS": "In progress",
+            "DONE": "Done",
+            "DECLINED": "Declined"
+        },
+        "filters": {
+            "allTypes": "All types",
+            "allStatuses": "All statuses",
+            "mostVoted": "Most voted",
+            "newest": "Newest",
+            "searchPlaceholder": "Search ideas..."
+        },
+        "loginPrompt": {
+            "title": "Join the conversation",
+            "description": "Sign in to share ideas, upvote, and comment on the community roadmap.",
+            "login": "Sign in",
+            "register": "Create account"
+        },
+        "submit": {
+            "title": "Share an idea",
+            "titleLabel": "Title",
+            "titlePlaceholder": "A short, clear title",
+            "descriptionLabel": "Description",
+            "descriptionPlaceholder": "Describe your idea, pain point, or bug...",
+            "typeLabel": "Type",
+            "rdgLabel": "Related goals (optional)",
+            "tagsLabel": "Tags (optional)",
+            "tagsPlaceholder": "e.g. map, search, mobile",
+            "tagsHint": "Separate tags with commas.",
+            "submit": "Publish idea",
+            "submitting": "Publishing...",
+            "success": "Your idea has been published!",
+            "failed": "Could not publish your idea. Please try again.",
+            "close": "Close"
+        }
+    }
+}

@@ -1,0 +1,140 @@
+{
+  "setupProfile": "Profil beállítása",
+  "stepsLeft": "{{count}} lépés maradt — fejezd be a profilod a jobb láthatóságért",
+  "onboardingProgress": "Onboarding út",
+  "onboardingJourneySummary": "{{completed}} / {{total}} gyakorlat kész, a saját ritmusodban",
+  "openOnboardingJourney": "Út megnyitása",
+  "nextOnboardingStep": "Következő",
+  "onboardingSteps": {
+    "welcome": "Üdvözlés és tájékozódás",
+    "inner_condition": "Belső állapot ellenőrzése",
+    "pitch": "Álláspontod megformálása",
+    "regenerative_practice": "Regeneratív gyakorlat választása",
+    "failure_learning": "Tanulás a kudarcból",
+    "working_group": "Találd meg az embereidet",
+    "mutual_aid": "Kölcsönös segítség gyakorlása",
+    "energy_alignment": "Energiádhoz igazodás",
+    "systems_connection": "Rendszereken át látni",
+    "friction_grace": "Súrlódás kegyelemmel",
+    "boundaries": "Határaid védelme",
+    "cycle_of_joy": "Visszatérés az öröm köréhez"
+  },
+  "welcome": "Üdvözöllek, {{name}} 👋",
+  "readyToContinue": "Készen állsz a folytatásra?",
+  "reflection": "Reflexió",
+  "profileCompleteness": "Profil kitöltöttsége",
+  "addSkillsToReach100": "Adj hozzá készségeket a 100% eléréséhez",
+  "editProfile": "Profil szerkesztése",
+  "whatsCallingYou": "Mi hív téged most?",
+  "giveAct": "Adni / Cselekedni szeretnék",
+  "findLearn": "Keresni / Tanulni szeretnék",
+  "stillFiguringItOut": "Még keresem az utam",
+  "slowDown": "Valami készülődik / Lassítanom kell",
+  "biggerPicture": "Szeretném látni a nagyobb képet",
+  "knowWhatIWantToDo": "Tudom, mit akarok csinálni",
+  "tiles": {
+    "offerSomething": {
+      "title": "Ajánlj valamit",
+      "desc": "Ossz meg egy készséget, erőforrást vagy kapacitást az ökoszisztémával"
+    },
+    "actions": {
+      "title": "Akciók",
+      "desc": "Böngészd az sürgős igényeket, amikre ma válaszolhatsz"
+    },
+    "kanban": {
+      "title": "Kanban",
+      "desc": "Csatlakozz egy kezdeményezéshez vagy indíts egyet és haladjatok együtt"
+    },
+    "mentor": {
+      "title": "Mentor",
+      "desc": "Vezess valakit egy olyan úton, amin már végigmentél"
+    },
+    "volunteer": {
+      "title": "Önkéntes",
+      "desc": "Keress gyakorlati módokat a segítésre, ahol most szükség van rá"
+    },
+    "meet": {
+      "title": "Találkozás",
+      "desc": "Egyeztess időpontot közreműködőkkel és fordítsd a lendületet beszélgetéssé"
+    },
+    "pitch": {
+      "title": "Pitch",
+      "desc": "Mutasd be az ötleted és találj közreműködőket, akik rezonálnak vele"
+    },
+    "findPeople": {
+      "title": "Emberek keresése",
+      "desc": "Fedezd fel, ki dolgozik azon, ami számodra fontos"
+    },
+    "stories": {
+      "title": "Történetek",
+      "desc": "Nyílt forráskódú kudarcok és áttörések a terepről"
+    },
+    "learning": {
+      "title": "Tanulás",
+      "desc": "Keretrendszerek, eszközök és kurzusok rendszergondolkodóknak"
+    },
+    "training": {
+      "title": "Képzés",
+      "desc": "Strukturált programok specifikus kapacitások építéséhez"
+    },
+    "events": {
+      "title": "Események",
+      "desc": "Élő találkozók, körök és online alkalmak a közeledben"
+    },
+    "glossary": {
+      "title": "Fogalomtár",
+      "desc": "Közös nyelv és definíciók az ökoszisztémában"
+    },
+    "reflect": {
+      "title": "Reflexió",
+      "desc": "Csendes tér a naplózáshoz, szándékok kitűzéséhez és befelé figyeléshez"
+    },
+    "coachMe": {
+      "title": "Coach Me támogatás",
+      "desc": "Dolgozz meg egy kihívást egy vezetett coaching folyamatban"
+    },
+    "compass": {
+      "title": "Iránytű",
+      "desc": "Tájékozódj a fontos dolgok mentén, mielőtt kiválasztod a következő lépést"
+    },
+    "connectNature": {
+      "title": "Kapcsolódás a természethez",
+      "desc": "Ökológiai érzékelés, helyi regeneráció és biomimikri"
+    },
+    "peerCircles": {
+      "title": "Peer Körök",
+      "desc": "Kicsi, bizalmi csoportok az őszinte beszélgetéshez és támogatáshoz"
+    },
+    "growthHub": {
+      "title": "Növekedési Központ",
+      "desc": "Kövesd nyomon a saját tanulási ívedet és hozzájárulásodat"
+    },
+    "map": {
+      "title": "Térkép",
+      "desc": "Vizualizáld, ki mit csinál az ökoszisztémában"
+    },
+    "peopleMap": {
+      "title": "Emberek térképe",
+      "desc": "Böngészd az embereket, közösségeket és helyeket a térképen"
+    },
+    "graph": {
+      "title": "Gráf",
+      "desc": "Fedezd fel, hogyan kapcsolódnak az emberek, projektek és ötletek"
+    },
+    "energy": {
+      "title": "Energia",
+      "desc": "Lásd az energia, feszültség és mozgás mintázatait a rendszerben"
+    },
+    "socialIssues": {
+      "title": "Társadalmi ügyek",
+      "desc": "Azonosíts réseket, igényeket és feltörekvő lehetőségeket"
+    },
+    "signals": {
+      "title": "Jelek",
+      "desc": "Kövesd a feltörekvő trendeket és gyenge jeleket az ökoszisztémában"
+    }
+  },
+  "compass": {
+    "dismiss": "Iránytű bezárása"
+  }
+}

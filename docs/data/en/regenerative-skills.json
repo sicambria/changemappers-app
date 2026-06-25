@@ -1,0 +1,1836 @@
+{
+    "skillsDatabase": {
+        "UL - Intentional": {
+            "H1_Hospicing": [
+                {
+                    "id": 1,
+                    "level": "Micro",
+                    "domain": "Psychological Resilience",
+                    "text": "Can regulate personal nervous system responses during high-stress climate anxiety or ecological grief episodes."
+                },
+                {
+                    "id": 4,
+                    "level": "Micro",
+                    "domain": "Shadow Work",
+                    "text": "Can synthesize personal shadow aspects triggered by systemic collapse into actionable empathy for others."
+                },
+                {
+                    "id": 39,
+                    "level": "Micro",
+                    "domain": "Post-Capitalist Mindset",
+                    "text": "Can consciously uncouple personal self-worth from capitalist metrics of productivity and infinite growth."
+                },
+                {
+                    "id": 41,
+                    "level": "Micro",
+                    "domain": "Shadow Work",
+                    "text": "Can identify and safely observe one's own defensive mechanisms when confronted with systemic ecological privilege."
+                },
+                {
+                    "id": 43,
+                    "level": "Micro",
+                    "domain": "Somatic Resilience",
+                    "text": "Can maintain somatic presence (grounding) while processing complex, overwhelming climate data."
+                },
+                {
+                    "id": 45,
+                    "level": "Micro",
+                    "domain": "Ego Management",
+                    "text": "Can rapidly identify and dissolve personal eco-saviorism complexes before they impact community dynamics."
+                },
+                {
+                    "id": 46,
+                    "level": "Micro",
+                    "domain": "Emotional Boundaries",
+                    "text": "Can hold compassionate boundaries when interacting with individuals suffering from acute climate denial."
+                },
+                {
+                    "id": 52,
+                    "level": "Micro",
+                    "domain": "Moral Repair",
+                    "text": "Can process the moral injury of participating in extractive industries while transitioning to regenerative livelihoods."
+                },
+                {
+                    "id": 53,
+                    "level": "Micro",
+                    "domain": "Psychological Resilience",
+                    "text": "Can practice radical forgiveness toward those entrenched in H1 (legacy) destructive systems."
+                },
+                {
+                    "id": 57,
+                    "level": "Micro",
+                    "domain": "Decolonial Mindset",
+                    "text": "Can identify the subtle ways imperialist and colonial logic permeates one's own thought patterns."
+                },
+                {
+                    "id": 61,
+                    "level": "Micro",
+                    "domain": "Somatic Regulation",
+                    "text": "Can self-regulate through breathwork or meditation before entering high-stakes policy negotiations."
+                },
+                {
+                    "id": 65,
+                    "level": "Micro",
+                    "domain": "Trigger Management",
+                    "text": "Can identify one's core triggers related to scarcity and pre-emptively manage them in communal settings."
+                },
+                {
+                    "id": 68,
+                    "level": "Micro",
+                    "domain": "Ecological Memory",
+                    "text": "Can observe and document one's own shifting baseline syndrome regarding local ecological degradation."
+                },
+                {
+                    "id": 72,
+                    "level": "Micro",
+                    "domain": "Post-Consumerism",
+                    "text": "Can cultivate a mindset of 'enoughness' to actively resist hyper-consumerist conditioning."
+                },
+                {
+                    "id": 78,
+                    "level": "Micro",
+                    "domain": "Systemic Accountability",
+                    "text": "Can identify and untangle one's own complicity in systemic oppression without falling into paralysis."
+                },
+                {
+                    "id": 197,
+                    "level": "Micro",
+                    "domain": "Psychological Resilience",
+                    "text": "Can practice 'witnessing'—observing ecological destruction without immediately jumping to solutionism, to fully grasp scale."
+                },
+                {
+                    "id": 201,
+                    "level": "Micro",
+                    "domain": "Systemic Awareness",
+                    "text": "Can map one's personal consumption habits directly to the specific global sacrifice zones they depend on."
+                },
+                {
+                    "id": 225,
+                    "level": "Micro",
+                    "domain": "Action Somatics",
+                    "text": "Can maintain a state of 'relaxed alertness' during long, high-tension direct action blockades."
+                },
+                {
+                    "id": 277,
+                    "level": "Micro",
+                    "domain": "Systemic Gratitude",
+                    "text": "Can maintain a daily practice of gratitude specifically directed at invisible infrastructural workers (sanitation, grid)."
+                },
+                {
+                    "id": 289,
+                    "level": "Micro",
+                    "domain": "Cognitive Hygiene",
+                    "text": "Can practice 'Digital Minimalism', deliberately curating information diets to preserve cognitive bandwidth."
+                }
+            ],
+            "H2_Bridging": [
+                {
+                    "id": 2,
+                    "level": "Micro",
+                    "domain": "Cognitive Agility",
+                    "text": "Can cultivate and sustain 'beginner's mind' when analyzing failing legacy systems to avoid cognitive bias."
+                },
+                {
+                    "id": 5,
+                    "level": "Micro",
+                    "domain": "Emotional Stamina",
+                    "text": "Can maintain a state of 'active hope' without falling into toxic positivity or paralyzing doomism."
+                },
+                {
+                    "id": 35,
+                    "level": "Micro",
+                    "domain": "Energy Management",
+                    "text": "Can track personal energy inputs/outputs to prevent burnout during intense phase-shifts in project development."
+                },
+                {
+                    "id": 42,
+                    "level": "Micro",
+                    "domain": "Cognitive Shifting",
+                    "text": "Can transition from a 'scarcity mindset' to an 'abundance mindset' when evaluating local bio-capacity."
+                },
+                {
+                    "id": 48,
+                    "level": "Micro",
+                    "domain": "Biomimetic Lifestyle",
+                    "text": "Can conduct a personal 'energy audit' to align daily tasks with one's natural circadian and seasonal rhythms."
+                },
+                {
+                    "id": 49,
+                    "level": "Micro",
+                    "domain": "Complexity Tolerance",
+                    "text": "Can sit in the discomfort of 'not knowing' without prematurely rushing to false, mechanistic solutions."
+                },
+                {
+                    "id": 58,
+                    "level": "Micro",
+                    "domain": "Emotional Alchemy",
+                    "text": "Can transmute anger at environmental injustice into sustained, focused, strategic action."
+                },
+                {
+                    "id": 59,
+                    "level": "Micro",
+                    "domain": "Cognitive Flexibility",
+                    "text": "Can intentionally cycle between focused analytical thinking and diffuse, divergent systems thinking."
+                },
+                {
+                    "id": 62,
+                    "level": "Micro",
+                    "domain": "Purpose Alignment",
+                    "text": "Can map out one's personal 'ikigai' directly onto the needs of the local bioregion."
+                },
+                {
+                    "id": 66,
+                    "level": "Micro",
+                    "domain": "Evolutionary Mindset",
+                    "text": "Can consciously embrace failure as a necessary evolutionary feedback loop rather than a personal deficit."
+                },
+                {
+                    "id": 69,
+                    "level": "Micro",
+                    "domain": "Grief Literacy",
+                    "text": "Can integrate grief as a permanent, healthy companion rather than an emotion to be 'cured'."
+                },
+                {
+                    "id": 71,
+                    "level": "Micro",
+                    "domain": "Emotional Stamina",
+                    "text": "Can experience joy and celebration without guilt in the midst of global polycrisis."
+                },
+                {
+                    "id": 75,
+                    "level": "Micro",
+                    "domain": "Place-based Mindset",
+                    "text": "Can practice 'inward mobility'—finding depth and exploration without geographical travel."
+                },
+                {
+                    "id": 198,
+                    "level": "Micro",
+                    "domain": "Cognitive Agility",
+                    "text": "Can rapidly unlearn industrial-era efficiency paradigms when evaluating the success of a food forest."
+                },
+                {
+                    "id": 200,
+                    "level": "Micro",
+                    "domain": "Emotional Stamina",
+                    "text": "Can hold the 'tragic gap' between the reality of climate collapse and the vision of a regenerative future without burning out."
+                },
+                {
+                    "id": 226,
+                    "level": "Micro",
+                    "domain": "Trauma Awareness",
+                    "text": "Can identify when one is operating from a 'trauma response' versus a 'strategic response' in organizing."
+                },
+                {
+                    "id": 228,
+                    "level": "Micro",
+                    "domain": "Complexity Navigation",
+                    "text": "Can let go of the need for absolute certainty before taking action in complex, chaotic environments."
+                },
+                {
+                    "id": 229,
+                    "level": "Micro",
+                    "domain": "Joy as Resistance",
+                    "text": "Can cultivate a sense of profound playfulness and humor even when discussing existential threats."
+                },
+                {
+                    "id": 245,
+                    "level": "Micro",
+                    "domain": "Radical Empathy",
+                    "text": "Can maintain radical empathy for politicians or executives who are actively perpetuating the crisis."
+                },
+                {
+                    "id": 247,
+                    "level": "Micro",
+                    "domain": "Ancestral Healing",
+                    "text": "Can map one's own lineage and ancestral traumas to understand inherited behavioral patterns toward nature."
+                },
+                {
+                    "id": 248,
+                    "level": "Micro",
+                    "domain": "Positionality Awareness",
+                    "text": "Can consciously hold the tension of being an 'outsider' when trying to support local Indigenous-led movements."
+                },
+                {
+                    "id": 261,
+                    "level": "Micro",
+                    "domain": "Radical Rest",
+                    "text": "Can deliberately practice 'doing nothing' as a radical intervention against capitalist productivity paradigms."
+                },
+                {
+                    "id": 263,
+                    "level": "Micro",
+                    "domain": "Solidarity Mindset",
+                    "text": "Can identify and transmute the 'savior complex' into a posture of deep solidarity and mutual aid."
+                },
+                {
+                    "id": 285,
+                    "level": "Micro",
+                    "domain": "Epistemic Humility",
+                    "text": "Can recognize and bypass the 'Dunning-Kruger effect' when learning entirely new ecological disciplines."
+                },
+                {
+                    "id": 6,
+                    "level": "Meso",
+                    "domain": "Paradigm Bridging",
+                    "text": "Can hold the cognitive dissonance of simultaneously dismantling old systems while building radically new ones."
+                },
+                {
+                    "id": 50,
+                    "level": "Meso",
+                    "domain": "Trauma Awareness",
+                    "text": "Can map how historical, generational trauma influences current organizational leadership behaviors."
+                },
+                {
+                    "id": 55,
+                    "level": "Meso",
+                    "domain": "Psycho-social Awareness",
+                    "text": "Can recognize projection and transference when navigating power dynamics in grassroots organizing."
+                },
+                {
+                    "id": 70,
+                    "level": "Meso",
+                    "domain": "Relational Psychology",
+                    "text": "Can intentionally step out of the 'rescuer' role in the Karpman Drama Triangle during community disputes."
+                },
+                {
+                    "id": 76,
+                    "level": "Meso",
+                    "domain": "Ego Detachment",
+                    "text": "Can detach personal identity from a specific project's success to prevent founder's syndrome."
+                },
+                {
+                    "id": 202,
+                    "level": "Meso",
+                    "domain": "Leadership Psychology",
+                    "text": "Can shift from a 'hero/savior' leadership archetype to a 'host/weaver' archetype in community settings."
+                }
+            ],
+            "H3_Radical": [
+                {
+                    "id": 3,
+                    "level": "Micro",
+                    "domain": "Ecological Consciousness",
+                    "text": "Can sustain a daily practice of deep ecological listening and biomimetic contemplation to guide decision-making."
+                },
+                {
+                    "id": 7,
+                    "level": "Micro",
+                    "domain": "Epistemological Awareness",
+                    "text": "Can consciously map and continuously update one's own worldview and epistemological blind spots."
+                },
+                {
+                    "id": 40,
+                    "level": "Micro",
+                    "domain": "Deep Time Navigation",
+                    "text": "Can practice deep time awareness, holding the perspective of ancestors 7 generations past and descendants 7 generations future."
+                },
+                {
+                    "id": 44,
+                    "level": "Micro",
+                    "domain": "Holistic Epistemology",
+                    "text": "Can routinely integrate intuition and dream-work into formal strategic planning processes."
+                },
+                {
+                    "id": 47,
+                    "level": "Micro",
+                    "domain": "Animistic Perception",
+                    "text": "Can intentionally shift one's baseline state of consciousness to perceive landscapes as animate, living entities."
+                },
+                {
+                    "id": 51,
+                    "level": "Micro",
+                    "domain": "Ecological Identity",
+                    "text": "Can adopt a 'mycelial' self-concept, viewing oneself strictly as a node in a larger relational network."
+                },
+                {
+                    "id": 54,
+                    "level": "Micro",
+                    "domain": "Ecological Reverence",
+                    "text": "Can deliberately cultivate awe and reverence for local micro-ecosystems (e.g., moss, lichen, soil life)."
+                },
+                {
+                    "id": 56,
+                    "level": "Micro",
+                    "domain": "Intrinsic Motivation",
+                    "text": "Can sustain personal motivation entirely decoupled from external validation or financial reward."
+                },
+                {
+                    "id": 60,
+                    "level": "Micro",
+                    "domain": "Paradox Navigation",
+                    "text": "Can hold the paradox of individual insignificance and absolute individual necessity in global transition."
+                },
+                {
+                    "id": 63,
+                    "level": "Micro",
+                    "domain": "Temporal Resilience",
+                    "text": "Can maintain profound patience during the multi-year lag phases of ecological restoration."
+                },
+                {
+                    "id": 64,
+                    "level": "Micro",
+                    "domain": "Post-Anthropocentrism",
+                    "text": "Can systematically dismantle internalized anthropocentrism in daily decision-making."
+                },
+                {
+                    "id": 67,
+                    "level": "Micro",
+                    "domain": "Sensory Awareness",
+                    "text": "Can practice sensory expansion to notice subtle shifts in wind, humidity, and animal behavior."
+                },
+                {
+                    "id": 73,
+                    "level": "Micro",
+                    "domain": "Applied Spirituality",
+                    "text": "Can align personal spiritual or philosophical beliefs directly with material ecological stewardship."
+                },
+                {
+                    "id": 74,
+                    "level": "Micro",
+                    "domain": "Mind-Body Ecology",
+                    "text": "Can track how diet and local food consumption alter one's own psychological state and groundedness."
+                },
+                {
+                    "id": 199,
+                    "level": "Micro",
+                    "domain": "Inner Economics",
+                    "text": "Can cultivate a sense of deep security grounded in community networks rather than financial accumulation."
+                },
+                {
+                    "id": 203,
+                    "level": "Micro",
+                    "domain": "Cognitive Expansion",
+                    "text": "Can integrate psychedelic or non-ordinary states of consciousness into formal ecological design processes."
+                },
+                {
+                    "id": 227,
+                    "level": "Micro",
+                    "domain": "Ontological Shifting",
+                    "text": "Can practice 'interbeing'—experiencing the self as deeply entangled with all other life forms."
+                },
+                {
+                    "id": 246,
+                    "level": "Micro",
+                    "domain": "Ascetic Practice",
+                    "text": "Can deliberately fast or alter diet for spiritual connection to the land and awareness of privilege."
+                },
+                {
+                    "id": 262,
+                    "level": "Micro",
+                    "domain": "Ecological Observation",
+                    "text": "Can consciously observe the flow of water during a storm to intuitively understand local hydrology."
+                },
+                {
+                    "id": 273,
+                    "level": "Micro",
+                    "domain": "Post-State Identity",
+                    "text": "Can consciously uncouple personal security from the state and couple it to local mutual aid networks."
+                },
+                {
+                    "id": 281,
+                    "level": "Micro",
+                    "domain": "Atmospheric Awareness",
+                    "text": "Can intuitively read the weather patterns from cloud formations and wind shifts."
+                },
+                {
+                    "id": 293,
+                    "level": "Micro",
+                    "domain": "Visionary Grounding",
+                    "text": "Can consciously hold space for 'Eutopia' (the good place) rather than 'Utopia' (the no place)."
+                },
+                {
+                    "id": 297,
+                    "level": "Micro",
+                    "domain": "Phenomenological Research",
+                    "text": "Can map and track the shifting phenomenological experience of time during deep immersion in nature."
+                },
+                {
+                    "id": 77,
+                    "level": "Macro",
+                    "domain": "Deep Ecology",
+                    "text": "Can cultivate a sense of kinship with non-human entities (e.g., rivers, mountains) as equal subjects."
+                }
+            ]
+        },
+        "UR - Behavioral": {
+            "H1_Hospicing": [
+                {
+                    "id": 80,
+                    "level": "Micro",
+                    "domain": "Energy Efficiency",
+                    "text": "Can perform a baseline energy audit of a home using thermal imaging and blower door tests."
+                },
+                {
+                    "id": 87,
+                    "level": "Micro",
+                    "domain": "Active Transport",
+                    "text": "Can repair a puncture, true a wheel, and replace the drivetrain on a standard bicycle."
+                },
+                {
+                    "id": 91,
+                    "level": "Micro",
+                    "domain": "Soil Science",
+                    "text": "Can conduct a basic soil texture by feel test and a mason jar soil composition test."
+                },
+                {
+                    "id": 99,
+                    "level": "Micro",
+                    "domain": "Practical Mechanics",
+                    "text": "Can tie 5 essential load-bearing and tensioning knots for construction and rigging."
+                },
+                {
+                    "id": 100,
+                    "level": "Micro",
+                    "domain": "Forestry",
+                    "text": "Can safely fell a medium-sized tree using proper notching and hinging techniques."
+                },
+                {
+                    "id": 103,
+                    "level": "Micro",
+                    "domain": "Repair Skills",
+                    "text": "Can splice electrical wires and read basic circuit diagrams to repair household appliances."
+                },
+                {
+                    "id": 107,
+                    "level": "Micro",
+                    "domain": "Water Management",
+                    "text": "Can set up a drip irrigation system with timers and pressure regulators for water conservation."
+                },
+                {
+                    "id": 204,
+                    "level": "Micro",
+                    "domain": "Site Analysis",
+                    "text": "Can perform a soil percolation test to determine the viability of a site for a septic system or rain garden."
+                },
+                {
+                    "id": 231,
+                    "level": "Micro",
+                    "domain": "Waste Management",
+                    "text": "Can build and maintain a worm farm (vermicompost) to process indoor household food waste."
+                },
+                {
+                    "id": 234,
+                    "level": "Micro",
+                    "domain": "Electrification",
+                    "text": "Can install an induction cooktop and disconnect a residential gas line safely to electrify a kitchen."
+                },
+                {
+                    "id": 109,
+                    "level": "Meso",
+                    "domain": "Water Quality",
+                    "text": "Can test local water sources for pH, dissolved oxygen, and basic contaminants using field kits."
+                },
+                {
+                    "id": 115,
+                    "level": "Meso",
+                    "domain": "Data Management",
+                    "text": "Can design a simple database in SQL to track a local food co-op's inventory."
+                },
+                {
+                    "id": 9,
+                    "level": "Meso",
+                    "domain": "Ecological Accounting",
+                    "text": "Can calculate the embodied carbon, operational energy, and lifecycle ecological footprint of a proposed community building."
+                },
+                {
+                    "id": 266,
+                    "level": "Macro",
+                    "domain": "Urban Ecology",
+                    "text": "Can map and categorize the urban tree canopy using open-source satellite imagery and QGIS."
+                }
+            ],
+            "H2_Bridging": [
+                {
+                    "id": 8,
+                    "level": "Micro",
+                    "domain": "Applied Ecology",
+                    "text": "Can install, calibrate, and maintain a residential-scale greywater filtration and irrigation system."
+                },
+                {
+                    "id": 12,
+                    "level": "Micro",
+                    "domain": "Agroforestry",
+                    "text": "Can prune and graft foundational fruit tree species to optimize yield and disease resistance in a food forest."
+                },
+                {
+                    "id": 36,
+                    "level": "Micro",
+                    "domain": "Appropriate Tech",
+                    "text": "Can build and maintain a thermal mass rocket mass heater using locally sourced earthen materials."
+                },
+                {
+                    "id": 79,
+                    "level": "Micro",
+                    "domain": "Soil Science",
+                    "text": "Can construct a simple, low-cost biochar retort and properly inoculate the resulting char."
+                },
+                {
+                    "id": 83,
+                    "level": "Micro",
+                    "domain": "Renewable Energy",
+                    "text": "Can install and configure a basic off-grid solar PV system (panels, charge controller, battery, inverter)."
+                },
+                {
+                    "id": 84,
+                    "level": "Micro",
+                    "domain": "Agroecology",
+                    "text": "Can build a hugelkultur raised bed using locally sourced decaying wood and organic matter."
+                },
+                {
+                    "id": 88,
+                    "level": "Micro",
+                    "domain": "Hydrology",
+                    "text": "Can construct a rainwater catchment system with first-flush diverters and proper overflow management."
+                },
+                {
+                    "id": 90,
+                    "level": "Micro",
+                    "domain": "Repair Skills",
+                    "text": "Can weld basic structural joints (MIG/TIG) for repairing agricultural or upcycled equipment."
+                },
+                {
+                    "id": 96,
+                    "level": "Micro",
+                    "domain": "Ecological Building",
+                    "text": "Can build a passive solar greenhouse optimized for the specific winter sun angles of the latitude."
+                },
+                {
+                    "id": 102,
+                    "level": "Micro",
+                    "domain": "Appropriate Tech",
+                    "text": "Can build a simple compost heated shower system for off-grid hygiene."
+                },
+                {
+                    "id": 106,
+                    "level": "Micro",
+                    "domain": "Earthworks",
+                    "text": "Can construct an A-frame level to accurately map contour lines on a hillside."
+                },
+                {
+                    "id": 108,
+                    "level": "Micro",
+                    "domain": "Natural Building",
+                    "text": "Can properly insulate a loft space using natural materials like sheep's wool or hempcrete."
+                },
+                {
+                    "id": 113,
+                    "level": "Micro",
+                    "domain": "Natural Building",
+                    "text": "Can construct a cob wall mixing clay, sand, and straw to the correct structural consistency."
+                },
+                {
+                    "id": 116,
+                    "level": "Micro",
+                    "domain": "Design Drafting",
+                    "text": "Can draft an accurate scaled site plan using CAD or hand-drafting tools."
+                },
+                {
+                    "id": 206,
+                    "level": "Micro",
+                    "domain": "Horticulture",
+                    "text": "Can propagate plants via hardwood, semi-hardwood cuttings, and root division."
+                },
+                {
+                    "id": 207,
+                    "level": "Micro",
+                    "domain": "Open Source Tech",
+                    "text": "Can configure a Raspberry Pi to act as a localized weather station and automated irrigation controller."
+                },
+                {
+                    "id": 210,
+                    "level": "Micro",
+                    "domain": "Closed-loop Systems",
+                    "text": "Can build and maintain an aquaponics system balancing fish, biofilter bacteria, and plant growth."
+                },
+                {
+                    "id": 230,
+                    "level": "Micro",
+                    "domain": "Landscape Literacy",
+                    "text": "Can read the landscape to identify historical water flows, even in highly urbanized environments."
+                },
+                {
+                    "id": 251,
+                    "level": "Micro",
+                    "domain": "Downscaled Housing",
+                    "text": "Can frame and build a highly insulated, passive-solar tiny home on a movable trailer."
+                },
+                {
+                    "id": 264,
+                    "level": "Micro",
+                    "domain": "Appropriate Tech",
+                    "text": "Can build a simple solar dehydrator to preserve local fruit and vegetable harvests."
+                },
+                {
+                    "id": 265,
+                    "level": "Micro",
+                    "domain": "Emergency Medicine",
+                    "text": "Can effectively apply a tourniquet and perform wilderness first aid in a remote, off-grid setting."
+                },
+                {
+                    "id": 274,
+                    "level": "Micro",
+                    "domain": "Bio-indicator Reading",
+                    "text": "Can observe and analyze the 'weeds' in an area to diagnose soil deficiencies without chemical testing."
+                },
+                {
+                    "id": 282,
+                    "level": "Micro",
+                    "domain": "Advanced Composting",
+                    "text": "Can build a fast-reacting compost pile (Berkeley Method) reaching 130-160°F within 4 days."
+                },
+                {
+                    "id": 286,
+                    "level": "Micro",
+                    "domain": "Horticulture",
+                    "text": "Can graft scion wood onto rootstock using whip-and-tongue or cleft grafting techniques."
+                },
+                {
+                    "id": 290,
+                    "level": "Micro",
+                    "domain": "Resilient Comms",
+                    "text": "Can install and configure a P2P mesh network communication device (e.g., Meshtastic) for off-grid comms."
+                },
+                {
+                    "id": 298,
+                    "level": "Micro",
+                    "domain": "Ecological Engineering",
+                    "text": "Can operate heavy machinery (excavator/skid steer) with the finesse required for delicate permaculture earthworks."
+                },
+                {
+                    "id": 11,
+                    "level": "Meso",
+                    "domain": "Biodiversity Assessment",
+                    "text": "Can perform a rapid bioblitz to categorize and document hyper-local biodiversity using citizen science tools."
+                },
+                {
+                    "id": 13,
+                    "level": "Meso",
+                    "domain": "Circular Making",
+                    "text": "Can operate and maintain open-source micro-manufacturing tools (e.g., 3D printers, CNC) for local repair economies."
+                },
+                {
+                    "id": 81,
+                    "level": "Meso",
+                    "domain": "Waste Management",
+                    "text": "Can set up and manage a multi-bay thermophilic composting system for community food waste."
+                },
+                {
+                    "id": 86,
+                    "level": "Meso",
+                    "domain": "Data Science",
+                    "text": "Can write a Python script to scrape and analyze local municipal environmental open data."
+                },
+                {
+                    "id": 94,
+                    "level": "Meso",
+                    "domain": "Ag-Tech",
+                    "text": "Can operate a drone to capture NDVI (Normalized Difference Vegetation Index) mapping of a farm."
+                },
+                {
+                    "id": 95,
+                    "level": "Meso",
+                    "domain": "Holistic Management",
+                    "text": "Can design and implement a rotational grazing plan for a small herd to maximize carbon drawdown."
+                },
+                {
+                    "id": 111,
+                    "level": "Meso",
+                    "domain": "Renewable Energy",
+                    "text": "Can install a micro-hydro turbine in a local stream to generate baseload power."
+                },
+                {
+                    "id": 114,
+                    "level": "Meso",
+                    "domain": "Local Supply Chains",
+                    "text": "Can operate a portable sawmill to process fallen local timber into dimensional lumber."
+                },
+                {
+                    "id": 118,
+                    "level": "Meso",
+                    "domain": "Digital Sovereignty",
+                    "text": "Can set up an open-source Nextcloud server to provide an alternative to big-tech data hosting."
+                },
+                {
+                    "id": 249,
+                    "level": "Meso",
+                    "domain": "Holistic Management",
+                    "text": "Can design and implement a holistic grazing plan using electric fencing to mimic natural herd movements."
+                },
+                {
+                    "id": 98,
+                    "level": "Macro",
+                    "domain": "Geospatial Analysis",
+                    "text": "Can utilize GIS software (like QGIS) to map local watersheds and flood zones."
+                }
+            ],
+            "H3_Radical": [
+                {
+                    "id": 10,
+                    "level": "Micro",
+                    "domain": "Soil Science",
+                    "text": "Can cultivate Indigenous Microorganism (IMO) solutions for localized soil remediation and fertility enhancement."
+                },
+                {
+                    "id": 31,
+                    "level": "Micro",
+                    "domain": "Local Resiliency",
+                    "text": "Can forage and process 10+ local wild-edible plants safely for community consumption."
+                },
+                {
+                    "id": 82,
+                    "level": "Micro",
+                    "domain": "Herbalism",
+                    "text": "Can identify, harvest, and process 5 local medicinal herbs into tinctures or salves."
+                },
+                {
+                    "id": 85,
+                    "level": "Micro",
+                    "domain": "Ecological Sanitation",
+                    "text": "Can safely capture, process, and utilize humanure in a closed-loop sanitation system."
+                },
+                {
+                    "id": 89,
+                    "level": "Micro",
+                    "domain": "Mycology",
+                    "text": "Can inoculate logs with shiitake or oyster mushroom spawn for localized food production."
+                },
+                {
+                    "id": 93,
+                    "level": "Micro",
+                    "domain": "Ancestral Food Processing",
+                    "text": "Can process acorns or other local complex forage staples to remove tannins and create flour."
+                },
+                {
+                    "id": 97,
+                    "level": "Micro",
+                    "domain": "Food Preservation",
+                    "text": "Can safely ferment vegetables (kraut, kimchi) to preserve the local harvest without refrigeration."
+                },
+                {
+                    "id": 101,
+                    "level": "Micro",
+                    "domain": "Seed Saving",
+                    "text": "Can extract, save, and properly store seeds from open-pollinated heirloom tomato varieties."
+                },
+                {
+                    "id": 104,
+                    "level": "Micro",
+                    "domain": "Bioacoustics",
+                    "text": "Can identify 20 local bird species by sight and song to track ecosystem health changes."
+                },
+                {
+                    "id": 105,
+                    "level": "Micro",
+                    "domain": "Traditional Crafts",
+                    "text": "Can weave a basic basket or container using local invasive vines (e.g., kudzu, english ivy)."
+                },
+                {
+                    "id": 110,
+                    "level": "Micro",
+                    "domain": "Resilient Food",
+                    "text": "Can maintain a sourdough starter and bake bread using locally milled heritage grains."
+                },
+                {
+                    "id": 112,
+                    "level": "Micro",
+                    "domain": "Fibershed Skills",
+                    "text": "Can shear a sheep and process the raw fleece into spinnable roving."
+                },
+                {
+                    "id": 117,
+                    "level": "Micro",
+                    "domain": "Agroecology",
+                    "text": "Can use a scythe to clear tall grass and process it into mulch without fossil fuels."
+                },
+                {
+                    "id": 205,
+                    "level": "Micro",
+                    "domain": "Ancestral Skills",
+                    "text": "Can safely catch, dispatch, and process a small local game animal or fish for consumption."
+                },
+                {
+                    "id": 208,
+                    "level": "Micro",
+                    "domain": "Climate Adaptation",
+                    "text": "Can construct a 'Waru Waru' or similar raised bed system to manage frost and flood in extreme climates."
+                },
+                {
+                    "id": 232,
+                    "level": "Micro",
+                    "domain": "Mycology",
+                    "text": "Can safely forage and prepare 3 local varieties of wild mushrooms, distinguishing them from toxic look-alikes."
+                },
+                {
+                    "id": 233,
+                    "level": "Micro",
+                    "domain": "Bushcraft",
+                    "text": "Can weave a fishing net or hammock using paracord or natural twine."
+                },
+                {
+                    "id": 250,
+                    "level": "Micro",
+                    "domain": "Microbiology",
+                    "text": "Can brew actively aerated compost tea (AACT) using a microscope to verify fungal/bacterial ratios."
+                },
+                {
+                    "id": 252,
+                    "level": "Micro",
+                    "domain": "Traditional Navigation",
+                    "text": "Can navigate by stars, sun, and landscape features without the use of GPS or digital technology."
+                },
+                {
+                    "id": 278,
+                    "level": "Micro",
+                    "domain": "Earth Processing",
+                    "text": "Can safely extract and process local clay to throw simple pottery or create cob building materials."
+                },
+                {
+                    "id": 294,
+                    "level": "Micro",
+                    "domain": "Slow Fashion",
+                    "text": "Can process raw fleece, card it, spin it into yarn, and knit/weave a functional garment."
+                },
+                {
+                    "id": 92,
+                    "level": "Meso",
+                    "domain": "IoT for Ecology",
+                    "text": "Can set up a LoRaWAN gateway to receive data from local agricultural soil moisture sensors."
+                },
+                {
+                    "id": 209,
+                    "level": "Meso",
+                    "domain": "Scientific Monitoring",
+                    "text": "Can operate a gas spectrometer to measure real-time soil respiration and carbon flux."
+                },
+                {
+                    "id": 14,
+                    "level": "Macro",
+                    "domain": "Hydrology Design",
+                    "text": "Can accurately read local topographical maps to design passive water-harvesting earthworks (swales, berms)."
+                }
+            ]
+        },
+        "LL - Cultural": {
+            "H1_Hospicing": [
+                {
+                    "id": 33,
+                    "level": "Micro",
+                    "domain": "De-escalation",
+                    "text": "Can use Nonviolent Communication (NVC) to de-escalate tension during direct environmental action."
+                },
+                {
+                    "id": 19,
+                    "level": "Meso",
+                    "domain": "Cross-Sector Communication",
+                    "text": "Can effectively translate complex ecological science into culturally resonant storytelling for local policy-makers."
+                },
+                {
+                    "id": 20,
+                    "level": "Meso",
+                    "domain": "Communal Healing",
+                    "text": "Can facilitate a grief circle to help a community process the loss of local ecosystems or species."
+                },
+                {
+                    "id": 30,
+                    "level": "Meso",
+                    "domain": "Hospicing Old Systems",
+                    "text": "Can gracefully decommission a sunsetting organizational project while capturing and transferring its core learnings."
+                },
+                {
+                    "id": 120,
+                    "level": "Meso",
+                    "domain": "Social Equity",
+                    "text": "Can facilitate a privilege walk adapted specifically for ecological access and land ownership."
+                },
+                {
+                    "id": 121,
+                    "level": "Meso",
+                    "domain": "Cultural Translation",
+                    "text": "Can translate 'corporate sustainability jargon' into accessible, engaging language for a working-class neighborhood."
+                },
+                {
+                    "id": 124,
+                    "level": "Meso",
+                    "domain": "Interpersonal Dynamics",
+                    "text": "Can identify and gracefully interrupt microaggressions during a community assembly."
+                },
+                {
+                    "id": 129,
+                    "level": "Meso",
+                    "domain": "Transformative Organizing",
+                    "text": "Can practice deep canvassing techniques to engage climate deniers in empathetic, shifting conversations."
+                },
+                {
+                    "id": 137,
+                    "level": "Meso",
+                    "domain": "Interpersonal Bridging",
+                    "text": "Can adapt communication styles (e.g., DISC, Enneagram) to bridge divides between disparate community stakeholders."
+                },
+                {
+                    "id": 146,
+                    "level": "Meso",
+                    "domain": "Neutral Facilitation",
+                    "text": "Can maintain a neutral, multi-partial stance when facilitating highly polarized environmental disputes."
+                },
+                {
+                    "id": 150,
+                    "level": "Meso",
+                    "domain": "Movement Health",
+                    "text": "Can tactfully dismantle purity culture and gatekeeping within vegan/zero-waste activist spaces."
+                },
+                {
+                    "id": 154,
+                    "level": "Meso",
+                    "domain": "Cultural Bridging",
+                    "text": "Can navigate the tension between 'professionalized' NGO culture and raw, grassroots activist culture."
+                },
+                {
+                    "id": 212,
+                    "level": "Meso",
+                    "domain": "Participatory Art",
+                    "text": "Can design a community mural process that genuinely incorporates the visions of unhoused residents."
+                },
+                {
+                    "id": 236,
+                    "level": "Meso",
+                    "domain": "Activist Training",
+                    "text": "Can teach the principles of 'Nonviolent Direct Action' (NVDA) to a group of first-time protesters."
+                },
+                {
+                    "id": 155,
+                    "level": "Macro",
+                    "domain": "Media Strategy",
+                    "text": "Can write a compelling press release that highlights the systemic roots of a local ecological disaster."
+                },
+                {
+                    "id": 213,
+                    "level": "Macro",
+                    "domain": "Social Justice",
+                    "text": "Can host a 'Speak-Out' or testimony circle for frontline communities experiencing environmental racism."
+                },
+                {
+                    "id": 254,
+                    "level": "Macro",
+                    "domain": "Subversive Media",
+                    "text": "Can design a grassroots media campaign that uses humor and satire to delegitimize fossil fuel greenwashing."
+                }
+            ],
+            "H2_Bridging": [
+                {
+                    "id": 15,
+                    "level": "Meso",
+                    "domain": "Conflict Transformation",
+                    "text": "Can mediate intergenerational conflicts regarding land-use transitions using restorative justice circle practices."
+                },
+                {
+                    "id": 17,
+                    "level": "Meso",
+                    "domain": "Social Architecture",
+                    "text": "Can design and facilitate participatory onboarding processes that build immediate psychological safety in decentralized teams."
+                },
+                {
+                    "id": 18,
+                    "level": "Meso",
+                    "domain": "Group Facilitation",
+                    "text": "Can host an 'Art of Hosting' or 'World Cafe' session to align 50+ community members on a shared regenerative vision."
+                },
+                {
+                    "id": 119,
+                    "level": "Meso",
+                    "domain": "Gamified Facilitation",
+                    "text": "Can guide a group through an 'Ecovillage Playing Cards' session to gamify community design."
+                },
+                {
+                    "id": 122,
+                    "level": "Meso",
+                    "domain": "Cultural Resilience",
+                    "text": "Can host a 'Death Cafe' to normalize conversations around mortality, collapse, and impermanence."
+                },
+                {
+                    "id": 126,
+                    "level": "Meso",
+                    "domain": "Value Alignment",
+                    "text": "Can mediate a dispute between local farmers and conservationists by finding shared underlying values."
+                },
+                {
+                    "id": 127,
+                    "level": "Meso",
+                    "domain": "Social Contracts",
+                    "text": "Can co-create a 'community agreement' charter that goes beyond rules to establish shared behavioral norms."
+                },
+                {
+                    "id": 130,
+                    "level": "Meso",
+                    "domain": "Systemic Mapping",
+                    "text": "Can facilitate a systemic constellation exercise to map hidden dynamics within an activist group."
+                },
+                {
+                    "id": 134,
+                    "level": "Meso",
+                    "domain": "Organizational Health",
+                    "text": "Can recognize and mitigate 'founder's syndrome' behaviors within the cultural fabric of an NGO."
+                },
+                {
+                    "id": 135,
+                    "level": "Meso",
+                    "domain": "Communication Cultures",
+                    "text": "Can foster an environment of 'radical candor' where critical feedback is given and received as an act of care."
+                },
+                {
+                    "id": 136,
+                    "level": "Meso",
+                    "domain": "Pacing Dynamics",
+                    "text": "Can hold space for the tension between 'urgent action' and 'slowing down to build trust' in activist circles."
+                },
+                {
+                    "id": 138,
+                    "level": "Meso",
+                    "domain": "Gift Economy Building",
+                    "text": "Can organize a neighborhood 'Buy Nothing' or barter economy to build local trust networks."
+                },
+                {
+                    "id": 140,
+                    "level": "Meso",
+                    "domain": "Inclusive Facilitation",
+                    "text": "Can facilitate a 'Fishbowl' conversation to bring marginalized voices to the center of a town hall."
+                },
+                {
+                    "id": 141,
+                    "level": "Meso",
+                    "domain": "Group Dynamics",
+                    "text": "Can identify when a group is stuck in 'analysis paralysis' and skillfully shift the energy toward prototyping."
+                },
+                {
+                    "id": 144,
+                    "level": "Meso",
+                    "domain": "Embodied Learning",
+                    "text": "Can use somatic theater or 'Theater of the Oppressed' techniques to explore power dynamics in a food co-op."
+                },
+                {
+                    "id": 148,
+                    "level": "Meso",
+                    "domain": "Open Source Culture",
+                    "text": "Can create a culture of 'working in the open' by transparently sharing organizational failures and learnings."
+                },
+                {
+                    "id": 151,
+                    "level": "Meso",
+                    "domain": "Tech Translation",
+                    "text": "Can translate complex tokenomic/Web3 structures into culturally understandable concepts for a rural community."
+                },
+                {
+                    "id": 152,
+                    "level": "Meso",
+                    "domain": "Mutual Aid",
+                    "text": "Can design a mutual aid network that prioritizes dignity and solidarity over charity and pity."
+                },
+                {
+                    "id": 156,
+                    "level": "Meso",
+                    "domain": "Work Culture Design",
+                    "text": "Can cultivate an organizational culture that defaults to asynchronous communication to respect deep work and rest."
+                },
+                {
+                    "id": 211,
+                    "level": "Meso",
+                    "domain": "Knowledge Transfer",
+                    "text": "Can facilitate a 'Makerspace' workshop teaching basic soldering and electronic repair to youth."
+                },
+                {
+                    "id": 214,
+                    "level": "Meso",
+                    "domain": "Intersectional Culture",
+                    "text": "Can weave an understanding of intersectional feminism into the core culture of a male-dominated tech-activist group."
+                },
+                {
+                    "id": 215,
+                    "level": "Meso",
+                    "domain": "Behavioral Change",
+                    "text": "Can design a playful, non-coercive incentive system to encourage neighbors to separate compostable waste."
+                },
+                {
+                    "id": 237,
+                    "level": "Meso",
+                    "domain": "Equity Facilitation",
+                    "text": "Can create a culturally safe space for BIPOC farmers to share knowledge outside of white-dominated agricultural spaces."
+                },
+                {
+                    "id": 238,
+                    "level": "Meso",
+                    "domain": "Culture of Sharing",
+                    "text": "Can curate a local 'Library of Things' catalog to make sharing tools and appliances culturally normative."
+                },
+                {
+                    "id": 253,
+                    "level": "Meso",
+                    "domain": "Heart-centered Dialogue",
+                    "text": "Can facilitate a 'Way of Council' circle to bypass intellectual debate and speak from the heart."
+                },
+                {
+                    "id": 268,
+                    "level": "Meso",
+                    "domain": "Gift Economy Culture",
+                    "text": "Can design a community skill-share network that bypasses monetary exchange completely."
+                },
+                {
+                    "id": 275,
+                    "level": "Meso",
+                    "domain": "Culture of Learning",
+                    "text": "Can host a 'PechaKucha' night focused exclusively on local regenerative failures and lessons learned."
+                },
+                {
+                    "id": 287,
+                    "level": "Meso",
+                    "domain": "Advanced Facilitation",
+                    "text": "Can use 'Deep Democracy' techniques to give voice to the 'terrorist' or 'saboteur' roles within a group unconscious."
+                },
+                {
+                    "id": 299,
+                    "level": "Meso",
+                    "domain": "Generative Dialogue",
+                    "text": "Can facilitate a 'Bohmian Dialogue' to suspend assumptions and create shared meaning without seeking consensus."
+                },
+                {
+                    "id": 125,
+                    "level": "Macro",
+                    "domain": "Large Group Facilitation",
+                    "text": "Can use Open Space Technology to self-organize a 3-day bioregional unconference."
+                },
+                {
+                    "id": 131,
+                    "level": "Macro",
+                    "domain": "Restorative Justice",
+                    "text": "Can design a 'Truth and Reconciliation' process for local communities harmed by historical extractive industries."
+                },
+                {
+                    "id": 145,
+                    "level": "Macro",
+                    "domain": "Linguistic Reframing",
+                    "text": "Can decode the underlying metaphors used in local politics and reframe them toward regenerative outcomes."
+                },
+                {
+                    "id": 157,
+                    "level": "Macro",
+                    "domain": "Cultural Curation",
+                    "text": "Can curate an art exhibition that transforms eco-anxiety into actionable, localized hope."
+                },
+                {
+                    "id": 235,
+                    "level": "Macro",
+                    "domain": "Foresight Facilitation",
+                    "text": "Can design and facilitate a 'Scenario Planning' workshop to explore 4 distinct climate futures for a city."
+                },
+                {
+                    "id": 256,
+                    "level": "Macro",
+                    "domain": "Adaptation Dialogue",
+                    "text": "Can mediate a community discussion on managed retreat from coastal areas facing inevitable sea-level rise."
+                },
+                {
+                    "id": 269,
+                    "level": "Macro",
+                    "domain": "Cross-cultural Narrative",
+                    "text": "Can use storytelling to bridge the gap between urban activists and rural agricultural workers."
+                },
+                {
+                    "id": 279,
+                    "level": "Macro",
+                    "domain": "Digital Sensemaking",
+                    "text": "Can facilitate a process of 'Collaborative Sensemaking' using tools like Pol.is to find consensus in large groups."
+                },
+                {
+                    "id": 283,
+                    "level": "Macro",
+                    "domain": "Network Weaving",
+                    "text": "Can coordinate a decentralized network of 'Transition Hubs' without establishing a central hierarchy."
+                }
+            ],
+            "H3_Radical": [
+                {
+                    "id": 132,
+                    "level": "Micro",
+                    "domain": "Pedagogy",
+                    "text": "Can teach complex systems thinking concepts to elementary school children using games and nature walks."
+                },
+                {
+                    "id": 123,
+                    "level": "Meso",
+                    "domain": "Cultural Ritual",
+                    "text": "Can design and enact a seasonal rite-of-passage ceremony for youth entering ecological stewardship."
+                },
+                {
+                    "id": 128,
+                    "level": "Meso",
+                    "domain": "Organizational Storytelling",
+                    "text": "Can craft a compelling narrative 'mythos' for a startup that roots its purpose in deep ecological time."
+                },
+                {
+                    "id": 139,
+                    "level": "Meso",
+                    "domain": "Knowledge Preservation",
+                    "text": "Can conduct an oral history interview with local elders to document pre-industrial ecological baselines."
+                },
+                {
+                    "id": 143,
+                    "level": "Meso",
+                    "domain": "Cultural Revaluation",
+                    "text": "Can design a collective celebration that honors the mundane, hidden labor of community maintenance."
+                },
+                {
+                    "id": 149,
+                    "level": "Meso",
+                    "domain": "Somatic Synchronization",
+                    "text": "Can lead a community choir or drum circle to synchronize group brainwaves before a strategic planning session."
+                },
+                {
+                    "id": 153,
+                    "level": "Meso",
+                    "domain": "Deep Ecology Practice",
+                    "text": "Can facilitate a 'Council of All Beings' exercise to build empathy for non-human life forms."
+                },
+                {
+                    "id": 239,
+                    "level": "Meso",
+                    "domain": "Sensory Education",
+                    "text": "Can lead a 'soundwalk' to help citizens tune into the acoustic ecology of their neighborhood."
+                },
+                {
+                    "id": 267,
+                    "level": "Meso",
+                    "domain": "Visionary Facilitation",
+                    "text": "Can facilitate a collaborative 'Dreaming Session' to envision a post-carbon city neighborhood."
+                },
+                {
+                    "id": 291,
+                    "level": "Meso",
+                    "domain": "Complex Sensemaking",
+                    "text": "Can foster 'Warm Data' (Bateson) spaces where complex, inter-relational qualitative data can be shared."
+                },
+                {
+                    "id": 16,
+                    "level": "Macro",
+                    "domain": "Cultural Narrative",
+                    "text": "Can synthesize diverse cultural narratives into a cohesive, motivating bioregional identity and mythology."
+                },
+                {
+                    "id": 21,
+                    "level": "Macro",
+                    "domain": "Decolonial Practice",
+                    "text": "Can establish and nurture deep, reciprocal relationships with local Indigenous elders and knowledge keepers."
+                },
+                {
+                    "id": 133,
+                    "level": "Macro",
+                    "domain": "Cultural Integration",
+                    "text": "Can weave local folklore, art, and music into a public presentation on watershed health."
+                },
+                {
+                    "id": 142,
+                    "level": "Macro",
+                    "domain": "Decolonial Protocols",
+                    "text": "Can navigate the cultural nuances of requesting permission to access or restore Indigenous-owned land."
+                },
+                {
+                    "id": 147,
+                    "level": "Macro",
+                    "domain": "Knowledge Equity",
+                    "text": "Can foster 'epistemic justice' by ensuring indigenous science is weighed equally with western academic science."
+                },
+                {
+                    "id": 216,
+                    "level": "Macro",
+                    "domain": "Cultural Reorientation",
+                    "text": "Can create a bioregional 'calendar' based on local phenology (blooms, migrations) rather than Gregorian months."
+                },
+                {
+                    "id": 217,
+                    "level": "Macro",
+                    "domain": "Digital Conflict Resolution",
+                    "text": "Can facilitate a conflict resolution process specifically designed for decentralized DAOs or remote networks."
+                },
+                {
+                    "id": 255,
+                    "level": "Macro",
+                    "domain": "Intergenerational Culture",
+                    "text": "Can foster a culture of 'elderhood' by systematically seeking out and valuing the wisdom of older generations."
+                },
+                {
+                    "id": 295,
+                    "level": "Macro",
+                    "domain": "Cultural Law",
+                    "text": "Can translate 'Rights of Nature' into actionable indigenous cultural protocols for local land users."
+                }
+            ]
+        },
+        "LR - Social/Systems": {
+            "H1_Hospicing": [
+                {
+                    "id": 163,
+                    "level": "Meso",
+                    "domain": "Grant Writing",
+                    "text": "Can identify and apply for specific USDA or EU agricultural grants supporting transition to agroforestry."
+                },
+                {
+                    "id": 170,
+                    "level": "Meso",
+                    "domain": "Ethical Finance",
+                    "text": "Can audit an organization's bank accounts and transition funds to credit unions or fossil-free banks."
+                },
+                {
+                    "id": 177,
+                    "level": "Meso",
+                    "domain": "Food Access",
+                    "text": "Can create a dynamic pricing model for a community-supported agriculture (CSA) program based on income tiers."
+                },
+                {
+                    "id": 183,
+                    "level": "Meso",
+                    "domain": "Institutional Transition",
+                    "text": "Can create a transition roadmap for a hospital to achieve zero-waste operations within 10 years."
+                },
+                {
+                    "id": 240,
+                    "level": "Meso",
+                    "domain": "Product Ecology",
+                    "text": "Can draft an ecological 'Bill of Material' for a consumer product, tracing all elements back to the earth."
+                },
+                {
+                    "id": 26,
+                    "level": "Macro",
+                    "domain": "Urban Metabolism",
+                    "text": "Can map the metabolic material flows (water, energy, waste) through a specific urban neighborhood to identify circular interventions."
+                },
+                {
+                    "id": 29,
+                    "level": "Macro",
+                    "domain": "Systems Audit",
+                    "text": "Can conduct a life cycle assessment (LCA) to audit the true cost of legacy supply chains."
+                },
+                {
+                    "id": 159,
+                    "level": "Macro",
+                    "domain": "Carbon Accounting",
+                    "text": "Can conduct a supply chain audit to identify Scope 3 emissions for a mid-sized regional business."
+                },
+                {
+                    "id": 178,
+                    "level": "Macro",
+                    "domain": "Power Mapping",
+                    "text": "Can map the influence of corporate lobbying within a specific regional environmental regulatory body."
+                },
+                {
+                    "id": 186,
+                    "level": "Macro",
+                    "domain": "Urban Planning",
+                    "text": "Can audit a city's public transit network to propose micro-mobility integrations to solve the 'last mile' problem."
+                },
+                {
+                    "id": 191,
+                    "level": "Macro",
+                    "domain": "Carbon Markets",
+                    "text": "Can evaluate carbon offset projects for 'additionality' and 'permanence' to avoid greenwashed solutions."
+                },
+                {
+                    "id": 218,
+                    "level": "Macro",
+                    "domain": "Financial Forensics",
+                    "text": "Can map the flow of venture capital in a region to expose the financial drivers of local gentrification."
+                },
+                {
+                    "id": 222,
+                    "level": "Macro",
+                    "domain": "Energetics",
+                    "text": "Can calculate the EROI (Energy Return on Investment) of a proposed transition project to ensure viability."
+                },
+                {
+                    "id": 244,
+                    "level": "Macro",
+                    "domain": "Urban Systems",
+                    "text": "Can map the 'Food Swamp' and 'Food Desert' metrics of a city to propose targeted urban agriculture interventions."
+                },
+                {
+                    "id": 260,
+                    "level": "Macro",
+                    "domain": "Institutional Divestment",
+                    "text": "Can audit a municipality's pension fund to identify fossil fuel exposures and propose divestment strategies."
+                },
+                {
+                    "id": 271,
+                    "level": "Macro",
+                    "domain": "Supply Chain Mapping",
+                    "text": "Can map the global supply chain of a specific critical mineral (e.g., cobalt, lithium) to identify systemic vulnerabilities."
+                },
+                {
+                    "id": 288,
+                    "level": "Macro",
+                    "domain": "Carbon Governance",
+                    "text": "Can structure a municipal 'Carbon Budget' aligned with 1.5C, breaking it down into departmental quotas."
+                }
+            ],
+            "H2_Bridging": [
+                {
+                    "id": 25,
+                    "level": "Meso",
+                    "domain": "Alternative Governance",
+                    "text": "Can draft legal bylaws and governance protocols for a multi-stakeholder platform cooperative."
+                },
+                {
+                    "id": 27,
+                    "level": "Meso",
+                    "domain": "Regenerative Finance",
+                    "text": "Can structure a blended-finance funding model stacking grants, impact investments, and local crowd-equity."
+                },
+                {
+                    "id": 28,
+                    "level": "Meso",
+                    "domain": "Organizational Design",
+                    "text": "Can implement Sociocracy or Holacracy decision-making frameworks within a rapidly scaling transition organization."
+                },
+                {
+                    "id": 38,
+                    "level": "Meso",
+                    "domain": "Regenerative Finance",
+                    "text": "Can construct a diversified, non-extractive investment portfolio for a community trust."
+                },
+                {
+                    "id": 161,
+                    "level": "Meso",
+                    "domain": "Legal Structures",
+                    "text": "Can map out the legal steps required to transition an LLC into a worker-owned cooperative."
+                },
+                {
+                    "id": 162,
+                    "level": "Meso",
+                    "domain": "Alternative Economics",
+                    "text": "Can structure a Timebank system to capture and exchange non-monetized labor within a neighborhood."
+                },
+                {
+                    "id": 169,
+                    "level": "Meso",
+                    "domain": "Sharing Economy",
+                    "text": "Can set up a local tool library, including liability waivers, inventory tracking, and membership structures."
+                },
+                {
+                    "id": 179,
+                    "level": "Meso",
+                    "domain": "Digital Infrastructure",
+                    "text": "Can set up the organizational infrastructure (Slack, Notion, Loom) for a globally distributed, asynchronous transition team."
+                },
+                {
+                    "id": 185,
+                    "level": "Meso",
+                    "domain": "Communication Infrastructure",
+                    "text": "Can design a local mesh network to provide decentralized internet access to a neighborhood."
+                },
+                {
+                    "id": 188,
+                    "level": "Meso",
+                    "domain": "Institutional Policy",
+                    "text": "Can write procurement policies for a university that mandate sourcing 30% of food from local regenerative farms."
+                },
+                {
+                    "id": 193,
+                    "level": "Meso",
+                    "domain": "Adaptive Governance",
+                    "text": "Can create an adaptive management plan for a conservation area that adjusts to real-time climate feedback."
+                },
+                {
+                    "id": 221,
+                    "level": "Meso",
+                    "domain": "Genetic Commons",
+                    "text": "Can structure a regional seed library with protocols for tracking provenance, germination rates, and fair distribution."
+                },
+                {
+                    "id": 223,
+                    "level": "Meso",
+                    "domain": "Civic Organization",
+                    "text": "Can establish a 'Transition Town' steering committee utilizing sociocratic circle structures."
+                },
+                {
+                    "id": 259,
+                    "level": "Meso",
+                    "domain": "Alternative Finance",
+                    "text": "Can structure an 'Evergreen Fund' model to finance regenerative startups without requiring a liquidity exit."
+                },
+                {
+                    "id": 22,
+                    "level": "Macro",
+                    "domain": "Systems Mapping",
+                    "text": "Can map the causal loops, feedback delays, and leverage points in a local bioregional food and waste system."
+                },
+                {
+                    "id": 34,
+                    "level": "Macro",
+                    "domain": "Policy Hacking",
+                    "text": "Can identify leverage points in municipal zoning codes to advocate for regenerative housing developments."
+                },
+                {
+                    "id": 164,
+                    "level": "Macro",
+                    "domain": "Industrial Ecology",
+                    "text": "Can map the regional flow of organic waste and match it as an input for local agricultural projects."
+                },
+                {
+                    "id": 168,
+                    "level": "Macro",
+                    "domain": "Policy Hacking",
+                    "text": "Can draft municipal zoning amendment proposals that legalize composting toilets and greywater systems."
+                },
+                {
+                    "id": 172,
+                    "level": "Macro",
+                    "domain": "Disaster Resilience",
+                    "text": "Can map out an emergency localized supply chain for essential medicines and food in case of grid failure."
+                },
+                {
+                    "id": 173,
+                    "level": "Macro",
+                    "domain": "Ecological Economics",
+                    "text": "Can structure a 'Payment for Ecosystem Services' (PES) program between a city and upstream farmers."
+                },
+                {
+                    "id": 175,
+                    "level": "Macro",
+                    "domain": "Civic Economics",
+                    "text": "Can analyze municipal budgets to identify funds that can be reallocated through Participatory Budgeting."
+                },
+                {
+                    "id": 181,
+                    "level": "Macro",
+                    "domain": "Systems Dynamics",
+                    "text": "Can conduct a 'leverage point analysis' (per Donella Meadows) on a local affordable housing crisis."
+                },
+                {
+                    "id": 182,
+                    "level": "Macro",
+                    "domain": "Risk Mutualization",
+                    "text": "Can design an insurance pool mechanism for local farmers to mutualize risk against extreme weather events."
+                },
+                {
+                    "id": 189,
+                    "level": "Macro",
+                    "domain": "Historical Analysis",
+                    "text": "Can map the historical enclosures of the commons in a specific region to inform strategies for 'commoning' new resources."
+                },
+                {
+                    "id": 192,
+                    "level": "Macro",
+                    "domain": "Community Ownership",
+                    "text": "Can structure a crowdfunded community buyout of a local failing, fossil-dependent utility."
+                },
+                {
+                    "id": 196,
+                    "level": "Macro",
+                    "domain": "Resilience Planning",
+                    "text": "Can model the systemic economic shock of a localized grid failure and design mitigation strategies."
+                },
+                {
+                    "id": 220,
+                    "level": "Macro",
+                    "domain": "Intellectual Property",
+                    "text": "Can draft an open-source hardware license that prevents corporate patenting of community-developed eco-tech."
+                },
+                {
+                    "id": 224,
+                    "level": "Macro",
+                    "domain": "Infrastructure Design",
+                    "text": "Can architect a regional transit system that prioritizes non-motorized and public transport over private EVs."
+                },
+                {
+                    "id": 242,
+                    "level": "Macro",
+                    "domain": "Bureaucratic Navigation",
+                    "text": "Can structure a 'Dark Matter' analysis to find the invisible regulatory/bureaucratic blockers to local climate action."
+                },
+                {
+                    "id": 258,
+                    "level": "Macro",
+                    "domain": "Global Commons",
+                    "text": "Can draft an open-source agreement for a hardware cooperative to share CNC routing files globally."
+                },
+                {
+                    "id": 270,
+                    "level": "Macro",
+                    "domain": "Tech Cooperatives",
+                    "text": "Can structure a 'Platform Cooperative' for gig workers (e.g., delivery drivers) to own their own dispatch app."
+                },
+                {
+                    "id": 284,
+                    "level": "Macro",
+                    "domain": "Macro Social Policy",
+                    "text": "Can analyze the systemic impacts of Universal Basic Income (UBI) on local ecological transition rates."
+                },
+                {
+                    "id": 292,
+                    "level": "Macro",
+                    "domain": "Resource Rationing",
+                    "text": "Can design a local 'Cap and Share' program for fossil fuel rationing at the municipal level."
+                },
+                {
+                    "id": 296,
+                    "level": "Macro",
+                    "domain": "Hardware Co-ops",
+                    "text": "Can structure an open-source hardware cooperative specifically for producing appropriate agricultural tech."
+                },
+                {
+                    "id": 301,
+                    "level": "Macro",
+                    "domain": "Transition Design",
+                    "text": "Can design a bioregional transition strategy that integrates H1 hospicing, H2 bridge-building, and H3 radical innovation."
+                }
+            ],
+            "H3_Radical": [
+                {
+                    "id": 23,
+                    "level": "Meso",
+                    "domain": "Permaculture Design",
+                    "text": "Can create a comprehensive land plan for an area (e.g., an ecovillage) integrating water, energy, shelter, and food systems."
+                },
+                {
+                    "id": 180,
+                    "level": "Meso",
+                    "domain": "Alternative Accounting",
+                    "text": "Can draft an 'open-value network' accounting system to track and reward contributions in a decentralized project."
+                },
+                {
+                    "id": 184,
+                    "level": "Meso",
+                    "domain": "Enterprise Design",
+                    "text": "Can structure a legal 'Stewardship Ownership' model (e.g., golden share) to permanently protect a company's regenerative mission."
+                },
+                {
+                    "id": 195,
+                    "level": "Meso",
+                    "domain": "Micro-Governance",
+                    "text": "Can draft an overarching constitution for an ecovillage outlining dispute resolution, membership, and ecological limits."
+                },
+                {
+                    "id": 241,
+                    "level": "Meso",
+                    "domain": "Energy Democracy",
+                    "text": "Can set up a local 'Energy Community' legal framework allowing neighbors to trade solar power peer-to-peer."
+                },
+                {
+                    "id": 24,
+                    "level": "Macro",
+                    "domain": "Regenerative Economics",
+                    "text": "Can design a tokenomic model or complementary currency that explicitly incentivizes carbon sequestration and biodiversity net gain."
+                },
+                {
+                    "id": 32,
+                    "level": "Macro",
+                    "domain": "Digital Commons",
+                    "text": "Can architect an open-source data commons for sharing bioregional ecological health metrics."
+                },
+                {
+                    "id": 158,
+                    "level": "Macro",
+                    "domain": "Alternative Property",
+                    "text": "Can draft an operating agreement for a Community Land Trust (CLT) that removes land from the speculative market."
+                },
+                {
+                    "id": 160,
+                    "level": "Macro",
+                    "domain": "ReFi (Regenerative Finance)",
+                    "text": "Can design a 'smart contract' on a blockchain to automate payouts for verified regenerative agricultural practices."
+                },
+                {
+                    "id": 165,
+                    "level": "Macro",
+                    "domain": "Macroeconomics",
+                    "text": "Can implement the 'Doughnut Economics' city portrait methodology for a specific municipality."
+                },
+                {
+                    "id": 166,
+                    "level": "Macro",
+                    "domain": "Digital Governance",
+                    "text": "Can design a governance structure using 'Liquid Democracy' principles for a decentralized network."
+                },
+                {
+                    "id": 167,
+                    "level": "Macro",
+                    "domain": "Ecological Economics",
+                    "text": "Can calculate the localized carrying capacity and bio-capacity of a specific watershed."
+                },
+                {
+                    "id": 171,
+                    "level": "Macro",
+                    "domain": "Data Governance",
+                    "text": "Can architect a 'Data Trust' to steward local ecological data on behalf of a community, preventing corporate extraction."
+                },
+                {
+                    "id": 174,
+                    "level": "Macro",
+                    "domain": "Earth Jurisprudence",
+                    "text": "Can legally structure an 'inter-species trust' that gives legal personhood and financial assets to a river or forest."
+                },
+                {
+                    "id": 176,
+                    "level": "Macro",
+                    "domain": "Web3 Design",
+                    "text": "Can design an algorithmic reputation system for a DAO that rewards pro-social, regenerative behavior over capital investment."
+                },
+                {
+                    "id": 187,
+                    "level": "Macro",
+                    "domain": "Democratic Innovation",
+                    "text": "Can structure a bioregional assembly of citizens drawn by sortition (lottery) to deliberate on climate action."
+                },
+                {
+                    "id": 190,
+                    "level": "Macro",
+                    "domain": "Textile Systems",
+                    "text": "Can design a 'circular fashion' localized supply chain integrating local fiber production, milling, and garment repair."
+                },
+                {
+                    "id": 194,
+                    "level": "Macro",
+                    "domain": "Advanced Accounting",
+                    "text": "Can design an algorithmic framework to track and internalize externalized social costs in a corporate balance sheet."
+                },
+                {
+                    "id": 219,
+                    "level": "Macro",
+                    "domain": "Earth Jurisprudence",
+                    "text": "Can design a 'Rights of Nature' legal framework for a local municipality to protect a specific ecosystem."
+                },
+                {
+                    "id": 243,
+                    "level": "Macro",
+                    "domain": "Web3 Incentives",
+                    "text": "Can design a tokenomic airdrop that specifically rewards early contributors to an open-source ecology project."
+                },
+                {
+                    "id": 257,
+                    "level": "Macro",
+                    "domain": "Monetary Design",
+                    "text": "Can design a 'Transition Currency' that decays in value over time (demurrage) to stimulate local circulation."
+                },
+                {
+                    "id": 272,
+                    "level": "Macro",
+                    "domain": "Bioregional Governance",
+                    "text": "Can design a 'Bioregional State' governance model based on watersheds rather than arbitrary colonial borders."
+                },
+                {
+                    "id": 276,
+                    "level": "Macro",
+                    "domain": "Market Design",
+                    "text": "Can structure a 'Dark Pool' carbon credit mechanism that prevents speculative trading of ecological assets."
+                },
+                {
+                    "id": 280,
+                    "level": "Macro",
+                    "domain": "AI Governance",
+                    "text": "Can draft a 'Stewardship Protocol' for an AI system to ensure its objectives align with bioregional health."
+                },
+                {
+                    "id": 300,
+                    "level": "Macro",
+                    "domain": "Parametric Insurance",
+                    "text": "Can design an algorithmic 'Smart Contract' that automatically funds local climate adaptation based on weather triggers."
+                }
+            ]
+        }
+    }
+}

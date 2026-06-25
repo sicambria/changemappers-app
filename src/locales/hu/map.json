@@ -1,0 +1,174 @@
+{
+  "loading": "Térkép betöltése...",
+  "title": "Térkép",
+  "discover": "Felfedezés",
+  "layers": {
+    "title": "Rétegek",
+    "communities": "Közösségek",
+    "individuals": "Emberek",
+    "events": "Események",
+    "issues": "Társadalmi problémák",
+    "projects": "Projektek",
+    "all": "Összes",
+    "showLayer": "Réteg megjelenítése",
+    "hideLayer": "Réteg elrejtése",
+    "signals": "Jelek"
+  },
+  "filters": {
+    "title": "Szűrők",
+    "clear": "Szűrők törlése",
+    "apply": "Szűrők alkalmazása",
+    "search": "Keresés...",
+    "location": {
+      "title": "Távolság",
+      "radius": "Sugár",
+      "km5": "5 km",
+      "km30": "30 km",
+      "km100": "100 km",
+      "km500": "500 km",
+      "anywhere": "Bárhol"
+    },
+    "communityType": {
+      "title": "Közösség Típusa",
+      "all": "Bármilyen típus",
+      "natureConnectedEcoHub": "Természet-Kapcsolódó Öko Hub",
+      "healingSanctuary": "Gyógyító Szentély",
+      "inclusiveSupportNetwork": "Inkluzív Támogató Hálózat",
+      "creativeArtsColony": "Kreatív Művésztelep",
+      "egalitarianLiving": "Egalitárius Életmód",
+      "spiritualHaven": "Spirituális Menedék",
+      "knowledgeHub": "Tudásközpont",
+      "nomadicNetwork": "Nomád Hálózat",
+      "regenerativeEconomic": "Regeneratív Gazdaság",
+      "visionaryModelCity": "Víziós Modellváros",
+      "earthRegenerationCenter": "Föld-Regenerációs Központ",
+      "frontlineActivist": "Élvonalbeli Aktivista",
+      "other": "Egyéb"
+    },
+    "changemakeLevel": {
+      "title": "Jövőképzői Szint",
+      "all": "Bármilyen szint",
+      "level1": "1. Passzív Együttérző",
+      "level2": "2. Tudatos Fogyasztó",
+      "level3": "3. Hangos Szószóló",
+      "level4": "4. Helyi Szervező",
+      "level5": "5. Megoldás Innovátor",
+      "level6": "6. Stratégiai Skálázó",
+      "level7": "7. Rendszergondolkodó",
+      "level8": "8. Paradigmaváltó",
+      "level9": "9. Globális Katalizátor"
+    },
+    "archetype": {
+      "title": "Archetípus",
+      "all": "Összes típus",
+      "placeholder": "Válassz archetípusokat..."
+    },
+    "rdg": {
+      "title": "RDG Területek",
+      "placeholder": "Válassz RDG területeket..."
+    },
+    "availability": {
+      "title": "Elérhetőség",
+      "placeholder": "Válassz elérhetőséget..."
+    },
+    "skills": {
+      "title": "Készségek",
+      "placeholder": "Válassz készségeket..."
+    },
+    "values": {
+      "title": "Értékek",
+      "placeholder": "Válassz értékeket..."
+    },
+    "needs": {
+      "title": "Igények",
+      "placeholder": "Válassz igényeket..."
+    },
+    "offers": {
+      "title": "Kínálatok",
+      "placeholder": "Válassz kínálatokat..."
+    },
+    "interests": {
+      "title": "Érdeklődések",
+      "select": "Válassz érdeklődéseket"
+    }
+  },
+  "searchableFilter": {
+    "selectPlaceholder": "Válassz...",
+    "searchPlaceholder": "Keresés...",
+    "noResults": "Nincs találat.",
+    "clearAll": "Összes törlése"
+  },
+  "search": {
+    "placeholder": "Keresés közösségek, emberek között...",
+    "noResults": "Nincs találat",
+    "tryDifferent": "Próbálj más szűrőket"
+  },
+  "controls": {
+    "searchPlaceholder": "Keresés...",
+    "mapView": "Térkép nézet",
+    "listView": "Lista nézet",
+    "zoomIn": "Közelítés",
+    "zoomOut": "Távolítás",
+    "myLocation": "Saját helyzet"
+  },
+  "listView": {
+    "noResults": "Nincs találat"
+  },
+  "accessibility": {
+    "signal": "jel",
+    "signalMarker": "{{name}}, {{domain}}, {{confidence}} megbízhatóság",
+    "clusterMembers": "Csoporttagok",
+    "recentlyActive": "Nemrég aktív"
+  },
+  "preview": {
+    "memberCount": "{{count}} tag",
+    "appreciateCount": "{{count}} Appreciate",
+    "changemakeLevel": "{{level}}. szintű jövőképző",
+    "viewSignal": "Jel megtekintése",
+    "viewProfile": "Profil megtekintése",
+    "viewCommunity": "Közösség megtekintése",
+    "viewEvent": "Esemény megtekintése",
+    "viewIssue": "Ügy megtekintése"
+  },
+  "planet": {
+    "title": "Bolygó nézet",
+    "activeChangemakers": "{{count}} aktív változtató",
+    "map2dView": "2D Térkép nézet",
+    "globeUnavailable": "A 3D bolygónézet nem elérhető ezen az eszközön. Helyette a 2D térkép jelenik meg.",
+    "filterMarkerType": "Elem típusa",
+    "filterRdg": "RDG Területek",
+    "closePopup": "Bezárás",
+    "loading": "Bolygó betöltése...",
+    "detailsAbout": "Leírás",
+    "detailsLocation": "Hely",
+    "detailsProfile": "Részletek",
+    "detailsArchetypes": "Archetípusok",
+    "detailsRdgs": "RDG területek",
+    "detailsSkills": "Készségek",
+    "detailsOffers": "Felajánlások",
+    "detailsNeeds": "Igények",
+    "detailsValues": "Értékek",
+    "detailsAvailability": "Elérhetőség",
+    "detailsTags": "Címkék",
+    "latitude": "Szélesség",
+    "longitude": "Hosszúság",
+    "changemakeLevel": "Jövőképzői szint",
+    "communityType": "Közösségtípus",
+    "eventType": "Eseménytípus",
+    "issueCategory": "Ügykategória",
+    "issueSeverity": "Súlyosság",
+    "signalDomain": "Jel területe",
+    "signalConfidence": "Bizonyosság",
+    "signalNovelty": "Újdonság",
+    "feedToggle": "Hírek",
+    "eventsToggle": "Események",
+    "feedPanelKicker": "Bolygófolyam",
+    "feedPanelTitle": "Hírek",
+    "eventsPanelKicker": "Közelgő",
+    "eventsPanelTitle": "Események",
+    "openFullFeed": "Hírek megnyitása",
+    "openFullEvents": "Események megnyitása",
+    "closeSidebar": "Oldalsáv bezárása",
+    "eventsEmpty": "Még nincsenek közelgő események"
+  }
+}

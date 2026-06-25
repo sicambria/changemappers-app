@@ -1,0 +1,383 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@import './excalidraw.css';
+@import 'react-big-calendar/lib/css/react-big-calendar.css';
+@import 'leaflet/dist/leaflet.css';
+@import 'leaflet.markercluster/dist/MarkerCluster.css';
+@import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+
+:root {
+  color-scheme: light;
+  --background: #fafafa;
+  --foreground: #171717;
+  --journal-bg: #FDFBF7;
+  --journal-text: #2D2D2D;
+  --journal-accent: #A3B18A;
+  --journal-secondary: #D4A373;
+  --journal-light: #E6E2DD;
+  --journal-dark: #1a1a1a;
+  --journal-science: #E0E7FF;
+  --journal-science-text: #4338ca;
+}
+
+@theme {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-journal-bg: var(--journal-bg, #FDFBF7);
+  --color-journal-text: var(--journal-text, #2D2D2D);
+  --color-journal-accent: var(--journal-accent, #A3B18A);
+  --color-journal-secondary: var(--journal-secondary, #D4A373);
+  --color-journal-light: var(--journal-light, #E6E2DD);
+  --color-journal-dark: var(--journal-dark, #1a1a1a);
+  --color-journal-science: var(--journal-science, #E0E7FF);
+  --color-journal-science-text: var(--journal-science-text, #4338ca);
+  --font-sans: var(--font-inter), system-ui, sans-serif;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #030712;
+  --foreground: #f3f4f6;
+  --journal-bg: #1a1a1a;
+  --journal-text: #f3f4f6;
+  --journal-accent: #A3B18A;
+  --journal-secondary: #D4A373;
+  --journal-light: #2D2D2D;
+  --journal-dark: #030712;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+.dashboard-action-router {
+  background-color: #f8fafc;
+  background-image:
+    radial-gradient(at 0% 0%, hsla(153, 100%, 96%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 0%, hsla(210, 100%, 96%, 1) 0, transparent 50%),
+    radial-gradient(at 100% 100%, hsla(43, 100%, 96%, 1) 0, transparent 50%);
+  background-attachment: fixed;
+}
+
+.dark .dashboard-action-router {
+  background-color: #020617;
+  background-image:
+    radial-gradient(at 0% 0%, rgba(6, 78, 59, 0.28) 0, transparent 46%),
+    radial-gradient(at 100% 0%, rgba(14, 116, 144, 0.18) 0, transparent 48%),
+    radial-gradient(at 100% 100%, rgba(120, 53, 15, 0.14) 0, transparent 50%);
+}
+
+html.fullscreen-zoom-route,
+body.fullscreen-zoom-route,
+html[data-fullscreen-zoom-route='true'],
+body[data-fullscreen-zoom-route='true'] {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+
+/* Theme compatibility layer for page-local utilities.
+   Many older routes use raw light or dark Tailwind color utilities without an
+   explicit opposite-theme variant. These fallbacks keep theme switching usable
+   while preserving authored dark: variants when they exist on the same element. */
+@layer utilities {
+  .dark :where(
+    [class~="bg-white"],
+    [class~="bg-gray-50"],
+    [class~="bg-gray-100"],
+    [class~="bg-slate-50"],
+    [class~="bg-slate-100"],
+    [class~="bg-zinc-50"],
+    [class~="bg-neutral-50"],
+    [class~="bg-stone-50"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(17 24 39);
+  }
+
+  .dark :where(
+    [class~="bg-gray-200"],
+    [class~="bg-slate-200"],
+    [class~="bg-zinc-100"],
+    [class~="bg-neutral-100"],
+    [class~="bg-stone-100"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(31 41 55);
+  }
+
+  .dark :where(
+    [class~="bg-emerald-50"],
+    [class~="bg-emerald-50/30"],
+    [class~="bg-emerald-50/50"],
+    [class~="bg-emerald-100"],
+    [class~="bg-emerald-100/80"],
+    [class~="bg-teal-50"],
+    [class~="bg-teal-100"],
+    [class~="bg-cyan-50"],
+    [class~="bg-cyan-100"],
+    [class~="bg-green-50"],
+    [class~="bg-green-100"],
+    [class~="bg-lime-50"],
+    [class~="bg-lime-100"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(6 78 59 / 0.35);
+  }
+
+  .dark :where(
+    [class~="bg-blue-50"],
+    [class~="bg-blue-100"],
+    [class~="bg-sky-50"],
+    [class~="bg-sky-100"],
+    [class~="bg-indigo-50"],
+    [class~="bg-indigo-100"],
+    [class~="bg-purple-50"],
+    [class~="bg-purple-100"],
+    [class~="bg-violet-50"],
+    [class~="bg-violet-100"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(30 41 59 / 0.65);
+  }
+
+  .dark :where(
+    [class~="bg-amber-50"],
+    [class~="bg-amber-100"],
+    [class~="bg-yellow-50"],
+    [class~="bg-yellow-100"],
+    [class~="bg-orange-50"],
+    [class~="bg-orange-100"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(120 53 15 / 0.35);
+  }
+
+  .dark :where(
+    [class~="bg-red-50"],
+    [class~="bg-red-100"],
+    [class~="bg-rose-50"],
+    [class~="bg-rose-100"],
+    [class~="bg-pink-50"],
+    [class~="bg-pink-100"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(127 29 29 / 0.35);
+  }
+
+  .dark :where(
+    [class~="text-gray-950"],
+    [class~="text-gray-900"],
+    [class~="text-slate-950"],
+    [class~="text-slate-900"],
+    [class~="text-zinc-900"],
+    [class~="text-neutral-900"],
+    [class~="text-stone-900"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(243 244 246);
+  }
+
+  .dark :where(
+    [class~="text-gray-800"],
+    [class~="text-gray-700"],
+    [class~="text-slate-800"],
+    [class~="text-slate-700"],
+    [class~="text-zinc-800"],
+    [class~="text-neutral-800"],
+    [class~="text-stone-800"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(209 213 219);
+  }
+
+  .dark :where(
+    [class~="text-gray-600"],
+    [class~="text-gray-500"],
+    [class~="text-slate-600"],
+    [class~="text-slate-500"],
+    [class~="text-zinc-600"],
+    [class~="text-neutral-600"],
+    [class~="text-stone-600"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(156 163 175);
+  }
+
+  .dark :where(
+    [class~="text-emerald-800"],
+    [class~="text-emerald-700"],
+    [class~="text-emerald-600"],
+    [class~="text-teal-800"],
+    [class~="text-teal-700"],
+    [class~="text-teal-600"],
+    [class~="text-green-800"],
+    [class~="text-green-700"],
+    [class~="text-green-600"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(110 231 183);
+  }
+
+  .dark :where(
+    [class~="text-blue-800"],
+    [class~="text-blue-700"],
+    [class~="text-blue-600"],
+    [class~="text-sky-700"],
+    [class~="text-indigo-700"],
+    [class~="text-purple-700"],
+    [class~="text-violet-700"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(147 197 253);
+  }
+
+  .dark :where(
+    [class~="text-amber-950"],
+    [class~="text-amber-800"],
+    [class~="text-amber-700"],
+    [class~="text-yellow-800"],
+    [class~="text-orange-800"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(252 211 77);
+  }
+
+  .dark :where(
+    [class~="text-red-800"],
+    [class~="text-red-700"],
+    [class~="text-red-600"],
+    [class~="text-rose-700"],
+    [class~="text-pink-700"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(252 165 165);
+  }
+
+  .dark :where(
+    [class~="border-gray-100"],
+    [class~="border-gray-200"],
+    [class~="border-gray-300"],
+    [class~="border-slate-100"],
+    [class~="border-slate-200"],
+    [class~="border-slate-300"],
+    [class~="border-zinc-200"],
+    [class~="border-neutral-200"],
+    [class~="border-stone-200"],
+    [class~="divide-gray-200"],
+    [class~="divide-slate-200"]
+  ):not([class*="dark:border-"]):not([class*="dark:divide-"]) {
+    border-color: rgb(55 65 81);
+  }
+
+  .dark :where(
+    [class~="border-emerald-100"],
+    [class~="border-emerald-200"],
+    [class~="border-teal-100"],
+    [class~="border-teal-200"],
+    [class~="border-green-200"],
+    [class~="border-red-200"],
+    [class~="border-amber-200"],
+    [class~="border-yellow-200"],
+    [class~="border-blue-200"]
+  ):not([class*="dark:border-"]) {
+    border-color: rgb(75 85 99);
+  }
+
+  .dark :where(
+    [class~="placeholder-gray-400"],
+    [class~="placeholder-gray-500"],
+    [class~="placeholder-slate-400"]
+  ):not([class*="dark:placeholder-"])::placeholder {
+    color: rgb(156 163 175);
+  }
+
+  html:not(.dark) :where(
+    [class~="bg-slate-950"],
+    [class~="bg-slate-900"],
+    [class~="bg-gray-950"],
+    [class~="bg-gray-900"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(248 250 252);
+  }
+
+  html:not(.dark) :where(
+    [class~="bg-slate-800"],
+    [class~="bg-slate-800/60"],
+    [class~="bg-slate-700"],
+    [class~="bg-emerald-950"]
+  ):not([class*="dark:bg-"]) {
+    background-color: rgb(255 255 255);
+  }
+
+  html:not(.dark) :where(
+    [class~="text-slate-100"],
+    [class~="text-slate-200"],
+    [class~="text-slate-300"],
+    [class~="text-gray-100"],
+    [class~="text-gray-200"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(15 23 42);
+  }
+
+  html:not(.dark) :where(
+    [class~="text-slate-400"],
+    [class~="text-slate-500"],
+    [class~="text-gray-400"],
+    [class~="text-gray-500"]
+  ):not([class*="dark:text-"]) {
+    color: rgb(71 85 105);
+  }
+
+  html:not(.dark) :where(
+    [class~="border-slate-800"],
+    [class~="border-slate-700"],
+    [class~="border-gray-800"],
+    [class~="border-gray-700"],
+    [class~="border-emerald-800"]
+  ):not([class*="dark:border-"]) {
+    border-color: rgb(203 213 225);
+  }
+}
+
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus visible styles for accessibility */
+:focus-visible {
+  outline: 2px solid #10b981;
+  outline-offset: 2px;
+}
+
+/* Selection styles */
+::selection {
+  background-color: #10b981;
+  /* Dark emerald text on the brand emerald highlight — meets WCAG AA contrast
+     (~6.5:1) where white-on-emerald (~1.9:1) did not. */
+  color: #022c22;
+}
+
+/* Bottom bar news ticker */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-marquee {
+  animation: marquee 45s linear infinite;
+}
+
+/*
+ * Accessibility: honor prefers-reduced-motion (2026-06-18 audit G6 / WCAG 2.3.3
+ * + 2.2.2). Users who request reduced motion get near-instant animations and a
+ * static news ticker instead of the 45s infinite marquee. Global reset so every
+ * animation/transition/scroll respects the preference without per-component work.
+ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-marquee {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "title": "Feed",
+  "description": "Comparte actualizaciones, conéctate con la comunidad",
+  "backToFeed": "Volver al Feed",
+  "post": {
+    "title": "Nueva Publicación",
+    "placeholder": "Comparte algo con la comunidad...",
+    "inspirationPlaceholder": "¿Qué te inspira hoy?",
+    "composerDialogLabel": "Crear una publicación",
+    "submit": "Publicar",
+    "edit": "Editar Publicación",
+    "delete": "Eliminar Publicación",
+    "deleteConfirm": "¿Estás seguro de que quieres eliminar esta publicación?",
+    "visibility": "Visibilidad",
+    "visibilityPublic": "Público",
+    "visibilityRegistered": "Usuarios Registrados",
+    "visibilityInternal": "Interno",
+    "sourceType": "Tipo de Publicación",
+    "sourcePersonal": "Personal",
+    "sourceCommunity": "Comunidad",
+    "sourceEvent": "Evento",
+    "createSuccess": "Publicación creada con éxito",
+    "deleteSuccess": "Publicación eliminada",
+    "deleteError": "Error al eliminar la publicación",
+    "updateVisibilitySuccess": "Visibilidad actualizada",
+    "updateVisibilityError": "Error al actualizar la visibilidad",
+    "changeVisibility": "Cambiar visibilidad",
+    "showLess": "Mostrar menos",
+    "readMore": "Leer más",
+    "watchOnWikimedia": "Ver en Wikimedia Commons",
+    "moreOptions": "Más opciones",
+    "reactionDetails": "Detalles",
+    "reactionDetailsTitle": "Detalles de reacciones",
+    "noReactionsYet": "Todavía no hay reacciones."
+  },
+  "comments": {
+    "title": "Comentarios",
+    "placeholder": "Escribe un comentario...",
+    "submit": "Publicar",
+    "reply": "Responder",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "noComments": "Sin comentarios todavía. ¡Sé el primero!",
+    "loginPrompt": "Inicia sesión para comentar",
+    "showReplies": "Mostrar respuestas",
+    "hideReplies": "Ocultar respuestas",
+    "showRepliesCount": "Mostrar {{count}} respuestas",
+    "replyingTo": "Respondiendo a",
+    "cancelReply": "Cancelar respuesta",
+    "loadMore": "Cargar más comentarios"
+  },
+  "share": {
+    "title": "Compartir Publicación",
+    "linkCopied": "Enlace copiado al portapapeles",
+    "linkCopiedShort": "Enlace copiado",
+    "share": "Compartir",
+    "copyLink": "Copiar enlace"
+  },
+  "filters": {
+    "all": "Todo",
+    "source": "Fuente",
+    "visibility": "Visibilidad",
+    "proximity": "Proximidad",
+    "allSources": "Todas las fuentes",
+    "allVisibility": "Toda visibilidad",
+    "allProximity": "Todo",
+    "connections": "Conexiones",
+    "community": "Mi Comunidad",
+    "global": "Global"
+  },
+  "timeAgo": {
+    "justNow": "Justo ahora",
+    "minutesAgo": "hace {{count}} min",
+    "hoursAgo_one": "hace {{count}} hora",
+    "hoursAgo_other": "hace {{count}} horas",
+    "daysAgo_one": "hace {{count}} día",
+    "daysAgo_other": "hace {{count}} días"
+  },
+  "author": {
+    "by": "por",
+    "in": "en"
+  },
+  "empty": {
+    "title": "Sin publicaciones todavía",
+    "description": "¡Sé el primero en compartir algo!",
+    "action": "Crear una Publicación",
+    "noMore": "No hay más publicaciones"
+  },
+  "errors": {
+    "notFound": "Publicación no encontrada",
+    "unauthorized": "Necesitas iniciar sesión",
+    "forbidden": "No tienes permiso",
+    "createFailed": "Error al crear la publicación",
+    "updateFailed": "Error al actualizar la publicación",
+    "deleteFailed": "Error al eliminar la publicación",
+    "commentFailed": "Error al publicar el comentario",
+    "repliesFailed": "Error al cargar las respuestas"
+  },
+  "rss": {
+    "sourceLabel": "Fuente Externa",
+    "fetchedFrom": "Obtenido de fuente externa"
+  },
+  "editor": {
+    "imageUrlPrompt": "URL de imagen",
+    "linkUrlPrompt": "URL del enlace",
+    "videoUrlPrompt": "URL del video\n\nSoportado: {{platforms}}\n\nPega la URL de la página — no la URL de inserción.",
+    "videoUrlNotRecognised": "URL no reconocida. Plataformas soportadas: {{platforms}}",
+    "bold": "Negrita",
+    "italic": "Cursiva",
+    "addLink": "Añadir enlace",
+    "addImage": "Añadir imagen",
+    "embedVideo": "Insertar video ({{platforms}})",
+    "posting": "Publicando…",
+    "placeholder": "Escribe tu publicación aquí...",
+    "moreOptions": "Más opciones"
+  },
+  "hoverCard": {
+    "unableToLoad": "No se pudo cargar el perfil",
+    "connected": "✓ Conectado",
+    "requestSent": "⏳ Solicitud enviada",
+    "requestReceived": "⏳ Solicitud recibida"
+  },
+  "like": "Me gusta",
+  "unlike": "Ya no me gusta",
+  "onboarding": {
+    "feedReactionsTitle": "Reacciones del feed",
+    "feedReactionsCopy": "Usa reacciones para nombrar lo que aporta una publicación y añade RDG o etiquetas seleccionadas cuando ayuden a dar contexto.",
+    "feedReactionsDone": "Entendido"
+  },
+  "annotations": {
+    "author": "Autoría",
+    "community": "Comunidad",
+    "rdgs": "RDG",
+    "tags": {
+      "header": "Etiquetas",
+      "categories": {
+        "initiative": "Iniciativa",
+        "event": "Evento",
+        "contribution": "Contribución",
+        "training": "Formación"
+      },
+      "labels": {
+        "community_building": "Construcción comunitaria",
+        "research_development": "Investigación y desarrollo",
+        "advocacy_campaign": "Campaña de incidencia",
+        "education_training": "Educación y formación",
+        "systems_change": "Cambio sistémico",
+        "ecological_restoration": "Restauración ecológica",
+        "economic_innovation": "Innovación económica",
+        "cultural_arts": "Artes culturales",
+        "health_wellbeing": "Salud y bienestar",
+        "governance_politics": "Gobernanza y política",
+        "technology_infrastructure": "Infraestructura tecnológica",
+        "workshop": "Taller",
+        "meetup": "Encuentro",
+        "workday": "Jornada",
+        "training": "Formación",
+        "retreat": "Retiro",
+        "skill_offering": "Ofrecimiento de habilidades",
+        "accompaniment": "Acompañamiento",
+        "knowledge_commons": "Bienes comunes de conocimiento",
+        "holding_space": "Espacio de contención",
+        "course": "Curso",
+        "demo": "Demostración",
+        "resource": "Recurso",
+        "guided_practice": "Práctica guiada"
+      }
+    },
+    "saved": "Anotaciones guardadas",
+    "saveFailed": "No se pudieron guardar las anotaciones",
+    "annotate": "Anotar"
+  },
+  "reactions": {
+    "labels": {
+      "INSPIRED": "Inspirado",
+      "LEARNED": "Aprendí",
+      "CAN_HELP": "Puedo ayudar",
+      "CAN_CONNECT": "Puedo conectar",
+      "WORTH_DEEPER_LISTENING": "Merece escucha más profunda",
+      "REGENERATIVE": "Regenerativo"
+    }
+  }
+}

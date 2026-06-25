@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Ubuntu Indaba körök",
+    "region": "Dél-Afrika",
+    "type": "Dialógus",
+    "desc": "Vénektől vezetett közösségi párbeszédek a kapcsolati érettségért.",
+    "details": {
+      "prep": "A közösség egy központi fa alatt gyűlik össze; a vének konzultálnak az ősökkel. A sérelmeket ideiglenesen félreteszik, hogy a rendszerszintű kérdésekre összpontosítsanak.",
+      "agenda": "1. Az ősök megidézése. 2. A zavar megnevezése. 3. Megszakítás nélküli körmenet-szerű beszéd. 4. A vének szintézise a 'mi' helyreállítására összpontosítva. 5. Közösségi étkezés.",
+      "questions": "\"Hogyan érinti ez a törés a kollektív egészet?\" \"Az egóm mely része okoz kárt közös szövetünkben?\"",
+      "awareness": "Határozottan eltolja a figyelmet az 'én/enyém'-ről a 'mi/miénk'-re. Megköveteli azt a kognitív képességet, hogy egyszerre tartsunk meg több ellentétes közösségi nézőpontot azonnali ítélkezés nélkül."
+    }
+  },
+  {
+    "name": "Ujamaa falusi tanácsok",
+    "region": "Tanzánia",
+    "type": "Dialógus",
+    "desc": "Csoportos döntéshozatal a kollektív felelősségért.",
+    "details": {
+      "prep": "A közös mezőgazdasági és gazdasági erőforrások áttekintése. A kölcsönös társadalmi-gazdasági túlélés szándékának kitűzése.",
+      "agenda": "1. Erőforrás-audit megosztása. 2. A sebezhető tagok azonosítása. 3. Vita a munkaerő elosztásáról. 4. Konszenzus a közös célokról.",
+      "questions": "\"A fejlődésünk elhagy-e bárkit?\" \"Hogyan hoz létre az én többletem valaki másnál hiányt?\"",
+      "awareness": "Kiterjeszti az időbeli és térbeli tudatosságot – az egyéneknek kognitívan le kell képezniük személyes tetteiket az egész falu ökoszisztémájának hosszú távú túlélésére."
+    }
+  },
+  {
+    "name": "Harambee munkacsoportok",
+    "region": "Kenya",
+    "type": "Dialógus",
+    "desc": "Fiatal-idős körök az egymásrautaltság erősítésére.",
+    "details": {
+      "prep": "Egy konkrét közösségi projektet (iskolaépítés, diák támogatása) azonosítanak egyesítő célként.",
+      "agenda": "1. Felhívás cselekvésre. 2. Különböző erőforrások (pénz, munka, bölcsesség) összevonása. 3. Együttműködő végrehajtás. 4. A kollektív siker megünneplése.",
+      "questions": "\"Milyen egyedi ajándékot hozok a közös feladatba?\" \"Hogyan kapcsolódik az én sikerem elválaszthatatlanul a tiédhez?\"",
+      "awareness": "Lebontja a hiper-individualista ambíciót azáltal, hogy a jutalmazási rendszereket szigorúan a kollektív, társak által támogatott mérföldkövekhez köti."
+    }
+  },
+  {
+    "name": "Nafs-szakaszok Dhikr",
+    "region": "Irán",
+    "type": "Rituálé",
+    "desc": "Szúfi csoportos kántálás az egó megtisztításáért.",
+    "details": {
+      "prep": "Rituális mosdás, böjt és egyszerű ruházat viselése a társadalmi státuszjelzések levetkőzésére.",
+      "agenda": "1. Ritmusos légzés beállítása. 2. Isteni nevek ismétlődő kántálása. 3. Fokozatos gyorsítás egy sejk vezetésével. 4. Belépés a 'Hál' (spirituális állapot) állapotába. 5. Csendes integráció.",
+      "questions": "\"Ki az az 'Én', aki megmarad, amikor a társadalmi én kimerül?\" \"Képes vagyok-e feloldódni az egész ritmusában?\"",
+      "awareness": "Olyan flow-állapotokat idéz elő, amelyek megkerülik a nyelvi, egó-alapú feldolgozást. A figyelem teljes egészében a csoport jelenlegi szomatikus és auditív rezonanciájában horgonyoz le."
+    }
+  },
+  {
+    "name": "Mevlevi keringő Szemák",
+    "region": "Törökország",
+    "type": "Energia",
+    "desc": "Közösségi tánc az önmeghaladásért.",
+    "details": {
+      "prep": "Hónapokig tartó fizikai és spirituális felkészülés egy mentor (Mürşid) irányításával. A személyes vágyak mentális feladása.",
+      "agenda": "1. Belépés a kör alakú térbe. 2. A fekete köpeny levetése (egó-halál). 3. Keringés (jobb kéz felfelé, bal kéz lefelé). 4. Újbóli beburkolózás és közös ima.",
+      "questions": "\"Hogyan válhatok üres edénnyé az egyetemes energia számára?\" \"Képes vagyok-e belül tökéletesen nyugodt maradni, miközben kívül gyorsan mozgok?\"",
+      "awareness": "A 'mozgó meditáció' mély állapotát hozza létre. A tudatosság gömbszerűen tágul, intenzív propriocepciót igényelve, amely tökéletesen összehangolódik a csoport kollektív geometriájával."
+    }
+  },
+  {
+    "name": "Tariqa elvonulások",
+    "region": "Marokkó",
+    "type": "Mentorálás",
+    "desc": "Mentor-vezetett szúfi rendek a spirituális emelkedésért.",
+    "details": {
+      "prep": "Alávetés a szálláshely (Závija) szabályainak. A személyes autonómia átadása a spirituális vezetőnek.",
+      "agenda": "1. Napi közös munka. 2. Magánkonzultáció a Sejkkel. 3. Csoportos litánia-felolvasás. 4. Közösségi álomelemzés.",
+      "questions": "\"Melyek azok a vakfoltok, amiket a mentorom lát, de én nem?\" \"Hogyan szolgálja a lázadásom az egómat?\"",
+      "awareness": "Megemeli az objektív önreflexiót azáltal, hogy a mentort rendíthetetlen tükörként használja. A figyelmet a finom belső ellenállások észlelésére edzi."
+    }
+  },
+  {
+    "name": "Gyógyító kerék szertartások",
+    "region": "Kanada",
+    "type": "Rituálé",
+    "desc": "Első Nemzetek (indián) körei a holisztikus szakaszokért.",
+    "details": {
+      "prep": "A fizikai kőkerék felépítése az égtájakhoz igazítva. Megtisztítás zsályával az elme lecsendesítésére.",
+      "agenda": "1. Kelet tisztelete (Elme/Tavasz). 2. Dél tisztelete (Test/Nyár). 3. Nyugat tisztelete (Érzelem/Ősz). 4. Észak tisztelete (Szellem/Tél).",
+      "questions": "\"Életem melyik negyedében stagnál az energiám?\" \"Hogyan tükrözik a természet ciklusai az én belső érésemet?\"",
+      "awareness": "Ciklikus és rendszerszintű gondolkodásra tanít. Arra kényszeríti az egyént, hogy fejlődését ne lineáris emelkedésként, hanem kiegyensúlyozott, többdimenziós kerékként lássa, amely holisztikus integrációt igényel."
+    }
+  },
+  {
+    "name": "A hét nagyapa tanítása",
+    "region": "USA",
+    "type": "Mentorálás",
+    "desc": "Törzsi vének mentorálási ciklusai.",
+    "details": {
+      "prep": "A fiatalokat vénekkel összekapcsolják; történetmesélési kontextusokat hoznak létre, gyakran tűz körül vagy kézműveskedés közben.",
+      "agenda": "1. Egy konkrét állat-mítosz megosztása (pl. a Medve a bátorságért). 2. A vén reflexiója az erényre. 3. A fiatal alkalmazása egy jelenlegi küzdelemre. 4. Megfigyelési visszacsatolás.",
+      "questions": "\"Egyszerre testesítem-e meg a Bölcsességet, a Szeretetet, a Tiszteletet, a Bátorságot, az Őszinteséget, az Alázatot és az Igazságot?\"",
+      "awareness": "Jellem-alapú összetettséget fejleszt. A figyelem a készségek megszerzéséről a paradox erények megtestesítésére tolódik (pl. a bátorság megtartása a mély alázat mellett)."
+    }
+  },
+  {
+    "name": "Dreamtime (Álomidő) mesélő körök",
+    "region": "Ausztrália",
+    "type": "Dialógus",
+    "desc": "Történetmegosztás az ősi bölcsességért.",
+    "details": {
+      "prep": "Ülés az Adott Országon (konkrét szent földön). A hagyományos őrzők és ősi szellemek elismerése.",
+      "agenda": "1. Mély hallgatás (Dadirri). 2. Nem-lineáris történetmesélés a múlt, jelen és mítosz összefonásával. 3. Csend és befogadás. 4. Kollektív értelemalkotás.",
+      "questions": "\"Hol metszi egymást a személyes történetem a föld énekeivel (songlines)?\" \"Ki vagyok én a mély időben?\"",
+      "awareness": "Masszívan kitágítja az időbeli tudatosságot. Az egyének megtanulják, hogy életüket ne lezárt idővonalként, hanem az ősi 'Álmodás' aktív, élő folytatásaként érzékeljék."
+    }
+  },
+  {
+    "name": "Karakia csoportos rituálék",
+    "region": "Új-Zéland",
+    "type": "Rituálé",
+    "desc": "Közösségi imák a rétegzett tudatosságért.",
+    "details": {
+      "prep": "Gyülekezés a Marae-n (találkozóhelyen). A 'tapu' (spirituális korlátozások) feloldása a biztonság érdekében.",
+      "agenda": "1. Kántálás a föld és az ég elválasztására (a teremtés megidézése). 2. A csoport légzésének és szándékának összehangolása. 3. Konkrét elemi energiák megidézése. 4. Az energetikai tér lezárása.",
+      "questions": "\"Hogyan formálják szavaim e terem fizikai és spirituális valóságát?\" \"Összehangoltak-e szándékaim a kollektív 'mauri'-val (életerő)?\"",
+      "awareness": "Fokozza a szomatikus és verbális éberséget. A gyakorló élesen tudatára ébred a nyelv performatív erejének és annak a csoportkohézióra gyakorolt közvetlen hatásának."
+    }
+  },
+  {
+    "name": "Kyosei Sangha gyakorlat",
+    "region": "Japán",
+    "type": "Dialógus",
+    "desc": "Zen csoportos koan-munka a kölcsönös ébredésért.",
+    "details": {
+      "prep": "Intenzív Zazen (ülőmeditáció) időszakai.",
+      "agenda": "1. Csoportos ülés. 2. A paradoxon (Koan) bemutatása. 3. Kollektív csend. 4. Rövid, spontán válaszok.",
+      "questions": "\"Hogyan bogozzuk ki közösen a logikát?\"",
+      "awareness": "A bináris gondolkodást töri szét csoportos rezonancia révén."
+    }
+  },
+  {
+    "name": "Jingzu őstanácsok",
+    "region": "Kína",
+    "type": "Rituálé",
+    "desc": "Családi-nemzetségi rituálék a harmónia-szakaszokért.",
+    "details": {
+      "prep": "Ősi szentélyek tisztítása.",
+      "agenda": "1. Étel/füstölő felajánlása. 2. Családfa elszavalása. 3. Nemzetségi viták megvitatása. 4. Megoldás ősi precedens alapján.",
+      "questions": "\"Jó ősként cselekszem-e?\"",
+      "awareness": "Kiterjeszti az identitást időben hátra és előre a leszármazási vonalon keresztül."
+    }
+  },
+  {
+    "name": "Bhavana csoportos meditáció",
+    "region": "India",
+    "type": "Energia",
+    "desc": "Buddhista sangha elvonulások a belátás fejlődéséért.",
+    "details": {
+      "prep": "Nemes csend fogadalma.",
+      "agenda": "1. Váltakozó ülő/járó meditáció. 2. Dharma-tanítások. 3. Tanári interjúk. 4. Érdemek csoportos felajánlása.",
+      "questions": "\"Különbözik-e az én szenvedésem a csoport szenvedésétől?\"",
+      "awareness": "Mély meta-tudatosságot és az én-nélküliség (Anatta) felismerését fejleszti."
+    }
+  },
+  {
+    "name": "Aikidó dódzsó edzés",
+    "region": "Japán",
+    "type": "Energia",
+    "desc": "Csoportos harmónia-gyakorlatok az egó feloldásáért.",
+    "details": {
+      "prep": "Meghajlás a szentély (Shomen) és a partner előtt.",
+      "agenda": "1. Központosító légzés. 2. Támadások fogadása (Uke). 3. Energia átirányítása ártalom nélkül (Nage). 4. Folyamatos partnerváltás.",
+      "questions": "\"Képes vagyok-e semlegesíteni a konfliktust erőszak alkalmazása nélkül?\"",
+      "awareness": "A fizikai konfliktust a kapcsolati energiadinamika és a középpont megtartásának tanulmányozásává alakítja."
+    }
+  },
+  {
+    "name": "Ayahuasca Icaros körök",
+    "region": "Peru",
+    "type": "Rituálé",
+    "desc": "Sámán-vezetett közösségi látomáskeresések.",
+    "details": {
+      "prep": "Szigorú 'dieta' (böjt bizonyos ételektől/viselkedésektől).",
+      "agenda": "1. A főzet elfogyasztása. 2. Fények eloltása. 3. A sámán konkrét Icaros-okat énekel a látomások vezetésére. 4. Csoportos tisztulás és feldolgozás.",
+      "questions": "\"Milyen traumákat hordozok, amelyek a leszármazási vonalamhoz tartoznak?\"",
+      "awareness": "Radikális szembenézésre kényszerít a tudattalannal, a sámán auditív vezetése mellett."
+    }
+  },
+  {
+    "name": "Temazcal izzasztókunyhók",
+    "region": "Mexikó",
+    "type": "Rituálé",
+    "desc": "Mezoamerikai csoportos újjászületési szertartások.",
+    "details": {
+      "prep": "Vulkáni kövek hevítése; szándék megfogalmazása a tisztulásra.",
+      "agenda": "1. Bemászás a sötét kupolába (anyaméh). 2. Víz öntése a kövekre (négy ajtó/szakasz). 3. Éneklés és kiáltás. 4. Újjászületett előbújás.",
+      "questions": "\"Identitásom mely részeinek kell meghalniuk a hőségben?\"",
+      "awareness": "Extrém fizikai érzeteket használ a mentális védekezés megkerülésére, mély közösségi kötődést hozva létre a megosztott sebezhetőség révén."
+    }
+  },
+  {
+    "name": "Kiva beszélgető körök",
+    "region": "USA",
+    "type": "Dialógus",
+    "desc": "Törzsi konszenzus a spirituális fejlődésért.",
+    "details": {
+      "prep": "Leereszkedés a föld alatti Kivába.",
+      "agenda": "1. A központi tűz meggyújtása. 2. A szent pipa körbeadása. 3. Törzsi ügyek megvitatása a teljes konszenzus eléréséig.",
+      "questions": "\"Fel tudom-e adni a saját preferenciáimat a törzs túlélése érdekében?\"",
+      "awareness": "Végtelen türelmet és a makacs egó-pozíciók lebontását igényli a valódi csoportos összehangolódáshoz."
+    }
+  },
+  {
+    "name": "Pachakuti Mesa rituálék",
+    "region": "Peru",
+    "type": "Energia",
+    "desc": "Andoki csoportos energia-szövés.",
+    "details": {
+      "prep": "A kozmoszt reprezetáló szent oltár (Mesa) létrehozása.",
+      "agenda": "1. Az Apus-ok (hegyi szellemek) hívása. 2. A három világ (Ukhu, Kay, Hanan) összehangolása. 3. Csoportos energiaátvitel (Sami).",
+      "questions": "\"Hogyan egyensúlyozom a nehéz energiát (Hucha) a könnyűvel?\"",
+      "awareness": "A figyelmet a finom környezeti és kapcsolati energetikai áramlásokra edzi."
+    }
+  },
+  {
+    "name": "Jamaa körök",
+    "region": "Kongói DK",
+    "type": "Rituálé",
+    "desc": "Bantu közösségi gyógyítás a társadalmi érettségért.",
+    "details": {
+      "prep": "Az egyént érintő társadalmi betegség azonosítása.",
+      "agenda": "1. A teljes kiterjedt hálózat összehívása. 2. Ritmusos dobolás. 3. Transz és szellemi kommunikáció. 4. Az egyén reintegrációja.",
+      "questions": "\"Hogyan tünete ez a személy betegsége a mi kollektív egyensúlyhiányunknak?\"",
+      "awareness": "A betegség és gyógyítás fókuszát az egyéni testről a társadalmi testre helyezi át."
+    }
+  },
+  {
+    "name": "Palaver kunyhók",
+    "region": "Ghána",
+    "type": "Dialógus",
+    "desc": "Vén-fiatal párbeszédek a bölcsesség-rétegekért.",
+    "details": {
+      "prep": "Gyülekezés a nyitott oldalú közösségi építményben.",
+      "agenda": "1. Közösségi dilemma bemutatása. 2. A fiatalok modern perspektívát kínálnak. 3. A vének történelmi precedenst kínálnak. 4. Szintézis.",
+      "questions": "\"Hogyan tiszteljük a múltat, miközben alkalmazkodunk a jövőhöz?\"",
+      "awareness": "Dialektikus gondolkodást fejleszt – az ellentmondó generációs igazságok megtartásának és egyesítésének képességét."
+    }
+  },
+  {
+    "name": "Sobonfu falusi rituálék",
+    "region": "Burkina Faso",
+    "type": "Rituálé",
+    "desc": "Dagara kapuőrző körök.",
+    "details": {
+      "prep": "A résztvevők elemi természetének meghatározása (Tűz, Víz, stb.).",
+      "agenda": "1. Gyászszertartás a szomorúság kiürítésére. 2. Az egyéni cél elismerése a falu által. 3. Közösségi feladatok kiosztása.",
+      "questions": "\"Mi az a konkrét orvosság (medicine), amit ebbe a faluba hoztam?\"",
+      "awareness": "A személyes önmegvalósítást közvetlenül a hasznos közösségi szolgálathoz kapcsolja."
+    }
+  },
+  {
+    "name": "Zikr Halqa láncok",
+    "region": "Pakisztán",
+    "type": "Mentorálás",
+    "desc": "Szúfi mentor-körök az isteni egyesülésért.",
+    "details": {
+      "prep": "Fizikai lánc formálása kézfogással vagy karöltve.",
+      "agenda": "1. Ritmusos légzés. 2. A 'Hu' hang összehangolt, hangos recitálása. 3. Egységben ringatózás. 4. A 'Faná' (az én megsemmisülése) elérése.",
+      "questions": "\"Képes vagyok-e feloldani fizikai határaimat a csoport-testben?\"",
+      "awareness": "A szinkronizált csoportkohézió és egó-feloldódás magas szintű állapotait segíti elő."
+    }
+  },
+  {
+    "name": "Naqshbandi néma Dhikr",
+    "region": "Üzbegisztán",
+    "type": "Energia",
+    "desc": "Csoportos szív-fókuszú önmeghaladás.",
+    "details": {
+      "prep": "A figyelem összpontosítása a fizikai szívközpontra (Lataif).",
+      "agenda": "1. Szemek lehunyása. 2. Néma, belső kántálás. 3. A mentor szívének összekapcsolása a sajátunkkal. 4. Csoportos csend.",
+      "questions": "\"Képesek vagyunk-e kizárólag a szív rezonanciáján keresztül kommunikálni?\"",
+      "awareness": "Extrém belső finomságot és a nem-verbális csoportos energetikai terek iránti érzékenységet fejleszti."
+    }
+  },
+  {
+    "name": "Sintó Matsuri kollektívák",
+    "region": "Japán",
+    "type": "Rituálé",
+    "desc": "Fesztivál-szertartások a közösségi szellem fejlődéséért.",
+    "details": {
+      "prep": "Tisztító rituálék (Harai); a Mikoshi (hordozható szentély) építése.",
+      "agenda": "1. A Kami (szellem) hívása a szentélybe. 2. Intenzíven kaotikus, fizikailag megterhelő közös szentélyhordozás. 3. Örömteli ünneplés.",
+      "questions": "\"Át tudom-e adni fizikai határaimat a tömeg lendületének?\"",
+      "awareness": "'Kollektív pezsgést' (collective effervescence) idéz elő – egy olyan állapotot, ahol az egyéni identitást elnyeli az elsöprő csoportos öröm és erőfeszítés."
+    }
+  },
+  {
+    "name": "Taoista Csikung csoportok",
+    "region": "Kína",
+    "type": "Energia",
+    "desc": "Nemzetségi energia-keringetés a belső alkímiáért.",
+    "details": {
+      "prep": "A testtartás beállítása és a mentális zaj lecsendesítése.",
+      "agenda": "1. Lassú, szinkronizált fizikai mozdulatok. 2. A Csi (Qi) vezetése a meridiánokon keresztül. 3. Energiacsere a környezettel és a csoporttal. 4. A Csi tárolása.",
+      "questions": "\"Hogyan befolyásolja belső egyensúlyom a terem harmóniáját?\"",
+      "awareness": "Precíz, irányított figyelmet edz a finom belső szomatikus érzetekre és azok külső vetületére."
+    }
+  },
+  {
+    "name": "Yoruba Egbe társaságok",
+    "region": "Nigéria",
+    "type": "Dialógus",
+    "desc": "Ősi kortárs csoportok a sors kibontakozásáért.",
+    "details": {
+      "prep": "Jóslás a spirituális kortárs csoport (Egbe Orun) meghatározására.",
+      "agenda": "1. Találkozás a földi megfelelőikkel. 2. Az élet akadályainak megvitatása. 3. Felajánlások a spirituális kollektíva számára. 4. Összehangolódás a sorssal.",
+      "questions": "\"Teljesítem-e a szerződést, amit születésem előtt kötöttem?\"",
+      "awareness": "Arra kényszeríti az egyént, hogy életútját ne magányos választásként, hanem egy spirituális kollektíva által közösen írt sorsként lássa."
+    }
+  },
+  {
+    "name": "Inka Despacho felajánlások",
+    "region": "Bolívia",
+    "type": "Rituálé",
+    "desc": "Andoki közösségi viszonosság-szertartások.",
+    "details": {
+      "prep": "Konkrét természeti elemek (kokalevél, magvak, édesség) gyűjtése.",
+      "agenda": "1. Elemek szándékos elhelyezése egy papír mandalán. 2. Imák fújása (Phukuy) a levelekbe. 3. A csomag összehajtása. 4. Elégetése a föld táplálására.",
+      "questions": "\"Mit kell visszaadnom az egyensúly (Ayni) fenntartásához?\"",
+      "awareness": "A viszonosság és az ökológiai összekapcsoltság mély szemléletét fejleszti."
+    }
+  },
+  {
+    "name": "Számi Noaidi dobok",
+    "region": "Finnország/Svédország",
+    "type": "Energia",
+    "desc": "Sámáni csoportos utazás.",
+    "details": {
+      "prep": "Gyülekezés a tűz körül; a Noaidi (sámán) előkészíti a szent dobot.",
+      "agenda": "1. Ritmusos, monoton dobolás. 2. Joik-éneklés a transz előidézésére. 3. A sámán más világokba utazik válaszokért. 4. Csoportos értelmezés.",
+      "questions": "\"Milyen üzenetet küldenek nekünk a föld szellemei?\"",
+      "awareness": "Módosult tudatállapotokat tesz lehetővé, ahol az emberi észlelés és a környezeti valóság közötti határ elmosódik."
+    }
+  },
+  {
+    "name": "Mapuche Ngepin szertartások",
+    "region": "Chile",
+    "type": "Rituálé",
+    "desc": "Őslakos gyógyító körök a föld-rokonságért.",
+    "details": {
+      "prep": "A Rehue (szent fatörzs/lépcső) felállítása.",
+      "agenda": "1. Gyülekezés hajnalban. 2. A Machi (gyógyító) felmászik a Rehue-re. 3. Folyamatos tánc és ima a közösség által. 4. Kérés a bolygó egyensúlyáért.",
+      "questions": "\"Beteggé teszik-e tetteink a földet?\"",
+      "awareness": "A pszichológiai egészséget közvetlenül az ökológiai és földi egészség kontextusába ágyazza."
+    }
+  },
+  {
+    "name": "Aymara Wirinaka csoportok",
+    "region": "Bolívia",
+    "type": "Energia",
+    "desc": "Andoki csillaglény közösségi látomások.",
+    "details": {
+      "prep": "Éjszakai gyülekezők nagy magasságban.",
+      "agenda": "1. A sötét csillagképek (Tejút) megfigyelése. 2. Kokarágás. 3. Mitológiai csillagászat megvitatása. 4. Mezőgazdasági ciklusok összehangolása.",
+      "questions": "\"Hogyan diktálják a csillagok mozgásai napi tetteinket?\"",
+      "awareness": "Kozmikus léptékűre tágítja a viszonyítási keretet, minimalizálva a kicsinyes egó-aggályokat."
+    }
+  },
+  {
+    "name": "Zulu Sangoma beavatások",
+    "region": "Dél-Afrika",
+    "type": "Mentorálás",
+    "desc": "Jövendőmondó csoportos képzés a lélek-szakaszokért.",
+    "details": {
+      "prep": "A beavatandó (Thwasa) elszigetelődik és 'spirituális betegséget' tapasztal.",
+      "agenda": "1. Inasság egy rangidős Sangoma mellett. 2. A csontdobás megtanulása. 3. Intenzív közösségi tánc a szellemek felébresztésére. 4. Záró vizsgaszertartás.",
+      "questions": "\"Át tudom-e adni az ősök hangját az élők számára?\"",
+      "awareness": "Az akut pszichológiai distresszt strukturált, nagyra becsült közösségi gyógyító képességgé alakítja át."
+    }
+  },
+  {
+    "name": "Balinéz Subak tanácsok",
+    "region": "Indonézia",
+    "type": "Dialógus",
+    "desc": "Rizstemplom-kollektívák a kiegyensúlyozott növekedésért.",
+    "details": {
+      "prep": "Gyülekezés a vízi templomnál.",
+      "agenda": "1. Rituális felajánlások a víz istennőjének. 2. Demokratikus vita a vízelosztásról. 3. Ültetési ütemtervek összehangolása. 4. Kártevőirtási stratégiák.",
+      "questions": "\"Hogyan tudjuk tökéletesen megosztani ezt a szűkös erőforrást?\"",
+      "awareness": "A spirituális odaadást ötvözi a rendkívül összetett, szövetkezeti mezőgazdasági és ökológiai menedzsmenttel."
+    }
+  },
+  {
+    "name": "Mongol Ovoo rituálék",
+    "region": "Mongólia",
+    "type": "Rituálé",
+    "desc": "Ég-föld csoportos felajánlások.",
+    "details": {
+      "prep": "Megközelíteni a szent kőhalmot (Ovoo) egy hágónál.",
+      "agenda": "1. Háromszori körbejárás az Ovoo körül az óramutató járásával megegyezően. 2. Egy kő vagy kék selyemsál (Khadag) hozzáadása. 3. Tej vagy vodka felajánlása. 4. Ima az Örökké Kék Éghez.",
+      "questions": "\"Hogyan tisztelem meg a hely szellemeit, ahol éppen áthaladok?\"",
+      "awareness": "Állandó helyzetfelismerést és tiszteletet nevel a fizikai táj és annak láthatatlan őrzői iránt."
+    }
+  },
+  {
+    "name": "Tibeti Ngakpa Chöd",
+    "region": "Bhután",
+    "type": "Energia",
+    "desc": "Leválasztási gyakorló-körök az egó elvágásáért.",
+    "details": {
+      "prep": "Elmenni egy félelmetes helyre (pl. holttest-égető helyre vagy sötét erdőbe).",
+      "agenda": "1. Combcsont-kürt és kézi dob megszólaltatása. 2. Felajánlani saját testünket a démonoknak. 3. A félelem átvágása. 4. Megpihenés az ürességben.",
+      "questions": "\"Meg tudom-e hívni legnagyobb félelmeimet egy lakomára?\"",
+      "awareness": "Radikális pszichológiai technológia az egó megsemmisüléstől való félelmének szembesítésére és lebontására."
+    }
+  },
+  {
+    "name": "Inuit Qilaut történetmesélés",
+    "region": "Grönland",
+    "type": "Dialógus",
+    "desc": "Dobos énekkörök a mitikus érettségért.",
+    "details": {
+      "prep": "Gyülekezés a hóházban a hosszú téli éjszaka során.",
+      "agenda": "1. A keretes dob felmelegítése. 2. Ősi énekek éneklése. 3. Mítoszok eljátszása tánccal és arckifejezésekkel. 4. A dob továbbadása.",
+      "questions": "\"Hogyan tanítja ez az ősi történet a holnapi viselkedésemet?\"",
+      "awareness": "Ritmust és narratívát használ az összetett túlélési és társadalmi adatok kódolására a kollektív emlékezetbe."
+    }
+  }
+]

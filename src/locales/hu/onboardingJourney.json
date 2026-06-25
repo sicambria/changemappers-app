@@ -1,0 +1,175 @@
+{
+  "eyebrow": "Saját ritmusú onboarding",
+  "title": "A saját utad a Changemappersben, {{name}}",
+  "intro": "Ez az út az eligazodást támogatja, nem sürget. Csak akkor jelölj késznek egy gyakorlatot, amikor valóban megtörtént. Bármelyik lépést újra megnyithatod, amikor ismét aktuális lesz.",
+  "progressLabel": "Út előrehaladása",
+  "progressSummary": "{{completed}} / {{total}} gyakorlat késznek jelölve",
+  "pace": {
+    "title": "Nincs határidő, nincs nyomás",
+    "body": "A korábbi 12 hetes sorozat most olyan ritmus, amit te tartasz. Van, aki egy nap alatt végez egy gyakorlattal, más hónapok múlva tér vissza hozzá. Mindkettő rendben van. A cél az őszinte beépülés, nem a sebesség."
+  },
+  "next": {
+    "title": "Következő elérhető lépés",
+    "complete": "Minden gyakorlat késznek van jelölve. Ettől még bármelyik lépéshez visszatérhetsz, amikor változik a munkád."
+  },
+  "completion": {
+    "title": "Az út véget ért",
+    "subtitle": "Végigdolgoztál mind a 12 gyakorlaton. Folytasd az integrálást a saját tempódban — a térkép vár.",
+    "cta": "Felfedezem a térképet"
+  },
+  "status": {
+    "done": "Kész",
+    "open": "Nyitott"
+  },
+  "actions": {
+    "browseMap": "Térkép böngészése",
+    "openReflection": "Reflexió megnyitása",
+    "writePitch": "Pitch megírása",
+    "mapEnergy": "Energia feltérképezése",
+    "shareStory": "Történetek megnyitása",
+    "findGroup": "Munkacsoport keresése",
+    "postAsk": "Kérés írása vagy keresése",
+    "reviewEnergy": "Energia áttekintése",
+    "findIntersection": "Metszéspontok keresése",
+    "reviewLanguage": "Közös nyelv áttekintése",
+    "reviewBoundaries": "Beállítások áttekintése",
+    "reflectJoy": "Reflexió a szolgálatról",
+    "markDone": "Késznek jelölöm",
+    "reopen": "Újranyitás",
+    "moreInfo": "További részletek"
+  },
+  "errors": {
+    "saveFailed": "Nem sikerült menteni ezt a lépést. Próbáld újra."
+  },
+  "steps": {
+    "welcome": {
+      "title": "Üdvözlés és tájékozódás",
+      "body": "Lépj be finoman. Nézz körül a térképen, figyeld meg, mi mozog már most, és engedd, hogy előbb megismerd az ökoszisztéma alakját.",
+      "practice": "Akkor kész, ha böngészted a térképet vagy őszintén bemutatkoztál.",
+      "quote": "Soha ne kételkedj abban, hogy egy kis csoport gondolkodó, elkötelezett polgár meg tudja változtatni a világot; valójában mindig csak ez változtatta meg.",
+      "quoteBy": "Margaret Mead",
+      "subject": "Üdvözlünk a Changemappersben. Itt kezdődik a munkád.",
+      "details": "Ez küszöb és tájékozódás, nem teljesítményteszt. Engedd, hogy a térkép, a csatornák és az emberek megmutassák, mi él már most, mielőtt eldöntöd, hová kapcsolódsz.",
+      "winWinWin": "Te fenntartható tempóban érkezel, mások tisztábban találkoznak veled, a közjó pedig ott kap figyelmet, ahol az valóban segít."
+    },
+    "inner_condition": {
+      "title": "Belső állapot ellenőrzése",
+      "body": "Mielőtt kifelé cselekszel, figyeld meg a kapacitásodat. A változásmunkának olyan emberekre van szüksége, akik érzékelik a kimerültséget, a haragot, a lelkesedést és a fenntartható energiát.",
+      "practice": "Akkor kész, ha írtál vagy kimondtál egy valódi kiégés- és cél-ellenőrzést.",
+      "quote": "Egy beavatkozás sikere a beavatkozó belső állapotától függ.",
+      "quoteBy": "Bill O'Brien",
+      "subject": "Hogy vagy valójában? Kiégés-ellenőrzés.",
+      "details": "Mielőtt rendszereket változtatsz, ellenőrizd azt az eszközt, amellyel hozzájuk nyúlsz: a figyelmedet, testedet, motivációidat és kapacitásodat.",
+      "winWinWin": "Te őszintébben kapcsolódsz önmagadhoz, a társaid stabilabb jelenlétet kapnak, a tágabb rendszer pedig nem kimerült sürgetésből kap beavatkozást."
+    },
+    "pitch": {
+      "title": "Álláspontod megformálása",
+      "body": "Tisztázd, mit látsz, merre dolgozol, és hogyan tudnak mások csatlakozni anélkül, hogy az egész élettörténetedet kellene megfejteniük.",
+      "practice": "Akkor kész, ha a profilodban vagy pitchedben van egy használható jelenlegi megfogalmazás.",
+      "quote": "Légy te a változás, amelyet látni szeretnél a világban.",
+      "quoteBy": "Mahatma Gandhi",
+      "subject": "Mi mellett állsz ki? A pitched megírása.",
+      "details": "A jó pitch nem értékesítési szöveg. Rövid meghívás, amely érthetővé teszi a problémát, a víziót, a szerepedet és a csatlakozás módját.",
+      "winWinWin": "Te tisztábban látod az álláspontodat, a lehetséges szövetségesek olvasható meghívást kapnak, az ökoszisztéma pedig kevesebb koordinációs súrlódással működik."
+    },
+    "regenerative_practice": {
+      "title": "Regeneratív gyakorlat választása",
+      "body": "Nézd meg, hogy a módszereid feltöltenek vagy kimerítenek téged, a csapatodat és a tágabb rendszert.",
+      "practice": "Akkor kész, ha megneveztél egy gyakorlatot, amit megtartasz, megváltoztatsz vagy abbahagysz.",
+      "quote": "Szeretni nem azt jelenti, hogy csökkentjük valaki komplexitását.",
+      "quoteBy": "Nora Bateson",
+      "subject": "Komplexitás és önmagad gondozása.",
+      "details": "A regeneratív munka megkérdezi, hogy a módszereid életet töltenek-e vissza, vagy csendben kivesznek a testekből, csapatokból és helyekből, miközben haladásnak nevezed őket.",
+      "winWinWin": "Te nem zsákmányolod ki magad, a társaid emberségesebb módszerekkel dolgoznak, az élő rendszer pedig akkor nyer, amikor a komplexitást gondozzuk, nem leegyszerűsítjük."
+    },
+    "failure_learning": {
+      "title": "Tanulás a kudarcból",
+      "body": "A perfekcionizmus elzár a valóságtól. Oszd meg vagy jegyezd fel magadnak, mi tört el, mit tanított, és mi változik ezután.",
+      "practice": "Akkor kész, ha egy hasznos tanulságot rögzítettél egy kudarcból.",
+      "quote": "Kezdd ott, ahol vagy. Használd, amid van. Tedd, amit tudsz.",
+      "quoteBy": "Arthur Ashe",
+      "subject": "Bukj gyorsan, tanulj előre.",
+      "details": "A kudarc adat, ha szégyen nélkül bánunk vele. Nem a károkozást ünnepeljük, hanem elég korán kinyerjük a tanulást ahhoz, hogy irányt váltsunk.",
+      "winWinWin": "Te tanulássá alakítod a szégyent, a társak újrahasznosítható tanulságokat kapnak, a közjó pedig akkor nyer, amikor a kísérletek javulnak, nem elbújnak."
+    },
+    "working_group": {
+      "title": "Találd meg az embereidet",
+      "body": "A rendszerszintű munka túl nehéz egyedül. Keress munkacsoportot, kezdeményezést, kört vagy feladatot, ahol a jelenléted valós és határolt lehet.",
+      "practice": "Akkor kész, ha csatlakoztál, indítottál vagy tudatosan elengedtél egy konkrét csoportot.",
+      "quote": "Ha gyorsan akarsz menni, menj egyedül. Ha messzire akarsz jutni, menjetek együtt.",
+      "quoteBy": "Afrikai közmondás",
+      "subject": "Ezt nem tudod egyedül megcsinálni.",
+      "details": "A rendszerszintű változás túl nehéz egyedül. Keress gyakorlóközösséget, transzformatív kört vagy akciókutató csoportot, ahol a hozzájárulás és a tanulás együtt történhet.",
+      "winWinWin": "Te támogatást és fókuszt kapsz, a csoport a határolt hozzájárulásodból nyer, a rendszer pedig akkor erősödik, amikor az elszigetelt erőfeszítés közös kapacitássá válik."
+    },
+    "mutual_aid": {
+      "title": "Kölcsönös segítség gyakorlása",
+      "body": "Az egészséges közjóban az adás és a fogadás is jelen van. Világosan kérni részvétel, nem gyengeség.",
+      "practice": "Akkor kész, ha megírtál, megfogalmaztál vagy közvetlenül kimondtál egy tiszta kérést.",
+      "quote": "Ha azért jöttél ide, hogy segíts nekem, az időszórakoztatás. De ha a felszabadulásod az enyémmel összefonódik, akkor dolgozzunk együtt.",
+      "quoteBy": "Lilla Watson",
+      "subject": "Kölcsönös segítség gyakorlása",
+      "details": "Az egészséges közjóban az adás és a fogadás is jelen van. Világosan kérni részvétel, nem gyengeség.",
+      "winWinWin": "Használd ezt a lépést olyan következő mozdulatra, amely védi a kapacitásodat, tiszta értéket ad a társaknak, és erősíti a tágabb közjót."
+    },
+    "energy_alignment": {
+      "title": "Energiádhoz igazodás",
+      "body": "Nézd át a vállalásaidat. Figyeld meg, mely feladatok adnak energiát, melyek merítenek, és hol töltesz be szerepet bűntudatból.",
+      "practice": "Akkor kész, ha egy vállalásodat fenntarthatóbb szerep felé igazítottad.",
+      "quote": "Ne azt kérdezd, mire van szüksége a világnak. Azt kérdezd, mi tesz élővé, és menj és csináld azt.",
+      "quoteBy": "Howard Thurman",
+      "subject": "Energiádhoz igazodás",
+      "details": "Nézd át a vállalásaidat. Figyeld meg, mely feladatok adnak energiát, melyek merítenek, és hol töltesz be szerepet bűntudatból.",
+      "winWinWin": "Használd ezt a lépést olyan következő mozdulatra, amely védi a kapacitásodat, tiszta értéket ad a társaknak, és erősíti a tágabb közjót."
+    },
+    "systems_connection": {
+      "title": "Rendszereken át látni",
+      "body": "Keress egy projektet a megszokott területeden kívül, és figyeld meg a kapcsolódásokat. Klíma, lakhatás, gondoskodás, kormányzás és tanulás gyakran váratlanul találkozik.",
+      "practice": "Akkor kész, ha felfedeztél vagy megkerestél egy projektet a megszokott területeden túl.",
+      "quote": "A föld egy ország, és az emberiség a polgárai.",
+      "quoteBy": "Bahaullah",
+      "subject": "Rendszereken át látni",
+      "details": "Keress egy projektet a megszokott területeden kívül, és figyeld meg a kapcsolódásokat. Klíma, lakhatás, gondoskodás, kormányzás és tanulás gyakran váratlanul találkozik.",
+      "winWinWin": "Használd ezt a lépést olyan következő mozdulatra, amely védi a kapacitásodat, tiszta értéket ad a társaknak, és erősíti a tágabb közjót."
+    },
+    "friction_grace": {
+      "title": "Súrlódás kegyelemmel",
+      "body": "A konfliktus része a közös munkának. Gyakorold, hogy szétválasztod a hatást és a szándékot, és a kritikát az ötletre vagy folyamatra irányítod.",
+      "practice": "Akkor kész, ha használtál vagy előkészítettél egy egészségesebb konfliktusmozdulatot.",
+      "quote": "Úgy cselekedj másokkal, ahogy szeretnéd, hogy veled tegyenek.",
+      "quoteBy": "Az Aranykövetkezés",
+      "subject": "Súrlódás kegyelemmel",
+      "details": "A konfliktus része a közös munkának. Gyakorold, hogy szétválasztod a hatást és a szándékot, és a kritikát az ötletre vagy folyamatra irányítod.",
+      "winWinWin": "Használd ezt a lépést olyan következő mozdulatra, amely védi a kapacitásodat, tiszta értéket ad a társaknak, és erősíti a tágabb közjót."
+    },
+    "boundaries": {
+      "title": "Határaid védelme",
+      "body": "A fenntartható hozzájáruláshoz határok kellenek. Nézd át az értesítéseket, láthatóságot, tempót és azt, milyen kapcsolatfelvétel esik jól.",
+      "practice": "Akkor kész, ha egy határ vagy beállítás tükrözi a valós kapacitásodat.",
+      "quote": "Magamról gondoskodás nem önzés, hanem önmegőrzés, és ez a politikai háború egy formája.",
+      "quoteBy": "Audre Lorde",
+      "subject": "Határaid védelme",
+      "details": "A fenntartható hozzájáruláshoz határok kellenek. Nézd át az értesítéseket, láthatóságot, tempót és azt, milyen kapcsolatfelvétel esik jól.",
+      "winWinWin": "Használd ezt a lépést olyan következő mozdulatra, amely védi a kapacitásodat, tiszta értéket ad a társaknak, és erősíti a tágabb közjót."
+    },
+    "cycle_of_joy": {
+      "title": "Visszatérés az öröm köréhez",
+      "body": "A munka nem ér véget, ezért az örömöt sem lehet a befejezésig halasztani. Figyeld meg, hol találkozik a szolgálat, a tisztelet és az elevenség.",
+      "practice": "Akkor kész, ha megjelölted, mitől érdemes folytatni ezt a munkát.",
+      "quote": "Aludtam és azt álmodtam, hogy az élet öröm. Felébredtem és láttam, hogy az élet szolgálat. Tettem, és íme, a szolgálat öröm volt.",
+      "quoteBy": "Rabindranath Tagore",
+      "subject": "Visszatérés az öröm köréhez",
+      "details": "A munka nem ér véget, ezért az örömöt sem lehet a befejezésig halasztani. Figyeld meg, hol találkozik a szolgálat, a tisztelet és az elevenség.",
+      "winWinWin": "Használd ezt a lépést olyan következő mozdulatra, amely védi a kapacitásodat, tiszta értéket ad a társaknak, és erősíti a tágabb közjót."
+    }
+  },
+  "modal": {
+    "eyebrow": "Gyakorlat útmutató",
+    "close": "Bezárás",
+    "contextLabel": "Kontextus",
+    "practiceLabel": "A kész állapot jele",
+    "winWinWinLabel": "Regeneratív win-win-win irány",
+    "draftNotesLabel": "Privát jegyzetek",
+    "draftNotesPlaceholder": "Privát jegyzetek"
+  }
+}

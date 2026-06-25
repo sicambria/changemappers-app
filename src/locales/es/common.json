@@ -1,0 +1,1896 @@
+{
+  "appName": "Changemappers",
+  "appTagline": "Comunidad de constructores de futuro",
+  "heroRoles": [
+    "constructores de futuro",
+    "creadores",
+    "innovadores",
+    "organizadores comunitarios",
+    "creadores de valor",
+    "agentes de cambio"
+  ],
+  "actions": {
+    "edit": "Editar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "back": "Volver",
+    "backToMap": "Volver al mapa",
+    "viewProfile": "Ver perfil",
+    "sendMessage": "Enviar mensaje",
+    "loadMore": "Cargar más",
+    "create": "Crear",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "clear": "Limpiar",
+    "submit": "Enviar",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "close": "Cerrar",
+    "add": "Agregar",
+    "viewMore": "Ver más",
+    "viewAll": "Ver todo",
+    "loading": "Cargando...",
+    "retry": "Reintentar",
+    "refresh": "Actualizar",
+    "rdgExplorer": "Abrir RDG Explorer",
+    "saveChanges": "Guardar cambios",
+    "addToCalendar": "Añadir al calendario",
+    "tryAgain": "Intentar de nuevo"
+  },
+  "messages": {
+    "saveSuccess": "Guardado con éxito",
+    "deleteSuccess": "Eliminado con éxito",
+    "actionSuccess": "Operación completada con éxito",
+    "updateSuccess": "Actualizado correctamente."
+  },
+  "errors": {
+    "saveFailed": "Error al guardar los cambios",
+    "deleteFailed": "Error al eliminar el elemento",
+    "generic": "Algo salió mal. Por favor, inténtalo de nuevo.",
+    "unauthorized": "No tienes autorización para realizar esta acción",
+    "networkError": "Error de red. Verifica tu conexión a internet.",
+    "notFound": "Página no encontrada.",
+    "forbidden": "Esta acción no está permitida.",
+    "validationFailed": "Por favor, verifica los datos introducidos.",
+    "sendFailed": "Error al enviar.",
+    "unexpectedDescription": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo o vuelve a la página principal.",
+    "loginFailed": "Error al iniciar sesión",
+    "registrationFailed": "Error en el registro",
+    "componentBoundaryTitle": "Algo salió mal",
+    "componentBoundaryDescription": "Se produjo un error inesperado. El resto de la página sigue disponible."
+  },
+  "nav": {
+    "platformIntro": "Acerca de",
+    "home": "Inicio",
+    "feed": "Feed",
+    "map": "Mapa",
+    "communities": "Comunidades",
+    "events": "Eventos",
+    "causes": "Causas sociales",
+    "projects": "Causas",
+    "socialIssues": "Problemas sociales",
+    "signals": "Señales",
+    "profile": "Perfil",
+    "onboarding": "Incorporación",
+    "dashboard": "Panel",
+    "settings": "Configuración",
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar sesión",
+    "glossary": "Glosario",
+    "traditions": "Prácticas",
+    "favorites": "Favoritos",
+    "calendar": "Calendario",
+    "roadmap": "Hoja de ruta",
+    "stories": "Historias",
+    "feedback": "Comentarios",
+    "connections": "Conexiones",
+    "messages": "Mensajes",
+    "video": "Vídeo",
+    "admin": "Admin",
+    "reflect": "Reflexión",
+    "lifewheel": "Espejo de vida",
+    "compass": "Brújula Changemaker",
+    "connect": "Conectar",
+    "learn": "Aprender",
+    "act": "Actuar",
+    "matchmaking": "Buscador de aliados",
+    "connectNature": "Conectar con la Naturaleza",
+    "learningHub": "Formaciones",
+    "regenerativeSkills": "Habilidades Regenerativas",
+    "changePatterns": "Patrones de Cambio",
+    "metamodels": "Metamodelos",
+    "tools": "Herramientas",
+    "graph": "Percepción del sistema",
+    "planet": "Planeta",
+    "menuOpen": "Abrir menú",
+    "menuClose": "Cerrar menú",
+    "grow": "Crecer",
+    "trainingFind": "Buscar formación",
+    "mentorFind": "Buscar mentor",
+    "peerFind": "Apoyo entre pares",
+    "coachFind": "Buscar coach",
+    "contribute": "Contribuir",
+    "contributeFind": "Buscar contribuciones",
+    "trainingOffer": "Ofrecer formación",
+    "mentorOffer": "Ser mentor",
+    "peerOffer": "Ofrecer apoyo entre pares",
+    "coachOffer": "Ofrecer coaching",
+    "contributeOffer": "Ofrecer contribución",
+    "canvas": "Tablero de Dibujo",
+    "energy": "Flujos de Poder y Energía",
+    "draw": "Pizarra de Dibujo",
+    "inviteOthers": "Invitar a Otros",
+    "kanban": "Kanban",
+    "tasks": "Tareas",
+    "toolsSubtitle": "Herramientas de análisis y sistemas",
+    "growthHub": "Centro de Crecimiento",
+    "volunteer": "Voluntariado",
+    "scheduling": "Encontrar Nuestro Tiempo",
+    "valueCompass": "Brújula de Valores",
+    "principles": "Mis Principios",
+    "helpers": "Lo que me ayuda",
+    "reflectCheckin": "Check-in rápido",
+    "reflectDeep": "Reflexión profunda",
+    "pitch": "Escribe Tu Propuesta",
+    "invite": "Enviar Invitación",
+    "learningCentral": "Central de Aprendizaje",
+    "learningCentralWhat": "¿Qué quieres aprender?",
+    "learningCentralSubtitle": "Cada objetivo de aprendizaje abre una puerta distinta. Encuentra el recurso que encaja con dónde estás y hacia dónde vas.",
+    "governance": "Gobernanza",
+    "cases": "Casos",
+    "coachme": "Quiero un coach"
+  },
+  "firstLoginHelper": {
+    "openLabel": "Abrir ayuda de primer inicio",
+    "helpMenu": "Ayuda",
+    "title": "Recorrido de primeros pasos",
+    "progress": "Paso {{current}} de {{total}}",
+    "targetMissing": "Esta parte no esta visible aqui, asi que el recorrido muestra el paso sin foco.",
+    "steps": {
+      "help": {
+        "title": "Abre esta guia cuando quieras",
+        "body": "Usa el boton ? del encabezado o del menu movil cuando quieras ver este recorrido otra vez."
+      },
+      "reflect": {
+        "title": "Reflexionar",
+        "body": "Las herramientas de reflexion te ayudan a pausar, aclarar direccion y notar que esta cambiando."
+      },
+      "connect": {
+        "title": "Conectar",
+        "body": "Conectar reune personas, comunidades, relaciones y la vista Planeta."
+      },
+      "learn": {
+        "title": "Aprender",
+        "body": "Los espacios de aprendizaje reunen historias, introducciones, causas y recursos de formacion."
+      },
+      "mapMenu": {
+        "title": "Menu de mapa",
+        "body": "Las vistas de mapa ayudan a explorar personas, lugares, senales y actividad cercana."
+      },
+      "tools": {
+        "title": "Herramientas",
+        "body": "Las herramientas apoyan pensamiento visual, lectura de sistemas, dibujo y analisis practico."
+      },
+      "act": {
+        "title": "Actuar",
+        "body": "Actuar convierte la comprension en tareas, propuestas, contribuciones, horarios y trabajo compartido."
+      },
+      "profile": {
+        "title": "Perfil",
+        "body": "Tu perfil explica quien eres, que ofreces y cuanta visibilidad quieres tener."
+      },
+      "onboarding": {
+        "title": "Incorporacion",
+        "body": "La incorporacion te permite ajustar identidad, intenciones, necesidades, ofertas y valores con el tiempo."
+      },
+      "invite": {
+        "title": "Invitar a otros",
+        "body": "Invita colaboradores de confianza para que la red crezca por relaciones reales."
+      },
+      "map": {
+        "title": "Mapa",
+        "body": "Abre el mapa para descubrir miembros, comunidades y senales por lugar."
+      },
+      "planet": {
+        "title": "Planeta",
+        "body": "Planeta muestra el grafo de conexiones amplio cuando quieres percibir toda la red."
+      },
+      "messages": {
+        "title": "Mensajes y notificaciones",
+        "body": "Las notificaciones y mensajes mantienen cerca respuestas, solicitudes y conversaciones."
+      },
+      "account": {
+        "title": "Menu de cuenta",
+        "body": "Usa el menu de cuenta para perfil, incorporacion, invitaciones, ajustes y cerrar sesion."
+      }
+    },
+    "actions": {
+      "back": "Atras",
+      "next": "Siguiente",
+      "finish": "Terminar",
+      "exit": "Salir"
+    }
+  },
+  "connectNature": {
+    "metaTitle": "Conectar con la Naturaleza — Reintegrar lo Salvaje en lo Cotidiano",
+    "metaDescription": "Formas prácticas y accesibles de restaurar tu conexión con el mundo natural."
+  },
+  "planet": {
+    "metaTitle": "Conexiones — Planeta",
+    "metaDescription": "Explora la red global de creadores de cambio, comunidades e iniciativas."
+  },
+  "connections": {
+    "requests": "Solicitudes",
+    "find": "Buscar personas",
+    "chatComingSoon": "Chat próximamente...",
+    "noConnections": "Aún no tienes conexiones",
+    "noPendingRequests": "No hay solicitudes de conexión pendientes",
+    "exploreMap": "Explorar el mapa",
+    "searchPlaceholder": "Buscar conexiones...",
+    "noResults": "Sin resultados para: \"{{query}}\"",
+    "manageSubtitle": "Gestiona tus conexiones y solicitudes",
+    "noRecommendations": "No se encontraron nuevas conexiones recomendadas.",
+    "browseMap": "Explorar el mapa",
+    "sendNomination": "Enviar nominación",
+    "requestMentor": "Solicitar mentor",
+    "addAsCompanion": "Añadir como compañero/a",
+    "supportiveLink": "Vínculo de apoyo/complementario",
+    "message": "Mensaje",
+    "acceptRequest": "Aceptar",
+    "declineRequest": "Rechazar",
+    "allyFinder": "Buscador de aliados",
+    "loadError": "No pudimos cargar tus conexiones. Inténtalo de nuevo.",
+    "remove": "Eliminar conexión",
+    "confirmRemove": "¿Eliminar a {{name}} de tus conexiones?",
+    "removeSuccess": "Conexión eliminada",
+    "removeFailed": "No se pudo eliminar la conexión",
+    "confirmDecline": "¿Rechazar esta solicitud?"
+  },
+  "chat": {
+    "noConnections": "No tienes conexiones disponibles.",
+    "selectConversation": "Selecciona una conversación de la lista de la izquierda.",
+    "online": "● En línea",
+    "connecting": "○ Conectando...",
+    "startConversation": "¡Inicia la conversación!",
+    "messagePlaceholder": "Escribe un mensaje...",
+    "startVideoCall": "Iniciar videollamada",
+    "backToConversations": "Volver a las conversaciones",
+    "deleteMessage": "Eliminar mensaje",
+    "confirmDeleteMessage": "¿Eliminar este mensaje?",
+    "messageDeleted": "Mensaje eliminado",
+    "messageDeleteFailed": "No se pudo eliminar el mensaje"
+  },
+  "video": {
+    "title": "Reuniones de vídeo",
+    "subtitle": "Crea una sala o únete a una llamada con una conexión de confianza.",
+    "roomLabel": "Nombre de la sala",
+    "roomPlaceholder": "circulo-comunitario",
+    "roomHelp": "Usa de 3 a 64 letras, números, guiones o guiones bajos.",
+    "join": "Unirse",
+    "meetingTitle": "Reunión de vídeo",
+    "roomName": "Sala: {{roomName}}",
+    "changeRoom": "Cambiar sala",
+    "iframeTitle": "Reunión de vídeo de Jitsi",
+    "errors": {
+      "prepareRoom": "No se pudo preparar la sala de video.",
+      "invalidRoomName": "Los nombres de sala pueden usar letras, números, guiones bajos y guiones."
+    }
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "markAllRead": "Marcar todo como leído",
+    "loading": "Cargando...",
+    "empty": "No hay notificaciones nuevas"
+  },
+  "glossary": {
+    "title": "Glosario",
+    "subtitle": "Conceptos clave de la construcción del futuro — arquetipos, perspectivas y conceptos sistémicos en el ecosistema Changemappers.",
+    "searchPlaceholder": "Buscar en el glosario...",
+    "clearSearch": "Limpiar búsqueda",
+    "related": "Relacionado:",
+    "noResults": "Sin resultados",
+    "noResultsHint": "Prueba con otra palabra clave o categoría.",
+    "showAll": "Mostrar todo",
+    "categories": {
+      "all": "Todo",
+      "archetypes": "Arquetipos",
+      "system": "Sistema",
+      "community": "Comunidad",
+      "process": "Proceso"
+    }
+  },
+  "traditions": {
+    "badge": "Tradiciones de todo el mundo",
+    "title": "Prácticas",
+    "subtitle": "Tradiciones globales que apoyan la sabiduría comunitaria, la conciencia ecopsicológica y el crecimiento interior sistémico.",
+    "searchPlaceholder": "Buscar por nombre, región o descripción...",
+    "showAll": "Mostrar todo",
+    "explored": "Prácticas exploradas",
+    "results": "{{count}} resultados",
+    "noResults": "Sin resultados",
+    "noResultsHint": "Prueba con otra palabra clave o categoría.",
+    "collectedSamples": "Muestras recopiladas",
+    "categories": {
+      "all": "Todo",
+      "dialogue": "Diálogo",
+      "ritual": "Ritual",
+      "energy": "Energía",
+      "mentor": "Mentor"
+    },
+    "prep": "Preparación",
+    "agenda": "Orden del día",
+    "guideQuestions": "Preguntas Guía",
+    "awarenessShift": "Cambio de Conciencia",
+    "footerTitle": "Esto es solo el comienzo. Nuestra red está en constante crecimiento.",
+    "footerSubtitle": "¿Conoces alguna práctica antigua o moderna que pueda ayudar al despertar comunitario? Compártela con nosotros y llenemos el mapa juntos.",
+    "submitPractice": "Enviar una Práctica"
+  },
+  "metamodels": {
+    "badge": "Metamodelos para Transformadores",
+    "title": "Navegando Sistemas Complejos y el Desarrollo Humano",
+    "subtitle": "Explora <strong>{{count}} marcos prácticos</strong> para comprender sistemas, relaciones y el cambio en distintas escalas.",
+    "searchPlaceholder": "Buscar por nombre, mecanismo, autor, etiqueta...",
+    "filters": "Filtros",
+    "groupByScale": "Agrupar por Escala",
+    "clearAll": "Limpiar todo",
+    "allScales": "Todas las escalas",
+    "nativeScale": "Escala nativa",
+    "traditionOrigin": "Tradición / Origen",
+    "domain": "Dominio",
+    "region": "Región",
+    "showing": "Mostrando {{count}} de {{total}} metamodelos",
+    "noResults": "No se encontraron metamodelos",
+    "noResultsHint": "Prueba diferentes términos de búsqueda o filtros.",
+    "clearAllFilters": "Limpiar todos los filtros",
+    "exploreModel": "Explorar modelo",
+    "bce": "a.C.",
+    "coreMechanism": "Mecanismo Central",
+    "applicability": "Aplicabilidad Contemporánea",
+    "limitations": "Limitaciones y Puntos Ciegos",
+    "critics": "Críticos Conocidos",
+    "changemakerApplications": "Aplicaciones para Transformadores",
+    "pairsWith": "Se combina bien con",
+    "applicableFor": "Aplicable para",
+    "tags": "Etiquetas",
+    "domains": "Dominios",
+    "representationNote": "Nota sobre representación: Las cosmologías cazadoras-recolectoras (como el Tiempo del Sueño de los aborígenes australianos) y los marcos nómadas de Asia Central están críticamente subrepresentados en la literatura formal de cambio sistémico.",
+    "categories": {
+      "cosmic": "Cósmico y Planetario",
+      "civilizational": "Civilizacional y Social",
+      "ecological": "Ecológico y Socio-Ecológico",
+      "organizational": "Organizacional y Grupal",
+      "crossScale": "Transversal y Trans-Sistémico"
+    },
+    "nativeScales": {
+      "Cosmic": "Cósmico",
+      "Planetary": "Planetario",
+      "Civilizational": "Civilizacional",
+      "Societal": "Social",
+      "Individual": "Individual",
+      "Ecological": "Ecológico",
+      "Socio-Ecological": "Socio-Ecológico",
+      "Organizational": "Organizacional",
+      "Community": "Comunitario",
+      "Group": "Grupal",
+      "All Scales": "Todas las escalas"
+    },
+    "domainLabels": {
+      "Energy & Technology": "Energía y Tecnología",
+      "Climate & Environment": "Clima y Medio Ambiente",
+      "Governance": "Gobernanza",
+      "Economics": "Economía",
+      "Organizational Design": "Diseño Organizacional",
+      "Social Cohesion": "Cohesión Social",
+      "Community Building": "Construcción Comunitaria",
+      "Philosophy & Ethics": "Filosofía y Ética",
+      "Social Justice": "Justicia Social",
+      "Systems Thinking": "Pensamiento Sistémico",
+      "Psychology & Values": "Psicología y Valores",
+      "Leadership": "Liderazgo"
+    },
+    "applicableForLabels": {
+      "Policy Design": "Diseño de Políticas",
+      "Climate Strategy": "Estrategia Climática",
+      "Tech Advocacy": "Defensa Tecnológica",
+      "AI Policy": "Política de IA",
+      "Organizational Reform": "Reforma Organizacional",
+      "Institutional Analysis": "Análisis Institucional",
+      "Community Organizing": "Organización Comunitaria",
+      "Social Movement Building": "Construcción de Movimientos Sociales",
+      "Conflict Resolution": "Resolución de Conflictos",
+      "Policy Advocacy": "Incidencia en Políticas",
+      "Economic Localization": "Localización Económica",
+      "Restorative Justice": "Justicia Restaurativa",
+      "Curriculum Reform": "Reforma Curricular",
+      "Organizational Knowledge Management": "Gestión del Conocimiento Organizacional",
+      "Climate Justice": "Justicia Climática",
+      "Environmental Law": "Derecho Ambiental",
+      "Urban Planning": "Planificación Urbana",
+      "Organizational Strategy": "Estrategia Organizacional",
+      "Environmental Management": "Gestión Ambiental",
+      "Institutional Reform": "Reforma Institucional",
+      "Commons Governance": "Gobernanza de los Comunes",
+      "Digital Communities": "Comunidades Digitales",
+      "Cooperative Design": "Diseño Cooperativo",
+      "Environmental Policy": "Política Ambiental",
+      "Indigenous Rights": "Derechos Indígenas",
+      "Impact Assessment": "Evaluación de Impacto",
+      "Organizational Design": "Diseño Organizacional",
+      "Coalition Building": "Construcción de Coaliciones",
+      "Non-Profit Management": "Gestión Sin Fines de Lucro",
+      "Government Reform": "Reforma Gubernamental",
+      "Community Mediation": "Mediación Comunitaria",
+      "Organizational Culture": "Cultura Organizacional",
+      "Leadership Development": "Desarrollo del Liderazgo",
+      "Adaptive Leadership": "Liderazgo Adaptativo",
+      "Strategic Planning": "Planificación Estratégica",
+      "Spatial Design": "Diseño Espacial",
+      "Organizational Navigation": "Navegación Organizacional",
+      "Systems Intervention": "Intervención Sistémica",
+      "Environmental Strategy": "Estrategia Ambiental",
+      "Cultural Transformation": "Transformación Cultural",
+      "Holistic Strategy": "Estrategia Holística",
+      "Team Dynamics": "Dinámica de Equipos"
+    }
+  },
+  "learningHub": {
+    "searchPlaceholder": "Buscar programas...",
+    "title": "Centro de Formación",
+    "subtitle": "Formación regenerativa accesible para creadores de futuro. Explora {{count}}+ programas — menos de $200, de 5 continentes, sin título requerido.",
+    "stats": {
+      "total": "Total de programas",
+      "free": "Formación gratuita",
+      "online": "Formato online",
+      "categories": "Número de categorías"
+    },
+    "format": "Formato",
+    "category": "Categoría",
+    "hybrid": "Híbrido / Presencial",
+    "priceAll": "Precio: todos",
+    "onlyFree": "Solo gratuito",
+    "maxPrice100": "Máx $100",
+    "maxPrice50": "Máx $50",
+    "priceUsd": "${{cost}} USD",
+    "viewDetails": "Ver Detalles",
+    "clearFilters": "Limpiar Filtros",
+    "results": "Resultados: {{count}} / {{total}}",
+    "noResults": "No se encontraron resultados",
+    "noResultsHint": "Prueba diferentes condiciones de filtro.",
+    "clearAllFilters": "Limpiar todos los filtros",
+    "entryConditions": "Requisitos de Ingreso",
+    "noDegreeNote": "* Ninguno de los programas exige un título universitario formal como requisito previo.",
+    "visitProgram": "Ir al Programa",
+    "labelCategory": "Categoría",
+    "labelLevel": "Nivel",
+    "labelCost": "Costo",
+    "labelDuration": "Duración",
+    "labelFormatLocation": "Formato y Lugar",
+    "labelLanguage": "Idioma",
+    "language": "Idioma",
+    "levels": {
+      "Beginner": "Principiante",
+      "Intermediate": "Intermedio",
+      "Advanced": "Avanzado",
+      "Beginner to Intermediate": "Principiante – Intermedio",
+      "Beginner to Advanced": "Principiante – Avanzado"
+    }
+  },
+  "graph": {
+    "filterByName": "Filtrar por Nombre/Lugar",
+    "searchPlaceholder": "Buscar...",
+    "visibilityLayers": "Capas de Visibilidad",
+    "visibleNodes": "Nodos visibles",
+    "visibleLinks": "Conexiones visibles",
+    "layers": {
+      "all": "Todo",
+      "users": "Personas",
+      "communities": "Comunidades",
+      "events": "Eventos"
+    }
+  },
+  "shortcuts": {
+    "undo": "Ctrl+Z",
+    "redo": "Ctrl+Shift+Z"
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "pending": "Pendiente",
+    "verified": "Verificado",
+    "unverified": "No verificado",
+    "noResults": "No se encontraron resultados",
+    "loading": "Cargando...",
+    "deleting": "Eliminando..."
+  },
+  "levels": {
+    "0": "Observador Inerte",
+    "1": "Simpatizante Pasivo",
+    "2": "Consumidor Consciente",
+    "3": "Defensor Vocal",
+    "4": "Organizador Local",
+    "5": "Innovador de Soluciones",
+    "6": "Escalador Estratégico",
+    "7": "Pensador Sistémico",
+    "8": "Cambiador de Paradigma",
+    "9": "Catalizador Transnacional"
+  },
+  "time": {
+    "today": "Hoy",
+    "tomorrow": "Mañana",
+    "yesterday": "Ayer",
+    "daysAgo": "hace {{count}} días",
+    "hoursAgo": "hace {{count}} horas",
+    "minutesAgo": "hace {{count}} minutos",
+    "justNow": "Ahora mismo",
+    "weeksAgo": "hace {{count}} semanas"
+  },
+  "footer": {
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "copyright": "Changemappers: Connecting Self, Nature and Changemakers. Sitio web: AGPLv3 / Contenido: CC-BY-SA 4.0",
+    "mission": "Misión",
+    "contribute": "Contribuir",
+    "openData": "Datos Abiertos",
+    "newsletter": "Boletín",
+    "help": "Ayuda",
+    "impressum": "Aviso legal"
+  },
+  "pulseBanner": {
+    "badge": "Consejo",
+    "message": "Parece que hace tiempo que no actualizas tu estado. ¿Sigues trabajando en lo mismo?",
+    "updateStatus": "Actualizar estado",
+    "close": "Cerrar"
+  },
+  "moderation": {
+    "reportUser": "Reportar usuario",
+    "blockUser": "Bloquear usuario",
+    "unblockUser": "Desbloquear usuario",
+    "alreadyBlocked": "Usuario bloqueado",
+    "reportTitle": "Enviar reporte",
+    "reportDescription": "¿Cuál es el problema con este contenido o usuario?",
+    "reportPlaceholder": "Describe el problema en detalle (opcional)",
+    "reportSuccess": "Reporte enviado correctamente",
+    "blockSuccess": "Usuario bloqueado correctamente",
+    "unblockSuccess": "Usuario desbloqueado correctamente",
+    "confirmBlock": "¿Seguro que quieres bloquear a {{name}}?",
+    "confirmBlockGeneric": "¿Seguro que quieres bloquear a este usuario?",
+    "targetUser": "Usuario: ",
+    "targetContent": "Contenido: ",
+    "errors": {
+      "categoryRequired": "Elige una categoría"
+    }
+  },
+  "categories": {
+    "SPAM": "Spam",
+    "HARASSMENT": "Acoso",
+    "MISINFORMATION": "Desinformación",
+    "SAFETY_CONCERN": "Preocupación de seguridad",
+    "GREENWASHING": "Lavado verde",
+    "OTHER": "Otro"
+  },
+  "dashboard": {
+    "greeting": "¿Hacia dónde va tu energía hoy?",
+    "subtitle": "Elige un área donde más se te necesite ahora.",
+    "customizeOn": "✏️ Editar",
+    "customizeOff": "✓ Listo",
+    "hideCard": "Ocultar",
+    "showCard": "Mostrar",
+    "dragHint": "Arrastra las tarjetas para reordenar",
+    "tiles": {
+      "connect-self": {
+        "title": "Conexión conmigo mismo",
+        "desc": "Mindfulness, establecimiento de intenciones y círculos de resiliencia personal.",
+        "cta": "Autorreflexión →"
+      },
+      "connect-nature": {
+        "title": "Conexión con la Naturaleza",
+        "desc": "Percepción ecológica, regeneración local y biomimética.",
+        "cta": "Radar de la Naturaleza →"
+      },
+      "connect-others": {
+        "title": "Conexión con los Demás",
+        "desc": "Mentoría entre pares, círculos comunitarios y construcción de confianza.",
+        "cta": "Encontrar personas →"
+      },
+      "learning": {
+        "title": "Aprendizaje y Sabiduría",
+        "desc": "Historias de fracaso de código abierto, patrones de éxito y herramientas de pensamiento sistémico.",
+        "cta": "Historias →"
+      },
+      "direct-action": {
+        "title": "Acción Directa",
+        "desc": "Necesidades urgentes, voluntariado y despliegue de recursos.",
+        "cta": "Acciones →"
+      },
+      "system-sensing": {
+        "title": "Percepción del Sistema",
+        "desc": "Salud del ecosistema, visualización de impacto e identificación de brechas.",
+        "cta": "Mapa →"
+      },
+      "grow": {
+        "title": "Crecer y Recibir Apoyo",
+        "desc": "Encuentra formación, mentoría, coaching o acompañamiento entre pares para tu borde actual.",
+        "cta": "Buscar apoyo →"
+      },
+      "offer": {
+        "title": "Ofrecer y Contribuir",
+        "desc": "Comparte habilidades, mentoriza, ofrece apoyo entre pares o contribuye al trabajo colectivo.",
+        "cta": "Ofrecer algo →"
+      },
+      "canvas": {
+        "title": "Tablero de Dibujo",
+        "desc": "Mapea problemas, patrones y causas raíz juntos. Construye comprensión compartida.",
+        "cta": "Abrir tablero →"
+      },
+      "kanban": {
+        "title": "Kanban",
+        "desc": "Inicia o únete a una iniciativa. Del ideo a la integración, juntos.",
+        "cta": "Ver iniciativas →"
+      }
+    },
+    "compass": {
+      "title": "Brújula Changemaker",
+      "description": "Una herramienta de planificación de crecimiento personal para crear cambios significativos.",
+      "metaTitle": "Brújula Changemaker | Changemappers",
+      "metaDescription": "Una herramienta de planificación de crecimiento personal para personas que intentan crear cambios significativos.",
+      "label": "Brújula de energía",
+      "step1Prompt": "¿Qué te llama ahora mismo?",
+      "step2Prompt": "Elige lo que más te encaje:",
+      "back": "Atrás",
+      "give": "Quiero ofrecer",
+      "receive": "Quiero recibir",
+      "sense": "Quiero percibir / mapear",
+      "giveGrowth": "Ofrecer apoyo",
+      "giveContribute": "Contribuir con habilidades",
+      "giveInitiative": "Iniciar una iniciativa",
+      "receiveGrowth": "Buscar apoyo",
+      "receiveContribute": "Buscar una contribución",
+      "senseCanvas": "Tablero sistémico",
+      "senseGraph": "Gráfico del sistema",
+      "sensePlanet": "Vista planeta",
+      "dismiss": "Descartar brújula"
+    }
+  },
+  "archetypes": {
+    "MYCELIUM": "Micelio",
+    "KEYSTONE": "Clave de arco",
+    "POLLINATOR": "Polinizador",
+    "PRISM": "Prisma",
+    "COMPOST": "Compostaje",
+    "SENTINEL": "Centinela",
+    "ALCHEMIST": "Alquimista",
+    "CANOPY": "Dosel",
+    "SPARK": "Chispa",
+    "ECHO": "Eco",
+    "TIDE": "Marea",
+    "HORIZON": "Horizonte"
+  },
+  "home": {
+    "mapLoading": "Preparando mapa...",
+    "dataLoading": "Cargando datos...",
+    "heroDiscover": "Descubre",
+    "heroSubtitle": "Únete a la comunidad, encuentra compañeros, eventos e iniciativas locales en el mapa.",
+    "stats": {
+      "users": "Miembros",
+      "communities": "Comunidades",
+      "events": "Eventos"
+    },
+    "joinCta": "Únete",
+    "mapCta": "Mapa completo",
+    "coverImageAlt": "Foto de portada",
+    "newMembers": {
+      "title": "Nuevos miembros en la red",
+      "subtitle": "Conoce a los últimos en unirse",
+      "viewAll": "Todos los miembros"
+    },
+    "communities": {
+      "title": "Comunidades recientemente activas",
+      "subtitle": "Explora la actividad más reciente",
+      "viewAll": "Ver todas"
+    },
+    "events": {
+      "title": "Actividad reciente",
+      "subtitle": "Próximos programas en la red",
+      "viewAll": "Todos los eventos",
+      "online": "Evento online",
+      "noLocation": "Ubicación no especificada"
+    },
+    "topics": {
+      "title": "Explorar por tema",
+      "results": "{{count}} resultados",
+      "permaculture": "Permacultura",
+      "ecoArchitecture": "Eco Arquitectura",
+      "communityBuilding": "Construcción comunitaria",
+      "localEconomy": "Economía local",
+      "education": "Educación",
+      "health": "Salud",
+      "spirituality": "Espiritualidad",
+      "renewableEnergy": "Energía renovable"
+    }
+  },
+  "tools": {
+    "hero": {
+      "title": "Laboratorio y Herramientas",
+      "subtitle": "Descubre recursos e instrumentos diseñados para apoyar tu viaje regenerativo y el sentido comunitario."
+    },
+    "available": "Herramientas disponibles",
+    "openTool": "Abrir herramienta",
+    "comingSoon": "Próximamente",
+    "comingSoonLabel": "Próximamente",
+    "impactDashboard": {
+      "title": "Panel de Impacto",
+      "description": "Visualiza el progreso de tu comunidad en varias dimensiones de impacto.",
+      "badge": "NUEVO"
+    },
+    "preMeetingAudit": {
+      "title": "Auditoría Pre-Reunión",
+      "description": "Una lista de verificación para asegurar que tus reuniones sean inclusivas, centradas y efectivas.",
+      "badge": "ESTABLE"
+    },
+    "participationIndex": {
+      "title": "Índice de Participación",
+      "description": "Mide y mejora la profundidad de la participación en tus proyectos.",
+      "badge": "BETA"
+    },
+    "valueCompass": {
+      "title": "Brújula de Valores",
+      "description": "Alinea tus acciones con tus valores fundamentales y principios comunitarios.",
+      "badge": "BETA"
+    },
+    "principles": {
+      "title": "Librería de Patrones",
+      "description": "Una colección de patrones probados para la gobernanza y cooperación comunitaria.",
+      "badge": "ALPHA"
+    },
+    "innerHelpers": {
+      "title": "Autoreflexión Profunda",
+      "description": "Herramientas para el desarrollo interior y el procesamiento de estados emocionales complejos.",
+      "badge": "ALPHA"
+    },
+    "draw": {
+      "title": "Pizarra Local",
+      "description": "Herramientas de bocetos rápidos y mapeo de sistemas. Todos los datos se quedan en tu navegador.",
+      "badge": "ALPHA",
+      "backToTools": "Volver a herramientas",
+      "clearCanvas": "Limpiar lienzo",
+      "reloadLocalScene": "Recargar escena local",
+      "openHelp": "Abrir ayuda",
+      "loading": "Cargando pizarra local...",
+      "helpTitle": "Ayuda de la pizarra",
+      "closeHelp": "Cerrar ayuda",
+      "helpIntro": "Esta pizarra es una herramienta local para bocetos rápidos y mapeo de sistemas.",
+      "helpClear": "Limpiar: Elimina todos los elementos del lienzo.",
+      "helpReload": "Recargar: Restaura el último estado guardado de tu navegador.",
+      "helpSelfHosted": "Auto-alojado: Ningún dato sale de tu máquina; todo se guarda en el almacenamiento local de tu navegador.",
+      "helpAutosave": "Autoguardado: Tu progreso se guarda automáticamente mientras dibujas.",
+      "helpExport": "Exportar: Puedes guardar tu trabajo como una imagen o un archivo de Excalidraw usando el menú de la izquierda.",
+      "helpLimitations": "Esta pizarra conserva una sola escena local en tu navegador. Para varios diagramas guardados, cambiar entre ellos, ajustes de visibilidad o flujos compartibles de equipo, usa Canvas.",
+      "openCanvas": "Ir a Canvas"
+    },
+    "archetypeGap": {
+      "title": "Análisis de Brecha de Arquetipos",
+      "description": "Identifica roles y arquetipos faltantes en tu equipo comunitario."
+    },
+    "networkHealth": {
+      "title": "Monitor de Salud de la Red",
+      "description": "Analiza la vitalidad y resiliencia de tus conexiones comunitarias."
+    },
+    "openPlatform": {
+      "title": "Analizador de plataformas abiertas",
+      "description": "Compara portales regenerativos, plataformas cívicas y redes de inteligencia colectiva.",
+      "badge": "NUEVO"
+    },
+    "partimap": {
+      "title": "Partimap",
+      "description": "Herramienta de mapeo participativo y encuestas para la participación comunitaria y la recopilación de datos espaciales.",
+      "badge": "EXTERNO"
+    },
+    "polis": {
+      "title": "Pol.is",
+      "description": "Plataforma de conversación de código abierto que usa agrupación en tiempo real para identificar consensos y divisiones en grupos grandes.",
+      "badge": "EXTERNO"
+    },
+    "geoLibre": {
+      "title": "GeoLibre",
+      "description": "Una colección curada de bibliotecas y herramientas geoespaciales libres y de código abierto para observación de la Tierra y ciencia de datos.",
+      "badge": "EXTERNO"
+    }
+  },
+  "definitions": {
+    "title": "Glosario",
+    "labels": {
+      "focus": "Enfoque",
+      "goal": "Objetivo",
+      "characteristics": "Características"
+    },
+    "okoarc": {
+      "title": "Ökoarc (Yo Ecológico)",
+      "description": "El \"Ökoarc\" es el buscador individual que ha emprendido el camino hacia la sostenibilidad y la conciencia. Este término se refiere a una persona que reconoce que es parte de la naturaleza y que sus decisiones afectan al entorno.",
+      "focus": "Transformar el propio estilo de vida, aprender, experimentar.",
+      "goal": "Crear armonía interior y exterior.",
+      "characteristics": "Apertura, curiosidad, responsabilidad."
+    },
+    "koma": {
+      "title": "Koma (Miembro de la Comunidad)",
+      "description": "El \"Koma\" ya no camina solo, sino que es un miembro activo de una comunidad. El significado original de la palabra (amigo, camarada, padrino) hace referencia a relaciones humanas profundas basadas en la confianza.",
+      "focus": "Cooperación, construcción comunitaria, apoyo mutuo.",
+      "goal": "Crear comunidades resilientes y nutritivas.",
+      "characteristics": "Compromiso, solidaridad, servicio."
+    }
+  },
+  "language": {
+    "label": "Idioma",
+    "hu": "Magyar",
+    "en": "English",
+    "es": "Español"
+  },
+  "skills": {
+    "title": "Habilidades Regenerativas",
+    "subtitle": "Biblioteca de habilidades regenerativas.",
+    "searchPlaceholder": "Buscar una habilidad..."
+  },
+  "causes": {
+    "pageTitle": "Objetivos de Desarrollo Regenerativo",
+    "metaTitle": "Objetivos de Desarrollo Regenerativo | Changemappers",
+    "metaDescription": "Explora 30 Objetivos de Desarrollo Regenerativo (ODR), un marco sistémico para construir una civilización regenerativa.",
+    "notFoundTitle": "Causa no encontrada | Changemappers",
+    "pageSubtitle": "30 objetivos interconectados y mutuamente reforzantes en cinco dominios interdependientes — un marco sistémico para construir una civilización regenerativa.",
+    "statCauses": "Causas Sociales",
+    "statDomains": "Dominios",
+    "statMembers": "Miembros Activos",
+    "goalCount": "{{count}} objetivos",
+    "mainCause": "causa principal",
+    "interested": "interesados",
+    "beFirstCard": "¡Sé el primero en unirte!",
+    "uncategorizedTitle": "Causas Comunitarias",
+    "uncategorizedSubtitle": "Desafíos sociales locales y globales",
+    "discoveryTitle": "Temas de Exploración",
+    "discoverySubtitle": "Herramientas y metodologías prácticas dentro de los ODR",
+    "subgoalsTitle": "Subobjetivos Relacionados",
+    "subgoalsSubtitle": "Áreas focales específicas dentro de los ODR de este dominio",
+    "subgoalLinkedTo": "Vinculado a",
+    "loadError": "No se pudieron cargar las causas. Por favor intenta de nuevo más tarde.",
+    "domains": {
+      "1": {
+        "title": "Desarrollo Humano y Capacidad Interior",
+        "description": "Los requisitos psicológicos y culturales de una civilización regenerativa"
+      },
+      "2": {
+        "title": "Regeneración de Sistemas Vivos",
+        "description": "Rehabilitación activa y neta-positiva de los sistemas de soporte vital del planeta"
+      },
+      "3": {
+        "title": "Economía e Infraestructura Regenerativa",
+        "description": "Desvinculación del bienestar humano del flujo bio-físico"
+      },
+      "4": {
+        "title": "Gobernanza e Inteligencia Colectiva",
+        "description": "Actualización del sistema operativo de la coordinación humana, política y justicia"
+      },
+      "5": {
+        "title": "Administración a Largo Plazo y Resiliencia Civilizacional",
+        "description": "Extender la gobernanza civilizacional de décadas a siglos"
+      }
+    },
+    "detail": {
+      "backToCauses": "Volver a las causas",
+      "editButton": "Editar",
+      "joinButton": "Unirme",
+      "leaveButton": "Salir",
+      "actionBarWithMembers": "{{members}} miembros, {{communities}} comunidades trabajando en esta causa",
+      "actionBarEmpty": "¡Sé el primero en unirte a esta causa!",
+      "descriptionTitle": "Sobre esta causa",
+      "problemsTitle": "¿Cuáles son los problemas?",
+      "solutionsTitle": "¿En qué soluciones estamos trabajando?",
+      "communitiesTitle": "Comunidades de apoyo",
+      "peopleTitle": "Personas de esta causa",
+      "noLocation": "Ubicación no especificada",
+      "managersTitle": "Gestores de la causa",
+      "referencesTitle": "Referencias",
+      "websitesTitle": "Sitios web",
+      "domainLabel": "Dominio {{num}}",
+      "rdgFramework": "ODR {{num}} – Marco de Objetivos de Desarrollo Regenerativo",
+      "rdgBelongsTo": "Esta causa pertenece al ODR {{num}}",
+      "explorerLink": "Detalles del objetivo (Explorer)",
+      "relatedTitle": "Causas y temas relacionados",
+      "relatedRdg": "ODR relacionado",
+      "noPrimaryMark": "Nadie ha marcado esto como su causa principal todavía.",
+      "beFirst": "¡Sé el primero!",
+      "morePersons": "+ {{count}} más",
+      "notFound": "Causa no encontrada",
+      "rdgExplorer": "Ficha completa ODR (Explorer)",
+      "mainCause": "causa principal",
+      "communities": "comunidades"
+    }
+  },
+  "patterns": {
+    "title": "Patrones de Cambio",
+    "subtitle": "Explora tácticas y estrategias de base para la transformación social.",
+    "searchPlaceholder": "Buscar patrones..."
+  },
+  "matchmaking": {
+    "title": "Buscador de Aliados",
+    "description": "Recomendaciones basadas en habilidades, niveles de energía, causas y áreas RDG.",
+    "errorTitle": "Ocurrió un error",
+    "noMatchesTitle": "No se encontraron coincidencias",
+    "noMatchesDesc": "No hay suficientes datos en tu perfil.",
+    "connections": "Conexiones",
+    "scoreTransparencyTitle": "Qué puede ver la puntuación y qué no",
+    "scoreTransparencyBody": "Las puntuaciones usan ofertas, necesidades, causas, áreas RDG, disponibilidad, idioma y frescura del perfil. No verifican confianza, contexto vivido, tiempo estacional, linaje de tierra o comunidad, ni capacidad actual. Trata la puntuación como punto de partida, no como ranking de personas.",
+    "scoreAria": "Puntuación de coincidencia {{score}}. Es una pista de enrutamiento, no un ranking de la persona.",
+    "firstExchangeTitle": "Empieza con reciprocidad",
+    "firstExchangeBody": "Antes de pedir ayuda, nombra algo que puedes ofrecer, sostener o facilitar en este intercambio.",
+    "dismissLabel": "No me interesa",
+    "dismissedConfirmation": "Coincidencia oculta durante 30 días.",
+    "errors": {
+      "authRequired": "Inicia sesión para usar el Buscador de Aliados.",
+      "recommendationFailed": "No se pudieron cargar las recomendaciones.",
+      "cannotDismiss": "No se pudo descartar esta coincidencia.",
+      "unexpectedError": "Ocurrió un error inesperado."
+    },
+    "reasons": {
+      "protectiveSupport": "Apoyo protector ({{count}})",
+      "complementaryKnowledge": "Conocimiento complementario ({{count}})",
+      "sharedSkills": "Habilidades compartidas ({{count}})",
+      "sharedActiveRdg": "RDG activo compartido ({{count}})",
+      "sharedCauses": "Causas compartidas ({{count}})",
+      "sameFocusMode": "Mismo modo de foco",
+      "sameCity": "Misma ciudad",
+      "sameCountry": "Mismo país",
+      "sharedRdgProfile": "Perfil RDG compartido ({{count}})",
+      "strongRoleLabelFit": "Buen encaje de etiqueta de rol",
+      "sharedFocusArea": "Área de foco compartida ({{count}})",
+      "needsYourEnergy": "Necesita tu conocimiento o energía"
+    },
+    "complementarySymmetric": "Intercambio complementario",
+    "complementaryAsymmetric": "Ajuste entre oferta y necesidad",
+    "fellowTraveller": "Compañeros de camino",
+    "peer": "Pares",
+    "mentorMentee": "Mentor y aprendiz",
+    "otherConnections": "Otras conexiones",
+    "results": "resultados",
+    "communities": "Comunidades",
+    "recommendations": "recomendaciones",
+    "sharedCauses": "Causas compartidas",
+    "whyGoodMatch": "Por qué podría ser una buena conexión",
+    "scoreDisclosureTitle": "qué ve y qué no ve esta puntuación",
+    "scoreDisclosureBody": "Esta recomendación usa etiquetas de rol declaradas, ofertas, necesidades, causas, idioma, disponibilidad, actividad reciente y contexto de perfil público. No ve intención privada, confianza vivida, obligaciones fuera de línea ni si una conversación se sentirá mutua. Algunas reducciones protectoras son gobernadas y agregadas, pero nunca se exponen como una etiqueta de poder por persona."
+  },
+  "communitiesPage": {
+    "subtitle": "Descubre comunidades regenerativas en todo el mundo",
+    "newCommunity": "Nueva comunidad",
+    "loadFailed": "No se pudieron cargar las comunidades.",
+    "retry": "Reintentar",
+    "emptyTitle": "Aún no hay comunidades",
+    "emptyDescription": "Sé la primera persona en dar el paso: crea una comunidad e invita a otras a unirse.",
+    "emptyCta": "Crea la primera comunidad",
+    "noResults": "Ninguna comunidad coincide con tu búsqueda."
+  },
+  "feedPage": {
+    "loadFailed": "No se pudo cargar el feed."
+  },
+  "canvasPage": {
+    "loading": "Cargando lienzo..."
+  },
+  "cityAutocomplete": {
+    "placeholder": "Buscar una ciudad...",
+    "typeToSearch": "Escribe para buscar...",
+    "searching": "Buscando...",
+    "minChars": "Escribe al menos 2 caracteres...",
+    "useTypedLocation": "Usar \"{{query}}\"",
+    "useTypedHint": "Usar la ubicación escrita sin autocompletado"
+  },
+  "domainCombobox": {
+    "placeholder": "Seleccionar o añadir un dominio...",
+    "searchPlaceholder": "Buscar dominios...",
+    "addCustom": "Añadir \"{{name}}\"",
+    "rdgDomains": "Dominios RDG",
+    "skillsPractices": "Habilidades y Prácticas",
+    "noResults": "No se encontraron dominios. Escribe para añadir uno personalizado."
+  },
+  "cookieConsent": {
+    "title": "Respetamos tu privacidad",
+    "description": "Usamos cookies para mejorar tu experiencia.",
+    "essential": "Esencial",
+    "essentialDesc": "Necesario para que el sitio funcione correctamente.",
+    "analytics": "Analítica",
+    "analyticsDesc": "Nos ayuda a entender cómo se usa la plataforma.",
+    "marketing": "Contenido de terceros",
+    "marketingDesc": "Permite contenidos externos.",
+    "accept": "Aceptar todo",
+    "decline": "Solo lo esencial",
+    "settings": "Preferencias"
+  },
+  "compass": {
+    "title": "La Brújula Changemaker",
+    "description": "Encuentra tu lugar en el paisaje del cambio.",
+    "metaTitle": "Brújula Changemaker",
+    "metaDescription": "Explora la Brújula Changemaker."
+  },
+  "languageCombobox": {
+    "selectLanguage": "Seleccionar idioma",
+    "selectLanguages": "Seleccionar idiomas",
+    "search": "Buscar...",
+    "noResults": "No se encontraron resultados"
+  },
+  "communityCombobox": {
+    "searchOrAdd": "Buscar o añadir comunidad...",
+    "searchByName": "Buscar por nombre...",
+    "startTyping": "Empieza a escribir para buscar...",
+    "noResults": "No se encontraron resultados.",
+    "addNew": "Añadir \"{{name}}\""
+  },
+  "initiativeCombobox": {
+    "search": "Buscar iniciativas...",
+    "searchByName": "Buscar por nombre...",
+    "noResults": "No hay iniciativas coincidentes."
+  },
+  "imageEditor": {
+    "uploadCover": "Subir foto de portada",
+    "changeImage": "Cambiar imagen"
+  },
+  "privacy": {
+    "title": "Configuración de privacidad",
+    "metadataTitle": "Configuración de privacidad - Changemappers",
+    "metadataDescription": "Derechos RGPD: restringir el tratamiento, salir del emparejamiento algorítmico y programar la eliminación de la cuenta.",
+    "intro": "Usa estos controles para ejercer tus derechos RGPD. Los cambios entran en vigor inmediatamente.",
+    "policyPrefix": "Lee más sobre el tratamiento de datos en el",
+    "policyLink": "Aviso de privacidad",
+    "policySuffix": "o contacta con nuestro responsable de privacidad en",
+    "deleteConfirmationRequired": "Escribe: DELETE",
+    "processing": {
+      "title": "Restringir el tratamiento de datos",
+      "description": "Artículo 18 del RGPD - Puedes solicitar que se detengan las funciones de analítica y recomendación mientras mantienes el acceso a tu cuenta. Esta restricción no afecta al tratamiento necesario para el funcionamiento básico, como el inicio de sesión y las notificaciones por correo.",
+      "aria": "Restringir el tratamiento de datos",
+      "active": "Restricción activa",
+      "inactive": "Sin restricción",
+      "saved": "Guardado."
+    },
+    "matching": {
+      "title": "Emparejamiento algorítmico",
+      "description": "Artículo 22 del RGPD - Changemappers usa sistemas algorítmicos para recomendar conexiones comunitarias y oportunidades según intereses, disponibilidad y ubicación. Puedes salir del emparejamiento automático y seguir explorando otros usuarios manualmente.",
+      "aria": "Desactivar el emparejamiento algorítmico",
+      "disabled": "Emparejamiento automático desactivado",
+      "enabled": "Emparejamiento automático activado",
+      "saved": "Guardado.",
+      "sensitiveWithdrawn": "Se retiró el consentimiento para matching con datos sensibles.",
+      "sensitiveTitle": "Consentimiento para matching sensible",
+      "sensitiveActive": "El consentimiento explícito está activo para matching que usa arquetipos, necesidades, causas y señales del perfil funcional.",
+      "sensitiveInactive": "El matching con datos sensibles no está activo para esta cuenta.",
+      "sensitiveAcceptedAt": "Aceptado el",
+      "withdrawSensitive": "Retirar consentimiento de matching sensible",
+      "profileVisibilityNote": "Los controles de visibilidad del perfil, búsqueda y mapa limitan lo que otras personas pueden ver; por sí solos no desactivan el emparejamiento algorítmico. Desactiva el emparejamiento automático o retira el consentimiento de emparejamiento sensible aquí."
+    },
+    "deletion": {
+      "title": "Eliminar cuenta",
+      "descriptionPre": "Artículo 17 del RGPD - Después de eliminar la cuenta, tus datos personales se anonimizarán. Tienes",
+      "descriptionStrong": "30 días",
+      "descriptionPost": "para revertir la decisión después de recibir la solicitud. Pasados 30 días, la eliminación es permanente y no se puede deshacer.",
+      "scheduled": "Eliminación programada: {{date}}. La cuenta se eliminará permanentemente después de esta fecha.",
+      "cancel": "Cancelar solicitud de eliminación",
+      "cancelled": "Cancelado.",
+      "confirmPrompt": "Para confirmar, escribe:",
+      "confirmKeyword": "DELETE",
+      "aria": "Confirmar eliminación",
+      "scheduledMessage": "Eliminación programada.",
+      "schedule": "Programar eliminación",
+      "processing": "Procesando...",
+      "nevermind": "Cancelar",
+      "request": "Solicitar eliminación de cuenta"
+    },
+    "roleLabels": {
+      "title": "Uso de etiquetas de rol",
+      "description": "Los arquetipos y etiquetas de rol son señales contextuales, no afirmaciones de identidad. Ayudan a orientar la atención solo cuando permites el uso de emparejamiento y señales sensibles del perfil.",
+      "currentControl": "Control V1: desactiva el emparejamiento automático o retira el consentimiento sensible para impedir que las etiquetas de rol se usen en la puntuación de recomendaciones. Los controles por etiqueta siguen planificados."
+    },
+    "export": {
+      "title": "Descargar tus datos",
+      "description": "Exporta una copia legible por máquina de tu cuenta, perfil, comunicación, actividad y datos de gestión de derechos.",
+      "download": "Descargar exportación"
+    },
+    "cookies": {
+      "title": "Configuración de cookies",
+      "description": "Vuelve a abrir las preferencias de cookies para retirar el consentimiento de analítica opcional en cualquier momento.",
+      "open": "Abrir configuración de cookies"
+    },
+    "policyFallback": "Si la entrega de email no funciona, usa el boton Feedback dentro de la app y empieza el mensaje con \"solicitud de privacidad\"."
+  },
+  "request": {
+    "rdg": {
+      "selected": "Seleccionados"
+    }
+  },
+  "loading": "Cargando...",
+  "saving": "Guardando...",
+  "previous": "Anterior",
+  "next": "Siguiente",
+  "required": "Obligatorio",
+  "onboarding": {
+    "errors": {
+      "saveAgreementsFailed": "Error al guardar los acuerdos",
+      "saveAssessmentFailed": "Error al guardar la evaluación",
+      "deleteConfirmationRequired": "Escribe: DELETE"
+    }
+  },
+  "favoritesPage": {
+    "eyebrow": "Lugares guardados",
+    "title": "Favoritos",
+    "description": "Las personas, páginas y oportunidades guardadas aparecerán aquí a medida que se añadan acciones de favoritos en la plataforma.",
+    "emptyTitle": "Aún no hay favoritos",
+    "emptyDescription": "Empieza desde el feed y conserva las actualizaciones que quieras volver a visitar.",
+    "exploreFeed": "Explorar el feed"
+  },
+  "settingsPage": {
+    "eyebrow": "Controles de cuenta",
+    "title": "Configuración",
+    "description": "Gestiona los controles de cuenta y privacidad desde un solo lugar.",
+    "privacyTitle": "Privacidad y uso compartido",
+    "privacyDescription": "La visibilidad del perfil, el uso compartido federado, la exportación de datos y la eliminación de cuenta están en la pestaña de configuración del perfil.",
+    "openProfileSettings": "Abrir configuración del perfil",
+    "cmapReviewTitle": "CMAP disclosure review",
+    "cmapReviewDescription": "Revisa manualmente tus superficies de Llegada, Asentamiento y Gestión. Los avisos automáticos del día 14, día 90 y anuales están pospuestos para V1.",
+    "annualReviewMonth": "Annual review month",
+    "manualReviewNow": "Mark review completed now",
+    "currentDisclosureStage": "Etapa actual de divulgación: {{stage}}",
+    "chooseMonth": "Elige un mes",
+    "lastManualReview": "Última revisión manual: {{date}}",
+    "featureVisibilityTitle": "Funciones de navegación",
+    "featureVisibilityDescription": "Elige qué funciones aparecen en la navegación. Se aplica el ajuste predeterminado del Nivel {{level}} salvo que lo cambies.",
+    "featureVisibilityNoLevel": "Todavía no se ha evaluado el nivel — se muestra el preajuste predeterminado del Nivel 0-2.",
+    "reflectionRemindersTitle": "Recordatorios de reflexión",
+    "reflectionRemindersDescription": "Recordatorios ocasionales en la app cuando vence un nivel de reflexión.",
+    "reflectionReminderOptOut": "Silenciar recordatorios de reflexión",
+    "reflectionRemindersSaved": "Preferencia guardada"
+  },
+  "featurePreferences": {
+    "save": "Guardar preferencias",
+    "saving": "Guardando…",
+    "resetToPreset": "Restaurar al preajuste del nivel",
+    "saved": "Guardado",
+    "group": {
+      "reflect": "Reflexión",
+      "connect": "Conectar",
+      "learn": "Aprender",
+      "map": "Mapa y señales",
+      "tools": "Herramientas",
+      "act": "Actuar"
+    }
+  },
+  "apiDocs": {
+    "notFoundTitle": "Documentación no encontrada",
+    "notFoundBody": "No se pudo cargar la especificación OpenAPI.",
+    "returnHome": "Volver al inicio",
+    "title": "Documentación de API",
+    "securityTitle": "Seguridad",
+    "securityBody": "Todas las rutas requieren cookies de sesión válidas salvo que se indique lo contrario.",
+    "performanceTitle": "Rendimiento",
+    "performanceBody": "Se aplican los límites estándar: 100 solicitudes por minuto por IP.",
+    "responses": "Respuestas"
+  },
+  "globalError": {
+    "title": "Algo salió mal",
+    "description": "Se produjo un error inesperado. Inténtalo de nuevo o vuelve a la página principal.",
+    "retry": "Intentar de nuevo",
+    "homepage": "Página principal"
+  },
+  "sentryExample": {
+    "metaTitle": "sentry-example-page",
+    "metaDescription": "Prueba Sentry para tu aplicación Next.js.",
+    "logoLabel": "Logotipo de Sentry",
+    "title": "sentry-example-page",
+    "descriptionPrefix": "Haz clic en el botón de abajo y consulta el error de ejemplo en la página de",
+    "issuesPage": "incidencias de Sentry",
+    "descriptionMiddle": "Para más detalles sobre la configuración de Sentry,",
+    "docsLink": "lee la documentación",
+    "throwSampleError": "Lanzar error de ejemplo",
+    "sent": "Error enviado a Sentry.",
+    "connectivity": "Parece que las solicitudes de red a Sentry están bloqueadas, lo que impedirá capturar errores. Prueba a desactivar tu bloqueador de anuncios para completar la prueba."
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "toggleTo": "Cambiar al tema {{theme}}"
+  },
+  "commonsLicenseNotice": {
+    "title": "Licencia común visible antes de publicar",
+    "body": "El conocimiento que publiques aquí usa CC BY-SA 4.0 por defecto, salvo que el formulario ofrezca una opción más estricta. Comparte solo material que tengas derecho a aportar y no incluyas conocimiento tradicional o sensible sin acuerdo de sus guardianes."
+  },
+  "governance": {
+    "eyebrow": "Superficie de gobernanza",
+    "title": "Cómo se puede cuestionar Changemappers",
+    "description": "Esta página nombra las vías de rechazo, revisión y rendición de cuentas que sostienen la carta mientras se construye una gobernanza comunitaria más completa.",
+    "charterTitle": "Piso de la carta",
+    "charterBody": "Las decisiones de producto deben respetar dignidad, consentimiento, reciprocidad, cuidado de los comunes, pluralidad de saberes e incompletitud honesta. Las herramientas de administración y recomendación son detalles de implementación, no excepciones.",
+    "aboutLink": "Leer sobre el proyecto",
+    "privacyLink": "Abrir controles de privacidad",
+    "casesLink": "Ver casos",
+    "sections": {
+      "refusal": {
+        "title": "Rechazo sin castigo",
+        "body": "Puedes restringir el procesamiento, salir del emparejamiento algorítmico, retirar consentimiento sensible, rechazar contacto o borrar tu cuenta sin perder el acceso básico al conocimiento público."
+      },
+      "challenge": {
+        "title": "Ruta de revisión",
+        "body": "Si una recomendación, moderación, etiqueta o decisión de gobernanza parece incorrecta, usa feedback o soporte e indica la página, decisión y daño. El equipo debe nombrar la razón y la ruta de revisión."
+      },
+      "power": {
+        "title": "Poder visible",
+        "body": "Los controles solo para administradores existen por seguridad, legalidad y continuidad operativa. La desactivación de rutas, moderación y acceso a datos debe documentarse y poder cuestionarse cuando afecte a una persona o comunidad."
+      },
+      "limits": {
+        "title": "Límites honestos",
+        "body": "Los controles V1 actuales son amplios. Algunos controles finos de etiquetas, tiempo, linaje y más-que-humano siguen planificados y deben describirse así hasta estar enviados."
+      }
+    },
+    "openWorkTitle": "Trabajo abierto de gobernanza",
+    "openWorkBody": "El cuerpo permanente que sostiene la carta, los umbrales de enmienda y el registro público de rechazos aún necesitan diseño comunitario. Hasta entonces, esta superficie es la capa mínima de rendición de cuentas.",
+    "detailBack": "Volver a gobernanza",
+    "pages": {
+      "charter": {
+        "title": "Carta Universal",
+        "summary": "Los compromisos de gobernanza que anclan participación, consentimiento, rechazo, enmienda y custodia.",
+        "sections": [
+          {
+            "heading": "Diez compromisos",
+            "body": [
+              "Protegemos el rechazo, el consentimiento informado, la contribución práctica, el primer intercambio de bajo riesgo, la custodia de los comunes, la privacidad, los límites transparentes, la reparación, los contextos de conocimiento plural y el derecho a retirarse.",
+              "La Carta no puede ser enmendada de forma casual. Las enmiendas requieren aviso público, quórum de custodios y una actualización fechada de versión."
+            ]
+          },
+          {
+            "heading": "Revisión quinquenal de gobernanza y poder",
+            "body": [
+              "Dentro de cinco años del lanzamiento público, Changemappers debe realizar una revisión pública mayor de gobernanza, poder asesor de fundadores, propiedad, custodia y opciones de transición.",
+              "Esta es una revisión de poder, no una promesa de desaparición: el resultado puede ser transición, cierre, reestructuración de custodia o un mandato renovado con razones."
+            ]
+          }
+        ]
+      },
+      "refusal-register": {
+        "title": "Registro de rechazo",
+        "summary": "Lo que Changemappers no cederá bajo presión de financiadores, socios, adquisiciones o casos de uso.",
+        "sections": [
+          {
+            "heading": "Rechazos vigentes",
+            "body": [
+              "No venta de datos privados de emparejamiento.",
+              "Sin puntuaciones públicas de contribución ni tablas de reciprocidad.",
+              "Sin control de financiadores sobre el ranking de emparejamiento.",
+              "Sin asociación que debilite el rechazo, el bloqueo o los controles de privacidad.",
+              "Sin condición de adquisición que elimine el proceso de enmienda de la Carta."
+            ]
+          }
+        ]
+      },
+      "challenge-path": {
+        "title": "Ruta de reto para recién llegados",
+        "summary": "Una ruta simple para corregir daño, incompletitud o deriva de gobernanza sin dominar el vocabulario interno.",
+        "sections": [
+          {
+            "heading": "Cómo presentar reto",
+            "body": [
+              "Nombra lo que parece incorrecto o ausente.",
+              "Di quién puede verse afectado.",
+              "Sugiere una redacción, proceso o límite más seguro si tienes uno.",
+              "Pide respuesta de los custodios de la Carta cuando el tema cambie los compromisos de gobernanza."
+            ]
+          }
+        ]
+      },
+      "what-we-cannot-yet-hold": {
+        "title": "Lo que aún no podemos sostener",
+        "summary": "Una cuenta visible de los límites actuales de la plataforma en tradiciones, lenguas, contextos de trabajo, usuarios y brechas de producto.",
+        "sections": [
+          {
+            "heading": "Límites conocidos",
+            "body": [
+              "Muchas tradiciones de conocimiento no están representadas por la metadata actual.",
+              "La interfaz es más sólida en inglés y húngaro y más débil para otros idiomas.",
+              "Los contextos de autoayuda offline, trauma-informado y organización de alto riesgo necesitan más salvaguardas que las que ofrece V1.",
+              "No se implementa aún el modelado de actores no humanos en V1.",
+              "Casos con procedencia no tienen flujo de verificación en V1."
+            ]
+          }
+        ]
+      },
+      "defederation-protocol": {
+        "title": "Protocolo de defederación",
+        "summary": "El proceso de seguridad y salida requerido antes de habilitar federación o funcionalidades de instancia remota.",
+        "sections": [
+          {
+            "heading": "Protocolo",
+            "body": [
+              "Los disparadores incluyen abuso repetido, violaciones de privacidad, captura de gobernanza o ruptura del registro de rechazo por parte de una instancia remota.",
+              "El proceso requiere captura de evidencias, aviso donde sea seguro, pasos de exportación/protección de usuarios, bloqueos reversibles cuando sea posible y un registro público.",
+              "Un simulacro es obligatorio antes de habilitar federación o funcionalidades de instancia remota."
+            ]
+          }
+        ]
+      },
+      "governance-roster": {
+        "title": "Registro de gobernanza",
+        "summary": "La nómina pública inicial de transparencia de roles hasta que exista un modelo formal de datos de roles de gobernanza.",
+        "sections": [
+          {
+            "heading": "Nómina inicial",
+            "body": [
+              "Cuerpo de custodios de la Carta: tres asientos de fundador/custodio con nombre que se llenarán antes del lanzamiento público V1.",
+              "Los finales de mandato se publican aquí primero; el renderizado de rol de gobernanza a nivel de perfil se pospone hasta que exista el modelo de datos."
+            ]
+          }
+        ]
+      },
+      "tk-bc-labels": {
+        "title": "Etiquetas de protocolo TK/BC",
+        "summary": "Las etiquetas de Conocimiento Tradicional y Biocultural son etiquetas de contexto/protocolo junto a las licencias legales.",
+        "sections": [
+          {
+            "heading": "Claridad legal",
+            "body": [
+              "CC-BY-SA-4.0 sigue siendo la licencia de commons predeterminada para contribuciones públicas.",
+              "Las etiquetas TK y BC no sustituyen las licencias de copyright. Indican que importan origen, custodia, consentimiento, atribución o protocolo basado en el lugar."
+            ]
+          }
+        ]
+      },
+      "term-limits-successors": {
+        "title": "Límites de mandato y sucesores",
+        "summary": "Expectativas por defecto de rotación y mentoría de sucesores para roles de gobernanza.",
+        "sections": [
+          {
+            "heading": "Reglas",
+            "body": [
+              "Los mandatos predeterminados de custodia son de dos años salvo que la nómina establezca un periodo de lanzamiento más corto.",
+              "Los titulares de roles de segundo mandato deben nombrar y mentorizar activamente a un sucesor o explicar públicamente por qué eso aún no es posible.",
+              "Las excepciones de mandato requieren revisión por custodios de la Carta y publicación fechada."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "peerSupport": {
+    "title": "Apoyo entre pares",
+    "metaDescription": "Conecta con personas que han atravesado situaciones parecidas, sin terapia ni consejos.",
+    "description": "El apoyo entre pares es ser acompañado por alguien que ya estuvo donde estás. No es terapia. No es consejo. Es acompañamiento.",
+    "offerTitle": "¿Qué has atravesado que otra persona enfrenta ahora?",
+    "offerBody": "Ofrecer apoyo entre pares es reciprocidad hacia adelante: compartir una capacidad que ganaste con alguien que la necesita ahora.",
+    "offerCta": "Ofrecer apoyo",
+    "seekCta": "Buscar apoyo",
+    "browseTitle": "Ver ofertas",
+    "browseBody": "Encuentra personas que han atravesado situaciones parecidas a la tuya. Contacta con una petición.",
+    "connectionsTitle": "Mis conexiones",
+    "connectionsBody": "Ve conexiones de apoyo activas y pasadas. Reflexiona cuando una conexión se cierre.",
+    "myRequestsTitle": "Mis Solicitudes",
+    "myRequestsBody": "Ver y retirar tus solicitudes de apoyo entre pares pendientes.",
+    "boundariesTitle": "Límites de este espacio",
+    "boundaries": {
+      "boundaryStatements": "Quien ofrece apoyo declara límites explícitos visibles en cada oferta",
+      "noRatings": "No hay valoraciones. Solo la persona apoyada puede compartir una reflexión privada",
+      "pauseAnytime": "Quien ofrece apoyo puede pausar su oferta en cualquier momento y desaparecer de la búsqueda",
+      "notCrisis": "Esto no es un servicio de crisis. Los detalles de apoyo profesional están arriba"
+    },
+    "back": "← Apoyo entre pares",
+    "offerPage": {
+      "title": "Ofrecer apoyo entre pares",
+      "description": "Comparte lo que ya has atravesado. Tu experiencia vivida es la oferta."
+    },
+    "requestPage": {
+      "title": "Buscar apoyo entre pares",
+      "description": "Encuentra a alguien que haya atravesado algo parecido. Es acompañamiento, no consejo."
+    },
+    "detailPage": {
+      "title": "Oferta de apoyo entre pares",
+      "offerId": "ID de oferta:",
+      "comingSoon": "El detalle completo de la oferta llegará pronto."
+    }
+  },
+  "actionRequirements": {
+    "enterComment": "Escribe un comentario antes de enviarlo.",
+    "enterMessage": "Escribe un mensaje antes de enviarlo.",
+    "enterPostContent": "Agrega contenido antes de publicar.",
+    "selectCategory": "Elige una categoria antes de enviar.",
+    "enterRoomName": "Escribe un nombre de sala con letras, numeros, puntos, guiones bajos o guiones.",
+    "typeDeleteKeyword": "Escribe {{keyword}} exactamente para continuar.",
+    "selectEnergyEntityType": "Elige un tipo de entidad.",
+    "selectEnergyPrimaryScale": "Elige una escala principal.",
+    "selectEnergyState": "Elige un estado energetico.",
+    "enterInviteRecipient": "Escribe el correo de la persona destinataria.",
+    "enterInviteEmail": "Escribe al menos una direccion de correo.",
+    "enterInviteSubject": "Escribe un asunto de al menos 3 caracteres.",
+    "enterReasoningMin": "Escribe al menos {{count}} caracteres de razonamiento.",
+    "chooseRole": "Elige al menos un rol.",
+    "chooseSkills": "Elige al menos {{count}} habilidades u ofertas.",
+    "chooseNeeds": "Elige al menos {{count}} necesidades de aprendizaje.",
+    "chooseCause": "Elige al menos una causa o dominio RDG.",
+    "enterContributionSeed": "Escribe una semilla de contribucion de al menos {{count}} caracteres.",
+    "acceptSensitiveMatching": "Acepta el consentimiento para emparejamiento con datos sensibles.",
+    "removeSelectionBeforeChoosingAnother": "Quita un elemento seleccionado antes de elegir otro.",
+    "enterProjectId": "Escribe un ID de proyecto antes de vincular.",
+    "enterCommunityId": "Escribe un ID de comunidad antes de vincular.",
+    "enterCorroborationEvidence": "Escribe al menos {{count}} caracteres de evidencia de corroboracion.",
+    "enterFlagReason": "Escribe al menos {{count}} caracteres para explicar la marca.",
+    "enterDisputeReason": "Escribe al menos {{count}} caracteres para explicar la disputa.",
+    "enterPassword": "Escribe la contrasena de tu cuenta.",
+    "enterTitle": "Introduce un titulo.",
+    "enterSummary": "Introduce un resumen.",
+    "chooseRdg": "Selecciona al menos un objetivo de dominio regenerativo.",
+    "enterTimeCommitment": "Describe el compromiso de tiempo con al menos 2 caracteres.",
+    "enterFormat": "Describe el formato con al menos 2 caracteres.",
+    "enterAvailability": "Describe tu disponibilidad con al menos 2 caracteres.",
+    "enterParticipantName": "Introduce tu nombre antes de enviar tu voto.",
+    "slotLimitReached": "Quita una opcion de horario antes de agregar otra; las encuestas admiten hasta 50 opciones.",
+    "chooseBatchStartDate": "Elige una fecha de inicio para el rango de fechas.",
+    "chooseBatchEndDate": "Elige una fecha de fin para el rango de fechas.",
+    "selectProject": "Selecciona una iniciativa para vincular",
+    "selectCommunity": "Selecciona una comunidad para vincular"
+  },
+  "pendingApproval": {
+    "metadataTitle": "Pendiente de aprobación",
+    "title": "Cuenta pendiente de aprobación",
+    "body": "Tu registro está completo, pero una persona administradora debe aprobar la cuenta antes de que puedas iniciar sesión.",
+    "contactPrefix": "Si esperabas una invitación o la aprobación tarda demasiado, escribe a",
+    "contactSuffix": "desde la dirección usada durante el registro.",
+    "backToLogin": "Volver al inicio de sesión",
+    "emailHelp": "Ayuda con email"
+  },
+  "emailHelpPage": {
+    "metadataTitle": "Ayuda con email",
+    "title": "El email no llega",
+    "body": "Los enlaces de verificación, magic-login y restablecimiento pueden tardar unos minutos. Revisa spam, promociones y cuarentena de seguridad, y solicita un enlace nuevo cuando venza el actual.",
+    "contactPrefix": "Si no llega ningún email, contacta con",
+    "contactSuffix": "desde la dirección que intentas usar.",
+    "backToLogin": "Volver al inicio de sesión"
+  },
+  "casesPage": {
+    "metadataTitle": "Casos con procedencia",
+    "metadataDescription": "Explora casos estructurados con atribución y contexto de procedencia.",
+    "eyebrow": "Casos con procedencia",
+    "title": "Explorar casos estructurados",
+    "description": "Los casos V1 muestran campos de plantilla, afirmaciones declaradas, atribución y contexto de procedencia. No son etiquetas verificadas ni rankings.",
+    "empty": "Aún no se ha publicado ningún caso."
+  },
+  "caseDetail": {
+    "back": "Volver a casos",
+    "institutionalContext": "Contexto institucional",
+    "outcomeClaims": "Afirmaciones de resultado",
+    "declaredConfidence": "Confianza declarada:",
+    "lessons": "Aprendizajes",
+    "contributorNotes": "Notas de la persona colaboradora",
+    "attribution": "Atribución:",
+    "lineageAcknowledgment": "Reconocimiento de linaje:",
+    "linkedPitch": "Pitch vinculado:"
+  },
+  "reflectPage": {
+    "loginLink": "Inicia sesión",
+    "loginSuffix": "para acceder al espacio de reflexión."
+  },
+  "rootMetadata": {
+    "description": "Una plataforma de conexión para personas y comunidades que buscan formas de vida ecológicas y regenerativas.",
+    "keywords": [
+      "ecoaldea",
+      "comunidad",
+      "sostenibilidad",
+      "permacultura",
+      "agentes de cambio",
+      "ecología"
+    ],
+    "openGraphLocale": "es_ES"
+  },
+  "coachmeSession": {
+    "loading": "Cargando...",
+    "sessionNotFound": "Sesión no encontrada",
+    "redirecting": "Redirigiendo..."
+  },
+  "helpPage": {
+    "metadataTitle": "Ayuda y decisiones informadas",
+    "eyebrow": "Centro de ayuda",
+    "title": "Toma decisiones informadas en Changemappers",
+    "intro": "Busca los conceptos centrales sobre registro, emparejamiento, visibilidad del perfil y controles de privacidad antes de decidir qué compartir.",
+    "searchLabel": "Buscar artículos de ayuda",
+    "searchPlaceholder": "Buscar emparejamiento, disponibilidad, privacidad, perfil...",
+    "resultsLabel": "{{count}} secciones de ayuda",
+    "noResultsTitle": "No hay secciones de ayuda coincidentes",
+    "noResultsBody": "Prueba una palabra más amplia, como privacidad, emparejamiento, disponibilidad, perfil, consentimiento o mapa.",
+    "tocLabel": "En esta página",
+    "filterLabel": "Filtrar por tema",
+    "clearFilterLabel": "Quitar filtro",
+    "sections": [
+      {
+        "id": "what-this-is-not",
+        "title": "Una plataforma diferente",
+        "label": "Filosofía",
+        "summary": "Changemappers se basa en una premisa distinta: las relaciones útiles importan más que las visibles. No hay conteos de seguidores, rankings virales ni economía de atención.",
+        "items": [
+          "No hay ranking por likes, estrellas ni economía de alcance estilo influencer. Las recomendaciones se basan en encaje y consentimiento, no en rendimiento.",
+          "La plataforma se basa en contribución, reciprocidad y reflexión — no en difusión. La popularidad no es una señal que el sistema optimiza.",
+          "Cada recomendación debe ser explicable: el sistema te muestra personas, causas y comunidades por contexto compartido, no por pago."
+        ],
+        "inlineLinks": {
+          "causes": "/causes",
+          "communities": "/communities"
+        },
+        "links": [
+          {
+            "text": "Acerca de Changemappers",
+            "href": "/about"
+          },
+          {
+            "text": "Hoja de ruta",
+            "href": "/roadmap"
+          }
+        ]
+      },
+      {
+        "id": "what-is-changemappers",
+        "title": "Para qué sirve Changemappers",
+        "label": "Filosofía",
+        "summary": "Changemappers ayuda a agentes de cambio a encontrar personas, comunidades y oportunidades adecuadas para la colaboración regenerativa.",
+        "items": [
+          "La plataforma valora relaciones útiles y confiables, y crecimiento compartido, por encima de popularidad o métricas de atención.",
+          "Reflexionar, Descubrir, Conectar y Actuar son los cuatro movimientos fundamentales: saber dónde estás, encontrar a las personas relevantes, construir relaciones y hacer trabajo significativo juntos.",
+          "El objetivo es reducir conexiones desperdiciadas pidiendo suficiente contexto — rol, ofertas, necesidades, foco de causa — para que las recomendaciones sean relevantes."
+        ],
+        "inlineLinks": {
+          "communities": "/communities",
+          "causes": "/causes",
+          "profile": "/profile"
+        },
+        "links": [
+          {
+            "text": "Explorar causas",
+            "href": "/causes"
+          },
+          {
+            "text": "Buscar comunidades",
+            "href": "/communities"
+          }
+        ]
+      },
+      {
+        "id": "how-to-start",
+        "title": "Cómo empezar",
+        "label": "Primeros pasos",
+        "summary": "Empieza con verificación de cuenta, configuración de identidad, configuración de emparejamiento y decisiones de visibilidad. No necesitas completarlo todo de una vez.",
+        "items": [
+          "Crea una cuenta, verifica tu email y completa los pasos de onboarding. Cada paso desbloquea más de la plataforma.",
+          "El paso de configuración de emparejamiento recopila el contexto mínimo para recomendaciones útiles: etiquetas de rol, ofertas, necesidades, causa o foco RDG, semilla de contribución y disponibilidad. Sin él, puedes explorar pero no recibirás sugerencias de emparejamiento significativas.",
+          "Configura la visibilidad del perfil para ubicación, avatar, campos de perfil, presencia en mapa y lo que otras personas pueden ver — puedes cambiarlos en cualquier momento desde la configuración del perfil."
+        ],
+        "inlineLinks": {
+          "RDG": "/causes",
+          "availability": "/reflect/availability",
+          "profile settings": "/profile",
+          "map": "/compass"
+        },
+        "links": [
+          {
+            "text": "Completar tu perfil",
+            "href": "/profile"
+          },
+          {
+            "text": "Configurar disponibilidad",
+            "href": "/reflect/availability"
+          },
+          {
+            "text": "Privacidad",
+            "href": "/account/privacy"
+          }
+        ]
+      },
+      {
+        "id": "menus-progressive-disclosure",
+        "title": "Encontrar tu camino",
+        "label": "Primeros pasos",
+        "summary": "La app muestra más herramientas cuando se vuelven relevantes para que la primera sesión siga siendo navegable.",
+        "items": [
+          "Las personas nuevas empiezan con herramientas esenciales de descubrimiento, reflexión, perfil y conexión visibles en el menú.",
+          "Las herramientas más avanzadas de coordinación, sistemas y gobernanza aparecen a medida que se profundiza el uso, o pueden activarse desde la configuración.",
+          "Esta secuenciación es una guía, no un juicio de valor. La interfaz intenta reducir la sobrecarga, no clasificar tu desarrollo."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "connections": "/connections"
+        },
+        "links": [
+          {
+            "text": "Tu perfil",
+            "href": "/profile"
+          },
+          {
+            "text": "Configuración",
+            "href": "/settings"
+          }
+        ]
+      },
+      {
+        "id": "core-actions",
+        "title": "Acciones centrales en la app",
+        "label": "Primeros pasos",
+        "summary": "La mayoría de la actividad encaja en Reflexionar, Descubrir, Conectar y Actuar — cuatro movimientos que se refuerzan entre sí.",
+        "items": [
+          "Reflexionar: revisa tu disponibilidad, foco, valores y energía antes de sumergirte en actividad externa. Esta es la brújula que mantiene tu participación intencional.",
+          "Descubrir: encuentra personas, comunidades, eventos, causas, historias y proximidad basada en mapa que coincidan con tu contexto.",
+          "Conectar: envía solicitudes, inicia mensajes, acepta conversaciones y construye relaciones que puedan sostener colaboración real.",
+          "Actuar: ofrece o solicita formación, mentoría, coaching, apoyo entre pares, contribuciones y trabajo comunitario, dirigidos a personas que encajen."
+        ],
+        "inlineLinks": {
+          "communities": "/communities",
+          "causes": "/causes",
+          "messages": "/messages",
+          "connections": "/connections",
+          "map": "/compass"
+        },
+        "links": [
+          {
+            "text": "Reflexionar",
+            "href": "/reflect"
+          },
+          {
+            "text": "Descubrir personas",
+            "href": "/discover"
+          },
+          {
+            "text": "Tus conexiones",
+            "href": "/connections"
+          }
+        ]
+      },
+      {
+        "id": "matching-activation",
+        "title": "Cómo funciona el emparejamiento",
+        "label": "Emparejamiento",
+        "summary": "El paso de configuración de emparejamiento recopila las señales mínimas para recomendaciones locales: rol, ofertas, necesidades, causa o foco RDG, contexto de contribución, disponibilidad y consentimiento explícito.",
+        "items": [
+          "Las etiquetas de rol (p.ej. profesional, investigador, organizador, financiador) indican al algoritmo qué tipo de colaboración probablemente ofreces o necesitas. Las ofertas y necesidades reciben el mayor peso — definen la superficie de intercambio.",
+          "El foco de causa y RDG estrecha el enrutamiento geográfico y temático: el sistema intenta sugerir personas activas en el mismo contexto, no solo cualquiera con intereses similares globalmente.",
+          "Son señales contextuales de orientación, no etiquetas de identidad permanentes ni puntuaciones públicas. Sin configuración completa puedes explorar, pero no recibirás recomendaciones significativas."
+        ],
+        "inlineLinks": {
+          "RDG": "/causes",
+          "cause": "/causes",
+          "causes": "/causes",
+          "availability": "/reflect/availability",
+          "profile": "/profile"
+        },
+        "links": [
+          {
+            "text": "Tu perfil",
+            "href": "/profile"
+          },
+          {
+            "text": "Explorar causas",
+            "href": "/causes"
+          }
+        ]
+      },
+      {
+        "id": "availability",
+        "title": "Cómo la disponibilidad moldea lo que recibes",
+        "label": "Emparejamiento",
+        "summary": "La disponibilidad indica al sistema si debe dirigir nueva atención de conexión hacia ti ahora mismo. Es un mecanismo de protección, no una señal de rendimiento.",
+        "items": [
+          "Entre proyectos y Construyendo son estados abiertos. El algoritmo te envía recomendaciones y solicitudes normalmente — apareces en resultados de emparejamiento para otros.",
+          "Entregando reduce tu peso de recomendación. El sistema aún puede mostrarte, pero con menor prioridad, porque estás en entrega activa.",
+          "Reflexionando y Descansando son estados de protección. Puedes explorar libremente, pero no aparecerás como nueva recomendación para otros. Son estados válidos e intencionales — no fallos."
+        ],
+        "inlineLinks": {
+          "availability": "/reflect/availability"
+        },
+        "links": [
+          {
+            "text": "Configurar disponibilidad",
+            "href": "/reflect/availability"
+          },
+          {
+            "text": "Reflexionar",
+            "href": "/reflect"
+          }
+        ]
+      },
+      {
+        "id": "trust-safety",
+        "title": "Seguridad, confianza y reportes",
+        "label": "Seguridad",
+        "summary": "Los controles de seguridad incluyen reportes, áreas admin con roles, privacidad y protección por disponibilidad.",
+        "items": [
+          "El comportamiento sospechoso o dañino puede reportarse desde cualquier perfil o tarjeta de contenido. Los reportes van a áreas de administración restringidas por rol, no a otros usuarios.",
+          "Los campos sensibles (precisión de ubicación, detalles de causa, contexto personal) pueden mantenerse privados por diseño. Los controles de visibilidad moldean de forma independiente el perfil, búsqueda, mapa y tarjetas.",
+          "La disponibilidad también es seguridad: Descansando y Reflexionando evitan que el sistema dirija nuevas solicitudes hacia ti. Nadie puede ver tu estado de disponibilidad actual — solo su efecto en el enrutamiento."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "availability": "/reflect/availability",
+          "map": "/compass"
+        },
+        "links": [
+          {
+            "text": "Configuración de privacidad",
+            "href": "/account/privacy"
+          },
+          {
+            "text": "Configurar disponibilidad",
+            "href": "/reflect/availability"
+          }
+        ]
+      },
+      {
+        "id": "privacy-settings",
+        "title": "Controles de privacidad y consentimiento",
+        "label": "Privacidad",
+        "summary": "La visibilidad del perfil y el consentimiento de emparejamiento están relacionados, pero son controles separados. Puedes cambiar cualquiera de forma independiente en cualquier momento.",
+        "items": [
+          "La visibilidad de perfil, búsqueda, mapa y tarjetas controla lo que otras personas pueden ver al explorar o buscar. Cada superficie tiene su propio control.",
+          "El consentimiento de emparejamiento algorítmico controla si tus ofertas, necesidades y señales de rol pueden usarse para calcular puntuaciones de emparejamiento. El consentimiento para emparejamiento sensible es un opt-in explícito y separado.",
+          "Desde la configuración de privacidad de la cuenta puedes ajustar la visibilidad, restringir el procesamiento, exportar tus datos, solicitar eliminación o retirar el consentimiento de emparejamiento sensible."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "map": "/compass",
+          "account privacy settings": "/account/privacy"
+        },
+        "links": [
+          {
+            "text": "Privacidad de cuenta",
+            "href": "/account/privacy"
+          },
+          {
+            "text": "Tu perfil",
+            "href": "/profile"
+          }
+        ]
+      },
+      {
+        "id": "feed-interactions",
+        "title": "Feed y señales",
+        "label": "Comunidad",
+        "summary": "El feed muestra lo que ocurre en tu red y causas relevantes — ordenado por tiempo, no por puntuación de engagement.",
+        "items": [
+          "El orden del feed es cronológico. No hay algoritmo que impulse publicaciones por likes o alcance — el contenido más nuevo aparece primero independientemente de quién lo publicó.",
+          "Las reacciones son tipadas y específicas: inspirado, aprendí, puedo ayudar, puedo conectar. Son señales de contribución, no métricas de vanidad.",
+          "Las etiquetas RDG y anotaciones de causa curadas agregan contexto geográfico y temático sin convertir el feed en ruido de hashtags. Puedes filtrar el feed por causa o comunidad."
+        ],
+        "inlineLinks": {
+          "RDG": "/causes",
+          "cause": "/causes",
+          "causes": "/causes",
+          "communities": "/communities"
+        },
+        "links": [
+          {
+            "text": "Explorar señales",
+            "href": "/signals"
+          },
+          {
+            "text": "Explorar causas",
+            "href": "/causes"
+          },
+          {
+            "text": "Comunidades",
+            "href": "/communities"
+          }
+        ]
+      },
+      {
+        "id": "profile-settings",
+        "title": "Actualizando tu contexto con el tiempo",
+        "label": "Emparejamiento",
+        "summary": "Tus respuestas de emparejamiento se pueden ajustar cuando cambia tu situación, foco y energía. Las respuestas de baja resolución están bien al inicio.",
+        "items": [
+          "Puedes modificar tus etiquetas de rol, ofertas, necesidades, foco de causa, contexto de contribución y disponibilidad desde tu perfil en cualquier momento. Los cambios se reflejan en el siguiente ciclo de emparejamiento.",
+          "Cambiar la disponibilidad pausa o reanuda cuánta atención de nuevas conexiones llega hacia ti — útil cuando te mueves entre proyectos, te recuperas o cambias de foco.",
+          "Las respuestas deliberadamente vagas son aceptables al registrarse. Refínalas cuando sepas con más precisión qué tipo de ayuda, colaboración o contribución estás preparado para dar."
+        ],
+        "inlineLinks": {
+          "causes": "/causes",
+          "availability": "/reflect/availability",
+          "profile": "/profile"
+        },
+        "links": [
+          {
+            "text": "Editar tu perfil",
+            "href": "/profile"
+          },
+          {
+            "text": "Configurar disponibilidad",
+            "href": "/reflect/availability"
+          }
+        ]
+      },
+      {
+        "id": "learning-support-flows",
+        "title": "Aprendizaje y apoyo entre pares",
+        "label": "Aprendizaje",
+        "summary": "Formación, mentoría, coaching, apoyo entre pares y contribución son tipos de ayuda intencionalmente distintos — cada uno con una dinámica de relación diferente.",
+        "items": [
+          "La formación transfiere una habilidad o método desde alguien con conocimiento directo a quien la necesita. Es asimétrica y estructurada: hay un plan de estudios o resultado definido.",
+          "La mentoría ofrece criterio desde experiencia vivida. El coaching te ayuda a encontrar tu propia respuesta mediante preguntas en lugar de consejos. El apoyo entre pares es acompañamiento mutuo acotado en el tiempo entre iguales.",
+          "La finalización se documenta mediante notas de reflexión y aprendizaje, no puntuaciones numéricas. El foco está en qué cambió, no en el rendimiento."
+        ],
+        "inlineLinks": {
+          "profile": "/profile",
+          "connections": "/connections"
+        },
+        "links": [
+          {
+            "text": "Buscar mentor",
+            "href": "/mentor/find"
+          },
+          {
+            "text": "Buscar coach",
+            "href": "/coach/find"
+          },
+          {
+            "text": "Apoyo entre pares",
+            "href": "/peer/find"
+          }
+        ]
+      },
+      {
+        "id": "safe-sharing",
+        "title": "Elegir qué compartir",
+        "label": "Privacidad",
+        "summary": "Comparte lo suficiente para crear conexiones útiles, pero no reveles más de lo que estés dispuesto a usar en recomendaciones o contexto de perfil.",
+        "items": [
+          "Elige tu disponibilidad con honestidad. Descansando y Reflexionando son estados completos y válidos — no brechas ni fallos. Elegirlos señala autoconciencia, no desenganche.",
+          "Usa necesidades y ofertas suficientemente específicas para guiar el emparejamiento sin revelar detalles privados que no quieras procesar. Puedes ser específico sobre el tipo de colaboración sin mencionar circunstancias personales.",
+          "Si una configuración de visibilidad o consentimiento se siente demasiado amplia para donde estás ahora, elige la opción más estrecha y amplíala después. Los ajustes son reversibles; las divulgaciones son más difíciles de deshacer."
+        ],
+        "inlineLinks": {
+          "availability": "/reflect/availability",
+          "profile": "/profile",
+          "account privacy settings": "/account/privacy"
+        },
+        "links": [
+          {
+            "text": "Configuración de privacidad",
+            "href": "/account/privacy"
+          },
+          {
+            "text": "Configurar disponibilidad",
+            "href": "/reflect/availability"
+          }
+        ]
+      }
+    ]
+  },
+  "bottomBar": {
+    "radio": {
+      "play": "Reproducir",
+      "pause": "Pausa",
+      "prevStation": "Estación anterior",
+      "nextStation": "Siguiente estación",
+      "noStations": "Sin estaciones",
+      "selectStation": "Seleccionar estación",
+      "volume": "Volumen"
+    },
+    "news": {
+      "tickerLabel": "Noticias",
+      "noSources": "Sin fuentes de noticias",
+      "rss": "RSS",
+      "loading": "Cargando noticias...",
+      "pause": "Pausar el ticker de noticias",
+      "resume": "Reanudar el ticker de noticias"
+    },
+    "quotes": {
+      "label": "Cita del día",
+      "noQuote": "Sin cita disponible"
+    },
+    "settings": {
+      "title": "Barra inferior",
+      "modules": "Mostrar módulos",
+      "radio": "Radio",
+      "news": "Noticias",
+      "quotes": "Cita del día",
+      "newsSources": "Fuentes de noticias",
+      "volume": "Volumen",
+      "save": "Configuración guardada automáticamente"
+    }
+  }
+}

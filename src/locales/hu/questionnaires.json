@@ -1,0 +1,149 @@
+{
+  "changemakerLevel": {
+    "title": "Jövőképzői szint felmérése",
+    "q1": {
+      "text": "Mennyire kíséred figyelemmel a fenntarthatósági és társadalmi problémákat?",
+      "opt0": "Nem igazán foglalkozom velük, megvannak a magam bajai.",
+      "opt1": "Néha elolvasok egy-egy cikket, de nem mélyülök el bennük.",
+      "opt2": "Rendszeresen tájékozódom, és aggaszt a jelenlegi helyzet.",
+      "opt3": "Aktívan keresem a megoldásokat és a pozitív példákat."
+    },
+    "q2": {
+      "text": "Milyen mértékben vagy hajlandó megváltoztatni a fogyasztási szokásaidat a környezet vagy a társadalom érdekében?",
+      "opt0": "Semennyire, a kényelem a legfontosabb számomra.",
+      "opt1": "Ha nem jár nagy lemondással vagy plusz költséggel, akkor igen.",
+      "opt2": "Tudatosan figyelem, mit vásárolok, és hajlandó vagyok többet fizetni a fenntarthatóért.",
+      "opt3": "Életmódomat alapvetően átszerveztem a fenntarthatóság jegyében (pl. hulladékmentesség, vegánság, energiafüggetlenség)."
+    },
+    "q3": {
+      "text": "Milyen gyakran osztasz meg információt, vagy állsz ki nyilvánosan egy fontos társadalmi vagy ökológiai ügy mellett?",
+      "opt0": "Soha, nem szeretem a konfliktusokat.",
+      "opt1": "Csak szűk baráti körben beszélgetek ilyesmiről.",
+      "opt2": "Gyakran megosztok cikkeket, petíciókat a közösségi médiában, és vállalom a véleményemet.",
+      "opt3": "Magam is szervezek kampányokat, írok cikkeket, vagy tartok előadásokat."
+    },
+    "q4": {
+      "text": "Mennyire veszel részt a helyi közösséged életében, vagy önkéntes munkában?",
+      "opt0": "Egyáltalán nem, nincs rá időm vagy energiám.",
+      "opt1": "Ritkán, egy-egy szemétszedésen vagy jótékonysági akción részt veszek, ha hívnak.",
+      "opt2": "Rendszeresen önkénteskedem egy civil szervezetnél vagy egy helyi kezdeményezésben.",
+      "opt3": "Én magam indítok és vezetek helyi közösségi projekteket (pl. közösségi kert, adománygyűjtés)."
+    },
+    "q5": {
+      "text": "Dolgoztál már ki saját, új megoldást egy problémára?",
+      "opt0": "Nem, általában a bevált utakat követem.",
+      "opt1": "A munkámban vagy a magánéletemben szoktam kisebb újításokat bevezetni.",
+      "opt2": "Igen, egy kisebb közösség vagy szervezet számára dolgoztam ki egy használható újdonságot.",
+      "opt3": "Olyan innovatív modellt/projektet hoztam létre, aminek mérhető, szélesebb körű hatása van."
+    },
+    "q6": {
+      "text": "Ha egy problémával szembesülsz, általában milyen távlatokban gondolkodsz a megoldásról?",
+      "opt0": "Hogyan tudom a leggyorsabban letudni a jelenlegi kényelmetlenséget.",
+      "opt1": "Hogyan tudom úgy megoldani, hogy egy ideig ne legyen vele gond.",
+      "opt2": "Olyan megoldást keresek, ami tartósan, évekig működik, megértve a probléma okait.",
+      "opt3": "Rendszerszinten gondolkodom, és a probléma gyökerét, a mögöttes struktúrákat próbálom megváltoztatni az elkövetkező évtizedekre fókuszálva."
+    },
+    "q7": {
+      "text": "Mennyire vagy képes erőforrásokat (embereket, pénzt, tudást) mozgósítani és összehangolni egy célért?",
+      "opt0": "Inkább egyedül dolgozom, nem vagyok jó a szervezésben.",
+      "opt1": "Néhány ismerőst be tudok vonni egy-egy kisebb dologba.",
+      "opt2": "Képes vagyok egy csapatot irányítani és motiválni, vagy kisebb támogatásokat szerezni.",
+      "opt3": "Sikeresen mozgósítok nagyobb tömegeket, koordinálok több szervezetet, és / vagy jelentős forrásokat vonok be."
+    },
+    "q8": {
+      "text": "Milyen szinten működik a hálózatépítési képességed?",
+      "opt0": "Nem szeretek ismerkedni, csak azokkal kommunikálok, akiket már jól ismerek.",
+      "opt1": "Nyitott vagyok új kapcsolatokra, ha hasonló gondolkodású emberekkel találkozom.",
+      "opt2": "Aktívan építem a kapcsolati hálómat különböző területek képviselőivel a saját célom elérése érdekében.",
+      "opt3": "Fő tevékenységem emberek, projektek és rendszerek összekapcsolása, szövetségek és platformok építése a közös közös célokért."
+    },
+    "q9": {
+      "text": "Miben látod a te személyes legfőbb feladatodat, hivatásodat?",
+      "opt0": "Túlélni a mindennapokat és gondoskodni a családomról.",
+      "opt1": "Olyan munkát végezni, ami nem árt, és közben élvezni az életet.",
+      "opt2": "Aktívan tenni azért, hogy a saját környezetem, közösségem jobb hely legyen.",
+      "opt3": "Egy új, fenntarthatóbb és igazságosabb társadalom és gazdaság alapjainak megteremtésében."
+    },
+    "q10": {
+      "text": "Hogy állsz a nemzetközi, transznacionális együttműködésekkel?",
+      "opt0": "Kizárólag a saját mikrokörnyezetem érdekel.",
+      "opt1": "Figyelem a nemzetközi híreket, de nem vagyok részese ilyen hálózatoknak.",
+      "opt2": "Néha tanulok külföldi példákból, vagy részt veszek egy-egy nemzetközi eseményen.",
+      "opt3": "Aktív szerepet vállalok nemzetközi hálózatokban, folyamatokban, tudást cserélek és stratégiát alkotok globális szinten."
+    }
+  },
+  "archetypeTest": {
+    "title": "Közösségi archetípus teszt",
+    "description": "Milyen szerepet töltesz be a változásalkotásban?",
+    "a1": {
+      "text": "Hol érzed magad a leginkább hatékonynak a változás előmozdításában?",
+      "opt0": "A saját közvetlen környezetemben, a helyi szintű gyakorlati munkában.",
+      "opt1": "Különböző emberek és csoportok összekapcsolásában.",
+      "opt2": "Meglévő intézményeken vagy rendszereken belüli reformok elérésében.",
+      "opt3": "Az ügyek széleskörű kommunikációjában és láthatóságuk növelésében.",
+      "opt4": "Források, támogatások és eszközök előteremtésében mások számára.",
+      "opt5": "Újszerű ötletek megalkotásában és innovatív megoldások iterálásában.",
+      "opt6": "Elavult, diszfunkcionális rendszerek alapjaiban való megrázásában és átalakításában.",
+      "opt7": "Irányvonalak, hosszú távú stratégiák kidolgozásában és tanácsadásban."
+    },
+    "a2": {
+      "text": "Milyen jellegű feladat tölt fel a leginkább energiával?",
+      "opt0": "Kétkezi munka, helyi közösségszervezés, permakultúra.",
+      "opt1": "Szervezetek közti egyeztetések, találkozók facilitálása.",
+      "opt2": "Szervezeti struktúrák, irányelvek, szabályozások érthetőbbé tétele.",
+      "opt3": "Kampányok irányítása, történetmesélés, inspirálás.",
+      "opt4": "Pályázatírás, költségvetések összerakása, adománygyűjtés.",
+      "opt5": "Prototípusok építése, kísérletezés, out-of-the-box gondolkodás.",
+      "opt6": "A status quo megkérdőjelezése, tüntetések, radikális újító akciók.",
+      "opt7": "Komplex problémák elemzése, rendszerszintű tervezés, mentorálás."
+    },
+    "a3": {
+      "text": "Hogyan tekintesz a konfliktusokra és akadályokra?",
+      "opt0": "Próbálom harmóniával és a közösség építésével feloldani őket a mikrokörülményeimben.",
+      "opt1": "A kapcsolatok ápolásán keresztül, bizalomépítéssel hidakat építek a szembenálló felek között.",
+      "opt2": "Lépésről lépésre, a meglévő szabályzatok megváltoztatásával kezeltem őket.",
+      "opt3": "Hangot adok az elnyomott nézőpontoknak, hogy figyelemfelhívással indítsak el változást.",
+      "opt4": "Akkor is tudom biztosítani a szükséges energiát / teret, ha amúgy nehéz a helyzet.",
+      "opt5": "A problémák zseniális lehetőségek új kreatív utak kifejlesztésére.",
+      "opt6": "Szükséges velejárói a régi lebomlásának, beleállok a konfrontációba, ha az az ügyet szolgálja.",
+      "opt7": "Átlátom a szereplők motivációit, és az idővonalat figyelve hosszútávú taktikát javaslok."
+    }
+  },
+  "rdgTest": {
+    "title": "Regeneratív fejlődési célok (RDG)",
+    "description": "Mely területek állnak hozzád a legközelebb? (Legfeljebb 3-at válassz.)",
+    "rdg1": {
+      "text": "Jelöld be a számodra legfontosabb, legfeljebb 3 célt.",
+      "opt0": "1. Mélyalkalmazkodás és klímareziliencia",
+      "opt1": "2. Regeneratív mezőgazdaság és Élelmiszer-önrendelkezés",
+      "opt2": "3. Helyi, körforgásos gazdaság és Szolidaritás",
+      "opt3": "4. Belső fejlődés, tudatosság és önismeret",
+      "opt4": "5. Holisztikus egészség és testi-lelki jóllét",
+      "opt5": "6. Valódi demokrácia és közösségi kormányzás (Szociokrácia)",
+      "opt6": "7. Újrakapcsolódás a természettel és földvédelem",
+      "opt7": "8. Alternatív építészet és fenntartható lakhatás",
+      "opt8": "9. Tudásmegosztás és nyílt forrású oktatás",
+      "opt9": "10. Békés kulturális átmenet és Közösségépítés",
+      "opt10": "11. Tiszta ivóvíz és higiénia mindenkinek",
+      "opt11": "12. Globális biodiverzitás és ökoszisztémák védelme",
+      "opt12": "13. Mentális egészség és érzelmi jóllét",
+      "opt13": "14. Minőségi, integrál szemléletű oktatás",
+      "opt14": "15. Gyermekek jogai és biztonságos felnövekedés",
+      "opt15": "16. Időskori méltóság és generációk közötti szolidaritás",
+      "opt16": "17. Tiszta és megújuló energia mindenkinek",
+      "opt17": "18. Társadalmi esélyegyenlőség és méltányosság",
+      "opt18": "19. Biztonságos és méltó lakhatás",
+      "opt19": "20. Emberközpontú, értékteremtő munka",
+      "opt20": "21. Technológiai etika és digitális jóllét",
+      "opt21": "22. Békeépítés és erőszakmentes konfliktuskezelés",
+      "opt22": "23. Állatvédelem és kíméletes bánásmód",
+      "opt23": "24. Nyílt tudomány és globális tudásmegosztás",
+      "opt24": "25. Kulturális örökség és emberi sokszínűség megőrzése",
+      "opt25": "26. Katasztrófák elleni védekezés és közösségi reziliencia",
+      "opt26": "27. Hosszú távú egzisztenciális kockázatok kezelése",
+      "opt27": "28. Planetáris tudatosság és a Föld mint élő rendszer",
+      "opt28": "29. Közösségi gazdasági alternatívák (Szövetkezetek, Csere)",
+      "opt29": "30. Digitális közjó és nyílt infrastruktúra"
+    }
+  }
+}

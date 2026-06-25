@@ -1,0 +1,146 @@
+{
+  "title": "Events",
+  "subtitle": "Find community events, workshop opportunities and celebrations.",
+  "create": "Create Event",
+  "search": {
+    "placeholder": "Search events...",
+    "noResults": "No events match your search"
+  },
+  "filters": {
+    "title": "Filters",
+    "all": "All",
+    "upcoming": "Upcoming",
+    "this_week": "This week",
+    "this_month": "This month",
+    "next_month": "Next month",
+    "past": "Past",
+    "cause": "Cause",
+    "allCauses": "All causes"
+  },
+  "viewMode": {
+    "list": "List view",
+    "calendar": "Calendar view"
+  },
+  "calendar": {
+    "next": "Next",
+    "previous": "Previous",
+    "today": "Today",
+    "month": "Month",
+    "week": "Week",
+    "day": "Day",
+    "agenda": "Agenda",
+    "date": "Date",
+    "time": "Time",
+    "event": "Event",
+    "noEventsInRange": "No events in this period"
+  },
+  "types": {
+    "workshop": "Workshop",
+    "gathering": "Gathering",
+    "workday": "Work Day",
+    "celebration": "Celebration",
+    "training": "Training",
+    "openDay": "Open Day",
+    "other": "Other"
+  },
+  "details": {
+    "hostedBy": "Hosted by",
+    "attendees": "attendees",
+    "attendeesCount": "{{count}} attendees",
+    "free": "Free",
+    "online": "Online event",
+    "inPerson": "In-person",
+    "location": "Location",
+    "date": "Date",
+    "description": "Description",
+    "noDescription": "No description provided.",
+    "sectionTitle": "Details",
+    "unknownHost": "Unknown",
+    "admission": "Admission"
+  },
+  "claims": {
+    "title": "Are you the organizer?",
+    "description": "This event was created from public data. If you are the organizer, claim your editing rights!",
+    "pending": "Claim in progress",
+    "submit": "Claim ownership",
+    "loginRequired": "Log in to claim.",
+    "success": "Claim submitted! Awaiting admin approval."
+  },
+  "form": {
+    "createTitle": "Create new event",
+    "editTitle": "Edit event",
+    "coverImage": "Cover image",
+    "coverImageUpload": "Click to upload image",
+    "title": "Event name",
+    "titlePlaceholder": "e.g. Permaculture workshop",
+    "type": "Type",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe the event in detail...",
+    "dates": {
+      "start": "Start date",
+      "startTime": "Start time",
+      "end": "End date",
+      "endTime": "End time"
+    },
+    "isOnline": "Online event",
+    "onlineLink": "Online link",
+    "location": "Location",
+    "locationPlaceholder": "e.g. New York, Central Park",
+    "maxAttendees": "Maximum attendees (optional)",
+    "maxAttendeesPlaceholder": "e.g. 20",
+    "onlineLinkPlaceholder": "https://meet.example.com/...",
+    "isPublic": "Public event (anyone can see it)",
+    "submit": "Create",
+    "save": "Save",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this event? This action cannot be undone.",
+    "loginRequired": "Login required",
+    "genericError": "An error occurred",
+    "commError": "A communication error occurred",
+    "deleteFailed": "Delete failed",
+    "deleteCommError": "An error occurred while deleting",
+    "community": "Community",
+    "noCommunity": "No community",
+    "causes": "Causes"
+  },
+  "rsvp": {
+    "label": "Attendance",
+    "sectionTitle": "Registration",
+    "going": "Going",
+    "attending": "I'll be there",
+    "confirmed": "You're going!",
+    "maybe": "Maybe",
+    "interested": "Interested",
+    "notGoing": "Not going",
+    "cancel": "Cancel",
+    "full": "Full",
+    "loginPrompt": "To register,",
+    "loginLink": "log in",
+    "goingSelected": "Going ✓",
+    "action": "RSVP",
+    "fullSuffix": " (full)",
+    "failed": "Could not update your RSVP. Please try again."
+  },
+  "eventTypes": {
+    "WORKSHOP": "Workshop",
+    "GATHERING": "Gathering",
+    "WORKDAY": "Workday",
+    "CELEBRATION": "Celebration",
+    "TRAINING": "Training",
+    "OTHER": "Other"
+  },
+  "status": {
+    "past": "Past"
+  },
+  "relations": {
+    "organizers": "Organizers",
+    "linkedFocus": "Linked focus"
+  },
+  "labels": {
+    "onlineEvent": "Online event",
+    "attendeeCount": "{{count}} attendees",
+    "organizer": "Organizer",
+    "facebookEvent": "Facebook event"
+  },
+  "addToCalendar": "Add to Google Calendar"
+}

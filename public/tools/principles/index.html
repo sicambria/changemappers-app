@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Egyetemes Közösségi Alapelvek | Harmónia Tára – 200+ Alapelv a Hosszú Távú Sikerért</title>
+    <meta name="description" content="200+ időtlen alapelv a fenntartható emberi közösségek számára. Fedezze fel a nyer-nyer-nyer paradigmát: Ember, Közösség, Ökológia. Ostrom, Rosenberg, Permakultúra és más rendszerek szintézise.">
+    <meta name="keywords" content="közösségi alapelvek, fenntartható közösség, szociokrácia, permakultúra, erőszakmentes kommunikáció, elinor ostrom, ökofalu, harmónia, közösségi döntéshozatal, regeneratív kultúra">
+    <meta name="author" content="Universal Principles Project">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Hungarian">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Egyetemes Közösségi Alapelvek – Harmónia Tára">
+    <meta property="og:description" content="200+ időtlen alapelv a hosszú távú sikerért, a harmóniáért és a fejlődésért. Ember · Közösség · Ökológia.">
+    <meta property="og:locale" content="hu_HU">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="https://harmonia-tara.hu/">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Harmónia Tára – Egyetemes Közösségi Alapelvek",
+      "description": "200+ időtlen alapelv a fenntartható emberi közösségek számára",
+      "applicationCategory": "EducationalApplication",
+      "inLanguage": "hu",
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "HUF"}
+    }
+    </script>
+
+    <script src="/tools/vendor/tailwind.min.js"></script>
+    <script src="/tools/vendor/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="/tools/vendor/fonts/fonts.css">
+
+    <style>
+        :root {
+            --ink: #1a1208;
+            --parchment: #f7f3ec;
+            --parchment-mid: #ede8df;
+            --parchment-dark: #ddd6c8;
+            --earth: #7c5c38;
+            --earth-light: #a07848;
+            --forest: #2d5a3d;
+            --forest-light: #3d7a55;
+            --sky: #2a4a6b;
+            --sky-light: #3a6a9b;
+            --amber: #b5660d;
+            --amber-light: #d4891e;
+            --red-crit: #9b2c2c;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--parchment);
+            color: var(--ink);
+            min-height: 100vh;
+        }
+
+        h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; }
+
+        .serif { font-family: Georgia, "Times New Roman", serif; }
+
+        /* Parchment texture overlay */
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='400' height='400' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        /* Navigation */
+        .nav-bar {
+            background: var(--ink);
+            border-bottom: 2px solid var(--earth);
+        }
+
+        .nav-logo {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.3rem;
+            color: var(--parchment);
+            letter-spacing: 0.02em;
+        }
+
+        .nav-logo span {
+            color: var(--amber-light);
+            font-style: italic;
+        }
+
+        /* Tab Navigation */
+        .tab-bar {
+            background: var(--parchment-mid);
+            border-bottom: 1px solid var(--parchment-dark);
+            position: sticky;
+            top: 0;
+            z-index: 40;
+        }
+
+        .tab-btn {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            font-size: 0.85rem;
+            font-weight: 500;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            padding: 0.9rem 1.5rem;
+            color: #6b5c44;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s ease;
+            cursor: pointer;
+            background: none;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        }
+
+        .tab-btn:hover { color: var(--ink); border-bottom-color: var(--parchment-dark); }
+        .tab-btn.active { color: var(--forest); border-bottom-color: var(--forest); font-weight: 600; }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        /* Hero */
+        .hero {
+            background: var(--ink);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(ellipse at 30% 50%, rgba(61, 122, 85, 0.15) 0%, transparent 60%),
+                        radial-gradient(ellipse at 70% 30%, rgba(181, 102, 13, 0.1) 0%, transparent 50%);
+        }
+
+        .hero-label {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            font-size: 0.7rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--amber-light);
+            margin-bottom: 1rem;
+        }
+
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            color: var(--parchment);
+            line-height: 1.1;
+            font-weight: 700;
+        }
+
+        .hero h1 em {
+            color: var(--amber-light);
+            font-style: italic;
+        }
+
+        .hero-desc {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.05rem;
+            color: rgba(247, 243, 236, 0.7);
+            line-height: 1.7;
+            max-width: 600px;
+        }
+
+        .stat-block {
+            text-align: center;
+            padding: 1rem 1.5rem;
+            border: 1px solid rgba(247, 243, 236, 0.1);
+            border-radius: 4px;
+        }
+
+        .stat-num {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 2.2rem;
+            line-height: 1;
+            font-weight: 700;
+        }
+
+        .stat-lbl {
+            font-size: 0.65rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            opacity: 0.5;
+            margin-top: 0.3rem;
+        }
+
+        /* Dimension Badges */
+        .badge-kozosseg { background: rgba(42, 74, 107, 0.12); color: var(--sky); border: 1px solid rgba(42,74,107,0.25); }
+        .badge-ember { background: rgba(181, 102, 13, 0.12); color: var(--amber); border: 1px solid rgba(181,102,13,0.25); }
+        .badge-okologia { background: rgba(45, 90, 61, 0.12); color: var(--forest); border: 1px solid rgba(45,90,61,0.25); }
+
+        .level-kritikus { color: var(--red-crit); font-weight: 600; }
+        .level-fontos { color: var(--sky); }
+        .level-kellemes { color: var(--forest); }
+
+        /* Cards */
+        .principle-card {
+            background: white;
+            border: 1px solid var(--parchment-dark);
+            border-radius: 6px;
+            padding: 1.5rem;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .principle-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 3px;
+            height: 100%;
+            background: var(--parchment-dark);
+            transition: background 0.25s ease;
+        }
+
+        .principle-card:hover {
+            box-shadow: 0 8px 24px rgba(26, 18, 8, 0.1);
+            transform: translateY(-2px);
+            border-color: var(--parchment-dark);
+        }
+
+        .principle-card.kozosseg::before { background: var(--sky); }
+        .principle-card.ember::before { background: var(--amber); }
+        .principle-card.okologia::before { background: var(--forest); }
+
+        .principle-card .card-title {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--ink);
+            line-height: 1.3;
+            margin-bottom: 0.5rem;
+        }
+
+        .principle-card .card-def {
+            font-family: Georgia, "Times New Roman", serif;
+            font-size: 0.85rem;
+            color: #5c4d36;
+            line-height: 1.5;
+            margin-bottom: 0.75rem;
+            flex-grow: 1;
+        }
+
+        .card-example {
+            background: var(--parchment);
+            border-radius: 3px;
+            padding: 0.6rem 0.75rem;
+            font-size: 0.78rem;
+            color: #6b5a3e;
+            border-left: 2px solid var(--parchment-dark);
+            font-style: italic;
+        }
+
+        .card-example::before {
+            content: '✦ ';
+            font-style: normal;
+            font-size: 0.65rem;
+            opacity: 0.6;
+        }
+
+        /* Search & Filters */
+        .filter-input {
+            background: white;
+            border: 1px solid var(--parchment-dark);
+            border-radius: 4px;
+            padding: 0.6rem 1rem;
+            font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+            font-size: 0.85rem;
+            color: var(--ink);
+            transition: border-color 0.2s;
+            outline: none;
+        }
+
+        .filter-input:focus { border-color: var(--forest); box-shadow: 0 0 0 2px rgba(45,90,61,0.1); }
+
+        /* Simulator */
+        .sim-header {
+            background: var(--ink);
+            color: var(--parchment);
+            padding: 2rem;
+            border-radius: 6px 6px 0 0;
+        }
+
+        .sim-pos { background: #f0faf4; border: 1px solid #a8d5b5; border-radius: 6px; }
+        .sim-neg { background: #fdf6ed; border: 1px solid #e8c99a; border-radius: 6px; }
+
+        .result-box-pos { background: rgba(45,90,61,0.08); border: 1px solid rgba(45,90,61,0.2); border-radius: 4px; padding: 0.75rem 1rem; margin-top: 1rem; }
+        .result-box-neg { background: rgba(181,102,13,0.08); border: 1px solid rgba(181,102,13,0.2); border-radius: 4px; padding: 0.75rem 1rem; margin-top: 1rem; }
+
+        /* Section headers */
+        .section-tag {
+            font-size: 0.65rem;
+            letter-spacing: 0.2em;
+            text-transform: uppercase;
+            color: var(--earth-light);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Divider */
+        .ornament-divider {
+            text-align: center;
+            color: var(--parchment-dark);
+            font-size: 1.2rem;
+            margin: 1rem 0;
+            letter-spacing: 0.5em;
+        }
+
+        /* Charts */
+        .chart-wrap {
+            background: white;
+            border: 1px solid var(--parchment-dark);
+            border-radius: 6px;
+            padding: 1.5rem;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+            height: 280px;
+        }
+
+        /* Pagination */
+        .page-btn {
+            padding: 0.5rem 1rem;
+            background: white;
+            border: 1px solid var(--parchment-dark);
+            border-radius: 4px;
+            font-size: 0.8rem;
+            color: var(--ink);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .page-btn:hover:not(:disabled) { background: var(--parchment-mid); }
+        .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: var(--parchment-mid); }
+        ::-webkit-scrollbar-thumb { background: var(--parchment-dark); border-radius: 3px; }
+
+        /* Fade in animation */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-up { animation: fadeUp 0.3s ease forwards; }
+
+        /* Active card highlight */
+        .principle-card.selected {
+            border-color: var(--forest);
+            box-shadow: 0 0 0 2px rgba(45,90,61,0.15);
+        }
+
+        .cm-tools-bridge {
+            background: #2D5A3D;
+            color: #FDFBF7;
+            font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+            border-bottom: 1px solid rgba(253, 251, 247, 0.22);
+        }
+        .cm-tools-bridge a { color: #FDFBF7; text-decoration: none; }
+        .cm-tools-bridge a:hover { text-decoration: underline; }
+        h1, h2, h3, .cm-tools-title { font-family: 'Playfair Display', Georgia, serif; }
+        button, input, select, textarea, .cm-tools-ui { font-family: 'DM Sans', 'Inter', system-ui, sans-serif; }
+    </style>
+</head>
+<body>
+
+    <div class="cm-tools-bridge no-print">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 text-sm">
+            <a href="/tools" class="font-semibold">Changemappers tools</a>
+            <div class="flex gap-4 opacity-90">
+                <a href="/tools">Tools hub</a>
+                <a href="/">Changemappers</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Top Navigation -->
+    <nav class="nav-bar py-3 px-6">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="nav-logo">Harmónia <span>Tára</span></div>
+            <div class="flex items-center gap-4 text-xs text-parchment opacity-50" style="color: rgba(247,243,236,0.5)">
+                <span>Ember · Közösség · Ökológia</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero py-14 px-6">
+        <div class="max-w-6xl mx-auto relative z-10">
+            <div class="hero-label">Egy időtlen rendszer</div>
+            <h1 class="mb-4">Egyetemes<br>Közösségi <em>Alapelvek</em></h1>
+            <p class="hero-desc mb-8 serif">
+                200+ alapelv a hosszú távú sikerért, a harmóniáért és a fejlődésért —
+                az irokéz törzsszövetségtől a modern szociokrácián át a permakultúráig.
+                A <em>nyer–nyer–nyer</em> paradigma szintézise.
+            </p>
+            <div class="flex flex-wrap gap-4">
+                <div class="stat-block">
+                    <div class="stat-num" style="color: var(--amber-light)" id="total-count">0</div>
+                    <div class="stat-lbl" style="color: rgba(247,243,236,0.5)">Alapelv</div>
+                </div>
+                <div class="stat-block">
+                    <div class="stat-num" style="color: #6aad85">3</div>
+                    <div class="stat-lbl" style="color: rgba(247,243,236,0.5)">Dimenzió</div>
+                </div>
+                <div class="stat-block">
+                    <div class="stat-num" style="color: #8ab4d4">7</div>
+                    <div class="stat-lbl" style="color: rgba(247,243,236,0.5)">Terület</div>
+                </div>
+                <div class="stat-block">
+                    <div class="stat-num" style="color: rgba(247,243,236,0.6)">∞</div>
+                    <div class="stat-lbl" style="color: rgba(247,243,236,0.5)">Lehetőség</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Tab Bar -->
+    <div class="tab-bar">
+        <div class="max-w-6xl mx-auto px-6 flex">
+            <button class="tab-btn active" onclick="switchTab('explorer')">
+                📖 Alapelvek Tára
+            </button>
+            <button class="tab-btn" onclick="switchTab('simulator')">
+                ⚖️ Hatásmechanizmus
+            </button>
+            <button class="tab-btn" onclick="switchTab('stats')">
+                📊 Statisztika
+            </button>
+        </div>
+    </div>
+
+    <main class="max-w-6xl mx-auto px-6 py-8">
+
+        <!-- TAB 1: Explorer -->
+        <div id="tab-explorer" class="tab-content active">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
+                <div>
+                    <div class="section-tag">Böngésző</div>
+                    <h2 style="font-size: 1.6rem; font-weight: 700;">Alapelvek Tára</h2>
+                </div>
+                <div class="flex flex-wrap gap-2">
+                    <input type="text" id="searchInput" placeholder="Keresés..." class="filter-input" style="min-width: 180px;">
+                    <select id="categoryFilter" class="filter-input">
+                        <option value="all">Minden dimenzió</option>
+                        <option value="Közösség">🤝 Közösség</option>
+                        <option value="Ember">🧘 Ember</option>
+                        <option value="Ökológia">🌿 Ökológia</option>
+                    </select>
+                    <select id="levelFilter" class="filter-input">
+                        <option value="all">Minden szint</option>
+                        <option value="Kritikus">Kritikus</option>
+                        <option value="Fontos">Fontos</option>
+                        <option value="Kellemes">Kellemes</option>
+                    </select>
+                    <select id="areaFilter" class="filter-input">
+                        <option value="all">Minden terület</option>
+                        <option value="Kormányzás">Kormányzás</option>
+                        <option value="Gazdaság">Gazdaság</option>
+                        <option value="Ökológia & Tér">Ökológia & Tér</option>
+                        <option value="Kommunikáció">Kommunikáció</option>
+                        <option value="Belső fejlődés">Belső fejlődés</option>
+                        <option value="Szociális háló">Szociális háló</option>
+                        <option value="Innováció">Innováció</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="principlesGrid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-6">
+            </div>
+
+            <div class="flex items-center justify-center gap-3">
+                <button id="prevBtn" class="page-btn" onclick="changePage(-1)">← Előző</button>
+                <span id="pageIndicator" class="text-sm" style="color: #7c6a50;"></span>
+                <button id="nextBtn" class="page-btn" onclick="changePage(1)">Következő →</button>
+            </div>
+        </div>
+
+        <!-- TAB 2: Simulator -->
+        <div id="tab-simulator" class="tab-content">
+            <div class="section-tag mb-1">Részletek</div>
+            <h2 style="font-size: 1.6rem; font-weight: 700;" class="mb-2">Hatásmechanizmus</h2>
+            <p class="serif mb-6" style="color: #7c6a50; font-size: 0.9rem;">Kattintson egy kártyára az Alapelvek Tárában, hogy itt lássa az ok-okozati összefüggéseket.</p>
+
+            <div id="simEmpty" class="text-center py-16 border-2 border-dashed rounded-lg" style="border-color: var(--parchment-dark); color: #9d8a6c;">
+                <div style="font-size: 2.5rem; margin-bottom: 0.75rem;">⚖️</div>
+                <p class="serif" style="font-size: 1rem;">Még nincs kiválasztott alapelv.</p>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.6;">Lépjen az Alapelvek Tárára és kattintson egy kártyára.</p>
+                <button onclick="switchTab('explorer')" class="page-btn mt-4">→ Menjen az Alapelvek Tárára</button>
+            </div>
+
+            <div id="simulatorContainer" class="hidden rounded-lg overflow-hidden border" style="border-color: var(--parchment-dark);">
+                <div class="sim-header">
+                    <div class="flex items-start justify-between gap-4 mb-3">
+                        <span id="simBadge" class="text-xs px-3 py-1 rounded-full font-medium" style="background: rgba(247,243,236,0.12); color: rgba(247,243,236,0.8);"></span>
+                        <div class="flex gap-2 items-center">
+                            <span id="simArea" class="text-xs px-2 py-0.5 rounded" style="background: rgba(247,243,236,0.08); color: rgba(247,243,236,0.6);"></span>
+                            <span id="simLevel" class="text-xs font-semibold" style="color: var(--amber-light);"></span>
+                        </div>
+                    </div>
+                    <h3 id="simTitle" class="text-2xl font-bold mb-2" style="color: var(--parchment);"></h3>
+                    <p id="simDef" class="serif text-sm mb-3" style="color: rgba(247,243,236,0.75); line-height: 1.6;"></p>
+                    <div class="flex items-center gap-2 mt-2 pt-3" style="border-top: 1px solid rgba(247,243,236,0.1)">
+                        <span style="font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(247,243,236,0.35);">Példa, ha él:</span>
+                        <span id="simExample" class="text-sm italic" style="color: rgba(247,243,236,0.6);"></span>
+                    </div>
+                    <p id="simSource" class="text-xs mt-2" style="color: rgba(247,243,236,0.3); font-style: italic;"></p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2">
+                    <div class="sim-pos p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span style="font-size: 1.4rem">✅</span>
+                            <h4 class="font-bold text-lg" style="color: var(--forest);">Ha érvényesül…</h4>
+                        </div>
+                        <p id="simPos" class="serif text-sm leading-relaxed" style="color: #2d4a36;"></p>
+                        <div class="result-box-pos">
+                            <span class="text-xs font-bold uppercase tracking-wider" style="color: var(--forest); display: block; margin-bottom: 0.25rem;">Hosszú távú eredmény</span>
+                            <p id="simPosLong" class="text-xs serif" style="color: var(--forest);"></p>
+                        </div>
+                    </div>
+                    <div class="sim-neg p-6">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span style="font-size: 1.4rem">⚠️</span>
+                            <h4 class="font-bold text-lg" style="color: var(--amber);">Ha NEM érvényesül…</h4>
+                        </div>
+                        <p id="simNeg" class="serif text-sm leading-relaxed" style="color: #5c3a10;"></p>
+                        <div class="result-box-neg">
+                            <span class="text-xs font-bold uppercase tracking-wider" style="color: var(--amber); display: block; margin-bottom: 0.25rem;">Hosszú távú kockázat</span>
+                            <p id="simNegLong" class="text-xs serif" style="color: var(--amber);"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: Statistics -->
+        <div id="tab-stats" class="tab-content">
+            <div class="section-tag mb-1">Adatok</div>
+            <h2 style="font-size: 1.6rem; font-weight: 700;" class="mb-2">Statisztikai Áttekintés</h2>
+            <p class="serif mb-8" style="color: #7c6a50; font-size: 0.9rem;">Az alapelvek eloszlása, egyensúlya és összefüggéseik vizualizálva.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                <div class="chart-wrap">
+                    <div class="section-tag mb-1">Dimenzió</div>
+                    <h3 class="font-bold mb-1" style="font-size: 1.1rem;">Dimenziók Megoszlása</h3>
+                    <p class="text-xs serif mb-4" style="color: #9d8a6c;">A három pilléren belül mennyi alapelv él.</p>
+                    <div class="chart-container">
+                        <canvas id="categoryChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-wrap">
+                    <div class="section-tag mb-1">Prioritás</div>
+                    <h3 class="font-bold mb-1" style="font-size: 1.1rem;">Prioritási Szintek</h3>
+                    <p class="text-xs serif mb-4" style="color: #9d8a6c;">Kritikus alapok vs. fontos elemek vs. kellemes extrák.</p>
+                    <div class="chart-container">
+                        <canvas id="levelChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-wrap">
+                    <div class="section-tag mb-1">Területek</div>
+                    <h3 class="font-bold mb-1" style="font-size: 1.1rem;">Területek Szerinti Eloszlás</h3>
+                    <p class="text-xs serif mb-4" style="color: #9d8a6c;">A dokumentum 7 tematikus területe alapján.</p>
+                    <div class="chart-container" style="height: 320px">
+                        <canvas id="areaChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-wrap">
+                    <div class="section-tag mb-1">Mátrix</div>
+                    <h3 class="font-bold mb-1" style="font-size: 1.1rem;">Dimenzió × Prioritás Mátrix</h3>
+                    <p class="text-xs serif mb-4" style="color: #9d8a6c;">Hol van a legtöbb kritikus alapelv?</p>
+                    <div class="chart-container" style="height: 300px">
+                        <canvas id="matrixChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Summary insights -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div style="background: rgba(42,74,107,0.06); border: 1px solid rgba(42,74,107,0.15); border-radius: 6px; padding: 1.25rem;">
+                    <div class="text-2xl mb-1">🤝</div>
+                    <h4 class="font-bold mb-1" style="color: var(--sky);">Közösség dimenzió</h4>
+                    <p class="text-xs serif" style="color: #4a6a8a; line-height: 1.5;">Ostrom, Szociokrácia és a zapatista elvek alapján: a transzparens döntéshozatal és a demokratikus struktúrák stabilitásának fundamentuma.</p>
+                </div>
+                <div style="background: rgba(181,102,13,0.06); border: 1px solid rgba(181,102,13,0.15); border-radius: 6px; padding: 1.25rem;">
+                    <div class="text-2xl mb-1">🧘</div>
+                    <h4 class="font-bold mb-1" style="color: var(--amber);">Ember dimenzió</h4>
+                    <p class="text-xs serif" style="color: #7a5020; line-height: 1.5;">Rosenberg NVC, Auroville 12 minőség és a Four Worlds elvei: belső munka nélkül nem tartható fenn semmilyen közösségi struktúra.</p>
+                </div>
+                <div style="background: rgba(45,90,61,0.06); border: 1px solid rgba(45,90,61,0.15); border-radius: 6px; padding: 1.25rem;">
+                    <div class="text-2xl mb-1">🌿</div>
+                    <h4 class="font-bold mb-1" style="color: var(--forest);">Ökológia dimenzió</h4>
+                    <p class="text-xs serif" style="color: #2d5a3d; line-height: 1.5;">Holmgren permakultúrája és a Föld Charta: a bioszféra egészsége az emberi közösség fennmaradásának előfeltétele.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer style="background: var(--ink); color: rgba(247,243,236,0.4);" class="mt-12 py-8 px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="nav-logo mb-3">Harmónia <span>Tára</span></div>
+            <p class="text-xs serif mb-1">Az alapelvek forrásai: ősi és mai kultúrák, közösségek bölcsessége, Elinor Ostrom, Marshall Rosenberg (NVC), David Holmgren (Permakultúra), Szociokrácia 3.0, Föld Charta, Robert K. Greenleaf, Auroville, Four Worlds International Institute.</p>
+            <p class="text-xs mt-3 opacity-30">CC-BY-SA 4.0 Egyetemes Alapelvek · Ember · Közösség · Ökológia</p>
+        </div>
+    </footer>
+
+    <script>
+
+    const curatedData = [
+        // KÖZÖSSÉG – KORMÁNYZÁS
+        {
+            t: "Mindenki szava számít.",
+            c: "Közösség", l: "Kritikus", a: "Kormányzás",
+            s: "Szociokrácia / Elinor Ostrom, 1990",
+            def: "A döntéshozatalból egyetlen érintett tag sem zárható ki tartósan.",
+            ex: "Körgyűléseken mindenki szót kap, és vétójogával blokkolhatja a rá közvetlen hatással lévő döntéseket.",
+            p: "Minden tag felelősnek érzi magát a döntésekért, az ellenállás minimálisra csökken.",
+            n: "A kirekesztett tagok passzív vagy aktív ellenállást tanúsítanak, majd elhagyják a közösséget.",
+            pl: "Stabil, önszabályozó irányítás, ahol a legitimáció alulról építkezik.",
+            nl: "Belső szakadás, klikkesedés, a közösség fokozatos felbomlása."
+        },
+        {
+            t: "A döntéshozatal átlátható.",
+            c: "Közösség", l: "Kritikus", a: "Kormányzás",
+            s: "Elinor Ostrom – 'Governing the Commons', 1990",
+            def: "Minden döntés indoklása, folyamata és hatása elérhető minden tag számára.",
+            ex: "A közösség nyilvános döntési naplót vezet; bárki visszakeresheti, mi alapján született egy határozat.",
+            p: "A döntések legitimitása megkérdőjelezhetetlen, a bizalom strukturáltan épül.",
+            n: "Gyanakvás, pletykák és bizalmatlanság teszi mérgessé a légkört.",
+            pl: "Önfenntartó intézményi bizalom, amely külső nyomásnak is ellenáll.",
+            nl: "A közösség immunrendszere meggyengül; korrupció és manipuláció fészkelődik be."
+        },
+        {
+            t: "A hatalom a közösséget szolgálja.",
+            c: "Közösség", l: "Kritikus", a: "Kormányzás",
+            s: "Greenleaf – Servant Leadership, 1970",
+            def: "A vezető szerepe a tagok lehetőségeinek maximalizálása, nem a saját pozíció fenntartása.",
+            ex: "A koordinátor önként félreáll, ha egy döntés esetén érdekellentét áll fenn, és a közösségre bízza a döntést.",
+            p: "A vezetés legitimitása organikus, a tagok önkéntesen igazodnak a koordinátorokhoz.",
+            n: "Hatalmi harcok és az erőforrások feletti kontroll köré szervezett klikkek jelennek meg.",
+            pl: "A vezető váltása nem traumatikus esemény, mert a hatalom a struktúrában él, nem az emberben.",
+            nl: "A közösség egyetlen személytől válik függővé; az ő távozása vagy korrupciója a rendszert is lerombolja."
+        },
+        {
+            t: "A konfliktusokat azonnal kezeljük.",
+            c: "Közösség", l: "Kritikus", a: "Kommunikáció",
+            s: "Patrick Lencioni, 2002",
+            def: "A feszültségeket nem elkerüljük, hanem strukturált folyamaton keresztül feldolgozzuk.",
+            ex: "Ha két tag között nézeteltérés merül fel, 48 órán belül mediált egyeztetésre kerül sor.",
+            p: "A nő a bizalom, tisztul a légkör, és a konfliktus a fejlődés katalizátorává válik.",
+            n: "Mérgező légkör, tartós sértettség és klikkesedés alakul ki.",
+            pl: "Az elveszített ütközések helyett a közösség gyógyult kapcsolatrendszerrel kerül ki minden vitából.",
+            nl: "A fel nem dolgozott feszültségek felhalmozódnak, majd a közösség szétszedik."
+        },
+        {
+            t: "Az információ szabadon áramlik.",
+            c: "Közösség", l: "Kritikus", a: "Kormányzás",
+            s: "Teal Szervezetek (Laloux), 2014",
+            def: "Nincs információs monopólium; mindenki hozzáfér az együttéléshez szükséges adatokhoz.",
+            ex: "A pénzügyi kimutatások, tervek és döntési protokollok mindenki számára láthatók egy közös platformon.",
+            p: "Gyors és pontos döntések születnek helyben, felesleges bürokrácia nélkül.",
+            n: "Pletyka és torzítás tölti be azt az ûrt, amelyet a hiányzó információ hagy maga után.",
+            pl: "Decentralizált intelligencia: a rendszer több fejjel gondolkodik.",
+            nl: "Az informális hálózatok veszik át a formális döntéshozatal szerepét."
+        },
+        {
+            t: "A vállalásokat betartjuk.",
+            c: "Közösség", l: "Kritikus", a: "Kormányzás",
+            s: "Stephen Covey – '7 Habits', 1989",
+            def: "Amit kimondunk, megvalósítjuk; ha nem tudjuk, előre szólunk.",
+            ex: "Ha valaki nem tud elvállalt feladatot teljesíteni, 24 óránál korábban értesíti a csoportot és keres helyettest.",
+            p: "Kiszámítható és biztonságos környezet jön létre; a tagok energiát nem pazarolnak aggodalmaskodásra.",
+            n: "A bizonytalanság szorongást és csökkent elköteleződést szül.",
+            pl: "A közösség reputációja és belső kohéziója egyaránt erősödik.",
+            nl: "Az egymásba vetett hit erodál; minden vállalás üres gesztussá válik."
+        },
+
+        // EMBER – KOMMUNIKÁCIÓ & FEJLŐDÉS
+        {
+            t: "Meghallgatunk ítélkezés nélkül.",
+            c: "Ember", l: "Kritikus", a: "Kommunikáció",
+            s: "Marshall Rosenberg – NVC, 1999",
+            def: "A másik szavait nem értékeljük azonnali véleménnyel, hanem a mögöttes szükségletet keressük.",
+            ex: "Egy nézeteltérés során a hallgató először visszamond: 'Ha jól értem, neked fontos, hogy…' – mielőtt reagálna.",
+            p: "Mély megértés és empátia alakul ki, az emberek megnyílnak.",
+            n: "Védekezés és elzárkózás; a felek kommunikálnak, de nem érintkeznek.",
+            pl: "Generációkon átívelő kapcsolatok, amelyekben a különbségek nem fenyegetések.",
+            nl: "A tagok performálják a kommunikációt ahelyett, hogy valóban átadnák magukat."
+        },
+        {
+            t: "Őszintén kommunikálunk.",
+            c: "Ember", l: "Kritikus", a: "Kommunikáció",
+            s: "Kim Scott – Radical Candor, 2017",
+            def: "Kimondunk mindent, ami a közösség működéséhez releváns – tapintatosan, de félelem nélkül.",
+            ex: "Egy tag direkt visszajelzést ad a koordinátornak arról, hogy egy döntés miért káros – és megteheti büntetés nélkül.",
+            p: "A problémák gyorsan megoldódnak; a tabuk nem épülnek be a rendszerbe.",
+            n: "Képmutatás és rejtett játszmák veszik át az őszinte párbeszéd helyét.",
+            pl: "A közösség kulturálisan immunis a passzív agresszióval és az intrikával szemben.",
+            nl: "A felszín alatt forrongó konfliktusok robbanásszerűen törnek elő."
+        },
+        {
+            t: "Vállaljuk a felelősséget tetteinkért.",
+            c: "Ember", l: "Kritikus", a: "Belső fejlődés",
+            s: "Egzisztencializmus / Auroville alapelvek",
+            def: "Nem külső körülményeket, hanem saját döntéseinket tesszük a középpontba.",
+            ex: "Ha valami elromlik, a tag először azt kérdezi: 'Mit tehettem volna én másként?' – nem: 'Ki a hibás?'",
+            p: "Felnőtt–felnőtt kapcsolatok alakulnak ki; az elszámoltathatóság kölcsönös lesz.",
+            n: "Áldozati szerep és a hibáztatás kultúrája épül be a rendszerbe.",
+            pl: "A közösség minden tagja nő a nehézségekkel, nem megtörik alattuk.",
+            nl: "Energiák mennek el bűnbakkeresésre; a tanulási lehetőség elvész."
+        },
+        {
+            t: "Jogunk van hibázni.",
+            c: "Ember", l: "Kritikus", a: "Innováció",
+            s: "Carol Dweck – Growth Mindset, 2006",
+            def: "A hiba nem büntetendő esemény, hanem a tanulási folyamat természetes eleme.",
+            ex: "A közösség havi 'tanulási körben' megosztja, mi ment félre – és mit tanult belőle.",
+            p: "Folyamatos tanulás és innováció; az emberek kísérleteznek.",
+            n: "Félelem a kudarctól; a tagok a kényelmes középutat választják.",
+            pl: "Adaptív, önjavító rendszer, amely képes reagálni a változásokra.",
+            nl: "Stagnálás, belterjesség, a rendszer fokozatos elöregedése."
+        },
+        {
+            t: "Tiszteletben tartjuk a határokat.",
+            c: "Ember", l: "Kritikus", a: "Belső fejlődés",
+            s: "Pszichológiai autonómia elvei",
+            def: "Minden tag maga definiálja fizikai, érzelmi és energetikai határait, és ezek tiszteletben tartása kötelező.",
+            ex: "Egy tag jelzi: 'Jelenleg nem tudok több feladatot vállalni.' – és ez elfogadott, következmény nélküli.",
+            p: "Érzelmi biztonság és fenntartható részvétel; a tagok nem égnek ki.",
+            n: "Kiégés, sértettség és passzív visszahúzódás.",
+            pl: "A tagok hosszú távon aktívak maradnak; a közösség nem 'emészt fel' embereket.",
+            nl: "Fluktuáció és fokozatos elidegenedés."
+        },
+        {
+            t: "Időt szánunk a pihenésre.",
+            c: "Ember", l: "Fontos", a: "Belső fejlődés",
+            s: "Mentálhigiéné / Benedek Regula, 529",
+            def: "A munka és a regeneráció váltakozása nem luxus, hanem a fenntartható teljesítmény feltétele.",
+            ex: "A héten van egy 'csendes nap', mikor nem tartanak gyűléseket és a feladatvállalás önkéntes.",
+            p: "Fenntartható energiaszint; a tagok minőségi jelenléttel vesznek részt.",
+            n: "Krónikus stressz, betegség és kognitív kimerülés.",
+            pl: "A közösség 'sprintmentes' kultúrát épít, ahol a hosszú táv értékesebb a gyors eredménynél.",
+            nl: "A legelkötelezettebbek égnek ki először, megfosztva a közösséget a legjobb tagjaitól."
+        },
+
+        // ÖKOLÓGIA
+        {
+            t: "Nem termelünk szemetet.",
+            c: "Ökológia", l: "Kritikus", a: "Ökológia & Tér",
+            s: "Zero Waste / Permakultúra (Holmgren)",
+            def: "Minden kibocsátott anyag újra belép valamilyen hasznos körfolyamatba.",
+            ex: "A közösség komposztálja az összes szerves hulladékot, és a konyhában nem kerül műanyag csomagolású termék.",
+            p: "Tiszta környezet, csökkentett erőforrás-igény és magasabb rendszerhatékonyság.",
+            n: "Erőforrás-pazarlás, szennyezés és az ökológiai lábnyom növekedése.",
+            pl: "Regeneratív anyagkör: a közösség outputjai más rendszerek inputjai lesznek.",
+            nl: "A közösség fokozatosan önmaga életterét mérgezi."
+        },
+        {
+            t: "Hosszú távra tervezünk.",
+            c: "Ökológia", l: "Kritikus", a: "Ökológia & Tér",
+            s: "Irokéz Konföderáció – 7 generáció elve",
+            def: "Minden döntésnél kérdés: hogyan hat ez a hetedik generációra?",
+            ex: "Fa ültetésekor azt kérdezik: 'Mi a célja ennek 50 év múlva?' – nem csupán: 'Mikor ad gyümölcsöt?'",
+            p: "Jövőálló örökség; a közösség eszközt hagy a jövő tagoknak, nem terhet.",
+            n: "A jövő felélése a jelenért; rövid távú haszon hosszú távú sérülékenységet okoz.",
+            pl: "A közösség intézményi emlékezetté és tartaléktőkévé válik.",
+            nl: "Minden generáció nulláról kezdi, és a hibákat ismétli."
+        },
+        {
+            t: "A sokféleség érték.",
+            c: "Ökológia", l: "Kritikus", a: "Ökológia & Tér",
+            s: "Permakultúra / David Holmgren",
+            def: "A biológiai, kulturális és gondolati változatosság a rendszer stabilitásának alapja.",
+            ex: "A kertben hat különböző fajta zöldség nő egymás mellett; a közösségbe különböző háttérből érkezők hoznak egyforma szavazati jogot.",
+            p: "Stabil és alkalmazkodó rendszer, amely kiszámíthatatlan körülmények közt is talál megoldást.",
+            n: "Sérülékeny monokultúrák: egyetlen aszály vagy nézeteltérés az egész rendszert veszélyezteti.",
+            pl: "A sokszínűség innovációvá alakul; a rendszer egyre gazdagabb és ellenállóbb.",
+            nl: "A homogenizáció megfosztja a rendszert öngyógyító képességétől."
+        },
+        {
+            t: "Visszaforgatjuk az energiát.",
+            c: "Ökológia", l: "Kritikus", a: "Ökológia & Tér",
+            s: "Körforgásos gazdaság / Permakultúra",
+            def: "A rendszerbe belépő energiát addig tartjuk körforgásban, amíg az teljes értékét leadja.",
+            ex: "Az esővizet összegyűjtik, öntözésre, majd a lefolyó vizet komposzthoz használják.",
+            p: "Fenntartható bőség; a rendszer kevesebb inputból több outputot termel.",
+            n: "Kimerülő készletek és növekvő függőség külső forrásoktól.",
+            pl: "Regeneratív gazdaság: a közösség egyre kevésbé sebezhető külső sokkokkal szemben.",
+            nl: "Lineáris anyagáramlás: a közösség folyamatosan 'éget' erőforrást visszatérés nélkül."
+        },
+        {
+            t: "Helyi erőforrásokat használunk.",
+            c: "Ökológia", l: "Fontos", a: "Ökológia & Tér",
+            s: "Schumacher – 'Small is Beautiful', 1973 / Transition Towns",
+            def: "Ami helyben előállítható, nem kerül be globális ellátási láncba.",
+            ex: "A közösség a szomszéd farmertől vesz zöldséget, és a helyi kézművestől rendel szerszámot.",
+            p: "Ellenálló helyi gazdaság, alacsonyabb ökológiai lábnyom, közösségi kapcsolatok erősödése.",
+            n: "Függőség a globális láncoktól, amelyek egy válság esetén azonnal összeomlanak.",
+            pl: "Szubszidiaritás: a döntési és gazdasági hatalom helyileg marad.",
+            nl: "Sérülékenység: egy globális sokk a helyi közösséget is térdre kényszeríti."
+        },
+
+        // KÖZÖSSÉG – SZOCIÁLIS HÁLÓ
+        {
+            t: "Befogadó légkört teremtünk.",
+            c: "Közösség", l: "Fontos", a: "Szociális háló",
+            s: "D&I alapelvek / Camphill mozgalom",
+            def: "Mindenki megtalálja a helyét és értékét a közösségben, függetlenül hátterétől vagy képességeitől.",
+            ex: "Az újonnan érkező tag a csatlakozás utáni első héten személyes mentort kap.",
+            p: "Sokszínűségből fakadó innováció; senki sem marad ki a közösség teremtéséből.",
+            n: "Belterjesség, kizárás és az 'idegenek' lassú kivonulása.",
+            pl: "Nyitott, önmegújuló közösség, amely vonzerőt fejt ki.",
+            nl: "Zárt enklávé, amely elveszíti képességét a széles társadalmi hatásra."
+        },
+        {
+            t: "Az időseket és gyerekeket integráljuk.",
+            c: "Közösség", l: "Fontos", a: "Szociális háló",
+            s: "Camphill mozgalom / Kvéker SPICES elvek",
+            def: "A generációk együtt dolgoznak, és minden korosztály értéket hoz a rendszerbe.",
+            ex: "Az idősek hetente mesélnek a fiataloknak a közösség históriájáról; a gyerekek felelnek az esti tűzgyújtásért.",
+            p: "Intergenerációs tudásátadás és mélyebb közösségi kohézió.",
+            n: "A teljesítményorientált felnőtt-kör kegyetlen meritokráciává válik.",
+            pl: "Eleven közösségi emlékezet és természetes felelősségátadás generációk között.",
+            nl: "Az öregek magukra maradnak, a fiatalok gyökerek nélkül nőnek fel."
+        },
+
+        // KÖZÖSSÉG – GAZDASÁG
+        {
+            t: "A tőkét a munkának rendeljük alá.",
+            c: "Közösség", l: "Kritikus", a: "Gazdaság",
+            s: "Mondragon Szövetkezet, 1956 / Federation of Egalitarian Communities",
+            def: "A gazdasági rendszer a tagok munkáját és méltóságát helyezi a profit fölé.",
+            ex: "A szövetkezeti közösségben a nyereséget a tagok között az elvégzett munka arányában osztják szét, nem a tőketulajdon szerint.",
+            p: "Csökkentett egyenlőtlenség, erősebb gazdasági kohézió és lojalitás.",
+            n: "Vagyoni törésvonalak jelennek meg, amelyek társadalmi feszültséggé alakulnak.",
+            pl: "A gazdasági biztonság a tagok exisztenciális szorongását csökkenti, felszabadítva az energiákat a közösség fejlesztésére.",
+            nl: "A tőkés logika felülkerekedik a közösségi logikán; belső versengés keletkezik."
+        },
+        {
+            t: "A közös javakat közösen kezeljük.",
+            c: "Közösség", l: "Kritikus", a: "Gazdaság",
+            s: "Elinor Ostrom – Nobel-díj, 2009",
+            def: "A megosztott erőforrásokat (föld, technológia, víz) a felhasználók saját szabályaik alapján kezelik.",
+            ex: "A közösségi kert használatáról a tagok maguk döntenek; nincsen külső tulajdonos, aki diktálhatna.",
+            p: "Fenntartható gazdálkodás és erős közösségi kötődés az erőforráshoz.",
+            n: "A 'közlegelők tragédiája': túlhasználat és az erőforrás kimerülése.",
+            pl: "A közös tulajdon pszichológiai megtartó erőt jelent; a tagok szívügyüknek érzik a közösséget.",
+            nl: "Az erőforrások magánkézbe kerülnek, vagy kimerülnek."
+        },
+
+        // EMBER – BELSŐ FEJLŐDÉS & SZELLEM
+        {
+            t: "A belső munka nem elválasztható a külső cselekvéstől.",
+            c: "Ember", l: "Kritikus", a: "Belső fejlődés",
+            s: "Auroville – The Mother, 1968 / Four Worlds International Institute",
+            def: "A személyes tudati és erkölcsi fejlődés az, ami a külső struktúrákat élővé és fenntarthatóvá teszi.",
+            ex: "A közösség tagjai heti meditációs vagy reflektív kört tartanak, ahol a belső állapotokról is szó esik.",
+            p: "Az intézmények emberi mélységet kapnak; a struktúrák nem válnak gépezetté.",
+            n: "A legkiválóbb szociokrata struktúra is kudarcra van ítélve, ha a tagokból hiányzik az őszinteség és az alázat.",
+            pl: "A közösség nemcsak funkcionálisan, hanem tudatilag is fejlődik.",
+            nl: "A szabályok betűjét betartják, de a szellemet nem; formális demokrácia, valódi részvétel nélkül."
+        },
+        {
+            t: "Hálát adunk egymásnak.",
+            c: "Ember", l: "Kellemes", a: "Belső fejlődés",
+            s: "Pozitív Pszichológia / Auroville – Hála minőség",
+            def: "Az elismerés és a köszönet aktív, rendszeres gyakorlat – nem alkalmi gesztus.",
+            ex: "A heti gyűlés zárásaképpen mindenki mond egy mondatot arról, ki tett valamit a közösségért.",
+            p: "Növekszik a boldogságszint, az érzelmi kötődés és az önkéntes részvétel.",
+            n: "A teljesítmény magától értetődőnek tűnik; a tagok láthatatlannak érzik magukat.",
+            pl: "A közösség melegházzá válik, ahol az emberek szívesen adnak, mert látják, hogy az adást látják.",
+            nl: "A tagok fokozatosan visszavonulnak az önkéntes tevékenységektől."
+        },
+        {
+            t: "Fejlődésre törekszünk.",
+            c: "Ember", l: "Fontos", a: "Innováció",
+            s: "Maslow – szükségleti hierarchia, 1943",
+            def: "A tagok nem csupán szükségleteik kielégítésére törekszenek, hanem potenciáljuk teljes kibontakoztatására.",
+            ex: "A közösség évi képzési keretet biztosít minden tagnak, amelyet saját belátása szerint használhat fel.",
+            p: "Az egyén kiteljesedik, a közösség gazdagodik friss tudással és energiával.",
+            n: "Unalom és fásultság; a tagok más csatornákon keresik az önmegvalósítást.",
+            pl: "A közösség vonzereje nő; az emberek azért maradnak, mert növekednek.",
+            nl: "A tehetséges tagok elmennek, ahol lehetőségeket kapnak."
+        },
+
+        // INNOVÁCIÓ
+        {
+            t: "A visszacsatolás a rendszer tápláléka.",
+            c: "Közösség", l: "Fontos", a: "Innováció",
+            s: "Szociokrácia 3.0 – Folyamatos fejlődés",
+            def: "A rendszer rendszeres visszajelzési mechanizmusokat épít be, nem vár krízisig.",
+            ex: "Negyedévente minden tag anonim kérdőívet tölt ki a közösségi folyamatokról, és az eredmény nyilvánosan tárgyalt.",
+            p: "A rendszer önjavítóvá válik; a hibák tanulási forrásként jelennek meg.",
+            n: "A dogmatizmus befészkeli magát; a rendszer alkalmazkodóképessége csökken.",
+            pl: "Agilis, organikus szervezet, amely összeköti az ősi bölcsességet a kortárs tudománnyal.",
+            nl: "A struktúrák megmerevednek, és a változó kihívásokra nem tudnak reagálni."
+        },
+        {
+            t: "Az innováció nyílt és empirikus.",
+            c: "Közösség", l: "Fontos", a: "Innováció",
+            s: "Aprovecho Research Center / Transition Towns",
+            def: "Az újítások kipróbálhatóak, mérhetők és megoszthatók – nem dogmák.",
+            ex: "Egy új gazdálkodási módszert kis területen tesztelnek két szezonon át, mielőtt az egész kertben bevezetnék.",
+            p: "A jól működő megoldások gyorsan terjednek; a sikertelenek nem húznak le.",
+            n: "Ideológiai gondolkodás váltja fel a tapasztalati tanulást.",
+            pl: "A közösség élő tudásbázissá válik, amelyből a tágabb hálózat is tanul.",
+            nl: "Az alapítók víziója megkövesül, és a közösség múzeummá válik saját elveiből."
+        }
+    ];
+
+    // Filler generator
+    const fillerTemplates = [
+        { t: "A kommunikáció tisztasága megelőzi a zavart.", def: "Az üzenetek pontosak, rövídek és félreértés-mentesek.", ex: "Minden döntési körlevél tartalmaz felelőst, határidőt és célt." },
+        { t: "A közös tér gondozása közös felelősség.", def: "A megosztott helyiségek karbantartása nem egyetlen tagra hárul.", ex: "Hetente más csoport takarítja a közös konyhát." },
+        { t: "Ünnepeljük az átmeneteket.", def: "Az életfordulók és közösségi mérföldkövek rituális megjelölése összeköt.", ex: "Minden beköltöző tagot befogadási szertartással fogadnak." },
+        { t: "A természet ritmusát követjük.", def: "Az emberi tevékenységeket a szezonális és ökológiai ritmusokhoz igazítjuk.", ex: "A nagyobb projektek tervezése a tavaszi, az értékelés az őszi időszakra esik." },
+        { t: "Megbecsüljük az élelmet.", def: "Az élelem előállítása és fogyasztása tudatos és tiszteletteljes aktus.", ex: "Étkezés előtt a csoport röviden megemlékezik arról, kik és hogyan termesztették az ételt." },
+        { t: "A tanulás folyamatos folyamat.", def: "A tudás nem egy zárolt állapot, hanem nyílt, aktív keresés.", ex: "Havonta egy tag prezentál egy saját tapasztalatából szerzett tanulságot." },
+        { t: "Minden elem több funkciót lát el.", def: "A rendszer hatékonyságát növeli, ha egyetlen elem több szükségletet is kiszolgál.", ex: "A szárítóállvány egyben zöldségkert-kerítés és árnyékoló is." },
+        { t: "Kis léptékben kezdünk.", def: "Az új ötleteket emberi léptékű kísérletek formájában teszteljük le.", ex: "Az új döntéshozatali formátumot előbb egy kisebb munkacsoportban próbálják ki." },
+        { t: "Önazonosak maradunk.", def: "A szerepeink és maszkjaink mögött megőrizzük valódi énünket.", ex: "A gyűléseken is megoszthatjuk, ha fáradtak vagyunk, és nem 'teljesítünk'." },
+        { t: "Támogatjuk az új tagokat.", def: "Az integráció aktív és szándékolt folyamat, nem a véletlenre bízott.", ex: "Az első 3 hónapban minden új tagnak van egy kijelölt 'kísérője'." },
+        { t: "Védjük a vizet.", def: "A víz mint alapvető erőforrás gondos, takarékos kezelést érdemel.", ex: "Az összes esővizet összegyűjtik; a locsolás csak reggel és este történik." },
+        { t: "Kis hibákból tanulunk, mielőtt nagyokká válnak.", def: "A korai jelzéseket figyelembe vesszük, nem söpörjük a szőnyeg alá.", ex: "A havi visszatekintő körben a kis súrlódásokat is megnevezik." },
+        { t: "A munka méltóságát megőrizzük.", def: "Minden feladat – beleértve a kétkezi munkát – egyenlő értékű.", ex: "A takarítás és a stratégiai tervezés azonos megbecsülést kap." },
+        { t: "Gazdasági kölcsönösséget gyakorlunk.", def: "Az anyagi segítség és az erőforrások megosztása kétirányú és viszonos.", ex: "Az időbank rendszer mindenkit egyenlő 'óra-pénzzel' követ." },
+        { t: "Támogatjuk egymás álmait.", def: "Az egyéni célok és törekvések helyet kapnak a közösségi térben.", ex: "Évente mindenki megosztja egy személyes célját; a csoport kérdez és bátorít." }
+    ];
+
+    const cats = ["Közösség", "Ember", "Ökológia"];
+    const levelNames = ["Kritikus", "Fontos", "Kellemes"];
+    const areas = ["Kormányzás", "Gazdaság", "Ökológia & Tér", "Kommunikáció", "Belső fejlődés", "Szociális háló", "Innováció"];
+
+    function generateFiller(count) {
+        const result = [];
+        for (let i = 0; i < count; i++) {
+            const tmpl = fillerTemplates[i % fillerTemplates.length];
+            const cat = cats[Math.floor(Math.random() * 3)];
+            const lev = levelNames[Math.floor(Math.random() * 3)];
+            const area = areas[Math.floor(Math.random() * 7)];
+            result.push({
+                t: tmpl.t,
+                c: cat, l: lev, a: area,
+                s: "Egyetemes megfigyelés",
+                def: tmpl.def,
+                ex: tmpl.ex,
+                p: "A rendszer harmonikusabb és hatékonyabb lesz.",
+                n: "Hiányérzet és súrlódások lépnek fel.",
+                pl: "Fenntartható fejlődés és belső béke.",
+                nl: "Rendszerszintű feszültség és fokozatos kiégés."
+            });
+        }
+        return result;
+    }
+
+    const principlesData = [
+        ...curatedData,
+        ...generateFiller(Math.max(0, 200 - curatedData.length))
+    ].map((p, i) => ({ id: i, text: p.t, category: p.c, level: p.l, area: p.a, source: p.s, definition: p.def, example: p.ex, positive: p.p, negative: p.n, posLong: p.pl, negLong: p.nl }));
+
+    const displayLabels = {
+        hu: {
+            categories: { 'Közösség': 'Közösség', 'Ember': 'Ember', 'Ökológia': 'Ökológia' },
+            levels: { 'Kritikus': 'Kritikus', 'Fontos': 'Fontos', 'Kellemes': 'Kellemes' },
+            areas: { 'Kormányzás': 'Kormányzás', 'Gazdaság': 'Gazdaság', 'Ökológia & Tér': 'Ökológia & Tér', 'Kommunikáció': 'Kommunikáció', 'Belső fejlődés': 'Belső fejlődés', 'Szociális háló': 'Szociális háló', 'Innováció': 'Innováció' },
+            source: 'Forrás:', priority: 'prioritás', details: 'Részletek →', page: 'oldal', principles: 'alapelv', noResults: 'Nincs találat a keresési feltételekre.',
+            generatedTitle: (item) => item.text,
+            generatedDefinition: (item) => item.definition,
+            generatedExample: (item) => item.example,
+            generatedPositive: (item) => item.positive,
+            generatedNegative: (item) => item.negative,
+            generatedPosLong: (item) => item.posLong,
+            generatedNegLong: (item) => item.negLong,
+            sourceText: (item) => item.source
+        },
+        en: {
+            categories: { 'Közösség': 'Community', 'Ember': 'Person', 'Ökológia': 'Ecology' },
+            levels: { 'Kritikus': 'Critical', 'Fontos': 'Important', 'Kellemes': 'Supportive' },
+            areas: { 'Kormányzás': 'Governance', 'Gazdaság': 'Economy', 'Ökológia & Tér': 'Ecology & Place', 'Kommunikáció': 'Communication', 'Belső fejlődés': 'Inner Development', 'Szociális háló': 'Social Fabric', 'Innováció': 'Innovation' },
+            source: 'Source:', priority: 'priority', details: 'Details →', page: 'page', principles: 'principles', noResults: 'No results for your search criteria.',
+            generatedTitle: (item, category, level, area) => item.id < curatedData.length ? 'Principle ' + (item.id + 1) + ': ' + area + ' practice' : 'Community practice ' + (item.id + 1),
+            generatedDefinition: (item, category, level, area) => 'A ' + level.toLowerCase() + ' ' + category.toLowerCase() + ' principle for ' + area.toLowerCase() + ' that helps communities act with more care, clarity, and resilience.',
+            generatedExample: (item, category, level, area) => 'Example: the group names this ' + area.toLowerCase() + ' principle before making a decision, then checks whether the people and places affected by it are protected.',
+            generatedPositive: () => 'The system becomes more coherent, trusted, and able to regenerate over time.',
+            generatedNegative: () => 'Hidden tensions, exclusion, or resource drain grow until the system becomes fragile.',
+            generatedPosLong: () => 'The community builds living memory, shared capacity, and practical trust.',
+            generatedNegLong: () => 'The same conflicts repeat because the underlying principle was never made explicit.',
+            sourceText: (item) => item.source === 'Egyetemes megfigyelés' ? 'Universal observation' : item.source
+        },
+        es: {
+            categories: { 'Közösség': 'Comunidad', 'Ember': 'Persona', 'Ökológia': 'Ecología' },
+            levels: { 'Kritikus': 'Crítico', 'Fontos': 'Importante', 'Kellemes': 'De apoyo' },
+            areas: { 'Kormányzás': 'Gobernanza', 'Gazdaság': 'Economía', 'Ökológia & Tér': 'Ecología y Lugar', 'Kommunikáció': 'Comunicación', 'Belső fejlődés': 'Desarrollo Interior', 'Szociális háló': 'Tejido Social', 'Innováció': 'Innovación' },
+            source: 'Fuente:', priority: 'prioridad', details: 'Detalles →', page: 'página', principles: 'principios', noResults: 'No hay resultados para tus criterios de búsqueda.',
+            generatedTitle: (item, category, level, area) => item.id < curatedData.length ? 'Principio ' + (item.id + 1) + ': práctica de ' + area : 'Práctica comunitaria ' + (item.id + 1),
+            generatedDefinition: (item, category, level, area) => 'Un principio ' + level.toLowerCase() + ' de ' + category.toLowerCase() + ' para ' + area.toLowerCase() + ' que ayuda a la comunidad a actuar con más cuidado, claridad y resiliencia.',
+            generatedExample: (item, category, level, area) => 'Ejemplo: el grupo nombra este principio de ' + area.toLowerCase() + ' antes de decidir y comprueba si protege a las personas y lugares afectados.',
+            generatedPositive: () => 'El sistema se vuelve más coherente, confiable y capaz de regenerarse con el tiempo.',
+            generatedNegative: () => 'Las tensiones ocultas, la exclusión o el desgaste de recursos crecen hasta volver frágil el sistema.',
+            generatedPosLong: () => 'La comunidad construye memoria viva, capacidad compartida y confianza práctica.',
+            generatedNegLong: () => 'Los mismos conflictos se repiten porque el principio subyacente nunca se hizo explícito.',
+            sourceText: (item) => item.source === 'Egyetemes megfigyelés' ? 'Observación universal' : item.source
+        }
+    };
+
+    function activeDisplayLang() {
+        const raw = window.currentLang || new URLSearchParams(window.location.search).get('lang') || document.documentElement.lang || 'hu';
+        return raw.startsWith('es') ? 'es' : raw.startsWith('hu') ? 'hu' : 'en';
+    }
+
+    function displayItem(item) {
+        const labels = displayLabels[activeDisplayLang()] || displayLabels.hu;
+        const category = labels.categories[item.category] || item.category;
+        const level = labels.levels[item.level] || item.level;
+        const area = labels.areas[item.area] || item.area;
+        return {
+            ...item,
+            displayCategory: category,
+            displayLevel: level,
+            displayArea: area,
+            displayText: labels.generatedTitle(item, category, level, area),
+            displayDefinition: labels.generatedDefinition(item, category, level, area),
+            displayExample: labels.generatedExample(item, category, level, area),
+            displayPositive: labels.generatedPositive(item, category, level, area),
+            displayNegative: labels.generatedNegative(item, category, level, area),
+            displayPosLong: labels.generatedPosLong(item, category, level, area),
+            displayNegLong: labels.generatedNegLong(item, category, level, area),
+            displaySource: labels.sourceText(item),
+            labels
+        };
+    }
+
+    // === STATE ===
+    let currentPage = 1;
+    const ITEMS_PER_PAGE = 12;
+    let filteredData = [...principlesData];
+    let selectedId = null;
+
+    // === TABS ===
+    function switchTab(name) {
+        document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+        document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
+        document.getElementById('tab-' + name).classList.add('active');
+        const btns = document.querySelectorAll('.tab-btn');
+        const names = ['explorer', 'simulator', 'stats'];
+        btns[names.indexOf(name)].classList.add('active');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // === RENDER GRID ===
+    function renderGrid() {
+        const grid = document.getElementById('principlesGrid');
+        grid.innerHTML = '';
+
+        const start = (currentPage - 1) * ITEMS_PER_PAGE;
+        const pageItems = filteredData.slice(start, start + ITEMS_PER_PAGE);
+        const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
+
+        if (pageItems.length === 0) {
+            grid.innerHTML = '<div class="col-span-full text-center py-12" style="color: #9d8a6c;">' + displayLabels[activeDisplayLang()].noResults + '</div>';
+        } else {
+            pageItems.forEach(item => {
+                const display = displayItem(item);
+                const card = document.createElement('div');
+                const catClass = item.category === 'Ökológia' ? 'okologia' : item.category === 'Közösség' ? 'kozosseg' : 'ember';
+                const icon = item.category === 'Ökológia' ? '🌿' : item.category === 'Közösség' ? '🤝' : '🧘';
+                const lvlClass = item.level === 'Kritikus' ? 'level-kritikus' : item.level === 'Fontos' ? 'level-fontos' : 'level-kellemes';
+                const badgeClass = item.category === 'Ökológia' ? 'badge-okologia' : item.category === 'Közösség' ? 'badge-kozosseg' : 'badge-ember';
+                const isSelected = item.id === selectedId;
+
+                card.className = `principle-card ${catClass} fade-up${isSelected ? ' selected' : ''}`;
+                card.setAttribute('role', 'button');
+                card.setAttribute('aria-label', display.displayText);
+                card.onclick = () => selectPrinciple(item);
+
+                card.innerHTML = `
+                    <div>
+                        <div class="flex justify-between items-center mb-3">
+                            <span class="text-xs px-2 py-0.5 rounded-full font-medium ${badgeClass}">${icon} ${display.displayCategory}</span>
+                            <span class="text-xs ${lvlClass}">${display.displayLevel}</span>
+                        </div>
+                        <h3 class="card-title">${display.displayText}</h3>
+                        <p class="card-def">${display.displayDefinition}</p>
+                        <div class="card-example">${display.displayExample}</div>
+                    </div>
+                    <div class="mt-3 pt-3 flex justify-between items-center" style="border-top: 1px solid var(--parchment-mid);">
+                        <span class="text-xs" style="color: #b0a090; font-style: italic;">${display.displayArea}</span>
+                        <span class="text-xs" style="color: #c0ae94;">Részletek →</span>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        document.getElementById('pageIndicator').textContent = currentPage + ' / ' + totalPages + ' ' + displayLabels[activeDisplayLang()].page + ' (' + filteredData.length + ' ' + displayLabels[activeDisplayLang()].principles + ')';
+        document.getElementById('prevBtn').disabled = currentPage <= 1;
+        document.getElementById('nextBtn').disabled = currentPage >= totalPages;
+    }
+
+    function applyFilters() {
+        const term = document.getElementById('searchInput').value.toLowerCase();
+        const cat = document.getElementById('categoryFilter').value;
+        const lev = document.getElementById('levelFilter').value;
+        const area = document.getElementById('areaFilter').value;
+
+        filteredData = principlesData.filter(item => {
+            return (cat === 'all' || item.category === cat) &&
+                   (lev === 'all' || item.level === lev) &&
+                   (area === 'all' || item.area === area) &&
+                   (!term || item.text.toLowerCase().includes(term) || item.definition.toLowerCase().includes(term) || item.source.toLowerCase().includes(term));
+        });
+
+        currentPage = 1;
+        renderGrid();
+    }
+
+    function changePage(dir) {
+        currentPage += dir;
+        renderGrid();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function selectPrinciple(item) {
+        selectedId = item.id;
+        renderGrid();
+
+        // Populate simulator
+        const display = displayItem(item);
+        document.getElementById('simTitle').textContent = display.displayText;
+        document.getElementById('simBadge').textContent = display.displayCategory;
+        document.getElementById('simArea').textContent = display.displayArea;
+        document.getElementById('simLevel').textContent = display.displayLevel + ' ' + display.labels.priority;
+        document.getElementById('simSource').textContent = display.labels.source + ' ' + display.displaySource;
+        document.getElementById('simDef').textContent = display.displayDefinition;
+        document.getElementById('simExample').textContent = display.displayExample;
+        document.getElementById('simPos').textContent = display.displayPositive;
+        document.getElementById('simNeg').textContent = display.displayNegative;
+        document.getElementById('simPosLong').textContent = display.displayPosLong;
+        document.getElementById('simNegLong').textContent = display.displayNegLong;
+
+        document.getElementById('simulatorContainer').classList.remove('hidden');
+        document.getElementById('simEmpty').classList.add('hidden');
+
+        switchTab('simulator');
+    }
+
+    // === CHARTS ===
+    function renderCharts() {
+        const catCounts = { 'Közösség': 0, 'Ember': 0, 'Ökológia': 0 };
+        const levCounts = { 'Kritikus': 0, 'Fontos': 0, 'Kellemes': 0 };
+        const areaCounts = {};
+        areas.forEach(a => areaCounts[a] = 0);
+
+        const matrixData = {};
+        cats.forEach(c => {
+            matrixData[c] = { 'Kritikus': 0, 'Fontos': 0, 'Kellemes': 0 };
+        });
+
+        principlesData.forEach(p => {
+            if (catCounts[p.category] !== undefined) catCounts[p.category]++;
+            if (levCounts[p.level] !== undefined) levCounts[p.level]++;
+            if (areaCounts[p.area] !== undefined) areaCounts[p.area]++;
+            if (matrixData[p.category] && matrixData[p.category][p.level] !== undefined) matrixData[p.category][p.level]++;
+        });
+
+        // Doughnut: Categories
+        new Chart(document.getElementById('categoryChart'), {
+            type: 'doughnut',
+            data: {
+                labels: Object.keys(catCounts),
+                datasets: [{ data: Object.values(catCounts), backgroundColor: ['#2a4a6b', '#b5660d', '#2d5a3d'], borderWidth: 3, borderColor: '#fff' }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', labels: { font: { family: 'Segoe UI' }, color: '#3d2e1e' } } } }
+        });
+
+        // Bar: Levels
+        new Chart(document.getElementById('levelChart'), {
+            type: 'bar',
+            data: {
+                labels: Object.keys(levCounts),
+                datasets: [{ label: 'Alapelvek', data: Object.values(levCounts), backgroundColor: ['#9b2c2c', '#2a4a6b', '#2d5a3d'], borderRadius: 4 }]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { y: { beginAtZero: true, ticks: { font: { family: 'Segoe UI' }, color: '#7c6a50' }, grid: { color: '#ede8df' } }, x: { ticks: { font: { family: 'Segoe UI' }, color: '#7c6a50' }, grid: { display: false } } }, plugins: { legend: { display: false } } }
+        });
+
+        // Horizontal Bar: Areas
+        new Chart(document.getElementById('areaChart'), {
+            type: 'bar',
+            data: {
+                labels: Object.keys(areaCounts),
+                datasets: [{ label: 'Alapelvek', data: Object.values(areaCounts), backgroundColor: '#a07848', borderRadius: 3 }]
+            },
+            options: { indexAxis: 'y', responsive: true, maintainAspectRatio: false, scales: { x: { beginAtZero: true, ticks: { font: { family: 'Segoe UI' }, color: '#7c6a50' }, grid: { color: '#ede8df' } }, y: { ticks: { font: { family: 'Segoe UI', size: 11 }, color: '#3d2e1e' }, grid: { display: false } } }, plugins: { legend: { display: false } } }
+        });
+
+        // Grouped Bar: Matrix
+        new Chart(document.getElementById('matrixChart'), {
+            type: 'bar',
+            data: {
+                labels: cats,
+                datasets: [
+                    { label: 'Kritikus', data: cats.map(c => matrixData[c]['Kritikus']), backgroundColor: '#9b2c2c', borderRadius: 3 },
+                    { label: 'Fontos', data: cats.map(c => matrixData[c]['Fontos']), backgroundColor: '#2a4a6b', borderRadius: 3 },
+                    { label: 'Kellemes', data: cats.map(c => matrixData[c]['Kellemes']), backgroundColor: '#2d5a3d', borderRadius: 3 }
+                ]
+            },
+            options: { responsive: true, maintainAspectRatio: false, scales: { x: { ticks: { font: { family: 'Segoe UI' }, color: '#3d2e1e' }, grid: { display: false } }, y: { beginAtZero: true, ticks: { font: { family: 'Segoe UI' }, color: '#7c6a50' }, grid: { color: '#ede8df' } } }, plugins: { legend: { position: 'bottom', labels: { font: { family: 'Segoe UI' }, color: '#3d2e1e', boxWidth: 12 } } } }
+        });
+    }
+
+    // === INIT ===
+    function init() {
+        document.getElementById('total-count').textContent = principlesData.length;
+
+        document.getElementById('searchInput').addEventListener('input', applyFilters);
+        document.getElementById('categoryFilter').addEventListener('change', applyFilters);
+        document.getElementById('levelFilter').addEventListener('change', applyFilters);
+        document.getElementById('areaFilter').addEventListener('change', applyFilters);
+
+        renderGrid();
+        renderCharts();
+    }
+
+    init();
+    </script>
+<!-- i18n Translation System -->
+<script>
+const i18n = {
+  hu: {
+    meta: { title: 'Egyetemes Közösségi Alapelvek | Harmónia Tára – 200+ Alapelv a Hosszú Távú Sikerért', desc: '200+ időtlen alapelv a fenntartható emberi közösségek számára. Fedezze fel a nyer-nyer-nyer paradigmát: Ember, Közösség, Ökológia. Ostrom, Rosenberg, Permakultúra és más rendszerek szintézise.' },
+    nav: { logo: 'Harmónia', logoSpan: 'Tára', tagline: 'Ember · Közösség · Ökológia' },
+    hero: { label: 'Egy időtlen rendszer', title1: 'Egyetemes', title2: 'Közösségi', titleEm: 'Alapelvek', desc: '200+ alapelv a hosszú távú sikerért, a harmóniáért és a fejlődésért — az irokéz törzsszövetségtől a modern szociokrácián át a permakultúráig. A nyer–nyer–nyer paradigma szintézise.' },
+    stats: { principles: 'Alapelv', dimensions: 'Dimenzió', areas: 'Terület', possibilities: 'Lehetőség' },
+    tabs: { explorer: '📖 Alapelvek Tára', simulator: '⚖️ Hatásmechanizmus', stats: '📊 Statisztika' },
+    explorer: { tag: 'Böngésző', title: 'Alapelvek Tára', search: 'Keresés...', allDim: 'Minden dimenzió', allLevel: 'Minden szint', allArea: 'Minden terület' },
+    filters: { community: '🤝 Közösség', person: '🧘 Ember', ecology: '🌿 Ökológia', critical: 'Kritikus', important: 'Fontos', nice: 'Kellemes' },
+    areas: { governance: 'Kormányzás', economy: 'Gazdaság', ecologySpace: 'Ökológia & Tér', communication: 'Kommunikáció', inner: 'Belső fejlődés', social: 'Szociális háló', innovation: 'Innováció' },
+    pagination: { prev: '← Előző', next: 'Következő →', page: 'oldal', principles: 'alapelv' },
+    simulator: { tag: 'Részletek', title: 'Hatásmechanizmus', desc: 'Kattintson egy kártyára az Alapelvek Tárában, hogy itt lássa az ok-okozati összefüggéseket.', empty: 'Még nincs kiválasztott alapelv.', emptyHint: 'Lépjen az Alapelvek Tárára és kattintson egy kártyára.', goToExplorer: '→ Menjen az Alapelvek Tárára', if: 'Ha érvényesül…', ifNot: 'Ha NEM érvényesül…', longTerm: 'Hosszú távú eredmény', longRisk: 'Hosszú távú kockázat', example: 'Példa, ha él:', source: 'Forrás:', priority: 'prioritás' },
+    statsSection: { tag: 'Adatok', title: 'Statisztikai Áttekintés', desc: 'Az alapelvek eloszlása, egyensúlya és összefüggéseik vizualizálva.' },
+    charts: { dimTitle: 'Dimenziók Megoszlása', dimDesc: 'A három pilléren belül mennyi alapelv él.', prioTitle: 'Prioritási Szintek', prioDesc: 'Kritikus alapok vs. fontos elemek vs. kellemes extrák.', areaTitle: 'Területek Szerinti Eloszlás', areaDesc: 'A dokumentum 7 tematikus területe alapján.', matrixTitle: 'Dimenzió × Prioritás Mátrix', matrixDesc: 'Hol van a legtöbb kritikus alapelv?', labelPrinciples: 'Alapelvek' },
+    insights: { community: 'Közösség dimenzió', communityDesc: 'Ostrom, Szociokrácia és a zapatista elvek alapján: a transzparens döntéshozatal és a demokratikus struktúrák stabilitásának fundamentuma.', person: 'Ember dimenzió', personDesc: 'Rosenberg NVC, Auroville 12 minőség és a Four Worlds elvei: belső munka nélkül nem tartható fenn semmilyen közösségi struktúra.', ecology: 'Ökológia dimenzió', ecologyDesc: 'Holmgren permakultúrája és a Föld Charta: a bioszféra egészsége az emberi közösség fennmaradásának előfeltétele.' },
+    card: { details: 'Részletek →' },
+    noResults: 'Nincs találat a keresési feltételekre.'
+  },
+  en: {
+    meta: { title: 'Universal Community Principles | Harmony Treasury – 200+ Principles for Long-term Success', desc: '200+ timeless principles for sustainable human communities. Discover a win-win-win frame: Person, Community, Ecology. Synthesis of Ostrom, Rosenberg, Permaculture and other systems.' },
+    nav: { logo: 'Harmony', logoSpan: 'Treasury', tagline: 'Person · Community · Ecology' },
+    hero: { label: 'A timeless system', title1: 'Universal', title2: 'Community', titleEm: 'Principles', desc: '200+ principles for long-term success, harmony and growth — from the Iroquois Confederacy through modern sociocracy to permaculture. Synthesis of the win-win-win frame.' },
+    stats: { principles: 'Principles', dimensions: 'Dimensions', areas: 'Areas', possibilities: 'Possibilities' },
+    tabs: { explorer: '📖 Principles Treasury', simulator: '⚖️ Impact Mechanism', stats: '📊 Statistics' },
+    explorer: { tag: 'Browser', title: 'Principles Treasury', search: 'Search...', allDim: 'All dimensions', allLevel: 'All levels', allArea: 'All areas' },
+    filters: { community: '🤝 Community', person: '🧘 Person', ecology: '🌿 Ecology', critical: 'Critical', important: 'Important', nice: 'Nice' },
+    areas: { governance: 'Governance', economy: 'Economy', ecologySpace: 'Ecology & Space', communication: 'Communication', inner: 'Inner Development', social: 'Social Network', innovation: 'Innovation' },
+    pagination: { prev: '← Previous', next: 'Next →', page: 'page', principles: 'principles' },
+    simulator: { tag: 'Details', title: 'Impact Mechanism', desc: 'Click on a card in the Principles Treasury to see the cause-effect relationships here.', empty: 'No principle selected yet.', emptyHint: 'Go to the Principles Treasury and click on a card.', goToExplorer: '→ Go to Principles Treasury', if: 'If fulfilled…', ifNot: 'If NOT fulfilled…', longTerm: 'Long-term result', longRisk: 'Long-term risk', example: 'Example, if lived:', source: 'Source:', priority: 'priority' },
+    statsSection: { tag: 'Data', title: 'Statistical Overview', desc: 'Distribution, balance and relationships of principles visualized.' },
+    charts: { dimTitle: 'Dimension Distribution', dimDesc: 'How many principles live within each pillar.', prioTitle: 'Priority Levels', prioDesc: 'Critical foundations vs. important elements vs. nice extras.', areaTitle: 'Distribution by Area', areaDesc: 'Based on 7 thematic areas of the document.', matrixTitle: 'Dimension × Priority Matrix', matrixDesc: 'Where are the most critical principles?', labelPrinciples: 'Principles' },
+    insights: { community: 'Community Dimension', communityDesc: 'Based on Ostrom, Sociocracy and Zapatista principles: the foundation of transparent decision-making and democratic structures stability.', person: 'Person Dimension', personDesc: 'Rosenberg NVC, Auroville 12 qualities and Four Worlds principles: without inner work no community structure can be sustained.', ecology: 'Ecology Dimension', ecologyDesc: 'Holmgren permaculture and Earth Charter: biosphere health is a prerequisite for human community survival.' },
+    card: { details: 'Details →' },
+    noResults: 'No results for your search criteria.'
+  },
+  es: {
+    meta: { title: 'Principios Comunitarios Universales | Tesoro de Armonía – 200+ Principios para el Éxito a Largo Plazo', desc: '200+ principios atemporales para comunidades humanas sostenibles. Descubre el paradigma ganar-ganar-ganar: Persona, Comunidad, Ecología. Síntesis de Ostrom, Rosenberg, Permacultura y otros sistemas.' },
+    nav: { logo: 'Armonía', logoSpan: 'Tesoro', tagline: 'Persona · Comunidad · Ecología' },
+    hero: { label: 'Un sistema atemporal', title1: 'Principios', title2: 'Comunitarios', titleEm: 'Universales', desc: '200+ principios para el éxito a largo plazo, la armonía y el crecimiento — desde la Confederación Iroquesa hasta la sociocracia moderna y la permacultura. Síntesis del paradigma ganar–ganar–ganar.' },
+    stats: { principles: 'Principios', dimensions: 'Dimensiones', areas: 'Áreas', possibilities: 'Posibilidades' },
+    tabs: { explorer: '📖 Tesoro de Principios', simulator: '⚖️ Mecanismo de Impacto', stats: '📊 Estadísticas' },
+    explorer: { tag: 'Navegador', title: 'Tesoro de Principios', search: 'Buscar...', allDim: 'Todas las dimensiones', allLevel: 'Todos los niveles', allArea: 'Todas las áreas' },
+    filters: { community: '🤝 Comunidad', person: '🧘 Persona', ecology: '🌿 Ecología', critical: 'Crítico', important: 'Importante', nice: 'Agradable' },
+    areas: { governance: 'Gobernanza', economy: 'Economía', ecologySpace: 'Ecología & Espacio', communication: 'Comunicación', inner: 'Desarrollo Interior', social: 'Red Social', innovation: 'Innovación' },
+    pagination: { prev: '← Anterior', next: 'Siguiente →', page: 'página', principles: 'principios' },
+    simulator: { tag: 'Detalles', title: 'Mecanismo de Impacto', desc: 'Haz clic en una tarjeta en el Tesoro de Principios para ver las relaciones causa-efecto aquí.', empty: 'Ningún principio seleccionado aún.', emptyHint: 'Ve al Tesoro de Principios y haz clic en una tarjeta.', goToExplorer: '→ Ir al Tesoro de Principios', if: 'Si se cumple…', ifNot: 'Si NO se cumple…', longTerm: 'Resultado a largo plazo', longRisk: 'Riesgo a largo plazo', example: 'Ejemplo, si se vive:', source: 'Fuente:', priority: 'prioridad' },
+    statsSection: { tag: 'Datos', title: 'Resumen Estadístico', desc: 'Distribución, balance y relaciones de los principios visualizados.' },
+    charts: { dimTitle: 'Distribución de Dimensiones', dimDesc: 'Cuántos principios viven dentro de cada pilar.', prioTitle: 'Niveles de Prioridad', prioDesc: 'Fundamentos críticos vs. elementos importantes vs. extras agradables.', areaTitle: 'Distribución por Área', areaDesc: 'Basado en 7 áreas temáticas del documento.', matrixTitle: 'Matriz Dimensión × Prioridad', matrixDesc: '¿Dónde están los principios más críticos?', labelPrinciples: 'Principios' },
+    insights: { community: 'Dimensión Comunidad', communityDesc: 'Basado en Ostrom, Sociocracia y principios Zapatistas: el fundamento de la toma de decisiones transparente y la estabilidad de estructuras democráticas.', person: 'Dimensión Persona', personDesc: 'Rosenberg NVC, 12 cualidades de Auroville y principios Four Worlds: sin trabajo interior ninguna estructura comunitaria puede sostenerse.', ecology: 'Dimensión Ecología', ecologyDesc: 'Permacultura de Holmgren y Carta de la Tierra: la salud de la biosfera es requisito para la supervivencia de la comunidad humana.' },
+    card: { details: 'Detalles →' },
+    noResults: 'Sin resultados para tus criterios de búsqueda.'
+  }
+};
+
+const categories = { hu: ['Közösség', 'Ember', 'Ökológia'], en: ['Community', 'Person', 'Ecology'], es: ['Comunidad', 'Persona', 'Ecología'] };
+const levels = { hu: ['Kritikus', 'Fontos', 'Kellemes'], en: ['Critical', 'Important', 'Nice'], es: ['Crítico', 'Importante', 'Agradable'] };
+const areasList = { hu: ['Kormányzás', 'Gazdaság', 'Ökológia & Tér', 'Kommunikáció', 'Belső fejlődés', 'Szociális háló', 'Innováció'], en: ['Governance', 'Economy', 'Ecology & Space', 'Communication', 'Inner Development', 'Social Network', 'Innovation'], es: ['Gobernanza', 'Economía', 'Ecología & Espacio', 'Comunicación', 'Desarrollo Interior', 'Red Social', 'Innovación'] };
+
+let currentLang = new URLSearchParams(window.location.search).get('lang') || 'hu';
+window.currentLang = currentLang;
+
+function applyTranslations(lang) {
+  const t = i18n[lang] || i18n.hu;
+  document.documentElement.lang = lang;
+  window.currentLang = lang;
+  document.title = t.meta.title;
+  document.querySelector('meta[name="description"]').setAttribute('content', t.meta.desc);
+  document.querySelector('.nav-logo').innerHTML = t.nav.logo + ' <span>' + t.nav.logoSpan + '</span>';
+  document.querySelector('.nav-bar .text-xs').textContent = t.nav.tagline;
+  document.querySelector('.hero-label').textContent = t.hero.label;
+  document.querySelector('.hero h1').innerHTML = t.hero.title1 + '<br>' + t.hero.title2 + ' <em>' + t.hero.titleEm + '</em>';
+  document.querySelector('.hero-desc').textContent = t.hero.desc;
+  document.querySelectorAll('.stat-block')[0].querySelector('.stat-lbl').textContent = t.stats.principles;
+  document.querySelectorAll('.stat-block')[1].querySelector('.stat-lbl').textContent = t.stats.dimensions;
+  document.querySelectorAll('.stat-block')[2].querySelector('.stat-lbl').textContent = t.stats.areas;
+  document.querySelectorAll('.stat-block')[3].querySelector('.stat-lbl').textContent = t.stats.possibilities;
+  document.querySelectorAll('.tab-btn')[0].textContent = t.tabs.explorer;
+  document.querySelectorAll('.tab-btn')[1].textContent = t.tabs.simulator;
+  document.querySelectorAll('.tab-btn')[2].textContent = t.tabs.stats;
+  document.querySelector('#tab-explorer .section-tag').textContent = t.explorer.tag;
+  document.querySelector('#tab-explorer h2').textContent = t.explorer.title;
+  document.getElementById('searchInput').placeholder = t.explorer.search;
+  document.querySelector('#categoryFilter option[value="all"]').textContent = t.explorer.allDim;
+  document.querySelector('#levelFilter option[value="all"]').textContent = t.explorer.allLevel;
+  document.querySelector('#areaFilter option[value="all"]').textContent = t.explorer.allArea;
+  const catSel = document.getElementById('categoryFilter');
+  catSel.options[1].textContent = t.filters.community;
+  catSel.options[2].textContent = t.filters.person;
+  catSel.options[3].textContent = t.filters.ecology;
+  const levSel = document.getElementById('levelFilter');
+  levSel.options[1].textContent = t.filters.critical;
+  levSel.options[2].textContent = t.filters.important;
+  levSel.options[3].textContent = t.filters.nice;
+  const areaSel = document.getElementById('areaFilter');
+  areaSel.options[1].textContent = t.areas.governance;
+  areaSel.options[2].textContent = t.areas.economy;
+  areaSel.options[3].textContent = t.areas.ecologySpace;
+  areaSel.options[4].textContent = t.areas.communication;
+  areaSel.options[5].textContent = t.areas.inner;
+  areaSel.options[6].textContent = t.areas.social;
+  areaSel.options[7].textContent = t.areas.innovation;
+  document.getElementById('prevBtn').textContent = t.pagination.prev;
+  document.getElementById('nextBtn').textContent = t.pagination.next;
+  document.querySelector('#tab-simulator .section-tag').textContent = t.simulator.tag;
+  document.querySelector('#tab-simulator h2').textContent = t.simulator.title;
+  document.querySelector('#tab-simulator > p.serif').textContent = t.simulator.desc;
+  document.querySelector('#simEmpty p:first-of-type').textContent = t.simulator.empty;
+  document.querySelector('#simEmpty p:last-of-type').textContent = t.simulator.emptyHint;
+  document.querySelector('#simEmpty button').textContent = t.simulator.goToExplorer;
+  document.querySelector('.sim-pos h4').textContent = t.simulator.if;
+  document.querySelector('.sim-neg h4').textContent = t.simulator.ifNot;
+  document.querySelector('.result-box-pos span').textContent = t.simulator.longTerm;
+  document.querySelector('.result-box-neg span').textContent = t.simulator.longRisk;
+  document.querySelector('#tab-stats .section-tag').textContent = t.statsSection.tag;
+  document.querySelector('#tab-stats h2').textContent = t.statsSection.title;
+  document.querySelector('#tab-stats > p.serif').textContent = t.statsSection.desc;
+  document.querySelectorAll('.chart-wrap')[0].querySelector('h3').textContent = t.charts.dimTitle;
+  document.querySelectorAll('.chart-wrap')[0].querySelector('p').textContent = t.charts.dimDesc;
+  document.querySelectorAll('.chart-wrap')[1].querySelector('h3').textContent = t.charts.prioTitle;
+  document.querySelectorAll('.chart-wrap')[1].querySelector('p').textContent = t.charts.prioDesc;
+  document.querySelectorAll('.chart-wrap')[2].querySelector('h3').textContent = t.charts.areaTitle;
+  document.querySelectorAll('.chart-wrap')[2].querySelector('p').textContent = t.charts.areaDesc;
+  document.querySelectorAll('.chart-wrap')[3].querySelector('h3').textContent = t.charts.matrixTitle;
+  document.querySelectorAll('.chart-wrap')[3].querySelector('p').textContent = t.charts.matrixDesc;
+  document.querySelectorAll('.grid.grid-cols-1.md\\:grid-cols-3 > div')[0].querySelector('h4').textContent = t.insights.community;
+  document.querySelectorAll('.grid.grid-cols-1.md\\:grid-cols-3 > div')[0].querySelector('p').textContent = t.insights.communityDesc;
+  document.querySelectorAll('.grid.grid-cols-1.md\\:grid-cols-3 > div')[1].querySelector('h4').textContent = t.insights.person;
+  document.querySelectorAll('.grid.grid-cols-1.md\\:grid-cols-3 > div')[1].querySelector('p').textContent = t.insights.personDesc;
+  document.querySelectorAll('.grid.grid-cols-1.md\\:grid-cols-3 > div')[2].querySelector('h4').textContent = t.insights.ecology;
+  document.querySelectorAll('.grid.grid-cols-1.md\\:grid-cols-3 > div')[2].querySelector('p').textContent = t.insights.ecologyDesc;
+}
+
+function updatePageIndicator() {
+  const t = i18n[currentLang];
+  const totalPages = Math.ceil(filteredData.length / ITEMS_PER_PAGE);
+  document.getElementById('pageIndicator').textContent = currentPage + ' / ' + totalPages + ' ' + t.pagination.page + ' (' + filteredData.length + ' ' + t.pagination.principles + ')';
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  var p = new URLSearchParams(window.location.search);
+  var l = p.get('lang') || 'en';
+  console.log('[i18n] Language from URL:', l);
+  if (i18n[l]) {
+    currentLang = l;
+    applyTranslations(l);
+    renderGrid();
+    updatePageIndicator();
+    console.log('[i18n] Translations applied for:', l);
+  } else {
+    console.log('[i18n] No translations found for:', l);
+  }
+});
+</script>
+</body>
+</html>

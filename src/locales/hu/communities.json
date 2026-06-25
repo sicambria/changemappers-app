@@ -1,0 +1,83 @@
+{
+    "types": {
+        "NATURE_CONNECTED_ECO_HUB": "Természetkapcsolt Öko-Csomópont",
+        "HEALING_SANCTUARY": "Gyógyító & Elvonulási Hely",
+        "INCLUSIVE_SUPPORT_NETWORK": "Befogadó Támogató Hálózat",
+        "CREATIVE_ARTS_COLONY": "Kreatív Művészeti Telep",
+        "EGALITARIAN_LIVING": "Egalitárius Életmód",
+        "SPIRITUAL_HAVEN": "Spirituális & Vallási Közösség",
+        "KNOWLEDGE_HUB": "Tudás & Oktatási Csomópont",
+        "NOMADIC_NETWORK": "Nomád & Utazói Hálózat",
+        "REGENERATIVE_ECONOMIC": "Regeneratív Gazdasági Szövetkezet",
+        "VISIONARY_MODEL_CITY": "Vízionárius Modellváros",
+        "EARTH_REGENERATION_CENTER": "Földregenerációs Központ",
+        "FRONTLINE_ACTIVIST": "Frontvonal Aktivista Közösség"
+    },
+    "membership": {
+        "confirmLeave": "Biztosan ki szeretnél lépni a közösségből?",
+        "accepting": "Tagfelvétel",
+        "title": "Csatlakozás",
+        "banned": "Ki vagy tiltva ebből a közösségből.",
+        "rejected": "Jelentkezésedet elutasították.",
+        "isMember": "Tag vagy",
+        "leaveLoading": "Kilépés...",
+        "leave": "Kilépés a közösségből",
+        "requestSent": "Kérelem elküldve",
+        "openDescription": "Ez a közösség várja új tagok jelentkezését.",
+        "targetLabel": "Kiket várunk:",
+        "costLabel": "Feltételek:",
+        "joinButton": "Jelentkezés",
+        "notAccepting": "Jelenleg nem fogadnak új tagokat."
+    },
+    "details": {
+        "about": "Rólunk",
+        "noDescription": "Nincs leírás megadva.",
+        "valuesAndTopics": "Értékek és Témák",
+        "vision": "Jövőkép",
+        "principles": "Alapelvek",
+        "annualGoals": "Éves Célok",
+        "foundedYear": "Alapítva: {{year}}",
+        "memberCount": "{{count}} tag",
+        "foundedLabel": "Alapítva",
+        "country": "Ország",
+        "city": "Település",
+        "houseRules": "Házirend"
+    },
+    "volunteer": {
+        "seekingBadge": "Önkénteseket várunk",
+        "title": "Önkénteseket keresünk!",
+        "helpWith": "Miben tudsz segíteni:",
+        "applyButton": "Jelentkezem önkéntesnek"
+    },
+    "claims": {
+        "title": "Te vezeted ezt a közösséget?",
+        "description": "Ez a profil nyilvános adatok alapján jött létre. Ha te vagy a képviselője, igényeld vissza a szerkesztési jogot!",
+        "pending": "Igénylés folyamatban",
+        "submit": "Tulajdonjog igénylése",
+        "loginRequired": "Jelentkezz be az igényléshez.",
+        "success": "Igénylés elküldve! Admin jóváhagyásra vár."
+    },
+    "contact": {
+        "title": "Kapcsolat",
+        "loginRequired": "Jelentkezz be az elérhetőségek megtekintéséhez.",
+        "showButton": "Elérhetőségek mutatása",
+        "noContact": "Nincs elérhetőség megadva.",
+        "website": "Weboldal megtekintése"
+    },
+    "adminPanel": {
+        "title": "Tagfelvételi kérelmek",
+        "noPending": "Nincs függőben lévő kérelem.",
+        "newCount": "{{count}} új"
+    },
+    "relations": {
+        "upcomingEvents": "Közelgő események",
+        "pastEvents": "Korábbi események",
+        "initiatives": "Kezdeményezések",
+        "pitches": "Pitch-ek",
+        "socialIssues": "Társadalmi ügyek",
+        "signals": "Jelek",
+        "causes": "Ügyek",
+        "members": "Tagok",
+        "empty": "Még nincs kapcsolódó elem."
+    }
+}

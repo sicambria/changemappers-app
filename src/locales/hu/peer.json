@@ -1,0 +1,134 @@
+{
+  "title": "Kortárs Támogatás",
+  "nav": {
+    "find": "Kortárs támogatás keresése",
+    "offer": "Kortárs támogatás ajánlása",
+    "connections": "Kapcsolataim"
+  },
+  "distinction": "A kortárs támogatás kíséret valakitől, aki megjárta azt, amit te most élsz meg. Tanács csak ha kéred.",
+  "connections": {
+    "title": "Kortárs támogatási kapcsolataim",
+    "subtitle": "Tekintsd át az aktív és korábbi kortárs támogatási kapcsolataidat.",
+    "empty": "Még nincsenek kortárs támogatási kapcsolataid.",
+    "status": {
+      "PENDING": "Függőben",
+      "ACTIVE": "Aktív",
+      "CLOSED": "Lezárva",
+      "CANCELLED": "Visszavonva"
+    },
+    "unknownSupporter": "Ismeretlen támogató"
+  },
+  "myRequests": {
+    "title": "Kortárs támogatási kéréseim",
+    "subtitle": "Függő kortárs támogatási kéréseid. Vonj vissza egy kérést, ha már nincs rá szükséged.",
+    "empty": "Nincs függő kortárs támogatási kérésed.",
+    "cardTitle": "Kortárs támogatási kérés",
+    "situationTypeLabel": "Helyzet típusa",
+    "whatSupportLooksLabel": "Milyen a támogatás",
+    "whatNotLookingLabel": "Mit nem keresek",
+    "withdraw": "Visszavonás",
+    "withdrawConfirm": "Visszavonjuk ezt a kérést?",
+    "withdrawYes": "Igen, visszavonom",
+    "withdrawPending": "Visszavonás…",
+    "withdrawError": "Nem sikerült visszavonni a kérést."
+  },
+  "professional": {
+    "bannerTitle": "Szakmai támogatás is elérhető",
+    "bannerBody": "A kortárs támogatás kiegészíti, de nem helyettesíti a szakmai mentálhigiéniai ellátást. Ha többre van szükséged, szakemberhez fordulni az erő jele.",
+    "findProfessional": "Szakmai támogatás keresése"
+  },
+  "find": {
+    "title": "Kortárs Támogatás Keresése",
+    "subtitle": "Kíséret valakitől, aki valóban megjárta azt, amivel te most szembesülsz.",
+    "filters": {
+      "situation": "Helyzet típusa",
+      "format": "Formátum"
+    },
+    "empty": "Nincs a szűrőknek megfelelő kortárs támogatási ajánlat.",
+    "noOffers": "Jelenleg nincsenek elérhető kortárs támogatási ajánlatok. Nézz vissza később.",
+    "loading": "Ajánlatok betöltése..."
+  },
+  "offer": {
+    "create": "Kortárs Támogatás Ajánlása",
+    "edit": "Ajánlat szerkesztése",
+    "situationsNavigated": "Helyzetek, amelyeken átmentél",
+    "format": "Formátum",
+    "capacity": "Hány kapcsolatot tudsz egyszerre tartani",
+    "boundaryStatement": "Határnyilatkozatod — mit tudsz és mit nem tudsz befogadni",
+    "pause": "Ajánlat szüneteltetése",
+    "resume": "Ajánlat folytatása"
+  },
+  "request": {
+    "create": "Kortárs Támogatás Kérése",
+    "situationType": "Milyen helyzetben vagy?",
+    "whatSupportLooks": "Milyen a támogatás számodra most",
+    "whatNotLooking": "Mit NEM keresel"
+  },
+  "connection": {
+    "status": {
+      "PENDING": "Függőben",
+      "ACTIVE": "Aktív",
+      "PAUSING": "Szünet",
+      "CLOSED": "Lezárt"
+    },
+    "accept": "Elfogadás",
+    "decline": "Elutasítás",
+    "close": "Kapcsolat lezárása",
+    "format": "Formátum",
+    "arcLength": "Várható időtartam"
+  },
+  "feedback": {
+    "private": {
+      "title": "Hogyan volt számodra ez a kapcsolat?",
+      "feltMet": "Úgy érezted, valóban befogadtak?",
+      "feltSafe": "Biztonságban érezted magad?",
+      "note": "Válaszaid privátok, és segítik a gondozókat a minták megértésében — nem az egyének értékelésében."
+    },
+    "public": {
+      "title": "Opcionális: mi tette hasznosabbá (röviden)",
+      "prompt": "Mi tette hasznosabbá ezt a kapcsolatot, ha van, amit meg szeretnél osztani.",
+      "note": "Ez opcionális és rövid. Semmi sem kötelező."
+    },
+    "submit": "Küldés"
+  },
+  "card": {
+    "navigated": "Megjárta",
+    "format": "Formátum",
+    "request": "Támogatás kérése"
+  },
+  "offerForm": {
+    "minSituations": "Adj meg legalább egy helyzetet, amelyen már keresztülmentél.",
+    "success": "A kortárs támogatási ajánlatod közzétételre került.",
+    "situationsNavigated": "Helyzetek, amelyeken átmentél",
+    "onePerLine": "(soronként egyet)",
+    "situationsPlaceholder": "Kiégés mozgalmi munkában\nEgy alapító csapattag elvesztése\nKilépés a vezetésből",
+    "situationsHint": "Ezek azt írják le, amit megéltél — nem végzettségeket vagy szaktudást.",
+    "format": "Formátum",
+    "formatPlaceholder": "pl. aszinkron szöveg, 30 perces videohívások, hangüzenetek",
+    "capacity": "Kapacitás",
+    "capacityHint": "(egyidejű kapcsolatok)",
+    "boundaryStatement": "Határnyilatkozat",
+    "boundaryPlaceholder": "pl. Tudok teret adni gyász és kiégés esetén, de aktív válságkezelésre nem vagyok felkészülve. Kérlek, fordulj szakemberhez, ha heves megküzdési nehézségeid vannak.",
+    "minChars": "Legalább {{min}} karakter ({{count}}/{{min}})",
+    "boundaryHint": "Ez mindenki számára látható, aki böngészi az ajánlatodat. Légy őszinte arról, mit tudsz és mit nem tudsz befogadni.",
+    "publishing": "Közzététel…",
+    "publish": "Ajánlat közzététele"
+  },
+  "requestForm": {
+    "success": "A kérésed elküldésre került. Böngésszd az ajánlatokat, és találj valakit, aki megjárta ezt.",
+    "situationType": "Milyen helyzetben navigálsz?",
+    "situationPlaceholder": "pl. Kiégés egy kampány után, egy közösségi törés gyásza",
+    "whatSupportLooks": "Milyen a támogatás számodra most?",
+    "whatSupportPlaceholder": "pl. Valaki, aki meghallgat megoldás nélkül. Valaki, aki átélte hasonlót.",
+    "whatNotLooking": "Mit nem keresel?",
+    "whatNotLookingPlaceholder": "pl. Tanácsok vagy megoldások. Olyanok, akik nem élték át a kiégést.",
+    "minChars": "Legalább {{min}} karakter ({{count}}/{{min}})",
+    "whatNotLookingHint": "Ennek az őszinte megfogalmazása segít megtalálni a megfelelő személyt, és védi mindenki idejét.",
+    "submitting": "Küldés…",
+    "submit": "Kérés beküldése"
+  },
+  "professionalSupportBanner": {
+    "important": "Fontos:",
+    "body": "Ha válságban vagy szakmai támogatásra van szükséged, kérjük, fordulj mentálhigiénés szakemberhez vagy válságvonalhoz. A kortárs támogatás nem helyettesíti a szakmai ellátást."
+  }
+}

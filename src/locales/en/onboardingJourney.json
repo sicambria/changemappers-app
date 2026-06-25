@@ -1,0 +1,175 @@
+{
+  "eyebrow": "Self-paced onboarding",
+  "title": "Your path into Changemappers, {{name}}",
+  "intro": "This journey is here to support orientation, not to hurry you. Mark a practice done only when it has actually happened. Reopen any step when it becomes relevant again.",
+  "progressLabel": "Journey progress",
+  "progressSummary": "{{completed}} of {{total}} practices marked done",
+  "pace": {
+    "title": "No deadline, no pressure",
+    "body": "The old 12-week sequence is now a rhythm you own. Some people finish a practice in a day, some return to it months later. Both are valid. The point is honest integration, not speed."
+  },
+  "next": {
+    "title": "Next available step",
+    "complete": "All practices are marked done. You can still revisit any step whenever your work changes."
+  },
+  "completion": {
+    "title": "Journey complete",
+    "subtitle": "You have worked through all 12 practices. Keep integrating them at your own pace — the map awaits.",
+    "cta": "Explore the map"
+  },
+  "status": {
+    "done": "Done",
+    "open": "Open"
+  },
+  "actions": {
+    "browseMap": "Browse the map",
+    "openReflection": "Open reflection",
+    "writePitch": "Write your pitch",
+    "mapEnergy": "Map your energy",
+    "shareStory": "Open stories",
+    "findGroup": "Find a working group",
+    "postAsk": "Post or explore an ask",
+    "reviewEnergy": "Review energy",
+    "findIntersection": "Find intersections",
+    "reviewLanguage": "Review shared language",
+    "reviewBoundaries": "Review settings",
+    "reflectJoy": "Reflect on service",
+    "markDone": "Mark done",
+    "reopen": "Reopen",
+    "moreInfo": "More info"
+  },
+  "errors": {
+    "saveFailed": "Could not save this step. Please try again."
+  },
+  "steps": {
+    "welcome": {
+      "title": "Welcome and orient",
+      "body": "Enter gently. Look around the map, notice what is already moving, and let yourself learn the shape of the ecosystem before committing anywhere.",
+      "practice": "Done when you have browsed the map or introduced yourself in a way that feels honest.",
+      "quote": "Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it is the only thing that ever has.",
+      "quoteBy": "Margaret Mead",
+      "subject": "Welcome to Changemappers. Your work starts here.",
+      "details": "This is an orientation threshold, not a performance test. Let the map, channels, and people show you what is already alive before you decide where to contribute.",
+      "winWinWin": "You win by entering at a sustainable pace, others win by meeting a clearer person, and the commons wins because attention goes where it can actually help."
+    },
+    "inner_condition": {
+      "title": "Check your inner condition",
+      "body": "Before acting outward, notice your capacity. Changemaking needs people who can sense exhaustion, resentment, excitement, and sustainable energy clearly.",
+      "practice": "Done when you have written or spoken a real burnout and purpose check.",
+      "quote": "The success of an intervention depends on the inner condition of the intervener.",
+      "quoteBy": "Bill O'Brien",
+      "subject": "How are you, really? The burnout check.",
+      "details": "Before changing systems, check the instrument you use to touch those systems: your own attention, body, motives, and capacity.",
+      "winWinWin": "You win through self-honesty, collaborators win through steadier contact, and the wider system wins because exhausted urgency is not steering the work."
+    },
+    "pitch": {
+      "title": "Structure your stand",
+      "body": "Clarify what you see, what you are working toward, and how others can join without needing to decode your whole life story.",
+      "practice": "Done when your profile or pitch has a usable version of your current stand.",
+      "quote": "Be the change that you wish to see in the world.",
+      "quoteBy": "Mahatma Gandhi",
+      "subject": "What do you stand for? Writing your pitch.",
+      "details": "A good pitch is not a sales script. It is a compact invitation that makes your problem, vision, role, and invitation legible.",
+      "winWinWin": "You win by clarifying your stand, potential allies win because the invitation is readable, and the ecosystem wins by reducing coordination friction."
+    },
+    "regenerative_practice": {
+      "title": "Choose regenerative practice",
+      "body": "Look at whether your methods replenish or extract from your body, your team, and the wider system.",
+      "practice": "Done when you have named one practice you will keep, change, or stop.",
+      "quote": "To love is not to reduce one's complexity.",
+      "quoteBy": "Nora Bateson",
+      "subject": "Tending to complexity and yourself.",
+      "details": "Regenerative work asks whether your methods replenish life or quietly extract from bodies, teams, and places while claiming progress.",
+      "winWinWin": "You win by refusing self-extraction, collaborators win through more humane methods, and the living system wins when complexity is tended rather than flattened."
+    },
+    "failure_learning": {
+      "title": "Normalize learning from failure",
+      "body": "Perfectionism blocks contact with reality. Share or privately document what broke, what it taught you, and what changes next.",
+      "practice": "Done when one useful lesson from failure has been captured.",
+      "quote": "Start where you are. Use what you have. Do what you can.",
+      "quoteBy": "Arthur Ashe",
+      "subject": "Fail fast, fail forward.",
+      "details": "Failure is data when it is handled without shame. The point is not to celebrate damage, but to extract learning early enough to change course.",
+      "winWinWin": "You win by turning shame into learning, peers win from reusable lessons, and the commons wins when experiments improve instead of hiding."
+    },
+    "working_group": {
+      "title": "Find your people",
+      "body": "Systemic work is too heavy alone. Look for a working group, initiative, circle, or task where your presence can be real and bounded.",
+      "practice": "Done when you have joined, started, or deliberately declined a concrete group.",
+      "quote": "If you want to go fast, go alone. If you want to go far, go together.",
+      "quoteBy": "African proverb",
+      "subject": "You cannot do this alone.",
+      "details": "Systemic change is too heavy to carry alone. Look for a community of practice, transformative circle, or action research group where contribution and learning can happen together.",
+      "winWinWin": "You win through support and focus, the group wins from your bounded contribution, and the system wins when isolated effort becomes shared capacity."
+    },
+    "mutual_aid": {
+      "title": "Practice mutual aid",
+      "body": "A healthy commons includes giving and receiving. Asking clearly is part of participation, not a weakness.",
+      "practice": "Done when you have posted, drafted, or directly made one clear ask.",
+      "quote": "If you have come here to help me, you are wasting your time. But if your liberation is bound up with mine, then let us work together.",
+      "quoteBy": "Lilla Watson",
+      "subject": "Moving from charity to solidarity",
+      "details": "A healthy commons includes giving and receiving. Asking clearly is part of participation, not a weakness.",
+      "winWinWin": "Use this step to choose a next move that protects your capacity, offers clear value to collaborators, and strengthens the wider commons."
+    },
+    "energy_alignment": {
+      "title": "Align with your energy",
+      "body": "Review your commitments. Notice which tasks give energy, which drain it, and where you are filling gaps from guilt.",
+      "practice": "Done when one commitment has been adjusted toward a more sustainable role.",
+      "quote": "Do not ask what the world needs. Ask what makes you come alive, and go do it.",
+      "quoteBy": "Howard Thurman",
+      "subject": "Stop doing work you hate.",
+      "details": "Review your commitments. Notice which tasks give energy, which drain it, and where you are filling gaps from guilt.",
+      "winWinWin": "Use this step to choose a next move that protects your capacity, offers clear value to collaborators, and strengthens the wider commons."
+    },
+    "systems_connection": {
+      "title": "See across systems",
+      "body": "Find a project outside your usual field and look for intersections. Climate, housing, care, governance, and learning often meet in unexpected places.",
+      "practice": "Done when you have explored or contacted one project beyond your familiar area.",
+      "quote": "The earth is but one country, and mankind its citizens.",
+      "quoteBy": "Bahaullah",
+      "subject": "Seeing the whole board.",
+      "details": "Find a project outside your usual field and look for intersections. Climate, housing, care, governance, and learning often meet in unexpected places.",
+      "winWinWin": "Use this step to choose a next move that protects your capacity, offers clear value to collaborators, and strengthens the wider commons."
+    },
+    "friction_grace": {
+      "title": "Hold friction with grace",
+      "body": "Conflict is part of collective work. Practice separating impact from intention and keeping critique focused on the idea or process.",
+      "practice": "Done when you have used or prepared one healthier conflict move.",
+      "quote": "Do to others as you would have them do to you.",
+      "quoteBy": "The Golden Rule",
+      "subject": "When the community disagrees.",
+      "details": "Conflict is part of collective work. Practice separating impact from intention and keeping critique focused on the idea or process.",
+      "winWinWin": "Use this step to choose a next move that protects your capacity, offers clear value to collaborators, and strengthens the wider commons."
+    },
+    "boundaries": {
+      "title": "Protect your boundaries",
+      "body": "Sustainable contribution needs limits. Review your notifications, visibility, pace, and what kind of contact is welcome.",
+      "practice": "Done when one boundary or setting reflects your real capacity.",
+      "quote": "Caring for myself is not self-indulgence, it is self-preservation, and that is an act of political warfare.",
+      "quoteBy": "Audre Lorde",
+      "subject": "Protecting your most valuable asset.",
+      "details": "Sustainable contribution needs limits. Review your notifications, visibility, pace, and what kind of contact is welcome.",
+      "winWinWin": "Use this step to choose a next move that protects your capacity, offers clear value to collaborators, and strengthens the wider commons."
+    },
+    "cycle_of_joy": {
+      "title": "Return to the cycle of joy",
+      "body": "The work does not end, so joy cannot be postponed until completion. Notice where service, respect, and aliveness meet.",
+      "practice": "Done when you have marked what makes this work worth continuing.",
+      "quote": "I slept and dreamt that life was joy. I awoke and saw that life was service. I acted and behold, service was joy.",
+      "quoteBy": "Rabindranath Tagore",
+      "subject": "The marathon continues.",
+      "details": "The work does not end, so joy cannot be postponed until completion. Notice where service, respect, and aliveness meet.",
+      "winWinWin": "Use this step to choose a next move that protects your capacity, offers clear value to collaborators, and strengthens the wider commons."
+    }
+  },
+  "modal": {
+    "eyebrow": "Practice guide",
+    "close": "Close",
+    "contextLabel": "Context",
+    "practiceLabel": "Completion signal",
+    "winWinWinLabel": "Regenerative win-win-win direction",
+    "draftNotesLabel": "Private draft notes",
+    "draftNotesPlaceholder": "Private draft notes"
+  }
+}

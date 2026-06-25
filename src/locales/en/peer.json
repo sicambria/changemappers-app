@@ -1,0 +1,134 @@
+{
+  "title": "Peer Support",
+  "nav": {
+    "find": "Find Peer Support",
+    "offer": "Offer Peer Support",
+    "connections": "My Connections"
+  },
+  "distinction": "Peer support is accompaniment from someone who has been where you are. No advice unless you ask for it.",
+  "connections": {
+    "title": "My Peer Support Connections",
+    "subtitle": "View your active and past peer support connections.",
+    "empty": "No peer support connections yet.",
+    "status": {
+      "PENDING": "Pending",
+      "ACTIVE": "Active",
+      "CLOSED": "Closed",
+      "CANCELLED": "Cancelled"
+    },
+    "unknownSupporter": "Unknown supporter"
+  },
+  "myRequests": {
+    "title": "My Peer Support Requests",
+    "subtitle": "Your pending peer support requests. Withdraw a request if it is no longer needed.",
+    "empty": "You have no pending peer support requests.",
+    "cardTitle": "Peer Support Request",
+    "situationTypeLabel": "Situation type",
+    "whatSupportLooksLabel": "What support looks like",
+    "whatNotLookingLabel": "What I'm not looking for",
+    "withdraw": "Withdraw",
+    "withdrawConfirm": "Withdraw this request?",
+    "withdrawYes": "Yes, withdraw",
+    "withdrawPending": "Withdrawing…",
+    "withdrawError": "Failed to withdraw request."
+  },
+  "professional": {
+    "bannerTitle": "Professional support is also available",
+    "bannerBody": "Peer support complements — but does not replace — professional mental health care. If you need more, reaching out to a professional is a sign of strength.",
+    "findProfessional": "Find professional support"
+  },
+  "find": {
+    "title": "Find Peer Support",
+    "subtitle": "Accompaniment from someone who has genuinely navigated something like what you're facing.",
+    "filters": {
+      "situation": "Situation type",
+      "format": "Format"
+    },
+    "empty": "No peer support offers match your filters.",
+    "noOffers": "No peer support offers available right now. Check back soon.",
+    "loading": "Loading offers..."
+  },
+  "offer": {
+    "create": "Offer Peer Support",
+    "edit": "Edit Offer",
+    "situationsNavigated": "Situations you've navigated",
+    "format": "Format",
+    "capacity": "How many connections you can hold at once",
+    "boundaryStatement": "Your boundary statement — what you can and cannot hold",
+    "pause": "Pause offer",
+    "resume": "Resume offer"
+  },
+  "request": {
+    "create": "Request Peer Support",
+    "situationType": "What situation are you in?",
+    "whatSupportLooks": "What support looks like for you right now",
+    "whatNotLooking": "What you're NOT looking for"
+  },
+  "connection": {
+    "status": {
+      "PENDING": "Pending",
+      "ACTIVE": "Active",
+      "PAUSING": "Pausing",
+      "CLOSED": "Closed"
+    },
+    "accept": "Accept",
+    "decline": "Decline",
+    "close": "Close connection",
+    "format": "Format",
+    "arcLength": "Expected arc"
+  },
+  "feedback": {
+    "private": {
+      "title": "How was this connection for you?",
+      "feltMet": "Did you feel genuinely met?",
+      "feltSafe": "Did you feel safe in this connection?",
+      "note": "Your responses are private and help stewards understand patterns — not individuals."
+    },
+    "public": {
+      "title": "Optional: what made this useful (brief)",
+      "prompt": "What made this connection useful, if anything you'd like to share.",
+      "note": "This is optional and brief. Nothing is required."
+    },
+    "submit": "Send request"
+  },
+  "card": {
+    "navigated": "Has navigated",
+    "format": "Format",
+    "request": "Request support"
+  },
+  "offerForm": {
+    "minSituations": "Please list at least one situation you have navigated.",
+    "success": "Your peer support offer has been published.",
+    "situationsNavigated": "Situations you have navigated",
+    "onePerLine": "(one per line)",
+    "situationsPlaceholder": "Burnout in movement work\nLoss of a founding team member\nTransitioning out of leadership",
+    "situationsHint": "These describe what you have been through — not credentials or expertise.",
+    "format": "Format",
+    "formatPlaceholder": "e.g. async text, 30-min video calls, voice notes",
+    "capacity": "Capacity",
+    "capacityHint": "(concurrent connections)",
+    "boundaryStatement": "Boundary statement",
+    "boundaryPlaceholder": "e.g. I can hold space for grief and burnout, but I am not equipped for active crisis. Please seek professional support if you are in acute distress.",
+    "minChars": "Minimum {{min}} characters ({{count}}/{{min}})",
+    "boundaryHint": "This is shown to everyone who browses your offer. Be honest about what you can and cannot hold.",
+    "publishing": "Publishing…",
+    "publish": "Publish Offer"
+  },
+  "requestForm": {
+    "success": "Your request has been submitted. Browse offers to find someone who's been there.",
+    "situationType": "What situation are you navigating?",
+    "situationPlaceholder": "e.g. Burnout after a campaign, grieving a community fracture",
+    "whatSupportLooks": "What does support look like for you right now?",
+    "whatSupportPlaceholder": "e.g. Someone to listen without trying to fix anything. Someone who's been through something similar.",
+    "whatNotLooking": "What are you not looking for?",
+    "whatNotLookingPlaceholder": "e.g. Advice or solutions. People who haven't experienced burnout themselves.",
+    "minChars": "Minimum {{min}} characters ({{count}}/{{min}})",
+    "whatNotLookingHint": "Being honest about this helps you find the right person and protects everyone's time.",
+    "submitting": "Submitting…",
+    "submit": "Send request"
+  },
+  "professionalSupportBanner": {
+    "important": "Important:",
+    "body": "If you are in crisis or need professional support, please contact a mental health professional or crisis helpline. Peer support is not a substitute for professional care."
+  }
+}

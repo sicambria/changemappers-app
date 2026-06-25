@@ -1,0 +1,86 @@
+{
+  "title": "Kezdeményezések",
+  "board": {
+    "states": {
+      "imagined": "Képzelődő",
+      "exploring": "Felfedező",
+      "planned": "Tervezett",
+      "inProgress": "Folyamatban",
+      "integrating": "Integrálódó",
+      "completed": "Befejezett"
+    },
+    "cardOptions": "Kártya lehetőségek",
+    "viewDetails": "Részletek megtekintése",
+    "edit": "Szerkesztés",
+    "archive": "Archiválás",
+    "update": "frissítés",
+    "updates": "frissítések",
+    "retrospective": "Visszatekintés",
+    "dragToReorder": "Húzd az átrendezéshez",
+    "dropHere": "Ide dobd",
+    "addInitiative": "Kezdeményezés hozzáadása",
+    "archivedViaKanban": "Kanban táblán keresztül archiválva",
+    "role": "szerep",
+    "roles": "szerepek",
+    "noInitiatives": "Nincs kezdeményezés",
+    "age": {
+      "y": "é",
+      "mo": "h",
+      "w": "hét",
+      "d": "n",
+      "h": "ó"
+    }
+  },
+  "backlog": "Várólista",
+  "startInitiative": "Kezdeményezés indítása",
+  "resonance": "rezonancia",
+  "initiativeNotFound": "A kezdeményezés nem található",
+  "backToBoard": "Vissza a táblához",
+  "roles": "Szerepek",
+  "updates": "Frissítések",
+  "startAnInitiative": "Kezdeményezés Indítása",
+  "nameTheChange": "Nevezd el a változást, amit szervezel",
+  "initiativeIntro": "A kezdeményezések elképzelésként indulnak, majd cselekvéssé érnek.",
+  "metrics": "Mérőszámok",
+  "metricsSubtitle": "Lean mérőszámok és teljesítményelemzés",
+  "metaTitle": "Kezdeményezés indítása | Changemappers",
+  "backlogEmpty": "A várólista üres. Adj hozzá ötleteket, hogy látszódjon, mi rezonál.",
+  "statuses": {
+    "imagined": "Képzelődő",
+    "exploring": "Felfedező",
+    "planned": "Tervezett",
+    "inProgress": "Folyamatban",
+    "integrating": "Integrálódó",
+    "completed": "Befejezett",
+    "backlog": "Várólista"
+  },
+  "actions": {
+    "startInitiative": "Kezdeményezés indítása",
+    "backToBoard": "Vissza a táblához",
+    "back": "Vissza"
+  },
+  "labels": {
+    "roles": "Szerepek",
+    "updates": "Frissítések",
+    "resonance": "Rezonancia",
+    "metrics": "Mérőszámok"
+  },
+  "messages": {
+    "initiativeNotFound": "A kezdeményezés nem található",
+    "theBacklogIsEmpty": "A várólista üres",
+    "startAnInitiative": "Kezdeményezés indítása",
+    "nameTheChange": "Nevezd el a változást"
+  },
+  "boardTypes": {
+    "personalBoard": "Személyes tábla",
+    "communityBoard": "Közösségi tábla",
+    "internationalBoard": "Nemzetközi tábla"
+  },
+  "backlogSubtitle": "Ötletek közösségi {{resonance}} szerint rendezve.",
+  "backlogBy": "szerző: {{name}}",
+  "showGlobalBacklog": "Globális backlog megjelenítése",
+  "showingAllIdeas": "Minden közösségi és globális ötlet megjelenítése",
+  "communityBacklogSubtitle": "Közösségi ötletek rezonancia szerint rendezve.",
+  "allBacklogSubtitle": "Minden ötlet közösségi rezonancia szerint rendezve.",
+  "backlogByPrefix": "szerző:"
+}

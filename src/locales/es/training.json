@@ -1,0 +1,234 @@
+{
+  "title": "Formación",
+  "peerTraining": "Formación entre Pares",
+  "activeOffers": "Ofertas de formación activas",
+  "browseOffers": "Explorar Ofertas",
+  "findTraining": "Buscar Formación",
+  "formats": {
+    "oneOnOne": "1-a-1",
+    "group": "Grupo",
+    "workshop": "Taller"
+  },
+  "levels": {
+    "beginner": "Principiante",
+    "advanced": "Avanzado"
+  },
+  "createOffer": "Crear Oferta de Formación",
+  "describeWhatYouCanTeach": "Describe lo que puedes enseñar...",
+  "offer": "Oferta de Formación",
+  "workshop": "Taller",
+  "course": "Curso",
+  "demo": "Demostración",
+  "anonymous": "Anónimo",
+  "editOffer": "Editar Oferta de Formación",
+  "updateDetails": "Actualiza los detalles",
+  "myOffers": "Mis Ofertas de Formación",
+  "newOffer": "Nueva Oferta",
+  "noOffersYet": "No has creado ninguna oferta de formación",
+  "postRequest": "Publicar Solicitud de Formación",
+  "describeSkillsToDevelop": "Describe las habilidades que quieres desarrollar",
+  "myConnections": "Mis Conexiones de Formación",
+  "status": {
+    "active": "Activo",
+    "pending": "Pendiente",
+    "complete": "Completo",
+    "cancelled": "Cancelado"
+  },
+  "nav": {
+    "find": "Buscar Formación",
+    "offer": "Ofrecer Formación",
+    "connections": "Mis Compromisos"
+  },
+  "find": {
+    "title": "Buscar Formación",
+    "subtitle": "Transferencia estructurada de conocimientos y habilidades de practicantes que ya lo han hecho",
+    "filters": {
+      "domain": "Área",
+      "format": "Formato",
+      "level": "Nivel",
+      "sync": "Solo síncrono"
+    },
+    "empty": "No hay ofertas de formación que coincidan con tus filtros.",
+    "loading": "Cargando ofertas...",
+    "activeOffersSummary": "{{count}} oferta activa de la red",
+    "activeOffersSummary_plural": "{{count}} ofertas activas de la red",
+    "emptyCta": "Sé la primera persona en crear una →",
+    "engaged": "{{count}} participante(s)",
+    "formatLabels": {
+      "ONE_ON_ONE": "1 a 1",
+      "GROUP": "Grupo",
+      "WORKSHOP": "Taller",
+      "ASYNC": "Asíncrono",
+      "MENTORING": "Mentoría"
+    },
+    "levelLabels": {
+      "BEGINNER": "Principiante",
+      "INTERMEDIATE": "Intermedio",
+      "ADVANCED": "Avanzado",
+      "ALL": "Todos los niveles"
+    }
+  },
+  "offerSection": {
+    "create": "Crear Oferta de Formación",
+    "edit": "Editar Oferta",
+    "domain": "Área / Tema",
+    "format": "Formato",
+    "level": "Nivel",
+    "isSync": "Síncrono (sesiones en vivo)",
+    "isGroup": "Formato grupal",
+    "timeCommitment": "Compromiso de tiempo",
+    "capacity": "Capacidad (vacío = ilimitado)",
+    "description": "Descripción",
+    "formats": {
+      "WORKSHOP": "Taller",
+      "COURSE": "Curso",
+      "DEMO": "Demostración",
+      "RESOURCE": "Recursos / Lecturas",
+      "GUIDED_PRACTICE": "Práctica Guiada"
+    },
+    "levels": {
+      "BEGINNER": "Principiante",
+      "PARTIAL": "Algo de experiencia",
+      "ADVANCED": "Avanzado"
+    }
+  },
+  "request": {
+    "create": "Solicitar Formación",
+    "domain": "¿Qué área o habilidad quieres aprender?",
+    "skillGap": "Describe tu brecha de conocimiento",
+    "formatPreference": "Formato preferido (opcional)",
+    "levelPreference": "Tu nivel actual (opcional)"
+  },
+  "engagement": {
+    "status": {
+      "PENDING": "Pendiente",
+      "ACTIVE": "Activo",
+      "COMPLETE": "Completo",
+      "CANCELLED": "Cancelado"
+    },
+    "accept": "Aceptar solicitud",
+    "decline": "Rechazar",
+    "cancel": "Cancelar",
+    "complete": "Marcar como completo",
+    "empty": "Aún no hay compromisos.",
+    "browseOffers": "Explora ofertas de formación",
+    "or": "o",
+    "offerTraining": "ofrecer formación",
+    "trainer": "Formador: {{name}}",
+    "learner": "Aprendiz: {{name}}",
+    "unknown": "Desconocido",
+    "completedDate": "Completado {{date}}",
+    "reflection": "Reflexión",
+    "writeReflection": "Escribe una reflexión →"
+  },
+  "feedback": {
+    "title": "Reflexiona sobre esta formación",
+    "learnerPrompt": "¿Qué no sabías al llegar? ¿Qué cambió? ¿Qué le dirías a alguien que considera esta formación?",
+    "trainerPrompt": "¿Qué aportó el aprendiz a la experiencia? (Observación opcional — no una evaluación)",
+    "submit": "Enviar reflexión",
+    "publicNote": "Esta reflexión será visible en el registro del compromiso."
+  },
+  "card": {
+    "by": "Ofrecido por",
+    "level": "Nivel",
+    "format": "Formato",
+    "time": "Compromiso de tiempo",
+    "request": "Solicitar esta formación"
+  },
+  "offerForm": {
+    "updated": "¡Oferta actualizada!",
+    "created": "¡Oferta de formación creada con éxito!",
+    "levelExplorer": "Explorador",
+    "levelPractitioner": "Practicante",
+    "levelGuide": "Guía",
+    "deliveryMode": "Modalidad",
+    "deliveryOnline": "En línea",
+    "deliveryInPerson": "Presencial",
+    "deliveryHybrid": "Híbrido",
+    "cityLabel": "Ciudad (para presencial/híbrido)",
+    "cityPlaceholder": "ej., Budapest",
+    "professionalUrl": "URL profesional (opcional)",
+    "professionalUrlHint": "Debe ser una URL válida (https://...)",
+    "minChars": "Mínimo {{min}} caracteres",
+    "min": "{{min}} mín",
+    "timeCommitmentPlaceholder": "ej. 2h/semana por 4 semanas",
+    "capacityOptional": "Capacidad (opcional)",
+    "synchronous": "Síncrono",
+    "groupFormat": "Formato grupal",
+    "saving": "Guardando…",
+    "update": "Actualizar Oferta",
+    "create": "Crear Oferta"
+  },
+  "feedbackForm": {
+    "success": "Gracias por tu reflexión. Comentarios enviados.",
+    "yourReflection": "Tu reflexión",
+    "yourReflectionPlaceholder": "¿Qué aprendiste? ¿Qué aplicarás? ¿Cómo cambió esta experiencia tu forma de pensar?",
+    "minChars": "Mínimo {{min}} caracteres",
+    "min": "{{min}} mín",
+    "trainerObservation": "Observación del formador",
+    "optional": "(opcional)",
+    "trainerObservationPlaceholder": "Observaciones para el formador — ¿qué funcionó bien, qué podría mejorar?",
+    "submitting": "Enviando…",
+    "submit": "Enviar Comentarios"
+  },
+  "requestForm": {
+    "success": "¡Solicitud de formación enviada! Serás emparejado con formadores adecuados.",
+    "skillGapPlaceholder": "¿Qué quieres aprender y por qué?",
+    "minChars": "Mínimo {{min}} caracteres ({{count}}/{{min}})",
+    "any": "Cualquiera",
+    "levelBeginner": "Principiante",
+    "levelPartial": "Parcial",
+    "levelAdvanced": "Avanzado",
+    "submitting": "Enviando…",
+    "submit": "Enviar Solicitud"
+  },
+  "overviewSubtitle": "Comparte lo que sabes. Aprende de otras personas. Changemappers crece mediante intercambio recíproco de habilidades: encuentra un formador, ofrece tu experiencia o publica una solicitud de aprendizaje.",
+  "requestOpen": "Abierto",
+  "requestPrompt": "Publica tu solicitud de aprendizaje",
+  "findTrainersDescription": "Encuentra formadores que ofrecen habilidades alineadas con tus objetivos de crecimiento.",
+  "viewConnections": "Ver mis conexiones de formación →",
+  "viewMyRequests": "Ver mis solicitudes de formación →",
+  "myRequests": {
+    "title": "Mis Solicitudes de Formación",
+    "subtitle": "Tus solicitudes de formación pendientes. Retira una solicitud si ya no la necesitas.",
+    "empty": "No tienes solicitudes de formación pendientes.",
+    "cardTitle": "Solicitud de Formación",
+    "domainLabel": "Dominio",
+    "skillGapLabel": "Brecha de habilidad",
+    "formatLabel": "Preferencia de formato",
+    "levelLabel": "Preferencia de nivel",
+    "withdraw": "Retirar",
+    "withdrawConfirm": "¿Retirar esta solicitud?",
+    "withdrawYes": "Sí, retirar",
+    "withdrawPending": "Retirando…",
+    "withdrawError": "No se pudo retirar la solicitud."
+  },
+  "connectionsSummary": "{{count}} colaboración en todos los estados",
+  "connectionsSummary_plural": "{{count}} colaboraciones en todos los estados",
+  "noConnections": "Aún no tienes conexiones de formación.",
+  "findTrainer": "Encontrar formador →",
+  "postRequestCta": "Publicar solicitud →",
+  "unknownTrainer": "Formador desconocido",
+  "trainingFallback": "Formación",
+  "completeNeedsReflection": "Esta colaboración está completa. Comparte tu reflexión para cerrar el ciclo.",
+  "completedOn": "Completado {{date}}",
+  "offerDetail": {
+    "backToOffers": "Volver a las ofertas",
+    "engagementCount": "{{count}} colaboración",
+    "engagementCount_plural": "{{count}} colaboraciones",
+    "trainer": "Formador",
+    "postRequestMatch": "Publicar una solicitud para conectar",
+    "formatLabels": {
+      "WORKSHOP": "Taller",
+      "COURSE": "Curso",
+      "DEMO": "Demostración",
+      "RESOURCE": "Recurso",
+      "GUIDED_PRACTICE": "Práctica guiada"
+    },
+    "levelLabels": {
+      "BEGINNER": "Principiante",
+      "PARTIAL": "Algo de experiencia",
+      "ADVANCED": "Avanzado"
+    }
+  }
+}

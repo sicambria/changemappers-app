@@ -1,0 +1,174 @@
+{
+  "metaTitle": "Centro de Capacitación",
+  "metaDescription": "Programas de capacitación regenerativa accesibles para creadores de cambio globales — menos de $200, en cualquier nivel.",
+  "learningCentral": {
+    "metaTitle": "Central de aprendizaje",
+    "metaDescription": "Encuentra la mejor ruta de aprendizaje para tus objetivos. Explora marcos, tradiciones, habilidades y programas de formación seleccionados.",
+    "what": "¿Qué quieres aprender?",
+    "subtitle": "Elige la ruta que coincida con tu pregunta, necesidad o siguiente paso.",
+    "paths": {
+      "metamodels": {
+        "title": "Metamodelos y marcos",
+        "desc": "Modelos conceptuales de alto impacto que abarcan desde escalas cósmicas hasta trans-sistémicas. Ideal para pensadores sistémicos, estrategas y personas que buscan una base teórica profunda.",
+        "goal": "Quiero comprender sistemas complejos y marcos de trabajo"
+      },
+      "traditions": {
+        "title": "Prácticas y tradiciones",
+        "desc": "Tradiciones de sabiduría global que apoyan la sanación comunitaria, la conciencia ecológica y la inteligencia colectiva. Ideal para quienes buscan una base corporal, relacional o espiritual.",
+        "goal": "Quiero aprender de sabidurías antiguas e indígenas"
+      },
+      "skills": {
+        "title": "Habilidades regenerativas",
+        "desc": "Capacidades individuales y colectivas esenciales para la transformación sistémica, mapeadas con los 4 cuadrantes de Wilber y el marco de los 3 horizontes.",
+        "goal": "Quiero desarrollar capacidades concretas para el cambio"
+      },
+      "patterns": {
+        "title": "Patrones de cambio",
+        "desc": "Tácticas y estrategias de base para la transformación social, filtrables por escala, riesgo y contexto. Ideal para activistas, organizadores y agentes de cambio listos para actuar.",
+        "goal": "Quiero encontrar la estrategia adecuada para mi situación"
+      },
+      "glossary": {
+        "title": "Glosario",
+        "desc": "Lenguaje compartido y definiciones utilizadas en el ecosistema Changemappers: arquetipos, conceptos sistémicos y vocabulario comunitario.",
+        "goal": "Quiero entender los términos y conceptos usados aquí"
+      },
+      "causes": {
+        "title": "Objetivos de Desarrollo Regenerativo",
+        "desc": "30 objetivos interconectados en cinco dominios: un marco de pensamiento sistémico para la regeneración civilizatoria. Ideal para quienes buscan un mapa amplio del campo del cambio.",
+        "goal": "Quiero comprender el panorama de los desafíos globales"
+      },
+      "programs": {
+        "title": "Formaciones y programas",
+        "desc": "Programas de formación regenerativa accesibles, por menos de 200 dólares, desde 5 continentes y sin requisito de título. Ideal para quienes buscan aprendizaje estructurado y guiado.",
+        "goal": "Quiero cursos o programas de formación estructurados"
+      },
+      "stories": {
+        "title": "Historias",
+        "desc": "Fracasos y avances compartidos abiertamente desde el terreno. Relatos reales de agentes de cambio que navegan sistemas complejos.",
+        "goal": "Quiero aprender de experiencias e historias reales"
+      }
+    },
+    "cta": {
+      "textBefore": "¿No sabes por dónde empezar? La",
+      "compassName": "Brújula Changemaker",
+      "textAfter": "puede ayudarte a orientarte.",
+      "button": "Abrir la Brújula Changemaker"
+    }
+  },
+  "traditions": {
+    "metaTitle": "Prácticas",
+    "metaDescription": "Tradiciones globales y prácticas regenerativas para desarrollar la sabiduría comunitaria."
+  },
+  "patterns": {
+    "metaTitle": "Patrones de cambio",
+    "metaDescription": "Explora patrones y tácticas de cambio de base para la transformación social.",
+    "title": "Patrones de Cambio",
+    "subtitle": "Explora tácticas y estrategias de base para la transformación social. Filtra por escala, riesgo, horizonte temporal y necesidades de participación.",
+    "searchPlaceholder": "Buscar patrones...",
+    "findPattern": "Encuentra tu patrón",
+    "advancedFilters": "Filtros avanzados",
+    "filters": "Filtros",
+    "clearFilters": "Limpiar",
+    "resultsCount": "{{count}} de {{total}} patrones",
+    "strengths": "Fortalezas",
+    "weaknesses": "Debilidades",
+    "bestContext": "Mejor contexto",
+    "noResults": "Ningún patrón coincide con estos filtros.",
+    "noResultsHint": "Prueba con menos filtros o cambia el operador lógico.",
+    "dbError": "Biblioteca de patrones no disponible",
+    "dbErrorDetail": "No se pudo cargar la base de datos de patrones de cambio.",
+    "categoryLabels": {
+      "levelOfChange": "Nivel de cambio",
+      "primaryApproach": "Enfoque principal",
+      "riskLevel": "Nivel de riesgo",
+      "timeHorizon": "Horizonte temporal",
+      "participantRequirement": "Participantes necesarios"
+    },
+    "filterValues": {
+      "levelOfChange": {
+        "Individual": "Individual",
+        "Community": "Comunidad",
+        "Institutional": "Institucional",
+        "Policy": "Política",
+        "Structural": "Estructural",
+        "Paradigm": "Paradigma"
+      },
+      "primaryApproach": {
+        "Direct Action": "Acción directa",
+        "Economic Pressure": "Presión económica",
+        "Institutional Change": "Cambio institucional",
+        "Building Alternatives": "Construcción de alternativas",
+        "Cultural/Narrative": "Cultural / narrativa",
+        "Organizing & Education": "Organización y educación"
+      },
+      "riskLevel": {
+        "Low": "Bajo",
+        "Medium": "Medio",
+        "High": "Alto"
+      },
+      "timeHorizon": {
+        "Immediate": "Inmediato",
+        "Short": "Corto",
+        "Medium": "Medio",
+        "Long": "Largo"
+      },
+      "participantRequirement": {
+        "Individual": "Individual",
+        "SmallGroup": "Grupo pequeño",
+        "Community": "Comunidad",
+        "Mass": "Participación masiva"
+      }
+    },
+    "quiz": {
+      "title": "Cuestionario buscador de patrones",
+      "question": "Pregunta",
+      "back": "Atrás",
+      "next": "Siguiente",
+      "showResults": "Ver resultados",
+      "resultsTitle": "Patrones sugeridos",
+      "resultsSubtitle": "Ordenados según tus respuestas y contexto.",
+      "bestMatch": "Mejor coincidencia",
+      "points": "puntos",
+      "reviewAnswers": "Revisar respuestas",
+      "startOver": "Empezar de nuevo"
+    }
+  },
+  "metamodels": {
+    "metaTitle": "Metamodelos para Creadores de Cambio",
+    "metaDescription": "Dieciséis metamodelos de alto impacto para navegar sistemas complejos y el desarrollo humano — desde lo cósmico hasta lo trans-sistémico, analizados para aplicaciones de creadores de cambio hasta el horizonte 2125."
+  },
+  "skills": {
+    "metaTitle": "Habilidades regenerativas",
+    "metaDescription": "Explora la biblioteca de habilidades regenerativas: capacidades individuales y colectivas para construir sistemas nuevos y acompañar la salida de los antiguos.",
+    "title": "Habilidades Regenerativas",
+    "subtitle": "Capacidades individuales y colectivas esenciales para la transformación sistémica, mapeadas en los 4 Cuadrantes de Wilber y el marco de 3 Horizontes.",
+    "searchPlaceholder": "Buscar habilidades...",
+    "filters": "Filtros",
+    "clearFilters": "Limpiar",
+    "horizons": "3 Horizontes",
+    "quadrants": "4 Cuadrantes",
+    "level": "Nivel",
+    "resultsCount": "{{count}} resultados",
+    "noResults": "Ninguna habilidad coincide con estos filtros.",
+    "noResultsHint": "Prueba con menos filtros o una búsqueda más amplia.",
+    "clearFiltersBtn": "Limpiar filtros",
+    "quadrantLabels": {
+      "UL": "Interior / intención",
+      "UR": "Práctica conductual",
+      "LL": "Cultura y relación",
+      "LR": "Sistemas e infraestructura"
+    },
+    "horizonLabels": {
+      "H1": "H1: Acompañar la salida de lo antiguo",
+      "H2": "H2: Transición puente",
+      "H3": "H3: Sistemas radicalmente nuevos"
+    },
+    "levelLabels": {
+      "Micro": "Individual / micro",
+      "Meso": "Comunitario / meso",
+      "Macro": "Social / macro"
+    },
+    "dbError": "Error de base de datos",
+    "dbErrorDetail": "La biblioteca de habilidades no está disponible ahora."
+  }
+}

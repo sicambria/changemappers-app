@@ -1,0 +1,723 @@
+{
+  "schemas": {
+    "standards": {
+      "label": "Könyörtelen mércék",
+      "color": "text-blue-600 bg-blue-50 border-blue-200"
+    },
+    "isolation": {
+      "label": "Társas elszigetelődés",
+      "color": "text-slate-600 bg-slate-100 border-slate-200"
+    },
+    "approval": {
+      "label": "Elismerés-hajszolás",
+      "color": "text-purple-600 bg-purple-50 border-purple-200"
+    },
+    "vulnerability": {
+      "label": "Károsodástól való félelem",
+      "color": "text-amber-600 bg-amber-50 border-amber-200"
+    },
+    "deprivation": {
+      "label": "Érzelmi megfosztottság",
+      "color": "text-cyan-600 bg-cyan-50 border-cyan-200"
+    },
+    "negativity": {
+      "label": "Negativizmus",
+      "color": "text-gray-600 bg-gray-50 border-gray-200"
+    },
+    "self_control": {
+      "label": "Elégtelen önfegyelem",
+      "color": "text-red-600 bg-red-50 border-red-200"
+    },
+    "failure": {
+      "label": "Kudarc",
+      "color": "text-orange-600 bg-orange-50 border-orange-200"
+    },
+    "self_sacrifice": {
+      "label": "Önfeláldozás",
+      "color": "text-rose-600 bg-rose-50 border-rose-200"
+    },
+    "dependence": {
+      "label": "Dependencia",
+      "color": "text-lime-600 bg-lime-50 border-lime-200"
+    },
+    "mistrust": {
+      "label": "Bizalmatlanság",
+      "color": "text-stone-600 bg-stone-100 border-stone-200"
+    },
+    "entitlement": {
+      "label": "Feljogosítottság",
+      "color": "text-yellow-600 bg-yellow-50 border-yellow-200"
+    },
+    "inhibition": {
+      "label": "Érzelmi gátoltság",
+      "color": "text-teal-600 bg-teal-50 border-teal-200"
+    },
+    "punitiveness": {
+      "label": "Büntető készenlét",
+      "color": "text-fuchsia-600 bg-fuchsia-50 border-fuchsia-200"
+    },
+    "abandonment": {
+      "label": "Elhagyatottság",
+      "color": "text-pink-600 bg-pink-50 border-pink-200"
+    },
+    "impaired_limits": {
+      "label": "Elégtelen határok",
+      "color": "text-indigo-600 bg-indigo-50 border-indigo-200"
+    },
+    "enmeshment": {
+      "label": "Összeolvadás",
+      "color": "text-violet-600 bg-violet-50 border-violet-200"
+    },
+    "overvigilance": {
+      "label": "Hipervigilancia",
+      "color": "text-emerald-600 bg-emerald-50 border-emerald-200"
+    },
+    "defectiveness": {
+      "label": "Csökkentértékűség",
+      "color": "text-zinc-600 bg-zinc-100 border-zinc-200"
+    },
+    "subjugation": {
+      "label": "Behódolás",
+      "color": "text-sky-600 bg-sky-50 border-sky-200"
+    }
+  },
+  "problemsData": [
+    {
+      "id": 1,
+      "schema": "standards",
+      "surface": "Nincs időm semmire",
+      "layer1": "Túlvállalás, prioritások hiánya",
+      "layer2": "Félelem a nemet mondástól",
+      "layer3": "Értéktelenség érzése teljesítmény nélkül",
+      "layer4": "Feltételes, teljesítményhez kötött szeretet",
+      "core": "Önbecsülés instabilitása",
+      "wrongSolutions": "Alvásmegvonás, koffeintúladagolás, újabb applikációk letöltése",
+      "rightSolutions": "Mondj nemet a héten egy kérésre indoklás nélkül; Kapcsold ki az értesítéseket 2 órára; Írj 'nem-teendő' (not-to-do) listát",
+      "lesson": "Megtanulni: A pihenés nem jutalom, hanem szükséglet. | Elengedni: A nélkülözhetetlenség illúzióját."
+    },
+    {
+      "id": 2,
+      "schema": "isolation",
+      "surface": "Magányosnak érzem magam",
+      "layer1": "Felületes kapcsolatok, intimitás hiánya",
+      "layer2": "A sebezhetőség elkerülése",
+      "layer3": "Félelem az elutasítástól",
+      "layer4": "Korai érzelmi elhagyatottság",
+      "core": "Bensőséges kapcsolódás hiánya",
+      "wrongSolutions": "Céltalan görgetés a közösségi médiában, felszínes csevegés, sorozatnézésbe menekülés",
+      "rightSolutions": "Hívj fel valakit videón üzenet helyett; Ossz meg egy őszinte, nem tökéletes történetet egy baráttal; Csatlakozz egy élő (offline) klubhoz",
+      "lesson": "Megtanulni: A sebezhetőség nem gyengeség, hanem híd. | Elengedni: A tökéletes álarcot."
+    },
+    {
+      "id": 3,
+      "schema": "approval",
+      "surface": "Nem vagyok elég sikeres",
+      "layer1": "Függés a külső elismeréstől",
+      "layer2": "Belső mérce hiánya",
+      "layer3": "Önelfogadás hiánya",
+      "layer4": "Feltételes szeretet gyermekkorban",
+      "core": "Belső értékérzés hiánya",
+      "wrongSolutions": "Másokhoz hasonlítgatás, újabb diplomák halmozása csak a papír miatt, pihenés nélküli hajsza",
+      "rightSolutions": "Írj listát 5 tulajdonságodról, ami nem teljesítmény; Ünnepelj meg egy apró sikert ma; Töröld ki a 'sikeres' ismerősöket, akik miatt rosszul érzed magad",
+      "lesson": "Megtanulni: Az értéked nem a produktivitásodtól függ. | Elengedni: A másokkal való állandó összehasonlítást."
+    },
+    {
+      "id": 4,
+      "schema": "vulnerability",
+      "surface": "Állandóan aggódom",
+      "layer1": "A kontroll illúziója",
+      "layer2": "Képtelenség a bizonytalanság elviselésére",
+      "layer3": "Belső biztonság hiánya",
+      "layer4": "Kiszámíthatatlan gyerekkori környezet",
+      "core": "Ősbizalom hiánya",
+      "wrongSolutions": "Túlbiztosítás, hírek folyamatos olvasása, mások ellenőrizgetése",
+      "rightSolutions": "Jelölj ki napi 15 perc 'aggódó időt', azon kívül tiltsd le; 5-4-3-2-1 érzékszervi gyakorlat; Írd ki magadból a legrosszabb forgatókönyvet, majd tépd szét",
+      "lesson": "Megtanulni: A bizonytalanság az élet része. | Elengedni: A jövő kontrollálásának vágyát."
+    },
+    {
+      "id": 5,
+      "schema": "deprivation",
+      "surface": "Nem találom a párkapcsolatban a boldogságot",
+      "layer1": "Irreális elvárások a társsal szemben",
+      "layer2": "A másiktól várni a boldogságot",
+      "layer3": "Saját hiányosságok kivetítése",
+      "layer4": "Korai kötődési sérülések",
+      "core": "Félkész identitás",
+      "wrongSolutions": "Folyamatos partnerváltás, a másik megváltoztatásának kényszere, duzzogás",
+      "rightSolutions": "Tölts egy estét egyedül egy hobbiddal; Írd össze, mit vársz a másiktól, és add meg magadnak; Foglalj időpontot párterápiára vagy egyéni konzultációra",
+      "lesson": "Megtanulni: Saját magad érzelmi szabályozását. | Elengedni: A megmentőre várást."
+    },
+    {
+      "id": 6,
+      "schema": "negativity",
+      "surface": "Depressziós vagyok",
+      "layer1": "Értelmetlenség érzése",
+      "layer2": "Elfojtott érzelmek, ki nem mondott szükségletek",
+      "layer3": "Önmagamtól való elidegenedés",
+      "layer4": "Kapcsolatvesztés az autentikus énnel",
+      "core": "Életöröm hiánya",
+      "wrongSolutions": "Alkohol, bezárkózás a sötét szobába, érzések elnyomása",
+      "rightSolutions": "Szakember felkeresése (pszichiáter/pszichológus); Napi 10 perc séta napfényen; Hideg zuhany; Naplóírás az érzésekről",
+      "lesson": "Megtanulni: Az apró cselekvések erejét. | Elengedni: Azt, hogy 'majd ha jobban leszek, csinálom'."
+    },
+    {
+      "id": 7,
+      "schema": "self_control",
+      "surface": "Túlsúlyos vagyok",
+      "layer1": "Egészségtelen viszony az étellel",
+      "layer2": "Érzelmi evés, megnyugvás keresése",
+      "layer3": "Feldolgozatlan trauma, stressz",
+      "layer4": "Biztonság hiánya, a test mint páncél",
+      "core": "Érzelmi önszabályozás hiánya",
+      "wrongSolutions": "Koplalás, divatdiéták, testkép-megszállottság, öngyűlölet",
+      "rightSolutions": "Vezess érzelem-naplót: 'Mit érzek evés előtt?'; Evés közben tedd le az evőeszközt minden falat után; Keress más örömforrást (pl. forró fürdő)",
+      "lesson": "Megtanulni: Az érzelmeket megélni, nem megenni. | Elengedni: Az étel mint vigasz funkcióját."
+    },
+    {
+      "id": 8,
+      "schema": "failure",
+      "surface": "Soha nem érek el semmit",
+      "layer1": "Perfekcionizmus okozta bénultság",
+      "layer2": "Képtelenség a kudarc elviselésére",
+      "layer3": "Törékeny önkép",
+      "layer4": "Internalizált kritikus szülői hang",
+      "core": "A hibázás tilalma",
+      "wrongSolutions": "Célok feladása, önmarcangolás, halogatás a tökéletesség nevében",
+      "rightSolutions": "Csinálj valamit szándékosan rosszul (pl. csúnya rajz) és ne javítsd ki; Állíts be időkeretet (time-boxing) egy feladatra; Írd át a belső kritikus mondatait",
+      "lesson": "Megtanulni: A kész jobb, mint a tökéletes. | Elengedni: A mindent vagy semmit gondolkodást."
+    },
+    {
+      "id": 9,
+      "schema": "self_sacrifice",
+      "surface": "Mindenki kihasznál",
+      "layer1": "Határok hiánya",
+      "layer2": "Saját szükségletek elhanyagolása",
+      "layer3": "Megfelelési kényszer (people pleasing)",
+      "layer4": "Szeretetéhség",
+      "core": "Önérvényesítés hiánya",
+      "wrongSolutions": "Mártírszerep, passzív duzzogás, bizalmatlanság mindenkivel",
+      "rightSolutions": "Gyakorold a 'Hadd gondoljam át' választ azonnali igen helyett; Írd le a jogaidat egy papírra; Mondd ki: 'Ez nekem most nem fér bele'",
+      "lesson": "Megtanulni: A határok tiszteletet ébresztenek. | Elengedni: A félelmet, hogy nem fognak szeretni, ha nemet mondasz."
+    },
+    {
+      "id": 10,
+      "schema": "self_control",
+      "surface": "Szenvedélybeteg vagyok",
+      "layer1": "Menekülés addiktív viselkedésbe",
+      "layer2": "Fájdalomcsillapítás",
+      "layer3": "Feldolgozatlan trauma",
+      "layer4": "Érzelmi hiány, önszabályozás zavara",
+      "core": "A jelen pillanat elviselhetetlensége",
+      "wrongSolutions": "Akaraterő fitogtatása segítség nélkül, önostorozás, egyik függőség cseréje másikra",
+      "rightSolutions": "Keress fel egy anonim csoportot vagy addiktológust még ma; Töröld a kísértést okozó telefonszámokat/appokat; Készíts vésztervet sóvárgás esetére",
+      "lesson": "Megtanulni: Segítséget kérni erő. | Elengedni: A szégyent és a titkolózást."
+    },
+    {
+      "id": 11,
+      "schema": "dependence",
+      "surface": "Nem tudok dönteni",
+      "layer1": "Döntési paralízis",
+      "layer2": "A tökéletes választás illúziója",
+      "layer3": "Félelem a hibázástól",
+      "layer4": "Rossz döntések emléke vagy kritika",
+      "core": "Önbizalom hiánya",
+      "wrongSolutions": "Másokra hárítani a döntést, végtelen pro-kontra listák, halogatás amíg a döntés okafogyottá válik",
+      "rightSolutions": "Dobj fel egy érmét, és figyeld meg az érzéseidet az eredmény láttán; Adj magadnak 2 percet kis döntésekre (pl. étteremben); Vállalj kockázatot kis tétekben",
+      "lesson": "Megtanulni: Nincs tökéletes döntés, csak választott út. | Elengedni: A visszamenőleges rágódást (FOMO)."
+    },
+    {
+      "id": 12,
+      "schema": "mistrust",
+      "surface": "Mindenki ellenem van",
+      "layer1": "Paranoiás gondolkodásmód",
+      "layer2": "Általános bizalmatlanság",
+      "layer3": "Kivetítés (saját árnyékszemélyiség)",
+      "layer4": "Árulás tapasztalata a múltban",
+      "core": "Alapvető biztonságérzet hiánya",
+      "wrongSolutions": "Elszigetelődés, támadó fellépés, minden szó mögött hátsó szándék keresése",
+      "rightSolutions": "Végezz valóságtesztet egy megbízható ismerőssel ('Én így látom, szerinted reális?'); Írj hálanaplót a pozitív interakciókról; Szakember felkeresése",
+      "lesson": "Megtanulni: A világ nem csak fekete-fehér. | Elengedni: Az áldozati narratívát."
+    },
+    {
+      "id": 13,
+      "schema": "standards",
+      "surface": "Nem tudok kikapcsolni",
+      "layer1": "Cselekvési kényszer",
+      "layer2": "Nyugtalanság a csendben",
+      "layer3": "Önmagammal való találkozás elkerülése",
+      "layer4": "Belső űr érzése",
+      "core": "Félelem a létezéstől",
+      "wrongSolutions": "Még több edzés, munka vagy buli kimerülésig, altatók indokolatlan szedése",
+      "rightSolutions": "Ülj le 5 percre csendban, eszközök nélkül; Sétálj a természetben zene/podcast nélkül; Gyakorold a progresszív izomlazítást",
+      "lesson": "Megtanulni: A 'lenni' (being) ugyanolyan fontos, mint a 'tenni' (doing). | Elengedni: Azt a hitet, hogy a tétlenség bűn."
+    },
+    {
+      "id": 14,
+      "schema": "deprivation",
+      "surface": "Irigy vagyok másokra",
+      "layer1": "Összehasonlítási kényszer",
+      "layer2": "Elégedetlenség a saját élettel",
+      "layer3": "Belső hiányérzet kivetítése",
+      "layer4": "Gyermekkori megfosztottság élménye",
+      "core": "Hála és elégedettség hiánya",
+      "wrongSolutions": "Közösségi média megszállott figyelése, mások lekicsinylése, pletykálkodás",
+      "rightSolutions": "Írj le 3 dolgot naponta, amiért hálás vagy; Kövesse ki azokat, akik irigységet váltanak ki; Fordítsd az irigységet céllá: 'Mit tehetek, hogy nekem is legyen?'",
+      "lesson": "Megtanulni: Más sikere nem a te kudarcod. | Elengedni: A hiány-fókuszt."
+    },
+    {
+      "id": 15,
+      "schema": "defectiveness",
+      "surface": "Nem szeretem magam",
+      "layer1": "Önkritika, negatív belső beszéd",
+      "layer2": "Internalizált kritikus szülő",
+      "layer3": "Feltételes szeretet gyerekkorban",
+      "layer4": "Alapvető elfogadhatatlanság érzése",
+      "core": "Önszeretet hiánya",
+      "wrongSolutions": "Tükörbe kényszerített pozitív megerősítések, plasztikai műtétek sorozata, önbüntetés",
+      "rightSolutions": "Írj levelet magadnak úgy, mintha egy barátodhoz szólnál; Érintsd meg a mellkasod, amikor nehéz érzésed van (önegyüttérzés); Szakemberrel dolgozz a belső kritikusodon",
+      "lesson": "Megtanulni: Magaddal is lehetsz kedves. | Elengedni: A belső zsarnok hangját."
+    },
+    {
+      "id": 16,
+      "schema": "subjugation",
+      "surface": "Félek a konfliktusoktól",
+      "layer1": "Konfliktuskerülés",
+      "layer2": "Az agresszió és düh elfojtása",
+      "layer3": "Félelem a kapcsolat elvesztésétől",
+      "layer4": "Erőszakos vagy elhanyagoló gyerekkori környezet",
+      "core": "Önérvényesítés tilalma",
+      "wrongSolutions": "Rábólintás mindenre, passzív-agresszív megjegyzések, elmenekülés a szobából",
+      "rightSolutions": "Gyakorold az 'én-közlést' ('Rosszul esik, amikor...'); Mondj ellent egy kis tétű dologban (pl. milyen filmet nézzetek); Állj bele a helyzetbe, ne sétálj el",
+      "lesson": "Megtanulni: A konfliktus tisztázhatja a kapcsolatot. | Elengedni: A 'jó gyerek' szerepet."
+    },
+    {
+      "id": 17,
+      "schema": "inhibition",
+      "surface": "Nem érzek semmit",
+      "layer1": "Érzelmi zsibbadtság",
+      "layer2": "Disszociáció (eltávolodás a valóságtól)",
+      "layer3": "Védekező mechanizmus trauma ellen",
+      "layer4": "Túlélési stratégia",
+      "core": "Elszakadás az érzelmi éntől",
+      "wrongSolutions": "Extrém sportok kockázat nélkül, drogok, önbántalmazás csak azért, hogy érezz valamit",
+      "rightSolutions": "Test-orientált terápia keresése; Hideg-meleg váltózuhany; Érintsd meg a textúrákat magad körül; Nevezd meg hangosan a tárgyakat a szobában",
+      "lesson": "Megtanulni: A testben lenni biztonságos. | Elengedni: A félelmet a fájdalomtól."
+    },
+    {
+      "id": 18,
+      "schema": "vulnerability",
+      "surface": "Folyton beteg vagyok",
+      "layer1": "Gyenge immunrendszer, krónikus tünetek",
+      "layer2": "Pszichoszomatikus jelzések",
+      "layer3": "Testbe szorult érzelmek",
+      "layer4": "Ki nem mondott szükségletek kifejezése tünettel",
+      "core": "A test mint kommunikációs csatorna",
+      "wrongSolutions": "Tünetelnyomó gyógyszerek halmozása oknyomozás nélkül, a test hibáztatása, dühöngés a betegség miatt",
+      "rightSolutions": "Vezess tünetnaplót érzelmi háttérrel; Sajátíts el relaxációs technikát (autogén tréning); Kérdezd meg a tüneted: 'Mire kényszerítesz rá/Miből mentesz fel?'",
+      "lesson": "Megtanulni: A test a barátod, aki jelez. | Elengedni: A test tárgyként kezelését."
+    },
+    {
+      "id": 19,
+      "schema": "punitiveness",
+      "surface": "Nem tudok megbocsátani",
+      "layer1": "Harag és neheztelés dédelgetése",
+      "layer2": "Az igazságtalanság feldolgozatlansága",
+      "layer3": "Saját fájdalom elismerésének hiánya",
+      "layer4": "Erővesztettség érzése",
+      "core": "Identitás a sérelmek köré építve",
+      "wrongSolutions": "Bosszútervezés, a történet végtelen ismétlése másoknak, passzív büntetés",
+      "rightSolutions": "Írj levelet az elkövetőnek, de ne küldd el, hanem égesd el/tépd szét; Ismerd el a saját fájdalmadat sírással/dühöngéssel (biztonságban); Keress szakembert a gyászfeldolgozáshoz",
+      "lesson": "Megtanulni: A megbocsátás a te szabadságodról szól. | Elengedni: A vágyat, hogy a múlt megváltozzon."
+    },
+    {
+      "id": 20,
+      "schema": "failure",
+      "surface": "Félúton hagyok mindent",
+      "layer1": "Befejezetlen projektek halmaza",
+      "layer2": "Kezdeti lendület elvesztése (kitartás hiánya)",
+      "layer3": "Félelem a kudarctól vagy a sikertől",
+      "layer4": "Érdemtelenség érzése",
+      "core": "Elköteleződési nehézség",
+      "wrongSolutions": "Újabb és újabb projektek kezdése, önostorozás, külső kényszerítők keresése",
+      "rightSolutions": "Bontsd a feladatot mikrolépésekre; Fejezz be egyetlen apró, régóta húzódó dolgot a héten; Ünnepeld meg a részeredményeket",
+      "lesson": "Megtanulni: A motiváció követi a cselekvést, nem fordítva. | Elengedni: Az újdonság varázsának állandó hajszolását."
+    },
+    {
+      "id": 21,
+      "schema": "standards",
+      "surface": "Kiégtem",
+      "layer1": "Fizikai és mentális kimerülés",
+      "layer2": "Saját szükségletek tartós elhanyagolása",
+      "layer3": "Értékekkel való összeegyeztethetetlenség",
+      "layer4": "Identitás kizárólag a teljesítményen alapul",
+      "core": "Életerő elvesztése",
+      "wrongSolutions": "Kávé és energiaital növelése, 'még ezt a hetet kibírom' hozzáállás, alkohol",
+      "rightSolutions": "Menj szabadságra és ne vidd a laptopot; Kezdj el egy hobbit, aminek nincs haszna; Aludj napi 8 órát; Keress karriertanácsadót vagy terapeutát",
+      "lesson": "Megtanulni: Nem vagy gép. | Elengedni: Azt a hitet, hogy a pihenést ki kell érdemelni."
+    },
+    {
+      "id": 22,
+      "schema": "abandonment",
+      "surface": "Félúton hagyom a kapcsolatokat",
+      "layer1": "Elkerülő kötődési stílus",
+      "layer2": "Félelem a közelségtől és intimitástól",
+      "layer3": "Sebezhetőség elutasítása",
+      "layer4": "Korai elhagyatás vagy elnyelés tapasztalata",
+      "core": "Biztonságos kötődés hiánya",
+      "wrongSolutions": "Szellemmé válás (ghosting), hibák keresése a másikban, menekülés a szabadságra hivatkozva",
+      "rightSolutions": "Maradj benne a helyzetben akkor is, ha kényelmetlen (kicsit tovább); Beszélj a félelmeidről a partnerednek; Terápia a kötődési mintákról",
+      "lesson": "Megtanulni: A függetlenség és a kötődés megfér egymás mellett. | Elengedni: A menekülést mint elsődleges reakciót."
+    },
+    {
+      "id": 23,
+      "schema": "self_control",
+      "surface": "Pénzügyi káoszban élek",
+      "layer1": "Anyagi felelőtlenség",
+      "layer2": "Pénzzel való szembenézés elkerülése",
+      "layer3": "Érzelmi vásárlás",
+      "layer4": "Negatív hiedelmek a pénzről vagy érdemtelenség",
+      "core": "Bőségtudat és felelősség hiánya",
+      "wrongSolutions": "Újabb hitelek felvétele, szerencsejáték, a számlák bontatlanul hagyása",
+      "rightSolutions": "Tölts le egy költségkövető appot és rögzíts mindent; Nyisd ki az összes borítékot ma; Állíts be automatikus megtakarítást (akár 1000 Ft-ot)",
+      "lesson": "Megtanulni: A pénz eszköz, nem ellenség. | Elengedni: A pillanatnyi kielégülés vágyát."
+    },
+    {
+      "id": 24,
+      "schema": "entitlement",
+      "surface": "Mindenki hülye, csak én vagyok okos",
+      "layer1": "Felsőbbrendűség érzése",
+      "layer2": "Nárcisztikus védekezés",
+      "layer3": "Mély kisebbrendűségi érzés kompenzálása",
+      "layer4": "Törékeny önértékelés",
+      "core": "Valódi önbizalom hiánya",
+      "wrongSolutions": "Mások kioktatása, cinikus megjegyzések, intellektuális izoláció",
+      "rightSolutions": "Hallgass meg valakit végig anélkül, hogy közbevágnál vagy ítélkeznél; Kérj bocsánatot, ha tévedtél; Keress olyan közeget, ahol te vagy a kezdő (tanulj valami újat)",
+      "lesson": "Megtanulni: Az alázat nem megalázkodás. | Elengedni: Azt az igényt, hogy mindig neked legyen igazad."
+    },
+    {
+      "id": 25,
+      "schema": "negativity",
+      "surface": "Nem tudok semmit kidobni",
+      "layer1": "Kényszeres gyűjtögetés",
+      "layer2": "Ragaszkodás a múlthoz",
+      "layer3": "Veszteségfeldolgozás hiánya",
+      "layer4": "Kontrolligény a tárgyakon keresztül",
+      "core": "Változás elfogadásának képtelensége",
+      "wrongSolutions": "Raktárak bérlése, rendszerező dobozok vásárlása selejtezés helyett, 'majd jó lesz valamire' gondolkodás",
+      "rightSolutions": "Dobj ki/adományozz el ma 3 tárgyat; Fotózd le az emléket, mielőtt kidobod a tárgyat; Gyakorold a nem-ragaszkodást (mindfulness)",
+      "lesson": "Megtanulni: Az emlékeid benned vannak, nem a tárgyakban. | Elengedni: A hamis biztonságot nyújtó kacatokat."
+    },
+    {
+      "id": 26,
+      "schema": "impaired_limits",
+      "surface": "Állandóan késésben vagyok",
+      "layer1": "Időgazdálkodási zavar",
+      "layer2": "Passzív-agresszív lázadás",
+      "layer3": "Várakozástól való félelem",
+      "layer4": "Lázadás a tekintélyszemélyek/szabályok ellen",
+      "core": "Autonómia elvesztésének érzése",
+      "wrongSolutions": "Óra átállítása előre, kifogások gyártása, taxival rohanás",
+      "rightSolutions": "Indulj el 15 perccel hamarabb szándékosan; Vigyél könyvet, hogy ne legyen gond a várakozás; Ismerd el: 'Késtem, sajnálom' (kifogás nélkül)",
+      "lesson": "Megtanulni: A pontosság a másik idejének tisztelete. | Elengedni: A gyermeki dacot."
+    },
+    {
+      "id": 27,
+      "schema": "standards",
+      "surface": "Nem vagyok kreatív",
+      "layer1": "Kreatív blokk",
+      "layer2": "A perfekcionizmus bénítása",
+      "layer3": "Túlzott belső kritika",
+      "layer4": "Gyermekkori negatív visszajelzés alkotáskor",
+      "core": "A játékosság elvesztése",
+      "wrongSolutions": "Mások másolása, kényszerített ötletelés, lemondás az alkotásról",
+      "rightSolutions": "Vegyél egy olcsó füzetet és firkálj bele csúnyán; Táncolj otthon zenére egyedül; Csinálj valamit csak a folyamatért, végeredmény nélkül",
+      "lesson": "Megtanulni: Minden ember teremtő lény. | Elengedni: A teljesítménykényszert az alkotásban."
+    },
+    {
+      "id": 28,
+      "schema": "enmeshment",
+      "surface": "Nem tudok beszélni a családommal",
+      "layer1": "Kommunikációs csőd",
+      "layer2": "Merev családi szerepek",
+      "layer3": "Generációs traumák",
+      "layer4": "Ki nem mondott családi titkok",
+      "core": "Rendszerszintű diszfunkció",
+      "wrongSolutions": "Ordítozás, teljes némaság, elvárni, hogy ők változzanak maguktól",
+      "rightSolutions": "Jelöld ki a határaidat: 'Erről nem szeretnék beszélni'; Menj el családállításra vagy terápiára; Fogadd el, hogy nem tudod megváltoztatni őket, csak a hozzáállásodat",
+      "lesson": "Megtanulni: Felnőttként újradefiniálhatod a kapcsolatot. | Elengedni: A vágyat a tökéletes családra."
+    },
+    {
+      "id": 29,
+      "schema": "enmeshment",
+      "surface": "Nem tudom, mit akarok",
+      "layer1": "Céltalan sodródás",
+      "layer2": "Önismeret hiánya",
+      "layer3": "Mások elvárásainak való megfelelés",
+      "layer4": "Autentikus én elvesztése",
+      "core": "Belső iránytű hiánya",
+      "wrongSolutions": "Mások követése, jósnőhöz járás döntés helyett, végtelen halogatás",
+      "rightSolutions": "Próbálj ki minden héten egy új tevékenységet; Írj listát arról, mit NEM akarsz; Tölts időt csendben, hogy meghalld a saját gondolataidat",
+      "lesson": "Megtanulni: A válaszok benned vannak, nem odakint. | Elengedni: A megfelelést."
+    },
+    {
+      "id": 30,
+      "schema": "enmeshment",
+      "surface": "Mindig beteg a gyerekem",
+      "layer1": "A gyermek tünethordozó",
+      "layer2": "Rejtett családi feszültségek",
+      "layer3": "Szülői szorongás kivetülése",
+      "layer4": "Figyelemigény vagy rendszer-stabilizálás",
+      "core": "Családi rendszer egyensúlytalansága",
+      "wrongSolutions": "Csak a gyerek kezelése, a gyerek hibáztatása, túlzott aggódás és védelem",
+      "rightSolutions": "Foglalkozz a saját stresszszinteddel és párkapcsolatoddal; Kérj családterápiás konzultációt; Hagyd a gyereket néha 'csak úgy' lenni, ne betegként kezeld",
+      "lesson": "Megtanulni: A gyerekek tükrölik a környezetet. | Elengedni: A bűntudatot és a túlzott kontrollt."
+    },
+    {
+      "id": 31,
+      "schema": "defectiveness",
+      "surface": "Félek a sikertől",
+      "layer1": "Önszabotázs",
+      "layer2": "A láthatóság veszélyesnek tűnik",
+      "layer3": "Félelem a felelősségtől és irigységtől",
+      "layer4": "Hiedelem: 'kicsinek lenni biztonságos'",
+      "core": "Ragyogástól való félelem",
+      "wrongSolutions": "Visszahúzódás az utolsó pillanatban, eredmények lekicsinylése, rejtőzködés",
+      "rightSolutions": "Vizualizáld a sikert és a vele járó érzéseket; Oszd meg az eredményedet büszkén egy emberrel; Gyakorold a dicséret fogadását ('Köszönöm', magyarázkodás nélkül)",
+      "lesson": "Megtanulni: Jogod van a bőséghez és sikerhez. | Elengedni: A hamis szerénységet."
+    },
+    {
+      "id": 32,
+      "schema": "self_control",
+      "surface": "Halogatok mindent",
+      "layer1": "Halogatás (prokrasztináció)",
+      "layer2": "Perfekcionizmus vagy dac",
+      "layer3": "Félelem, hogy nem lesz elég jó",
+      "layer4": "Kritika elkerülése",
+      "core": "Cselekvési bénultság",
+      "wrongSolutions": "Önfegyelmezés szidással, irreális határidők, 'holnap majd egész nap ezt csinálom' illúzió",
+      "rightSolutions": "5 perces szabály: Csak 5 percig csináld, aztán abbahagyhatod; Oszd fel a feladatot nevetségesen kicsi lépésekre; Jutalmazd meg magad az elindulásért",
+      "lesson": "Megtanulni: A cselekvés csökkenti a szorongást. | Elengedni: A tökéletes körülményekre várást."
+    },
+    {
+      "id": 33,
+      "schema": "negativity",
+      "surface": "Szenvedek a múltamtól",
+      "layer1": "Traumatizált múlt",
+      "layer2": "Feldolgozatlan események betörése",
+      "layer3": "PTSD tünetek",
+      "layer4": "Biztonságérzet elvesztése",
+      "core": "Emlékek integrálásának hiánya",
+      "wrongSolutions": "Emlékek erőszakos elnyomása, alkohol, elkerülő viselkedés",
+      "rightSolutions": "Traumaterápia (pl. EMDR, Somatic Experiencing) keresése; Földelő gyakorlatok (tapints meg 3 tárgyat); Írd át a történeted végét papíron",
+      "lesson": "Megtanulni: A múlt elmúlt, a jelenben biztonságban lehetsz. | Elengedni: Az önvádat a történtekért."
+    },
+    {
+      "id": 34,
+      "schema": "approval",
+      "surface": "Függök mások véleményétől",
+      "layer1": "Külső validáció kényszere",
+      "layer2": "Belső értékítélet hiánya",
+      "layer3": "Önbecsülés instabilitása",
+      "layer4": "Feltételes elfogadás gyerekkorban",
+      "core": "Belső horgony hiánya",
+      "wrongSolutions": "Kérdezgetés mindenkitől ('Szerinted jó ez?'), lájkok vadászata, önfeladás",
+      "rightSolutions": "Hozz egy döntést anélkül, hogy bárkit megkérdeznél; Viselj olyan ruhát, ami neked tetszik, nem a divatnak; Írd le az értékeidet",
+      "lesson": "Megtanulni: Te éled az életedet, nem ők. | Elengedni: A népszerűség vágyát."
+    },
+    {
+      "id": 35,
+      "schema": "overvigilance",
+      "surface": "Sosem tudok lazítani",
+      "layer1": "Állandó feszültség",
+      "layer2": "Folyamatos veszélyérzékelés (készenlét)",
+      "layer3": "Biztonság hiánya",
+      "layer4": "Traumatizált idegrendszer",
+      "core": "Megnyugvás képtelensége",
+      "wrongSolutions": "Alkohol lazításhoz, kényszeres tévézés, összeesés a fáradtságtól",
+      "rightSolutions": "Hosszú kilégzések gyakorlása; Súlytakaró használata; Szomatikus terápia; Ringatózás vagy lassú séta",
+      "lesson": "Megtanulni: A biztonságérzetet a testben kell felépíteni. | Elengedni: A folyamatos kontrollt."
+    },
+    {
+      "id": 36,
+      "schema": "isolation",
+      "surface": "Introvertált vagyok, és ez baj",
+      "layer1": "Személyiségjegy hiányosságnak címkézése",
+      "layer2": "Extravertált ideál kényszeres követése",
+      "layer3": "Önelfogadás hiánya",
+      "layer4": "Társadalmi elvárások internalizálása",
+      "core": "Autentikusság elutasítása",
+      "wrongSolutions": "Erőltetett társasági élet, megjátszás, bűntudat a magány miatt",
+      "rightSolutions": "Ismerd el az erősségeidet (pl. mély figyelem); Mondj nemet a nagy bulikra bűntudat nélkül; Töltődj fel egyedül könyvvel/sétával",
+      "lesson": "Megtanulni: A csendes erő is erő. | Elengedni: A megfelelési kényszert a zajos világnak."
+    },
+    {
+      "id": 37,
+      "schema": "overvigilance",
+      "surface": "Túl sokat gondolkodom",
+      "layer1": "Túlagyalás (overthinking)",
+      "layer2": "Analízis-paralízis (cselekvés helyett)",
+      "layer3": "Kontroll illúziója",
+      "layer4": "Bizalomhiány az élet áramlásában",
+      "core": "Jelenlét hiánya",
+      "wrongSolutions": "Még több gondolkodás a megoldáson, éjszakai rágódás, döntésképtelenség",
+      "rightSolutions": "Csinálj valamit fizikai síkon (mosogatás, futás); Írd ki a gondolatokat (brain dump), hogy ne a fejedben keringjenek; Meditáció (figyelem a légzésre)",
+      "lesson": "Megtanulni: A gondolatok nem tények. | Elengedni: Az agyalást mint problémamegoldást."
+    },
+    {
+      "id": 38,
+      "schema": "inhibition",
+      "surface": "Nincs hobbim",
+      "layer1": "Örömforrások hiánya",
+      "layer2": "Csak a kötelességek léteznek",
+      "layer3": "Játékosság elvesztése",
+      "layer4": "Produktivitási kényszer",
+      "core": "Önmagam értéke teljesítmény nélkül",
+      "wrongSolutions": "Kényszeres 'hasznos' hobbik keresése, nyelvtanulás pihenés helyett, irigykedés másokra",
+      "rightSolutions": "Emlékezz vissza, mit szerettél gyerekkorodban; Próbálj ki valamit tét nélkül (pl. színezz); Menj el egy próbaórára valahova",
+      "lesson": "Megtanulni: Az öröm önmagában is cél. | Elengedni: A haszonelvűséget."
+    },
+    {
+      "id": 39,
+      "schema": "defectiveness",
+      "surface": "Mindig megsértődöm",
+      "layer1": "Túlérzékenység",
+      "layer2": "Mindent személyesnek venni",
+      "layer3": "Törékeny önkép",
+      "layer4": "Korai kritika mély nyoma",
+      "core": "Önérték instabilitása",
+      "wrongSolutions": "Passzív duzzogás, drámázás, kapcsolatok megszakítása hirtelen",
+      "rightSolutions": "Kérdezz rá: 'Ezt pontosan hogy értetted?'; Várj 24 órát, mielőtt reagálsz; Ismerd fel: a másik viselkedése róla szól, nem rólad",
+      "lesson": "Megtanulni: Mások véleménye nem a te valóságod. | Elengedni: A feltételezéseket."
+    },
+    {
+      "id": 40,
+      "schema": "subjugation",
+      "surface": "Nem tudom megvédeni magam",
+      "layer1": "Asszertivitás hiánya",
+      "layer2": "Düh és agresszió tiltása",
+      "layer3": "Áldozatszerep",
+      "layer4": "Hiedelem: 'a harag veszélyes'",
+      "core": "Önvédelem jogának feladása",
+      "wrongSolutions": "Nyelés, majd robbanás; magadban morgás; elkerülés",
+      "rightSolutions": "Gyakorold a 'Nem' kimondását tükör előtt; Iratkozz be önvédelmi edzésre vagy asszertivitás tréningre; Húzd ki magad testtartásban",
+      "lesson": "Megtanulni: A dühöd egy jelzőrendszer, ami véd téged. | Elengedni: A félelmet a konfliktustól."
+    },
+    {
+      "id": 41,
+      "schema": "self_sacrifice",
+      "surface": "Kihasználják az együttérzésemet",
+      "layer1": "Empatikus kiégés",
+      "layer2": "Határok hiánya",
+      "layer3": "Mások érzelmeinek átvétele",
+      "layer4": "Saját érzések elhanyagolása",
+      "core": "Energiamenedzsment hiánya",
+      "wrongSolutions": "Teljes elzárkózás, cinizmus, mártírkodás",
+      "rightSolutions": "Szabj időkeretet a panaszkodás meghallgatására; Képzelj el egy burkot magad köré; Mondd ki: 'Most nem tudlak meghallgatni, mert fáradt vagyok'",
+      "lesson": "Megtanulni: Nem segíthetsz másokon, ha te üres vagy. | Elengedni: A világmegváltó szerepet."
+    },
+    {
+      "id": 42,
+      "schema": "vulnerability",
+      "surface": "Nem tudom elengedni az ellenőrzést",
+      "layer1": "Kontrollmánia",
+      "layer2": "Mikromenedzsment",
+      "layer3": "Szorongás csökkentése kontrollal",
+      "layer4": "Rettegés a bizonytalanságtól",
+      "core": "Bizalom hiánya",
+      "wrongSolutions": "Mindent egyedül csinálni, mások folyamatos javítgatása, éjszakába nyúló ellenőrzés",
+      "rightSolutions": "Adj ki egy feladatot és NE ellenőrizd le; Bízz meg valakiben egy apróságban; Gyakorold az 'elég jó' elfogadását",
+      "lesson": "Megtanulni: A kontroll illúzió. | Elengedni: A felelősséget mindenért és mindenkiért."
+    },
+    {
+      "id": 43,
+      "schema": "defectiveness",
+      "surface": "Nem érzem magam elég nőiesnek/férfiasnak",
+      "layer1": "Nemi identitás bizonytalansága",
+      "layer2": "Sztereotípiák internalizálása",
+      "layer3": "Megfelelési kényszer a társadalomnak",
+      "layer4": "Feltételes elfogadás",
+      "core": "Autentikus nemi önkifejezés hiánya",
+      "wrongSolutions": "Szerepek túljátszása, kényszeres megfelelés a külsőségekben, önvád",
+      "rightSolutions": "Viselj olyan ruhát/kiegészítőt, ami neked tetszik; Kövess olyan embereket, akik szabadon élik meg a nemiségüket; Definiáld újra, mit jelent neked férfinak/nőnek lenni",
+      "lesson": "Megtanulni: A nemiség spektrum és egyéni élmény. | Elengedni: A dobozokat és címkéket."
+    },
+    {
+      "id": 44,
+      "schema": "abandonment",
+      "surface": "Nem tudok egyedül lenni",
+      "layer1": "Képtelenség a magány elviselésére",
+      "layer2": "Társfüggőség",
+      "layer3": "Önmagammal való szembenézés kerülése",
+      "layer4": "Elhagyatottsági szorongás",
+      "core": "Önálló identitás hiánya",
+      "wrongSolutions": "Egyik kapcsolatból a másikba ugrás, tévé járatása háttérzajnak, folyamatos telefonálgatás",
+      "rightSolutions": "Menj el moziba vagy étterembe egyedül; Tölts el egy hétvégét 'digitális detox'-szal egyedül; Ismerd meg magad (napló, önismereti csoport)",
+      "lesson": "Megtanulni: Saját magad legjobb társaságának lenni. | Elengedni: A kapaszkodást másokba."
+    },
+    {
+      "id": 45,
+      "schema": "defectiveness",
+      "surface": "Folyton hazudok",
+      "layer1": "Kényszeres hazudozás",
+      "layer2": "A valóság elviselésének képtelensége",
+      "layer3": "Menekülés a szégyen elől",
+      "layer4": "Hiedelem: 'az igazi énem nem szerethető'",
+      "core": "Integritás hiánya",
+      "wrongSolutions": "Újabb hazugságok a lebukás elkerülésére, színlelés, saját hazugságok elhívése",
+      "rightSolutions": "Ismerj be egy apró hazugságot valakinek; Kezdj el 'radikális őszinteséget' gyakorolni kis dolgokban; Keress terapeutát a szégyen feldolgozására",
+      "lesson": "Megtanulni: Az igazság felszabadít. | Elengedni: A félelmet a lelepleződéstől."
+    },
+    {
+      "id": 46,
+      "schema": "standards",
+      "surface": "Késésben vagyok az életemmel",
+      "layer1": "Társadalmi elvárások nyomása",
+      "layer2": "Mérföldkövek elmaradása",
+      "layer3": "Összehasonlítás másokkal",
+      "layer4": "Az 'időzítés' illúziója",
+      "core": "Saját életritmus elutasítása",
+      "wrongSolutions": "Pánikszerű kapuzárási pánik döntések, depresszióba süllyedés, irigykedés",
+      "rightSolutions": "Írd össze, mi mindent értél el eddig (ami nem társadalmi elvárás); Fogalmazd meg a saját céljaidat; Beszélgess idősebbekkel az életútjuk kanyarairól",
+      "lesson": "Megtanulni: Az élet nem verseny. | Elengedni: A 'kellene' (should) gondolatokat."
+    },
+    {
+      "id": 47,
+      "schema": "self_sacrifice",
+      "surface": "Nem tudok abbahagyni a segítést",
+      "layer1": "Megmentő-szindróma",
+      "layer2": "Saját igények háttérbe szorítása",
+      "layer3": "Értékérzés csak mások szolgálatán keresztül",
+      "layer4": "Kodependencia (társfüggés)",
+      "core": "Önmegváltás mások által",
+      "wrongSolutions": "Kéretlen tanácsok osztogatása, mások problémáinak átvállalása, sértődés ha nem fogadják el a segítséget",
+      "rightSolutions": "Csak akkor segíts, ha kérik (szabály); Kérdezd meg: 'Miben tudok segíteni?' ahelyett, hogy cselekednél; Fordítsd az figyelmet magadra: 'Nekem mire van szükségem?'",
+      "lesson": "Megtanulni: Mindenki a saját életéért felelős. | Elengedni: A mások helyetti felelősségvállalást."
+    },
+    {
+      "id": 48,
+      "schema": "mistrust",
+      "surface": "Mindenki bánt",
+      "layer1": "Állandó sértődöttség",
+      "layer2": "Áldozattudat",
+      "layer3": "Felelősség hárítása",
+      "layer4": "Erővesztettség érzése",
+      "core": "Áldozat-identitás",
+      "wrongSolutions": "Panaszkodás mindenkinek, passzivitás, várni a sült galambot vagy a bocsánatkérést",
+      "rightSolutions": "Vizsgáld meg a saját szerepedet a konfliktusokban; Vállalj felelősséget az érzéseidért ('Én érzem így magam'); Cselekedj ahelyett, hogy reagálnál",
+      "lesson": "Megtanulni: Te vagy az életed szerzője, nem a mellékszereplője. | Elengedni: A hibáztatást."
+    },
+    {
+      "id": 49,
+      "schema": "negativity",
+      "surface": "Képtelen vagyok változtatni",
+      "layer1": "Ellenállás a változással szemben",
+      "layer2": "A megszokás rabsága",
+      "layer3": "Félelem az ismeretlentől",
+      "layer4": "Kontrollvesztéstől való rettegés",
+      "core": "Rugalmatlanság",
+      "wrongSolutions": "Erőltetett drasztikus váltások, amik azonnal elbuknak; kifogások keresése; halogatás",
+      "rightSolutions": "Változtass meg egy apró rutint reggel (pl. másik útvonal, másik bögre); Ismerd el a félelmedet; Kérj támogatást (coach, barát)",
+      "lesson": "Megtanulni: A változás az egyetlen állandó. | Elengedni: A ragaszkodást a régi énhez."
+    }
+  ]
+}

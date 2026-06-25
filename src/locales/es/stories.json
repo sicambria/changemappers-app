@@ -1,0 +1,118 @@
+{
+  "metaTitle": "Historias",
+  "metaDescription": "Historias abiertas sobre avances, fracasos y aprendizaje real.",
+  "title": "Historias",
+  "description": "Historias abiertas sobre avances, fracasos y aprendizaje real.",
+  "backToHome": "Volver al inicio",
+  "badge": "Historias",
+  "heading": "Historias abiertas sobre qué ayudó, qué falló y qué cambió después.",
+  "commons": "Esta página es ahora un commons real de historias. Las personas pueden publicar historias de éxito y fracaso, actualizarlas durante 30 días después de publicar, y añadir comentarios de seguimiento posteriores a medida que la situación evoluciona.",
+  "categories": {
+    "connections": "Conexiones",
+    "communities": "Comunidades",
+    "impact": "Impacto"
+  },
+  "stories": {
+    "story1": {
+      "title": "Dos ecologistas se encuentran en el mapa",
+      "summary": "Ana y Benicio se encontraron a través de la plataforma y ahora cultivan juntos un jardín de permacultura.",
+      "author": "Ana García"
+    },
+    "story2": {
+      "title": "El crecimiento de la comunidad Isla Verde",
+      "summary": "Cinco nuevos miembros se unieron a nuestra comunidad en un mes gracias al boletín de Changemappers.",
+      "author": "Pedro Martínez"
+    }
+  },
+  "shareYourStory": "¡Comparte tu propia historia!",
+  "shareDescription": "Publica un relato honesto sobre lo que ayudó, lo que falló y lo que cambió después.",
+  "beforePublish": {
+    "title": "Antes de publicar",
+    "noDeletion": "Las historias no se pueden eliminar después. Si eliminas tu cuenta, la autoría se anonimiza, pero la historia permanece en el commons. Todas las historias enviadas están bajo la licencia",
+    "useDetail": "Usa detalles concretos. Nombra el contexto, el desafío, lo que realmente sucedió y lo que aprendiste. Las historias de fracaso son explícitamente bienvenidas."
+  },
+  "form": {
+    "editTitle": "Editar tu historia",
+    "shareTitle": "Compartir una historia",
+    "publishingAs": "Publicando como {{name}}",
+    "signInPrompt": "Inicia sesión para publicar una historia o añadir comentarios de seguimiento a tus propias historias.",
+    "browseWithoutLogin": "Puedes explorar todas las historias sin iniciar sesión.",
+    "signIn": "Iniciar sesión para contribuir",
+    "storyTypeLabel": "Tipo de historia",
+    "successLabel": "Historia de éxito",
+    "successHint": "Un avance, logro o enfoque que ayudó.",
+    "failureLabel": "Historia de fracaso",
+    "failureHint": "Un error, retroceso o intento que no funcionó.",
+    "fields": {
+      "title": "Título",
+      "titleHint": "Corto, específico y buscable.",
+      "summary": "Resumen",
+      "summaryHint": "Un párrafo conciso que la gente pueda escanear rápidamente.",
+      "context": "Contexto",
+      "contextHint": "¿En qué entorno, equipo o proyecto ocurrió?",
+      "challenge": "Desafío",
+      "challengeHint": "¿Qué problema, tensión o riesgo enfrentabas?",
+      "whatHappened": "Qué ocurrió",
+      "whatHappenedHint": "Describe la secuencia, no la versión pulida.",
+      "outcome": "Resultado",
+      "outcomeHint": "¿Qué cambió, mejoró, falló o quedó sin resolver?",
+      "lessonsLearned": "Lecciones aprendidas",
+      "lessonsLearnedHint": "¿Qué deberían entender otros antes de intentar algo similar?"
+    },
+    "retrospective": {
+      "title": "Mini retrospectiva (opcional)",
+      "hint": "Mantenlo ligero. Estos campos son opcionales pero útiles.",
+      "whatWorked": "Qué funcionó",
+      "whatToChange": "Qué cambiarías la próxima vez",
+      "advice": "Consejos para otros"
+    },
+    "acknowledgements": {
+      "noDeletion": "Entiendo que esta historia no puede eliminarse después y solo se anonimizará si elimino mi cuenta de la plataforma.",
+      "license": "Acepto publicar esta historia bajo la licencia CC-BY-SA 4.0."
+    },
+    "submit": "Publicar historia",
+    "save": "Guardar historia",
+    "saving": "Guardando...",
+    "cancelEdit": "Cancelar edición"
+  },
+  "published": {
+    "title": "Historias publicadas",
+    "count": "{{count}} historias",
+    "count_one": "{{count}} historia en el commons",
+    "count_other": "{{count}} historias en el commons",
+    "empty": "Todavía no hay historias. La primera puede ser un éxito o un fracaso. Ambas son útiles.",
+    "publishedOn": "Publicado el {{date}}",
+    "by": "Por {{name}}",
+    "updated": "actualizado {{time}}",
+    "edit": "Editar",
+    "editingClosed": "La edición se cerró el {{date}} porque las historias solo son editables durante 30 días después de publicar."
+  },
+  "sections": {
+    "summary": "Resumen",
+    "context": "Contexto",
+    "challenge": "Desafío",
+    "whatHappened": "Qué ocurrió",
+    "outcome": "Resultado",
+    "lessonsLearned": "Lecciones aprendidas",
+    "miniRetrospective": "Mini retrospectiva",
+    "whatWorked": "Qué funcionó",
+    "whatToChange": "Qué cambiar",
+    "adviceForOthers": "Consejos para otros"
+  },
+  "comments": {
+    "title": "Comentarios del autor",
+    "empty": "Todavía no hay comentarios de seguimiento.",
+    "addLabel": "Añadir un comentario de seguimiento",
+    "placeholder": "¿Qué cambió después de publicar? ¿Qué añadirías ahora?",
+    "posting": "Publicando...",
+    "submit": "Añadir comentario"
+  },
+  "typeLabels": {
+    "SUCCESS": "Éxito",
+    "FAILURE": "Fracaso"
+  },
+  "errors": {
+    "commentTooShort": "El comentario debe tener al menos 3 caracteres.",
+    "commentFailed": "No se pudo añadir el comentario en este momento."
+  }
+}

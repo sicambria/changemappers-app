@@ -1,0 +1,24 @@
+{
+  "graph": {
+    "title": "Percepción Sistémica",
+    "subtitle": "Mapa Lógico y Salud",
+    "filterByName": "Filtrar por Nombre",
+    "searchPlaceholder": "Buscar por nombre o ciudad...",
+    "visibilityLayers": "Capas de Visibilidad",
+    "layers": {
+      "all": "Todas las capas",
+      "users": "Agentes de Cambio",
+      "communities": "Comunidades",
+      "events": "Eventos"
+    },
+    "health": {
+      "missingCapacities": "Capacidades Faltantes",
+      "missingDescription": "Según los criterios de filtro actuales, los siguientes arquetipos faltan por completo en el sistema (en esta área). Estos son \"puntos ciegos\" y debilidades sistémicas.",
+      "allPresent": "¡Todos los arquetipos están presentes en el ecosistema! ✅",
+      "visibleElements": "Elementos visibles: {{count}}",
+      "visibleLinks": "Enlaces visibles: {{count}}"
+    },
+    "errorLoading": "Error al cargar el mapa",
+    "description": "Explora relaciones, capacidades y puntos ciegos del ecosistema."
+  }
+}

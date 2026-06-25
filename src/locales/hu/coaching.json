@@ -1,0 +1,198 @@
+{
+  "title": "Coaching",
+  "subtitle": "A coaching strukturált vizsgálódás — nem mentorálás, nem terápia, nem tanácsadás. A coach teret tart neked, hogy megtaláld a saját következő lépésedet. Az összekapcsolás itt csak stílust és formátumot használ; a szakterületi tudás a mentoráláshoz tartozik.",
+  "nav": {
+    "find": "Coach keresése",
+    "offer": "Coaching ajánlása",
+    "engagements": "Együttműködéseim"
+  },
+  "distinction": "A coached nem mondja meg, mit tegyél — segít megtalálni, amit már tudsz. Nincs tanácsadás; a témabeli vagy szakterületi tudás a mentoráláshoz tartozik, nem a coachinghoz.",
+  "overview": {
+    "stylePrompt": "Milyen a coaching stílusod?",
+    "styleDescription": "Ha vizsgálódásban tartasz embereket — szókratikus, szomatikus, kihívás-alapú vagy más módon — ajánld fel itt.",
+    "offerButton": "Coaching ajánlása",
+    "requestButton": "Coaching kérése",
+    "browseCoaches": "Coachok böngészése",
+    "browseDescription": "Keress coachokat csak stílus és formátum szerint. Ha szakterületi tudásra van szükséged, használd a mentorálást.",
+    "myEngagements": "Együttműködéseim",
+    "engagementsDescription": "Tekintsd meg az aktív és befejezett coaching együttműködéseket. Írd meg az ív-reflexiót befejezéskor.",
+    "myRequests": "Kéréseim",
+    "myRequestsDescription": "Tekintsd meg és vonj vissza függő coaching kéréseket.",
+    "incomingRequests": "Beérkező kérések",
+    "incomingRequestsDescription": "Böngészd az nyitott coaching kéréseket és fogadd el őket coachként.",
+    "howItWorks": "Hogyan működik a coaching egyeztetés",
+    "howItWorksItems": {
+      "matching": "Az összekapcsolás csak stílus- és formátumilleszkedésen alapul; a szakterületi tudás a mentoráláshoz tartozik",
+      "accept": "A coachok elfogadják a kéréseket; az együttműködés ezután aktívvá válik",
+      "noRatings": "Nincsenek értékelések. A coachee ír egy reflexiót; a coach hozzáadhat egy megfigyelést (nem értékelést)",
+      "availability": "A RESTING vagy REFLECTING elérhetőségű coachok nem jelennek meg a böngészőben"
+    }
+  },
+  "find": {
+    "title": "Coach Keresése",
+    "subtitle": "Fedezd fel az elérhető coachokat.",
+    "filters": {
+      "style": "Coaching stílus",
+      "format": "Formátum",
+      "arcLength": "Ív hossza"
+    },
+    "empty": "Nincs a szűrőknek megfelelő coaching ajánlat.",
+    "noOffers": "Jelenleg nincsenek elérhető coaching ajánlatok. Nézz vissza később.",
+    "loading": "Ajánlatok betöltése..."
+  },
+  "offer": {
+    "create": "Coaching Ajánlat Létrehozása",
+    "edit": "Ajánlat szerkesztése",
+    "new": "Új ajánlat",
+    "style": "Coaching stílus (pl. szókratikus, szomatikus, szisztémikus)",
+    "format": "Formátum",
+    "arcLengthOption": "Ív hossza lehetőségek",
+    "availability": "Elérhetőség",
+    "coacheeKnow": "Mit tudjon a coachee, mielőtt elkezdünk",
+    "stylePlaceholder": "pl. szókratészi, reflexív, kihívás-alapú",
+    "formatPlaceholder": "pl. 1:1 videó, aszinkron szöveg, hibrid",
+    "arcLengthPlaceholder": "pl. 4 ülés, 3 hónap",
+    "availabilityPlaceholder": "pl. 2 hely/hónap",
+    "coacheeKnowPlaceholder": "Mit tudjon a coachee, mielőtt jelentkezik?",
+    "updated": "Coaching ajánlat frissítve!",
+    "createdSuccess": "Coaching ajánlat sikeresen létrehozva!",
+    "saving": "Mentés…",
+    "pageTitle": "Coaching ajánlása",
+    "pageDescription": "Írd le a coaching stílusodat, formátumot és elérhetőséget.",
+    "editPageTitle": "Coaching ajánlat szerkesztése",
+    "editPageDescription": "Frissítsd a coaching ajánlatod részleteit.",
+    "backToOffers": "← Vissza az ajánlatokhoz",
+    "backToOffer": "← Vissza az ajánlathoz",
+    "editButton": "Ajánlat szerkesztése",
+    "myOffers": {
+      "title": "Coaching ajánlataim",
+      "empty": "Még nem hoztál létre coaching ajánlatot."
+    },
+    "detail": {
+      "title": "Coaching ajánlat",
+      "coach": "Coach"
+    }
+  },
+  "request": {
+    "create": "Coaching Kérése",
+    "stuckOn": "Miben ragadtál el?",
+    "shiftsWanted": "Milyen változások segítenének?",
+    "formatPreference": "Preferált formátum (opcionális)",
+    "pageTitle": "Coaching kérése",
+    "pageDescription": "Oszd meg, miben ragadtál el és milyen változásokat remélsz.",
+    "detail": {
+      "title": "Coaching kérés",
+      "stuckOn": "Miben ragadtam el",
+      "shiftsWanted": "Várt változások",
+      "formatPreference": "Formátum preferencia",
+      "requester": "Kérő"
+    },
+    "backToConnections": "← Vissza az együttműködésekhez",
+    "stuckOnLabel": "Elakadás",
+    "shiftsWantedLabel": "Kívánt változások",
+    "formatPreferenceLabel": "Formátum preferencia"
+  },
+  "myRequests": {
+    "title": "Coaching kéréseim",
+    "subtitle": "Függő coaching kéréseid. Vonj vissza egy kérést, ha már nincs rá szükséged.",
+    "empty": "Nincs függő coaching kérésed.",
+    "cardTitle": "Coaching kérés",
+    "withdraw": "Visszavonás",
+    "withdrawConfirm": "Visszavonjuk ezt a kérést?",
+    "withdrawYes": "Igen, visszavonom",
+    "withdrawPending": "Visszavonás…",
+    "withdrawError": "Nem sikerült visszavonni a kérést."
+  },
+  "requests": {
+    "incomingTitle": "Beérkező coaching kérések",
+    "incomingSubtitle": "Nyitott kérések változáscsinálóktól, akik coachingot keresnek. Fogadj el egy kérést az együttműködés indításához.",
+    "incomingEmpty": "Jelenleg nincs nyitott coaching kérés.",
+    "cardTitle": "Coaching kérés",
+    "acceptButton": "Kérés elfogadása",
+    "acceptPending": "Elfogadás…",
+    "acceptError": "Nem sikerült elfogadni a kérést.",
+    "cancelAccept": "Mégsem",
+    "offerLabel": "Az ajánlatod",
+    "offerPlaceholder": "Válassz egyet az ajánlataid közül",
+    "offerRequired": "Kérjük, válassz ajánlatot",
+    "styleLabel": "Stílus",
+    "stylePlaceholder": "pl. szókratikus, szomatikus",
+    "formatLabel": "Formátum",
+    "formatPlaceholder": "pl. 1:1 videó, hibrid",
+    "arcLengthLabel": "Ív hossza",
+    "arcLengthPlaceholder": "pl. 3 hónap, 4 alkalom",
+    "checkInRhythmLabel": "Találkozás ritmusa (opcionális)",
+    "checkInRhythmPlaceholder": "pl. kéthetente, havonta"
+  },
+  "connections": {
+    "title": "Coaching együttműködéseim",
+    "subtitle": "Kövesd a coaching együttműködéseidet minden szakaszban.",
+    "empty": "Még nincsenek coaching együttműködéseid.",
+    "unknownCoach": "Ismeretlen coach"
+  },
+  "engagement": {
+    "status": {
+      "PENDING": "Függőben",
+      "ACTIVE": "Aktív",
+      "COMPLETE": "Befejezett",
+      "CANCELLED": "Lemondott"
+    },
+    "accept": "Kérés elfogadása",
+    "decline": "Elutasítás",
+    "cancel": "Lemondás",
+    "complete": "Befejezettnek jelölés",
+    "style": "Stílus",
+    "arcLength": "Ív hossza",
+    "checkInRhythm": "Foglalkozások ritmusa"
+  },
+  "feedback": {
+    "coachee": {
+      "title": "Gondolkodj vissza erre a coaching folyamatra",
+      "prompt": "Miben voltál elakadva? Mi változott? Mit tett lehetővé ez az együttműködés?"
+    },
+    "coach": {
+      "title": "Opcionális: mit hozott a coachee a munkába?",
+      "prompt": "Megfigyelés az együttműködés minőségéről — nem a coachee fejlődésének értékelése.",
+      "note": "Ez opcionális."
+    },
+    "submit": "Reflexió beküldése",
+    "publicNote": "Ez a reflexió látható lesz az együttműködés rekordján."
+  },
+  "feedbackForm": {
+    "successMessage": "Reflexió elküldve. Köszönjük.",
+    "yourReflectionLabel": "A te reflexiód",
+    "yourReflectionHint": "Mi változott? Mit tett lehetővé ez az együttműködés?",
+    "yourReflectionPlaceholder": "Oszd meg őszinte reflexiódat erről az együttműködésről…",
+    "minChars": "Minimum {{count}} karakter",
+    "charCount": "{{current}}/{{min}}",
+    "coachObservationLabel": "Coach megfigyelés",
+    "coachObservationHint": "Megfigyelés az együttműködés minőségéről — nem értékelés.",
+    "coachObservationPlaceholder": "Opcionális megfigyelés a coachee részvételéről…",
+    "optional": "opcionális",
+    "submitting": "Küldés…",
+    "submit": "Reflexió beküldése"
+  },
+  "requestForm": {
+    "successMessage": "Coaching kérés elküldve.",
+    "stuckOnLabel": "Miben ragadtál el?",
+    "stuckOnPlaceholder": "Írd le, miben ragadtál el…",
+    "minChars": "Minimum {{min}} karakter ({{current}}/{{min}})",
+    "minCharsShort": "Minimum {{min}} karakter ({{current}}/{{min}})",
+    "shiftsWantedLabel": "Milyen változások segítenének?",
+    "shiftsWantedPlaceholder": "Milyen értelmes változást képzelsz el?",
+    "formatPreferenceLabel": "Preferált formátum",
+    "formatPreferencePlaceholder": "pl. videóhívás, aszinkron e-mail, személyesen",
+    "optional": "opcionális",
+    "submitting": "Küldés…",
+    "submit": "Coaching kérése"
+  },
+  "card": {
+    "by": "Ajánlja",
+    "availabilityLabel": "Elérhetőség: {{availability}}",
+    "viewOffer": "Ajánlat megtekintése",
+    "style": "Stílus",
+    "format": "Formátum",
+    "request": "Coaching kérése"
+  },
+  "anonymous": "Névtelen"
+}

@@ -1,0 +1,262 @@
+{
+  "title": "Lienzo de Flujo de Energía",
+  "subtitle": "Mapear dinámicas de poder y flujos de energía en sistemas sociales",
+  "newCanvas": "Nuevo lienzo",
+  "noCanvasesYet": "Aún no hay lienzos de energía. Crea tu primer lienzo para comenzar a mapear.",
+  "patternLibrary": "Biblioteca de Patrones",
+  "backToCanvases": "Volver a lienzos",
+  "allCanvases": "← Todos los lienzos",
+  "definition": "Definición",
+  "mechanism": "Mecanismo",
+  "newEnergyCanvas": "Nuevo Lienzo de Energía",
+  "addEntity": "Añadir Entidad | Lienzo de Energía",
+  "backToCanvas": "Volver al lienzo",
+  "scale": {
+    "planetary": "Planetario / Internacional",
+    "supranational": "Supranacional / Bloque Regional",
+    "national": "Nacional",
+    "state": "Estatal / Regional",
+    "bioregional": "Bioregional",
+    "community": "Comunitario",
+    "local": "Local / Grupo"
+  },
+  "entityType": {
+    "individual": "Individuo",
+    "household": "Hogar",
+    "workingGroup": "Grupo de Trabajo",
+    "community": "Comunidad",
+    "institution": "Institución",
+    "corporation": "Corporación",
+    "norm": "Norma",
+    "commons": "Bienes Comunes",
+    "infrastructure": "Infraestructura",
+    "narrative": "Narrativa",
+    "bioregion": "Bioregión",
+    "nation": "Nación",
+    "treatyBody": "Organismo del Tratado"
+  },
+  "energyState": {
+    "extractive": "Extractivo",
+    "regenerative": "Regenerativo",
+    "neutral": "Neutral",
+    "contested": "Disputado",
+    "depleted": "Agotado",
+    "captured": "Capturado"
+  },
+  "systemState": {
+    "regenerating": "Regenerando",
+    "stable": "Estable",
+    "depleting": "Agotando",
+    "collapsing": "Colapsando",
+    "contested": "Disputado"
+  },
+  "panel": {
+    "systemEnergy": "Estado Energético del Sistema",
+    "flowBreakdown": "Desglose de Flujos",
+    "extractiveFlows": "Flujos Extractivos",
+    "regenerativeFlows": "Flujos Regenerativos",
+    "netEnergy": "Dirección de Energía Neta",
+    "dataQuality": "Calidad de Datos",
+    "depletionChains": "Cadenas de Agotamiento",
+    "regenerativePockets": "Bolsillos Regenerativos",
+    "scorecard": "Tarjeta de Energía"
+  },
+  "pattern": {
+    "detectedPatterns": "Patrones Detectados",
+    "confidence": {
+      "strong": "Señal Fuerte",
+      "possible": "Posible",
+      "worthExamining": "Vale la Pena Examinar"
+    },
+    "threshold": {
+      "strict": "Estricto",
+      "standard": "Estándar",
+      "exploratory": "Exploratorio"
+    }
+  },
+  "layer": {
+    "formalPower": "Poder Formal",
+    "informalBypass": "Informal / Bypass",
+    "energyFlows": "Flujos de Energía",
+    "informationFlows": "Flujos de Información",
+    "counterFlows": "Contracorrientes / Resistencia",
+    "frictionPoints": "Puntos de Fricción",
+    "invisibleNorms": "Normas Invisibles",
+    "detectedPatterns": "Patrones Detectados"
+  },
+  "export": {
+    "pdf": "Exportar PDF",
+    "json": "Exportar JSON",
+    "svg": "Exportar SVG",
+    "markdown": "Exportar Markdown"
+  },
+  "privacy": {
+    "onlyMe": "Solo yo",
+    "myCommunity": "Mi comunidad",
+    "public": "Público"
+  },
+  "contextMenu": {
+    "entityType": "Tipo de Entidad",
+    "energyState": "Estado Energético"
+  },
+  "editSidebar": {
+    "editEntity": "Editar Entidad",
+    "saving": "Guardando…",
+    "label": "Etiqueta",
+    "name": "Nombre",
+    "namePlaceholder": "Nombre o etiqueta",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Añadir una descripción…",
+    "youtubeUrl": "URL de YouTube o ID del video",
+    "latLngCoordinates": "Coordenadas Lat, Lng",
+    "youtubeUrlPlaceholder": "https://youtube.com/watch?v=...",
+    "latLngPlaceholder": "47.4979, 19.0402",
+    "energyState": "Estado Energético",
+    "type": "Tipo",
+    "scaleBand": {
+      "planetary": "Planetario / Internacional",
+      "supranational": "Supranacional / Regional",
+      "national": "Nacional",
+      "stateRegional": "Estatal / Regional",
+      "bioregional": "Bioregional",
+      "community": "Comunitario",
+      "localGroup": "Local / Grupo"
+    },
+    "deleteConfirm": "¿Eliminar esta entidad?",
+    "delete": "Eliminar"
+  },
+  "canvasForm": {
+    "createTitle": "Crear Nuevo Lienzo de Energía",
+    "titleLabel": "Título",
+    "titlePlaceholder": "ej., Dinámica de Poder del Jardín Comunitario",
+    "descriptionOptional": "Descripción (opcional)",
+    "descriptionPlaceholder": "¿Qué sistema estás mapeando?",
+    "privacyLabel": "Privacidad",
+    "privacyPlaceholder": "Seleccionar nivel de privacidad",
+    "privacyNote": "Nota: Las etiquetas de rol que ingreses pueden aparecer en el lienzo. Evita nombres personales.",
+    "creating": "Creando…",
+    "createCanvas": "Crear Lienzo",
+    "cancel": "Cancelar",
+    "createFailed": "Error al crear el lienzo"
+  },
+  "canvas": {
+    "newEntityType": "Nuevo {{type}}",
+    "invalidYoutubeUrl": "No hay URL de YouTube válida",
+    "enterCoordinates": "Introduce coordenadas lat,lng",
+    "saving": "Guardando…",
+    "viewOnly": "Solo ver",
+    "toolbar": {
+      "select": "Seleccionar",
+      "text": "Texto",
+      "stickyNote": "Nota adhesiva",
+      "connect": "Conectar",
+      "youtubeEmbed": "Insertar YouTube",
+      "osmMapEmbed": "Insertar mapa OSM",
+      "zoomIn": "Acercar",
+      "zoomOut": "Alejar",
+      "resetView": "Restablecer vista",
+      "help": "Ayuda"
+    },
+    "help": {
+      "title": "Controles",
+      "rightClick": "Clic derecho",
+      "rightClickDesc": "para añadir entidad",
+      "doubleClick": "Doble clic",
+      "doubleClickDesc": "para renombrar",
+      "space": "Espacio",
+      "spaceDesc": "+ arrastrar para desplazar",
+      "scroll": "Desplazar",
+      "scrollDesc": "para zoom",
+      "drag": "Arrastrar",
+      "dragDesc": "borde de banda para redimensionar",
+      "undo": "deshacer",
+      "redo": "rehacer",
+      "delete": "Eliminar",
+      "deleteDesc": "eliminar entidad seleccionada"
+    },
+    "hint": {
+      "clickToAddText": "Haz clic para añadir texto",
+      "clickToAddStickyNote": "Haz clic para añadir nota adhesiva",
+      "clickTargetEntity": "Haz clic en la entidad destino para conectar",
+      "clickSourceEntity": "Haz clic en la entidad origen",
+      "clickToPlaceYoutube": "Haz clic para colocar insertar YouTube",
+      "clickToPlaceOsm": "Haz clic para colocar insertar OpenStreetMap"
+    },
+    "flow": {
+      "extractive": "Extractivo",
+      "generative": "Generativo",
+      "captured": "Capturado",
+      "diverted": "Desviado",
+      "unknown": "Desconocido"
+    },
+    "linkModal": {
+      "createRelation": "Crear Relación",
+      "flow": "flujo",
+      "connect": "Conectar",
+      "cancel": "Cancelar"
+    },
+    "widgetModal": {
+      "youtubeVideo": "Video de YouTube",
+      "openStreetMap": "OpenStreetMap",
+      "pasteYoutubeUrl": "Pega URL de YouTube o ID del video",
+      "enterCoordinates": "Ingresa coordenadas lat,lng (ej. 47.5, 19.0)",
+      "youtubePlaceholder": "https://youtube.com/watch?v=...",
+      "osmPlaceholder": "47.4979, 19.0402",
+      "add": "Añadir",
+      "cancel": "Cancelar"
+    },
+    "scale": {
+      "planetary": "Planetario / Internacional",
+      "supranational": "Supranacional / Regional",
+      "national": "Nacional",
+      "stateRegional": "Estatal / Regional",
+      "bioregional": "Bioregional",
+      "community": "Comunitario",
+      "localGroup": "Local / Grupo"
+    }
+  },
+  "form": {
+    "roleLabel": "Etiqueta de Rol",
+    "roleLabelHint": "Usar rol/función, no nombre personal",
+    "entityType": "Tipo de Entidad",
+    "primaryScale": "Escala Primaria",
+    "energyState": "Estado Energético",
+    "scaleBand": "Banda de Escala",
+    "numericValue": "Valor Numérico",
+    "numericUnit": "Unidad",
+    "notes": "Notas",
+    "notesHint": "Notas internas sobre esta entidad"
+  },
+  "entityForm": {
+    "addEntityTo": "Añadir Entidad a {{title}}",
+    "privacyNote": "Nota: Las etiquetas de rol que ingreses pueden aparecer en el lienzo. Evita nombres personales.",
+    "roleLabel": "Etiqueta de Rol",
+    "roleLabelPlaceholder": "ej., Facilitador, Coordinador",
+    "roleLabelHint": "Usar rol/función, no nombre personal",
+    "entityType": "Tipo de Entidad",
+    "selectType": "Seleccionar tipo",
+    "primaryScale": "Escala Primaria",
+    "selectScale": "Seleccionar escala",
+    "energyState": "Estado Energético",
+    "selectState": "Seleccionar estado",
+    "scaleBand": "Banda de Escala",
+    "numericValue": "Valor Numérico",
+    "numericValuePlaceholder": "ej., 100",
+    "unit": "Unidad",
+    "unitPlaceholder": "ej., kWh, personas",
+    "notes": "Notas",
+    "notesPlaceholder": "Notas internas sobre esta entidad",
+    "addEntity": "Añadir Entidad",
+    "adding": "Añadiendo…",
+    "cancel": "Cancelar",
+    "createFailed": "Error al crear la entidad"
+  },
+  "patterns": {
+    "subtitle": "Patrones reconocidos en dinámicas de poder y flujos de energía",
+    "empty": "Aún no se han propuesto patrones. Los patrones se agregan mediante contribuciones comunitarias.",
+    "leveragePoints": "Puntos de intervención",
+    "proposedBy": "Propuesto por {{name}}",
+    "unknownProposer": "Anónimo",
+    "proposedByPrefix": "Propuesto por"
+  }
+}

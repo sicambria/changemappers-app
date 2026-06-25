@@ -1,0 +1,338 @@
+{
+  "info": {
+    "description": "Internal and public HTTP API for the Changemappers platform. This spec is generated from the route handlers under src/app/api — run `npm run openapi:generate` after adding or changing a route.",
+    "title": "Changemappers API",
+    "version": "1.0.0"
+  },
+  "openapi": "3.0.0",
+  "paths": {
+    "/api/auth/magic": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET auth magic"
+      }
+    },
+    "/api/auth/reset-password": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET auth reset password"
+      }
+    },
+    "/api/cron/audit-cleanup": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron audit cleanup",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/check-unread": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron check unread",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/community-health": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron community health",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/inactivity-maintenance": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron inactivity maintenance",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/invite-maintenance": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron invite maintenance",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/location-precision-degradation": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron location precision degradation",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/page-visits-cleanup": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron page visits cleanup",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/pending-registration-maintenance": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron pending registration maintenance",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/process-scheduled-deletions": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron process scheduled deletions",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/cron/reflection-reminders": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET cron reflection reminders",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/discovery": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET discovery"
+      }
+    },
+    "/api/entity-image/{type}/{id}": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET entity image type id"
+      }
+    },
+    "/api/gdpr/export": {
+      "get": {
+        "description": "Returns the full GDPR data export for the authenticated user as a JSON download. Rate-limited to at most twice per day.",
+        "responses": {
+          "200": {
+            "description": "GDPR data export (JSON attachment)"
+          },
+          "401": {
+            "description": "Unauthorized — no valid session"
+          },
+          "404": {
+            "description": "Authenticated user not found"
+          },
+          "429": {
+            "description": "Rate limit exceeded (max twice per day)"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        },
+        "summary": "Export user data (GDPR)"
+      }
+    },
+    "/api/health": {
+      "get": {
+        "description": "Returns the application's liveness/readiness, including a database connectivity probe.",
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "properties": {
+                    "status": {
+                      "example": "ok",
+                      "type": "string"
+                    }
+                  },
+                  "type": "object"
+                }
+              }
+            },
+            "description": "Service is healthy"
+          },
+          "503": {
+            "description": "Service unhealthy (e.g. database disconnected) — body { status: \"error\" }"
+          }
+        },
+        "summary": "Health Check"
+      }
+    },
+    "/api/messages/unread-count": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET messages unread count"
+      }
+    },
+    "/api/register/continue": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET register continue"
+      }
+    },
+    "/api/register/full/verify": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET register full verify"
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "POST register full verify"
+      }
+    },
+    "/api/register/verify": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET register verify"
+      },
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "POST register verify"
+      }
+    },
+    "/api/sentry-example-api": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET sentry example api",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/test/cleanup": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "POST test cleanup",
+        "tags": [
+          "internal"
+        ]
+      }
+    },
+    "/api/track-visit": {
+      "post": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "POST track visit"
+      }
+    },
+    "/api/user/export": {
+      "get": {
+        "responses": {
+          "200": {
+            "description": "Successful response"
+          }
+        },
+        "summary": "GET user export"
+      }
+    }
+  },
+  "servers": [
+    {
+      "description": "Development server",
+      "url": "http://localhost:3000"
+    }
+  ]
+}

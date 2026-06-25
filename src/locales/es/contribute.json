@@ -1,0 +1,332 @@
+{
+  "title": "Contribuir",
+  "nav": {
+    "find": "Buscar Contribuciones",
+    "offer": "Ofrecer Contribución",
+    "request": "Solicitar Contribución",
+    "connections": "Mis Conexiones"
+  },
+  "philosophy": "Todos son simultáneamente receptores y dadores. La pregunta no es quién tiene y quién necesita — sino qué llevas ahora, y quién está donde tú ya has estado.",
+  "find": {
+    "title": "Buscar Contribuciones",
+    "subtitle": "Explora lo que la gente lleva que alguien más necesita.",
+    "filters": {
+      "type": "Tipo de contribución",
+      "domain": "Área"
+    },
+    "empty": "No hay ofertas de contribución que coincidan con tus filtros.",
+    "loading": "Cargando ofertas...",
+    "health": "Salud de contribución comunitaria"
+  },
+  "types": {
+    "SKILL_OFFERING": "Oferta de habilidad",
+    "ACCOMPANIMENT": "Acompañamiento",
+    "KNOWLEDGE_COMMONS": "Bienes comunes de conocimiento",
+    "HOLDING_SPACE": "Sostener el espacio"
+  },
+  "typeDescriptions": {
+    "SKILL_OFFERING": "Una capacidad específica, desplegable ahora",
+    "ACCOMPANIMENT": "Caminar junto a alguien a través de un proceso que ya has navegado",
+    "KNOWLEDGE_COMMONS": "Documentar algo para reutilización futura — asíncrono, bajo umbral",
+    "HOLDING_SPACE": "Apoyo emocional entre pares"
+  },
+  "offer": {
+    "create": "Crear Oferta de Contribución",
+    "edit": "Editar Oferta",
+    "type": "Tipo de contribución",
+    "domain": "Área (opcional)",
+    "timeCommitment": "Compromiso de tiempo",
+    "format": "Formato",
+    "availability": "Disponibilidad",
+    "prerequisites": "Qué debe ser verdad antes de que aceptes una solicitud (opcional)",
+    "targetAudience": "Público Objetivo",
+    "impactType": "Tipo de Impacto"
+  },
+  "targetAudience": {
+    "INDIVIDUALS": "Individuos",
+    "COMMUNITIES": "Comunidades",
+    "NGOS": "ONGs",
+    "SCHOOLS": "Escuelas",
+    "PUBLIC_INSTITUTIONS": "Instituciones Públicas",
+    "BUSINESSES": "Empresas",
+    "POLICYMAKERS": "Tomadores de Decisiones",
+    "RESEARCHERS": "Investigadores",
+    "OTHER": "Otro"
+  },
+  "impactType": {
+    "DIRECT_SERVICE": "Servicio Directo",
+    "CAPACITY_BUILDING": "Desarrollo de Capacidades",
+    "SYSTEMIC_CHANGE": "Cambio Sistémico",
+    "AWARENESS_RAISING": "Sensibilización",
+    "RESEARCH_DOCUMENTATION": "Investigación y Documentación",
+    "NETWORK_BUILDING": "Construcción de Redes",
+    "POLICY_INFLUENCE": "Influencia en Políticas",
+    "RESOURCE_CREATION": "Creación de Recursos",
+    "OTHER": "Otro"
+  },
+  "request": {
+    "create": "Crear Solicitud de Contribución",
+    "type": "¿Qué tipo de contribución necesitas?",
+    "whatNeeded": "¿Qué necesitas?",
+    "alreadyTried": "¿Qué has intentado ya? (opcional)",
+    "willDoWith": "¿Qué harás con lo que recibas? (opcional — no un requisito, una señal)"
+  },
+  "connection": {
+    "status": {
+      "PENDING": "Pendiente",
+      "ACTIVE": "Activo",
+      "COMPLETED": "Completado",
+      "CANCELLED": "Cancelado"
+    },
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "cancel": "Cancelar",
+    "complete": "Marcar como completo"
+  },
+  "feedback": {
+    "title": "Reflexiona sobre esta contribución",
+    "prompt": "¿Qué pasó? ¿Qué recibiste? ¿Qué aportaste? ¿Qué cambió?",
+    "required": "La reflexión es requerida para completar esta conexión.",
+    "submit": "Enviar reflexión",
+    "publicNote": "Esta reflexión vive en el registro de la conexión — no en el perfil de ninguna de las partes."
+  },
+  "forwardReciprocity": {
+    "title": "¿Qué llevas ahora que alguien más necesita?",
+    "body": "Has recibido algo de valor. El siguiente paso: ofrece algo a alguien que está donde tú estabas.",
+    "createOffer": "Crear una oferta"
+  },
+  "health": {
+    "title": "Salud de contribución comunitaria",
+    "delivering": "Entregando",
+    "building": "Construyendo",
+    "between": "Entre proyectos",
+    "reflecting": "Reflexionando",
+    "resting": "Descansando",
+    "alert": "Menos del 15% de los miembros están en reflexión o descanso. La comunidad puede estar agotando a sus contribuyentes.",
+    "members": "miembros"
+  },
+  "card": {
+    "by": "Ofrecido por",
+    "type": "Tipo",
+    "time": "Tiempo",
+    "request": "Solicitar esta contribución"
+  },
+  "landing": {
+    "title": "¿Qué llevas ahora que alguien más necesita?",
+    "subtitle": "La contribución fluye en todas direcciones. Ofrece lo que tienes, pide lo que necesitas, o encuentra a alguien que ya lo está ofreciendo.",
+    "offerCard": {
+      "title": "Ofrecer algo",
+      "description": "Comparte una habilidad, conocimiento o tu presencia con la comunidad."
+    },
+    "requestCard": {
+      "title": "Solicitar apoyo",
+      "description": "Sé honesto sobre lo que necesitas. Alguien ahí fuera lo tiene."
+    },
+    "browseCard": {
+      "title": "Explorar ofertas",
+      "description": "Mira lo que la comunidad ya está ofreciendo."
+    },
+    "viewConnections": "Ver mis conexiones",
+    "contributionSection": {
+      "title": "Intercambio de contribuciones",
+      "subtitle": "Ofrece lo que llevas, solicita lo que necesitas, explora ofertas disponibles o da seguimiento a conexiones activas."
+    },
+    "volunteerSection": {
+      "title": "Oportunidades de voluntariado",
+      "subtitle": "Encuentra lugares concretos donde ayudar o publica una solicitud de voluntariado sin mezclar filtros de voluntariado con ofertas de contribución."
+    },
+    "connectionsCard": {
+      "title": "Ver conexiones",
+      "description": "Sigue conexiones de contribución activas y completa reflexiones."
+    },
+    "myRequestsCard": {
+      "title": "Mis solicitudes",
+      "description": "Ver y retirar tus solicitudes de contribución pendientes."
+    },
+    "volunteerBrowseCard": {
+      "title": "Explorar oportunidades de voluntariado",
+      "description": "Explora solicitudes de voluntariado publicadas por área, formato y compromiso."
+    },
+    "volunteerPostCard": {
+      "title": "Publicar solicitud de voluntariado",
+      "description": "Crea una oportunidad estructurada para personas que quieren ayudar."
+    }
+  },
+  "browse": {
+    "title": "Explorar Ofertas",
+    "count": "{{count}} contribución disponible",
+    "count_plural": "{{count}} contribuciones disponibles",
+    "empty": "Aún no hay ofertas disponibles. Sé el primero en contribuir.",
+    "offerSomething": "Ofrecer algo",
+    "connect": "Conectar"
+  },
+  "connections": {
+    "title": "Mis Conexiones",
+    "empty": "Aún no hay conexiones. Explora ofertas para comenzar.",
+    "offerBy": "Oferta de {{name}}",
+    "requestedBy": "Solicitada por {{name}}",
+    "addReflection": "Añade una reflexión pública para marcar esta conexión como completa.",
+    "messagePartner": "Enviar mensaje"
+  },
+  "newOffer": {
+    "title": "Publicar una oferta de contribución",
+    "subtitle": "Describe lo que llevas y a quién podría servir."
+  },
+  "editOffer": {
+    "title": "Editar Oferta de Contribución",
+    "subtitle": "Actualiza los detalles de tu oferta de contribución."
+  },
+  "myOffers": {
+    "title": "Mis Ofertas de Contribución",
+    "newOffer": "Nueva Oferta",
+    "empty": "Aún no has creado ninguna oferta de contribución.",
+    "noDomain": "Sin área"
+  },
+  "metadata": {
+    "newRequest": {
+      "title": "Solicitar Apoyo",
+      "description": "Pide a la comunidad la contribución, habilidad o acompañamiento que necesitas ahora."
+    },
+    "newOffer": {
+      "title": "Ofrecer una Contribución",
+      "description": "Comparte lo que llevas y cómo podría servir a otros."
+    },
+    "myOffers": {
+      "title": "Mis Ofertas de Contribución"
+    },
+    "detailOffer": {
+      "title": "Oferta de Contribución"
+    },
+    "editOffer": {
+      "title": "Editar Oferta de Contribución"
+    }
+  },
+  "anonymous": "Anónimo",
+  "newRequest": {
+    "title": "Solicitar Apoyo",
+    "subtitle": "Sé honesto sobre lo que necesitas. Alguien ahí fuera lleva exactamente eso."
+  },
+  "detailOffer": {
+    "backToOffers": "Volver a ofertas",
+    "editOffer": "Editar oferta",
+    "prerequisites": "Prerrequisitos",
+    "contributor": "Contribuidor"
+  },
+  "form": {
+    "genericError": "Algo salió mal. Inténtalo de nuevo.",
+    "searchPlaceholder": "Buscar...",
+    "noOptionsFound": "No se encontraron opciones.",
+    "domainLabel": "Área",
+    "domainPlaceholder": "Selecciona un área RDG...",
+    "targetAudiencePlaceholder": "Selecciona público objetivo...",
+    "impactTypePlaceholder": "Selecciona tipo de impacto...",
+    "typeQuestion": "¿Qué tipo de contribución estás ofreciendo?",
+    "typeHint": "Elige la naturaleza de lo que traes.",
+    "typeOptions": {
+      "SKILL_OFFERING": {
+        "label": "Oferta de habilidad",
+        "description": "Comparte una habilidad práctica o experiencia que has desarrollado."
+      },
+      "ACCOMPANIMENT": {
+        "label": "Acompañamiento",
+        "description": "Camina junto a alguien a través de un proceso o desafío."
+      },
+      "KNOWLEDGE_COMMONS": {
+        "label": "Bienes comunes de conocimiento",
+        "description": "Aporta conocimiento libremente a un recurso compartido."
+      },
+      "HOLDING_SPACE": {
+        "label": "Sostener el espacio",
+        "description": "Ofrece una presencia segura y de apoyo para el proceso de alguien."
+      }
+    },
+    "domainQuestion": "Área o foco",
+    "domainHint": "¿A qué campo o causa se relaciona esta contribución?",
+    "whoServesQuestion": "¿A quién sirve esto?",
+    "whoServesHint": "Ayuda a otros a entender quién se beneficia de tu contribución.",
+    "logisticsQuestion": "¿Cómo funciona en la práctica?",
+    "logisticsHint": "Ayuda a las personas a entender cómo es trabajar contigo.",
+    "timeCommitmentSuggestions": [
+      "1-2 horas/mes",
+      "2-4 horas/mes",
+      "1 hora/semana",
+      "2-3 horas/semana",
+      "Medio día al mes",
+      "Un día completo",
+      "Flexible / según necesidad",
+      "Continuo, sin horas fijas"
+    ],
+    "timeCommitmentPlaceholder": "p. ej. 2-4 horas/mes",
+    "timeCommitmentHint": "¿Cuánto tiempo tomará de la otra persona?",
+    "formatSuggestions": [
+      "Remoto (videollamadas)",
+      "Asíncrono (escrito, correo)",
+      "Presencial",
+      "Híbrido (remoto + presencial)",
+      "Sesiones grupales",
+      "Sesiones 1 a 1",
+      "Recursos escritos y retroalimentación",
+      "Taller o retiro"
+    ],
+    "formatPlaceholder": "p. ej. Remoto (videollamadas)",
+    "formatHint": "¿Cómo se entregará la contribución?",
+    "availabilityLabel": "Tu disponibilidad",
+    "availabilitySuggestions": [
+      "Mañanas entre semana",
+      "Tardes entre semana",
+      "Noches entre semana",
+      "Fines de semana",
+      "Horario flexible",
+      "Solo con cita previa",
+      "Fechas específicas por definir"
+    ],
+    "availabilityPlaceholder": "p. ej. Noches entre semana",
+    "availabilityHint": "¿Cuándo estás generalmente disponible para esto?",
+    "prereqsQuestion": "¿Hay requisitos para los participantes?",
+    "prereqsHint": "Opcional — déjalo en blanco si todos son bienvenidos.",
+    "prereqsLabel": "Prerrequisitos",
+    "prerequisitesPlaceholder": "p. ej. Familiaridad básica con pensamiento sistémico, apertura a la práctica reflexiva...",
+    "postOffer": "Publicar oferta",
+    "updateOffer": "Actualizar oferta",
+    "saving": "Guardando…",
+    "successCreated": "¡Oferta de contribución creada!",
+    "successUpdated": "¡Oferta de contribución actualizada!",
+    "redirecting": "Redirigiendo ahora…",
+    "fillRequired": "Por favor completa el compromiso de tiempo, formato y disponibilidad para continuar."
+  },
+  "requestForm": {
+    "successTitle": "Tu solicitud ha sido enviada.",
+    "successBody": "Explora las ofertas para encontrar a alguien que pueda ayudarte.",
+    "typeLabel": "Tipo de apoyo que necesitas",
+    "whatNeededPlaceholder": "Describe con precisión lo que buscas y por qué importa.",
+    "minimumChars": "Mínimo 20 caracteres",
+    "minCount": "{{count}}/20 mín.",
+    "alreadyTriedPlaceholder": "El contexto ayuda a los contribuyentes a entender desde dónde empiezas.",
+    "willDoWithLabel": "¿Qué harás con esto?",
+    "willDoWithHint": "opcional — no es un filtro",
+    "willDoWithPlaceholder": "Compartir tu intención ayuda a los contribuyentes a decidir si encajan bien.",
+    "submit": "Enviar solicitud",
+    "submitting": "Enviando…"
+  },
+  "myRequests": {
+    "title": "Mis Solicitudes de Contribución",
+    "subtitle": "Tus solicitudes de contribución pendientes. Retira una solicitud si ya no la necesitas.",
+    "empty": "No tienes solicitudes de contribución pendientes.",
+    "cardTitle": "Solicitud {{type}}",
+    "whatNeededLabel": "Qué se necesita",
+    "alreadyTriedLabel": "Ya intentado",
+    "willDoWithLabel": "Lo que haré con ello",
+    "withdraw": "Retirar",
+    "withdrawConfirm": "¿Retirar esta solicitud?",
+    "withdrawYes": "Sí, retirar",
+    "withdrawPending": "Retirando…",
+    "withdrawError": "No se pudo retirar la solicitud."
+  },
+  "common": {
+    "optional": "opcional"
+  },
+  "offerCard": {
+    "formatLabel": "Formato:",
+    "timeLabel": "Tiempo:"
+  }
+}

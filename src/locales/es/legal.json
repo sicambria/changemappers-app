@@ -1,0 +1,403 @@
+{
+  "privacy": {
+    "metadata": {
+      "title": "Politica de privacidad | Changemappers",
+      "description": "Como Changemappers recopila, usa, protege y elimina datos personales."
+    },
+    "title": "Politica de privacidad",
+    "effective": "Fecha de entrada en vigor: 2026-06-04 | Version: 1.8",
+    "backHome": "Volver al inicio",
+    "sections": [
+      {
+        "heading": "1. Quien controla tus datos",
+        "paragraphs": [
+          "Changemappers esta controlado por Incze Gaspar, una persona fisica con sede en Hungria. Changemappers no es actualmente una empresa, fundacion, asociacion ni otra organizacion constituida. Para preguntas, solicitudes o inquietudes de privacidad, escribe a changemappers@pm.me. Si la entrega de email no funciona, usa el boton Feedback dentro de la app y empieza el mensaje con \"solicitud de privacidad\" o \"incidente sospechado\" para que el operador lo tramite como una solicitud de derechos de privacidad."
+        ]
+      },
+      {
+        "heading": "2. Nuestro enfoque de privacidad",
+        "paragraphs": [
+          "Changemappers esta disenado como una plataforma comunitaria centrada en la privacidad. Recopilamos solo los datos necesarios para cuentas, funciones comunitarias, controles de seguridad y fiabilidad del servicio. No vendemos datos personales, no creamos perfiles publicitarios y no usamos rastreadores de marketing de terceros."
+        ]
+      },
+      {
+        "heading": "3. Datos que recopilamos",
+        "bullets": [
+          "Datos de cuenta: correo electronico, nombre visible, datos de autenticacion e informacion basica de perfil.",
+          "Datos de perfil y comunidad: ubicacion, nivel de precision, visibilidad en mapa, pronombres, biografia, habilidades, valores, intereses, intenciones, disponibilidad, causas, foco RDG y participacion comunitaria que decidas aportar.",
+          "Datos de activacion de matching: roles, ofertas, necesidades o bordes de aprendizaje, disponibilidad e indicadores de intencion o limites cuando permites recomendaciones.",
+          "Datos sensibles autodeclarados: campos opcionales o contenido pueden revelar datos de categoria especial bajo RGPD. No los exigimos y usamos consentimiento explicito cuando corresponde.",
+          "Contenido de usuario: publicaciones, comentarios, mensajes, eventos, mapas, entradas de canvas, feedback, contenido de coaching o sesiones, reportes y otros contenidos que creas.",
+          "Preferencias: ajustes de privacidad, consentimientos, preferencias de comunicacion y controles especificos de funciones.",
+          "Datos tecnicos: IP, navegador, dispositivo, logs de seguridad, telemetria de errores y eventos de uso necesarios para estabilidad y seguridad."
+        ]
+      },
+      {
+        "heading": "4. Cookies y almacenamiento local",
+        "paragraphs": [
+          "Usamos cookies esenciales, almacenamiento local y almacenamiento de sesion para sesiones de acceso, continuacion de registro, preferencias de idioma/tema, consentimiento de cookies, recuperacion de borradores, historial de deshacer y deduplicacion de analitica una vez por sesion. Las cookies temporales de continuacion de registro son HttpOnly, no contienen tu contrasena ni respuestas de perfil y se eliminan al completar o vencer el registro. La analitica opcional solo se ejecuta tras consentimiento y su clave de deduplicacion del navegador se borra cuando se retira el consentimiento de analitica. No usamos cookies de marketing ni seguimiento entre sitios."
+        ]
+      },
+      {
+        "heading": "5. Por que usamos tus datos",
+        "paragraphs": [
+          "Usamos datos personales para crear y administrar cuentas, ofrecer funciones comunitarias, generar recomendaciones explicables, aplicar ajustes de privacidad y seguridad, prevenir abuso, responder soporte y mejorar fiabilidad. Las bases legales pueden incluir consentimiento, ejecucion del contrato, intereses legitimos en seguridad y operacion, y obligaciones legales."
+        ]
+      },
+      {
+        "heading": "6. Alojamiento y encargados",
+        "paragraphs": [
+          "Usamos Hetzner para alojamiento, Upstash Redis para rate limits, Sentry opcional para errores y monitoreo, Brevo para correo transaccional, Cloudflare para DNS, cache, seguridad y proteccion de red, y Mailgun solo si se adopta mas adelante. Para transferencias fuera del EEE usamos DPAs de proveedores y Clausulas Contractuales Tipo cuando sean necesarias."
+        ]
+      },
+      {
+        "heading": "7. Comparticion y divulgacion",
+        "paragraphs": [
+          "No vendemos datos personales. Compartimos datos solo cuando es necesario para prestar el servicio, cumplir la ley, proteger usuarios o la plataforma, o respetar tus decisiones de visibilidad. El contenido publico y los campos publicos del perfil pueden ser visibles segun tus ajustes."
+        ]
+      },
+      {
+        "heading": "8. Contribuciones publicas y datos abiertos",
+        "paragraphs": [
+          "Algunas areas de Changemappers estan pensadas para aprendizaje y mapeo de interes publico. Si haces publica una contribucion, puede mostrarse publicamente e incluirse en conjuntos agregados o abiertos para impacto social."
+        ]
+      },
+      {
+        "heading": "9. Retencion",
+        "paragraphs": [
+          "Conservamos datos personales mientras tu cuenta este activa o mientras sean necesarios para los fines de esta politica. El uso autenticado actualiza la actividad de la cuenta. Tras 180 dias sin actividad marcamos el perfil como inactivo y mantenemos una ventana de exportacion de 30 dias. Si no hay actividad durante esa ventana, la cuenta y los datos personales se eliminan 210 dias despues de la ultima actividad. Los logs de seguridad y tecnicos se eliminan o anonimizan tras 90 dias salvo que un motivo de abuso, seguridad o legal requiera mas tiempo."
+        ]
+      },
+      {
+        "heading": "10. Eliminacion de cuenta",
+        "paragraphs": [
+          "Puedes solicitar la eliminacion de la cuenta en cualquier momento. La eliminacion borra o anonimiza datos personales en sistemas activos, salvo retencion limitada por seguridad, cumplimiento legal, copias de seguridad o registros no identificables necesarios para la integridad comunitaria."
+        ]
+      },
+      {
+        "heading": "11. Tus derechos RGPD",
+        "paragraphs": [
+          "Puedes acceder a tus datos, corregir datos inexactos, solicitar eliminacion, restringir u oponerte al tratamiento, retirar consentimiento y recibir una copia portable. Si el RGPD se aplica a ti, tambien puedes presentar una queja ante tu autoridad local.",
+          "Usa primero los controles dentro de la app para editar perfil, privacidad y visibilidad, opt-out de matching, exportacion y eliminacion de cuenta. Escribe a changemappers@pm.me solo para solicitudes no autoservicio. Si la entrega de email no funciona, usa el boton Feedback dentro de la app y empieza el mensaje con \"solicitud de privacidad\". Confirmamos recepcion en 3 dias laborables y respondemos en 30 dias salvo extension permitida."
+        ]
+      },
+      {
+        "heading": "12. Bases legales y mapa de tratamiento",
+        "table": {
+          "headers": [
+            "Actividad",
+            "Finalidad",
+            "Base RGPD"
+          ],
+          "rows": [
+            [
+              "Cuenta e identidad",
+              "Creacion, autenticacion y administracion de la cuenta",
+              "Ejecucion de contrato (6(1)(b))"
+            ],
+            [
+              "Perfil y visibilidad",
+              "Mostrar campos segun tus ajustes",
+              "Contrato; consentimiento para visibilidad publica opcional"
+            ],
+            [
+              "Campos opcionales y preferencias",
+              "Guardar pronombres, bio, habilidades, valores, intereses, causas, intenciones y preferencias",
+              "Consentimiento (6(1)(a))"
+            ],
+            [
+              "Matching y recomendaciones",
+              "Generar recomendaciones opcionales desde perfil y activacion",
+              "Consentimiento; consentimiento explicito si hay categoria especial"
+            ],
+            [
+              "Seguridad y abuso",
+              "Gestion de riesgos y proteccion de plataforma",
+              "Intereses legitimos; obligacion legal"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "13. Retencion por categoria de datos",
+        "table": {
+          "headers": [
+            "Categoria",
+            "Retencion",
+            "Razon"
+          ],
+          "rows": [
+            [
+              "Perfil y ajustes",
+              "Hasta eliminacion o anonimizacion",
+              "Continuidad del servicio"
+            ],
+            [
+              "Logs de auditoria con PII",
+              "90 dias y luego limpieza o decision de retencion",
+              "Trazabilidad y prevencion de fraude"
+            ],
+            [
+              "Logs de visitas",
+              "30 dias",
+              "Seguridad de uso y deteccion de abuso"
+            ],
+            [
+              "Sesiones de refresh token",
+              "Hasta 7 dias o vencimiento",
+              "Seguridad de sesion"
+            ],
+            [
+              "Mensajes directos",
+              "Hasta solicitud de eliminacion o anonimizacion",
+              "Continuidad de comunicacion"
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "14. Seguridad",
+        "paragraphs": [
+          "Usamos TLS, controles de acceso, practicas seguras de autenticacion, monitoreo y otras medidas tecnicas y organizativas. Ningun servicio online puede garantizar seguridad perfecta, pero trabajamos para reducir riesgos y responder rapido."
+        ]
+      },
+      {
+        "heading": "15. Brechas de datos",
+        "paragraphs": [
+          "Si una brecha de datos personales crea alto riesgo para tus derechos o libertades, notificaremos a usuarios afectados y autoridades segun la ley, incluida la ventana RGPD de 72 horas cuando aplique. Los incidentes sospechados deben enviarse a changemappers@pm.me, o por el boton Feedback dentro de la app si la entrega de email no funciona."
+        ]
+      },
+      {
+        "heading": "16. Menores",
+        "paragraphs": [
+          "Changemappers no esta dirigido a menores de 16 anos. El registro exige confirmar que la persona tiene al menos 16 anos. Si crees que un menor nos proporciono datos personales, contacta changemappers@pm.me o usa el boton Feedback dentro de la app si la entrega de email no funciona."
+        ]
+      },
+      {
+        "heading": "17. Cambios en esta politica",
+        "paragraphs": [
+          "Podemos actualizar esta politica cuando Changemappers cambie. Si los cambios son materiales, avisaremos por correo, aviso dentro del producto o aviso claro en el sitio.",
+          "Controles de ubicacion: puedes elegir la precision de ubicacion del perfil y si apareces en el mapa. Las coordenadas exactas son opcionales y la visualizacion en mapa esta desactivada por defecto."
+        ],
+        "table": {
+          "headers": [
+            "Fecha",
+            "Version",
+            "Resumen"
+          ],
+          "rows": [
+            [
+              "2026-06-04",
+              "1.8",
+              "Cambiado el contacto actual de privacidad, derechos, menores e incidentes a changemappers@pm.me, manteniendo Feedback dentro de la app como ruta alternativa si el correo no esta disponible."
+            ],
+            [
+              "2026-06-04",
+              "1.7",
+              "Anadido Feedback dentro de la app como ruta alternativa para solicitudes de derechos de privacidad e incidentes sospechados si la entrega de email no funciona."
+            ],
+            [
+              "2026-06-04",
+              "1.6",
+              "Aclarados claves de almacenamiento del navegador, finalidades, dependencia de consentimiento y borrado."
+            ],
+            [
+              "2026-05-21",
+              "1.5",
+              "Anadida retencion de cuentas inactivas, avisos, ventana de exportacion y calendario de borrado."
+            ],
+            [
+              "2026-05-20",
+              "1.4",
+              "Aclaradas cookies temporales para continuar registro."
+            ],
+            [
+              "2026-05-20",
+              "1.3",
+              "Aclarada confirmacion de edad, precision de ubicacion, mapa y defaults de Sentry."
+            ],
+            [
+              "2026-05-19",
+              "1.2",
+              "Anadido Upstash Redis a encargados."
+            ],
+            [
+              "2026-05-11",
+              "1.1",
+              "Anadidos controles RGPD, flujo de derechos, mapa legal, retencion, brechas y menores."
+            ],
+            [
+              "2026-05-08",
+              "1.0",
+              "Politica publica inicial."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "terms": {
+    "metadata": {
+      "title": "Terminos de uso | Changemappers",
+      "description": "Las reglas y responsabilidades que se aplican al usar Changemappers."
+    },
+    "title": "Terminos de uso",
+    "effective": "Fecha de entrada en vigor: 2026-06-04 | Version: 1.3",
+    "backHome": "Volver al inicio",
+    "sections": [
+      {
+        "heading": "1. Operador",
+        "paragraphs": [
+          "Changemappers es actualmente una plataforma comunitaria independiente y temprana operada por Incze Gaspar, una persona fisica con sede en Hungria. Changemappers no es actualmente una empresa, fundacion, asociacion ni otra organizacion constituida. El operador actua de buena fe, pero los usuarios deben entender que el proyecto no tiene los recursos legales, financieros, de seguridad, soporte u operacion de una organizacion mayor. Preguntas: changemappers@pm.me."
+        ]
+      },
+      {
+        "heading": "2. Alcance",
+        "paragraphs": [
+          "Estos terminos rigen el uso de https://changemappers.org/, aplicaciones relacionadas, funciones comunitarias, herramientas de colaboracion y cualquier otro servicio de Changemappers."
+        ]
+      },
+      {
+        "heading": "3. El servicio",
+        "paragraphs": [
+          "Changemappers es una plataforma comunitaria digital para mapear iniciativas, compartir conocimiento, coordinar colaboracion y apoyar cambio sistemico. Es experimental y limitada en recursos. El servicio se ofrece tal como esta y puede evolucionar, pausarse, degradarse, perder funciones o cambiar."
+        ]
+      },
+      {
+        "heading": "4. Cuentas y responsabilidad",
+        "paragraphs": [
+          "Eres responsable de la informacion que proporcionas, la actividad de tu cuenta y la seguridad de tus credenciales. El registro incluye un perfil de activacion de matching porque las recomendaciones utiles dependen de ofertas, necesidades, causas, roles, disponibilidad y limites precisos. Manten esa informacion razonablemente actualizada y avisa si sospechas acceso no autorizado o abuso."
+        ]
+      },
+      {
+        "heading": "5. Envios de contenido y licencia comun",
+        "paragraphs": [
+          "Conservas la propiedad del contenido que envias. Al enviarlo confirmas que tienes derechos y permisos para compartirlo y que no vulnera privacidad, confidencialidad, derechos de autor, marcas, publicidad, derechos morales u otros derechos de otra persona.",
+          "Las contribuciones publicas de conocimiento se envian bajo la licencia Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0). Otras personas pueden copiar, redistribuir, mezclar, transformar y construir sobre ese contenido, incluso comercialmente, si cumplen la licencia.",
+          "Envia contenido publico comun solo si aceptas esos amplios derechos de reutilizacion. Publica solo informacion que no consideres sensible y que estes dispuesto a que sea copiada, almacenada, indexada, citada o reutilizada.",
+          "Para envios no publicos, mensajes privados, borradores, informacion de cuenta y datos operativos, das a Changemappers una licencia no exclusiva, mundial y libre de regalias para alojar, mostrar, reproducir, moderar, respaldar y procesar ese contenido solo segun sea necesario para operar, proteger, moderar, apoyar y mejorar el servicio, sujeto a tus ajustes y a la Politica de privacidad."
+        ]
+      },
+      {
+        "heading": "6. Uso aceptable",
+        "paragraphs": [
+          "No uses Changemappers para actividad ilegal, acoso, odio, amenazas, spam, engano, recopilacion no autorizada de datos, malware, pruebas de seguridad sin permiso o intentos de interrumpir el servicio. Respeta la privacidad, seguridad y consentimiento de otras personas."
+        ]
+      },
+      {
+        "heading": "7. Moderacion",
+        "paragraphs": [
+          "Podemos revisar, restringir, etiquetar, retirar o preservar contenido cuando sea necesario para aplicar estos terminos, cumplir la ley, proteger usuarios o mantener la integridad de la plataforma. Tambien podemos limitar o suspender cuentas que creen riesgo o incumplan repetidamente expectativas comunitarias."
+        ]
+      },
+      {
+        "heading": "8. Finalizar tu cuenta",
+        "paragraphs": [
+          "Puedes dejar de usar Changemappers o solicitar eliminacion de cuenta en cualquier momento. Podemos suspender o terminar acceso si incumples materialmente estos terminos, creas riesgo de seguridad o dano, o usas el servicio de forma que perjudica a otros usuarios o la plataforma.",
+          "Al mantener una cuenta aceptas que Changemappers trate cuentas como inactivas tras 180 dias sin actividad autenticada. Enviamos avisos de inactividad 30, 15 y 3 dias antes. A los 180 dias el perfil se marca inactivo y enviamos un aviso final con 30 dias para exportar datos. Si no hay actividad durante ese periodo, la cuenta y datos personales se eliminan 210 dias despues de la ultima actividad."
+        ]
+      },
+      {
+        "heading": "9. Seguridad, disponibilidad y responsabilidad",
+        "paragraphs": [
+          "Hacemos esfuerzos razonables para mantener Changemappers util, seguro y fiable, pero ningun servicio de internet puede garantizar disponibilidad sin interrupciones, ausencia de errores, preservacion permanente de datos o seguridad completa. Usa buen criterio y publica solo informacion que no consideres sensible.",
+          "Al usar Changemappers das consentimiento consciente e informado a estas limitaciones. En la maxima medida permitida por la ley hungara y la ley de la Union Europea directamente aplicable, Changemappers y su operador no son responsables por danos indirectos, incidentales, consecuenciales, especiales, punitivos, perdida de beneficios, perdida de datos, incidentes de seguridad, interrupciones del servicio o danos relacionados con contenido de usuarios."
+        ]
+      },
+      {
+        "heading": "10. Privacidad",
+        "paragraphs": [
+          "Tu uso del servicio tambien esta cubierto por la Politica de privacidad, que explica que datos recopilamos, como los usamos y que opciones tienes."
+        ]
+      },
+      {
+        "heading": "11. Avisos de privacidad y derechos",
+        "paragraphs": [
+          "Para derechos de datos, soporte de eliminacion o controles de privacidad, usa la Politica de privacidad y los ajustes de privacidad de la cuenta, escribe a changemappers@pm.me para solicitudes de acceso, rectificacion, supresion, restriccion, oposicion, portabilidad y quejas, o usa el boton Feedback dentro de la app si la entrega de email no funciona."
+        ]
+      },
+      {
+        "heading": "12. Ley aplicable",
+        "paragraphs": [
+          "Estos terminos se rigen por las leyes de Hungria y las leyes de la Union Europea directamente aplicables. El tribunal principal acordado para disputas es el Tribunal Regional de Budapest-Capital en Budapest, Hungria."
+        ]
+      },
+      {
+        "heading": "13. Cambios en estos terminos",
+        "paragraphs": [
+          "Podemos actualizar estos terminos cuando cambie la plataforma. Si los cambios son materiales, avisaremos por correo, aviso dentro del producto o aviso claro en el sitio. Continuar usando el servicio despues de una actualizacion significa aceptar los terminos actualizados."
+        ],
+        "table": {
+          "headers": [
+            "Fecha",
+            "Version",
+            "Resumen"
+          ],
+          "rows": [
+            [
+              "2026-06-04",
+              "1.3",
+              "Cambiado el contacto actual de privacidad y derechos de datos a changemappers@pm.me mientras la ruta del buzon del dominio sigue sin probarse."
+            ],
+            [
+              "2026-05-21",
+              "1.2",
+              "Anadido ciclo de cuenta inactiva, avisos, ventana de exportacion y borrado final."
+            ],
+            [
+              "2026-05-11",
+              "1.1",
+              "Anadida seccion de privacidad, contacto y historial de versiones."
+            ],
+            [
+              "2026-05-08",
+              "1.0",
+              "Terminos iniciales."
+            ]
+          ]
+        }
+      }
+    ]
+  },
+  "impressum": {
+    "metadata": {
+      "title": "Aviso legal | Changemappers",
+      "description": "Información del prestador del servicio y contacto de Changemappers."
+    },
+    "title": "Aviso legal",
+    "effective": "Fecha de entrada en vigor: 2026-06-13 | Versión: 1.0",
+    "backHome": "Volver al inicio",
+    "sections": [
+      {
+        "heading": "1. Prestador del servicio",
+        "paragraphs": [
+          "Changemappers está gestionado por Incze Gáspár, una persona física residente en Hungría. Changemappers es actualmente una plataforma comunitaria independiente, en fase inicial y sin ánimo de lucro; no es una empresa, fundación, asociación u otra organización registrada."
+        ]
+      },
+      {
+        "heading": "2. Contacto",
+        "paragraphs": [
+          "Correo electrónico: changemappers@pm.me"
+        ]
+      },
+      {
+        "heading": "3. Proveedor de alojamiento",
+        "paragraphs": [
+          "El servicio se aloja en la infraestructura proporcionada por Hetzner. Consulta la Política de privacidad para ver la lista completa de encargados y subencargados del tratamiento."
+        ]
+      },
+      {
+        "heading": "4. Autoridad de control",
+        "paragraphs": [
+          "En materia de protección de datos, la autoridad de control competente es la Autoridad Nacional Húngara para la Protección de Datos y la Libertad de Información (NAIH — Nemzeti Adatvédelmi és Információszabadság Hatóság), Budapest, Hungría (naih.hu)."
+        ]
+      },
+      {
+        "heading": "5. Más información",
+        "paragraphs": [
+          "Los detalles del tratamiento de datos y tus derechos figuran en la Política de privacidad (/privacy). Las normas de uso del servicio figuran en las Condiciones de uso (/legal/terms)."
+        ]
+      }
+    ]
+  }
+}

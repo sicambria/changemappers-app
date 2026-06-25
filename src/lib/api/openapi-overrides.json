@@ -1,0 +1,49 @@
+{
+  "$comment": "Hand-authored OpenAPI metadata merged INTO the generated spec by scripts/ops/generate-openapi.mjs. The generator enumerates every src/app/api/**/route.ts (path + real HTTP methods) automatically; this file only enriches operations worth documenting and supplies the static `info`/`servers` blocks. Operation keys are `METHOD /api/path` (uppercase method) and MUST match a real generated operation (the generator errors on an orphan key). Routes not listed here get a derived default summary + a generic 200 response. NEVER invent response schemas you have not verified against the route handler — sparse-but-accurate beats detailed-but-wrong.",
+  "info": {
+    "title": "Changemappers API",
+    "description": "Internal and public HTTP API for the Changemappers platform. This spec is generated from the route handlers under src/app/api — run `npm run openapi:generate` after adding or changing a route.",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Development server"
+    }
+  ],
+  "operations": {
+    "GET /api/health": {
+      "summary": "Health Check",
+      "description": "Returns the application's liveness/readiness, including a database connectivity probe.",
+      "responses": {
+        "200": {
+          "description": "Service is healthy",
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "status": { "type": "string", "example": "ok" }
+                }
+              }
+            }
+          }
+        },
+        "503": {
+          "description": "Service unhealthy (e.g. database disconnected) — body { status: \"error\" }"
+        }
+      }
+    },
+    "GET /api/gdpr/export": {
+      "summary": "Export user data (GDPR)",
+      "description": "Returns the full GDPR data export for the authenticated user as a JSON download. Rate-limited to at most twice per day.",
+      "responses": {
+        "200": { "description": "GDPR data export (JSON attachment)" },
+        "401": { "description": "Unauthorized — no valid session" },
+        "404": { "description": "Authenticated user not found" },
+        "429": { "description": "Rate limit exceeded (max twice per day)" },
+        "500": { "description": "Internal server error" }
+      }
+    }
+  }
+}

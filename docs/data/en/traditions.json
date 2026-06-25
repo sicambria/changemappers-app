@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Ubuntu Indaba Circles",
+    "region": "South Africa",
+    "type": "Dialogue",
+    "desc": "Elder-led communal dialogues for relational maturity.",
+    "details": {
+      "prep": "The community gathers under a central tree; elders consult ancestors. Grievances are temporally set aside to focus on systemic issues.",
+      "agenda": "1. Invocation of lineages. 2. Statement of the disruption. 3. Round-robin speaking without interruption. 4. Elder synthesis focusing on 'we' restoration. 5. Communal meal.",
+      "questions": "\"How does this fracture affect the collective whole?\" \"What part of my ego is causing harm to our shared fabric?\"",
+      "awareness": "Shifts attention aggressively from 'me/mine' to 'us/ours'. Demands the cognitive capacity to hold multiple opposing communal viewpoints simultaneously without immediate judgment."
+    }
+  },
+  {
+    "name": "Ujamaa Village Councils",
+    "region": "Tanzania",
+    "type": "Dialogue",
+    "desc": "Group decision-making for collective responsibility.",
+    "details": {
+      "prep": "Review of shared agricultural and economic resources. Setting an intention of mutual socio-economic survival.",
+      "agenda": "1. Resource audit sharing. 2. Identification of vulnerable members. 3. Debate on labor distribution. 4. Consensus on shared goals.",
+      "questions": "\"Is our progress leaving anyone behind?\" \"How does my excess create someone else's deficit?\"",
+      "awareness": "Expands temporal and spatial awareness—individuals must cognitively map their personal actions to the long-term survival of the entire village ecosystem."
+    }
+  },
+  {
+    "name": "Harambee Peer Groups",
+    "region": "Kenya",
+    "type": "Dialogue",
+    "desc": "Youth-elder circles fostering interdependence.",
+    "details": {
+      "prep": "A specific community project (building a school, funding a student) is identified as the unifying goal.",
+      "agenda": "1. Call to action. 2. Pooling of diverse resources (money, labor, wisdom). 3. Collaborative execution. 4. Celebration of the collective achievement.",
+      "questions": "\"What unique gift do I bring to the collective task?\" \"How is my success inextricably linked to yours?\"",
+      "awareness": "Breaks down hyper-individualistic ambition by tying dopamine and reward systems strictly to collective, peer-supported milestones."
+    }
+  },
+  {
+    "name": "Nafs Stages Dhikr",
+    "region": "Iran",
+    "type": "Ritual",
+    "desc": "Sufi group chanting for ego purification.",
+    "details": {
+      "prep": "Ritual ablution, fasting, and wearing simple clothing to strip away societal status indicators.",
+      "agenda": "1. Setting rhythmic breathing. 2. Repetitive chanting of divine names. 3. Gradual acceleration guided by a Sheikh. 4. Entering the 'Hal' (spiritual state). 5. Silent integration.",
+      "questions": "\"Who is the 'I' that remains when the societal self is exhausted?\" \"Can I dissolve into the rhythm of the whole?\"",
+      "awareness": "Induces flow states that bypass linguistic, egoic processing. Attention is anchored entirely in the present somatic and auditory resonance of the group."
+    }
+  },
+  {
+    "name": "Mevlevi Whirling Semas",
+    "region": "Turkey",
+    "type": "Energy",
+    "desc": "Communal dance for self-transcendence.",
+    "details": {
+      "prep": "Months of physical and spiritual training under a mentor (Mürşid). Mental surrender of personal desires.",
+      "agenda": "1. Entering the circular space. 2. Dropping the black cloak (ego death). 3. Whirling (right hand up, left hand down). 4. Re-cloaking and communal prayer.",
+      "questions": "\"How can I become an empty vessel for universal energy?\" \"Can I remain perfectly still internally while moving rapidly externally?\"",
+      "awareness": "Creates a profound state of 'moving meditation.' Awareness expands spherically, requiring intense proprioception synced perfectly with the collective geometry of the group."
+    }
+  },
+  {
+    "name": "Tariqa Retreats",
+    "region": "Morocco",
+    "type": "Mentor",
+    "desc": "Mentor-guided Sufi orders for spiritual ascent.",
+    "details": {
+      "prep": "Submission to the rules of the lodge (Zawiya). Surrendering personal autonomy to the spiritual guide.",
+      "agenda": "1. Daily communal labor. 2. Private consultation with the Sheikh. 3. Group recitation of litanies. 4. Dream analysis in community.",
+      "questions": "\"What are the blind spots my mentor sees that I cannot?\" \"How does my rebellion serve my ego?\"",
+      "awareness": "Elevates objective self-awareness by using the mentor as an unyielding mirror. Attention is trained to catch subtle internal resistances."
+    }
+  },
+  {
+    "name": "Medicine Wheel Ceremonies",
+    "region": "Canada",
+    "type": "Ritual",
+    "desc": "First Nations circles for holistic stages.",
+    "details": {
+      "prep": "Constructing the physical stone wheel aligned with the cardinal directions. Smudging with sage to clear the mind.",
+      "agenda": "1. Honoring the East (Mind/Spring). 2. Honoring the South (Body/Summer). 3. Honoring the West (Emotion/Autumn). 4. Honoring the North (Spirit/Winter).",
+      "questions": "\"In which quadrant of my life is my energy stagnating?\" \"How do the cycles of nature reflect my internal maturation?\"",
+      "awareness": "Teaches cyclical and systemic thinking. Forces the individual to view their development not as a linear upward climb, but as a balanced, multidimensional wheel requiring holistic integration."
+    }
+  },
+  {
+    "name": "Seven Grandfather Teachings",
+    "region": "USA",
+    "type": "Mentor",
+    "desc": "Tribal elder mentoring cycles.",
+    "details": {
+      "prep": "Youth are paired with elders; storytelling contexts are established, often around fires or during crafting.",
+      "agenda": "1. Sharing of a specific animal myth (e.g., the Bear for Courage). 2. Elder's reflection on the virtue. 3. Youth's application to a current struggle. 4. Observational feedback.",
+      "questions": "\"Am I embodying Wisdom, Love, Respect, Bravery, Honesty, Humility, and Truth simultaneously?\"",
+      "awareness": "Develops character-based complexity. Attention is shifted from acquiring skills to embodying paradoxical virtues (e.g., holding bravery alongside profound humility)."
+    }
+  },
+  {
+    "name": "Dreamtime Yarning Circles",
+    "region": "Australia",
+    "type": "Dialogue",
+    "desc": "Story-sharing for ancestral wisdom.",
+    "details": {
+      "prep": "Sitting on Country (specific sacred land). Acknowledgment of traditional custodians and ancestral spirits.",
+      "agenda": "1. Deep listening (Dadirri). 2. Non-linear storytelling interweaving past, present, and myth. 3. Silence and absorption. 4. Collective sense-making.",
+      "questions": "\"Where does my personal story intersect with the songlines of the land?\" \"Who am I in deep time?\"",
+      "awareness": "Stretches temporal awareness massively. Individuals learn to perceive their life not as a contained timeline, but as an active, living continuation of ancestral 'Dreaming'."
+    }
+  },
+  {
+    "name": "Karakia Group Rituals",
+    "region": "New Zealand",
+    "type": "Ritual",
+    "desc": "Communal prayers for layered consciousness.",
+    "details": {
+      "prep": "Gathering on the Marae (meeting ground). Clearing of 'tapu' (spiritual restrictions) to ensure safety.",
+      "agenda": "1. Chanting to separate earth and sky (invoking creation). 2. Aligning the group's breath and intent. 3. Calling upon specific elemental energies. 4. Closing the energetic space.",
+      "questions": "\"How do my words shape the physical and spiritual reality of this room?\" \"Are my intentions aligned with the collective 'mauri' (life force)?\"",
+      "awareness": "Enhances somatic and verbal vigilance. The practitioner becomes acutely aware of the performative power of language and its immediate effect on group coherence."
+    }
+  },
+  {
+    "name": "Kyosei Sangha Practice",
+    "region": "Japan",
+    "type": "Dialogue",
+    "desc": "Zen group koan work for mutual awakening.",
+    "details": {
+      "prep": "Periods of intense Zazen (seated meditation).",
+      "agenda": "1. Group seating. 2. Presentation of the paradox (Koan). 3. Collective silence. 4. Brief, spontaneous responses.",
+      "questions": "\"How do we mutually unravel logic?\"",
+      "awareness": "Shatters binary thinking via group resonance."
+    }
+  },
+  {
+    "name": "Jingzu Ancestor Councils",
+    "region": "China",
+    "type": "Ritual",
+    "desc": "Family-clan rituals for harmony stages.",
+    "details": {
+      "prep": "Cleaning ancestral shrines.",
+      "agenda": "1. Offering food/incense. 2. Reciting genealogy. 3. Discussing clan disputes. 4. Resolution via ancestral precedent.",
+      "questions": "\"Am I acting as a good ancestor?\"",
+      "awareness": "Extends identity temporally backward and forward through lineage."
+    }
+  },
+  {
+    "name": "Bhavana Group Meditation",
+    "region": "India",
+    "type": "Energy",
+    "desc": "Buddhist sangha retreats for insight progression.",
+    "details": {
+      "prep": "Taking vows of noble silence.",
+      "agenda": "1. Alternating sitting/walking meditation. 2. Dharma talks. 3. Teacher interviews. 4. Group dedication of merit.",
+      "questions": "\"Is my suffering distinct from the group's suffering?\"",
+      "awareness": "Cultivates profound meta-awareness and the realization of non-self (Anatta)."
+    }
+  },
+  {
+    "name": "Aikido Dojo Training",
+    "region": "Japan",
+    "type": "Energy",
+    "desc": "Group harmony practices for ego dissolution.",
+    "details": {
+      "prep": "Bowing to the shrine (Shomen) and partner.",
+      "agenda": "1. Centering breath. 2. Receiving attacks (Uke). 3. Redirecting energy without harm (Nage). 4. Constant partner rotation.",
+      "questions": "\"Can I neutralize conflict without inflicting violence?\"",
+      "awareness": "Transforms physical conflict into a study of relational energy dynamics and center-holding."
+    }
+  },
+  {
+    "name": "Ayahuasca Icaros Circles",
+    "region": "Peru",
+    "type": "Ritual",
+    "desc": "Shaman-led communal vision quests.",
+    "details": {
+      "prep": "Strict 'dieta' (fasting from certain foods/behaviors).",
+      "agenda": "1. Drinking the brew. 2. Extinguishing lights. 3. Shaman singing specific Icaros to guide visions. 4. Group purging and processing.",
+      "questions": "\"What traumas am I holding that belong to my lineage?\"",
+      "awareness": "Forces radical confrontation with the unconscious while anchored by the shaman's auditory guidance."
+    }
+  },
+  {
+    "name": "Temazcal Sweat Lodges",
+    "region": "Mexico",
+    "type": "Ritual",
+    "desc": "Mesoamerican group rebirth ceremonies.",
+    "details": {
+      "prep": "Heating volcanic stones; setting intention for purification.",
+      "agenda": "1. Crawling into the dark dome (womb). 2. Pouring water on stones (four doors/stages). 3. Chanting and crying out. 4. Emerging reborn.",
+      "questions": "\"What parts of my identity must die in the heat?\"",
+      "awareness": "Uses extreme physical sensation to bypass mental defenses, creating deep communal bonding through shared vulnerability."
+    }
+  },
+  {
+    "name": "Kiva Talking Circles",
+    "region": "USA",
+    "type": "Dialogue",
+    "desc": "Tribal consensus for spiritual growth.",
+    "details": {
+      "prep": "Descending into the subterranean Kiva.",
+      "agenda": "1. Lighting the central fire. 2. Passing the sacred pipe. 3. Deliberating tribal matters until total consensus is reached.",
+      "questions": "\"Can I surrender my preference for the tribe's survival?\"",
+      "awareness": "Requires immense patience and the dismantling of stubborn egoic positions to achieve true group alignment."
+    }
+  },
+  {
+    "name": "Pachakuti Mesa Rituals",
+    "region": "Peru",
+    "type": "Energy",
+    "desc": "Andean group energy weaving.",
+    "details": {
+      "prep": "Creating a sacred altar (Mesa) representing the cosmos.",
+      "agenda": "1. Calling the Apus (mountain spirits). 2. Aligning the three worlds (Ukhu, Kay, Hanan). 3. Group energy transmissions (Sami).",
+      "questions": "\"How do I balance the heavy energy (Hucha) with the light?\"",
+      "awareness": "Trains attention on subtle environmental and relational energetic flows."
+    }
+  },
+  {
+    "name": "Jamaa Circles",
+    "region": "DR Congo",
+    "type": "Ritual",
+    "desc": "Bantu communal healing for social maturity.",
+    "details": {
+      "prep": "Identifying the social sickness affecting an individual.",
+      "agenda": "1. Gathering the entire extended network. 2. Rhythmic drumming. 3. Trance and spirit communication. 4. Reintegrating the individual.",
+      "questions": "\"How is this person's illness a symptom of our collective imbalance?\"",
+      "awareness": "Shifts the locus of illness and healing from the individual body to the social body."
+    }
+  },
+  {
+    "name": "Palaver Huts",
+    "region": "Ghana",
+    "type": "Dialogue",
+    "desc": "Elder-youth dialogues for wisdom layers.",
+    "details": {
+      "prep": "Gathering in the open-sided community structure.",
+      "agenda": "1. Presenting a community dilemma. 2. Youth offer modern perspectives. 3. Elders offer historical precedent. 4. Synthesis.",
+      "questions": "\"How do we honor the past while adapting to the future?\"",
+      "awareness": "Develops dialectical thinking—the ability to hold and merge contradictory generational truths."
+    }
+  },
+  {
+    "name": "Sobonfu Village Rituals",
+    "region": "Burkina Faso",
+    "type": "Ritual",
+    "desc": "Dagara gatekeeping circles.",
+    "details": {
+      "prep": "Determining the elemental nature of the participants (Fire, Water, etc.).",
+      "agenda": "1. Grieving rituals to empty sorrow. 2. Recognition of individual purpose by the village. 3. Assignment of communal duties.",
+      "questions": "\"What is the specific medicine I brought to this village?\"",
+      "awareness": "Links personal self-actualization directly to utilitarian communal service."
+    }
+  },
+  {
+    "name": "Zikr Halqa Chains",
+    "region": "Pakistan",
+    "type": "Mentor",
+    "desc": "Sufi mentor circles for divine union.",
+    "details": {
+      "prep": "Forming a physical chain by holding hands or linking arms.",
+      "agenda": "1. Rhythmic breathing. 2. Loud, synchronized recitation of 'Hu'. 3. Swaying in unison. 4. Achieving 'Fana' (annihilation of self).",
+      "questions": "\"Can I lose my physical boundaries into the group body?\"",
+      "awareness": "Promotes highly elevated states of synchronized group coherence and ego-dissolution."
+    }
+  },
+  {
+    "name": "Naqshbandi Silent Dhikr",
+    "region": "Uzbekistan",
+    "type": "Energy",
+    "desc": "Group heart-focused transcendence.",
+    "details": {
+      "prep": "Focusing attention specifically on the physical heart center (Lataif).",
+      "agenda": "1. Closing eyes. 2. Silent, internal chanting. 3. Visualizing the mentor's heart connecting to one's own. 4. Group silence.",
+      "questions": "\"Can we communicate solely through the resonance of the heart?\"",
+      "awareness": "Cultivates extreme internal subtlety and sensitivity to non-verbal group energetic fields."
+    }
+  },
+  {
+    "name": "Shinto Matsuri Collectives",
+    "region": "Japan",
+    "type": "Ritual",
+    "desc": "Festival rites for communal spirit evolution.",
+    "details": {
+      "prep": "Purification rites (Harai); building the Mikoshi (portable shrine).",
+      "agenda": "1. Calling the Kami (spirit) into the shrine. 2. Intensely chaotic, physically demanding group carrying of the shrine. 3. Joyous celebration.",
+      "questions": "\"Can I surrender my physical limits to the momentum of the crowd?\"",
+      "awareness": "Induces 'collective effervescence'—a state where individual identity is subsumed by overwhelming group joy and effort."
+    }
+  },
+  {
+    "name": "Taoist Qi Gong Groups",
+    "region": "China",
+    "type": "Energy",
+    "desc": "Clan energy circulation for inner alchemy.",
+    "details": {
+      "prep": "Aligning posture and clearing mental chatter.",
+      "agenda": "1. Slow, synchronized physical movements. 2. Guiding Qi through meridians. 3. Exchanging energy with the environment and the group. 4. Storing Qi.",
+      "questions": "\"How does my internal balance affect the harmony of the room?\"",
+      "awareness": "Trains precise, directed attention on subtle internal somatic sensations and their external projection."
+    }
+  },
+  {
+    "name": "Yoruba Egbe Societies",
+    "region": "Nigeria",
+    "type": "Dialogue",
+    "desc": "Ancestral peer groups for destiny unfolding.",
+    "details": {
+      "prep": "Divination to determine one's spiritual peer group (Egbe Orun).",
+      "agenda": "1. Meeting with earthly counterparts. 2. Discussing life obstacles. 3. Making offerings to the spiritual collective. 4. Aligning with destiny.",
+      "questions": "\"Am I fulfilling the contract I made before birth?\"",
+      "awareness": "Forces the individual to view their life trajectory not as a solitary choice, but as a destiny co-authored by a spiritual collective."
+    }
+  },
+  {
+    "name": "Inca Despacho Offerings",
+    "region": "Bolivia",
+    "type": "Ritual",
+    "desc": "Andean community reciprocity rites.",
+    "details": {
+      "prep": "Gathering specific natural elements (coca leaves, seeds, sweets).",
+      "agenda": "1. Intentionally placing elements on a paper mandala. 2. Blowing prayers (Phukuy) into the leaves. 3. Folding the bundle. 4. Burning it to feed the earth.",
+      "questions": "\"What must I give back to maintain the balance (Ayni)?\"",
+      "awareness": "Cultivates a profound mindset of reciprocity and ecological interconnection."
+    }
+  },
+  {
+    "name": "Sami Noaidi Drums",
+    "region": "Finland/Sweden",
+    "type": "Energy",
+    "desc": "Shamanic group journeying.",
+    "details": {
+      "prep": "Gathering around the fire; the Noaidi (shaman) prepares the sacred drum.",
+      "agenda": "1. Rhythmic, monotonous drumming. 2. Joik singing to induce trance. 3. The shaman journeys to other realms for answers. 4. Group interpretation.",
+      "questions": "\"What messages are the spirits of the land sending us?\"",
+      "awareness": "Facilitates altered states of consciousness where the boundary between human perception and environmental reality blurs."
+    }
+  },
+  {
+    "name": "Mapuche Ngepin Ceremonies",
+    "region": "Chile",
+    "type": "Ritual",
+    "desc": "Indigenous healing circles for earth kinship.",
+    "details": {
+      "prep": "Planting the Rehue (sacred tree trunk/staircase).",
+      "agenda": "1. Gathering at dawn. 2. The Machi (healer) climbs the Rehue. 3. Continuous dancing and praying by the community. 4. Asking for planetary balance.",
+      "questions": "\"Are our actions making the earth sick?\"",
+      "awareness": "Embeds psychological health directly within the context of ecological and terrestrial health."
+    }
+  },
+  {
+    "name": "Aymara Wirinaka Groups",
+    "region": "Bolivia",
+    "type": "Energy",
+    "desc": "Andean star-being communal visions.",
+    "details": {
+      "prep": "Nighttime gatherings at high altitudes.",
+      "agenda": "1. Observing the dark constellations (Milky Way). 2. Chewing coca. 3. Discussing mythological astronomy. 4. Aligning agricultural cycles.",
+      "questions": "\"How do the movements of the stars dictate our daily actions?\"",
+      "awareness": "Expands the frame of reference to a cosmic scale, minimizing petty egoic concerns."
+    }
+  },
+  {
+    "name": "Zulu Sangoma Initiations",
+    "region": "South Africa",
+    "type": "Mentor",
+    "desc": "Diviner group training for soul stages.",
+    "details": {
+      "prep": "The initiate (Thwasa) isolates and experiences 'spiritual illness'.",
+      "agenda": "1. Apprenticeship under a senior Sangoma. 2. Learning to throw the bones. 3. Intense communal dancing to awaken spirits. 4. Final graduation ceremony.",
+      "questions": "\"Can I translate the voices of the ancestors for the living?\"",
+      "awareness": "Transforms acute psychological distress into a structured, highly regarded communal healing capacity."
+    }
+  },
+  {
+    "name": "Balinese Subak Councils",
+    "region": "Indonesia",
+    "type": "Dialogue",
+    "desc": "Rice temple collectives for balanced growth.",
+    "details": {
+      "prep": "Gathering at the water temple.",
+      "agenda": "1. Ritual offerings to the water goddess. 2. Democratic discussion of water allocation. 3. Planting schedules coordination. 4. Pest control strategies.",
+      "questions": "\"How can we share this scarce resource perfectly?\"",
+      "awareness": "Fuses spiritual devotion with highly complex, cooperative agricultural and ecological management."
+    }
+  },
+  {
+    "name": "Mongolian Ovoo Rituals",
+    "region": "Mongolia",
+    "type": "Ritual",
+    "desc": "Sky-earth group offerings.",
+    "details": {
+      "prep": "Approaching the sacred stone cairn (Ovoo) at a mountain pass.",
+      "agenda": "1. Walking clockwise around the Ovoo three times. 2. Adding a stone or blue silk scarf (Khadag). 3. Offering milk or vodka. 4. Praying to the Eternal Blue Sky.",
+      "questions": "\"How do I honor the spirits of the place I am passing through?\"",
+      "awareness": "Instills constant situational awareness and reverence for the physical landscape and its invisible guardians."
+    }
+  },
+  {
+    "name": "Tibetan Ngakpa Chöd",
+    "region": "Bhutan",
+    "type": "Energy",
+    "desc": "Severance practice circles for ego cutting.",
+    "details": {
+      "prep": "Going to a terrifying place (e.g., a charnel ground or dark forest).",
+      "agenda": "1. Playing the thighbone trumpet and hand drum. 2. Visualizing offering one's own body to demons. 3. Cutting through fear. 4. Resting in emptiness.",
+      "questions": "\"Can I invite my greatest terrors to a feast?\"",
+      "awareness": "A radical psychological technology for confronting and dismantling the ego's fear of annihilation."
+    }
+  },
+  {
+    "name": "Inuit Qilaut Storytelling",
+    "region": "Greenland",
+    "type": "Dialogue",
+    "desc": "Drum song circles for mythic maturity.",
+    "details": {
+      "prep": "Gathering in the snowhouse during the long winter night.",
+      "agenda": "1. Warming the frame drum. 2. Singing ancestral songs. 3. Enacting myths through dance and facial expressions. 4. Passing the drum.",
+      "questions": "\"How does this ancient story instruct my behavior tomorrow?\"",
+      "awareness": "Uses rhythm and narrative to encode complex survival and social data deep into the collective memory."
+    }
+  }
+]

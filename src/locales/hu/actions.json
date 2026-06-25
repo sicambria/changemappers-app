@@ -1,0 +1,277 @@
+{
+  "admin": {
+    "cannotSuspendSelf": "Saját magad nem függesztheted fel.",
+    "featureUnavailable": "Feature nem elérhető.",
+    "invite": {
+      "acceptedCannotRevoke": "Elfogadott meghívót nem lehet visszavonni.",
+      "cannotResend": "Ezt a meghívót nem lehet újraküldeni.",
+      "directCreateFailed": "Direct létrehozás nem sikerült.",
+      "noLongerActive": "Ez a meghívó már nem aktív.",
+      "noRecipient": "A meghívóhoz nincs címzett email cím.",
+      "resendFailed": "Nem sikerült újraküldeni a meghívót.",
+      "revokeFailed": "Nem sikerült visszavonni a meghívót.",
+      "validation": {
+        "commentMax": "Megjegyzés maximum.",
+        "emailMax": "Email maximum.",
+        "emailRequired": "Email szükséges.",
+        "reasonMin": "Reason minimum.",
+        "subjectMax": "Tárgy maximum.",
+        "subjectMin": "Tárgy minimum.",
+        "subjectNoNewlines": "A tárgy nem tartalmazhat sortörést."
+      }
+    },
+    "seed": {
+      "batchCommunitiesCreated": "Kötegelt közösségek létrehozva.",
+      "batchCommunitiesCreatedWithSkipped": "Közösségek létrehozva kötegelt módban, néhány kihagyással.",
+      "batchCommunitiesDeleted": "Kötegelt közösségek törölve.",
+      "batchEventsCreated": "Kötegelt események létrehozva.",
+      "batchEventsCreatedWithSkipped": "Események létrehozva kötegelt módban, néhány kihagyással.",
+      "batchEventsDeleted": "Kötegelt események törölve.",
+      "batchSocialIssuesCreated": "Kötegelt társadalmi ügyek létrehozva.",
+      "batchSocialIssuesCreatedWithSkipped": "Társadalmi ügyek létrehozva kötegelt módban, néhány kihagyással.",
+      "batchSocialIssuesDeleted": "Kötegelt társadalmi ügyek törölve.",
+      "batchUsersCreated": "Kötegelt felhasználók létrehozva.",
+      "batchUsersCreatedWithSkipped": "Felhasználók létrehozva kötegelt módban, néhány kihagyással.",
+      "batchUsersDeleted": "Kötegelt felhasználók törölve.",
+      "batchWeakSignalsCreated": "Gyenge jelek létrehozva kötegelt módban.",
+      "batchWeakSignalsCreatedWithSkipped": "Gyenge jelek létrehozva kötegelt módban, néhány kihagyással.",
+      "batchWeakSignalsDeleted": "Gyenge jelek törölve kötegelt módban.",
+      "clearDemoSuccess": "A demo adatok törölve.",
+      "communityDeleted": "Közösség törölve.",
+      "demoCommunityCreated": "Demo közösség létrehozva: {{name}}.",
+      "demoEventCreated": "Demo esemény létrehozva: {{title}}.",
+      "demoSocialIssueCreated": "Demo társadalmi ügy létrehozva.",
+      "demoUserCreated": "Demo felhasználó létrehozva: {{name}} ({{email}}).",
+      "demoUserDeleted": "Demo felhasználó törölve: {{name}}.",
+      "demoWeakSignalCreated": "Demo gyenge jel létrehozva.",
+      "eventDeleted": "Esemény törölve.",
+      "networkUpdated": "Hálózat frissítve: {{communities}} közösség és {{events}} esemény.",
+      "onlyDemoCommunitiesDelete": "Only demo közösségek törlés.",
+      "onlyDemoEventsDelete": "Only demo események törlés.",
+      "onlyDemoSocialIssuesDelete": "Only demo társadalmi ügyek törlés.",
+      "onlyDemoUsersDelete": "Csak demo felhasználók törölhetők itt.",
+      "onlyDemoWeakSignalsDelete": "Csak a demó gyenge jelek törlése engedélyezett.",
+      "socialIssueDeleted": "Társadalmi ügy törölve.",
+      "socialIssueNotFound": "Társadalmi ügy nem található.",
+      "uploadFailed": "Upload nem sikerült.",
+      "weakSignalDeleted": "Gyenge jel törölve.",
+      "weakSignalNotFound": "Gyenge jel nem található.",
+      "pastEventsDeleted": "{{count}} korábbi esemény törölve."
+    },
+    "settings": {
+      "cannotDeleteAdmin": "Nem lehet törlés admin.",
+      "cannotDeleteSelf": "Nem lehet törlés self.",
+      "deleteUserFailed": "Törlés felhasználó nem sikerült.",
+      "fetchFailed": "Betöltés nem sikerült.",
+      "registrationsFetchFailed": "Registrations betöltés nem sikerült.",
+      "saveFailed": "Nem sikerült menteni."
+    },
+    "profileTypeChanged": "Profil típus frissítve.",
+    "userRestored": "Felfüggesztés visszavonva.",
+    "userSuspended": "Felhasználó felfüggesztve.",
+    "manage": {
+      "usersDeleted": "{{count}} felhasználó törölve.",
+      "usersDeletedWithAnonymized": "{{total}} felhasználó feldolgozva: {{deleted}} véglegesen törölve, {{anonymized}} anonimizálva (a létrehozott tartalom megőrizve).",
+      "deleteBlockedByLinkedRecords": "A törlést kapcsolódó rekordok blokkolják ({{constraint}}).",
+      "deleteFailed": "A törlés sikertelen."
+    }
+  },
+  "common": {
+    "adminRequired": "admin jogosultság szükséges.",
+    "deleteFailed": "A törlés nem sikerült.",
+    "failed": "Nem sikerült",
+    "forbidden": "Nincs jogosultságod",
+    "invalidData": "Érvénytelen adatok.",
+    "invalidEmail": "Érvénytelen email cím.",
+    "loadFailed": "Nem sikerült betölteni az adatokat.",
+    "loginRequired": "Bejelentkezés szükséges.",
+    "operationFailed": "Hiba történt a művelet során.",
+    "saveFailed": "A mentés nem sikerült.",
+    "searchFailed": "A keresés nem sikerült.",
+    "settingSaveFailed": "Nem sikerült menteni a beállítást.",
+    "unauthorized": "Jogosulatlan művelet",
+    "updateFailed": "A frissítés nem sikerült."
+  },
+  "community": {
+    "createFailed": "Létrehozás nem sikerült.",
+    "created": "Létrehozva.",
+    "deleted": "Törölve.",
+    "idRequired": "Közösség azonosító szükséges",
+    "join": {
+      "accepted": "Kérelem elfogadva",
+      "alreadyMember": "Már tag vagy",
+      "alreadyRequested": "Már elküldted a jelentkezést",
+      "banned": "Ki vagy tiltva",
+      "rejected": "Kérelem elutasítva",
+      "requestFailed": "Kérés nem sikerült.",
+      "requestNotFoundOrProcessed": "A kérés nem található, vagy már feldolgoztuk.",
+      "requestSent": "Csatlakozási kérelem elküldve",
+      "requestsFetchFailed": "Kérések betöltés nem sikerült."
+    },
+    "leave": {
+      "failed": "Nem sikerült.",
+      "notMember": "Nem vagy tag",
+      "ownerCannotLeave": "Tulajdonosként nem léphetsz ki a közösségből",
+      "success": "Kiléptél a közösségből."
+    },
+    "loadFailed": "Betöltés nem sikerült.",
+    "notFound": "Közösség nem található",
+    "updated": "Frissítve.",
+    "validation": {
+      "nameMin": "Név minimum."
+    }
+  },
+  "connection": {
+    "accepted": "Elfogadva.",
+    "alreadyConnected": "Már kapcsolatban vagytok.",
+    "alreadyRequested": "Már küldtél kapcsolódási kérést.",
+    "cannotConnectSelf": "Saját magaddal nem kapcsolódhatsz.",
+    "cannotRequest": "Nem lehet kérés.",
+    "cannotRequestUser": "Nem küldhetsz kapcsolódási kérést ennek a felhasználónak.",
+    "createdFromReverse": "Kapcsolat létrehozva, mert már ő is jelölt téged.",
+    "fetchFailed": "Betöltés nem sikerült.",
+    "notFound": "Nem található.",
+    "notReceiver": "Ezt a kérést nem te kaptad.",
+    "notification": {
+      "acceptedMessage": "Elfogadva message.",
+      "acceptedTitle": "Elfogadva cím."
+    },
+    "rateLimited": "Korlát limited.",
+    "recommendationsFetchFailed": "Recommendations betöltés nem sikerült.",
+    "rejected": "Elutasítva.",
+    "removed": "Kapcsolat törölve.",
+    "requestFailed": "Kérés nem sikerült.",
+    "requestNotFound": "Kérés nem található.",
+    "requestResent": "Kérés resent.",
+    "requestSent": "Kérés elküldve.",
+    "requestsFetchFailed": "Kérések betöltés nem sikerült.",
+    "statusFetchFailed": "Állapot betöltés nem sikerült."
+  },
+  "event": {
+    "created": "Létrehozva.",
+    "deleted": "Törölve.",
+    "notFound": "Esemény nem található.",
+    "notRegistered": "Nem vagy regisztrálva erre az eseményre.",
+    "registrationCancelled": "Registration cancelled.",
+    "rsvpFailed": "Részvétel nem sikerült.",
+    "rsvpSuccess": "Részvétel success.",
+    "upcomingFetchFailed": "Közelgő betöltés nem sikerült.",
+    "updated": "Frissítve.",
+    "validation": {
+      "titleMin": "Cím minimum."
+    }
+  },
+  "feedback": {
+    "email": {
+      "expectationLabel": "Várt eredmény:",
+      "expectationText": "Várt eredmény",
+      "guest": "Vendég.",
+      "improvementLabel": "Javítás label.",
+      "otherLabel": "Egyéb label.",
+      "realityLabel": "Tényleges eredmény:",
+      "realityText": "Tényleges eredmény",
+      "subject": "Új visszajelzés: {{type}}",
+      "title": "Új visszajelzés érkezett",
+      "typeLabel": "Típus:",
+      "userIdLabel": "Felhasználóazonosító:"
+    },
+    "fetchFailed": "Nem sikerült betölteni a visszajelzéseket.",
+    "settingsUpdateFailed": "Settings update nem sikerült.",
+    "statusUpdateFailed": "Állapot update nem sikerült.",
+    "submitFailed": "Nem sikerült elküldeni.",
+    "tooManySubmissions": "Too many submissions.",
+    "validation": {
+      "expectationRequired": "Várakozás szükséges.",
+      "realityRequired": "Tényleges szükséges."
+    }
+  },
+  "ideas": {
+    "fetchFailed": "Az ötletek betöltése nem sikerült.",
+    "submitFailed": "Az ötlet beküldése nem sikerült.",
+    "tooManySubmissions": "Túl sok beküldés. Kérjük, próbáld újra később.",
+    "voteFailed": "A szavazat rögzítése nem sikerült.",
+    "commentFailed": "A hozzászólás közzététele nem sikerült.",
+    "commentNotFound": "A hozzászólás nem található.",
+    "commentDeleteFailed": "A hozzászólás törlése nem sikerült.",
+    "statusUpdateFailed": "Az ötlet állapotának frissítése nem sikerült."
+  },
+  "graph": {
+    "loadFailed": "Betöltés nem sikerült."
+  },
+  "invite": {
+    "acceptFailed": "Accept nem sikerült.",
+    "cannotSend": "Nem lehet send.",
+    "createFailed": "Létrehozás nem sikerült.",
+    "expired": "Lejárt.",
+    "fetchFailed": "Betöltés nem sikerült.",
+    "noLongerUsable": "Ez már nem használható.",
+    "noSlots": "Nincs szabad hely.",
+    "notFound": "Meghívó nem található.",
+    "openFailed": "Megnyitás nem sikerült.",
+    "rateLimited": "Korlát limited.",
+    "resendLimit": "A meghívó legfeljebb 3 alkalommal küldhető újra.",
+    "sendFailed": "Send nem sikerült.",
+    "statsFetchFailed": "Statisztikák betöltés nem sikerült.",
+    "validationFailed": "Ellenőrzés nem sikerült."
+  },
+  "onboarding": {
+    "errors": {
+      "countryRequired": "Ország szükséges."
+    },
+    "validation": {
+      "baseArchetypesRequired": "Alap archetípusok szükséges.",
+      "bioMin": "Bemutatkozás minimum.",
+      "taglineMin": "Rövid leírás minimum."
+    }
+  },
+  "profile": {
+    "levelUpdateFailed": "Szint update nem sikerült.",
+    "levelUpdated": "Szint frissítve.",
+    "loadFailed": "Betöltés nem sikerült.",
+    "notAllowedForAction": "Nincs jogosultságod ehhez a művelethez.",
+    "notAvailable": "Nem elérhető.",
+    "notLoggedInForAction": "Ehhez a művelethez be kell jelentkezned."
+  },
+  "proximity": {
+    "communityMessage": "Közösség message.",
+    "communityTitle": "Közösség cím.",
+    "userMessage": "Felhasználó message.",
+    "userTitle": "Felhasználó cím."
+  },
+  "report": {
+    "alreadyReported": "Már reported.",
+    "blockCheckFailed": "Tiltás check nem sikerült.",
+    "cannotReportSelf": "Nem jelentheted saját magadat.",
+    "fetchFailed": "Betöltés nem sikerült.",
+    "notFound": "Nem található.",
+    "statusUpdateFailed": "Állapot update nem sikerült.",
+    "statusUpdated": "Állapot frissítve.",
+    "submitFailed": "Nem sikerült elküldeni.",
+    "submitted": "Elküldve.",
+    "unblockFailed": "Tiltás feloldása nem sikerült.",
+    "userNotBlocked": "Felhasználó nem tiltva.",
+    "userUnblocked": "Felhasználó unblocked."
+  },
+  "user": {
+    "accountDeleted": "Fiók törölve.",
+    "algorithmicMatchingDisabled": "Az algoritmikus összekapcsolás kikapcsolva.",
+    "algorithmicMatchingEnabled": "Az algoritmikus összekapcsolás bekapcsolva.",
+    "blockFailed": "Tiltás nem sikerült.",
+    "blocked": "Tiltva.",
+    "cancelFailed": "Visszavonás nem sikerült.",
+    "defaultName": "Alapértelmezett név.",
+    "deleteFailed": "Törlés nem sikerült.",
+    "deletionCancelled": "Törlés cancelled.",
+    "deletionScheduleFailed": "Törlés schedule nem sikerült.",
+    "deletionScheduled": "A fiókod törlése {{days}} nap múlva indul. Az alábbi hivatkozással visszavonhatod a törlést.",
+    "exportFailed": "Export nem sikerült.",
+    "exportReady": "Export kész.",
+    "idRequired": "Felhasználóazonosító szükséges.",
+    "invalidConfirmation": "Érvénytelen megerősítés",
+    "notFound": "Nem található.",
+    "processingRestricted": "Adatkezelés korlátozva.",
+    "processingRestrictionLifted": "Adatkezelés korlátozás lifted.",
+    "recentFetchFailed": "Recent betöltés nem sikerült.",
+    "sensitiveMatchingDisabled": "Az érzékeny adatokkal működő összekapcsolás kikapcsolva."
+  }
+}
