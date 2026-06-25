@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "Welcome to the Changemappers platform",
+    "title": "What is this platform?",
+    "description": "Changemappers is an ecosystem where, as a visionary, creator, organizer, or activist, you can connect with causes, communities, and knowledge that serve the regenerative transformation of the world."
+  },
+  "pillars": {
+    "stories": {
+      "title": "Stories",
+      "description": "Read open stories about breakthroughs, failures and what collaborative work actually taught people.",
+      "link": "View the stories"
+    },
+    "roadmap": {
+      "title": "Roadmap",
+      "description": "See where we're heading and what milestones we've set for the future.",
+      "link": "Explore the roadmap"
+    },
+    "governance": {
+      "title": "Governance",
+      "description": "Read the charter, refusal register, challenge path, and other platform accountability commitments.",
+      "link": "Open governance"
+    },
+    "mainSite": {
+      "title": "Changemappers.org",
+      "description": "Visit our main site where we present our core vision and methodology.",
+      "link": "Go to main site"
+    }
+  },
+  "moreAbout": {
+    "sectionTitle": "Let's build the future together",
+    "sectionDescription": "Changemappers is not a finished product, but a continuously evolving collective creation.",
+    "story": {
+      "title": "Our Story",
+      "description": "Get to know where we started, who we are, and why we believe in regenerative change.",
+      "link": "Read more"
+    },
+    "getInvolved": {
+      "title": "Get Involved",
+      "description": "Do you have skills or ideas you'd like to contribute to the community? We're waiting for you!",
+      "link": "Joining opportunities"
+    }
+  },
+  "cta": {
+    "title": "Ready to get started?",
+    "description": "Register to access personalized features!",
+    "register": "Register",
+    "login": "Login"
+  }
+}

@@ -1,0 +1,3834 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model AuditLog {
+  id            String      @id @default(cuid())
+  userId        String?
+  userEmail     String?
+  ipAddress     String?
+  userAgent     String?
+  action        AuditAction
+  entityType    String
+  entityId      String
+  /// Snapshot of the audited entity's fields before the mutation. Free-form `Record<string, unknown>` (the changed entity's columns); redacted via `redactAuditJson` in `src/lib/audit.ts`.
+  previousState Json?
+  /// Snapshot of the audited entity's fields after the mutation. Same free-form `Record<string, unknown>` shape as `previousState`; redacted via `redactAuditJson`.
+  newState      Json?
+  /// Free-form audit context (`Record<string, unknown>`), e.g. request/actor details. Written by `createAuditLog` (`src/lib/audit.ts`); redacted before persistence.
+  metadata      Json?
+  createdAt     DateTime    @default(now())
+  // Optional FK; implicit onDelete: SetNull is explicit here. AuditLog survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) nulls userId/email/ip/userAgent for GDPR.
+  User          User?       @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([action, createdAt])
+  @@index([entityType, entityId])
+  @@index([userId, createdAt])
+}
+
+model SystemKillSwitch {
+  id                      String   @id @default("singleton")
+  activityPubEnabled      Boolean  @default(false)
+  lanDiscoveryEnabled     Boolean  @default(false)
+  externalExportsEnabled  Boolean  @default(false)
+  userRegistrationEnabled Boolean  @default(false)
+  rssFetchingEnabled      Boolean  @default(false)
+  updatedAt               DateTime @updatedAt
+}
+
+model BacklogItem {
+  id                 String             @id @default(cuid())
+  title              String
+  description        String
+  communityId        String?
+  rdgGoal            String?
+  domain             String?
+  communityResonance Int                @default(0)
+  createdById        String
+  createdAt          DateTime           @default(now())
+  updatedAt          DateTime           @updatedAt
+  // Required FK → implicit onDelete: Restrict. Authored backlog item survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (title/description scrubbed) rather than cascading.
+  createdBy          User               @relation(fields: [createdById], references: [id])
+  resonances         BacklogResonance[]
+
+  @@index([communityId])
+  @@index([communityResonance])
+  @@index([createdById])
+}
+
+model BacklogResonance {
+  id            String      @id @default(cuid())
+  backlogItemId String
+  userId        String
+  createdAt     DateTime    @default(now())
+  backlogItem   BacklogItem @relation(fields: [backlogItemId], references: [id], onDelete: Cascade)
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` (AUDIT-20260613-028) hard-deleting these resonance rows before user deletion; no cascade declared.
+  User          User        @relation(fields: [userId], references: [id])
+
+  @@unique([backlogItemId, userId])
+  @@index([backlogItemId])
+}
+
+model Board {
+  id                String                   @id @default(cuid())
+  name              String
+  description       String?
+  scope             BoardScope               @default(PERSONAL)
+  visibility        Visibility               @default(PUBLIC)
+  ownerId           String?
+  communityId       String?
+  bioregion         String?
+  country           String?
+  /// Per-state work-in-progress caps: `Record<InitiativeState, number | null>`. See `boardSchema.wipLimits` in `src/lib/validations/board.ts`.
+  wipLimits         Json?
+  /// Ordered column layout: `InitiativeState[]`. See `boardSchema.columns` in `src/lib/validations/board.ts`.
+  columns           Json?
+  createdAt         DateTime                 @default(now())
+  updatedAt         DateTime                 @updatedAt
+  deletedAt         DateTime?
+  Community         Community?               @relation(fields: [communityId], references: [id])
+  // Optional FK → implicit onDelete: SetNull (board disowned, not deleted, when the owner is removed). `eraseUserPersonalData` (AUDIT-20260613-028) sets ownerId=null + deletedAt.
+  User              User?                    @relation(fields: [ownerId], references: [id])
+  communityAudience BoardCommunityAudience[]
+  initiatives       Initiative[]
+
+  @@index([communityId])
+  @@index([ownerId])
+  @@index([scope])
+  @@index([visibility])
+}
+
+model BoardCommunityAudience {
+  id          String    @id @default(cuid())
+  boardId     String
+  communityId String
+  createdAt   DateTime  @default(now())
+  board       Board     @relation(fields: [boardId], references: [id], onDelete: Cascade)
+  community   Community @relation(fields: [communityId], references: [id], onDelete: Cascade)
+
+  @@unique([boardId, communityId])
+  @@index([communityId])
+}
+
+model CanvasNodeComment {
+  id                      String              @id @default(cuid())
+  nodeId                  String
+  parentId                String?
+  authorId                String
+  content                 String
+  createdAt               DateTime            @default(now())
+  deletedAt               DateTime?
+  // Required FK → implicit onDelete: Restrict. Authored comment survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (content → '[deleted]') rather than cascading.
+  author                  User                @relation(fields: [authorId], references: [id])
+  node                    SystemsCanvasNode   @relation(fields: [nodeId], references: [id], onDelete: Cascade)
+  CanvasNodeComment       CanvasNodeComment?  @relation("CanvasNodeCommentToCanvasNodeComment", fields: [parentId], references: [id])
+  other_CanvasNodeComment CanvasNodeComment[] @relation("CanvasNodeCommentToCanvasNodeComment")
+
+  @@index([nodeId])
+  @@index([parentId])
+}
+
+model CoachMeConsent {
+  id              String                  @id @default(cuid())
+  userId          String                  @unique
+  agreedAt        DateTime                @default(now())
+  encryptionModel CoachMeEncryptionModel?
+  encryptionSalt  String?
+  encryptedDek    String?
+  User            User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model CoachMeSession {
+  id                     String          @id @default(cuid())
+  userId                 String
+  focusTag               CoachMeFocusTag
+  customFocusTag         String?
+  whyImportant           String?
+  sessionGoal            String
+  sessionSuccessCriteria String?
+  miracleSignsA          String?
+  miracleSignsB          String?
+  miracleSignsC          String?
+  miracleOptional        String?
+  scalingCurrent         Int?
+  scalingAlreadyHere     Int?
+  scalingResources       String?
+  scalingRecentMoments   String?
+  scalingNextStep        String?
+  actionPlanV1           String?
+  actionPlanFinal        String?
+  actionOptional         String?
+  sessionUsefulness      Int?
+  finalReflections       String?
+  currentPhase           Int             @default(0)
+  createdAt              DateTime        @default(now())
+  updatedAt              DateTime        @updatedAt
+  completedAt            DateTime?
+  archivedAt             DateTime?
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` (AUDIT-20260613-028) hard-deleting CoachMe sessions (sensitive coaching content) before user deletion; no cascade declared.
+  User                   User            @relation(fields: [userId], references: [id])
+
+  @@index([userId, focusTag])
+  @@index([userId])
+}
+
+model CoachMeSupportResource {
+  id          String  @id @default(cuid())
+  region      String  @default("HU")
+  name        String
+  type        String
+  contact     String
+  description String?
+  order       Int     @default(0)
+  active      Boolean @default(true)
+}
+
+model CoachingEngagement {
+  id            String                   @id @default(cuid())
+  offerId       String
+  requestId     String
+  style         String
+  format        String
+  arcLength     String
+  checkInRhythm String?
+  status        CoachingEngagementStatus @default(PENDING)
+  createdAt     DateTime                 @default(now())
+  updatedAt     DateTime                 @updatedAt
+  completedAt   DateTime?
+  offer         CoachingOffer            @relation(fields: [offerId], references: [id])
+  request       CoachingRequest          @relation(fields: [requestId], references: [id])
+  feedback      CoachingFeedback?
+
+  @@index([offerId])
+  @@index([requestId])
+  @@index([status])
+}
+
+model CoachingFeedback {
+  id                 String             @id @default(cuid())
+  engagementId       String             @unique
+  coacheeReflection  String
+  coachObservation   String?
+  createdAt          DateTime           @default(now())
+  CoachingEngagement CoachingEngagement @relation(fields: [engagementId], references: [id])
+}
+
+model CoachingOffer {
+  id              String               @id @default(cuid())
+  coachId         String
+  style           String
+  format          String
+  arcLengthOption String
+  availability    String
+  coacheeKnow     String
+  isArchived      Boolean              @default(false)
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+  engagements     CoachingEngagement[]
+  // Required FK → implicit onDelete: Restrict. Offer survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (coacheeKnow scrubbed, isArchived=true) rather than cascading.
+  coach           User                 @relation(fields: [coachId], references: [id])
+
+  @@index([coachId])
+  @@index([isArchived])
+}
+
+model CoachingRequest {
+  id               String               @id @default(cuid())
+  requesterId      String
+  stuckOn          String
+  shiftsWanted     String
+  formatPreference String?
+  isWithdrawn      Boolean              @default(false)
+  createdAt        DateTime             @default(now())
+  updatedAt        DateTime             @updatedAt
+  engagements      CoachingEngagement[]
+  // Required FK → implicit onDelete: Restrict. Request survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (stuckOn/shiftsWanted scrubbed, isWithdrawn=true) rather than cascading.
+  requester        User                 @relation(fields: [requesterId], references: [id])
+
+  @@index([isWithdrawn])
+  @@index([requesterId])
+}
+
+model Community {
+  id                      String                         @id @default(cuid())
+  name                    String
+  description             String?
+  type                    CommunityType                  @default(OTHER)
+  city                    String?
+  country                 String?
+  region                  String?
+  address                 String?
+  zipCode                 String?
+  latitude                Float?
+  longitude               Float?
+  foundingYear            Int?
+  website                 String?
+  acceptingMembers        MembershipStatus               @default(ACCEPTING)
+  joiningConditions       String?
+  joiningProcess          String?
+  governance              String?
+  coverImage              String?
+  contactEmail            String?
+  contactPhone            String?
+  contactVisibility       ContactVisibility              @default(MEMBERS_ONLY)
+  visibility              Visibility                     @default(PUBLIC)
+  verificationLevel       VerificationLevel              @default(SELF_DECLARED)
+  seekingVolunteers       Boolean                        @default(false)
+  volunteerDescription    String?
+  targetMemberDescription String?
+  membershipCost          String?
+  vision                  String?
+  principles              String?
+  houseRules              String?
+  annualGoals             String?
+  createdAt               DateTime                       @default(now())
+  updatedAt               DateTime                       @updatedAt
+  deletedAt               DateTime?
+  ownerId                 String
+  moderationStatus        ModerationStatus               @default(APPROVED)
+  source                  EntitySource                   @default(USER)
+  claimStatus             ClaimStatus                    @default(UNCLAIMED)
+  claimRequestById        String?
+  Board                   Board[]
+  boardAudience           BoardCommunityAudience[]
+  // Optional FK → implicit onDelete: SetNull (pending claim request disowned, not deleted, when the claimant is removed). Not separately handled by the erasure helper.
+  claimRequestBy          User?                          @relation("Community_claimRequestByIdToUser", fields: [claimRequestById], references: [id])
+  // Required FK → implicit onDelete: Restrict. Community is shared content that outlives its owner; NOT handled by `eraseUserPersonalData`, so an erased owner is retained as an anonymized tombstone and the community keeps a valid owner (AUDIT-20260613-028 design point).
+  owner                   User                           @relation("Community_ownerIdToUser", fields: [ownerId], references: [id])
+  facilities              CommunityFacility[]
+  focusAreas              CommunityFocusArea[]
+  members                 CommunityMember[]
+  values                  CommunityValue[]
+  volunteerCapabilities   CommunityVolunteerCapability[]
+  Event                   Event[]
+  FeedPost                FeedPost[]
+  Initiative              Initiative[]
+  Appreciate              Appreciate[]
+  Pitch                   Pitch[]
+  SocialIssue             SocialIssue[]
+  socialCauses            SocialCause[]                  @relation("CommunitySocialCauses")
+  weakSignals             WeakSignal[]
+  signalCommunityLinks    SignalCommunityLink[]
+
+  @@index([acceptingMembers])
+  @@index([claimStatus])
+  @@index([deletedAt])
+  @@index([latitude, longitude])
+  @@index([moderationStatus])
+  @@index([ownerId])
+  @@index([seekingVolunteers])
+  @@index([source])
+  @@index([type])
+  @@index([updatedAt])
+  @@index([visibility])
+}
+
+model CommunityArchetype {
+  id          String  @id @default(cuid())
+  title       String  @unique
+  slug        String  @unique
+  description String?
+}
+
+model CommunityFacility {
+  id          String    @id @default(cuid())
+  communityId String
+  facility    String
+  Community   Community @relation(fields: [communityId], references: [id], onDelete: Cascade)
+
+  @@unique([communityId, facility])
+}
+
+model CommunityFocusArea {
+  id          String    @id @default(cuid())
+  communityId String
+  focusArea   String
+  Community   Community @relation(fields: [communityId], references: [id], onDelete: Cascade)
+
+  @@unique([communityId, focusArea])
+}
+
+model CommunityHealthSnapshot {
+  id                 String   @id @default(cuid())
+  communityId        String
+  snapshotAt         DateTime @default(now())
+  totalActiveMembers Int
+  deliveringCount    Int
+  buildingCount      Int
+  betweenCount       Int
+  reflectingCount    Int
+  restingCount       Int
+  alertTriggered     Boolean  @default(false)
+
+  @@index([alertTriggered])
+  @@index([communityId])
+  @@index([snapshotAt])
+}
+
+model CommunityMember {
+  id          String        @id @default(cuid())
+  communityId String
+  userId      String
+  role        CommunityRole @default(MEMBER)
+  status      MemberStatus  @default(ACTIVE)
+  joinedAt    DateTime      @default(now())
+  community   Community     @relation(fields: [communityId], references: [id], onDelete: Cascade)
+  user        User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([communityId, userId])
+}
+
+model CommunityValue {
+  id          String    @id @default(cuid())
+  communityId String
+  value       String
+  Community   Community @relation(fields: [communityId], references: [id], onDelete: Cascade)
+
+  @@unique([communityId, value])
+}
+
+model CommunityVolunteerCapability {
+  id          String    @id @default(cuid())
+  communityId String
+  capability  String
+  Community   Community @relation(fields: [communityId], references: [id], onDelete: Cascade)
+
+  @@unique([communityId, capability])
+}
+
+model CompassProfile {
+  id                String   @id @default(cuid())
+  userId            String   @unique
+  northStar         String?
+  nonNegotiables    String[]
+  originQuestion    String?
+  unlockedPillars   String[] @default(["PILLAR_I"])
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+  bandwidthScore    Int?
+  /// Loosely-typed biography section payload (`unknown` in `src/components/features/compass/types.ts`); no Zod schema — caller-defined structure.
+  biographyEntries  Json?
+  communicationNote String?
+  confirmedScope    Int?
+  conflictStyleNote String?
+  /// Capacity-per-domain map. See `domainBalanceSchema` in `src/lib/validations/compass.ts`.
+  domainBalance     Json?
+  /// Stakeholder/ecosystem node map. See `ecosystemMapSchema` in `src/lib/validations/compass.ts`.
+  ecosystemMap      Json?
+  emotionalPattern  String?
+  energyPatterns    String?
+  /// Array of small experiment objects (max 10). See `experimentSchema` / `experiments` in `src/lib/validations/compass.ts`.
+  experiments       Json?
+  lastActiveSection String?
+  resourceScore     Int?
+  riskFears         String?
+  storyShift        String?
+  storyVision       String?
+  storyWhy          String?
+  /// Support-network entries. See `supportNetworkSchema` in `src/lib/validations/compass.ts`.
+  supportNetwork    Json?
+  timeScore         Int?
+  /// Translation/reframing map. See `translationMapSchema` in `src/lib/validations/compass.ts`.
+  translationMap    Json?
+  User              User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Connection {
+  id          String           @id @default(cuid())
+  senderId    String
+  receiverId  String
+  type        ConnectionType   @default(GENERAL)
+  status      ConnectionStatus @default(PENDING)
+  message     String?
+  createdAt   DateTime         @default(now())
+  updatedAt   DateTime         @updatedAt
+  respondedAt DateTime?
+  deletedAt   DateTime?
+  receiver    User             @relation("Connection_receiverIdToUser", fields: [receiverId], references: [id], onDelete: Cascade)
+  sender      User             @relation("Connection_senderIdToUser", fields: [senderId], references: [id], onDelete: Cascade)
+
+  @@unique([senderId, receiverId])
+  @@index([receiverId])
+  @@index([status])
+}
+
+model ContributionConnection {
+  id          String                       @id @default(cuid())
+  offerId     String
+  requestId   String
+  status      ContributionConnectionStatus @default(PENDING)
+  createdAt   DateTime                     @default(now())
+  updatedAt   DateTime                     @updatedAt
+  completedAt DateTime?
+  offer       ContributionOffer            @relation(fields: [offerId], references: [id])
+  request     ContributionRequest          @relation(fields: [requestId], references: [id])
+  feedback    ContributionFeedback?
+
+  @@index([offerId])
+  @@index([requestId])
+  @@index([status])
+}
+
+model ContributionFeedback {
+  id               String                 @id @default(cuid())
+  connectionId     String                 @unique
+  publicReflection String
+  createdAt        DateTime               @default(now())
+  connection       ContributionConnection @relation(fields: [connectionId], references: [id])
+}
+
+model ContributionOffer {
+  id             String                   @id @default(cuid())
+  offererId      String
+  type           ContributionType
+  domain         String?
+  timeCommitment String
+  format         String
+  availability   String
+  prerequisites  String?
+  isArchived     Boolean                  @default(false)
+  createdAt      DateTime                 @default(now())
+  updatedAt      DateTime                 @updatedAt
+  connections    ContributionConnection[]
+  // Required FK → implicit onDelete: Restrict. Offer survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (prerequisites nulled, isArchived=true) rather than cascading.
+  offerer        User                     @relation(fields: [offererId], references: [id])
+
+  @@index([isArchived])
+  @@index([offererId])
+  @@index([type])
+}
+
+model ContributionRequest {
+  id           String                   @id @default(cuid())
+  requesterId  String
+  type         ContributionType
+  whatNeeded   String
+  alreadyTried String?
+  willDoWith   String?
+  isWithdrawn  Boolean                  @default(false)
+  createdAt    DateTime                 @default(now())
+  updatedAt    DateTime                 @updatedAt
+  connections  ContributionConnection[]
+  // Required FK → implicit onDelete: Restrict. Request survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (whatNeeded/alreadyTried/willDoWith scrubbed, isWithdrawn=true) rather than cascading.
+  requester    User                     @relation(fields: [requesterId], references: [id])
+
+  @@index([isWithdrawn])
+  @@index([requesterId])
+  @@index([type])
+}
+
+model EnergyCanvas {
+  id             String            @id @default(cuid())
+  title          String
+  description    String?
+  systemState    EnergySystemState @default(CONTESTED)
+  stateReason    String?
+  privacy        EnergyPrivacy     @default(ONLY_ME)
+  communityId    String?
+  createdById    String
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+  deletedAt      DateTime?
+  // Required FK → implicit onDelete: Restrict. Canvas survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/stateReason nulled, deletedAt set) rather than cascading.
+  createdBy      User              @relation(fields: [createdById], references: [id])
+  entities       EnergyEntity[]
+  relations      EnergyRelation[]
+  EnergySnapshot EnergySnapshot[]
+
+  @@index([communityId])
+  @@index([createdById])
+  @@index([deletedAt])
+  @@index([privacy])
+}
+
+model EnergyEntity {
+  id                                                       String               @id @default(cuid())
+  canvasId                                                 String
+  roleLabel                                                String
+  entityType                                               EnergyEntityType
+  primaryScale                                             EnergyScale
+  multiScale                                               EnergyScale[]
+  visibility                                               EntityVisibility     @default(VISIBLE)
+  energyState                                              EnergyState
+  energyMagnitude                                          EnergyMagnitude      @default(MEDIUM)
+  energyRate                                               EnergyRate           @default(CHRONIC)
+  internalPower                                            InternalPower        @default(DISTRIBUTED)
+  numericValue                                             Float?
+  numericUnit                                              String?
+  voiceAccess                                              VoiceAccess          @default(FULL)
+  boundaryPermeability                                     BoundaryPermeability @default(SEMI_PERMEABLE)
+  selfDetermination                                        SelfDetermination    @default(PRESENT)
+  positionX                                                Int                  @default(0)
+  positionY                                                Int                  @default(0)
+  scaleBandY                                               Int                  @default(4)
+  notes                                                    String?
+  uncertaintyFlag                                          Boolean              @default(false)
+  createdById                                              String
+  createdAt                                                DateTime             @default(now())
+  updatedAt                                                DateTime             @updatedAt
+  deletedAt                                                DateTime?
+  widgetContent                                            String?
+  EnergyCanvas                                             EnergyCanvas         @relation(fields: [canvasId], references: [id], onDelete: Cascade)
+  // Required FK → implicit onDelete: Restrict. Entity survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (roleLabel/notes/widgetContent scrubbed, deletedAt set) rather than cascading.
+  User                                                     User                 @relation(fields: [createdById], references: [id])
+  EnergyRelation_EnergyRelation_fromEntityIdToEnergyEntity EnergyRelation[]     @relation("EnergyRelation_fromEntityIdToEnergyEntity")
+  EnergyRelation_EnergyRelation_toEntityIdToEnergyEntity   EnergyRelation[]     @relation("EnergyRelation_toEntityIdToEnergyEntity")
+  EntityDataPoint                                          EntityDataPoint[]
+
+  @@index([canvasId])
+  @@index([deletedAt])
+  @@index([entityType])
+  @@index([primaryScale])
+}
+
+model EnergyPatternEntry {
+  id                   String               @id @default(cuid())
+  name                 String
+  category             String
+  definition           String
+  /// Structural fingerprint of the pattern: `Record<string, unknown>` (caller-defined). See `proposeEnergyPatternSchema.structuralSignature` in `src/lib/validations/energy.ts`.
+  structuralSignature  Json
+  mechanismDescription String
+  leveragePoints       String[]
+  realWorldExamples    String
+  status               PatternStatus        @default(PROPOSED)
+  proposedById         String
+  createdAt            DateTime             @default(now())
+  updatedAt            DateTime             @updatedAt
+  // Required FK → implicit onDelete: Restrict. Pattern entry survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (definition/mechanism/examples scrubbed, status=RETIRED) rather than cascading.
+  proposedBy           User                 @relation(fields: [proposedById], references: [id])
+  EnergyPatternMatch   EnergyPatternMatch[]
+
+  @@index([category])
+  @@index([status])
+}
+
+model EnergyPatternMatch {
+  id                 String             @id @default(cuid())
+  canvasId           String
+  patternId          String
+  confidence         PatternConfidence
+  matchedEntities    String[]
+  matchedRelations   String[]
+  detectedAt         DateTime           @default(now())
+  EnergyPatternEntry EnergyPatternEntry @relation(fields: [patternId], references: [id])
+
+  @@index([canvasId])
+  @@index([patternId])
+}
+
+model EnergyRelation {
+  id                                                     String              @id @default(cuid())
+  canvasId                                               String
+  fromEntityId                                           String
+  toEntityId                                             String
+  powerDistance                                          PowerDistance
+  energyFlow                                             EnergyFlowType
+  informationFlow                                        InformationFlowType
+  visibility                                             RelationVisibility  @default(VISIBLE)
+  consent                                                RelationConsent
+  energyMagnitude                                        EnergyMagnitude     @default(MEDIUM)
+  numericValue                                           Float?
+  numericUnit                                            String?
+  isCrossScale                                           Boolean             @default(false)
+  patternDetected                                        String?
+  notes                                                  String?
+  uncertaintyFlag                                        Boolean             @default(false)
+  createdById                                            String
+  createdAt                                              DateTime            @default(now())
+  updatedAt                                              DateTime            @updatedAt
+  deletedAt                                              DateTime?
+  EnergyCanvas                                           EnergyCanvas        @relation(fields: [canvasId], references: [id], onDelete: Cascade)
+  // Required FK → implicit onDelete: Restrict. Relation survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (notes/patternDetected nulled, deletedAt set) rather than cascading.
+  User                                                   User                @relation(fields: [createdById], references: [id])
+  EnergyEntity_EnergyRelation_fromEntityIdToEnergyEntity EnergyEntity        @relation("EnergyRelation_fromEntityIdToEnergyEntity", fields: [fromEntityId], references: [id])
+  EnergyEntity_EnergyRelation_toEntityIdToEnergyEntity   EnergyEntity        @relation("EnergyRelation_toEntityIdToEnergyEntity", fields: [toEntityId], references: [id])
+
+  @@index([canvasId])
+  @@index([deletedAt])
+  @@index([fromEntityId])
+  @@index([toEntityId])
+}
+
+model EnergySnapshot {
+  id           String       @id @default(cuid())
+  canvasId     String
+  name         String
+  timestamp    DateTime     @default(now())
+  /// Full serialized EnergyCanvas state at snapshot time (the canvas with its entities/relations). Written from the canvas object in `createEnergySnapshotAction` (`src/app/actions/energy/export.ts`); not separately validated.
+  data         Json
+  createdBy    String
+  createdAt    DateTime     @default(now())
+  EnergyCanvas EnergyCanvas @relation(fields: [canvasId], references: [id], onDelete: Cascade)
+
+  @@index([canvasId])
+}
+
+model EntityDataPoint {
+  id            String       @id @default(cuid())
+  entityId      String
+  submittedBy   String
+  submittedAt   DateTime     @default(now())
+  value         Float
+  isQualitative Boolean      @default(false)
+  source        String?
+  EnergyEntity  EnergyEntity @relation(fields: [entityId], references: [id], onDelete: Cascade)
+
+  @@index([entityId])
+}
+
+model Event {
+  id                      String           @id @default(cuid())
+  title                   String
+  description             String?
+  startDate               DateTime
+  endDate                 DateTime?
+  isAllDay                Boolean          @default(false)
+  timezone                String           @default("Europe/Budapest")
+  isOnline                Boolean          @default(false)
+  onlineLink              String?
+  location                String?
+  address                 String?
+  latitude                Float?
+  longitude               Float?
+  type                    EventType        @default(PUBLIC)
+  category                EventCategory    @default(MEETUP)
+  capacity                Int?
+  registrationRequired    Boolean          @default(false)
+  costType                CostType         @default(FREE)
+  costAmount              Float?
+  costCurrency            String?          @default("HUF")
+  coverImage              String?
+  facebookEventUrl        String?
+  status                  EventStatus      @default(UPCOMING)
+  isRecurring             Boolean          @default(false)
+  recurrenceRule          String?
+  parentEventId           String?
+  createdAt               DateTime         @default(now())
+  updatedAt               DateTime         @updatedAt
+  deletedAt               DateTime?
+  hostId                  String
+  communityId             String?
+  moderationStatus        ModerationStatus @default(APPROVED)
+  source                  EntitySource     @default(USER)
+  claimStatus             ClaimStatus      @default(UNCLAIMED)
+  claimRequestById        String?
+  // Optional FK → implicit onDelete: SetNull (pending claim request disowned, not deleted, when the claimant is removed). Not separately handled by the erasure helper.
+  claimRequestBy          User?            @relation("Event_claimRequestByIdToUser", fields: [claimRequestById], references: [id])
+  Community               Community?       @relation(fields: [communityId], references: [id])
+  // Required FK → implicit onDelete: Restrict. Event survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/address/links/location nulled, deletedAt set) rather than cascading.
+  User_Event_hostIdToUser User             @relation("Event_hostIdToUser", fields: [hostId], references: [id])
+  Event                   Event?           @relation("EventToEvent", fields: [parentEventId], references: [id])
+  other_Event             Event[]          @relation("EventToEvent")
+  EventRsvp               EventRsvp[]
+  organizers              EventOrganizer[]
+  socialCauses            EventSocialCause[]
+  rdgTags                 EventRdgTag[]
+  Appreciate              Appreciate[]
+
+  @@index([claimStatus])
+  @@index([communityId])
+  @@index([hostId])
+  @@index([latitude, longitude])
+  @@index([moderationStatus])
+  @@index([parentEventId])
+  @@index([deletedAt, type, moderationStatus, status, startDate])
+  @@index([source])
+  @@index([startDate])
+  @@index([status])
+  @@index([type])
+  @@index([updatedAt])
+}
+
+model EventRsvp {
+  id        String     @id @default(cuid())
+  eventId   String
+  userId    String
+  status    RsvpStatus @default(REGISTERED)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  event     Event      @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  User      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, userId])
+  @@index([userId])
+}
+
+model EventOrganizer {
+  id        String    @id @default(cuid())
+  eventId   String
+  userId    String
+  role      EventRole @default(CO_HOST)
+  createdAt DateTime  @default(now())
+  event     Event     @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, userId])
+  @@index([userId])
+}
+
+model EventSocialCause {
+  id          String      @id @default(cuid())
+  eventId     String
+  causeId     String
+  event       Event       @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  socialCause SocialCause @relation(fields: [causeId], references: [id], onDelete: Cascade)
+
+  @@unique([eventId, causeId])
+  @@index([causeId])
+}
+
+model EventRdgTag {
+  id               String           @id @default(cuid())
+  eventId          String
+  rdgId            String
+  event            Event            @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  RegenerativeGoal RegenerativeGoal @relation(fields: [rdgId], references: [id])
+
+  @@unique([eventId, rdgId])
+  @@index([rdgId])
+}
+
+enum FeedReactionType {
+  INSPIRED
+  LEARNED
+  CAN_HELP
+  CAN_CONNECT
+  WORTH_DEEPER_LISTENING
+  REGENERATIVE
+}
+
+enum FeedAnnotationSource {
+  AUTHOR
+  VIEWER
+}
+
+model FeedComment {
+  id               String                @id @default(cuid())
+  postId           String
+  parentId         String?
+  content          String
+  plainText        String?
+  authorId         String
+  createdAt        DateTime              @default(now())
+  updatedAt        DateTime              @updatedAt
+  deletedAt        DateTime?
+  // Required FK → implicit onDelete: Restrict. Comment survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (content → '[deleted]', deletedAt set) rather than cascading.
+  author           User                  @relation(fields: [authorId], references: [id])
+  parent           FeedComment?          @relation("FeedCommentToFeedComment", fields: [parentId], references: [id])
+  replies          FeedComment[]         @relation("FeedCommentToFeedComment")
+  post             FeedPost              @relation(fields: [postId], references: [id], onDelete: Cascade)
+  commentReactions FeedCommentReaction[]
+  FeedMention      FeedMention[]
+
+  @@index([authorId])
+  @@index([createdAt])
+  @@index([parentId])
+  @@index([postId])
+}
+
+model FeedCommentReaction {
+  id        String           @id @default(cuid())
+  commentId String
+  userId    String
+  type      FeedReactionType
+  createdAt DateTime         @default(now())
+  comment   FeedComment      @relation(fields: [commentId], references: [id], onDelete: Cascade)
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([commentId, userId, type])
+  @@index([commentId, type])
+  @@index([userId])
+}
+
+model FeedMention {
+  id              String       @id @default(cuid())
+  postId          String?
+  commentId       String?
+  mentionedUserId String
+  createdAt       DateTime     @default(now())
+  FeedComment     FeedComment? @relation(fields: [commentId], references: [id], onDelete: Cascade)
+  User            User         @relation(fields: [mentionedUserId], references: [id], onDelete: Cascade)
+  FeedPost        FeedPost?    @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@index([mentionedUserId])
+}
+
+model FeedPost {
+  id             String                  @id @default(cuid())
+  content        String?
+  plainText      String?
+  /// Media attachments: `Array<{ type: 'image' | 'video'; url: string; alt?: string }>`. See `createPostSchema.attachments` in `src/app/actions/feed/post.ts`.
+  attachments    Json?
+  youtubeLinks   String[]
+  sourceType     PostSource              @default(USER)
+  authorId       String
+  communityId    String?
+  rssSourceId    String?
+  visibility     PostVisibility          @default(PUBLIC)
+  commentsCount  Int                     @default(0)
+  status         ModerationStatus        @default(APPROVED)
+  createdAt      DateTime                @default(now())
+  updatedAt      DateTime                @updatedAt
+  deletedAt      DateTime?
+  slug           String                  @unique
+  comments       FeedComment[]
+  postReactions  FeedPostReaction[]
+  rdgAnnotations FeedPostRdgAnnotation[]
+  tagAnnotations FeedPostTagAnnotation[]
+  FeedMention    FeedMention[]
+  // Required FK → implicit onDelete: Restrict. Post survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (content/attachments/youtubeLinks cleared, deletedAt set) rather than cascading.
+  author         User                    @relation(fields: [authorId], references: [id])
+  community      Community?              @relation(fields: [communityId], references: [id])
+  RssSource      RssSource?              @relation(fields: [rssSourceId], references: [id])
+
+  @@index([authorId])
+  @@index([communityId])
+  @@index([createdAt])
+  @@index([deletedAt])
+  @@index([deletedAt, createdAt])
+  @@index([rssSourceId])
+  @@index([sourceType])
+  @@index([visibility])
+}
+
+model FeedPostReaction {
+  id        String           @id @default(cuid())
+  postId    String
+  userId    String
+  type      FeedReactionType
+  createdAt DateTime         @default(now())
+  post      FeedPost         @relation(fields: [postId], references: [id], onDelete: Cascade)
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([postId, userId, type])
+  @@index([postId, type])
+  @@index([userId])
+}
+
+model FeedPostRdgAnnotation {
+  id        String               @id @default(cuid())
+  postId    String
+  userId    String
+  source    FeedAnnotationSource
+  rdgSlug   String
+  createdAt DateTime             @default(now())
+  updatedAt DateTime             @updatedAt
+  post      FeedPost             @relation(fields: [postId], references: [id], onDelete: Cascade)
+  user      User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([postId, userId, source, rdgSlug])
+  @@index([postId, source])
+  @@index([userId])
+}
+
+model FeedPostTagAnnotation {
+  id          String               @id @default(cuid())
+  postId      String
+  userId      String
+  source      FeedAnnotationSource
+  tagKey      String
+  tagLabel    String
+  tagCategory String
+  createdAt   DateTime             @default(now())
+  updatedAt   DateTime             @updatedAt
+  post        FeedPost             @relation(fields: [postId], references: [id], onDelete: Cascade)
+  user        User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([postId, userId, source, tagKey])
+  @@index([postId, source])
+  @@index([userId])
+}
+
+model Feedback {
+  id           String         @id @default(cuid())
+  userId       String?
+  type         FeedbackType
+  expectation  String
+  reality      String
+  improvement  String?
+  otherComment String?
+  status       FeedbackStatus @default(NEW)
+  /// Free-form submission context (`Record<string, unknown>`): page/url, locale, app version, etc. See `feedbackSchema.metadata` in `src/app/actions/feedback.ts`.
+  metadata     Json
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  // Optional FK with explicit onDelete: SetNull. Feedback is retained for product analytics after account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) nulls userId + scrubs free-text/metadata for GDPR.
+  User         User?          @relation(fields: [userId], references: [id], onDelete: SetNull)
+  // Optional 1:1 back-relation: a Feedback may be published as a public IdeaPost (FK lives on IdeaPost.feedbackId).
+  ideaPost     IdeaPost?
+
+  @@index([status])
+  @@index([userId])
+}
+
+enum IdeaPostType {
+  PAIN_POINT
+  FEATURE_IDEA
+  BUG_FIX
+}
+
+enum IdeaPostStatus {
+  OPEN
+  PLANNED
+  IN_PROGRESS
+  DONE
+  DECLINED
+}
+
+/// Public community idea/pain-point/feature request, optionally published from a private Feedback. Visible to registered (non-guest) users only (auth-gated in the action layer). GDPR: createdBy is scrub-retained on erasure (like Story/Initiative).
+model IdeaPost {
+  id          String         @id @default(cuid())
+  title       String
+  description String
+  type        IdeaPostType
+  status      IdeaPostStatus @default(OPEN)
+  /// Canonical RDG ids (RDG01..RDG30) from src/lib/taxonomy; validated with assertCanonicalRdgIds.
+  rdgTags     String[]
+  tags        String[]
+  /// Denormalized upvote counter (precedent: BacklogItem.communityResonance). Erasure does not reconcile it (matches BacklogResonance).
+  voteCount   Int            @default(0)
+  feedbackId  String?        @unique
+  createdById String
+  createdAt   DateTime       @default(now())
+  updatedAt   DateTime       @updatedAt
+  feedback    Feedback?      @relation(fields: [feedbackId], references: [id], onDelete: SetNull)
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` scrubbing IdeaPost title/description in place (user row is anonymized, not deleted); no cascade.
+  createdBy   User           @relation(fields: [createdById], references: [id])
+  votes       IdeaVote[]
+  comments    IdeaComment[]
+
+  @@index([status])
+  @@index([type])
+  @@index([voteCount])
+  @@index([createdById])
+}
+
+/// One upvote per user per IdeaPost (toggleable). GDPR: deleted on erasure (like BacklogResonance/SignalResonanceVote).
+model IdeaVote {
+  id         String   @id @default(cuid())
+  ideaPostId String
+  userId     String
+  createdAt  DateTime @default(now())
+  ideaPost   IdeaPost @relation(fields: [ideaPostId], references: [id], onDelete: Cascade)
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` deleting these rows before user deletion; no cascade declared.
+  user       User     @relation(fields: [userId], references: [id])
+
+  @@unique([ideaPostId, userId])
+  @@index([ideaPostId])
+  @@index([userId])
+}
+
+/// Comment on a public IdeaPost. GDPR: content scrubbed in place on erasure (like StoryComment/FeedComment).
+model IdeaComment {
+  id         String   @id @default(cuid())
+  ideaPostId String
+  userId     String
+  content    String
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  ideaPost   IdeaPost @relation(fields: [ideaPostId], references: [id], onDelete: Cascade)
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` scrubbing content in place; no cascade.
+  user       User     @relation(fields: [userId], references: [id])
+
+  @@index([ideaPostId])
+  @@index([userId])
+}
+
+model Initiative {
+  id             String                   @id @default(cuid())
+  title          String
+  description    String
+  why            String
+  initiativeType InitiativeType           @default(OTHER)
+  rdgAlignment   String[]
+  state          InitiativeState          @default(IMAGINED)
+  canvasNodeId   String?
+  communityId    String?
+  createdById    String
+  createdAt      DateTime                 @default(now())
+  updatedAt      DateTime                 @updatedAt
+  completedAt    DateTime?
+  archivedAt     DateTime?
+  archiveReason  String?
+  assigneeId     String?
+  boardId        String?
+  // Optional FK → implicit onDelete: SetNull (initiative unassigned, not deleted, when the assignee is removed). `eraseUserPersonalData` (AUDIT-20260613-028) sets assigneeId=null.
+  assignee       User?                    @relation("Initiative_assigneeIdToUser", fields: [assigneeId], references: [id])
+  Board          Board?                   @relation(fields: [boardId], references: [id])
+  Community      Community?               @relation(fields: [communityId], references: [id])
+  // Required FK → implicit onDelete: Restrict. Initiative survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/why scrubbed, archivedAt set) rather than cascading.
+  createdBy      User                     @relation("Initiative_createdByIdToUser", fields: [createdById], references: [id])
+  retrospective  InitiativeRetrospective?
+  roles          InitiativeRole[]
+  updates        InitiativeUpdate[]
+  Pitch          Pitch?
+  metrics        TaskMetric?
+
+  @@index([assigneeId])
+  @@index([boardId])
+  @@index([communityId])
+  @@index([createdById])
+  @@index([initiativeType])
+  @@index([state])
+}
+
+model InitiativeRetrospective {
+  id              String     @id @default(cuid())
+  initiativeId    String     @unique
+  publicNarrative String
+  createdAt       DateTime   @default(now())
+  Initiative      Initiative @relation(fields: [initiativeId], references: [id])
+}
+
+model InitiativeRole {
+  id               String             @id @default(cuid())
+  initiativeId     String
+  userId           String
+  roleType         InitiativeRoleType
+  contributionType String
+  joinedAt         DateTime           @default(now())
+  leftAt           DateTime?
+  initiative       Initiative         @relation(fields: [initiativeId], references: [id], onDelete: Cascade)
+  user             User               @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([initiativeId, userId, roleType])
+  @@index([initiativeId])
+  @@index([userId])
+}
+
+model InitiativeUpdate {
+  id           String     @id @default(cuid())
+  initiativeId String
+  authorId     String
+  narrative    String
+  whatShifting String?
+  whatHard     String?
+  helpNeeded   String?
+  createdAt    DateTime   @default(now())
+  // Required FK → implicit onDelete: Restrict. Update survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (narrative/whatShifting/whatHard/helpNeeded scrubbed) rather than cascading.
+  author       User       @relation(fields: [authorId], references: [id])
+  initiative   Initiative @relation(fields: [initiativeId], references: [id], onDelete: Cascade)
+
+  @@index([createdAt])
+  @@index([initiativeId])
+}
+
+model InterventionRecord {
+  id                String              @id @default(cuid())
+  nodeId            String
+  authorId          String
+  outcome           InterventionOutcome
+  reflection        String
+  createdAt         DateTime            @default(now())
+  // Required FK → implicit onDelete: Restrict. Record survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (reflection → '[deleted]') rather than cascading.
+  User              User                @relation(fields: [authorId], references: [id])
+  SystemsCanvasNode SystemsCanvasNode   @relation(fields: [nodeId], references: [id])
+
+  @@index([authorId])
+  @@index([nodeId])
+}
+
+model Invite {
+  id             String       @id @default(cuid())
+  code           String       @unique
+  createdById    String
+  recipientEmail String?
+  recipientId    String?
+  status         InviteStatus @default(CREATED)
+  isDirect       Boolean      @default(false)
+  profileType    ProfileType?
+  emailSubject   String?
+  resendCount    Int          @default(0)
+  createdAt      DateTime     @default(now())
+  sentAt         DateTime?
+  openedAt       DateTime?
+  acceptedAt     DateTime?
+  expiresAt      DateTime
+  revokedAt      DateTime?
+  revokedById    String?
+  revokeReason   String?
+  lastActivityAt DateTime     @default(now())
+  notes          String?
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` (AUDIT-20260613-028) hard-deleting invites the user created before user deletion; no cascade declared.
+  createdBy      User         @relation("Invite_createdByIdToUser", fields: [createdById], references: [id])
+  // Optional FK → implicit onDelete: SetNull (invite kept, recipient disowned). `eraseUserPersonalData` (AUDIT-20260613-028) nulls recipientId + recipientEmail.
+  recipient      User?        @relation("Invite_recipientIdToUser", fields: [recipientId], references: [id])
+  // Optional FK → implicit onDelete: SetNull (invite kept, revoker disowned). `eraseUserPersonalData` (AUDIT-20260613-028) nulls revokedById + revokeReason.
+  revokedBy      User?        @relation("Invite_revokedByIdToUser", fields: [revokedById], references: [id])
+
+  @@index([createdAt])
+  @@index([createdById])
+  @@index([expiresAt])
+  @@index([isDirect])
+  @@index([recipientEmail])
+  @@index([status])
+}
+
+model IssueDispute {
+  id          String      @id @default(cuid())
+  issueId     String
+  userId      String
+  reason      String
+  createdAt   DateTime    @default(now())
+  resolvedAt  DateTime?
+  SocialIssue SocialIssue @relation(fields: [issueId], references: [id], onDelete: Cascade)
+  User        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([issueId])
+  @@index([userId])
+}
+
+model IssueVouch {
+  id          String      @id @default(cuid())
+  issueId     String
+  userId      String
+  createdAt   DateTime    @default(now())
+  socialIssue SocialIssue @relation(fields: [issueId], references: [id], onDelete: Cascade)
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([issueId, userId])
+  @@index([issueId])
+  @@index([userId])
+}
+
+model Appreciate {
+  id                                 String         @id @default(cuid())
+  giverId                            String
+  targetType                         AppreciateType
+  targetUserId                       String?
+  targetCommunityId                  String?
+  targetEventId                      String?
+  createdAt                          DateTime       @default(now())
+  User_Appreciate_giverIdToUser      User           @relation("Appreciate_giverIdToUser", fields: [giverId], references: [id], onDelete: Cascade)
+  Community                          Community?     @relation(fields: [targetCommunityId], references: [id], onDelete: Cascade)
+  Event                              Event?         @relation(fields: [targetEventId], references: [id], onDelete: Cascade)
+  User_Appreciate_targetUserIdToUser User?          @relation("Appreciate_targetUserIdToUser", fields: [targetUserId], references: [id], onDelete: Cascade)
+
+  @@unique([giverId, targetCommunityId])
+  @@unique([giverId, targetEventId])
+  @@unique([giverId, targetUserId])
+  @@index([targetCommunityId])
+  @@index([targetEventId])
+  @@index([targetUserId])
+}
+
+model MatchRejectionLog {
+  id                  String    @id @default(cuid())
+  targetUserId        String
+  targetUserArchetype Archetype
+  candidateArchetype  Archetype
+  candidateUserId     String?
+  createdAt           DateTime  @default(now())
+  User                User      @relation(fields: [targetUserId], references: [id], onDelete: Cascade)
+
+  @@index([createdAt])
+  @@index([targetUserArchetype, candidateArchetype])
+  @@index([targetUserId, createdAt])
+}
+
+model MentorProfile {
+  id                  String                  @id @default(cuid())
+  userId              String                  @unique
+  domain              String
+  yearsExperience     Int
+  whatCanOffer        String
+  arcLengthPreference String
+  maxConcurrent       Int                     @default(2)
+  professionalUrl     String?
+  isArchived          Boolean                 @default(false)
+  createdAt           DateTime                @default(now())
+  updatedAt           DateTime                @updatedAt
+  user                User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  relationships       MentoringRelationship[]
+
+  @@index([domain])
+  @@index([isArchived])
+}
+
+model MentoringFeedback {
+  id                    String                @id @default(cuid())
+  relationshipId        String
+  phase                 String
+  reflection            String
+  authorId              String
+  createdAt             DateTime              @default(now())
+  MentoringRelationship MentoringRelationship @relation(fields: [relationshipId], references: [id])
+
+  @@index([relationshipId])
+}
+
+model MentoringRelationship {
+  id            String                      @id @default(cuid())
+  mentorId      String
+  requestId     String
+  arcLength     String
+  checkInRhythm String
+  status        MentoringRelationshipStatus @default(EXPLORING)
+  createdAt     DateTime                    @default(now())
+  updatedAt     DateTime                    @updatedAt
+  closedAt      DateTime?
+  feedbacks     MentoringFeedback[]
+  mentor        MentorProfile               @relation(fields: [mentorId], references: [id])
+  request       MentoringRequest            @relation(fields: [requestId], references: [id])
+
+  @@index([mentorId])
+  @@index([requestId])
+  @@index([status])
+}
+
+model MentoringRequest {
+  id              String                  @id @default(cuid())
+  requesterId     String
+  domain          String
+  inflectionPoint String
+  guidanceSought  String
+  isWithdrawn     Boolean                 @default(false)
+  createdAt       DateTime                @default(now())
+  updatedAt       DateTime                @updatedAt
+  relationships   MentoringRelationship[]
+  // Required FK → implicit onDelete: Restrict. Request survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (inflectionPoint/guidanceSought scrubbed, isWithdrawn=true) rather than cascading.
+  requester       User                    @relation(fields: [requesterId], references: [id])
+
+  @@index([isWithdrawn])
+  @@index([requesterId])
+}
+
+model Message {
+  id         String    @id @default(cuid())
+  senderId   String
+  receiverId String
+  content    String
+  isRead     Boolean   @default(false)
+  createdAt  DateTime  @default(now())
+  editedAt   DateTime?
+  deletedAt  DateTime?
+  receiver   User      @relation("Message_receiverIdToUser", fields: [receiverId], references: [id], onDelete: Cascade)
+  sender     User      @relation("Message_senderIdToUser", fields: [senderId], references: [id], onDelete: Cascade)
+
+  @@index([createdAt])
+  @@index([senderId, receiverId])
+  @@index([receiverId, isRead])
+}
+
+model RefreshTokenSession {
+  id             String    @id @default(cuid())
+  userId         String
+  tokenHash      String    @unique
+  familyId       String
+  expiresAt      DateTime
+  consumedAt     DateTime?
+  revokedAt      DateTime?
+  replacedByHash String?
+  createdAt      DateTime  @default(now())
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([familyId])
+  @@index([userId])
+  @@index([expiresAt])
+  @@index([consumedAt])
+  @@index([revokedAt])
+}
+
+// One-time TOTP recovery/backup codes (AUDIT-20260613-041 #9). Codes are stored
+// only as SHA-256 hashes; consumption is an atomic `updateMany ... where usedAt:null`
+// (TOCTOU-safe, mirroring the magic-link redemption pattern).
+model TwoFactorBackupCode {
+  id        String    @id @default(cuid())
+  userId    String
+  codeHash  String
+  usedAt    DateTime?
+  createdAt DateTime  @default(now())
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, codeHash])
+  @@index([userId, usedAt])
+}
+
+model Notification {
+  id          String           @id @default(cuid())
+  userId      String
+  type        NotificationType
+  title       String
+  message     String?
+  link        String?
+  isRead      Boolean          @default(false)
+  createdAt   DateTime         @default(now())
+  senderId    String?
+  eventId     String?
+  communityId String?
+  // Optional FK → implicit onDelete: SetNull (notification kept, sender disowned, when the sender is removed). `eraseUserPersonalData` (AUDIT-20260613-028) nulls senderId; recipient-side rows cascade via the `user` relation below.
+  sender      User?            @relation("Notification_senderIdToUser", fields: [senderId], references: [id])
+  user        User             @relation("Notification_userIdToUser", fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([isRead])
+  @@index([userId])
+  @@index([userId, isRead, createdAt])
+}
+
+model PageVisitDaily {
+  id                 String     @id @default(cuid())
+  date               DateTime   @db.Date
+  module             PageModule @default(OTHER)
+  visitCount         Int        @default(0)
+  /// Per-archetype visit counts: `Record<archetypeKey, number>`. Maintained by `src/app/actions/page-visits.ts` (read as `Record<string, number>`).
+  archetypeBreakdown Json
+  uniqueVisitors     Int        @default(0)
+
+  @@unique([date, module])
+  @@index([date])
+  @@index([module])
+}
+
+model PageVisitLog {
+  id             String      @id @default(cuid())
+  userId         String
+  path           String
+  module         PageModule  @default(OTHER)
+  userArchetypes Archetype[]
+  createdAt      DateTime    @default(now())
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` (AUDIT-20260613-028) hard-deleting these visit-log rows before user deletion; no cascade declared. (028 noted these rows could otherwise block the pending-registration cleanup cron.)
+  User           User        @relation(fields: [userId], references: [id])
+
+  @@index([createdAt])
+  @@index([module])
+  @@index([userId])
+}
+
+model PageVisitMonthly {
+  id                 String     @id @default(cuid())
+  monthStart         DateTime   @db.Date
+  module             PageModule @default(OTHER)
+  visitCount         Int        @default(0)
+  /// Per-archetype visit counts: `Record<archetypeKey, number>`. Maintained by `src/app/actions/page-visits.ts` (read as `Record<string, number>`).
+  archetypeBreakdown Json
+  uniqueVisitors     Int        @default(0)
+
+  @@unique([monthStart, module])
+  @@index([module])
+  @@index([monthStart])
+}
+
+model PageVisitWeekly {
+  id                 String     @id @default(cuid())
+  weekStart          DateTime   @db.Date
+  module             PageModule @default(OTHER)
+  visitCount         Int        @default(0)
+  /// Per-archetype visit counts: `Record<archetypeKey, number>`. Maintained by `src/app/actions/page-visits.ts` (read as `Record<string, number>`).
+  archetypeBreakdown Json
+  uniqueVisitors     Int        @default(0)
+
+  @@unique([weekStart, module])
+  @@index([module])
+  @@index([weekStart])
+}
+
+model PatternLibraryEntry {
+  id                 String               @id @default(cuid())
+  name               String
+  category           String
+  applicableContexts String[]
+  requirements       String?
+  limitations        String?
+  examples           String?
+  status             PatternLibraryStatus @default(PROPOSED)
+  proposedById       String
+  createdAt          DateTime             @default(now())
+  updatedAt          DateTime             @updatedAt
+  // Required FK → implicit onDelete: Restrict. Library entry survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (requirements/limitations/examples nulled, status=RETIRED) rather than cascading.
+  proposedBy         User                 @relation(fields: [proposedById], references: [id])
+
+  @@index([category])
+  @@index([status])
+}
+
+model PeerSupportConnection {
+  id        String                      @id @default(cuid())
+  offerId   String
+  requestId String
+  format    String
+  arcLength String?
+  status    PeerSupportConnectionStatus @default(PENDING)
+  createdAt DateTime                    @default(now())
+  updatedAt DateTime                    @updatedAt
+  closedAt  DateTime?
+  offer     PeerSupportOffer            @relation(fields: [offerId], references: [id])
+  request   PeerSupportRequest          @relation(fields: [requestId], references: [id])
+  feedbacks PeerSupportFeedback[]
+
+  @@index([offerId])
+  @@index([requestId])
+  @@index([status])
+}
+
+model PeerSupportFeedback {
+  id                    String                @id @default(cuid())
+  connectionId          String
+  authorId              String
+  feltMet               Boolean?
+  feltSafe              Boolean?
+  publicNote            String?
+  isPrivate             Boolean               @default(true)
+  createdAt             DateTime              @default(now())
+  PeerSupportConnection PeerSupportConnection @relation(fields: [connectionId], references: [id])
+
+  @@index([connectionId])
+}
+
+model PeerSupportOffer {
+  id                  String                  @id @default(cuid())
+  offererId           String
+  situationsNavigated String[]
+  format              String
+  capacity            Int                     @default(1)
+  boundaryStatement   String
+  isPaused            Boolean                 @default(false)
+  isArchived          Boolean                 @default(false)
+  createdAt           DateTime                @default(now())
+  updatedAt           DateTime                @updatedAt
+  connections         PeerSupportConnection[]
+  // Required FK → implicit onDelete: Restrict. Offer survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (boundaryStatement scrubbed, isArchived=true, isPaused=true) rather than cascading.
+  offerer             User                    @relation(fields: [offererId], references: [id])
+
+  @@index([isArchived])
+  @@index([isPaused])
+  @@index([offererId])
+}
+
+model PeerSupportRequest {
+  id               String                  @id @default(cuid())
+  requesterId      String
+  situationType    String
+  whatSupportLooks String
+  whatNotLooking   String
+  isWithdrawn      Boolean                 @default(false)
+  createdAt        DateTime                @default(now())
+  updatedAt        DateTime                @updatedAt
+  connections      PeerSupportConnection[]
+  // Required FK → implicit onDelete: Restrict. Request survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (whatSupportLooks/whatNotLooking scrubbed, isWithdrawn=true) rather than cascading.
+  requester        User                    @relation(fields: [requesterId], references: [id])
+
+  @@index([isWithdrawn])
+  @@index([requesterId])
+}
+
+model Pitch {
+  id                   String             @id @default(cuid())
+  name                 String             @db.VarChar(80)
+  summary              String             @db.VarChar(200)
+  location             String             @db.VarChar(120)
+  website              String?            @db.VarChar(500)
+  language             String             @default("hu")
+  localContext         String             @db.VarChar(500)
+  systemicChallenge    String             @db.VarChar(300)
+  vision               String             @db.VarChar(300)
+  expectedOutcomes     String             @db.VarChar(400)
+  teamDescription      String             @db.VarChar(300)
+  experience           String?            @db.VarChar(300)
+  evidenceLinks        String[]
+  temporalClass        String             @default("PROJECT")
+  license              String             @default("CC-BY-SA-4.0")
+  protocolLabels       String[]
+  casesWithProvenance  Boolean            @default(false)
+  notInRoomAck         String?            @db.VarChar(500)
+  stage                PitchStage         @default(IDEA)
+  mainObstacles        String             @db.VarChar(400)
+  needsSkills          String[]
+  needsFunding         Boolean            @default(false)
+  fundingAmount        Int?
+  fundingCurrency      String?            @db.VarChar(3)
+  needsPartners        Boolean            @default(false)
+  needsVolunteers      Boolean            @default(false)
+  needsKnowledge       String?            @db.VarChar(200)
+  needsOther           String?            @db.VarChar(200)
+  callToAction         String             @db.VarChar(200)
+  contactEmail         String?            @db.VarChar(255)
+  usePlatformMessaging Boolean            @default(true)
+  status               PitchStatus        @default(DRAFT)
+  publishedAt          DateTime?
+  topicTags            String[]
+  authorId             String
+  communityId          String?
+  initiativeId         String?            @unique
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+  archivedAt           DateTime?
+  User                 User               @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  Community            Community?         @relation(fields: [communityId], references: [id])
+  Initiative           Initiative?        @relation(fields: [initiativeId], references: [id])
+  cases                CaseWithProvenance[]
+  PitchEndorsement     PitchEndorsement[]
+  PitchRDGTag          PitchRDGTag[]
+
+  @@index([authorId])
+  @@index([communityId])
+  @@index([initiativeId])
+  @@index([language])
+  @@index([publishedAt])
+  @@index([stage])
+  @@index([status])
+}
+
+model CaseWithProvenance {
+  id                    String   @id @default(cuid())
+  slug                  String   @unique
+  title                 String   @db.VarChar(140)
+  summary               String   @db.VarChar(300)
+  place                 String   @db.VarChar(160)
+  temporalClass         String   @default("PROJECT")
+  institutionalContext  String   @db.VarChar(500)
+  /// Array of outcome claims: `Array<{ claim: string; confidence: string }>`. Rendered by `src/app/cases/[slug]/page.tsx` (the `Claim` type).
+  outcomeClaims         Json
+  lessons               String   @db.VarChar(1200)
+  contributorNotes      String?  @db.VarChar(800)
+  attribution           String   @db.VarChar(300)
+  lineageAcknowledgment String?  @db.VarChar(500)
+  pitchId               String?
+  authorId              String
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+  author                User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  pitch                 Pitch?   @relation(fields: [pitchId], references: [id])
+
+  @@index([authorId])
+  @@index([pitchId])
+  @@index([temporalClass])
+  @@index([createdAt])
+}
+
+model PitchEndorsement {
+  id         String   @id @default(cuid())
+  pitchId    String
+  endorserId String
+  message    String?  @db.VarChar(200)
+  createdAt  DateTime @default(now())
+  User       User     @relation(fields: [endorserId], references: [id], onDelete: Cascade)
+  Pitch      Pitch    @relation(fields: [pitchId], references: [id], onDelete: Cascade)
+
+  @@unique([pitchId, endorserId])
+  @@index([pitchId])
+}
+
+model PitchRDGTag {
+  id               String           @id @default(cuid())
+  pitchId          String
+  rdgId            String
+  Pitch            Pitch            @relation(fields: [pitchId], references: [id], onDelete: Cascade)
+  RegenerativeGoal RegenerativeGoal @relation(fields: [rdgId], references: [id])
+
+  @@unique([pitchId, rdgId])
+  @@index([pitchId])
+  @@index([rdgId])
+}
+
+model ProjectReflection {
+  id                 String                 @id @default(cuid())
+  userId             String
+  projectName        String
+  phase              ProjectReflectionPhase
+  neededFunctions    String[]
+  presentFunctions   String[]
+  activeFunctions    String[]
+  absentFunctions    String[]
+  privateNotes       String?
+  whatItBecame       String?
+  whatToCarryForward String?
+  createdAt          DateTime               @default(now())
+  User               User                   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([phase])
+  @@index([userId])
+}
+
+model ReflectionRecord {
+  id                      String          @id @default(cuid())
+  userId                  String
+  level                   ReflectionLevel
+  alignmentScore          Int?
+  energyScore             Int?
+  outsideFunctionScore    Int?
+  outsideFunctionByChoice Boolean?
+  activeFunctions         String[]
+  unavailableFunctions    String[]
+  updatedOfferSentence    String?
+  privateNotes            String?
+  triggerContext          String?
+  createdAt               DateTime        @default(now())
+  User                    User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+  @@index([userId, level])
+}
+
+model RegenerativeGoal {
+  id          String        @id @default(cuid())
+  key         String        @unique
+  label       String
+  labelHu     String?
+  category    String
+  description String?
+  parentKey   String?
+  sortOrder   Int           @default(0)
+  PitchRDGTag PitchRDGTag[]
+  EventRdgTag EventRdgTag[]
+
+  @@index([category])
+  @@index([key])
+}
+
+model Report {
+  id           String         @id @default(cuid())
+  filerId      String
+  targetId     String
+  targetType   ReportTarget
+  category     ReportCategory
+  description  String?
+  status       ReportStatus   @default(PENDING)
+  resolution   String?
+  resolvedAt   DateTime?
+  resolvedById String?
+  createdAt    DateTime       @default(now())
+  // Required FK → implicit onDelete: Restrict. Moderation report retained for audit after account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) nulls the free-text `description` rather than cascading.
+  filer        User           @relation("Report_filerIdToUser", fields: [filerId], references: [id])
+  // Required FK → implicit onDelete: Restrict. Report against this user retained for audit after account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) nulls the free-text `description` rather than cascading.
+  target       User           @relation("Report_targetIdToUser", fields: [targetId], references: [id])
+
+  @@index([filerId])
+  @@index([status])
+  @@index([targetId])
+}
+
+model RootCauseDiagnostic {
+  id                      String   @id @default(cuid())
+  canvasId                String
+  authorId                String
+  decisionClarity         Int
+  preDecisionDisagreement Int
+  coordinationAwareness   Int
+  /// Raw diagnostic questionnaire answers: `Record<string, unknown>` (caller-defined). See `rawResponses` in `src/lib/validations/canvas.ts`.
+  rawResponses            Json?
+  createdAt               DateTime @default(now())
+  // Required FK → implicit onDelete: Restrict. Restrict relies on `eraseUserPersonalData` (AUDIT-20260613-028) hard-deleting these diagnostic rows before user deletion; no cascade declared.
+  User                    User     @relation(fields: [authorId], references: [id])
+
+  @@index([authorId])
+  @@index([canvasId])
+}
+
+model RouteConfig {
+  id              String   @id @default(cuid())
+  routeId         String   @unique
+  path            String
+  label           String
+  hardDisabled    Boolean  @default(false)
+  softDisabled    Boolean  @default(false)
+  userCanOverride Boolean  @default(false)
+  /// Per-CMAP-level visibility flags: `Record<cmapLevel, boolean>` (default `{}`). Read/written as `Record<string, boolean>` in `src/app/actions/admin/routes.ts`.
+  levelVisibility Json     @default("{}")
+  updatedAt       DateTime @updatedAt
+  updatedBy       String?
+
+  @@index([hardDisabled])
+  @@index([softDisabled])
+}
+
+model ExperimentalFeature {
+  id              String   @id @default(cuid())
+  slug            String   @unique
+  label           String
+  description     String?
+  globallyEnabled Boolean  @default(false)
+  optInByDefault  Boolean  @default(true)
+  sortOrder       Int      @default(0)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model RadioStation {
+  id        String   @id @default(cuid())
+  name      String
+  url       String
+  genre     String?
+  language  String?
+  isActive  Boolean  @default(true)
+  isDefault Boolean  @default(false)
+  sortOrder Int      @default(0)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([isActive, isDefault])
+}
+
+model Quote {
+  id        String   @id @default(cuid())
+  text      String
+  author    String
+  source    String?
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([isActive])
+}
+
+model RssSource {
+  id            String     @id @default(cuid())
+  name          String
+  url           String     @unique
+  description   String?
+  lastFetchedAt DateTime?
+  fetchInterval Int        @default(3600)
+  isActive      Boolean    @default(true)
+  createdAt     DateTime   @default(now())
+  FeedPost      FeedPost[]
+
+  @@index([isActive])
+}
+
+model SavedVolunteerOpportunity {
+  id            String               @id @default(cuid())
+  userId        String
+  opportunityId String
+  createdAt     DateTime             @default(now())
+  opportunity   VolunteerOpportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  User          User                 @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, opportunityId])
+  @@index([opportunityId])
+  @@index([userId])
+}
+
+model SchedulingPoll {
+  id                    String                 @id @default(cuid())
+  participantToken      String                 @unique
+  organizerToken        String                 @unique
+  title                 String
+  description           String?
+  organizerName         String
+  location              String?
+  timezone              String
+  confirmedTimeOptionId String?                @unique
+  confirmedAt           DateTime?
+  isArchived            Boolean                @default(false)
+  createdAt             DateTime               @default(now())
+  updatedAt             DateTime               @updatedAt
+  expiresAt             DateTime?
+  creatorId             String?
+  confirmedTimeOption   SchedulingTimeOption?  @relation("SchedulingPoll_confirmedTimeOptionIdToSchedulingTimeOption", fields: [confirmedTimeOptionId], references: [id])
+  // Optional FK → implicit onDelete: SetNull (poll kept, creator disowned, when the creator is removed). `eraseUserPersonalData` (AUDIT-20260613-028) nulls creatorId, rotates the access tokens, and anonymizes organizerName.
+  creator               User?                  @relation(fields: [creatorId], references: [id])
+  responses             SchedulingResponse[]
+  timeOptions           SchedulingTimeOption[] @relation("SchedulingTimeOption_pollIdToSchedulingPoll")
+
+  @@index([createdAt])
+  @@index([creatorId])
+  @@index([organizerToken])
+  @@index([participantToken])
+}
+
+model SchedulingResponse {
+  id               String           @id @default(cuid())
+  pollId           String
+  participantName  String
+  participantToken String           @unique
+  userId           String?
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  poll             SchedulingPoll   @relation(fields: [pollId], references: [id], onDelete: Cascade)
+  user             User?            @relation(fields: [userId], references: [id], onDelete: SetNull)
+  votes            SchedulingVote[]
+
+  @@unique([pollId, participantToken])
+  @@index([participantToken])
+  @@index([pollId])
+  @@index([userId])
+}
+
+model SchedulingTimeOption {
+  id               String           @id @default(cuid())
+  pollId           String
+  startTime        DateTime
+  endTime          DateTime?
+  sortOrder        Int              @default(0)
+  createdAt        DateTime         @default(now())
+  confirmedForPoll SchedulingPoll?  @relation("SchedulingPoll_confirmedTimeOptionIdToSchedulingTimeOption")
+  poll             SchedulingPoll   @relation("SchedulingTimeOption_pollIdToSchedulingPoll", fields: [pollId], references: [id], onDelete: Cascade)
+  votes            SchedulingVote[]
+
+  @@index([pollId])
+  @@index([startTime])
+}
+
+model SchedulingVote {
+  id                   String               @id @default(cuid())
+  responseId           String
+  timeOptionId         String
+  vote                 AvailabilityVote
+  SchedulingResponse   SchedulingResponse   @relation(fields: [responseId], references: [id], onDelete: Cascade)
+  SchedulingTimeOption SchedulingTimeOption @relation(fields: [timeOptionId], references: [id], onDelete: Cascade)
+
+  @@unique([responseId, timeOptionId])
+  @@index([responseId])
+  @@index([timeOptionId])
+}
+
+model SiteConfig {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+  updatedBy String?
+}
+
+model Announcement {
+  id              String           @id @default(cuid())
+  title           String
+  content         String
+  type            AnnouncementType @default(INFO)
+  backgroundColor String?
+  textColor       String?
+  startDate       DateTime?
+  endDate         DateTime?
+  isPermanent     Boolean          @default(false)
+  isActive        Boolean          @default(true)
+  requireAck      Boolean          @default(false)
+  sendEmail       Boolean          @default(false)
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+
+  acknowledgements AnnouncementAck[]
+}
+
+model AnnouncementAck {
+  id             String       @id @default(cuid())
+  announcementId String
+  userId         String
+  acknowledgedAt DateTime     @default(now())
+  announcement   Announcement @relation(fields: [announcementId], references: [id], onDelete: Cascade)
+  user           User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([announcementId, userId])
+  @@index([userId])
+  @@index([announcementId])
+}
+
+model Story {
+  id                        String         @id @default(cuid())
+  authorId                  String
+  storyType                 StoryType
+  title                     String
+  summary                   String
+  context                   String
+  challenge                 String
+  whatHappened              String
+  outcome                   String
+  lessonsLearned            String
+  retrospectiveWhatWorked   String?
+  retrospectiveWhatToChange String?
+  retrospectiveAdvice       String?
+  publishedAt               DateTime       @default(now())
+  editDeadline              DateTime
+  createdAt                 DateTime       @default(now())
+  updatedAt                 DateTime       @updatedAt
+  // Required FK → implicit onDelete: Restrict. Story survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (title/summary/body fields scrubbed) rather than cascading.
+  author                    User           @relation(fields: [authorId], references: [id])
+  comments                  StoryComment[]
+
+  @@index([authorId, publishedAt])
+  @@index([publishedAt])
+  @@index([storyType, publishedAt])
+}
+
+model StoryComment {
+  id        String   @id @default(cuid())
+  storyId   String
+  authorId  String
+  content   String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  // Required FK → implicit onDelete: Restrict. Comment survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (content → '[deleted]') rather than cascading.
+  author    User     @relation(fields: [authorId], references: [id])
+  story     Story    @relation(fields: [storyId], references: [id], onDelete: Cascade)
+
+  @@index([authorId, createdAt])
+  @@index([storyId, createdAt])
+}
+
+model SocialCause {
+  id                    String      @id @default(cuid())
+  title                 String      @unique
+  slug                  String      @unique
+  description           String?
+  coverImage            String?
+  problems              String?
+  solutions             String?
+  websites              String?
+  taxonomyKind          String      @default("social-cause")
+  domainId              String?
+  primaryRdgId          String?
+  crossRdgIds           String[]    @default([])
+  rdgDomains            String[]
+  neededFunctions       String[]
+  createdAt             DateTime    @default(now())
+  updatedAt             DateTime    @updatedAt
+  supportingCommunities Community[] @relation("CommunitySocialCauses")
+  interestedUsers       User[]      @relation("UserInterestedCauses")
+  mainCauseUsers        User[]      @relation("UserMainCauses")
+  managers              User[]      @relation("UserManagedCauses")
+  events                EventSocialCause[]
+
+  @@index([slug])
+}
+
+model SocialIssue {
+  id                String              @id @default(cuid())
+  title             String
+  description       String?
+  category          SocialIssueCategory
+  isLocalizable     Boolean             @default(true)
+  latitude          Float?
+  longitude         Float?
+  locationName      String?
+  scope             IssueScope?
+  severity          IssueSeverity       @default(MODERATE)
+  sources           String[]
+  relatedRdgs       String[]
+  tags              String[]
+  leanWastes        String[]
+  createdById       String
+  communityId       String?
+  status            IssueStatus         @default(PUBLISHED)
+  visibility        Visibility          @default(PUBLIC)
+  verificationLevel VerificationLevel   @default(SELF_DECLARED)
+  createdAt         DateTime            @default(now())
+  updatedAt         DateTime            @updatedAt
+  deletedAt         DateTime?
+  disputes          IssueDispute[]
+  vouches           IssueVouch[]
+  community         Community?          @relation(fields: [communityId], references: [id])
+  // Required FK → implicit onDelete: Restrict. Issue survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/sources/locationName nulled, deletedAt set) rather than cascading.
+  createdBy         User                @relation(fields: [createdById], references: [id])
+
+  @@index([category])
+  @@index([communityId])
+  @@index([createdById])
+  @@index([isLocalizable])
+  @@index([latitude, longitude])
+  @@index([status])
+  @@index([verificationLevel])
+}
+
+model WeakSignal {
+  id                    String                 @id @default(cuid())
+  title                 String
+  description           String
+  context               String?
+  domain                SignalDomain
+  scale                 SignalScale            @default(INDIVIDUAL)
+  confidence            SignalConfidence       @default(LOW)
+  novelty               SignalNovelty          @default(COMMON)
+  regenerativeRelevance Int                    @default(50)
+  sourceType            SignalSourceType       @default(FIRSTHAND)
+  sourceUrl             String?
+  isLocalizable         Boolean                @default(true)
+  latitude              Float?
+  longitude             Float?
+  locationName          String?
+  tags                  String[]
+  status                IssueStatus            @default(PUBLISHED)
+  visibility            Visibility             @default(PUBLIC)
+  verificationLevel     VerificationLevel      @default(SELF_DECLARED)
+  moderationStatus      ModerationStatus       @default(APPROVED)
+  createdById           String
+  communityId           String?
+  patternId             String?
+  createdAt             DateTime               @default(now())
+  updatedAt             DateTime               @updatedAt
+  deletedAt             DateTime?
+  // Required FK → implicit onDelete: Restrict. Signal survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/context/sourceUrl/locationName scrubbed, deletedAt set) rather than cascading.
+  createdBy             User                   @relation(fields: [createdById], references: [id])
+  community             Community?             @relation(fields: [communityId], references: [id])
+  pattern               WeakSignalPattern?     @relation(fields: [patternId], references: [id])
+  resonances            SignalResonanceVote[]
+  corroborations        SignalCorroboration[]
+  collectionItems       SignalCollectionItem[]
+  projectLinks          SignalProjectLink[]
+  communityLinks        SignalCommunityLink[]
+
+  @@index([domain])
+  @@index([scale])
+  @@index([confidence])
+  @@index([novelty])
+  @@index([status])
+  @@index([verificationLevel])
+  @@index([createdById])
+  @@index([communityId])
+  @@index([patternId])
+  @@index([isLocalizable])
+  @@index([latitude, longitude])
+  @@index([createdAt])
+}
+
+model SignalResonanceVote {
+  id        String          @id @default(cuid())
+  signalId  String
+  userId    String
+  vote      SignalResonance
+  note      String?
+  createdAt DateTime        @default(now())
+  signal    WeakSignal      @relation(fields: [signalId], references: [id], onDelete: Cascade)
+  user      User            @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([signalId, userId])
+  @@index([signalId])
+  @@index([userId])
+}
+
+model WeakSignalPattern {
+  id           String               @id @default(cuid())
+  name         String
+  description  String
+  trajectory   PatternTrajectory    @default(EMERGING)
+  hypothesis   String?
+  relatedRdgs  String[]
+  status       PatternLibraryStatus @default(PROPOSED)
+  proposedById String
+  createdAt    DateTime             @default(now())
+  updatedAt    DateTime             @updatedAt
+  // Required FK → implicit onDelete: Restrict. Pattern survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/hypothesis scrubbed, status=RETIRED) rather than cascading.
+  proposedBy   User                 @relation(fields: [proposedById], references: [id])
+  signals      WeakSignal[]
+
+  @@index([trajectory])
+  @@index([status])
+  @@index([proposedById])
+}
+
+model SignalCorroboration {
+  id        String     @id @default(cuid())
+  signalId  String
+  userId    String
+  evidence  String
+  sourceUrl String?
+  createdAt DateTime   @default(now())
+  signal    WeakSignal @relation(fields: [signalId], references: [id], onDelete: Cascade)
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([signalId, userId])
+  @@index([signalId])
+}
+
+model SignalCollection {
+  id          String                 @id @default(cuid())
+  name        String
+  description String?
+  isFeatured  Boolean                @default(false)
+  createdById String
+  createdAt   DateTime               @default(now())
+  updatedAt   DateTime               @updatedAt
+  // Required FK → implicit onDelete: Restrict. Collection survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description nulled) rather than cascading.
+  createdBy   User                   @relation(fields: [createdById], references: [id])
+  items       SignalCollectionItem[]
+
+  @@index([isFeatured])
+  @@index([createdById])
+}
+
+model SignalCollectionItem {
+  id           String           @id @default(cuid())
+  collectionId String
+  signalId     String
+  addedById    String
+  addedAt      DateTime         @default(now())
+  note         String?
+  collection   SignalCollection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+  signal       WeakSignal       @relation(fields: [signalId], references: [id], onDelete: Cascade)
+  addedBy      User             @relation(fields: [addedById], references: [id], onDelete: Cascade)
+
+  @@unique([collectionId, signalId])
+  @@index([collectionId])
+}
+
+model SignalProjectLink {
+  id         String     @id @default(cuid())
+  signalId   String
+  projectId  String
+  linkedById String
+  createdAt  DateTime   @default(now())
+  note       String?
+  signal     WeakSignal @relation(fields: [signalId], references: [id], onDelete: Cascade)
+  linkedBy   User       @relation(fields: [linkedById], references: [id], onDelete: Cascade)
+
+  @@unique([signalId, projectId])
+  @@index([signalId])
+}
+
+model SignalCommunityLink {
+  id          String     @id @default(cuid())
+  signalId    String
+  communityId String
+  linkedById  String
+  createdAt   DateTime   @default(now())
+  note        String?
+  signal      WeakSignal @relation(fields: [signalId], references: [id], onDelete: Cascade)
+  community   Community  @relation(fields: [communityId], references: [id], onDelete: Cascade)
+  linkedBy    User       @relation(fields: [linkedById], references: [id], onDelete: Cascade)
+
+  @@unique([signalId, communityId])
+  @@index([signalId])
+}
+
+model SystemFunction {
+  id       String @id @default(cuid())
+  key      String @unique
+  category String
+  labelHu  String
+}
+
+model SystemTag {
+  id                          String                  @id @default(cuid())
+  key                         String                  @unique
+  category                    TagCategory
+  label                       String
+  profilesWithBackgroundTag   UserFunctionalProfile[] @relation("UserBackgroundTags")
+  profilesWithCoalitionNeed   UserFunctionalProfile[] @relation("UserCoalitionNeeds")
+  profilesWithDevelopedSkill  UserFunctionalProfile[] @relation("UserDevelopedSkills")
+  profilesWithExistentialRisk UserFunctionalProfile[] @relation("UserExistentialRisks")
+  profilesWithSoughtWorkTag   UserFunctionalProfile[] @relation("UserSoughtWorkTags")
+}
+
+model SystemsCanvas {
+  id          String              @id @default(cuid())
+  title       String
+  description String?
+  communityId String?
+  status      CanvasStatus        @default(ACTIVE)
+  visibility  CanvasVisibility    @default(REGISTERED)
+  createdById String
+  createdAt   DateTime            @default(now())
+  updatedAt   DateTime            @updatedAt
+  diagramXml  String?
+  // Required FK → implicit onDelete: Restrict. Canvas survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/diagramXml nulled, status=ARCHIVED) rather than cascading.
+  createdBy   User                @relation(fields: [createdById], references: [id])
+  links       SystemsCanvasLink[]
+  nodes       SystemsCanvasNode[]
+
+  @@index([communityId])
+  @@index([createdById])
+  @@index([status])
+  @@index([visibility])
+}
+
+model SystemsCanvasLink {
+  id                                                                String            @id @default(cuid())
+  canvasId                                                          String
+  fromNodeId                                                        String
+  toNodeId                                                          String
+  linkType                                                          CanvasLinkType
+  createdAt                                                         DateTime          @default(now())
+  deletedAt                                                         DateTime?
+  SystemsCanvas                                                     SystemsCanvas     @relation(fields: [canvasId], references: [id], onDelete: Cascade)
+  SystemsCanvasNode_SystemsCanvasLink_fromNodeIdToSystemsCanvasNode SystemsCanvasNode @relation("SystemsCanvasLink_fromNodeIdToSystemsCanvasNode", fields: [fromNodeId], references: [id])
+  SystemsCanvasNode_SystemsCanvasLink_toNodeIdToSystemsCanvasNode   SystemsCanvasNode @relation("SystemsCanvasLink_toNodeIdToSystemsCanvasNode", fields: [toNodeId], references: [id])
+
+  @@index([canvasId])
+  @@index([deletedAt])
+  @@index([fromNodeId])
+  @@index([toNodeId])
+}
+
+model SystemsCanvasNode {
+  id            String               @id @default(cuid())
+  canvasId      String
+  type          CanvasNodeType
+  title         String
+  description   String?
+  positionX     Int                  @default(0)
+  positionY     Int                  @default(0)
+  createdById   String
+  createdAt     DateTime             @default(now())
+  updatedAt     DateTime             @updatedAt
+  deletedAt     DateTime?
+  comments      CanvasNodeComment[]
+  interventions InterventionRecord[]
+  outboundLinks SystemsCanvasLink[]  @relation("SystemsCanvasLink_fromNodeIdToSystemsCanvasNode")
+  inboundLinks  SystemsCanvasLink[]  @relation("SystemsCanvasLink_toNodeIdToSystemsCanvasNode")
+  canvas        SystemsCanvas        @relation(fields: [canvasId], references: [id], onDelete: Cascade)
+  // Required FK → implicit onDelete: Restrict. Node survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (title → 'Deleted node', description nulled, deletedAt set) rather than cascading.
+  createdBy     User                 @relation(fields: [createdById], references: [id])
+
+  @@index([canvasId])
+  @@index([deletedAt])
+  @@index([type])
+}
+
+model TaskMetric {
+  id           String     @id @default(cuid())
+  initiativeId String     @unique
+  startedAt    DateTime?
+  completedAt  DateTime?
+  cycleTime    Int?
+  leadTime     Int?
+  waitTime     Int?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  Initiative   Initiative @relation(fields: [initiativeId], references: [id], onDelete: Cascade)
+
+  @@index([completedAt])
+  @@index([startedAt])
+}
+
+model TrainingEngagement {
+  id          String                   @id @default(cuid())
+  offerId     String
+  requestId   String
+  status      TrainingEngagementStatus @default(PENDING)
+  createdAt   DateTime                 @default(now())
+  updatedAt   DateTime                 @updatedAt
+  completedAt DateTime?
+  offer       TrainingOffer            @relation(fields: [offerId], references: [id])
+  request     TrainingRequest          @relation(fields: [requestId], references: [id])
+  feedback    TrainingFeedback?
+
+  @@index([offerId])
+  @@index([requestId])
+  @@index([status])
+}
+
+model TrainingFeedback {
+  id                 String             @id @default(cuid())
+  engagementId       String             @unique
+  learnerReflection  String
+  trainerObservation String?
+  createdAt          DateTime           @default(now())
+  TrainingEngagement TrainingEngagement @relation(fields: [engagementId], references: [id])
+}
+
+model TrainingOffer {
+  id              String               @id @default(cuid())
+  creatorId       String
+  domain          String
+  format          TrainingFormat
+  level           TrainingLevel
+  deliveryMode    DeliveryMode         @default(ONLINE)
+  city            String?
+  cityLat         Float?
+  cityLng         Float?
+  professionalUrl String?
+  isSync          Boolean              @default(true)
+  isGroupFormat   Boolean              @default(false)
+  timeCommitment  String
+  capacity        Int?
+  description     String
+  isArchived      Boolean              @default(false)
+  createdAt       DateTime             @default(now())
+  updatedAt       DateTime             @updatedAt
+  engagements     TrainingEngagement[]
+  // Required FK → implicit onDelete: Restrict. Offer survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description scrubbed, professionalUrl/city/coords nulled, isArchived=true) rather than cascading.
+  creator         User                 @relation(fields: [creatorId], references: [id])
+
+  @@index([creatorId])
+  @@index([domain])
+  @@index([isArchived])
+}
+
+model TrainingRequest {
+  id                  String               @id @default(cuid())
+  requesterId         String
+  domain              String
+  skillGapDescription String
+  formatPreference    TrainingFormat?
+  levelPreference     TrainingLevel?
+  isWithdrawn         Boolean              @default(false)
+  createdAt           DateTime             @default(now())
+  updatedAt           DateTime             @updatedAt
+  engagements         TrainingEngagement[]
+  // Required FK → implicit onDelete: Restrict. Request survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (skillGapDescription scrubbed, isWithdrawn=true) rather than cascading.
+  requester           User                 @relation(fields: [requesterId], references: [id])
+
+  @@index([isWithdrawn])
+  @@index([requesterId])
+}
+
+model User {
+  id                                String                      @id @default(cuid())
+  email                             String                      @unique
+  passwordHash                      String?
+  googleId                          String?                     @unique
+  didPublicKey                      String?                     @unique
+  name                              String
+  displayName                       String?
+  pronouns                          String?
+  bio                               String?
+  motto                             String?
+  website                           String?
+  /// Social profile URLs keyed by platform (`linkedin`, `twitter`, `mastodon`, etc.), each an optional http(s) URL. See `socialLinks` in `src/lib/validations/profile.ts`. Privacy-relevant: consumed by the matchable trust baseline (AUDIT-20260611-007).
+  socialLinks                       Json?
+  /// Fediverse/ActivityPub exposure settings: `{ consentVersion, publicProfile{...}, activityPub{...}, verification{...} }`. See `fediverseSettingsSchema` in `src/lib/validations/profile.ts`. Parsed by `getProfileExposureSettings` for avatar exposure on the entity-image route.
+  federationSettings                Json?
+  federationConsentAt               DateTime?
+  primaryLanguage                   String?
+  spokenLanguages                   String[]
+  uiLanguage                        String?                     @default("en")
+  termsAcceptedAt                   DateTime?
+  termsVersion                      String?
+  privacyVersion                    String?
+  charterAcceptedAt                 DateTime?
+  charterVersion                    String?
+  confirmedAge16Plus                Boolean                     @default(false)
+  confirmedAge16PlusAt              DateTime?
+  isRegistrationPending             Boolean                     @default(false)
+  pendingRegistrationMode           PendingRegistrationMode?
+  organizationName                  String?
+  organizationDescription           String?
+  workingSectors                    String[]
+  country                           String?
+  region                            String?
+  city                              String?
+  timezone                          String?
+  latitude                          Float?
+  longitude                         Float?
+  locationPrecision                 LocationPrecision           @default(REGION)
+  isRemoteCapable                   Boolean                     @default(false)
+  archetypes                        Archetype[]
+  changemakeLevel                   ChangemakerLevel            @default(LEVEL_2)
+  enjoyDoing                        String?
+  currentIntention                  String?
+  collaborationPreference           String[]
+  constraints                       String?
+  /// Loosely-typed availability note. Stored as free text (`z.string().max(1000)` in `src/lib/validations/{user,volunteer}.ts`) or `z.any()` in the profile-update path (`src/lib/validations/profile.ts`); no fixed object shape.
+  availabilityDetails               Json?
+  rdgAreas                          String[]
+  /// Ordered dashboard tile prefs: `Array<{ id: DashboardTileId; visible: boolean }>` (max 6). See `dashboardLayoutSchema` in `src/app/actions/dashboard.ts`.
+  dashboardLayout                   Json?
+  /// Bottom-bar prefs: `{ visibleModules{radio,news,quotes}, selectedRssSourceIds[], radioVolume, lastStationId }`. See the `BottomBarSettings` interface in `src/app/actions/bottom-bar-settings.ts`.
+  bottomBarSettings                 Json?
+  mainCommunity                     String?
+  profileType                       ProfileType                 @default(GUEST)
+  profilePhoto                      String?
+  coverImage                        String?
+  isEmailVerified                   Boolean                     @default(false)
+  verificationToken                 String?                     @unique
+  verificationTokenExpiry           DateTime?
+  magicLinkToken                    String?                     @unique
+  magicLinkTokenExpiry              DateTime?
+  resetToken                        String?                     @unique
+  resetTokenClaimedAt               DateTime?
+  resetTokenExpiry                  DateTime?
+  verificationLevel                 VerificationLevel           @default(SELF_DECLARED)
+  profileCompleteness               Int                         @default(0)
+  availability                      Availability                @default(AVAILABLE)
+  seekingConnections                Boolean                     @default(true)
+  seekingRomance                    Boolean                     @default(false)
+  seekingCoFounders                 Boolean                     @default(false)
+  seekingSupport                    Boolean                     @default(false)
+  seekingLocalEcoCommunity          Boolean                     @default(false)
+  seekingIntentionalCommunity       Boolean                     @default(false)
+  highStakesProjectHelp             Boolean                     @default(false)
+  strictNoRomance                   Boolean                     @default(false)
+  profileVisibility                 Visibility                  @default(REGISTERED)
+  locationVisibility                Visibility                  @default(REGISTERED)
+  showOnMap                         Boolean                     @default(true)
+  isSuspended                       Boolean                     @default(false)
+  processingRestricted              Boolean                     @default(false)
+  errorTelemetryOptOut              Boolean                     @default(false)
+  declineAlgorithmicMatching        Boolean                     @default(false)
+  reflectionReminderOptOut          Boolean                     @default(false)
+  lastReflectionReminderAt          DateTime?
+  allowSensitiveMatching             Boolean                     @default(false)
+  specialCategoryConsentAt           DateTime?
+  specialCategoryConsentVersion      String?
+  specialCategoryConsentSource       String?
+  specialCategoryConsentWithdrawnAt  DateTime?
+  scheduledDeletionAt               DateTime?
+  scheduledDeletionReason           AccountDeletionReason?
+  createdAt                         DateTime                    @default(now())
+  updatedAt                         DateTime                    @updatedAt
+  lastActiveAt                      DateTime                    @default(now())
+  lastLoginAt                       DateTime?
+  failedLoginAttempts               Int                         @default(0)
+  lockedUntil                       DateTime?
+  // Optional TOTP two-factor (AUDIT-20260613-041 #9). Secret is stored AES-256-GCM
+  // encrypted at rest (src/lib/totp-crypto.ts), never plaintext. totpLastUsedStep
+  // records the last accepted TOTP time-step counter to reject in-window replay.
+  isTotpEnabled                     Boolean                     @default(false)
+  totpSecretEncrypted               String?
+  totpEnrolledAt                    DateTime?
+  totpLastUsedStep                  BigInt?
+  inactiveAt                        DateTime?
+  inactivityWarning30SentAt         DateTime?
+  inactivityWarning15SentAt         DateTime?
+  inactivityWarning3SentAt          DateTime?
+  inactivityFinalNoticeSentAt       DateTime?
+  lastUnreadNotificationAt          DateTime?
+  emailNotificationsEnabled         Boolean                     @default(true)
+  pendingRegistrationReminderSentAt DateTime?
+  deletedAt                         DateTime?
+  invitationCode                    String?                     @unique
+  invitedById                       String?
+  isAdmin                           Boolean                     @default(false)
+  isModerator                       Boolean                     @default(false)
+  inviteSlotsTotal                  Int                         @default(2)
+  lastInviteSlotGranted             DateTime?                   @default(now())
+  /// Per-route visibility overrides: `Record<routeKey, boolean>`. Written by `updateRouteOverridesAction` in `src/app/actions/profile.ts`.
+  routeOverrides                    Json?
+  /// Per-feature experimental opt-ins: `Record<featureKey, boolean>`. Read/written in `src/app/actions/experimental-features.ts`.
+  experimentalFeatureOverrides      Json?
+  /// Per-nav-feature visibility overrides: `Record<featureId, boolean>`. Written by `saveFeaturePreferencesAction`. Absent key = level preset decides.
+  featureVisibilityPreferences      Json?
+  usedInviteCode                    String?
+  cmapReviewMonth                   Int?
+  cmapManualReviewAt                DateTime?
+
+  @@index([lastActiveAt])
+  @@index([inactiveAt])
+  @@index([scheduledDeletionAt])
+
+  AuditLog                          AuditLog[]
+  createdBacklogItems               BacklogItem[]
+  BacklogResonance                  BacklogResonance[]
+  Board                             Board[]
+  CanvasNodeComment                 CanvasNodeComment[]
+  CoachMeConsent                    CoachMeConsent?
+  CoachMeSession                    CoachMeSession[]
+  CoachingOffer                     CoachingOffer[]
+  CoachingRequest                   CoachingRequest[]
+  claimedCommunities                Community[]                 @relation("Community_claimRequestByIdToUser")
+  ownedCommunities                  Community[]                 @relation("Community_ownerIdToUser")
+  communityMemberships              CommunityMember[]
+  CompassProfile                    CompassProfile?
+  receivedConnections               Connection[]                @relation("Connection_receiverIdToUser")
+  sentConnections                   Connection[]                @relation("Connection_senderIdToUser")
+  ContributionOffer                 ContributionOffer[]
+  ContributionRequest               ContributionRequest[]
+  EnergyCanvas                      EnergyCanvas[]
+  EnergyEntity                      EnergyEntity[]
+  EnergyPatternEntry                EnergyPatternEntry[]
+  EnergyRelation                    EnergyRelation[]
+  claimedEvents                     Event[]                     @relation("Event_claimRequestByIdToUser")
+  hostedEvents                      Event[]                     @relation("Event_hostIdToUser")
+  eventRsvps                        EventRsvp[]
+  eventOrganizerRoles               EventOrganizer[]
+  FeedComment                       FeedComment[]
+  FeedCommentReaction               FeedCommentReaction[]
+  FeedMention                       FeedMention[]
+  FeedPost                          FeedPost[]
+  FeedPostReaction                  FeedPostReaction[]
+  FeedPostRdgAnnotation             FeedPostRdgAnnotation[]
+  FeedPostTagAnnotation             FeedPostTagAnnotation[]
+  Feedback                          Feedback[]
+  ideaPosts                         IdeaPost[]
+  ideaVotes                         IdeaVote[]
+  ideaComments                      IdeaComment[]
+  CaseWithProvenance                CaseWithProvenance[]
+  ForwardReciprocityPrompt          ForwardReciprocityPrompt[]
+  assignedInitiatives               Initiative[]                @relation("Initiative_assigneeIdToUser")
+  createdInitiatives                Initiative[]                @relation("Initiative_createdByIdToUser")
+  InitiativeRole                    InitiativeRole[]
+  InitiativeUpdate                  InitiativeUpdate[]
+  InterventionRecord                InterventionRecord[]
+  createdInvites                    Invite[]                    @relation("Invite_createdByIdToUser")
+  receivedInvites                   Invite[]                    @relation("Invite_recipientIdToUser")
+  revokedInvites                    Invite[]                    @relation("Invite_revokedByIdToUser")
+  IssueDispute                      IssueDispute[]
+  IssueVouch                        IssueVouch[]
+  givenAppreciations                Appreciate[]                @relation("Appreciate_giverIdToUser")
+  receivedAppreciations             Appreciate[]                @relation("Appreciate_targetUserIdToUser")
+  MatchRejectionLog                 MatchRejectionLog[]
+  MentorProfile                     MentorProfile?
+  MentoringRequest                  MentoringRequest[]
+  receivedMessages                  Message[]                   @relation("Message_receiverIdToUser")
+  sentMessages                      Message[]                   @relation("Message_senderIdToUser")
+  tokenInvalidatedAt                DateTime?
+  refreshTokenSessions              RefreshTokenSession[]
+  sentNotifications                 Notification[]              @relation("Notification_senderIdToUser")
+  Notification                      Notification[]              @relation("Notification_userIdToUser")
+  PageVisitLog                      PageVisitLog[]
+  PatternLibraryEntry               PatternLibraryEntry[]
+  PeerSupportOffer                  PeerSupportOffer[]
+  PeerSupportRequest                PeerSupportRequest[]
+  Pitch                             Pitch[]
+  PitchEndorsement                  PitchEndorsement[]
+  ProjectReflection                 ProjectReflection[]
+  ReflectionRecord                  ReflectionRecord[]
+  filedReports                      Report[]                    @relation("Report_filerIdToUser")
+  targetedReports                   Report[]                    @relation("Report_targetIdToUser")
+  RootCauseDiagnostic               RootCauseDiagnostic[]
+  SavedVolunteerOpportunity         SavedVolunteerOpportunity[]
+  SchedulingPoll                    SchedulingPoll[]
+  SchedulingResponse                SchedulingResponse[]
+  Story                             Story[]
+  StoryComment                      StoryComment[]
+  SocialIssue                       SocialIssue[]
+  SystemsCanvas                     SystemsCanvas[]
+  SystemsCanvasNode                 SystemsCanvasNode[]
+  TrainingOffer                     TrainingOffer[]
+  TrainingRequest                   TrainingRequest[]
+  // Optional self-FK → implicit onDelete: SetNull (invitee kept, inviter link cleared, when the inviter is removed). `eraseUserPersonalData` (AUDIT-20260613-028) nulls invitedById on users this account invited.
+  invitedBy                         User?                       @relation("UserToUser", fields: [invitedById], references: [id])
+  invitedUsers                      User[]                      @relation("UserToUser")
+  functionalProfile                 UserFunctionalProfile?
+  interests                         UserInterest[]
+  onboardingState                   UserOnboardingState?
+  onboardingJourneySteps            UserOnboardingJourneyStep[]
+  skills                            UserSkill[]
+  values                            UserValue[]
+  VolunteerApplication              VolunteerApplication[]
+  VolunteerOpportunity              VolunteerOpportunity[]
+  interestedCauses                  SocialCause[]               @relation("UserInterestedCauses")
+  mainCauses                        SocialCause[]               @relation("UserMainCauses")
+  managedCauses                     SocialCause[]               @relation("UserManagedCauses")
+  weakSignals                       WeakSignal[]
+  signalResonanceVotes              SignalResonanceVote[]
+  signalCorroborations              SignalCorroboration[]
+  weakSignalPatterns                WeakSignalPattern[]
+  signalCollections                 SignalCollection[]
+  signalCollectionItems             SignalCollectionItem[]
+  signalProjectLinks                SignalProjectLink[]
+  signalCommunityLinks              SignalCommunityLink[]
+  announcementAcks                  AnnouncementAck[]
+  twoFactorBackupCodes              TwoFactorBackupCode[]
+
+  @@index([deletedAt])
+  @@index([email])
+  @@index([invitedById])
+  @@index([latitude, longitude])
+  @@index([profileType])
+  @@index([profileVisibility])
+  @@index([isRegistrationPending])
+  @@index([pendingRegistrationMode])
+  @@index([name, passwordHash, createdAt])
+  @@index([pendingRegistrationReminderSentAt])
+  @@index([updatedAt])
+}
+
+model UserFunctionalProfile {
+  id                        String                  @id @default(cuid())
+  userId                    String                  @unique
+  cmapLevel                 Int?
+  /// CMAP-level assessment answers (the parsed `stage2_5Schema` object). Written by the onboarding action in `src/app/actions/onboarding.ts`; question keys are caller-defined.
+  assessmentResponses       Json?
+  networkRoles              NetworkRole[]
+  internalExternalFocus     Int?
+  secularSpiritualFocus     Int?
+  decisionMaking            DecisionMakingType?
+  resourceSharing           ResourceSharingType?
+  comfortLevel              Int?
+  socialIntimacy            SocialIntimacyType?
+  communityPresence         CommunityPresenceType[]
+  communitySize             CommunitySizeType?
+  energisingFunctions       String[]
+  drainingFunctions         String[]
+  /// Per-function sustainability ratings: `Record<functionKey, string>`. Read as `Record<string, string>` for matching (`src/app/actions/matchmaking.ts`, `src/app/actions/telemetry.ts`).
+  sustainabilityMap         Json?
+  availabilityMode          AvailabilityMode        @default(DELIVERING)
+  currentOffer              String?
+  contributionSeedType      String?
+  contributionSeedText      String?                  @db.VarChar(300)
+  contributionSeedUpdatedAt DateTime?
+  focusMode                 String?
+  workContextLastEffort     String?
+  workContextOutsideRole    String?
+  workContextScale          WorkContextScale?
+  rdgMain                   String[]
+  rdgInterested             String[]
+  rdgProject                String?
+  rdgPartnership            String?
+  /// Stage-6 scenario answers: `Record<string, string>` (scenario key → response). See `scenarioResponses` in `stage6Schema` (`src/app/actions/onboarding.ts`).
+  scenarioResponses         Json?
+  avoidedFunctions          String[]
+  avoidedFunctionsReason    String?
+  currentProjectDescription String?
+  momentNeeds               String[]
+  protectionNeeds           String[]
+  developmentGaps           String?
+  systemicExperience        String?
+  currentActivities         String[]
+  desiredActivities         String[]
+  systemicActivities        String[]
+  existentialActivities     String?
+  functionsUpdatedAt        DateTime                @default(now())
+  updatedAt                 DateTime                @updatedAt
+  user                      User                    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  backgroundTags            SystemTag[]             @relation("UserBackgroundTags")
+  coalitionNeeds            SystemTag[]             @relation("UserCoalitionNeeds")
+  developedSkills           SystemTag[]             @relation("UserDevelopedSkills")
+  existentialRisks          SystemTag[]             @relation("UserExistentialRisks")
+  soughtWorkTags            SystemTag[]             @relation("UserSoughtWorkTags")
+
+  @@index([availabilityMode])
+  @@index([userId])
+}
+
+model ForwardReciprocityPrompt {
+  id              String    @id @default(cuid())
+  userId          String
+  trigger         String
+  triggerEntityId String    @default("")
+  responseText    String?   @db.VarChar(500)
+  createdOfferId  String?
+  skippedAt       DateTime?
+  completedAt     DateTime?
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+  user            User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, trigger, triggerEntityId])
+  @@index([userId])
+  @@index([trigger])
+}
+
+model UserInterest {
+  id       String @id @default(cuid())
+  userId   String
+  interest String
+  User     User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, interest])
+}
+
+model UserOnboardingState {
+  id                   String    @id @default(cuid())
+  userId               String    @unique
+  lastStageCompleted   Int       @default(0)
+  agreementsVersion    String?
+  agreementsAcceptedAt DateTime?
+  charterVersion       String?
+  charterAcceptedAt    DateTime?
+  stage1CompletedAt    DateTime?
+  stage2CompletedAt    DateTime?
+  stage2_5CompletedAt  DateTime?
+  stage3CompletedAt    DateTime?
+  stage4CompletedAt    DateTime?
+  stage4_5CompletedAt  DateTime?
+  stage5CompletedAt    DateTime?
+  stage5_5CompletedAt  DateTime?
+  stage6CompletedAt    DateTime?
+  stage6_5CompletedAt  DateTime?
+  orientationSeenAt    DateTime?
+  updatedAt            DateTime  @updatedAt
+  User                 User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([lastStageCompleted])
+  @@index([userId])
+}
+
+model UserOnboardingJourneyStep {
+  id          String   @id @default(cuid())
+  userId      String
+  stepId      String   @db.VarChar(80)
+  completedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  User        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, stepId])
+  @@index([userId])
+  @@index([stepId])
+}
+
+model UserSkill {
+  id        String    @id @default(cuid())
+  userId    String
+  skill     String
+  skillType SkillType @default(OFFERED)
+  User      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, skill, skillType])
+}
+
+model UserValue {
+  id     String @id @default(cuid())
+  userId String
+  value  String
+  User   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, value])
+}
+
+model VolunteerApplication {
+  id                  String                     @id @default(cuid())
+  opportunityId       String
+  volunteerId         String
+  message             String?
+  availabilityDetails String?
+  relevantExperience  String?
+  status              VolunteerApplicationStatus @default(PENDING)
+  createdAt           DateTime                   @default(now())
+  updatedAt           DateTime                   @updatedAt
+  respondedAt         DateTime?
+  confirmedAt         DateTime?
+  cancelledAt         DateTime?
+  volunteerFeedback   String?
+  requesterFeedback   String?
+  opportunity         VolunteerOpportunity       @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  // Required FK → implicit onDelete: Restrict. Application survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (message/availabilityDetails/experience/feedback nulled, cancelledAt set) rather than cascading.
+  volunteer           User                       @relation(fields: [volunteerId], references: [id])
+
+  @@unique([opportunityId, volunteerId])
+  @@index([opportunityId])
+  @@index([status])
+  @@index([volunteerId])
+}
+
+model VolunteerOpportunity {
+  id                      String                      @id @default(cuid())
+  title                   String
+  summary                 String
+  description             String?
+  primaryRdgs             String[]
+  additionalRdgs          String[]
+  socialCauseTopics       String[]
+  impactScale             ImpactScale?
+  format                  VolunteerFormat             @default(HYBRID)
+  location                String?
+  region                  String?
+  latitude                Float?
+  longitude               Float?
+  isRemoteCapable         Boolean                     @default(false)
+  commitmentType          CommitmentType              @default(ONE_TIME)
+  startDate               DateTime?
+  endDate                 DateTime?
+  eventDate               DateTime?
+  applicationDeadline     DateTime?
+  rollingApplications     Boolean                     @default(false)
+  weeklyHours             Int?
+  totalHours              Int?
+  shiftLength             String?
+  timePreference          TimePreference              @default(FLEXIBLE)
+  requiredSkills          String[]
+  niceToHaveSkills        String[]
+  experienceLevel         ExperienceLevel             @default(ANY)
+  beginnerFriendly        Boolean                     @default(true)
+  trainingProvided        Boolean                     @default(false)
+  ageSuitability          String?
+  languageRequirements    String[]
+  volunteersNeeded        Int                         @default(1)
+  teamBased               Boolean                     @default(false)
+  physicalEffort          PhysicalEffortLevel         @default(LIGHT)
+  physicalRequirements    String[]
+  accessibilitySupported  String[]
+  indoorOutdoor           IndoorOutdoor               @default(BOTH)
+  weatherExposed          Boolean                     @default(false)
+  travelRequired          Boolean                     @default(false)
+  transportProvided       Boolean                     @default(false)
+  equipmentNeeded         String?
+  dressCode               String?
+  expectedImpact          String?
+  impactMeasurement       String?
+  backgroundCheckRequired Boolean                     @default(false)
+  referencesRequired      Boolean                     @default(false)
+  codeOfConduct           Boolean                     @default(false)
+  workingWithVulnerable   Boolean                     @default(false)
+  supervisionLevel        SupervisionLevel            @default(DIRECT)
+  riskLevel               RiskLevel                   @default(LOW)
+  requesterId             String
+  requesterType           RequesterType               @default(INDIVIDUAL)
+  organizationName        String?
+  moreInfoUrl             String?
+  status                  VolunteerOpportunityStatus  @default(DRAFT)
+  visibility              Visibility                  @default(REGISTERED)
+  createdAt               DateTime                    @default(now())
+  updatedAt               DateTime                    @updatedAt
+  deletedAt               DateTime?
+  publishedAt             DateTime?
+  closedAt                DateTime?
+  savedBy                 SavedVolunteerOpportunity[]
+  applications            VolunteerApplication[]
+  // Required FK → implicit onDelete: Restrict. Opportunity survives account deletion; `eraseUserPersonalData` (AUDIT-20260613-028) anonymizes it in place (description/location/coords/details/url nulled, deletedAt set) rather than cascading.
+  requester               User                        @relation(fields: [requesterId], references: [id])
+
+  @@index([commitmentType])
+  @@index([createdAt])
+  @@index([deletedAt])
+  @@index([format])
+  @@index([latitude, longitude])
+  @@index([requesterId])
+  @@index([status])
+}
+
+enum AccountDeletionReason {
+  USER_REQUESTED
+  INACTIVITY
+}
+
+enum AnnouncementType {
+  INFO
+  SECURITY
+}
+
+enum Archetype {
+  LOCAL_PRACTITIONER
+  NETWORK_WEAVER
+  INSTITUTIONAL_CHANGEMAKER
+  GLOBAL_AMPLIFIER
+  RESOURCE_MOBILIZER
+  INNOVATION_CATALYST
+  SYSTEM_DISRUPTOR
+  STRATEGIC_ADVISOR
+  MYCELIUM
+  KEYSTONE
+  POLLINATOR
+  PRISM
+  COMPOST
+  SENTINEL
+  ALCHEMIST
+  CANOPY
+  SPARK
+  ECHO
+  TIDE
+  HORIZON
+}
+
+enum AuditAction {
+  CREATE
+  UPDATE
+  DELETE
+  SOFT_DELETE
+  RESTORE
+  LOGIN
+  LOGOUT
+  LOGIN_FAILED
+  ACCOUNT_LOCKED
+  PASSWORD_CHANGE
+  PASSWORD_RESET
+  EMAIL_VERIFIED
+  PROFILE_UPDATE
+  PERMISSION_CHANGE
+  MEMBERSHIP_JOIN
+  MEMBERSHIP_LEAVE
+  DATA_EXPORT
+  DATA_IMPORT
+  REPORT_FILED
+  REPORT_RESOLVED
+  INVITE_CREATED
+  INVITE_SENT
+  INVITE_OPENED
+  INVITE_ACCEPTED
+  INVITE_EXPIRED
+  INVITE_REVOKED
+  KILL_SWITCH_TOGGLE
+  EXPERIMENTAL_FEATURE_TOGGLE
+  TWO_FACTOR_ENABLED
+  TWO_FACTOR_DISABLED
+  TWO_FACTOR_VERIFIED
+  TWO_FACTOR_FAILED
+  TWO_FACTOR_BACKUP_CODE_USED
+}
+
+enum Availability {
+  AVAILABLE
+  BUSY
+  AWAY
+}
+
+enum AvailabilityMode {
+  DELIVERING
+  BETWEEN
+  BUILDING
+  REFLECTING
+  RESTING
+}
+
+enum AvailabilityVote {
+  AVAILABLE
+  IF_NEEDED
+  UNAVAILABLE
+}
+
+enum BoardScope {
+  PERSONAL
+  COMMUNITY_INTERNAL
+  COMMUNITY_PUBLIC
+  BIOREGIONAL
+  NATIONAL
+  INTERNATIONAL
+}
+
+enum BoundaryPermeability {
+  OPEN
+  SEMI_PERMEABLE
+  CLOSED
+  CONTESTED
+}
+
+enum CanvasLinkType {
+  CAUSES
+  REINFORCES
+  CONTRIBUTES_TO
+  MITIGATES
+  SOLVED_BY
+  RELATED_PATTERN
+}
+
+enum CanvasNodeType {
+  PROBLEM
+  PATTERN
+  ROOT_CAUSE
+  SOLUTION_PATTERN
+  INTERVENTION
+  TEXT
+  STICKY_NOTE
+}
+
+enum CanvasStatus {
+  ACTIVE
+  ARCHIVED
+}
+
+enum CanvasVisibility {
+  REGISTERED
+  COMMUNITY
+  PUBLIC
+}
+
+enum ChangemakerLevel {
+  LEVEL_0
+  LEVEL_1
+  LEVEL_2
+  LEVEL_3
+  LEVEL_4
+  LEVEL_5
+  LEVEL_6
+  LEVEL_7
+  LEVEL_8
+  LEVEL_9
+}
+
+enum ClaimStatus {
+  UNCLAIMED
+  PENDING
+  CLAIMED
+  REJECTED
+}
+
+enum CoachMeFocusTag {
+  WORK_CAREER
+  RELATIONSHIPS
+  HEALTH
+  PERSONAL_GROWTH
+  LIFE_BALANCE
+  OTHER
+}
+
+enum CoachMeEncryptionModel {
+  STRONG
+  RECOVERABLE
+}
+
+enum CoachingEngagementStatus {
+  PENDING
+  ACTIVE
+  COMPLETE
+  CANCELLED
+}
+
+enum CommitmentType {
+  ONE_TIME
+  RECURRING
+  ONGOING
+}
+
+enum CommunityPresenceType {
+  PERMANENT_RESIDENT
+  LONG_TERM_STAY
+  PROJECT_BASED
+  VIRTUAL
+  OPEN
+}
+
+enum CommunityRole {
+  OWNER
+  ADMIN
+  MODERATOR
+  MEMBER
+}
+
+enum CommunitySizeType {
+  SIZE_5_15
+  SIZE_15_50
+  SIZE_50_200
+  SIZE_200_PLUS
+  ANY
+}
+
+enum CommunityType {
+  NATURE_CONNECTED_ECO_HUB
+  HEALING_SANCTUARY
+  INCLUSIVE_SUPPORT_NETWORK
+  CREATIVE_ARTS_COLONY
+  EGALITARIAN_LIVING
+  SPIRITUAL_HAVEN
+  KNOWLEDGE_HUB
+  NOMADIC_NETWORK
+  REGENERATIVE_ECONOMIC
+  VISIONARY_MODEL_CITY
+  EARTH_REGENERATION_CENTER
+  FRONTLINE_ACTIVIST
+  OTHER
+}
+
+enum ConnectionStatus {
+  PENDING
+  ACCEPTED
+  DECLINED
+  BLOCKED
+}
+
+enum ConnectionType {
+  GENERAL
+  ROMANTIC
+  COFOUNDER
+  SUPPORT
+  MENTORING
+  PEER_LEARNING
+}
+
+enum ContributionConnectionStatus {
+  PENDING
+  ACTIVE
+  COMPLETED
+  CANCELLED
+}
+
+enum ContributionType {
+  SKILL_OFFERING
+  ACCOMPANIMENT
+  KNOWLEDGE_COMMONS
+  HOLDING_SPACE
+}
+
+enum CostType {
+  FREE
+  DONATION
+  PAID
+}
+
+enum DecisionMakingType {
+  HIERARCHICAL
+  SOCIOCRATIC
+  CONSENSUS
+}
+
+enum DeliveryMode {
+  ONLINE
+  IN_PERSON
+  HYBRID
+}
+
+enum EnergyEntityType {
+  INDIVIDUAL
+  HOUSEHOLD
+  WORKING_GROUP
+  COMMUNITY
+  INSTITUTION
+  CORPORATION
+  NORM
+  COMMONS
+  INFRASTRUCTURE
+  NARRATIVE
+  BIOREGION
+  NATION
+  TREATY_BODY
+  TEXT
+  STICKY_NOTE
+  YOUTUBE_EMBED
+  OSM_EMBED
+}
+
+enum EnergyFlowType {
+  EXTRACTIVE_FLOW
+  GENERATIVE_FLOW
+  CAPTURED_FLOW
+  DIVERTED_FLOW
+}
+
+enum EnergyMagnitude {
+  LOW
+  MEDIUM
+  HIGH
+  CRITICAL
+}
+
+enum EnergyPrivacy {
+  ONLY_ME
+  MY_COMMUNITY
+  PUBLIC
+}
+
+enum EnergyRate {
+  ACUTE
+  CHRONIC
+  EPISODIC
+}
+
+enum EnergyScale {
+  PLANETARY_INTERNATIONAL
+  SUPRANATIONAL_REGIONAL
+  NATIONAL
+  STATE_REGIONAL
+  BIOREGIONAL
+  COMMUNITY
+  LOCAL_GROUP
+}
+
+enum EnergyState {
+  EXTRACTIVE
+  REGENERATIVE
+  NEUTRAL
+  CONTESTED
+  DEPLETED
+  CAPTURED
+}
+
+enum EnergySystemState {
+  REGENERATING
+  STABLE
+  DEPLETING
+  COLLAPSING
+  CONTESTED
+}
+
+enum EntitySource {
+  USER
+  IMPORT
+}
+
+enum EntityVisibility {
+  VISIBLE
+  PARTIALLY_VISIBLE
+  INVISIBLE
+}
+
+enum EventCategory {
+  WORKSHOP
+  MEETUP
+  CELEBRATION
+  OPEN_SPACE
+  WORKDAY
+  OPEN_DAY
+  TRAINING
+  RETREAT
+  CONFERENCE
+  CONVERGENCE
+  GATHERING
+  OTHER
+}
+
+enum EventStatus {
+  UPCOMING
+  ONGOING
+  ENDED
+  CANCELLED
+}
+
+enum EventRole {
+  HOST
+  CO_HOST
+  MODERATOR
+}
+
+enum EventType {
+  PUBLIC
+  COMMUNITY
+  PRIVATE
+}
+
+enum ExperienceLevel {
+  ANY
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum GovernanceType {
+  CONSENSUS
+  SOCIOCRACY
+  DEMOCRATIC
+  OTHER
+}
+
+enum ImpactScale {
+  LOCAL
+  BIOREGIONAL
+  NATIONAL
+  GLOBAL
+}
+
+enum IndoorOutdoor {
+  INDOOR
+  OUTDOOR
+  BOTH
+}
+
+enum InformationFlowType {
+  TRANSPARENT
+  DISTORTED
+  SUPPRESSED
+  WEAPONIZED
+}
+
+enum InitiativeRoleType {
+  CONTRIBUTOR
+  COORDINATOR
+  STEWARD
+  NODE_FACILITATOR
+  SYSTEMS_STEWARD
+}
+
+enum InitiativeState {
+  IMAGINED
+  EXPLORING
+  PLANNED
+  IN_PROGRESS
+  INTEGRATING
+  COMPLETED
+  ARCHIVED
+}
+
+enum InitiativeType {
+  COMMUNITY_BUILDING
+  RESEARCH_DEVELOPMENT
+  ADVOCACY_CAMPAIGN
+  EDUCATION_TRAINING
+  SYSTEMS_CHANGE
+  ECOLOGICAL_RESTORATION
+  ECONOMIC_INNOVATION
+  CULTURAL_ARTS
+  HEALTH_WELLBEING
+  GOVERNANCE_POLITICS
+  TECHNOLOGY_INFRASTRUCTURE
+  OTHER
+}
+
+enum InternalPower {
+  DISTRIBUTED
+  CONCENTRATED
+  FRAGMENTED
+  ABSENT
+}
+
+enum InterventionOutcome {
+  TRYING
+  HELPED
+  DIDNT_HELP
+  MADE_WORSE
+}
+
+enum InviteStatus {
+  CREATED
+  SENT
+  OPENED
+  ACCEPTED
+  EXPIRED
+  REVOKED
+}
+
+enum IssueScope {
+  LOCAL
+  BIOREGIONAL
+  NATIONAL
+  GLOBAL
+  SYSTEMIC
+}
+
+enum IssueSeverity {
+  LOW
+  MODERATE
+  HIGH
+  CRITICAL
+}
+
+enum IssueStatus {
+  PUBLISHED
+  VERIFIED
+  DISPUTED
+  RESOLVED
+  ARCHIVED
+}
+
+enum AppreciateType {
+  USER
+  COMMUNITY
+  EVENT
+}
+
+enum LocationPrecision {
+  EXACT
+  CITY
+  REGION
+  COUNTRY
+}
+
+enum MemberStatus {
+  PENDING
+  ACTIVE
+  REJECTED
+  BANNED
+  LEFT
+}
+
+enum MembershipStatus {
+  ACCEPTING
+  NOT_ACCEPTING
+  CONDITIONALLY
+}
+
+enum MentoringRelationshipStatus {
+  EXPLORING
+  ACTIVE
+  PAUSING
+  CLOSED
+}
+
+enum ModerationStatus {
+  APPROVED
+  PENDING_REVIEW
+  HIDDEN
+}
+
+enum NetworkRole {
+  WEAVER
+  BUILDER
+  CAREGIVER
+  EXPERIMENTER
+  CATALYST
+}
+
+enum NotificationType {
+  SYSTEM
+  CONNECTION_REQUEST
+  CONNECTION_ACCEPTED
+  EVENT_INVITE
+  COMMUNITY_INVITE
+  COMMUNITY_JOIN_REQUEST
+  COMMUNITY_JOIN_RESPONSE
+  PROXIMITY_ALERT
+  REFLECTION_RITUAL_PROMPT
+  ENGAGEMENT_COMPLETE_FEEDBACK
+  AVAILABILITY_STATE_CHANGE
+  COMMUNITY_HEALTH_ALERT
+  FORWARD_RECIPROCITY_PROMPT
+  MENTORING_REQUEST
+  PEER_SUPPORT_REQUEST
+  COACHING_REQUEST
+  TRAINING_REQUEST
+  CONTRIBUTION_MATCH
+}
+
+enum PageModule {
+  TRAINING
+  MENTORING
+  PEER_SUPPORT
+  COACHING
+  CONTRIBUTION
+  CANVAS
+  COORDINATE
+  PROFILE
+  COMMUNITY
+  EVENT
+  MAP
+  ADMIN
+  FEED
+  CAUSES
+  REFLECT
+  COMPASS
+  LEARNING
+  MESSAGES
+  CONNECTIONS
+  MATCHMAKING
+  SOCIAL_ISSUES
+  DASHBOARD
+  GROWTH
+  ENERGY
+  SCHEDULING
+  TASKS
+  STORIES
+  GRAPH
+  VOLUNTEER
+  PITCH
+  OTHER
+}
+
+enum PatternConfidence {
+  STRONG_SIGNAL
+  POSSIBLE
+  WORTH_EXAMINING
+}
+
+enum PatternLibraryStatus {
+  PROPOSED
+  VALIDATED
+  RETIRED
+}
+
+enum PatternStatus {
+  PROPOSED
+  VALIDATED
+  RETIRED
+}
+
+enum PeerSupportConnectionStatus {
+  PENDING
+  ACTIVE
+  PAUSING
+  CLOSED
+}
+
+enum PhysicalEffortLevel {
+  LIGHT
+  MODERATE
+  HEAVY
+}
+
+enum PitchStage {
+  IDEA
+  RESEARCH
+  PROTOTYPE
+  PILOT
+  OPERATING
+  SCALING
+}
+
+enum PitchStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum PostSource {
+  USER
+  COMMUNITY
+  EVENT
+  RSS
+}
+
+enum PostVisibility {
+  PUBLIC
+  REGISTERED
+  INTERNAL
+}
+
+enum PowerDistance {
+  OVER
+  UNDER
+  PEER
+  ABSENT
+  CONTESTED
+}
+
+enum ProfileType {
+  GUEST
+  COMMUNITY_SEEKER
+  CHANGEMAPPER
+}
+
+enum PendingRegistrationMode {
+  LEAN
+  FULL
+}
+
+enum ProjectReflectionPhase {
+  START
+  MID
+  CLOSURE
+  POST_CLOSURE
+}
+
+enum ReflectionLevel {
+  L1_PULSE
+  L2_AVAILABILITY
+  L3_PROJECT
+  L4_QUARTERLY
+  L5_HALF_YEAR
+  L6_ANNUAL
+}
+
+enum RelationConsent {
+  AGREED
+  IMPOSED
+  STRUCTURALLY_IMPOSSIBLE_TO_REFUSE
+  CONTESTED
+}
+
+enum RelationVisibility {
+  VISIBLE
+  PARTIALLY_VISIBLE
+  INVISIBLE
+}
+
+enum ReportCategory {
+  SPAM
+  HARASSMENT
+  MISINFORMATION
+  SAFETY_CONCERN
+  GREENWASHING
+  OTHER
+}
+
+enum ReportStatus {
+  PENDING
+  UNDER_REVIEW
+  RESOLVED
+  DISMISSED
+}
+
+enum ReportTarget {
+  USER
+  COMMUNITY
+  EVENT
+  MESSAGE
+}
+
+enum RequesterType {
+  INDIVIDUAL
+  NGO
+  SCHOOL
+  COMMUNITY_GROUP
+  PUBLIC_INSTITUTION
+}
+
+enum ResourceSharingType {
+  SHARED_TREASURY
+  CONTRIBUTION
+  PRIVATE
+}
+
+enum RiskLevel {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+enum RsvpStatus {
+  REGISTERED
+  WAITLISTED
+  CANCELLED
+  ATTENDED
+}
+
+enum SelfDetermination {
+  PRESENT
+  PARTIAL
+  ABSENT
+  CONTESTED
+}
+
+enum SkillType {
+  OFFERED
+  SEEKING
+  EXPERIENCE
+}
+
+enum SocialIntimacyType {
+  RADICAL_TRANSPARENCY
+  CAMARADERIE
+  PROFESSIONAL
+}
+
+enum SocialIssueCategory {
+  ENVIRONMENTAL
+  GOVERNANCE
+  MEDIA
+  EDUCATION
+  ECONOMIC
+  SOCIAL
+  INFRASTRUCTURE
+  HEALTH
+  OTHER
+}
+
+enum StoryType {
+  SUCCESS
+  FAILURE
+}
+
+enum SupervisionLevel {
+  DIRECT
+  PERIODIC
+  MINIMAL
+  INDEPENDENT
+}
+
+enum TagCategory {
+  SKILL
+  INTEREST
+  WORK_TYPE
+  COALITION_NEED
+  EXISTENTIAL_RISK
+  PROFESSIONAL_BACKGROUND
+  NEW_SKILL
+}
+
+enum TimePreference {
+  DAYTIME
+  EVENING
+  WEEKEND
+  FLEXIBLE
+}
+
+enum TrainingEngagementStatus {
+  PENDING
+  ACTIVE
+  COMPLETE
+  CANCELLED
+}
+
+enum TrainingFormat {
+  WORKSHOP
+  COURSE
+  DEMO
+  RESOURCE
+  GUIDED_PRACTICE
+}
+
+enum TrainingLevel {
+  EXPLORER
+  PRACTITIONER
+  GUIDE
+}
+
+enum UrgencyLevel {
+  LOW
+  NORMAL
+  HIGH
+  URGENT
+}
+
+enum VerificationLevel {
+  SELF_DECLARED
+  PEER_VOUCHED
+  COMMUNITY_VERIFIED
+  ADMIN_VERIFIED
+}
+
+enum ContactVisibility {
+  PUBLIC
+  MEMBERS_ONLY
+  HIDDEN
+}
+
+enum Visibility {
+  PUBLIC
+  REGISTERED
+  CONNECTIONS
+  PRIVATE
+}
+
+enum VoiceAccess {
+  FULL
+  PARTIAL
+  GATEKEPT
+  ABSENT
+}
+
+enum VolunteerApplicationStatus {
+  PENDING
+  ACCEPTED
+  DECLINED
+  CONFIRMED
+  CANCELLED
+  COMPLETED
+}
+
+enum VolunteerFormat {
+  ONLINE
+  OFFLINE
+  HYBRID
+}
+
+enum VolunteerOpportunityStatus {
+  DRAFT
+  PUBLISHED
+  ACCEPTING
+  PARTIALLY_FILLED
+  FULL
+  PAUSED
+  CLOSED
+  CANCELLED
+  COMPLETED
+}
+
+enum WorkContextScale {
+  COMMUNITY
+  SECTOR
+  CROSS_SECTOR
+  MULTI_SCALE
+}
+
+enum SignalDomain {
+  EDUCATION
+  GOVERNANCE
+  FOOD
+  TECHNOLOGY
+  HEALTH
+  ECONOMY
+  ECOLOGY
+  CULTURE
+  ENERGY
+  HOUSING
+  TRANSPORT
+  MEDIA
+  JUSTICE
+  FINANCE
+  OTHER
+}
+
+enum SignalScale {
+  INDIVIDUAL
+  COMMUNITY
+  INSTITUTIONAL
+  ECOSYSTEM
+}
+
+enum SignalConfidence {
+  LOW
+  MEDIUM
+  HIGH
+}
+
+enum SignalNovelty {
+  COMMON
+  UNCOMMON
+  RARE
+  NOVEL
+}
+
+enum SignalSourceType {
+  FIRSTHAND
+  SECONDHAND
+  NEWS
+  ACADEMIC
+  SOCIAL_MEDIA
+  OTHER
+}
+
+enum PatternTrajectory {
+  EMERGING
+  STABILIZING
+  DECLINING
+}
+
+enum SignalResonance {
+  RESONATES
+  DOESNT_RESONATE
+}
+
+enum FeedbackStatus {
+  NEW
+  IN_PROGRESS
+  DONE
+}
+
+enum FeedbackType {
+  LIKE
+  DISLIKE
+}

@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "badge": "Bienvenido a la plataforma Changemappers",
+    "title": "¿Qué es esta plataforma?",
+    "description": "Changemappers es un ecosistema donde, como visionario, creador, organizador o activista, puedes conectarte con causas, comunidades y conocimiento que sirven a la transformación regenerativa del mundo."
+  },
+  "pillars": {
+    "stories": {
+      "title": "Historias",
+      "description": "Lee historias abiertas sobre avances, fracasos y lo que el trabajo colaborativo enseñó de verdad.",
+      "link": "Ver las historias"
+    },
+    "roadmap": {
+      "title": "Hoja de ruta",
+      "description": "Descubre hacia dónde vamos y qué hitos hemos establecido para el futuro.",
+      "link": "Explorar la hoja de ruta"
+    },
+    "governance": {
+      "title": "Gobernanza",
+      "description": "Lee la carta, el registro de rechazos, la ruta de impugnación y otros compromisos de rendición de cuentas de la plataforma.",
+      "link": "Abrir gobernanza"
+    },
+    "mainSite": {
+      "title": "Changemappers.org",
+      "description": "Visita nuestro sitio principal donde presentamos nuestra visión y metodología central.",
+      "link": "Ir al sitio principal"
+    }
+  },
+  "moreAbout": {
+    "sectionTitle": "Construyamos el futuro juntos",
+    "sectionDescription": "Changemappers no es un producto terminado, sino una creación colectiva en constante evolución.",
+    "story": {
+      "title": "Nuestra historia",
+      "description": "Conoce de dónde venimos, quiénes somos y por qué creemos en el cambio regenerativo.",
+      "link": "Leer más"
+    },
+    "getInvolved": {
+      "title": "Participa",
+      "description": "¿Tienes habilidades o ideas que te gustaría aportar a la comunidad? ¡Te esperamos!",
+      "link": "Oportunidades para unirse"
+    }
+  },
+  "cta": {
+    "title": "¿Listo para empezar?",
+    "description": "¡Regístrate para acceder a funciones personalizadas!",
+    "register": "Registrarse",
+    "login": "Iniciar sesión"
+  }
+}

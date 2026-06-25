@@ -1,0 +1,461 @@
+{
+  "title": "Centro de Crecimiento",
+  "subtitle": "Encuentra y ofrece mentoría, coaching, formación y apoyo entre pares",
+  "tabs": {
+    "find": "Buscar Apoyo",
+    "offer": "Ofrecer Apoyo",
+    "myOffers": "Mis Ofertas",
+    "connections": "Mis Conexiones",
+    "nature": "Naturaleza"
+  },
+  "modality": {
+    "mentor": "Mentoría",
+    "coach": "Coaching",
+    "training": "Formación",
+    "peer": "Apoyo entre pares"
+  },
+  "levels": {
+    "EXPLORER": "Explorador",
+    "PRACTITIONER": "Practicante",
+    "GUIDE": "Guía"
+  },
+  "deliveryMode": {
+    "ONLINE": "En línea",
+    "IN_PERSON": "Presencial",
+    "HYBRID": "Híbrido (En línea + Presencial)"
+  },
+  "filter": {
+    "all": "Todas las Modalidades",
+    "domain": "Dominio",
+    "format": "Formato"
+  },
+  "actions": {
+    "create": "Crear Oferta",
+    "edit": "Editar",
+    "delete": "Archivar",
+    "contact": "Contactar",
+    "archive": "Archivar",
+    "confirmArchive": "¿Archivar esta oferta?",
+    "confirmYes": "Sí, archivar",
+    "archiving": "Archivando…",
+    "cancel": "Cancelar",
+    "archiveFailed": "No se pudo archivar. Inténtalo de nuevo."
+  },
+  "form": {
+    "selectModality": "Selecciona lo que quieres ofrecer",
+    "domainLabel": "Dominio / Área de experiencia",
+    "domainPlaceholder": "ej., Permacultura, Organización comunitaria",
+    "descriptionLabel": "Descripción",
+    "descriptionPlaceholder": "Describe lo que ofreces...",
+    "formatLabel": "Formato",
+    "levelLabel": "Nivel",
+    "deliveryModeLabel": "Modalidad de entrega",
+    "cityLabel": "Ciudad",
+    "cityPlaceholder": "Buscar una ciudad...",
+    "urlLabel": "Página web profesional o redes sociales",
+    "urlPlaceholder": "https://...",
+    "styleLabel": "Estilo de Coaching",
+    "timeCommitmentLabel": "Compromiso de Tiempo",
+    "timeCommitmentPresets": {
+      "1-2h": "1-2 horas/semana",
+      "3-5h": "3-5 horas/semana",
+      "weekend": "Intensivo de fin de semana",
+      "selfPaced": "A tu propio ritmo",
+      "custom": "Personalizado..."
+    },
+    "situationTypeLabel": "Tipo de Situación",
+    "maxConcurrentLabel": "Máx. relaciones concurrentes",
+    "customTimePlaceholder": "ej. 10 horas/mes",
+    "stylePlaceholder": "ej. Basado en arte, Somático...",
+    "formatPlaceholder": "ej. Sesiones 1 a 1, Talleres...",
+    "situationTypePlaceholder": "ej. Transición profesional, Duelo y pérdida...",
+    "peerFormatPlaceholder": "ej. Check-ins semanales...",
+    "yearsExperienceLabel": "Años de experiencia",
+    "coachingFormats": [
+      "Sesiones individuales",
+      "Sesiones grupales",
+      "Talleres",
+      "Retiros",
+      "Curso en línea"
+    ],
+    "peerSituations": [
+      "Transición profesional",
+      "Desafíos relacionales",
+      "Duelo y pérdida",
+      "Bloqueos creativos",
+      "Recuperación del agotamiento",
+      "Camino espiritual"
+    ],
+    "peerFormats": [
+      "Revisiones semanales",
+      "Caminatas mensuales",
+      "Mensajería en línea",
+      "Encuentros presenciales"
+    ]
+  },
+  "empty": {
+    "noOffers": "No hay ofertas disponibles",
+    "noMyOffers": "Aún no has creado ninguna oferta",
+    "noConnections": "Sin conexiones activas"
+  },
+  "card": {
+    "offeredBy": "Ofrecido por"
+  },
+  "offer": {
+    "pageTitle": "Ofrecer apoyo",
+    "loading": "Cargando..."
+  },
+  "compass": {
+    "shell": {
+      "title": "La Brújula del Cambio",
+      "subtitle": "Planificación de crecimiento personal — orientación sobre instrucción.",
+      "navAriaLabel": "Pilares de la brújula"
+    },
+    "capacity": {
+      "pillarLabel": "Pilar III",
+      "title": "Capacidad y Recursos",
+      "description": "¿Cuánto tiempo, energía y apoyo material puedes dedicar realistamente al cambio social ahora?",
+      "honestAssessment": "Autoevaluación Honesta",
+      "required": "Obligatorio",
+      "rateEach": "Califica cada dimensión honestamente — no donde quisieras estar, sino donde estás hoy.",
+      "timeLabel": "Tiempo",
+      "timeDescription": "¿Cuánto tiempo discrecional puedes asignar fiablemente cada semana?",
+      "resourcesLabel": "Recursos",
+      "resourcesDescription": "Recursos financieros, materiales o logísticos a tu disposición.",
+      "bandwidthLabel": "Ancho de Banda Emocional y Mental",
+      "bandwidthDescription": "Tu capacidad cognitiva y emocional actual para asumir nuevos compromisos.",
+      "scoreLabels": {
+        "1": "Casi nada",
+        "2": "Muy limitado",
+        "3": "Moderado",
+        "4": "Sólido",
+        "5": "Abundante"
+      },
+      "notSet": "Sin establecer",
+      "seeSuggestedScope": "Ver alcance sugerido",
+      "scopeSetting": "Configuración de Alcance",
+      "scopeSuggestionIntro": "Basado en tu puntaje promedio de {{avg}}, sugerimos:",
+      "suggestScope": {
+        "narrow": {
+          "label": "Alcance Estrecho",
+          "desc": "Enfócate en un experimento pequeño y manejable. Protege tu energía."
+        },
+        "moderate": {
+          "label": "Alcance Moderado",
+          "desc": "Un enfoque equilibrado — suficiente para progresar sin sobrecoprometerse."
+        },
+        "active": {
+          "label": "Alcance Activo",
+          "desc": "Tienes capacidad sólida en todos los aspectos. Asume experimentos más ambiciosos."
+        }
+      },
+      "scopeAdjustPrompt": "Ajusta si es necesario — elige el alcance que realmente se ajuste a tu vida ahora:",
+      "scopeOptions": {
+        "1": {
+          "label": "Estrecho",
+          "desc": "1 espacio de experimento"
+        },
+        "2": {
+          "label": "Moderado",
+          "desc": "2 espacios de experimento"
+        },
+        "3": {
+          "label": "Activo",
+          "desc": "3 espacios de experimento"
+        }
+      },
+      "optionalDepth": "Profundiza (Opcional)",
+      "anyOrderPrivate": "completa en cualquier orden, puramente privado",
+      "energyPatternLabel": "Patrones de Energía",
+      "energyPatternHint": "¿Cuándo estás en tu mejor momento? ¿Cuándo colapsas? ¿Qué te agota o recarga?",
+      "riskFearsLabel": "Riesgos y Miedos",
+      "riskFearsHint": "¿Qué podría salir mal? ¿Qué te asusta — y qué te ayudaría a avanzar de todos modos?",
+      "emotionalPatternLabel": "Patrón Emocional",
+      "emotionalPatternHint": "¿Cómo respondes tipicamente bajo presión o incertidumbre?",
+      "supportNetworkMap": "Mapa de Red de Apoyo",
+      "optional": "opcional",
+      "emptyFieldsGaps": "Los campos vacíos revelan brechas — ese es el punto.",
+      "supportNet": {
+        "mentor": "Mentor",
+        "peer": "Par",
+        "challenger": "Desafiante",
+        "believer": "Cre-yente"
+      },
+      "supportNetPlaceholder": "Nombre o rol…",
+      "emptyFieldsNote": "Los campos vacíos no son fracasos — son invitaciones a expandir tu red.",
+      "error": "Algo salió mal. Por favor, intenta de nuevo.",
+      "savedMessage": "¡Perfil de capacidad guardado!",
+      "planningFor": "Planificando para {{count}} espacio(s) de experimento",
+      "selectScopeAbove": "Selecciona un alcance arriba para continuar",
+      "saving": "Guardando…",
+      "updateCapacity": "Actualizar Capacidad",
+      "confirmScopeUnlock": "Confirmar Alcance y Desbloquear Siguiente Pilar"
+    },
+    "catalyst": {
+      "pillarLabel": "Pilar IV",
+      "title": "Catalizador y Experimentación",
+      "description": "Diseña experimentos del mundo real para probar tus hipótesis de cambio social. Tienes {{count}} espacio(s) de experimento.",
+      "experimentDesign": "Diseño de Experimento",
+      "atLeast1Required": "Al menos 1 obligatorio",
+      "hypothesisPrompt": "Si hago X con Y, entonces algo se desplaza — y así lo comprobaré.",
+      "experimentNum": "Experimento {{num}}",
+      "clearExperiment": "Limpiar experimento {{num}}",
+      "ifIDo": "Si yo hago…",
+      "actionPlaceholder": "ej., organizar una cena comunitaria, iniciar un círculo de intercambio de habilidades",
+      "with": "Con…",
+      "peoplePlaceholder": "ej., mis vecinos, grupo juvenil local, miembros de la cooperativa",
+      "thenSomethingShifts": "Entonces algo se desplaza…",
+      "hypothesisPlaceholder": "ej., la gente compartirá contactos y formará una red informal",
+      "impactCheck": "Verificación de impacto",
+      "impactCheckHint": "¿Cómo sabrás si funcionó? ¿Qué señal observable confirmaría tu hipótesis?",
+      "impactPlaceholder": "ej., 3+ personas intercambian contactos, alguien se ofrece para organizar el siguiente",
+      "whatHappened": "¿Qué pasó?",
+      "outcomePlaceholder": "¿Qué ocurrió realmente? Sé honesto/a — los resultados negativos también son datos.",
+      "recordWhatHappened": "Registrar qué pasó",
+      "domainBalanceTracker": "Seguidor de Balance de Dominios",
+      "optional": "opcional",
+      "imbalanceInfo": "¿Qué dominios están creciendo, estables o resbalando? La erosión aquí es información, no fracaso.",
+      "domains": {
+        "relationships": {
+          "label": "Relaciones",
+          "hint": "Profundidad y confianza en conexiones clave"
+        },
+        "resources": {
+          "label": "Recursos",
+          "hint": "Financieros, materiales, logísticos"
+        },
+        "knowledge": {
+          "label": "Conocimiento",
+          "hint": "Habilidades, información, experiencia"
+        },
+        "influence": {
+          "label": "Influencia",
+          "hint": "Capacidad de shaped decisiones"
+        },
+        "wellbeing": {
+          "label": "Bienestar",
+          "hint": "Físico, emocional, espiritual"
+        },
+        "integrity": {
+          "label": "Integridad",
+          "hint": "Alineación con los no-negociables"
+        }
+      },
+      "statuses": {
+        "building": "Construyendo",
+        "holding": "Manteniendo",
+        "eroding": "Erosión"
+      },
+      "integritySignal": "Señal de integridad — uno de tus no-negociables puede estar comprometido",
+      "integrityPrompt": "Considera si este experimento necesita ajuste para proteger lo que más importa.",
+      "storytelling": "Narrativa",
+      "optionalPrivate": "opcional, privado",
+      "honestNotPolished": "Sé honesto/a, no pulido/a. Estos son para ti.",
+      "story": {
+        "whyLabel": "Por qué esto me importa",
+        "whyPlaceholder": "¿Qué te impulsa a nivel visceral?",
+        "visionLabel": "El futuro al que aspiro",
+        "visionPlaceholder": "¿Cómo se ve el éxito en tus propias palabras?",
+        "shiftLabel": "El desplazamiento que intento crear",
+        "shiftPlaceholder": "¿Qué cambio quieres ver en el mundo?"
+      },
+      "error": "Algo salió mal. Por favor, intenta de nuevo.",
+      "saved": "¡Perfil de catalizador guardado!",
+      "experimentComplete": "Experimento completo — listo para guardar",
+      "completeOneToSave": "Completa al menos un experimento para guardar",
+      "saving": "Guardando…",
+      "saveExperiments": "Guardar Experimentos"
+    },
+    "clarity": {
+      "pillarLabel": "Pilar I",
+      "title": "Claridad y Dirección",
+      "description": "Define la brújula interior que guía tu cambio social — tu estrella polar, límites y historia de origen.",
+      "northStarDraft": "Borrador de Estrella Polar",
+      "required": "Obligatorio",
+      "northStarPrompt": "¿Cuál es el cambio que más quieres ver en el mundo? Dilo con tus propias palabras — un borrador es perfecto.",
+      "northStarPlaceholder": "ej., Todos en mi barrio tienen alguien en quien confiar",
+      "valuesNonNegotiables": "Valores y No-Negociables",
+      "requiredMin1": "Obligatorio — mín. 1",
+      "valuesPrompt": "¿En qué no cederás, incluso bajo presión? Estas son tus líneas rojas.",
+      "nonNegotiablePlaceholder": "ej., Ningún trabajo que explote a personas vulnerables",
+      "removeNonNegotiable": "Eliminar no-negociable {{num}}",
+      "addAnother": "Añadir otro",
+      "originQuestion": "Pregunta de Origen",
+      "optional": "opcional",
+      "originPrompt": "¿Qué pregunta o experiencia te puso en este camino? ¿Qué te sigue atrayendo?",
+      "originPlaceholder": "ej., ¿Por qué algunas comunidades prosperan mientras otras apenas sobreviven?",
+      "bioInventory": "Inventario Biográfico",
+      "bioDescription": "Mapea las experiencias que formaron tu ADN de cambio social.",
+      "bioChoosePrompts": "Elige los prompts que resuenen — omite el resto.",
+      "bioPrompts": {
+        "turning": "Un punto de inflexión que cambió mi dirección",
+        "proud": "Algo que hice y de lo que estoy orgulloso/a",
+        "failures": "Un fracaso que me enseñó algo esencial",
+        "shapers": "Personas o comunidades que me formaron",
+        "themes": "Temas recurrentes en mi vida"
+      },
+      "bioThreadPrompt": "Busca el hilo que conecta estos — ese es tu patrón.",
+      "lockedPillarsTitle": "Más pilares adelante",
+      "lockedPillarsHint": "Guarda este pilar para desbloquear el siguiente.",
+      "error": "Algo salió mal. Por favor, intenta de nuevo.",
+      "updated": "¡Claridad actualizada!",
+      "savedUnlock": "¡Claridad guardada — siguiente pilar desbloqueado!",
+      "readyToSave": "Listo para guardar",
+      "addNorthStarAndNonNegotiable": "Añade una estrella polar y al menos un no-negociable",
+      "saving": "Guardando…",
+      "updateClarity": "Actualizar Claridad",
+      "saveAndUnlock": "Guardar y Desbloquear Siguiente Pilar"
+    },
+    "context": {
+      "pillarLabel": "Pilar II",
+      "title": "Contexto y Ecosistema",
+      "description": "Mapea las personas, estructuras de poder y dinámicas de comunicación alrededor de tu trabajo de cambio social.",
+      "ecosystemMap": "Mapa del Ecosistema",
+      "optional": "opcional",
+      "ecosystemHint": "¿Quién rodea tu trabajo? Nombra a las personas y grupos en cada anillo.",
+      "rings": {
+        "sharers": {
+          "label": "Compartidores",
+          "placeholder": "ej., un/a compañero/a organizador/a, un/a consejero/a de confianza"
+        },
+        "gatekeepers": {
+          "label": "Porteros",
+          "placeholder": "ej., un/a financiador/a, un/a funcionario/a local, un/a presidente de junta"
+        },
+        "affected": {
+          "label": "Afectados",
+          "placeholder": "ej., las familias que dependen de este servicio"
+        }
+      },
+      "addAnother": "Añadir otro",
+      "removeEntry": "Eliminar entrada {{num}} de {{ring}}",
+      "add": "Añadir",
+      "gapPrompt": "¿Quién falta?",
+      "optionalReflection": "reflexión opcional",
+      "gapHint": "¿Qué voz está ausente de tu mapa — y qué haría falta para incluirla?",
+      "translationMap": "Mapa de Traducción",
+      "translationHint": "¿Cómo es descrito tu trabajo por diferentes audiencias? Entender estos encuadres te ayuda a comunicar across fronteras.",
+      "trans": {
+        "mine": "Mi encuadre",
+        "minePlaceholder": "Cómo describo mi trabajo para mí mismo/a",
+        "allies": "Encuadre de aliados",
+        "alliesPlaceholder": "Cómo lo describen mis aliados o colaboradores",
+        "power": "Encuadre de los detentores del poder",
+        "powerPlaceholder": "Cómo lo describirían los decisores o financiadores"
+      },
+      "conflictStyle": "Estilo de Conflicto",
+      "conflictHint": "¿Cómo te presentas tipicamente en conflicto? ¿A qué patrón defaultas — y qué preferirías?",
+      "conflictPlaceholder": "ej., Tiendo a evitar el conflicto hasta que hierve…",
+      "commReflection": "Reflexión de Comunicación",
+      "commHint": "¿Cuál es tu estilo de comunicación default bajo presión? ¿Qué se pierde?",
+      "commPlaceholder": "ej., Sobrexplico cuando estoy nervioso/a y omito el núcleo emocional…",
+      "error": "Algo salió mal. Por favor, intenta de nuevo.",
+      "savedMessage": "¡Contexto guardado!",
+      "saving": "Guardando…",
+      "saveButton": "Guardar Contexto"
+    },
+    "entry": {
+      "introTitle": "¿Dónde estás en el viaje de cambio social?",
+      "introDescription": "La Brújula te ayuda a encontrar tu lugar en el panorama del cambio social. Elige la fase que te corresponde, luego tu nivel. No hay respuestas incorrectas — solo honestas.",
+      "selectPhase": "Selecciona tu fase",
+      "phaseNum": "Fase {{num}}",
+      "focusLabel": "Foco:",
+      "phases": {
+        "I": {
+          "focus": "yo mismo/a",
+          "description": "Te enfocas en construir claridad interior, habilidades y resiliencia antes de involucrarte externamente. Este es trabajo fundamental — poner tu propia casa en orden.",
+          "markers": "Autoconocimiento, valores personales, patrones emocionales, desarrollo de habilidades"
+        },
+        "II": {
+          "focus": "mi comunidad",
+          "description": "Te involucras activamente con las personas y estructuras a tu alrededor — mapeando ecosistemas, construyendo relaciones y navegando dinámicas de poder.",
+          "markers": "Mapeo de relaciones, análisis de stakeholders, navegación de conflictos, construcción de coaliciones"
+        },
+        "III": {
+          "focus": "el viaje mismo",
+          "description": "Integras capacidad, recursos y experimentación en una práctica sostenible. El foco pasa del hacer al ser — hacer del cambio social una forma de vida.",
+          "markers": "Gestión de recursos, diseño de experimentos, narrativa, equilibrio sistémico"
+        }
+      },
+      "whereExactly": "¿Exactamente dónde en la Fase {{phase}}?",
+      "placementOptionalHint": "Esta auto-ubicación es opcional pero nos ayuda a personalizar tu experiencia de Brújula.",
+      "levels": {
+        "0": {
+          "archetype": "Espectador",
+          "sphere": "Conciencia"
+        },
+        "1": {
+          "archetype": "Observador",
+          "sphere": "Conciencia"
+        },
+        "2": {
+          "archetype": "Simpatizante",
+          "sphere": "Conciencia"
+        },
+        "3": {
+          "archetype": "Aprendiz",
+          "sphere": "Conciencia"
+        },
+        "4": {
+          "archetype": "Practicante Local",
+          "sphere": "Compromiso"
+        },
+        "5": {
+          "archetype": "Tejedor Comunitario",
+          "sphere": "Compromiso"
+        },
+        "6": {
+          "archetype": "Innovador de Sistemas",
+          "sphere": "Integración"
+        },
+        "7": {
+          "archetype": "Constructor de Movimientos",
+          "sphere": "Integración"
+        },
+        "8": {
+          "archetype": "Transformador de Sistemas",
+          "sphere": "Integración"
+        },
+        "9": {
+          "archetype": "Tejedor de Paradigmas",
+          "sphere": "Integración"
+        }
+      },
+      "sphereLabel": "Esfera:",
+      "error": "Algo salió mal. Por favor, intenta de nuevo.",
+      "saving": "Guardando…",
+      "confirmSelfPlacement": "Confirmar Ubicación y Continuar"
+    }
+  },
+  "lifecycle": {
+    "accept": {
+      "label": "Aceptar",
+      "confirmPrompt": "¿Aceptar esta solicitud?",
+      "confirmYes": "Sí, aceptar",
+      "pending": "Aceptando…",
+      "failed": "No se pudo aceptar. Inténtalo de nuevo."
+    },
+    "complete": {
+      "label": "Marcar como completada",
+      "confirmPrompt": "¿Marcar como completada?",
+      "confirmYes": "Sí, completar",
+      "pending": "Completando…",
+      "failed": "No se pudo completar. Inténtalo de nuevo."
+    },
+    "cancelEngagement": {
+      "label": "Cancelar",
+      "confirmPrompt": "¿Cancelar esta colaboración?",
+      "confirmYes": "Sí, cancelar",
+      "pending": "Cancelando…",
+      "failed": "No se pudo cancelar. Inténtalo de nuevo."
+    },
+    "close": {
+      "label": "Cerrar",
+      "confirmPrompt": "¿Cerrar esta conexión?",
+      "confirmYes": "Sí, cerrar",
+      "pending": "Cerrando…",
+      "failed": "No se pudo cerrar. Inténtalo de nuevo."
+    },
+    "dismiss": "Descartar"
+  }
+}

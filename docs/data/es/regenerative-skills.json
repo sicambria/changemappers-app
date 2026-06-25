@@ -1,0 +1,840 @@
+{
+  "skillsDatabase": {
+    "UL - Intentional": {
+      "H1_Hospicing": [
+        {
+          "id": 1,
+          "level": "Micro",
+          "domain": "Resiliencia Psicológica",
+          "text": "Puede regular las respuestas del sistema nervioso personal durante episodios de alta ansiedad climática o duelo ecológico."
+        },
+        {
+          "id": 4,
+          "level": "Micro",
+          "domain": "Trabajo de Sombra",
+          "text": "Puede sintetizar aspectos de la sombra personal detonados por el colapso sistémico en empatía accionable por los demás."
+        },
+        {
+          "id": 39,
+          "level": "Micro",
+          "domain": "Mentalidad Post-Capitalista",
+          "text": "Puede desvincular conscientemente la propia valía personal de las métricas capitalistas de productividad y crecimiento infinito."
+        },
+        {
+          "id": 41,
+          "level": "Micro",
+          "domain": "Trabajo de Sombra",
+          "text": "Puede identificar y observar de manera segura los propios mecanismos defensivos cuando se confronta con el privilegio ecológico sistémico."
+        },
+        {
+          "id": 43,
+          "level": "Micro",
+          "domain": "Resiliencia Somática",
+          "text": "Puede mantener la presencia somática (enraizamiento) mientras procesa datos climáticos complejos y abrumadores."
+        },
+        {
+          "id": 45,
+          "level": "Micro",
+          "domain": "Gestión del Ego",
+          "text": "Puede identificar y disolver rápidamente complejos de eco-mesianismo personal antes de que impacten la dinámica comunitaria."
+        },
+        {
+          "id": 46,
+          "level": "Micro",
+          "domain": "Límites Emocionales",
+          "text": "Puede mantener límites compasivos al interactuar con individuos que sufren de negación climática aguda."
+        },
+        {
+          "id": 52,
+          "level": "Micro",
+          "domain": "Reparación Moral",
+          "text": "Puede procesar el daño moral de participar en industrias extractivas mientras hace la transición a medios de vida regenerativos."
+        },
+        {
+          "id": 53,
+          "level": "Micro",
+          "domain": "Resiliencia Psicológica",
+          "text": "Puede practicar el perdón radical hacia aquellos atrincherados en los sistemas destructivos H1 (heredados)."
+        },
+        {
+          "id": 57,
+          "level": "Micro",
+          "domain": "Mentalidad Decolonial",
+          "text": "Puede identificar las formas sutiles en que la lógica imperialista y colonial permea los propios patrones de pensamiento."
+        },
+        {
+          "id": 61,
+          "level": "Micro",
+          "domain": "Regulación Somática",
+          "text": "Puede autorregularse a través de la respiración o la meditación antes de entrar en negociaciones políticas de alto nivel."
+        },
+        {
+          "id": 65,
+          "level": "Micro",
+          "domain": "Gestión de Detonantes",
+          "text": "Puede identificar los propios detonantes centrales relacionados con la escasez y gestionarlos preventivamente en entornos comunitarios."
+        },
+        {
+          "id": 68,
+          "level": "Micro",
+          "domain": "Memoria Ecológica",
+          "text": "Puede observar y documentar el propio síndrome de línea base cambiante respecto a la degradación ecológica local."
+        },
+        {
+          "id": 72,
+          "level": "Micro",
+          "domain": "Post-consumismo",
+          "text": "Puede cultivar una mentalidad de 'suficiencia' para resistir activamente el condicionamiento hiperconsumista."
+        },
+        {
+          "id": 78,
+          "level": "Micro",
+          "domain": "Responsabilidad Sistémica",
+          "text": "Puede identificar y desenredar la propia complicidad en la opresión sistémica sin caer en la parálisis."
+        },
+        {
+          "id": 197,
+          "level": "Micro",
+          "domain": "Resiliencia Psicológica",
+          "text": "Puede practicar el 'atestiguamiento': observar la destrucción ecológica nélkül sin saltar inmediatamente al solucionismo, para asimilar plenamente la escala."
+        },
+        {
+          "id": 201,
+          "level": "Micro",
+          "domain": "Conciencia Sistémica",
+          "text": "Puede mapear los hábitos de consumo personal directamente a las zonas de sacrificio globales específicas de las que dependen."
+        },
+        {
+          "id": 225,
+          "level": "Micro",
+          "domain": "Somática de la Acción",
+          "text": "Puede mantener un estado de 'alerta relajada' durante bloqueos de acción directa largos y de alta tensión."
+        },
+        {
+          "id": 277,
+          "level": "Micro",
+          "domain": "Gratitud Sistémica",
+          "text": "Puede mantener una práctica diaria de gratitud dirigida específicamente a los trabajadores infraestructurales invisibles (saneamiento, red eléctrica)."
+        },
+        {
+          "id": 289,
+          "level": "Micro",
+          "domain": "Higiene Cognitiva",
+          "text": "Puede practicar el 'Minimalismo Digital', curando deliberadamente las dietas de información para preservar el ancho de banda cognitivo."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 2,
+          "level": "Micro",
+          "domain": "Agilidad Cognitiva",
+          "text": "Puede cultivar y sostener la 'mente de principiante' al analizar sistemas heredados que fallan para evitar el sesgo cognitivo."
+        },
+        {
+          "id": 5,
+          "level": "Micro",
+          "domain": "Resistencia Emocional",
+          "text": "Puede mantener un estado de 'esperanza activa' sin caer en el positivismo tóxico o el fatalismo paralizante."
+        },
+        {
+          "id": 35,
+          "level": "Micro",
+          "domain": "Gestión de la Energía",
+          "text": "Puede rastrear las entradas/salidas de energía personal para prevenir el agotamiento durante cambios de fase intensos en el desarrollo de proyectos."
+        },
+        {
+          "id": 42,
+          "level": "Micro",
+          "domain": "Cambio Cognitivo",
+          "text": "Puede transitar de una 'mentalidad de escasez' a una 'mentalidad de abundancia' al evaluar la biocapacidad local."
+        },
+        {
+          "id": 48,
+          "level": "Micro",
+          "domain": "Estilo de Vida Biomimético",
+          "text": "Puede realizar una 'auditoría de energía' personal para alinear las tareas diarias con los ritmos circadianos y estacionales naturales de uno."
+        },
+        {
+          "id": 49,
+          "level": "Micro",
+          "domain": "Tolerancia a la Complejidad",
+          "text": "Puede permanecer en la incomodidad de 'no saber' sin apresurarse prematuramente a soluciones falsas y mecanicistas."
+        },
+        {
+          "id": 58,
+          "level": "Micro",
+          "domain": "Alquimia Emocional",
+          "text": "Puede transmutar la ira por la injusticia ambiental en una acción estratégica, enfocada y sostenida."
+        },
+        {
+          "id": 59,
+          "level": "Micro",
+          "domain": "Flexibilidad Cognitiva",
+          "text": "Puede ciclar intencionalmente entre el pensamiento analítico enfocado y el pensamiento de sistemas difuso y divergente."
+        },
+        {
+          "id": 62,
+          "level": "Micro",
+          "domain": "Alineación de Propósito",
+          "text": "Puede mapear el propio 'ikigai' personal directamente sobre las necesidades de la biorregión local."
+        },
+        {
+          "id": 66,
+          "level": "Micro",
+          "domain": "Mentalidad Evolutiva",
+          "text": "Puede abrazar conscientemente el fracaso como un bucle de retroalimentación evolutiva necesario en lugar de un déficit personal."
+        },
+        {
+          "id": 69,
+          "level": "Micro",
+          "domain": "Alfabetización en Duelo",
+          "text": "Puede integrar el duelo como un compañero permanente y saludable en lugar de una emoción a ser 'curada'."
+        },
+        {
+          "id": 71,
+          "level": "Micro",
+          "domain": "Resistencia Emocional",
+          "text": "Puede experimentar alegría y celebración sin culpa en medio de la policrisis global."
+        },
+        {
+          "id": 75,
+          "level": "Micro",
+          "domain": "Mentalidad Basada en el Lugar",
+          "text": "Puede practicar la 'movilidad hacia adentro': encontrar profundidad y exploración sin viajes geográficos."
+        },
+        {
+          "id": 198,
+          "level": "Micro",
+          "domain": "Agilidad Cognitiva",
+          "text": "Puede desaprender rápidamente los paradigmas de eficiencia de la era industrial al evaluar el éxito de un bosque de alimentos."
+        },
+        {
+          "id": 200,
+          "level": "Micro",
+          "domain": "Resistencia Emocional",
+          "text": "Puede sostener la 'brecha trágica' entre la realidad del colapso climático y la visión de un futuro regenerativo sin agotarse."
+        },
+        {
+          "id": 226,
+          "level": "Micro",
+          "domain": "Conciencia del Trauma",
+          "text": "Puede identificar cuándo se opera desde una 'respuesta al trauma' frente a una 'respuesta estratégica' en la organización."
+        },
+        {
+          "id": 228,
+          "level": "Micro",
+          "domain": "Navegación de la Complejidad",
+          "text": "Puede soltar la necesidad de certeza absoluta antes de actuar en entornos complejos y caóticos."
+        },
+        {
+          "id": 229,
+          "level": "Micro",
+          "domain": "La Alegría como Resistencia",
+          "text": "Puede cultivar un sentido de profunda jovialidad y humor incluso cuando se discuten amenazas existenciales."
+        },
+        {
+          "id": 245,
+          "level": "Micro",
+          "domain": "Empatía Radical",
+          "text": "Puede mantener una empatía radical por políticos o ejecutivos que están perpetuando activamente la crisis."
+        },
+        {
+          "id": 247,
+          "level": "Micro",
+          "domain": "Sanación Ancestral",
+          "text": "Puede mapear el propio linaje y traumas ancestrales para comprender los patrones de comportamiento heredados hacia la naturaleza."
+        },
+        {
+          "id": 248,
+          "level": "Micro",
+          "domain": "Conciencia de Posicionalidad",
+          "text": "Puede sostener conscientemente la tensión de ser un 'extraño' cuando se intenta apoyar movimientos locales liderados por indígenas."
+        },
+        {
+          "id": 261,
+          "level": "Micro",
+          "domain": "Descanso Radical",
+          "text": "Puede practicar deliberadamente el 'no hacer nada' como una intervención radical contra los paradigmas de productividad capitalista."
+        },
+        {
+          "id": 263,
+          "level": "Micro",
+          "domain": "Mentalidad de Solidaridad",
+          "text": "Puede identificar y transmutar el 'complejo de salvador' en una postura de profunda solidaridad y apoyo mutuo."
+        },
+        {
+          "id": 285,
+          "level": "Micro",
+          "domain": "Humildad Epistémica",
+          "text": "Puede reconocer y eludir el 'efecto Dunning-Kruger' al aprender disciplinas ecológicas completamente nuevas."
+        },
+        {
+          "id": 6,
+          "level": "Meso",
+          "domain": "Puente de Paradigmas",
+          "text": "Puede sostener la disonancia cognitiva de desmantelar simultáneamente los sistemas viejos mientras se construyen otros radicalmente nuevos."
+        },
+        {
+          "id": 50,
+          "level": "Meso",
+          "domain": "Conciencia del Trauma",
+          "text": "Puede mapear cómo el trauma histórico y generacional influye en los comportamientos actuales de liderazgo organizacional."
+        },
+        {
+          "id": 55,
+          "level": "Meso",
+          "domain": "Conciencia Psicosocial",
+          "text": "Puede reconocer la proyección y la transferencia al navegar las dinámicas de poder en la organización comunitaria."
+        },
+        {
+          "id": 70,
+          "level": "Meso",
+          "domain": "Psicología Relacional",
+          "text": "Puede salir intencionalmente del rol de 'rescatador' en el Triángulo Dramático de Karpman durante disputas comunitarias."
+        },
+        {
+          "id": 76,
+          "level": "Meso",
+          "domain": "Desapego del Ego",
+          "text": "Puede desvincular la identidad personal del éxito de un proyecto específico para prevenir el síndrome del fundador."
+        },
+        {
+          "id": 202,
+          "level": "Meso",
+          "domain": "Psicología del Liderazgo",
+          "text": "Puede cambiar de un arquetipo de liderazgo de 'héroe/salvador' a un arquetipo de 'anfitrión/tejedor' en entornos comunitarios."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 3,
+          "level": "Micro",
+          "domain": "Conciencia Ecológica",
+          "text": "Puede sostener una práctica diaria de escucha ecológica profunda y contemplación biomimética para guiar la toma de decisiones."
+        },
+        {
+          "id": 7,
+          "level": "Micro",
+          "domain": "Conciencia Epistemológica",
+          "text": "Puede mapear conscientemente y actualizar continuamente la propia visión del mundo y los puntos ciegos epistemológicos."
+        },
+        {
+          "id": 40,
+          "level": "Micro",
+          "domain": "Navegación del Tiempo Profundo",
+          "text": "Puede practicar la conciencia del tiempo profundo, sosteniendo la perspectiva de los antepasados de 7 generaciones atrás y los descendientes de 7 generaciones en el futuro."
+        },
+        {
+          "id": 44,
+          "level": "Micro",
+          "domain": "Epistemología Holística",
+          "text": "Puede integrar rutinariamente la intuición y el trabajo de sueños en procesos formales de planificación estratégica."
+        },
+        {
+          "id": 47,
+          "level": "Micro",
+          "domain": "Percepción Animista",
+          "text": "Puede cambiar intencionalmente el estado básico de conciencia propio para percibir los paisajes como entidades vivas y animadas."
+        },
+        {
+          "id": 51,
+          "level": "Micro",
+          "domain": "Identidad Ecológica",
+          "text": "Puede adoptar un autoconcepto 'micelial', viéndose a uno mismo estrictamente como un nodo en una red relacional más amplia."
+        },
+        {
+          "id": 54,
+          "level": "Micro",
+          "domain": "Reverencia Ecológica",
+          "text": "Puede cultivar deliberadamente el asombro y la reverencia por los microecosistemas locales (p. ej., musgos, líquenes, vida del suelo)."
+        },
+        {
+          "id": 56,
+          "level": "Micro",
+          "domain": "Motivación Intrínseca",
+          "text": "Puede sostener la motivación personal totalmente desvinculada de la validación externa o la recompensa financiera."
+        },
+        {
+          "id": 60,
+          "level": "Micro",
+          "domain": "Navegación de Paradoxas",
+          "text": "Puede sostener la paradoja de la insignificancia individual y la absoluta necesidad individual en la transición global."
+        },
+        {
+          "id": 63,
+          "level": "Micro",
+          "domain": "Resiliencia Temporal",
+          "text": "Puede mantener una profunda paciencia durante las fases de retraso de varios años de la restauración ecológica."
+        },
+        {
+          "id": 64,
+          "level": "Micro",
+          "domain": "Post-antropocentrismo",
+          "text": "Puede desmantelar sistemáticamente el antropocentrismo internalizado en la toma de decisiones diaria."
+        },
+        {
+          "id": 67,
+          "level": "Micro",
+          "domain": "Conciencia Sensorial",
+          "text": "Puede practicar la expansión sensorial para notar cambios sutiles en el viento, la humedad y el comportamiento animal."
+        },
+        {
+          "id": 73,
+          "level": "Micro",
+          "domain": "Espiritualidad Aplicada",
+          "text": "Puede alinear las creencias espirituales o filosóficas personales directamente con la gestión ecológica material."
+        },
+        {
+          "id": 74,
+          "level": "Micro",
+          "domain": "Ecología Mente-Cuerpo",
+          "text": "Puede rastrear cómo la dieta y el consumo de alimentos locales alteran el propio estado psicológico y el enraizamiento."
+        },
+        {
+          "id": 199,
+          "level": "Micro",
+          "domain": "Economía Interior",
+          "text": "Puede cultivar un sentido de seguridad profunda arraigado en redes comunitarias en lugar de en la acumulación financiera."
+        },
+        {
+          "id": 203,
+          "level": "Micro",
+          "domain": "Expansión Cognitiva",
+          "text": "Puede integrar estados psicodélicos o no ordinarios de conciencia en procesos formales de diseño ecológico."
+        },
+        {
+          "id": 227,
+          "level": "Micro",
+          "domain": "Cambio Ontológico",
+          "text": "Puede practicar el 'inter-ser': experimentar el yo como profundamente entrelazado con todas las demás formas de vida."
+        },
+        {
+          "id": 246,
+          "level": "Micro",
+          "domain": "Práctica Ascética",
+          "text": "Puede ayunar deliberadamente o alterar la dieta para la conexión espiritual con la tierra y la conciencia del privilegio."
+        },
+        {
+          "id": 262,
+          "level": "Micro",
+          "domain": "Observación Ecológica",
+          "text": "Puede observar conscientemente el flujo del agua durante una tormenta para comprender intuitivamente la hidrología local."
+        },
+        {
+          "id": 273,
+          "level": "Micro",
+          "domain": "Identidad Post-Estado",
+          "text": "Puede desvincular conscientemente la seguridad personal del estado y vincularla a las redes locales de apoyo mutuo."
+        },
+        {
+          "id": 281,
+          "level": "Micro",
+          "domain": "Conciencia Atmosférica",
+          "text": "Puede leer intuitivamente los patrones climáticos a partir de las formaciones de nubes y los cambios del viento."
+        },
+        {
+          "id": 293,
+          "level": "Micro",
+          "domain": "Enraizamiento Visionario",
+          "text": "Puede sostener conscientemente el espacio para la 'Eutopía' (el buen lugar) en lugar de la 'Utopía' (el lugar que no existe)."
+        },
+        {
+          "id": 297,
+          "level": "Micro",
+          "domain": "Investigación Fenomenológica",
+          "text": "Puede mapear y rastrear la experiencia fenomenológica cambiante del tiempo durante la inmersión profunda en la naturaleza."
+        },
+        {
+          "id": 77,
+          "level": "Macro",
+          "domain": "Ecología Profunda",
+          "text": "Puede cultivar un sentido de parentesco con entidades no humanas (p. ej., ríos, montañas) como sujetos iguales."
+        }
+      ]
+    },
+    "UR - Behavioral": {
+      "H1_Hospicing": [
+        {
+          "id": 80,
+          "level": "Micro",
+          "domain": "Eficiencia Energética",
+          "text": "Puede realizar una auditoría de energía básica de un hogar utilizando imágenes térmicas y pruebas de puerta soplante."
+        },
+        {
+          "id": 87,
+          "level": "Micro",
+          "domain": "Transporte Activo",
+          "text": "Puede reparar un pinchazo, centrar una rueda y reemplazar la transmisión en una bicicleta estándar."
+        },
+        {
+          "id": 91,
+          "level": "Micro",
+          "domain": "Ciencia del Suelo",
+          "text": "Puede realizar una prueba básica de textura del suelo al tacto y una prueba de composición del suelo en frasco de vidrio."
+        },
+        {
+          "id": 99,
+          "level": "Micro",
+          "domain": "Mecánica Práctica",
+          "text": "Puede atar 5 nudos esenciales de carga y tensión para construcción y aparejo."
+        },
+        {
+          "id": 100,
+          "level": "Micro",
+          "domain": "Silvicultura",
+          "text": "Puede talar con seguridad un árbol de tamaño mediano utilizando técnicas adecuadas de muesca y bisagra."
+        },
+        {
+          "id": 103,
+          "level": "Micro",
+          "domain": "Habilidades de Reparación",
+          "text": "Puede empalmar cables eléctricos y leer diagramas de circuitos básicos para reparar electrodomésticos."
+        },
+        {
+          "id": 107,
+          "level": "Micro",
+          "domain": "Gestión del Agua",
+          "text": "Puede configurar un sistema de riego por goteo con temporizadores y reguladores de presión para la conservación del agua."
+        },
+        {
+          "id": 204,
+          "level": "Micro",
+          "domain": "Análisis del Sitio",
+          "text": "Puede realizar una prueba de percolación del suelo para determinar la viabilidad de un sitio para un sistema séptico o un jardín de lluvia."
+        },
+        {
+          "id": 231,
+          "level": "Micro",
+          "domain": "Gestión de Residuos",
+          "text": "Puede construir y mantener una granja de lombrices (vermicompost) para procesar residuos de alimentos domésticos de interior."
+        },
+        {
+          "id": 234,
+          "level": "Micro",
+          "domain": "Electrificación",
+          "text": "Puede instalar una placa de inducción y desconectar una línea de gas residencial de forma segura para electrificar una cocina."
+        },
+        {
+          "id": 109,
+          "level": "Meso",
+          "domain": "Calidad del Agua",
+          "text": "Puede probar fuentes de agua locales para determinar el pH, el oxígeno disuelto y contaminantes básicos utilizando kits de campo."
+        },
+        {
+          "id": 115,
+          "level": "Meso",
+          "domain": "Gestión de Datos",
+          "text": "Puede diseñar una base de datos simple en SQL para rastrear el inventario de una cooperativa de alimentos local."
+        },
+        {
+          "id": 9,
+          "level": "Meso",
+          "domain": "Contabilidad Ecológica",
+          "text": "Puede calcular el carbono embebido, la energía operativa y la huella ecológica del ciclo de vida de un edificio comunitario propuesto."
+        },
+        {
+          "id": 266,
+          "level": "Macro",
+          "domain": "Ecología Urbana",
+          "text": "Puede mapear y categorizar el dosel arbóreo urbano utilizando imágenes satelitales de código abierto y QGIS."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 8,
+          "level": "Micro",
+          "domain": "Ecología Aplicada",
+          "text": "Puede instalar, calibrar y mantener un sistema de filtración y riego de aguas grises a escala residencial."
+        },
+        {
+          "id": 12,
+          "level": "Micro",
+          "domain": "Agroforestería",
+          "text": "Puede podar e injertar especies fundamentales de árboles frutales para optimizar el rendimiento y la resistencia a enfermedades en un bosque de alimentos."
+        },
+        {
+          "id": 36,
+          "level": "Micro",
+          "domain": "Tecnología Apropiada",
+          "text": "Puede construir y mantener un calentador de masa de cohete de masa térmica utilizando materiales de tierra de origen local."
+        },
+        {
+          "id": 79,
+          "level": "Micro",
+          "domain": "Ciencia del Suelo",
+          "text": "Puede construir una retorta de biochar simple y de bajo costo e inocular adecuadamente el carbón resultante."
+        },
+        {
+          "id": 83,
+          "level": "Micro",
+          "domain": "Energía Renovable",
+          "text": "Puede instalar y configurar un sistema solar fotovoltaico básico fuera de la red (paneles, controlador de carga, batería, inversor)."
+        },
+        {
+          "id": 84,
+          "level": "Micro",
+          "domain": "Agroecología",
+          "text": "Puede construir una cama elevada hugelkultur utilizando madera en descomposición y materia orgánica de origen local."
+        },
+        {
+          "id": 88,
+          "level": "Micro",
+          "domain": "Hidrología",
+          "text": "Puede construir un sistema de captación de agua de lluvia con desviadores de primer flujo y una gestión adecuada del desbordamiento."
+        },
+        {
+          "id": 90,
+          "level": "Micro",
+          "domain": "Habilidades de Reparación",
+          "text": "Puede soldar juntas estructurales básicas (MIG/TIG) para reparar equipos agrícolas o reciclados."
+        },
+        {
+          "id": 96,
+          "level": "Micro",
+          "domain": "Edificación Ecológica",
+          "text": "Puede construir un invernadero solar pasivo optimizado para los ángulos específicos del sol de invierno de la latitud."
+        },
+        {
+          "id": 102,
+          "level": "Micro",
+          "domain": "Tecnología Apropiada",
+          "text": "Puede construir un sistema de ducha simple calentado por compost para la higiene fuera de la red."
+        },
+        {
+          "id": 106,
+          "level": "Micro",
+          "domain": "Movimiento de Tierras",
+          "text": "Puede construir un nivel en A para mapear con precisión las curvas de nivel en una ladera."
+        },
+        {
+          "id": 108,
+          "level": "Micro",
+          "domain": "Construcción Natural",
+          "text": "Puede aislar adecuadamente un espacio de loft utilizando materiales naturales como lana de oveja o hempcrete (hormigón de cáñamo)."
+        },
+        {
+          "id": 113,
+          "level": "Micro",
+          "domain": "Construcción Natural",
+          "text": "Puede construir una pared de cob mezclando arcilla, arena y paja hasta obtener la consistencia estructural correcta."
+        },
+        {
+          "id": 116,
+          "level": "Micro",
+          "domain": "Redacción de Diseño",
+          "text": "Puede redactar un plano de sitio a escala preciso utilizando CAD o herramientas de dibujo a mano."
+        },
+        {
+          "id": 206,
+          "level": "Micro",
+          "domain": "Horticultura",
+          "text": "Puede propagar plantas mediante esquejes de madera dura, semimadura y división de raíces."
+        },
+        {
+          "id": 207,
+          "level": "Micro",
+          "domain": "Tecnología de Código Abierto",
+          "text": "Puede configurar una Raspberry Pi para que actúe como una estación meteorológica localizada y un controlador de riego automatizado."
+        },
+        {
+          "id": 210,
+          "level": "Micro",
+          "domain": "Sistemas de Circuito Cerrado",
+          "text": "Puede construir y mantener un sistema acuapónico equilibrando peces, bacterias de biofiltro y crecimiento de plantas."
+        },
+        {
+          "id": 230,
+          "level": "Micro",
+          "domain": "Alfabetización del Paisaje",
+          "text": "Puede leer el paisaje para identificar flujos de agua históricos, incluso en entornos altamente urbanizados."
+        },
+        {
+          "id": 251,
+          "level": "Micro",
+          "domain": "Vivienda Reducida",
+          "text": "Puede enmarcar y construir una casa pequeña solar pasiva, altamente aislada, sobre un remolque móvil."
+        },
+        {
+          "id": 264,
+          "level": "Micro",
+          "domain": "Tecnología Apropiada",
+          "text": "Puede construir un deshidratador solar simple para preservar las cosechas locales de frutas y verduras."
+        },
+        {
+          "id": 265,
+          "level": "Micro",
+          "domain": "Medicina de Emergencia",
+          "text": "Puede aplicar eficazmente un torniquete y realizar primeros auxilios en áreas silvestres en un entorno remoto y fuera de la red."
+        },
+        {
+          "id": 274,
+          "level": "Micro",
+          "domain": "Lectura de Bio-indicadores",
+          "text": "Puede observar y analizar las 'malezas' en un área para diagnosticar deficiencias del suelo sin pruebas químicas."
+        },
+        {
+          "id": 282,
+          "level": "Micro",
+          "domain": "Compostaje Avanzado",
+          "text": "Puede construir una pila de compost de reacción rápida (Método Berkeley) que alcance 130-160°F en 4 días."
+        },
+        {
+          "id": 81,
+          "level": "Meso",
+          "domain": "Gestión de Residuos",
+          "text": "Puede configurar y gestionar un sistema de compostaje termofílico de múltiples bahías para residuos de alimentos comunitarios."
+        },
+        {
+          "id": 86,
+          "level": "Meso",
+          "domain": "Ciencia de Datos",
+          "text": "Puede escribir un script de Python para extraer y analizar datos abiertos ambientales municipales locales."
+        },
+        {
+          "id": 95,
+          "level": "Meso",
+          "domain": "Gestión Holística",
+          "text": "Puede diseñar e implementar un plan de pastoreo rotativo para un rebaño pequeño para maximizar la absorción de carbono."
+        },
+        {
+          "id": 118,
+          "level": "Meso",
+          "domain": "Soberanía Digital",
+          "text": "Puede configurar un servidor Nextcloud de código abierto para proporcionar una alternativa al alojamiento de datos de las grandes empresas tecnológicas."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 10,
+          "level": "Micro",
+          "domain": "Ciencia del Suelo",
+          "text": "Puede cultivar soluciones de Microorganismos Indígenas (IMO) para la remediación localizada del suelo y la mejora de la fertilidad."
+        },
+        {
+          "id": 31,
+          "level": "Micro",
+          "domain": "Resiliencia Local",
+          "text": "Puede recolectar y procesar más de 10 plantas silvestres comestibles locales de forma segura para el consumo comunitario."
+        },
+        {
+          "id": 82,
+          "level": "Micro",
+          "domain": "Herboristería",
+          "text": "Puede identificar, cosechar y procesar 5 hierbas medicinales locales en tinturas o bálsamos."
+        },
+        {
+          "id": 85,
+          "level": "Micro",
+          "domain": "Saneamiento Ecológico",
+          "text": "Puede capturar, procesar y utilizar de forma segura el 'humanure' (abono humano) en un sistema de saneamiento de circuito cerrado."
+        },
+        {
+          "id": 89,
+          "level": "Micro",
+          "domain": "Micología",
+          "text": "Puede inocular troncos con micelio de hongo shiitake o gírgola para la producción local de alimentos."
+        },
+        {
+          "id": 93,
+          "level": "Micro",
+          "domain": "Procesamiento de Alimentos Ancestrales",
+          "text": "Puede procesar bellotas u otros básicos de forraje locales complejos para eliminar los taninos y crear harina."
+        },
+        {
+          "id": 97,
+          "level": "Micro",
+          "domain": "Preservación de Alimentos",
+          "text": "Puede fermentar verduras (chucrut, kimchi) de forma segura para preservar la cosecha local sin refrigeración."
+        }
+      ]
+    },
+    "LL - Cultural": {
+      "H1_Hospicing": [
+        {
+          "id": 33,
+          "level": "Micro",
+          "domain": "Desescalada",
+          "text": "Puede utilizar la Comunicación No Violenta (CNV) para desescalar la tensión durante la acción ambiental directa."
+        },
+        {
+          "id": 19,
+          "level": "Meso",
+          "domain": "Comunicación Intersectorial",
+          "text": "Puede traducir eficazmente la ciencia ecológica compleja en narrativas culturalmente resonantes para los responsables de políticas locales."
+        },
+        {
+          "id": 20,
+          "level": "Meso",
+          "domain": "Sanación Comunal",
+          "text": "Puede facilitar un círculo de duelo para ayudar a una comunidad a procesar la pérdida de ecosistemas o especies locales."
+        },
+        {
+          "id": 30,
+          "level": "Meso",
+          "domain": "Acompañamiento a Sistemas Viejos",
+          "text": "Puede cerrar con gracia un proyecto organizacional que está terminando mientras captura y transfiere sus aprendizajes centrales."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 15,
+          "level": "Meso",
+          "domain": "Transformación de Conflictos",
+          "text": "Puede mediar en conflictos intergeneracionales con respecto a las transiciones de uso de la tierra utilizando prácticas de círculos de justicia restaurativa."
+        },
+        {
+          "id": 17,
+          "level": "Meso",
+          "domain": "Arquitectura Social",
+          "text": "Puede diseñar y facilitar procesos de incorporación participativos que construyan seguridad psicológica inmediata en equipos descentralizados."
+        },
+        {
+          "id": 18,
+          "level": "Meso",
+          "domain": "Facilitación de Grupos",
+          "text": "Puede organizar una sesión de 'El Arte de Liderar' (Art of Hosting) o 'World Cafe' para alinear a más de 50 miembros de la comunidad en una visión regenerativa compartida."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 132,
+          "level": "Micro",
+          "domain": "Pedagogía",
+          "text": "Puede enseñar conceptos complejos de pensamiento sistémico a niños de escuela primaria utilizando juegos y caminatas por la naturaleza."
+        },
+        {
+          "id": 123,
+          "level": "Meso",
+          "domain": "Ritual Cultural",
+          "text": "Puede diseñar y realizar una ceremonia estacional de rito de iniciación para jóvenes que entran en la gestión ecológica."
+        }
+      ]
+    },
+    "LR - Social/Systems": {
+      "H1_Hospicing": [
+        {
+          "id": 163,
+          "level": "Meso",
+          "domain": "Redacción de Subvenciones",
+          "text": "Puede identificar y solicitar subvenciones agrícolas específicas del USDA o de la UE que apoyen la transición a la agroforestería."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 25,
+          "level": "Meso",
+          "domain": "Gobernanza Alternativa",
+          "text": "Puede redactar estatutos legales y protocolos de gobernanza para una cooperativa de plataforma de múltiples partes interesadas."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 23,
+          "level": "Meso",
+          "domain": "Diseño de Permacultura",
+          "text": "Puede crear un plan de tierra integral para un área (p. ej., una ecoaldea) integrando sistemas de agua, energía, refugio y alimentación."
+        }
+      ]
+    }
+  }
+}

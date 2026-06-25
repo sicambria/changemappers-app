@@ -1,0 +1,881 @@
+[
+  {
+    "title": "RDG 1: Az emberi fejlődés alapjai",
+    "slug": "rdg-1-foundations-of-human-development",
+    "description": "A hosszú távú társadalmi rugalmasság megköveteli az optimális fizikai, érzelmi, kognitív és kapcsolati érés feltételeinek biztosítását. Holisztikus pszichológiai fejlődés, biztonságos kötődés, egészséges neurológiai feltételek.",
+    "coverImage": null,
+    "problems": "Az oktatás csak az alapvető műveltségre összpontosít, elhanyagolva a holisztikus pszichológiai fejlődést.",
+    "solutions": "Az oktatási rendszerek holisztikus újratervezése; generációk közötti mentorálás; kora gyermekkori beavatkozások; IDG Keretrendszer.",
+    "websites": "domain:1|rdg:1",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG01",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 2: Trauma-tudatos társadalmak",
+    "slug": "rdg-2-trauma-informed-societies",
+    "description": "A strukturális erőszak és a generációkon átívelő sebek aktívan szabotálják a béképítést. A trauma-tudatosság integrálása a közpolitikába, az egészségügybe és az igazságszolgáltatási rendszerekbe.",
+    "coverImage": null,
+    "problems": "Az állami intézmények gyakran újra traumatizálják a sebezhetőket. A kollektív trauma ki van zárva a döntéshozatalból.",
+    "solutions": "SAMHSA elvek a közpolitikában; trauma-tudatos igazságszolgáltatás; közösségi szintű traumafeldolgozás.",
+    "websites": "domain:1|rdg:2",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG02",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 3: Belső fejlődési kompetenciák",
+    "slug": "rdg-3-inner-development-competencies",
+    "description": "Az IDG keretrendszer 23 alapvető készséget intézményesít a globális oktatási és vállalati képzési rendszerekben: Létezés, Gondolkodás, Kapcsolódás, Együttműködés, Cselekvés.",
+    "coverImage": null,
+    "problems": "Az oktatás elhanyagolja a belső fejlődési készségeket, ami törzsi polarizációhoz vezet.",
+    "solutions": "Az IDG keretrendszer intézményesítése; kompetencia-alapú értékelés; önismereti és együttműködési készségek a tantervekben.",
+    "websites": "domain:1|rdg:3",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG03",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 4: Vezetői érettségi sztenderdek",
+    "slug": "rdg-4-leadership-maturity-standards",
+    "description": "A közszféra és a vállalati vezetés értékelését a vertikális fejlődésre kell alapozni, olyan vezetőket nevelve, akik poszt-konvencionális, regeneratív cselekvési logikák szerint működnek.",
+    "coverImage": null,
+    "problems": "A jelenlegi vezetők rövid távú gondolkodás szerint cselekszenek, képtelenek feloldani saját változással szembeni immunitásukat.",
+    "solutions": "Vertikálisan fejlesztő vezetői programok; érettségi felmérések; poszt-konvencionális logika fejlesztése.",
+    "websites": "domain:1|rdg:4",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG04",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 5: Episztemikus integritás és értelemalkotás",
+    "slug": "rdg-5-epistemic-integrity-and-sensemaking",
+    "description": "Az algoritmikus elfogultság, az automatizált dezinformáció és a szintetikus média terjedése veszélyezteti a kollektív intelligenciát és a demokratikus életképességet.",
+    "coverImage": null,
+    "problems": "A hamis narratívák, az AI-generált dezinformáció és a kognitív torzítások aláássák a demokráciát.",
+    "solutions": "Kötelező AI átláthatósági követelmények; metakognitív kompetenciák; a közös tudáskincs védelme.",
+    "websites": "domain:1|rdg:5",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG05",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 6: Regeneratív kulturális narratívák",
+    "slug": "rdg-6-regenerative-cultural-narratives",
+    "description": "A rendszerszintű átalakulást kulturális átalakulás előzi meg. Aktív elmozdulás a kizsákmányoló fogyasztástól és a hiper-individualizmustól a felelősségvállalás és a pluriverzális világképek felé.",
+    "coverImage": null,
+    "problems": "A domináns kulturális narratívák erősítik a kizsákmányolást és az individualizmust.",
+    "solutions": "Regeneratív narratívákat hordozó művészet és média; pluriverzális oktatás; föld-gondnoksági identitás.",
+    "websites": "domain:1|rdg:6",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D1",
+    "primaryRdgId": "RDG06",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 7: Klímastabilizáció és alkalmazkodás",
+    "slug": "rdg-7-climate-stabilisation-and-adaptation",
+    "description": "Túlmutatva az egyszerű kibocsátáscsökkentésen: tömeges légköri szén-dioxid kivonás és radikális alkalmazkodóképesség. A mély éghajlati variabilitás már rögzült a Föld rendszerében.",
+    "coverImage": null,
+    "problems": "A szén-dioxid-kibocsátás csökkentése önmagában nem elegendő — tömeges kivonásra és a szélsőséges eseményekhez való alkalmazkodásra egyszerre van szükség.",
+    "solutions": "Természetes klímamegoldások; szén-dioxid-eltávolító technológiák; anticipatív klímavédelem; infrastruktúra-alkalmazkodás.",
+    "websites": "domain:2|rdg:7",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG07",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 8: Biodiverzitás és élőhely-helyreállítás",
+    "slug": "rdg-8-biodiversity-and-habitat-restoration",
+    "description": "A szárazföldi, édesvízi és tengeri ökoszisztémák léptékváltó, nettó pozitív regenerációja. Kontinentális léptékű ökológiai folyosók létrehozása.",
+    "coverImage": null,
+    "problems": "Az élőhelyek feldarabolódása, az invazív fajok, az ipari mezőgazdaság és az urbanizáció a bolygó hatodik tömeges kihalási hullámának mozgatórugói.",
+    "solutions": "Kontinentális ökológiai folyosók; újravadóítási (rewilding) programok; a természetvédelem kiterjesztése a szárazföldek és óceánok 30%-ára.",
+    "websites": "domain:2|rdg:8",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG08",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 9: Regeneratív élelmiszer- és talajrendszerek",
+    "slug": "rdg-9-regenerative-food-and-soil-systems",
+    "description": "Teljes átmenet az ipari, vegyszerintenzív mezőgazdaságról az agroökológiai, évelő és talajregeneráló élelmiszerrendszerekre.",
+    "coverImage": null,
+    "problems": "Az ipari mezőgazdaság tönkreteszi a talajt azáltal, hogy kimeríti annak szerves széntartalmát, miközben veszélyezteti a biodiverzitást.",
+    "solutions": "Regeneratív mezőgazdaság (a globális termőföldek legalább 40%-án); agrárerdészet; talajszén-mérési rendszerek.",
+    "websites": "domain:2|rdg:9",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG09",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 10: Víz körforgása és vízgyűjtők integritása",
+    "slug": "rdg-10-water-cycle-and-watershed-integrity",
+    "description": "A vízgazdálkodás elmozdulása a széttagolt városi közműszabályozástól a holisztikus vízgyűjtő-gondnokság felé.",
+    "coverImage": null,
+    "problems": "A vízgazdálkodás széttagolt, a talajvízszintek süllyednek, a vizes élőhelyek pusztulása pedig felgyorsult.",
+    "solutions": "Vízgyűjtő-szintű kormányzás; talajvíz-visszapótló zónák helyreállítása; folyók renaturálása.",
+    "websites": "domain:2|rdg:10",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG10",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 11: Bioreregionális kormányzás",
+    "slug": "rdg-11-bioregional-governance",
+    "description": "A gazdasági és politikai döntéshozatal összehangolása a természetes bioregiókkal (vízgyűjtők, hegyláncok), nem pedig mesterséges politikai határokkal.",
+    "coverImage": null,
+    "problems": "A nemzetállami határok kettévágják az ökoszisztémákat, ami a közösek tragédiájához vezet.",
+    "solutions": "Bioreregionális döntéshozatal; a helyi ökológiai-kulturális identitás erősítése; határokon átnyúló ökológiai partnerségek.",
+    "websites": "domain:2|rdg:11",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG11",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 12: Város-vidék ökológiai integrációja",
+    "slug": "rdg-12-urban-rural-ecological-integration",
+    "description": "Az emberi települések értelmezése a tágabb ökoszisztéma aktív, funkcionális elemeiként. A városokat úgy kell megtervezni, hogy helyreállítsák hátországuk természeti környezetét.",
+    "coverImage": null,
+    "problems": "A városok jelenleg terhelik az ökoszisztémákat, ahelyett, hogy részei lennének azoknak.",
+    "solutions": "Természet-alapú megoldások a városokban; zöld infrastruktúra hálózatok; zárt körfolyamatú városi erőforrás-áramlások.",
+    "websites": "domain:2|rdg:12",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D2",
+    "primaryRdgId": "RDG12",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 13: Alapvető szükségletek biztonsága",
+    "slug": "rdg-13-basic-needs-security",
+    "description": "Az abszolút alapvető biztonság — tiszta vízhez, lakhatáshoz, egészségügyhöz, energiához és oktatáshoz való hozzáférés — garantálása feltétel nélküli emberi jogként.",
+    "coverImage": null,
+    "problems": "Milliók biológiai túlélése függ a kiszámíthatatlan munkaerőpiacoktól, ami szegénységi csapdákat és sebezhetőséget szül.",
+    "solutions": "Feltétel nélküli alapjövedelem tesztprogramok; lakhatási garancia programok (Első a lakhatás); decentralizált energiaellátás.",
+    "websites": "domain:3|rdg:13",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG13",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 14: Regeneratív és körforgásos gazdaság",
+    "slug": "rdg-14-regenerative-and-circular-economy",
+    "description": "Elmozdulás az ipari lineáris \"kitermel-gyárt-eldob\" modellről a kötelező, rendszerszintű körforgásra. Minden ökológiai és társadalmi költség teljes beépítése a piaci árakba.",
+    "coverImage": null,
+    "problems": "Az anyagi átbocsátás feszíti a planetáris határokat. A külső társadalmi és ökológiai költségek nem tükröződnek a profitban.",
+    "solutions": "Körforgásos ipari rendszerek; kiterjesztett gyártói felelősség; ökológiai adórendszerek; Fánk-gazdaságtan.",
+    "websites": "domain:3|rdg:14",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG14",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 15: Befogadó megélhetés és értelmes munka",
+    "slug": "rdg-15-inclusive-livelihoods-and-meaningful-work",
+    "description": "A munkahelyteremtés egyszerű mérőszámának felváltása a megélhetés minőségére, méltóságára és céljára való összpontosítással. Gazdasági demokrácia és igazságos jövedelemelosztás.",
+    "coverImage": null,
+    "problems": "A munkahelyteremtésre irányuló kvantitatív fókusz elhomályosítja a munka minőségét és a munkavállalói méltóságot.",
+    "solutions": "Társadalmi vállalkozások; munkavállalói tulajdonlási modellek; tisztességes bérszabályok; átképzési programok.",
+    "websites": "domain:3|rdg:15",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG15",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 16: Rugalmas infrastruktúra és mérnöki megoldások",
+    "slug": "rdg-16-resilient-infrastructure-and-engineering",
+    "description": "A \"regeneratív mérnöki\" elvek alkalmazása minden polgári, szerkezeti és digitális projektben. Az infrastruktúrának nettó pozitív hatást kell elérnie.",
+    "coverImage": null,
+    "problems": "A jelenlegi infrastrukturális tervezés lineáris, és katasztrofálisan megbukik a szélsőséges időjárási események során.",
+    "solutions": "Biológiai alapú, szénmegkötő képességű építőanyagok; moduláris és javítható rendszerek; klímaváltozékonyságra felkészített tervezés.",
+    "websites": "domain:3|rdg:16",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG16",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 17: Felelős technológiai kormányzás",
+    "slug": "rdg-17-responsible-technology-governance",
+    "description": "A fejlett technológia kormányzása mint a társadalmi közjavak kritikus része. A biotechnológia, a mesterséges intelligencia és a digitális infrastruktúra összehangolása az emberi méltósággal.",
+    "coverImage": null,
+    "problems": "A technológiai monopolizáció és a \"digitális bekerítés\" veszélyezteti az adatszuverenitást és a technológiához való hozzáférést.",
+    "solutions": "Részvételi alapú AI szabályozás; adatszuverenitás; nyílt forráskódú ökoszisztémák; etikus AI biztosítékok.",
+    "websites": "domain:3|rdg:17",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG17",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 18: Elosztott megújuló energiarendszerek",
+    "slug": "rdg-18-distributed-renewable-energy-systems",
+    "description": "A zéró karbonemissziós energiára való átállás felgyorsítása a decentralizált mikrohálózatok és a közösségi tulajdonú megújuló hálózatok kötelező bővítése révén.",
+    "coverImage": null,
+    "problems": "A monolitikus energiamonopóliumoktól való függés törékennyé teszi a rendszereket. A fosszilis energiaátmenet nem elég gyors.",
+    "solutions": "Közösségi tulajdonú megújulóenergia-projektek; mikrohálózat-technológiák; decentralizált tárolási kapacitás; energiaközösségek.",
+    "websites": "domain:3|rdg:18",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D3",
+    "primaryRdgId": "RDG18",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 19: Átlátható és elszámoltatható intézmények",
+    "slug": "rdg-19-transparent-and-accountable-institutions",
+    "description": "A jogállamiság megerősítése és a megromlott közintézményi bizalom helyreállítása radikális átláthatóság és korrupcióellenes garanciák révén.",
+    "coverImage": null,
+    "problems": "Az érdekcsoportok általi befolyásolás, az intézményi korrupció és az elszámoltathatóság hiánya aláássa a fenntartható fejlődést.",
+    "solutions": "Kormányzati nyílt-adat mandátumok; erős korrupcióellenes intézmények; a civil társadalom bevonása a felügyeletbe.",
+    "websites": "domain:4|rdg:19",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG19",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 20: Policentrikus és részvételi kormányzás",
+    "slug": "rdg-20-polycentric-and-participatory-governance",
+    "description": "Elinor Ostrom Nobel-díjas közgazdász elveinek gyakorlatba ültetése a közjavak kezelésében. A hatalom decentralizálása a szubszidiaritás révén.",
+    "coverImage": null,
+    "problems": "Az egyenméretű nemzeti szabályozások nem képesek alkalmazkodni a helyi ökológiai és társadalmi sokféleséghez.",
+    "solutions": "Ostrom elveinek intézményesítése; részvételi döntéshozatali platformok; közösség által kidolgozott szabályok.",
+    "websites": "domain:4|rdg:20",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG20",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 21: Méltányosság és strukturális befogadás",
+    "slug": "rdg-21-equity-and-structural-inclusion",
+    "description": "A társadalmi marginalizáció mélyebb okainak kezelése a nemi, faji, földrajzi és társadalmi származás mentén kialakult rendszerszintű egyenlőtlenségek lebontásával.",
+    "coverImage": null,
+    "problems": "A felszínes esélyegyenlőség nem elegendő — a rendszerszintű egyenlőtlenség destabilizálja a társadalmat.",
+    "solutions": "Célzott méltányossági politikák; a gazdasági hatalom újraelosztása; erős társadalmi alapfeltételek.",
+    "websites": "domain:4|rdg:21",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG21",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 22: Béképítés és konfliktus-átalakítás",
+    "slug": "rdg-22-peacebuilding-and-conflict-transformation",
+    "description": "A militarizált biztonsági modellek meghaladása a helyreállító igazságszolgáltatás, a közösségi mediáció és a rendszerszintű de-eszkaláció előtérbe helyezésével.",
+    "coverImage": null,
+    "problems": "A klímaváltozás okozta erőforráshiány egyre inkább csoportok közötti erőszakhoz vezet.",
+    "solutions": "Helyreállító igazságszolgáltatási rendszerek; közösségi mediáció; megelőzés-központú konfliktuskezelés.",
+    "websites": "domain:4|rdg:22",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG22",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 23: Nyílt tudomány és a közös tudáskincs",
+    "slug": "rdg-23-open-science-and-the-knowledge-commons",
+    "description": "A kritikus tudományos ismeretek, környezetvédelmi adatok és technológiai innovációk közjavakká nyilvánítása.",
+    "coverImage": null,
+    "problems": "A szabadalmak felhalmozása és a fizetős folyóiratok gátolják a szükséges technológiák gyors terjedését.",
+    "solutions": "Nyílt forráskódú kutatóközösségek; nyílt hozzáférésű (open access) publikálási sztenderdek; technológiatranszfer a globális dél számára.",
+    "websites": "domain:4|rdg:23",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG23",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 24: Visszacsatolás-alapú szakpolitikai tanulás",
+    "slug": "rdg-24-feedback-based-policy-learning",
+    "description": "Robusztus \"anticipatív kormányzási\" modellek bevezetése a közszféra minden szintjén. Az intézményektől rugalmas, adaptív szakpolitikai utak megkövetelése.",
+    "coverImage": null,
+    "problems": "A merev, hosszú távú törvényhozási tervezés nem alkalmazkodik a rendkívül bizonytalan jövőhöz.",
+    "solutions": "Jövő-szkennelő rendszerek; gyors tesztprogramok; iteratív visszacsatolási hurkok; anticipatív szakpolitikai keretrendszerek.",
+    "websites": "domain:4|rdg:24",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D4",
+    "primaryRdgId": "RDG24",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 25: Egzisztenciális kockázatok csökkentése",
+    "slug": "rdg-25-existential-risk-reduction",
+    "description": "A globális katasztrofális kockázatok (GCR) csökkentésének integrálása a fejlesztési keretrendszerekbe. Koordinált globális protokollok az AI, a szintetikus biofegyverek és a nukleáris proliferáció kockázataira.",
+    "coverImage": null,
+    "problems": "A fejlesztési keretek figyelmen kívül hagyják a civilizáció túlélését fenyegető egzisztenciális kockázatokat.",
+    "solutions": "Globális egzisztenciális kockázatfigyelő rendszerek; proaktív AI-biztonsági protokollok; biobiztonsági keretrendszerek.",
+    "websites": "domain:5|rdg:25",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG25",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 26: Intergenerációs képviselet",
+    "slug": "rdg-26-intergenerational-representation",
+    "description": "A jövő generációk jogainak és rendszerszintű képviseletének jogi intézményesítése. Évtizedes hatásvizsgálatok minden közintézményi döntéshez.",
+    "coverImage": null,
+    "problems": "A politikai döntéshozatal rövidlátó, a választási ciklusokra összpontosít, miközben figyelmen kívül hagyja a jövő generációkat.",
+    "solutions": "Jövő Nemzedékek Biztosának intézménye; törvényi hosszú távú hatásvizsgálati kötelezettségek; a gyermekek jogi képviselete.",
+    "websites": "domain:5|rdg:26",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG26",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 27: Globális korai riasztási és előrejelző rendszerek",
+    "slug": "rdg-27-global-early-warning-and-foresight-systems",
+    "description": "Integrált műholdas és terepi figyelőhálózatok, amelyek képesek azonosítani a nem-lineáris billenőpontokat mind a földi rendszerekben, mind a társadalmi rendszerekben.",
+    "coverImage": null,
+    "problems": "Hiányoznak az ökológiai billenőpontokat és a társadalmi rendszerek összeomlását előrejelző szisztematikus riasztórendszerek.",
+    "solutions": "Integrált műholdas figyelőhálózatok; gépi tanuláson alapuló korai jeldetektálás; globális billenőpont-műszerfal.",
+    "websites": "domain:5|rdg:27",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG27",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 28: Integrált belső-külső mérőszámok",
+    "slug": "rdg-28-integrated-inner-outer-metrics",
+    "description": "A GDP kategorikus felváltása az országos siker elsődleges mutatójaként átfogó műszerfalakkal, amelyek a strukturális sebezhetőséget, az ökológiai integritást és az emberi fejlődési érettséget mérik.",
+    "coverImage": null,
+    "problems": "A GDP mint sikerjelző félrevezeti a döntéshozókat azáltal, hogy figyelmen kívül hagyja az ökológiai és társadalmi dimenziókat.",
+    "solutions": "WISE keretrendszer és Valódi Fejlődés Mutatók (GPI); ökológiai integritás mérőszámok; összetett jóléti műszerfalak.",
+    "websites": "domain:5|rdg:28",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG28",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 29: Civilizációs léptékű átmeneti stratégia",
+    "slug": "rdg-29-civilisational-scale-transition-strategy",
+    "description": "A fosszilis, hiper-extraktív korszakból való kilépés koordinált, fokozatos és tudatos makrogazdasági és kulturális ereszkedést igényel.",
+    "coverImage": null,
+    "problems": "A fenntarthatatlan iparágak gyors leállítása tömeges társadalmi feszültséget okozhat. Az átmenet eddig koordináció nélkül zajlott.",
+    "solutions": "Geels többszintű perspektíva; igazságos átmenet (just transition) programok; barnaövezet-rehabilitáció.",
+    "websites": "domain:5|rdg:29",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG29",
+    "crossRdgIds": []
+  },
+  {
+    "title": "RDG 30: Bolygó-gondnoksági identitás",
+    "slug": "rdg-30-planetary-stewardship-identity",
+    "description": "Az RDG keretrendszer végső célja: az emberiség elmozdulása a dominanciától és a különállóságtól az összekapcsoltság és a szimbiózis felé.",
+    "coverImage": null,
+    "problems": "Az emberi civilizáció a különállóság és a dominancia mítoszán alapul, ami minden más problémát generál.",
+    "solutions": "Oktatás a bolygó-gondnoksági identitásról; a Föld-rendszer ökológiájának beépítése a kulturális narratívákba.",
+    "websites": "domain:5|rdg:30",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "rdg-goal",
+    "domainId": "D5",
+    "primaryRdgId": "RDG30",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Permakultúra",
+    "slug": "topic-permaculture",
+    "description": "Fenntartható mezőgazdasági és életmód-rendszerek tervezése és megvalósítása.",
+    "coverImage": null,
+    "problems": "Az ipari mezőgazdaság és a városi életmód eltávolodott a természeti folyamatoktól, ami fenntarthatatlan erőforrás-fogyasztáshoz vezet.",
+    "solutions": "Permakultúra-tervezési elvek elsajátítása és alkalmazása; közösségi kertek; agroerdészeti rendszerek; természetes építészet.",
+    "websites": "domain:2|rdg:9|sub:1|topic:1|icon:🌱",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D2",
+    "primaryRdgId": "RDG09",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Öko-építészet",
+    "slug": "topic-eco-architecture",
+    "description": "Energiahatékony, ökoszisztéma-barát épített környezet tervezése és kivitelezése.",
+    "coverImage": null,
+    "problems": "Az épületipar az egyik legnagyobb szén-dioxid kibocsátó és erőforrás-felhasználó szektor, amely hozzájárul a klímaváltozáshoz.",
+    "solutions": "Természetes építőanyagok (vályog, fa, kő); passzívház tervezés; zöldtetők és zöldfalak; napenergia-integrált tervezés; bioklimatikus elvek.",
+    "websites": "domain:3|rdg:16|sub:1|topic:1|icon:🏠",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D3",
+    "primaryRdgId": "RDG16",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Közösségépítés",
+    "slug": "topic-community-building",
+    "description": "A kommunikációs kultúra mélyítése és az emberi kapcsolódás helyi és globális szinten.",
+    "coverImage": null,
+    "problems": "Az atomizált, individualista társadalomban az emberek magány és közösséghiány által szenvednek, ami gyengíti a kollektív cselekvési képességet.",
+    "solutions": "Közösségi terek létrehozása; szociokratikus döntéshozatal; közös eszközök és erőforrások megosztása; generációközi programok.",
+    "websites": "domain:4|rdg:20|sub:1|topic:1|icon:🤝",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D4",
+    "primaryRdgId": "RDG20",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Helyi gazdaság",
+    "slug": "topic-local-economy",
+    "description": "A helyi gazdasági aktivitás és pénzforgalom erősítése, a közösségi önellátás fokozása.",
+    "coverImage": null,
+    "problems": "A globalizált gazdaságban a helyi erőforrások és a vásárlóerő nagy része a multinacionális vállalatok felé áramlik, gyengítve a helyi önrendelkezést.",
+    "solutions": "Helyi valuták és csereprogramok; közösségi szövetkezetek; helyi termékek és szolgáltatások előnyben részesítése; közösségi alapok.",
+    "websites": "domain:3|rdg:14|sub:1|topic:1|icon:💰",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D3",
+    "primaryRdgId": "RDG14",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Oktatás",
+    "slug": "topic-education",
+    "description": "Az élethosszig tartó tanulás támogatása, amely fejleszti a kritikai gondolkodást és a kreativitást.",
+    "coverImage": null,
+    "problems": "A hagyományos oktatás túlzottan fókuszál a memorizálásra és a tesztelésre, elhanyagolva a holisztikus fejlődést, a természetkapcsolatot és a rendszerszemléletet.",
+    "solutions": "Alternatív pedagógiák (Waldorf, Montessori, demokratikus iskolák); projektalapon tanulás; természet-alapú oktatás; mentori rendszerek.",
+    "websites": "domain:1|rdg:3|sub:1|topic:1|icon:📚",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D1",
+    "primaryRdgId": "RDG03",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Egészség",
+    "slug": "topic-health",
+    "description": "Integrált megközelítés a holisztikus egészséghez — fizikai, mentális, szakrális és közösségi jólét.",
+    "coverImage": null,
+    "problems": "A modern orvostudomány sokszor a tünetek kezelésére koncentrál ahelyett, hogy az egészség gyökereit gondozná: természetkapcsolatot, étrend, mozgás, kapcsolódás.",
+    "solutions": "Integratív medicina; megelőzés és életmódorvostan; természetgyógyászat és bizonyítékalapú tradicionális módszerek; közösségi egészségprogramok.",
+    "websites": "domain:1|rdg:1|sub:1|topic:1|icon:❤️",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D1",
+    "primaryRdgId": "RDG01",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Spiritualitás",
+    "slug": "topic-spirituality",
+    "description": "Az élet mély értelmének keresése és az összekapcsoltság tapasztalata.",
+    "coverImage": null,
+    "problems": "A materialista kultúra elidegenít az élet mélyebb értelmétől és az egymással, illetve a természettel való összekapcsoltságtól, belső ürességhez és értékválsághoz vezetve.",
+    "solutions": "Meditáció és kontempláció; természetben töltött idő; rituálék és közösségi szertartások; interspirituális párbeszéd; pszichológiai fejlődési munkák.",
+    "websites": "domain:5|rdg:30|sub:1|topic:1|icon:✨",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D5",
+    "primaryRdgId": "RDG30",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Megújuló energia",
+    "slug": "topic-renewable-energy",
+    "description": "A nap-, szél-, víz- és egyéb megújuló energiaforrásokra való átállás felgyorsítása.",
+    "coverImage": null,
+    "problems": "A fosszilis tüzelőanyagoktól való függés drágítja az energiát, gyengíti a helyi önrendelkezést és hozzájárul a klímaváltozáshoz.",
+    "solutions": "Közösségi naperőmű projektek; szélenergia-szövetkezetek; energiahatékonysági felújítások; energiatárolás és smart gridek; helyi energiaközösségek.",
+    "websites": "domain:3|rdg:18|sub:1|topic:1|icon:⚡",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "topic",
+    "domainId": "D3",
+    "primaryRdgId": "RDG18",
+    "crossRdgIds": []
+  },
+  {
+    "title": "Tiszta ivóvízhez való hozzáférés",
+    "slug": "clean-water-access",
+    "description": "A biztonságos ivóvízhez való egyetemes hozzáférés biztosítása — az egészség, a méltóság és az emberi biztonság alapfeltétele.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:2|rdg:10|sub:1|xrdg:13",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D2",
+    "primaryRdgId": "RDG10",
+    "crossRdgIds": [
+      "RDG13"
+    ]
+  },
+  {
+    "title": "Alapvető higiénia",
+    "slug": "basic-sanitation",
+    "description": "Megfelelő higiéniai létesítmények biztosítása mindenki számára — elengedhetetlen a betegségek megelőzéséhez és az emberi méltóság védelméhez.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:3|rdg:13|sub:1|xrdg:9",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D3",
+    "primaryRdgId": "RDG13",
+    "crossRdgIds": [
+      "RDG09"
+    ]
+  },
+  {
+    "title": "Mentális egészség",
+    "slug": "mental-health",
+    "description": "A pszichológiai szenvedés destigmatizálása és a professzionális mentális egészségügyi támogatás széles körű hozzáférhetővé tétele.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:1|rdg:2|sub:1|xrdg:1,3",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D1",
+    "primaryRdgId": "RDG02",
+    "crossRdgIds": [
+      "RDG01",
+      "RDG03"
+    ]
+  },
+  {
+    "title": "Gyermekjogok",
+    "slug": "childrens-rights",
+    "description": "Erőszakmentes, biztonságos és gondoskodó környezet garantálása minden gyermek számára, amely lehetővé teszi teljes potenciáljuk kibontakozását.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:1|rdg:1|sub:1|xrdg:2,26",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D1",
+    "primaryRdgId": "RDG01",
+    "crossRdgIds": [
+      "RDG02",
+      "RDG26"
+    ]
+  },
+  {
+    "title": "Időskori méltóság",
+    "slug": "dignity-in-old-age",
+    "description": "Az idősebb emberek fizikai és érzelmi szükségleteinek tiszteletben tartása és aktív társadalmi részvételük támogatása.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:5|rdg:26|sub:1|xrdg:21",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D5",
+    "primaryRdgId": "RDG26",
+    "crossRdgIds": [
+      "RDG21"
+    ]
+  },
+  {
+    "title": "Nemzedékközi szolidaritás",
+    "slug": "intergenerational-solidarity",
+    "description": "Érdemi kapcsolatok és kölcsönös támogatás kiépítése a fiatalabb és idősebb generációk között egy összetartó, jövőorientált társadalomért.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:5|rdg:26|sub:1|xrdg:1",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D5",
+    "primaryRdgId": "RDG26",
+    "crossRdgIds": [
+      "RDG01"
+    ]
+  },
+  {
+    "title": "Biztonságos lakhatás",
+    "slug": "safe-housing",
+    "description": "Egészséges és megfizethető otthon biztosítása mindenki számára — a stabilitás és az emberi méltóság alapköve.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:3|rdg:13|sub:1|xrdg:16",
+    "rdgDomains": [
+      "D3"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D3",
+    "primaryRdgId": "RDG13",
+    "crossRdgIds": [
+      "RDG16"
+    ]
+  },
+  {
+    "title": "Állatjólét",
+    "slug": "animal-welfare",
+    "description": "Minden érző lény életének és méltóságának tiszteletben tartása, a felesleges szenvedés megszüntetése az ember-állat kapcsolatokban.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:2|rdg:8|sub:1|xrdg:9,6",
+    "rdgDomains": [
+      "D2"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D2",
+    "primaryRdgId": "RDG08",
+    "crossRdgIds": [
+      "RDG09",
+      "RDG06"
+    ]
+  },
+  {
+    "title": "Kulturális örökség",
+    "slug": "cultural-heritage",
+    "description": "A világ sokszínű nyelveinek, bölcsességi hagyományainak és kulturális kifejezéseinek védelme mint az emberiség pótolhatatlan közös öröksége.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:1|rdg:6|sub:1|xrdg:30",
+    "rdgDomains": [
+      "D1"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D1",
+    "primaryRdgId": "RDG06",
+    "crossRdgIds": [
+      "RDG30"
+    ]
+  },
+  {
+    "title": "Emberi sokszínűség",
+    "slug": "human-diversity",
+    "description": "Az emberi identitások, hátterek és életformák sokféleségének ünneplése mint a kollektív rugalmasság és kreativitás forrása.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:4|rdg:21|sub:1|xrdg:22",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D4",
+    "primaryRdgId": "RDG21",
+    "crossRdgIds": [
+      "RDG22"
+    ]
+  },
+  {
+    "title": "Katasztrófafelkészültség",
+    "slug": "disaster-preparedness",
+    "description": "A közösségek kapacitásának kiépítése a természeti és emberi okozású válságok anticipálására, kezelésére és az azokból való felépülésre.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:5|rdg:27|sub:1|xrdg:7,25",
+    "rdgDomains": [
+      "D5"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D5",
+    "primaryRdgId": "RDG27",
+    "crossRdgIds": [
+      "RDG07",
+      "RDG25"
+    ]
+  },
+  {
+    "title": "Közösségi reziliencia",
+    "slug": "community-resilience",
+    "description": "A helyi közösségek szöveti erejének és alkalmazkodóképességének erősítése a kollektív jóllét fenntartásához zavaró körülmények között is.",
+    "coverImage": null,
+    "problems": null,
+    "solutions": null,
+    "websites": "domain:4|rdg:20|sub:1|xrdg:22,13",
+    "rdgDomains": [
+      "D4"
+    ],
+    "neededFunctions": [],
+    "taxonomyKind": "social-cause",
+    "domainId": "D4",
+    "primaryRdgId": "RDG20",
+    "crossRdgIds": [
+      "RDG22",
+      "RDG13"
+    ]
+  }
+]

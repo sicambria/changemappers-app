@@ -1,0 +1,174 @@
+{
+  "metaTitle": "Képzési Hub",
+  "metaDescription": "Hozzáférhető regeneratív képzési programok globális változásformálóknak — $200 alatt, fokozattól függetlenül.",
+  "learningCentral": {
+    "metaTitle": "Tanulási központ",
+    "metaDescription": "Találd meg a céljaidhoz illő tanulási utat. Fedezz fel keretrendszereket, hagyományokat, készségeket és válogatott képzési programokat.",
+    "what": "Mit szeretnél tanulni?",
+    "subtitle": "Válaszd azt az utat, amelyik a kérdésedhez, igényedhez vagy következő lépésedhez illik.",
+    "paths": {
+      "metamodels": {
+        "title": "Metamodellek és keretrendszerek",
+        "desc": "Nagy hatású fogalmi modellek a kozmikus léptéktől a rendszerek közötti szintekig. Leginkább rendszergondolkodóknak, stratégáknak és mélyebb elméleti alapokat keresőknek.",
+        "goal": "Komplex rendszereket és keretrendszereket szeretnék megérteni"
+      },
+      "traditions": {
+        "title": "Gyakorlatok és hagyományok",
+        "desc": "Globális bölcsességhagyományok, amelyek támogatják a közösségi gyógyulást, az ökológiai tudatosságot és a kollektív intelligenciát. Leginkább megtestesült, kapcsolati vagy spirituális alapozást keresőknek.",
+        "goal": "Ősi és őslakos bölcsességekből szeretnék tanulni"
+      },
+      "skills": {
+        "title": "Regeneratív készségek",
+        "desc": "A rendszerszintű átalakuláshoz szükséges egyéni és kollektív képességek, Wilber 4 kvadránsa és a 3 horizont keretrendszer mentén feltérképezve.",
+        "goal": "Konkrét változásformáló képességeket szeretnék építeni"
+      },
+      "patterns": {
+        "title": "Változási mintázatok",
+        "desc": "Alulról szerveződő taktikák és stratégiák társadalmi átalakuláshoz, lépték, kockázat és kontextus szerint szűrhetően. Leginkább cselekvésre kész aktivistáknak, szervezőknek és változásformálóknak.",
+        "goal": "A helyzetemhez illő stratégiát szeretném megtalálni"
+      },
+      "glossary": {
+        "title": "Fogalomtár",
+        "desc": "A Changemappers ökoszisztémában használt közös nyelv és definíciók: archetípusok, rendszerfogalmak és közösségi kifejezések.",
+        "goal": "Meg szeretném érteni az itt használt fogalmakat"
+      },
+      "causes": {
+        "title": "Regeneratív Fejlődési Célok",
+        "desc": "30 összekapcsolódó cél öt területen: rendszergondolkodási keret a civilizációs regenerációhoz. Leginkább azoknak, akik átfogó térképet keresnek a változás mezőjéről.",
+        "goal": "Meg szeretném érteni a globális kihívások tájképét"
+      },
+      "programs": {
+        "title": "Képzések és programok",
+        "desc": "Hozzáférhető regeneratív képzési programok 200 dollár alatt, 5 kontinensről, diplomakövetelmény nélkül. Leginkább strukturált, vezetett tanulást keresőknek.",
+        "goal": "Strukturált kurzusokat vagy képzési programokat keresek"
+      },
+      "stories": {
+        "title": "Történetek",
+        "desc": "Nyíltan megosztott kudarcok és áttörések a terepről. Valódi beszámolók változásformálóktól, akik komplex rendszerekben navigálnak.",
+        "goal": "Valós tapasztalatokból és történetekből szeretnék tanulni"
+      }
+    },
+    "cta": {
+      "textBefore": "Nem tudod, hol kezdd? A",
+      "compassName": "Changemaker Iránytű",
+      "textAfter": "segít tájékozódni.",
+      "button": "Changemaker Iránytű megnyitása"
+    }
+  },
+  "traditions": {
+    "metaTitle": "Gyakorlatok",
+    "metaDescription": "Globális hagyományok és regeneratív gyakorlatok a közösségi bölcsesség fejlesztéséhez."
+  },
+  "patterns": {
+    "metaTitle": "Változási mintázatok",
+    "metaDescription": "Fedezd fel az alulról szerveződő változási mintákat és taktikákat társadalmi átalakuláshoz.",
+    "title": "Változási Mintázatok",
+    "subtitle": "Fedezd fel a társadalmi átalakulás alapvető taktikáit és stratégiáit. Szűrj változási szint, kockázat és részvételi igény alapján.",
+    "searchPlaceholder": "Mintázatok keresése...",
+    "findPattern": "Találd meg a mintádat",
+    "advancedFilters": "Összetett szűrők",
+    "filters": "Szűrők",
+    "clearFilters": "Törlés",
+    "resultsCount": "{{count}} / {{total}} mintázat",
+    "strengths": "Erősségek",
+    "weaknesses": "Gyengeségek",
+    "bestContext": "Legjobb kontextus",
+    "noResults": "Nincs a szűrőknek megfelelő mintázat.",
+    "noResultsHint": "Próbálj kevesebb szűrőt vagy más logikai kapcsolatot.",
+    "dbError": "A mintatár nem érhető el",
+    "dbErrorDetail": "A változási mintázatok adatbázisa nem tölthető be.",
+    "categoryLabels": {
+      "levelOfChange": "Változás szintje",
+      "primaryApproach": "Elsődleges megközelítés",
+      "riskLevel": "Kockázati szint",
+      "timeHorizon": "Időhorizont",
+      "participantRequirement": "Szükséges résztvevők"
+    },
+    "filterValues": {
+      "levelOfChange": {
+        "Individual": "Egyéni",
+        "Community": "Közösségi",
+        "Institutional": "Intézményi",
+        "Policy": "Szakpolitikai",
+        "Structural": "Strukturális",
+        "Paradigm": "Paradigma"
+      },
+      "primaryApproach": {
+        "Direct Action": "Közvetlen akció",
+        "Economic Pressure": "Gazdasági nyomás",
+        "Institutional Change": "Intézményi változás",
+        "Building Alternatives": "Alternatívák építése",
+        "Cultural/Narrative": "Kulturális / narratív",
+        "Organizing & Education": "Szervezés és oktatás"
+      },
+      "riskLevel": {
+        "Low": "Alacsony",
+        "Medium": "Közepes",
+        "High": "Magas"
+      },
+      "timeHorizon": {
+        "Immediate": "Azonnali",
+        "Short": "Rövid",
+        "Medium": "Közép",
+        "Long": "Hosszú"
+      },
+      "participantRequirement": {
+        "Individual": "Egyéni",
+        "SmallGroup": "Kis csoport",
+        "Community": "Közösség",
+        "Mass": "Tömeges részvétel"
+      }
+    },
+    "quiz": {
+      "title": "Mintakereső kvíz",
+      "question": "Kérdés",
+      "back": "Vissza",
+      "next": "Tovább",
+      "showResults": "Eredmények",
+      "resultsTitle": "Javasolt mintázatok",
+      "resultsSubtitle": "A válaszaid és kontextusod alapján rangsorolva.",
+      "bestMatch": "Legjobb találat",
+      "points": "pont",
+      "reviewAnswers": "Válaszok áttekintése",
+      "startOver": "Újrakezdés"
+    }
+  },
+  "metamodels": {
+    "metaTitle": "Metamodellek Változásformálóknak",
+    "metaDescription": "Tizenhat nagy hatású metamodell komplex rendszerek és emberi fejlődés navigálásához — a kozmikustól a rendszerek közöttiig, elemzve változásformáló alkalmazásokhoz a 2125-ös horizonton át."
+  },
+  "skills": {
+    "metaTitle": "Regeneratív készségek",
+    "metaDescription": "Fedezd fel a regeneratív készségek tárát - egyéni és közösségi képességek új rendszerek építéséhez és a régi rendszerek kivezetéséhez.",
+    "title": "Regeneratív Készségek",
+    "subtitle": "A rendszerszintű átalakuláshoz elengedhetetlen egyéni és közösségi képességek tára. Szűrj Wilber 4 Kvadránsa és a 3 Horizont keretrendszer alapján.",
+    "searchPlaceholder": "Keresés készségre...",
+    "filters": "Szűrők",
+    "clearFilters": "Törlés",
+    "horizons": "3 Horizont",
+    "quadrants": "4 Kvadráns",
+    "level": "Szint",
+    "resultsCount": "Találatok száma: {{count}}",
+    "noResults": "Nincs a feltételeknek megfelelő készség.",
+    "noResultsHint": "Próbálj meg kevesebb szűrőt vagy tágabb keresést.",
+    "clearFiltersBtn": "Szűrők törlése",
+    "quadrantLabels": {
+      "UL": "Belső / szándék",
+      "UR": "Viselkedési gyakorlat",
+      "LL": "Kultúra és kapcsolat",
+      "LR": "Rendszerek és infrastruktúra"
+    },
+    "horizonLabels": {
+      "H1": "H1: A régi kivezetése",
+      "H2": "H2: Áthidaló átmenet",
+      "H3": "H3: Radikálisan új rendszerek"
+    },
+    "levelLabels": {
+      "Micro": "Egyéni / mikró",
+      "Meso": "Közösségi / mezo",
+      "Macro": "Társadalmi / makró"
+    },
+    "dbError": "Adatbázis hiba",
+    "dbErrorDetail": "A készségek adatbázisa jelenleg nem elérhető."
+  }
+}

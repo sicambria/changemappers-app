@@ -1,0 +1,194 @@
+{
+  "title": "SolutionPath",
+  "subtitle": "Önálló reflexió",
+  "nav": {
+    "coachme": "SolutionPath Coach"
+  },
+  "phases": {
+    "consent": {
+      "title": "Mielőtt elkezded",
+      "statement1": "Ez egy önálló reflexiós eszköz, amely Solution-Focused Brief Coaching kérdésekre épül. Ez egy strukturált űrlap, nem személy vagy AI által vezetett szolgáltatás. Privát módon tárolja, amit beírsz, és visszamutatja neked.",
+      "statement2": "Ez az eszköz nem terápia. Nem krízistámogatás. Nem szakmai tanács bármilyen formában. Ha krízisben vagy nehéz helyzetben vagy, kérlek használd a támogató erőforrásokat, amelyek minden képernyő alján elérhetők.",
+      "statement3": "Az eredményeid kizárólag a saját reflexiódtól függenek. Az eszköz csak a kérdéseket és a szerkezetet adja hozzá.",
+      "checkbox1": "Megértem, hogy ez egy előre programozott űrlap, nem személy vagy AI.",
+      "checkbox2": "Megértem, hogy ez nem terápia, krízistámogatás vagy szakmai tanács.",
+      "checkbox3": "Megértem, hogy az eszköz privát módon tárolja a szövegeimet, és korlátozott, kifejezésalapú nehézség-ellenőrzéseket végezhet kizárólag támogató erőforrások megjelenítéséhez.",
+      "checkbox4": "Megértem, hogy bármikor kiléphetek vagy szüneteltethetem.",
+      "startButton": "Egyetértek — beállítom a privát széfem",
+      "exitButton": "Kilépés",
+      "returningTitle": "Üdv újra!",
+      "returningSummary": "Ez az eszköz egy strukturált űrlap, nem terápia vagy szakmai tanács. Privát módon tárolja a szövegeidet, és támogató erőforrásokat mutathat, ha korlátozott kifejezésalapú ellenőrzések nehézséget jelző nyelvezetet észlelnek.",
+      "returningButton": "Továbbra is egyetértek — munkamenet indítása",
+      "readFullLink": "Olvasd el újra a teljes megállapodást",
+      "encryption": {
+        "title": "Válassz adatvédelmi szintet",
+        "recoverableTitle": "Helyreállítható (ajánlott)",
+        "recoverableDesc": "Az adataid visszaállíthatók, ha megváltoztatod vagy visszaállítod a jelszavad. Enyhén kevésbé biztonságos.",
+        "strongTitle": "Maximális adatvédelem",
+        "strongDesc": "Az adatokat nem lehet visszaállítani, ha megváltoztatod vagy elveszíted a jelszavad. Ha elfelejted a jelszavad, minden munkamenet-adat véglegesen elvész.",
+        "accountPasswordTitle": "Add meg a fiókod jelszavát",
+        "accountPasswordDesc": "A fiókod jelszava lesz használva a CoachMe adataid titkosításához. Ha megváltoztatod vagy visszaállítod a fiókod jelszavát, az új jelszóval kell feloldanod a széfet.",
+        "accountPasswordPlaceholder": "Fiókod jelszava"
+      },
+      "errors": {
+        "passwordEmpty": "Kérlek, add meg a fiókod jelszavát.",
+        "wrongPassword": "Helytelen jelszó. Kérlek próbáld újra.",
+        "saveFailed": "Nem sikerült menteni. Kérlek próbáld újra."
+      }
+    },
+    "focus": {
+      "title": "Mi hozott ide ma?",
+      "focusTagLabel": "Milyen területre szeretnél összpontosítani?",
+      "focusTags": {
+        "WORK_CAREER": "Munka / Karrier",
+        "RELATIONSHIPS": "Kapcsolatok",
+        "HEALTH": "Egészség",
+        "PERSONAL_GROWTH": "Személyes fejlődés",
+        "LIFE_BALANCE": "Élet-egyensúly",
+        "OTHER": "Egyéb"
+      },
+      "customFocusLabel": "Röviden nevezd meg a fókuszterületedet",
+      "customFocusPlaceholder": "pl. Kreatív projektek",
+      "whyImportantLabel": "Miért fontos ez most neked?",
+      "whyImportantPlaceholder": "pl. Sok energiát visz el, és szeretnék tisztább irányt találni...",
+      "sessionGoalLabel": "Mi a célod ezzel az üléssel?",
+      "sessionGoalPlaceholder": "pl. Eldönteni, mit szeretnék mondani, és mi legyen az első lépés...",
+      "continueButton": "Folytatás",
+      "topicLabel": "Mi hozott ide ma? (téma)",
+      "topicPlaceholder": "pl. Szeretnék átgondolni egy beszélgetést, amit halogatok...",
+      "successCriteriaLabel": "Minek kell történnie ahhoz, hogy sikeresnek érezd ezt az ülést?",
+      "successCriteriaPlaceholder": "pl. Legyen egy kicsi következő lépésem, amit elég jónak érzek kipróbálni..."
+    },
+    "miracle": {
+      "title": "A kívánt jövő",
+      "subtitle": "Képzeld el azt a kívánt jövőt, amely felé mozdulni szeretnél...",
+      "questionA": "Tételezzük fel, hogy ma éjszaka, miközben alszol, csoda történik, és az a helyzet, amit ebbe a munkamenetbe hoztál, teljesen megoldódik. Mivel aludtál, nem tudtad, hogy megtörtént. Mi az a legelső apró dolog, amit holnap reggel észrevesz, ami elárulja, hogy a csoda megtörtént?",
+      "questionB": "Mi lenne a következő jel erre?",
+      "questionC": "Mit vennének észre az emberek körülötted, hogy más lettél?",
+      "optionalLabel": "Bármi más, amit hozzáadnál a kívánt jövődről?",
+      "verificationTitle": "Tekintsd át a kívánt jövődet",
+      "verificationSubtitle": "Ezek pontos másolatok annak, amit írtál.",
+      "editButton": "Ezen válasz szerkesztése",
+      "confirmButton": "Ez pontos — Tovább"
+    },
+    "action": {
+      "title": "A következő lépésed",
+      "questionLabel": "Mi az az egy konkrét, reális lépés, amit ebből a munkamenetből meg szeretnél tenni?",
+      "refineLabel": "Szeretnéd finomítani vagy javítani ezt a lépést? (opcionális)",
+      "refinePlaceholder": "pl. Csökkentsd le — vállalj el csak 15 percet kedden...",
+      "optionalLabel": "Bármilyen más lehetséges lépés vagy megjegyzés?"
+    },
+    "synthesis": {
+      "title": "Munkamenet összegzése",
+      "goalHeading": "Célod erre a munkamenetre",
+      "miracleHeading": "A kívánt jövőd",
+      "firstSign": "Első jel",
+      "nextSign": "Következő jel",
+      "othersNotice": "Mit vennének észre mások",
+      "stepHeading": "Következő lépésed",
+      "originalStep": "Eredeti lépésed",
+      "refinedStep": "Finomított lépésed",
+      "closingHeading": "Záró reflexió",
+      "usefulnessLabel": "Mennyire volt hasznos ez a végigjátszás?",
+      "finalLabel": "Bármilyen végső reflexió vagy további megjegyzés erre a munkamenetre?",
+      "actionMenuTitle": "Mit szeretnél tenni most?",
+      "saveEnd": "Mentés és munkamenet lezárása",
+      "newSameFocus": "Új végigjátszás ugyanazzal a fókusszal",
+      "differentFocus": "Más fókuszterület választása",
+      "exportJson": "Munkamenet exportálása JSON-ként",
+      "goBack": "Vissza",
+      "discardSession": "Munkamenet elvetése",
+      "topicHeading": "Téma",
+      "whyImportantHeading": "Miért fontos",
+      "successCriteriaHeading": "Az ülés sikerkritériumai",
+      "scalingHeading": "Skálázás",
+      "currentScale": "Jelenlegi helyzet",
+      "resources": "Hátizsák",
+      "recentMoments": "Jó pillanatok az elmúlt napokból és hetekből",
+      "nextScaleStep": "Egy ponttal feljebb"
+    },
+    "scaling": {
+      "title": "A kívánt jövő skálázása",
+      "slopeLabel": "A csúcs 10 (a varázslatos álom), az alap 1 (a legnehezebb helyzet). Hol állsz most?",
+      "backpackLabel": "Egy {{score}}? Remek. Mitől {{score}}? Mi van már a hátizsákodban: erők, erőforrások, vagy amit már elértél?",
+      "backpackPlaceholder": "pl. Már tudom, kivel kell beszélnem, és ezen a héten egyszer nyugodt maradtam...",
+      "recentMomentsLabel": "Milyen jó pillanatokat vettél észre az elmúlt napokban és hetekben?",
+      "recentMomentsPlaceholder": "pl. Egy pillanat, amikor ez egy kicsit könnyebbnek vagy lehetségesebbnek tűnt...",
+      "nextStepLabel": "Hogy nézne ki egy {{nextScore}}? Mit tudnál megtenni holnapig?",
+      "nextStepPlaceholder": "pl. Megírni az első három sort, megkérdezni egy embert, lefoglalni 15 percet..."
+    }
+  },
+  "unlock": {
+    "title": "CoachMe Széf",
+    "description": "Add meg a fiókod jelszavát a munkamenet-adatok visszafejtéséhez.",
+    "accountPasswordPlaceholder": "Fiókod jelszava",
+    "button": "Feloldás",
+    "cancel": "Mégsem",
+    "wrongPassword": "Helytelen jelszó. Kérlek próbáld újra."
+  },
+  "safety": {
+    "pauseButton": "Szünet — Támogatásra van szükségem",
+    "pauseMessage": "Ez a végigjátszás szünetel. Nincs sietség a visszatéréshez.",
+    "returnButton": "Visszatérés a végigjátszáshoz",
+    "endSession": "Munkamenet befejezése",
+    "disclosure": "Ez az eszköz korlátozott, kifejezésalapú nehézség-ellenőrzéseket végezhet kizárólag támogató erőforrások megjelenítéséhez. Ha bármikor támogatásra van szükséged, nyomd meg a fenti gombot.",
+    "supportResources": "Támogatási erőforrások",
+    "crisisLines": "Magyar krízisvonalak:",
+    "emergency": "Sürgősségi hívószám: 112",
+    "close": "Bezárás"
+  },
+  "navigation": {
+    "continue": "Tovább a következő fázishoz",
+    "backMiracle": "Vissza a kívánt jövőhöz",
+    "reviewAnswers": "Minden válasz áttekintése és szerkesztése",
+    "endEarly": "Munkamenet befejezése előbb",
+    "addNote": "Megjegyzés hozzáadása ehhez a fázishoz"
+  },
+  "progress": {
+    "title": "Haladásod",
+    "date": "Dátum",
+    "focus": "Fókusz",
+    "nextStep": "Következő lépés",
+    "filterByFocus": "Szűrés fókuszra",
+    "allFocus": "Minden fókuszterület",
+    "exportSelected": "Kiválasztott munkamenetek exportálása JSON-ként",
+    "printSelected": "Kiválasztott munkamenetek nyomtatása",
+    "empty": "Még nincs ülésed. Indítsd el az első végigvezetést, hogy itt lásd a haladásod.",
+    "actions": "Műveletek",
+    "export": "Exportálás",
+    "startNewSession": "Új ülés indítása"
+  },
+  "resume": {
+    "title": "Munkamenet folytatása",
+    "message": "Van egy befejezetlen munkameneted {{date}}-i dátumból. Szeretnél onnan folytatni, ahol abbahagytad?",
+    "phase": "Ezen a fázison voltál: {{phase}}",
+    "resumeButton": "Munkamenet folytatása",
+    "startFresh": "Új kezdés"
+  },
+  "autoSave": {
+    "saved": "Mentve",
+    "saving": "Mentés...",
+    "error": "Nem sikerült menteni"
+  },
+  "sessionStart": {
+    "editButton": "Téma és cél szerkesztése"
+  },
+  "errors": {
+    "minLength": "Kérlek, írj be legalább 3 karaktert",
+    "required": "Ez a mező kötelező",
+    "selectFocus": "Kérlek, válassz egy fókuszterületet",
+    "sessionNotFound": "Munkamenet nem található",
+    "notAuthorized": "Nincs jogosultságod ehhez a munkamenethez",
+    "startFailed": "Nem sikerült elindítani a munkamenetet",
+    "encryptionNotConfigured": "A titkosítás nincs beállítva",
+    "recoverableUnlockFailed": "Nem sikerült feloldani a helyreállítható titkosítást"
+  },
+  "restart": {
+    "button": "Megszakítás és újrakezdés",
+    "confirm": "Megszakítod ezt a végigjátszást és újrakezded? A jelenlegi válaszaid törlődnek.",
+    "error": "Nem sikerült újrakezdeni. Kérlek próbáld újra."
+  },
+  "session": {
+    "goalLabel": "A célod"
+  }
+}

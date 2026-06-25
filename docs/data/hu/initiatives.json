@@ -1,0 +1,664 @@
+{
+  "datasetInfo": {
+    "title": "Ökofalvak, szándékközösségek és öko-hubok + changemaker események",
+    "years": "2026-2027",
+    "description": "Ökofalvak, szándékos életközösségek és öko-hubok kurált hálózata (Magyarország-első + nemzetközi GEN-tagok), valamint a Q3/Q4 2026 és 2027 közötti, changemakerek számára releváns események.",
+    "trends": [
+      "Regeneratív életközösségek",
+      "Globális ökofalu-hálózat (GEN)",
+      "Rendszerszintű átalakulás"
+    ]
+  },
+  "initiatives": [
+    {
+      "name": "Galgafarm / Galgahévíz Ökofalu",
+      "description": "An organic farming and intentional community in the Galga valley north of Budapest focused on biodynamic agriculture, community resilience, and ecological education.",
+      "communityType": "REGENERATIVE_ECONOMIC",
+      "city": "Galgahévíz",
+      "region": "Pest",
+      "country": "Magyarország",
+      "latitude": 47.617,
+      "longitude": 19.567,
+      "foundingYear": 1993,
+      "website": null,
+      "focusAreas": [
+        "organic farming",
+        "biodynamic agriculture",
+        "community resilience",
+        "ecological education"
+      ]
+    },
+    {
+      "name": "MAG / Magfalva Community",
+      "description": "A Hungarian intentional community and seed-saving network focused on seed sovereignty, permaculture, and sustainable rural living.",
+      "communityType": "REGENERATIVE_ECONOMIC",
+      "city": "Magfalva",
+      "region": "Pest",
+      "country": "Magyarország",
+      "latitude": 47.3611,
+      "longitude": 19.5055,
+      "foundingYear": null,
+      "website": "https://magtar.hu/",
+      "focusAreas": [
+        "seed saving",
+        "permaculture",
+        "sustainable agriculture",
+        "community living"
+      ]
+    },
+    {
+      "name": "Gömörszőlős Ökofalu",
+      "description": "A sustainable-village development led by the Ecological Institute (Ökológiai Intézet) in a small northern Hungarian village, combining renewable energy, traditional crafts, and environmental education.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Gömörszőlős",
+      "region": "Borsod-Abaúj-Zemplén",
+      "country": "Magyarország",
+      "latitude": 48.383,
+      "longitude": 20.433,
+      "foundingYear": 1993,
+      "website": "https://ecolinst.hu",
+      "focusAreas": [
+        "renewable energy",
+        "environmental education",
+        "traditional crafts",
+        "sustainable village"
+      ]
+    },
+    {
+      "name": "Agostyán / Ágoston-liget Ökofalu",
+      "description": "A pioneer Hungarian ecovillage tied to the Natural Lifestyle Foundation (Természetes Életmód Alapítvány) and the Ágoston-liget arboretum, focused on natural building, organic gardening, and nature-based living near Tata.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Agostyán",
+      "region": "Komárom-Esztergom",
+      "country": "Magyarország",
+      "latitude": 47.6634,
+      "longitude": 18.4009,
+      "foundingYear": 1995,
+      "website": null,
+      "focusAreas": [
+        "natural building",
+        "organic gardening",
+        "arboretum",
+        "sustainable living"
+      ]
+    },
+    {
+      "name": "Nagyszékely",
+      "description": "A depopulated Tolna village revitalized by an in-migrant community of homesteaders, permaculturists, and artists pursuing self-sufficiency and back-to-the-land living.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Nagyszékely",
+      "region": "Tolna",
+      "country": "Magyarország",
+      "latitude": 46.649,
+      "longitude": 18.532,
+      "foundingYear": null,
+      "website": null,
+      "focusAreas": [
+        "permaculture",
+        "homesteading",
+        "self-sufficiency",
+        "community living"
+      ]
+    },
+    {
+      "name": "Cserdi Közösségi Program",
+      "description": "A Roma village-renewal and social-regeneration project in Baranya built on community agriculture, self-sufficiency, and empowerment, internationally recognized as a rural regeneration model.",
+      "communityType": "INCLUSIVE_SUPPORT_NETWORK",
+      "city": "Cserdi",
+      "region": "Baranya",
+      "country": "Magyarország",
+      "latitude": 46.07,
+      "longitude": 18.05,
+      "foundingYear": 2011,
+      "website": null,
+      "focusAreas": [
+        "social regeneration",
+        "community agriculture",
+        "Roma empowerment",
+        "self-sufficiency"
+      ]
+    },
+    {
+      "name": "Rozsály Önfenntartó Falu",
+      "description": "A self-sustaining village regeneration model in Szabolcs-Szatmár-Bereg built on local food production and a public-work-based local economy.",
+      "communityType": "REGENERATIVE_ECONOMIC",
+      "city": "Rozsály",
+      "region": "Szabolcs-Szatmár-Bereg",
+      "country": "Magyarország",
+      "latitude": 47.9,
+      "longitude": 22.87,
+      "foundingYear": null,
+      "website": null,
+      "focusAreas": [
+        "local food systems",
+        "local economy",
+        "self-sufficiency",
+        "rural regeneration"
+      ]
+    },
+    {
+      "name": "Mandala Ökofalu",
+      "description": "A permaculture-focused ecovillage and learning community in Somogy county practicing natural building and regenerative land use.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Kisbárapáti",
+      "region": "Somogy",
+      "country": "Magyarország",
+      "latitude": 46.55,
+      "longitude": 17.8,
+      "foundingYear": null,
+      "website": null,
+      "focusAreas": [
+        "permaculture",
+        "natural building",
+        "regenerative land use",
+        "community living"
+      ]
+    },
+    {
+      "name": "Nyim Ökoközösség",
+      "description": "A small intentional eco-community in a Somogy village centered on a community house, permaculture gardening, and sustainable rural living.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Nyim",
+      "region": "Somogy",
+      "country": "Magyarország",
+      "latitude": 46.78,
+      "longitude": 18.05,
+      "foundingYear": null,
+      "website": null,
+      "focusAreas": [
+        "permaculture",
+        "community living",
+        "sustainable agriculture",
+        "rural revitalization"
+      ]
+    },
+    {
+      "name": "Findhorn Foundation",
+      "description": "One of the world's most celebrated spiritual ecovillages, founded in 1962 on the Moray coast of Scotland, blending spiritual practice with ecological living and education. A GEN flagship and UN-recognized model of sustainability.",
+      "communityType": "SPIRITUAL_HAVEN",
+      "city": "Forres",
+      "region": "Moray, Scotland",
+      "country": "United Kingdom",
+      "latitude": 57.658,
+      "longitude": -3.627,
+      "foundingYear": 1962,
+      "website": "https://www.findhorn.org",
+      "focusAreas": [
+        "spiritual practice",
+        "ecovillage living",
+        "sustainability education",
+        "community living"
+      ]
+    },
+    {
+      "name": "Tamera",
+      "description": "A peace research village and healing biotope in southern Portugal developing models for sustainable coexistence, water retention landscapes, and nonviolent conflict resolution.",
+      "communityType": "HEALING_SANCTUARY",
+      "city": "Colos",
+      "region": "Alentejo",
+      "country": "Portugal",
+      "latitude": 37.614,
+      "longitude": -8.631,
+      "foundingYear": 1995,
+      "website": "https://www.tamera.org",
+      "focusAreas": [
+        "peace research",
+        "water retention",
+        "regenerative landscapes",
+        "community healing"
+      ]
+    },
+    {
+      "name": "Ökodorf Sieben Linden",
+      "description": "A well-established German ecovillage of around 150 residents practicing low-impact living with straw-bale construction, permaculture, and consensus governance. A flagship of GEN Europe.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Poppau (Beetzendorf)",
+      "region": "Saxony-Anhalt",
+      "country": "Germany",
+      "latitude": 52.715,
+      "longitude": 11.166,
+      "foundingYear": 1997,
+      "website": "https://siebenlinden.org",
+      "focusAreas": [
+        "straw-bale building",
+        "permaculture",
+        "low-impact living",
+        "consensus governance"
+      ]
+    },
+    {
+      "name": "Damanhur",
+      "description": "A spiritual eco-society and federation of communities in the Italian Alpine foothills, renowned for its hand-carved underground Temples of Humankind and its blend of art, spirituality, and sustainable living.",
+      "communityType": "SPIRITUAL_HAVEN",
+      "city": "Vidracco",
+      "region": "Piedmont",
+      "country": "Italy",
+      "latitude": 45.48,
+      "longitude": 7.79,
+      "foundingYear": 1975,
+      "website": "https://www.damanhur.it",
+      "focusAreas": [
+        "spiritual practice",
+        "art",
+        "sustainable living",
+        "alternative currency"
+      ]
+    },
+    {
+      "name": "Auroville",
+      "description": "An international township of around 3,500 residents from 60+ nations near Pondicherry, dedicated to human unity and conscious living per the vision of Sri Aurobindo and The Mother. A UNESCO-supported model for sustainable development.",
+      "communityType": "VISIONARY_MODEL_CITY",
+      "city": "Auroville",
+      "region": "Tamil Nadu",
+      "country": "India",
+      "latitude": 11.9342,
+      "longitude": 79.8071,
+      "foundingYear": 1968,
+      "website": "https://www.auroville.org",
+      "focusAreas": [
+        "human unity",
+        "sustainable development",
+        "afforestation",
+        "conscious living"
+      ]
+    },
+    {
+      "name": "Schloss Tempelhof",
+      "description": "A fast-growing ecovillage community of 150+ adults and children on a historic castle estate in southern Germany, practicing permaculture, nonviolent communication, and sociocracy.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Kreßberg",
+      "region": "Baden-Württemberg",
+      "country": "Germany",
+      "latitude": 49.072,
+      "longitude": 10.181,
+      "foundingYear": 2010,
+      "website": "https://www.schloss-tempelhof.de",
+      "focusAreas": [
+        "permaculture",
+        "nonviolent communication",
+        "sociocracy",
+        "community living"
+      ]
+    },
+    {
+      "name": "ZEGG",
+      "description": "The Centre for Experimental Cultural Design near Berlin, a pioneering community known for developing the ZEGG Forum method and integrating ecology, community, and conscious relationships.",
+      "communityType": "KNOWLEDGE_HUB",
+      "city": "Bad Belzig",
+      "region": "Brandenburg",
+      "country": "Germany",
+      "latitude": 52.14,
+      "longitude": 12.592,
+      "foundingYear": 1991,
+      "website": "https://www.zegg.de",
+      "focusAreas": [
+        "community building",
+        "ZEGG Forum",
+        "ecology",
+        "conscious relationships"
+      ]
+    },
+    {
+      "name": "Longo Maï",
+      "description": "A network of self-managed cooperative farming communities spanning France, Switzerland, Austria, and beyond, founded after May 1968 to build rural autonomy through organic farming, crafts, and political solidarity.",
+      "communityType": "EGALITARIAN_LIVING",
+      "city": "Limans",
+      "region": "Provence-Alpes-Côte d'Azur",
+      "country": "France",
+      "latitude": 43.95,
+      "longitude": 5.78,
+      "foundingYear": 1973,
+      "website": "https://www.prolongomai.ch",
+      "focusAreas": [
+        "cooperative farming",
+        "self-management",
+        "traditional crafts",
+        "political solidarity"
+      ]
+    },
+    {
+      "name": "Lakabe",
+      "description": "One of Spain's oldest and most influential ecovillages, an abandoned medieval hamlet in the Navarrese Pyrenees revived in 1980 and known for self-sufficiency, renewable energy, and communal economy.",
+      "communityType": "EGALITARIAN_LIVING",
+      "city": "Lakabe (Arce/Artzibar)",
+      "region": "Navarre",
+      "country": "Spain",
+      "latitude": 42.9,
+      "longitude": -1.48,
+      "foundingYear": 1980,
+      "website": null,
+      "focusAreas": [
+        "self-sufficiency",
+        "renewable energy",
+        "communal economy",
+        "permaculture"
+      ]
+    },
+    {
+      "name": "Lebensgarten Steyerberg",
+      "description": "A spiritual-ecological community in a former munitions-factory complex in Lower Saxony, one of Germany's first ecovillages and a founding member of GEN, integrating holistic health and ecological building.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Steyerberg",
+      "region": "Lower Saxony",
+      "country": "Germany",
+      "latitude": 52.57,
+      "longitude": 9.03,
+      "foundingYear": 1985,
+      "website": "https://www.lebensgarten.de",
+      "focusAreas": [
+        "holistic health",
+        "ecological building",
+        "community living",
+        "spiritual practice"
+      ]
+    },
+    {
+      "name": "Kibbutz Lotan",
+      "description": "An ecological kibbutz of the Reform Jewish movement in the Arava Desert, internationally known for its permaculture centre and mud-brick eco-campus. A GEN member and frequent host of ecovillage gatherings.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Kibbutz Lotan",
+      "region": "Southern District (Arava)",
+      "country": "Israel",
+      "latitude": 30.866,
+      "longitude": 35.066,
+      "foundingYear": 1983,
+      "website": "https://www.kibbutzlotan.com",
+      "focusAreas": [
+        "permaculture",
+        "desert ecology",
+        "natural building",
+        "ecotourism"
+      ]
+    },
+    {
+      "name": "Torri Superiore",
+      "description": "A restored medieval hamlet in the Maritime Alps near the French-Italian border housing an ecovillage focused on ecological restoration, permaculture, and intercultural exchange. A GEN Europe member.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Ventimiglia",
+      "region": "Liguria",
+      "country": "Italy",
+      "latitude": 43.833,
+      "longitude": 7.567,
+      "foundingYear": 1989,
+      "website": "https://www.torri-superiore.org",
+      "focusAreas": [
+        "ecological restoration",
+        "permaculture",
+        "intercultural exchange",
+        "ecotourism"
+      ]
+    },
+    {
+      "name": "Crystal Waters",
+      "description": "The world's first permaculture-designed ecovillage, in the Sunshine Coast hinterland of Queensland, a UN-awarded landmark in intentional community and sustainable land-use planning.",
+      "communityType": "NATURE_CONNECTED_ECO_HUB",
+      "city": "Conondale (near Maleny)",
+      "region": "Queensland",
+      "country": "Australia",
+      "latitude": -26.768,
+      "longitude": 152.861,
+      "foundingYear": 1987,
+      "website": "https://crystalwaters.org.au",
+      "focusAreas": [
+        "permaculture",
+        "sustainable land use",
+        "ecovillage design",
+        "community living"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "name": "European Ecovillage Gathering 2026 — Dare to Trust",
+      "description": "Europe's largest annual ecovillage festival, hosted by Nature Community in Upper Palatinate Bavaria, gathering 800+ people from 40+ countries under the theme 'Dare to Trust'. Organised by GEN Europe.",
+      "category": "GATHERING",
+      "location": "Schönsee, Germany",
+      "latitude": 49.5333,
+      "longitude": 12.4667,
+      "isOnline": false,
+      "startDate": "2026-07-13",
+      "endDate": "2026-07-18",
+      "website": "https://ecovillagegathering.org/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "Caux Inner Development Goals (IDG) Forum 2026",
+      "description": "A five-day immersive gathering at the historic Caux Palace in the Swiss Alps exploring inner development and systemic-change leadership through contemplative practice. Co-organised by Initiatives of Change and the IDG network.",
+      "category": "CONFERENCE",
+      "location": "Caux, Switzerland",
+      "latitude": 46.4333,
+      "longitude": 6.9167,
+      "isOnline": false,
+      "startDate": "2026-07-13",
+      "endDate": "2026-07-17",
+      "website": "https://www.iofc.ch/caux-idg-2026",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "Transition Design Conference 2026 — Weaving Regenerative Futures",
+      "description": "The 5th International Transition Design Conference, co-organised by TEC de Monterrey, University of Palermo and Carnegie Mellon, bringing together academics and practitioners in systems-change, design and regenerative futures.",
+      "category": "CONFERENCE",
+      "location": "Mexico City, Mexico",
+      "latitude": 19.4326,
+      "longitude": -99.1332,
+      "isOnline": false,
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-11",
+      "website": "https://transitiondesigninstitute.net/2026-transition-design-conference/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "Tamera Summer Gathering 2026",
+      "description": "Annual summer gathering at Tamera Healing Biotope, a peace research and education centre in southern Portugal working on ecological restoration, community living and a new planetary culture.",
+      "category": "GATHERING",
+      "location": "Tamera, Portugal",
+      "latitude": 37.6167,
+      "longitude": -8.4333,
+      "isOnline": false,
+      "startDate": "2026-07-06",
+      "endDate": "2026-07-12",
+      "website": "https://www.tamera.org/event-calendar/",
+      "dateConfidence": "estimated"
+    },
+    {
+      "name": "Findhorn Musical Retreat — Sound, Community & Healing",
+      "description": "A seven-day residential retreat at Ecovillage Findhorn blending piano concerts, community singing, sacred dance and shared stillness, cultivating connection and healing through music in an intentional-community setting.",
+      "category": "RETREAT",
+      "location": "Findhorn, Scotland, United Kingdom",
+      "latitude": 57.6544,
+      "longitude": -3.6086,
+      "isOnline": false,
+      "startDate": "2026-07-13",
+      "endDate": "2026-07-19",
+      "website": "https://www.findhorn.org/experiences",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "Findhorn Permaculture Design Certificate (PDC) 2026",
+      "description": "A two-week hands-on Permaculture Design Certificate course at one of Europe's oldest and largest ecovillages, facilitated by Gaia Education certified instructors with a head/heart/hands approach.",
+      "category": "TRAINING",
+      "location": "Findhorn, Scotland, United Kingdom",
+      "latitude": 57.6544,
+      "longitude": -3.6086,
+      "isOnline": false,
+      "startDate": "2026-08-03",
+      "endDate": "2026-08-16",
+      "website": "https://www.gaiaeducation.org/permaculture-design-certificate-findhorn",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "Work That Reconnects Retreat — Bekkola gård, Norway",
+      "description": "A five-day co-creative retreat spiraling through Joanna Macy's Work That Reconnects at Bekkola gård in Finnskogen forest, bringing together practitioners in deep ecology, grief work and systemic healing.",
+      "category": "RETREAT",
+      "location": "Finnskogen, Norway",
+      "latitude": 60.3833,
+      "longitude": 12.15,
+      "isOnline": false,
+      "startDate": "2026-08-26",
+      "endDate": "2026-08-30",
+      "website": "https://workthatreconnects.org/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "Gyüttment Találkozó 2026",
+      "description": "Hungary's annual gathering of ecological lifestyle changers and rural re-settlers at the historic Csobánkapuszta estate — workshops, nature-based-living knowledge sharing, crafts marketplace and community connection; a zero-waste event.",
+      "category": "GATHERING",
+      "location": "Csobánkapuszta, Magyarország",
+      "latitude": 47.7167,
+      "longitude": 18.8333,
+      "isOnline": false,
+      "startDate": "2026-08-27",
+      "endDate": "2026-08-30",
+      "website": "https://gyuttmentfesztival.hu/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "IST 2026 — International Sustainability Transitions Conference",
+      "description": "The flagship annual academic conference of the Sustainability Transitions Research Network (STRN), drawing 500+ researchers from 30+ countries on socio-technical transformation across energy, food, mobility and social-innovation systems.",
+      "category": "CONFERENCE",
+      "location": "Europe (host TBC)",
+      "isOnline": false,
+      "startDate": "2026-08-31",
+      "endDate": "2026-09-02",
+      "website": "https://www.transitionsnetwork.org/ist-2026/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "EuPN Permaculture Gathering — Afrinoon, Brittany",
+      "description": "A self-organising, open-agenda weekend gathering of European permaculture practitioners at Afrinoon Permaculture farm (a registered EuPN Permahub), limited to ~38 participants for deep peer-to-peer learning and network weaving.",
+      "category": "GATHERING",
+      "location": "Priziac, Brittany, France",
+      "latitude": 48.0167,
+      "longitude": -3.4167,
+      "isOnline": false,
+      "startDate": "2026-09-04",
+      "endDate": "2026-09-06",
+      "website": "https://gathering.permaculture-network.eu/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "Work That Reconnects Retreat at Findhorn",
+      "description": "A multi-week residential retreat at Ecovillage Findhorn drawing on Joanna Macy's Work That Reconnects methodology — deep ecology, systems thinking and collective ritual cultivating capacity to engage in the healing of the world.",
+      "category": "RETREAT",
+      "location": "Findhorn, Scotland, United Kingdom",
+      "latitude": 57.6544,
+      "longitude": -3.6086,
+      "isOnline": false,
+      "startDate": "2026-09-10",
+      "endDate": "2026-10-01",
+      "website": "https://workthatreconnects.org/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "IDG Business Forum 2026",
+      "description": "A two-day in-person convening for business leaders, changemakers and entrepreneurs organised by the Inner Development Goals initiative, focused on embedding inner development into organisations and leadership to drive systemic change.",
+      "category": "CONFERENCE",
+      "location": "Stockholm, Sweden",
+      "latitude": 59.3293,
+      "longitude": 18.0686,
+      "isOnline": false,
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-15",
+      "website": "https://innerdevelopmentgoals.org/events/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "ECTN International Conference for Cultural & Sustainable Tourism 2026",
+      "description": "The 19th annual ECTN conference on regenerative, smart and resilient cultural tourism, culminating in the Destination of Sustainable Cultural Tourism Awards.",
+      "category": "CONFERENCE",
+      "location": "Skiathos, Greece",
+      "latitude": 39.1622,
+      "longitude": 23.4917,
+      "isOnline": false,
+      "startDate": "2026-09-23",
+      "endDate": "2026-09-26",
+      "website": "https://www.culturaltourism-network.eu/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "SOCAP26 — Social Capital Markets Conference",
+      "description": "The world's largest impact-investing and social-enterprise convening, bringing together investors, foundation leaders, impact entrepreneurs and systems-change practitioners to unlock capital for climate, justice and regenerative futures.",
+      "category": "CONFERENCE",
+      "location": "Chicago, USA",
+      "latitude": 41.8827,
+      "longitude": -87.6233,
+      "isOnline": false,
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-14",
+      "website": "https://socapglobal.com/event-socap-26/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "SOCIN 2026 — Scientific Conference on Social Innovation",
+      "description": "Academic and practitioner conference at SWPS University co-organised by the ERUA network, with streams on systemic change, social imaginaries, technology for transformation and impact-oriented organisations.",
+      "category": "CONFERENCE",
+      "location": "Warsaw, Poland",
+      "latitude": 52.2297,
+      "longitude": 21.0122,
+      "isOnline": false,
+      "startDate": "2026-10-21",
+      "endDate": "2026-10-23",
+      "website": "https://erua-eui.eu/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "CSRF 2026 — Conference on Sustainable and Regenerative Farming",
+      "description": "The 3rd international conference on sustainable and regenerative farming, exploring research and practice across soil health, agroecology and food-system transition; onsite and online participation.",
+      "category": "CONFERENCE",
+      "location": "Lisbon, Portugal",
+      "latitude": 38.7223,
+      "longitude": -9.1393,
+      "isOnline": false,
+      "startDate": "2026-10-25",
+      "endDate": "2026-10-29",
+      "website": "https://www.iaria.org/conferences2026/CSRF26.html",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "IPC16 — 16th International Permaculture Convergence: Beyond Sustainability",
+      "description": "The flagship global permaculture gathering held every two years: a 10-day event spanning a conference near Bangkok and a convergence in Korat, under the theme 'Beyond Sustainability — Many Paths'.",
+      "category": "CONVERGENCE",
+      "location": "Pathum Thani / Wang Nam Khiao, Thailand",
+      "latitude": 14.0208,
+      "longitude": 101.5208,
+      "isOnline": false,
+      "startDate": "2026-11-06",
+      "endDate": "2026-11-15",
+      "website": "https://thaipermaculture.org/events/ipc16/",
+      "dateConfidence": "confirmed"
+    },
+    {
+      "name": "European Ecovillage Gathering 2027",
+      "description": "The annual GEN Europe ecovillage gathering; host location for 2027 is under open call as of mid-2026. Dates estimated from the established mid-July pattern of prior editions.",
+      "category": "GATHERING",
+      "location": "Europe (host TBC)",
+      "isOnline": false,
+      "startDate": "2027-07-12",
+      "endDate": "2027-07-17",
+      "website": "https://gen-europe.org/",
+      "dateConfidence": "estimated"
+    },
+    {
+      "name": "IPC17 — 17th International Permaculture Convergence (2027)",
+      "description": "The biennial global permaculture convergence following IPC16 Thailand (2026); host nation not yet announced. Dates estimated from the biennial cadence and typical autumn timing of previous editions.",
+      "category": "CONVERGENCE",
+      "location": "Host TBC",
+      "isOnline": false,
+      "startDate": "2027-10-01",
+      "endDate": "2027-10-10",
+      "website": "https://internationalpermacultureconvergence.org/",
+      "dateConfidence": "estimated"
+    },
+    {
+      "name": "SOCIN 2027 — Scientific Conference on Social Innovation",
+      "description": "The 2027 edition of the biennial academic-practitioner conference on social innovation and systemic change co-organised by the ERUA university network; theme, location and exact dates estimated from prior editions.",
+      "category": "CONFERENCE",
+      "location": "Europe (host TBC)",
+      "isOnline": false,
+      "startDate": "2027-10-20",
+      "endDate": "2027-10-22",
+      "website": "https://erua-eui.eu/",
+      "dateConfidence": "estimated"
+    }
+  ]
+}

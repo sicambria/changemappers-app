@@ -1,0 +1,1 @@
+export { HomePageClient } from './HomePageClient';

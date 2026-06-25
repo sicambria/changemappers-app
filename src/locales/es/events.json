@@ -1,0 +1,146 @@
+{
+  "title": "Eventos",
+  "subtitle": "Encuentra eventos comunitarios, oportunidades de talleres y celebraciones.",
+  "create": "Crear evento",
+  "search": {
+    "placeholder": "Buscar eventos...",
+    "noResults": "No hay eventos que coincidan con tu búsqueda"
+  },
+  "filters": {
+    "title": "Filtros",
+    "all": "Todos",
+    "upcoming": "Próximos",
+    "this_week": "Esta semana",
+    "this_month": "Este mes",
+    "next_month": "Próximo mes",
+    "past": "Pasados",
+    "cause": "Causa",
+    "allCauses": "Todas las causas"
+  },
+  "viewMode": {
+    "list": "Vista de lista",
+    "calendar": "Vista de calendario"
+  },
+  "calendar": {
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "today": "Hoy",
+    "month": "Mes",
+    "week": "Semana",
+    "day": "Día",
+    "agenda": "Agenda",
+    "date": "Fecha",
+    "time": "Hora",
+    "event": "Evento",
+    "noEventsInRange": "No hay eventos en este período"
+  },
+  "types": {
+    "workshop": "Taller",
+    "gathering": "Encuentro",
+    "workday": "Día de trabajo",
+    "celebration": "Celebración",
+    "training": "Formación",
+    "openDay": "Jornada de puertas abiertas",
+    "other": "Otro"
+  },
+  "details": {
+    "hostedBy": "Organizado por",
+    "attendees": "asistentes",
+    "attendeesCount": "{{count}} asistentes",
+    "free": "Gratuito",
+    "online": "Evento online",
+    "inPerson": "Presencial",
+    "location": "Ubicación",
+    "date": "Fecha",
+    "description": "Descripción",
+    "noDescription": "No se proporcionó descripción.",
+    "sectionTitle": "Detalles",
+    "unknownHost": "Desconocido",
+    "admission": "Entrada"
+  },
+  "claims": {
+    "title": "¿Eres el organizador?",
+    "description": "Este evento fue creado a partir de datos públicos. Si eres el organizador, ¡reclama tus derechos de edición!",
+    "pending": "Reclamación en curso",
+    "submit": "Reclamar propiedad",
+    "loginRequired": "Inicia sesión para reclamar.",
+    "success": "¡Reclamación enviada! Esperando aprobación del admin."
+  },
+  "form": {
+    "createTitle": "Crear nuevo evento",
+    "editTitle": "Editar evento",
+    "coverImage": "Imagen de portada",
+    "coverImageUpload": "Haz clic para subir imagen",
+    "title": "Nombre del evento",
+    "titlePlaceholder": "p.ej. Taller de permacultura",
+    "type": "Tipo",
+    "description": "Descripción",
+    "descriptionPlaceholder": "Describe el evento en detalle...",
+    "dates": {
+      "start": "Fecha de inicio",
+      "startTime": "Hora de inicio",
+      "end": "Fecha de fin",
+      "endTime": "Hora de fin"
+    },
+    "isOnline": "Evento online",
+    "onlineLink": "Enlace online",
+    "location": "Ubicación",
+    "locationPlaceholder": "p.ej. Madrid, Retiro",
+    "maxAttendees": "Máximo de asistentes (opcional)",
+    "maxAttendeesPlaceholder": "p.ej. 20",
+    "onlineLinkPlaceholder": "https://meet.ejemplo.com/...",
+    "isPublic": "Evento público (cualquiera puede verlo)",
+    "submit": "Crear",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "deleteConfirm": "¿Estás seguro de que quieres eliminar este evento? Esta acción no se puede deshacer.",
+    "loginRequired": "Inicio de sesión requerido",
+    "genericError": "Ocurrió un error",
+    "commError": "Ocurrió un error de comunicación",
+    "deleteFailed": "Error al eliminar",
+    "deleteCommError": "Ocurrió un error al eliminar",
+    "community": "Comunidad",
+    "noCommunity": "Sin comunidad",
+    "causes": "Causas"
+  },
+  "rsvp": {
+    "label": "Asistencia",
+    "sectionTitle": "Inscripción",
+    "going": "Voy",
+    "attending": "Estaré ahí",
+    "confirmed": "¡Vas a ir!",
+    "maybe": "Quizás",
+    "interested": "Interesado/a",
+    "notGoing": "No voy",
+    "cancel": "Cancelar",
+    "full": "Completo",
+    "loginPrompt": "Para inscribirte,",
+    "loginLink": "inicia sesión",
+    "goingSelected": "Asistiré ✓",
+    "action": "RSVP",
+    "fullSuffix": " (lleno)",
+    "failed": "No se pudo actualizar tu inscripción. Inténtalo de nuevo."
+  },
+  "eventTypes": {
+    "WORKSHOP": "Taller",
+    "GATHERING": "Encuentro",
+    "WORKDAY": "Jornada de trabajo",
+    "CELEBRATION": "Celebración",
+    "TRAINING": "Formación",
+    "OTHER": "Otro"
+  },
+  "status": {
+    "past": "Pasado"
+  },
+  "relations": {
+    "organizers": "Organizadores",
+    "linkedFocus": "Enfoque vinculado"
+  },
+  "labels": {
+    "onlineEvent": "Evento online",
+    "attendeeCount": "{{count}} participantes",
+    "organizer": "Organizador",
+    "facebookEvent": "Evento de Facebook"
+  },
+  "addToCalendar": "Añadir a Google Calendar"
+}

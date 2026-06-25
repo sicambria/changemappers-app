@@ -1,0 +1,18 @@
+{
+  "title": "Találkozó",
+  "metaTitle": "Közös Időpont Keresése | Changemappers",
+  "metaDescription": "Hozz létre egy időpont-egyeztető szavazást, hogy megtaláld a legjobb időpontot a csoportod találkozójához.",
+  "createPoll": "Szavazás létrehozása",
+  "joinPoll": "Csatlakozás szavazáshoz",
+  "managePoll": "Szavazás kezelése",
+  "errors": {
+    "pollNotFound": "A szavazás nem található"
+  },
+  "labels": {
+    "findOurTime": "Közös időpont keresése",
+    "createSchedulingPoll": "Időpont-egyeztető szavazás létrehozása",
+    "joinSchedulingPoll": "Csatlakozás időpont-egyeztető szavazáshoz",
+    "manageSchedulingPoll": "Időpont-egyeztető szavazás kezelése",
+    "pollNotFound": "Szavazás Nem Található"
+  }
+}

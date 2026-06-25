@@ -1,0 +1,197 @@
+{
+  "title": "Koordináció",
+  "nav": {
+    "board": "Kezdeményezések táblája",
+    "backlog": "Várakozási lista",
+    "new": "Kezdeményezés javaslata",
+    "metrics": "Mérőszámok",
+    "myBoard": "Saját táblám"
+  },
+  "philosophy": "Ez egy közös kezdeményezési tér — megosztott térkép arról, min dolgozik a közösség, mi akadt el, kire van szükség, és mit tanultunk.",
+  "board": {
+    "title": "Kezdeményezések táblája",
+    "subtitle": "Amin a közösség dolgozik és foglalkozik.",
+    "empty": "Nincs kezdeményezés ebben az állapotban.",
+    "whatNeeded": "Mi szükséges most",
+    "personal": "Személyes tábla",
+    "communityInternal": "Közösségi tábla (belső)",
+    "communityPublic": "Közösségi tábla (nyilvános)",
+    "bioregional": "Bioregionális",
+    "national": "Nemzeti",
+    "international": "Nemzetközi tábla"
+  },
+  "states": {
+    "IMAGINED": "Elképzelt",
+    "EXPLORING": "Feltárás",
+    "PLANNED": "Tervezett",
+    "IN_PROGRESS": "Folyamatban",
+    "INTEGRATING": "Integrálás",
+    "COMPLETED": "Befejezett",
+    "ARCHIVED": "Archivált"
+  },
+  "stateDescriptions": {
+    "IMAGINED": "Egy irány vagy kérdés, még nem meghatározott kezdeményezés",
+    "EXPLORING": "Aktív értelmezés; a munka körvonalai formálódnak",
+    "PLANNED": "Elég meghatározott ahhoz, hogy specifikus közreműködőket hívjunk",
+    "IN_PROGRESS": "Aktív",
+    "INTEGRATING": "Lezárás; a tanulságokat rögzítjük a lezárás előtt",
+    "COMPLETED": "Kész; dokumentáció a közösben",
+    "ARCHIVED": "Leállítva vagy szünetelve; az ok dokumentálva"
+  },
+  "initiative": {
+    "create": "Kezdeményezés javaslata",
+    "edit": "Szerkesztés",
+    "title": "Cím",
+    "description": "Mit próbál elérni ez a kezdeményezés",
+    "why": "Miért fontos",
+    "rdgAlignment": "RDG cél kapcsolódás",
+    "rdgAlignmentOptional": "RDG cél kapcsolódás (opcionális)",
+    "rdgDomain": "RDG terület",
+    "rdgDomainHint": "Válaszd ki azt az elsődleges területet, amelyhez ez a kezdeményezés hozzájárul.",
+    "rdgGoalHint": "Opcionálisan válassz specifikus célokat a területen belül.",
+    "canvasNode": "Kapcsolódó canvas csomópont (opcionális)",
+    "state": "Állapot",
+    "moveState": "Áthelyezés",
+    "archiveReason": "Archiválás oka",
+    "archive": "Archiválás",
+    "complete": "Befejezettnek jelölés"
+  },
+  "domains": {
+    "1": "Emberi fejlődés és belső kapacitás",
+    "2": "Élő rendszerek regenerációja",
+    "3": "Regeneratív gazdaság és infrastruktúra",
+    "4": "Kormányzás és kollektív intelligencia",
+    "5": "Hosszú távú gondoskodás és civilizációs reziliencia"
+  },
+  "roles": {
+    "title": "Közreműködési szerepek",
+    "add": "Szerepkör hozzáadása",
+    "remove": "Eltávolítás",
+    "roleType": "Szerepkör típusa",
+    "contributionType": "Mit viszel be",
+    "types": {
+      "CONTRIBUTOR": "Közreműködő",
+      "COORDINATOR": "Koordinátor",
+      "STEWARD": "Gondozó",
+      "NODE_FACILITATOR": "Csomópont facilitátor",
+      "SYSTEMS_STEWARD": "Rendszergondozó"
+    }
+  },
+  "updates": {
+    "title": "Frissítések",
+    "add": "Narratív frissítés hozzáadása",
+    "narrative": "Mi történik",
+    "whatShifting": "Mi változik (opcionális)",
+    "whatHard": "Mi nehéz (opcionális)",
+    "helpNeeded": "Milyen segítség változtatna valóban (opcionális)"
+  },
+  "retrospective": {
+    "title": "Visszatekintés",
+    "prompt": "Mit akartunk elérni, mi történt, mit csinálnánk másképp, mit hagyunk a közösben a következő közösség számára, amely hasonlóval szembesül.",
+    "submit": "Visszatekintés beküldése",
+    "publicNote": "Ez a visszatekintés a közösben él."
+  },
+  "backlog": {
+    "title": "Közösségi várakozási lista",
+    "subtitle": "Ötletek és kialakulóban lévő munkák, amelyeket a közösség figyelemre méltónak tart. Közösségi rezonancia szerint rendezve — nem felülről lefelé.",
+    "add": "Hozzáadás a listához",
+    "resonance": "rezonancia",
+    "flagResonance": "Potenciált látok ebben",
+    "proposedBy": "Javasolta: {{name}}",
+    "unflagResonance": "Rezonancia visszavonása",
+    "empty": "A várakozási lista üres.",
+    "filters": {
+      "rdgGoal": "RDG cél",
+      "domain": "Terület"
+    },
+    "item": {
+      "title": "Cím",
+      "description": "Leírás",
+      "rdgGoal": "RDG cél (opcionális)",
+      "domain": "Terület (opcionális)"
+    }
+  },
+  "card": {
+    "state": "Állapot",
+    "contributions": "közreműködés",
+    "retrospective": "✓ Visszatekintés",
+    "updated": "Utolsó frissítés"
+  },
+  "wip": {
+    "title": "WIP Korlátok",
+    "configure": "WIP korlátok beállítása",
+    "description": "Állíts be folyamatban lévő munka korlátokat minden oszlophoz. Az elemek nem helyezhetők olyan oszlopba, amely elérte a korlátját.",
+    "noLimit": "Nincs korlát",
+    "atLimit": "Korlátnál",
+    "overLimit": "Korlát felett",
+    "limitReached": "WIP korlát elérve: {{state}} (max: {{limit}})",
+    "saveLimits": "Korlátok mentése"
+  },
+  "metrics": {
+    "title": "Mérőszámok",
+    "subtitle": "Lean mérőszámok és teljesítményelemzés",
+    "cycleTime": "Átlagos ciklusidő",
+    "leadTime": "Átlagos átfutási idő",
+    "throughput": "Átbocsátás",
+    "throughputUnit": "elem/30nap",
+    "wip": "Folyamatban lévő munka",
+    "flowEfficiency": "Folyamatok hatékonysága",
+    "completionRate": "Befejezési arány",
+    "distributionByState": "Eloszlás állapot szerint",
+    "weeklyThroughput": "Heti átbocsátás",
+    "blockedItems": "Blokkolt elemek",
+    "blockedItemsDescription": "30 napnál régebben ugyanabban az állapotban lévő elemek",
+    "moreBlocked": "további blokkolt elem",
+    "backToBoard": "Vissza a táblához",
+    "na": "N/A",
+    "flowEfficiencyDescription": "Az aktív idő százaléka a teljes feldolgozási időhöz képest",
+    "completedOf": "{{completed}} / {{total}}",
+    "week1": "1. hét",
+    "week2": "2. hét",
+    "week3": "3. hét",
+    "week4": "4. hét",
+    "completed": "Befejezett"
+  },
+  "retrospectiveForm": {
+    "submitted": "Visszatekintés elküldve",
+    "submittedMessage": "Köszönjük, hogy megosztottad a tanulságokat.",
+    "submitTitle": "Visszatekintés beküldése",
+    "publicNarrative": "Nyilvános narratíva",
+    "placeholder": "Mit akartunk elérni, mi történt, mit csinálnánk másképp...",
+    "submitting": "Küldés\u2026"
+  },
+  "age": {
+    "hours": "ó",
+    "days": "nap",
+    "weeks": "hét",
+    "months": "hó",
+    "years": "év"
+  },
+  "form": {
+    "section1Title": "Alapinformációk",
+    "section1Subtitle": "Hogyan nevezed ezt a kezdeményezést?",
+    "titleLabel": "Cím",
+    "titlePlaceholder": "Kezdeményezés címe",
+    "descriptionLabel": "Leírás",
+    "descriptionPlaceholder": "Írd le ezt a kezdeményezést",
+    "whyLabel": "Miért fontos",
+    "whyPlaceholder": "Miért fontos ez? Milyen változást keresel?",
+    "minChars": "Minimum 20 karakter",
+    "minCharsShort": "{{length}}/20 min",
+    "typeLabel": "Kezdeményezés típusa",
+    "typePlaceholder": "Keresés és választás...",
+    "typeSearchPlaceholder": "Típusok keresése...",
+    "typeNoResults": "Nem található típus.",
+    "rdgPlaceholder": "Válassz RDG összehangolást...",
+    "rdgSearchPlaceholder": "RDG-k keresése...",
+    "rdgNoResults": "Nem található RDG.",
+    "section2Title": "RDG összehangolás",
+    "section2Subtitle": "Kapcsold ezt a kezdeményezést a regeneratív fejlesztési keretrendszerhez.",
+    "selectDomain": "Válassz területet...",
+    "errorType": "Kérlek válassz kezdeményezési típust.",
+    "errorDomain": "Kérlek válassz területet.",
+    "errorGeneric": "Nem sikerült létrehozni a kezdeményezést. Kérlek próbáld újra.",
+    "creating": "Létrehozás...",
+    "createCta": "Kezdeményezés létrehozása"
+  }
+}

@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Círculos de Indaba Ubuntu",
+    "region": "Sudáfrica",
+    "type": "Diálogo",
+    "desc": "Diálogos comunitarios dirigidos por ancianos para la madurez relacional.",
+    "details": {
+      "prep": "La comunidad se reúne bajo un árbol central; los ancianos consultan a los antepasados. Los agravios se dejan de lado temporalmente para centrarse en problemas sistémicos.",
+      "agenda": "1. Invocación de linajes. 2. Declaración de la interrupción. 3. Intervenciones por turnos sin interrupción. 4. Síntesis de los ancianos centrada en la restauración del 'nosotros'. 5. Comida comunal.",
+      "questions": "¿Cómo afecta esta fractura al todo colectivo? ¿Qué parte de mi ego está dañando nuestro tejido compartido?",
+      "awareness": "Desplaza la atención agresivamente del 'yo/mío' al 'nosotros/nuestro'. Exige la capacidad cognitiva de sostener múltiples puntos de vista comunales opuestos simultáneamente sin juicio inmediato."
+    }
+  },
+  {
+    "name": "Consejos de Aldea Ujamaa",
+    "region": "Tanzania",
+    "type": "Diálogo",
+    "desc": "Toma de decisiones grupal para la responsabilidad colectiva.",
+    "details": {
+      "prep": "Revisión de los recursos agrícolas y económicos compartidos. Establecimiento de una intención de supervivencia socioeconómica mutua.",
+      "agenda": "1. Intercambio de auditoría de recursos. 2. Identificación de miembros vulnerables. 3. Debate sobre la distribución del trabajo. 4. Consenso sobre objetivos compartidos.",
+      "questions": "¿Nuestro progreso está dejando a alguien atrás? ¿Cómo crea mi exceso el déficit de otra persona?",
+      "awareness": "Expande la conciencia temporal y espacial; los individuos deben mapear cognitivamente sus acciones personales con la supervivencia a largo plazo de todo el ecosistema de la aldea."
+    }
+  },
+  {
+    "name": "Grupos de Pares Harambee",
+    "region": "Kenia",
+    "type": "Diálogo",
+    "desc": "Círculos de jóvenes y ancianos que fomentan la interdependencia.",
+    "details": {
+      "prep": "Se identifica un proyecto comunitario específico (construir una escuela, financiar a un estudiante) como el objetivo unificador.",
+      "agenda": "1. Llamado a la acción. 2. Puesta en común de diversos recursos (dinero, trabajo, sabiduría). 3. Ejecución colaborativa. 4. Celebración del logro colectivo.",
+      "questions": "¿Qué regalo único traigo a la tarea colectiva? ¿Cómo está mi éxito intrínsecamente ligado al tuyo?",
+      "awareness": "Rompe la ambición hiperindividualista vinculando los sistemas de dopamina y recompensa estrictamente a hitos colectivos apoyados por pares."
+    }
+  },
+  {
+    "name": "Dhikr de las Etapas del Nafs",
+    "region": "Irán",
+    "type": "Ritual",
+    "desc": "Cánticos grupales sufíes para la purificación del ego.",
+    "details": {
+      "prep": "Ablución ritual, ayuno y uso de ropa sencilla para despojarse de los indicadores de estatus social.",
+      "agenda": "1. Establecimiento de una respiración rítmica. 2. Canto repetitivo de nombres divinos. 3. Aceleración gradual guiada por un Sheikh. 4. Entrada en el 'Hal' (estado espiritual). 5. Integración silenciosa.",
+      "questions": "¿Quién es el 'Yo' que queda cuando el yo social se agota? ¿Puedo disolverme en el ritmo del todo?",
+      "awareness": "Induce estados de flujo que eluden el procesamiento lingüístico y egoico. La atención se ancla enteramente en la resonancia somática y auditiva actual del grupo."
+    }
+  },
+  {
+    "name": "Semas Mevlevi de Giro",
+    "region": "Turquía",
+    "type": "Energía",
+    "desc": "Danza comunal para la autotranscendencia.",
+    "details": {
+      "prep": "Meses de entrenamiento físico y espiritual bajo un mentor (Mürşid). Rendición mental de los deseos personales.",
+      "agenda": "1. Entrada en el espacio circular. 2. Caída de la capa negra (muerte del ego). 3. Giro (mano derecha hacia arriba, mano izquierda hacia abajo). 4. Re-envolverse y oración comunal.",
+      "questions": "¿Cómo puedo convertirme en un recipiente vacío para la energía universal? ¿Puedo permanecer perfectamente inmóvil internamente mientras me muevo rápidamente externamente?",
+      "awareness": "Crea un estado profundo de 'meditación en movimiento'. La conciencia se expande esféricamente, requiriendo una intensa propiocepción sincronizada perfectamente con la geometría colectiva del grupo."
+    }
+  },
+  {
+    "name": "Retiros de Tariqa",
+    "region": "Marruecos",
+    "type": "Mentoría",
+    "desc": "Órdenes sufíes guiadas por mentores para el ascenso espiritual.",
+    "details": {
+      "prep": "Sumisión a las reglas de la logia (Zawiya). Entrega de la autonomía personal al guía espiritual.",
+      "agenda": "1. Trabajo comunal diario. 2. Consulta privada con el Sheikh. 3. Recitación grupal de letanías. 4. Análisis de sueños en comunidad.",
+      "questions": "¿Cuáles son los puntos ciegos que mi mentor ve y yo no? ¿Cómo sirve mi rebelión a mi ego?",
+      "awareness": "Eleva la autoconciencia objetiva utilizando al mentor como un espejo inquebrantable. La atención se entrena para captar sutiles resistencias internas."
+    }
+  },
+  {
+    "name": "Ceremonias de la Rueda de Medicina",
+    "region": "Canadá",
+    "type": "Ritual",
+    "desc": "Círculos de las Primeras Naciones para etapas holísticas.",
+    "details": {
+      "prep": "Construcción de la rueda de piedra física alineada con las direcciones cardinales. Sahumerio con salvia para despejar la mente.",
+      "agenda": "1. Honrar el Este (Mente/Primavera). 2. Honrar el Sur (Cuerpo/Verano). 3. Honrar el Oeste (Emoción/Otoño). 4. Honrar el Norte (Espíritu/Invierno).",
+      "questions": "¿En qué cuadrante de mi vida se está estancando mi energía? ¿Cómo reflejan los ciclos de la naturaleza mi maduración interna?",
+      "awareness": "Enseña el pensamiento cíclico y sistémico. Obliga al individuo a ver su desarrollo no como una escalada lineal ascendente, sino como una rueda equilibrada y multidimensional que requiere una integración holística."
+    }
+  },
+  {
+    "name": "Enseñanzas de los Siete Abuelos",
+    "region": "Estados Unidos",
+    "type": "Mentoría",
+    "desc": "Ciclos de mentoría con ancianos tribales.",
+    "details": {
+      "prep": "Los jóvenes se agrupan con ancianos; se establecen contextos de narración, a menudo alrededor de fogatas o durante artesanías.",
+      "agenda": "1. Compartir un mito animal específico (p. ej., el Oso para el Valor). 2. Reflexión del anciano sobre la virtud. 3. Aplicación del joven a una lucha actual. 4. Retroalimentación observacional.",
+      "questions": "¿Estoy encarnando Sabiduría, Amor, Respeto, Valentía, Honestidad, Humildad y Verdad simultáneamente?",
+      "awareness": "Desarrolla la complejidad basada en el carácter. La atención se desplaza de adquirir habilidades a encarnar virtudes paradójicas (p. ej., sostener la valentía junto a una humildad profunda)."
+    }
+  },
+  {
+    "name": "Círculos de Yarning del Tiempo del Sueño",
+    "region": "Australia",
+    "type": "Diálogo",
+    "desc": "Intercambio de historias para la sabiduría ancestral.",
+    "details": {
+      "prep": "Sentarse en el País (tierra sagrada específica). Reconocimiento de los custodios tradicionales y los espíritus ancestrales.",
+      "agenda": "1. Escucha profunda (Dadirri). 2. Narración no lineal entrelazando pasado, presente y mito. 3. Silencio y absorción. 4. Sentido colectivo.",
+      "questions": "¿Dónde se cruza mi historia personal con las líneas de canto (songlines) de la tierra? ¿Quién soy yo en el tiempo profundo?",
+      "awareness": "Estira masivamente la conciencia temporal. Los individuos aprenden a percibir su vida no como una línea de tiempo contenida, sino como una continuación activa y viva del 'Soñar' ancestral."
+    }
+  },
+  {
+    "name": "Rituales Grupales de Karakia",
+    "region": "Nueva Zelanda",
+    "type": "Ritual",
+    "desc": "Oraciones comunales para la conciencia en capas.",
+    "details": {
+      "prep": "Reunión en el Marae (lugar de encuentro). Limpieza de 'tapu' (restricciones espirituales) para garantizar la seguridad.",
+      "agenda": "1. Cánticos para separar la tierra y el cielo (invocando la creación). 2. Alineación de la respiración y la intención del grupo. 3. Invocación de energías elementales específicas. 4. Cierre del espacio energético.",
+      "questions": "¿Cómo moldean mis palabras la realidad física y espiritual de esta habitación? ¿Están mis intenciones alineadas con el 'mauri' (fuerza vital) colectivo?",
+      "awareness": "Mejora la vigilancia somática y verbal. El practicante se vuelve agudamente consciente del poder performativo del lenguaje y su efecto inmediato en la coherencia del grupo."
+    }
+  },
+  {
+    "name": "Práctica de la Sangha Kyosei",
+    "region": "Japón",
+    "type": "Diálogo",
+    "desc": "Trabajo grupal de koan zen para el despertar mutuo.",
+    "details": {
+      "prep": "Periodos de Zazen intenso (meditación sentada).",
+      "agenda": "1. Asiento grupal. 2. Presentación de la paradoja (Koan). 3. Silencio colectivo. 4. Respuestas breves y espontáneas.",
+      "questions": "¿Cómo desenredamos mutuamente la lógica?",
+      "awareness": "Rompe el pensamiento binario a través de la resonancia grupal."
+    }
+  },
+  {
+    "name": "Consejos de Ancestros Jingzu",
+    "region": "China",
+    "type": "Ritual",
+    "desc": "Rituales de familia-clan para etapas de armonía.",
+    "details": {
+      "prep": "Limpieza de altares ancestrales.",
+      "agenda": "1. Ofrenda de comida/incienso. 2. Recitación de genealogía. 3. Discusión de disputas del clan. 4. Resolución mediante el precedente ancestral.",
+      "questions": "¿Estoy actuando como un buen antepasado?",
+      "awareness": "Extiende la identidad temporalmente hacia atrás y hacia adelante a través del linaje."
+    }
+  },
+  {
+    "nombre": "Meditación Grupal Bhavana",
+    "región": "India",
+    "tipo": "Energía",
+    "descripción": "Retiros de la sangha budista para la progresión del conocimiento.",
+    "detalles": {
+      "preparación": "Toma de votos de noble silencio.",
+      "esquema": "1. Alternancia de meditación sentada/caminando. 2. Charlas de Dharma. 3. Entrevistas con maestros. 4. Dedicación grupal de méritos.",
+      "preguntas": "¿Es mi sufrimiento distinto del sufrimiento del grupo?",
+      "conciencia": "Cultiva una profunda metaconciencia y la realización del no-yo (Anatta)."
+    }
+  },
+  {
+    "nombre": "Entrenamiento en Dojo de Aikido",
+    "región": "Japón",
+    "tipo": "Energía",
+    "descripción": "Prácticas de armonía grupal para la disolución del ego.",
+    "detalles": {
+      "preparación": "Reverencia al altar (Shomen) y al compañero.",
+      "esquema": "1. Respiración de centrado. 2. Recepción de ataques (Uke). 3. Redirección de energía sin daño (Nage). 4. Rotación constante de compañeros.",
+      "preguntas": "¿Puedo neutralizar el conflicto sin infligir violencia?",
+      "conciencia": "Transforma el conflicto físico en un estudio de la dinámica de la energía relacional y el mantenimiento del centro."
+    }
+  },
+  {
+    "nombre": "Círculos de Ícaros de Ayahuasca",
+    "región": "Perú",
+    "tipo": "Ritual",
+    "descripción": "Búsquedas de visión comunitarias dirigidas por chamanes.",
+    "detalles": {
+      "preparación": "Dieta estricta (ayuno de ciertos alimentos/comportamientos).",
+      "esquema": "1. Ingesta de la purga. 2. Extinción de luces. 3. El chamán canta ícaros específicos para guiar las visiones. 4. Purga grupal y procesamiento.",
+      "preguntas": "¿Qué traumas estoy reteniendo que pertenecen a mi linaje?",
+      "conciencia": "Fuerza la confrontación radical con el inconsciente mientras se mantiene anclado por la guía auditiva del chamán."
+    }
+  },
+  {
+    "nombre": "Temazcales",
+    "región": "México",
+    "tipo": "Ritual",
+    "descripción": "Ceremonias mesoamericanas de renacimiento grupal.",
+    "detalles": {
+      "preparación": "Calentamiento de piedras volcánicas; establecimiento de la intención de purificación.",
+      "esquema": "1. Gateo hacia la cúpula oscura (útero). 2. Vertido de agua sobre las piedras (cuatro puertas/etapas). 3. Cánticos y gritos. 4. Emergencia renacida.",
+      "preguntas": "¿Qué partes de mi identidad deben morir en el calor?",
+      "conciencia": "Utiliza sensaciones físicas extremas para eludir las defensas mentales, creando un vínculo comunal profundo a través de la vulnerabilidad compartida."
+    }
+  },
+  {
+    "nombre": "Círculos de Palabra en Kiva",
+    "región": "Estados Unidos",
+    "tipo": "Diálogo",
+    "descripción": "Consenso tribal para el crecimiento espiritual.",
+    "detalles": {
+      "preparación": "Descenso a la Kiva subterránea.",
+      "esquema": "1. Encendido del fuego central. 2. Paso de la pipa sagrada. 3. Deliberación de asuntos tribales hasta alcanzar el consenso total.",
+      "preguntas": "¿Puedo entregar mi preferencia por la supervivencia de la tribu?",
+      "conciencia": "Requiere una inmensa paciencia y el desmantelamiento de posiciones egoicas obstinadas para lograr una verdadera alineación grupal."
+    }
+  },
+  {
+    "nombre": "Rituales de Mesa Pachakuti",
+    "región": "Perú",
+    "tipo": "Energía",
+    "descripción": "Tejido de energía grupal andina.",
+    "detalles": {
+      "preparación": "Creación de un altar sagrado (Mesa) que representa el cosmos.",
+      "esquema": "1. Llamado a los Apus (espíritus de las montañas). 2. Alineación de los tres mundos (Ukhu, Kay, Hanan). 3. Transmisiones de energía grupal (Sami).",
+      "preguntas": "¿Cómo equilibro la energía pesada (Hucha) con la ligera?",
+      "conciencia": "Entrena la atención en flujos energéticos ambientales y relacionales sutiles."
+    }
+  },
+  {
+    "nombre": "Círculos Jamaa",
+    "región": "RD Congo",
+    "tipo": "Ritual",
+    "descripción": "Sanación comunal bantú para la madurez social.",
+    "detalles": {
+      "preparación": "Identificación de la enfermedad social que afecta a un individuo.",
+      "esquema": "1. Reunión de toda la red extendida. 2. Tambores rítmicos. 3. Trance y comunicación espiritual. 4. Reintegración del individuo.",
+      "preguntas": "¿Cómo es la enfermedad de esta persona un síntoma de nuestro desequilibrio colectivo?",
+      "conciencia": "Desplaza el foco de la enfermedad y la sanación del cuerpo individual al cuerpo social."
+    }
+  },
+  {
+    "nombre": "Chozas de Palabra (Palaver)",
+    "región": "Ghana",
+    "tipo": "Diálogo",
+    "descripción": "Diálogos entre ancianos y jóvenes para capas de sabiduría.",
+    "detalles": {
+      "preparación": "Reunión en la estructura comunitaria de lados abiertos.",
+      "esquema": "1. Presentación de un dilema comunitario. 2. Los jóvenes ofrecen perspectivas modernas. 3. Los ancianos ofrecen precedentes históricos. 4. Síntesis.",
+      "preguntas": "¿Cómo honramos el pasado mientras nos adaptamos al futuro?",
+      "conciencia": "Desarrolla el pensamiento dialéctico: la capacidad de sostener y fusionar verdades generacionales contradictorias."
+    }
+  },
+  {
+    "nombre": "Rituales de Aldea Sobonfu",
+    "región": "Burkina Faso",
+    "tipo": "Ritual",
+    "descripción": "Círculos Dagara de guardianes de puertas.",
+    "detalles": {
+      "preparación": "Determinación de la naturaleza elemental de los participantes (Fuego, Agua, etc.).",
+      "esquema": "1. Rituales de duelo para vaciar la tristeza. 2. Reconocimiento del propósito individual por parte de la aldea. 3. Asignación de deberes comunales.",
+      "preguntas": "¿Cuál es la medicina específica que traje a esta aldea?",
+      "conciencia": "Vincula la autorrealización personal directamente con el servicio comunal utilitario."
+    }
+  },
+  {
+    "nombre": "Cadenas de Zikr Halqa",
+    "región": "Pakistán",
+    "tipo": "Mentoría",
+    "descripción": "Círculos de mentores sufíes para la unión divina.",
+    "detalles": {
+      "preparación": "Formación de una cadena física tomándose de las manos o entrelazando los brazos.",
+      "esquema": "1. Respiración rítmica. 2. Recitación sonora y sincronizada de 'Hu'. 3. Balanceo al unísono. 4. Logro de 'Fana' (aniquilación del yo).",
+      "preguntas": "¿Puedo perder mis límites físicos en el cuerpo del grupo?",
+      "conciencia": "Promueve estados altamente elevados de coherencia grupal sincronizada y disolución del ego."
+    }
+  },
+  {
+    "nombre": "Dhikr Silencioso Naqshbandi",
+    "región": "Uzbekistán",
+    "tipo": "Energía",
+    "descripción": "Trascendencia grupal centrada en el corazón.",
+    "detalles": {
+      "preparación": "Enfoque de la atención específicamente en el centro físico del corazón (Lataif).",
+      "esquema": "1. Cierre de ojos. 2. Canto interno y silencioso. 3. Visualización del corazón del mentor conectando con el propio. 4. Silencio grupal.",
+      "preguntas": "¿Podemos comunicarnos únicamente a través de la resonancia del corazón?",
+      "conciencia": "Cultiva una extrema sutileza interna y sensibilidad a campos energéticos grupales no verbales."
+    }
+  },
+  {
+    "nombre": "Colectivos de Matsuri Sintoísta",
+    "región": "Japón",
+    "tipo": "Ritual",
+    "descripción": "Ritos festivos para la evolución del espíritu comunal.",
+    "detalles": {
+      "preparación": "Ritos de purificación (Harai); construcción del Mikoshi (santuario portátil).",
+      "esquema": "1. Llamado del Kami (espíritu) al santuario. 2. Transporte grupal del santuario intensamente caótico y físicamente exigente. 3. Celebración gozosa.",
+      "preguntas": "¿Puedo entregar mis límites físicos al impulso de la multitud?",
+      "conciencia": "Induce la 'efervescencia colectiva', un estado donde la identidad individual es subsumida por el gozo y el esfuerzo grupal abrumador."
+    }
+  },
+  {
+    "nombre": "Grupos de Qi Gong Taoísta",
+    "región": "China",
+    "tipo": "Energía",
+    "descripción": "Circulación de energía del clan para la alquimia interna.",
+    "detalles": {
+      "preparación": "Alineación de la postura y despeje de la charla mental.",
+      "esquema": "1. Movimientos físicos lentos y sincronizados. 2. Guía del Qi a través de los meridianos. 3. Intercambio de energía con el entorno y el grupo. 4. Almacenamiento del Qi.",
+      "preguntas": "¿Cómo afecta mi equilibrio interno a la armonía de la habitación?",
+      "conciencia": "Entrena una atención precisa y dirigida sobre sutiles sensaciones somáticas internas y su proyección externa."
+    }
+  },
+  {
+    "nombre": "Sociedades Yoruba Egbe",
+    "región": "Nigeria",
+    "tipo": "Diálogo",
+    "descripción": "Grupos de pares ancestrales para el despliegue del destino.",
+    "detalles": {
+      "preparación": "Adivinación para determinar el grupo de pares espirituales de uno (Egbe Orun).",
+      "esquema": "1. Encuentro con contrapartes terrenales. 2. Discusión de obstáculos de la vida. 3. Realización de ofrendas al colectivo espiritual. 4. Alineación con el destino.",
+      "preguntas": "¿Estoy cumpliendo el contrato que hice antes de nacer?",
+      "conciencia": "Obliga al individuo a ver la trayectoria de su vida no como una elección solitaria, sino como un destino co-escrito por un colectivo espiritual."
+    }
+  },
+  {
+    "nombre": "Ofrendas Despacho Inca",
+    "región": "Bolivia",
+    "tipo": "Ritual",
+    "descripción": "Ritos de reciprocidad comunitaria andina.",
+    "detalles": {
+      "preparación": "Recolección de elementos naturales específicos (hojas de coca, semillas, dulces).",
+      "esquema": "1. Colocación intencionada de elementos en un mandala de papel. 2. Soplado de oraciones (Phukuy) en las hojas. 3. Plegado del fardo. 4. Quema del mismo para alimentar la tierra.",
+      "preguntas": "¿Qué debo devolver para mantener el equilibrio (Ayni)?",
+      "conciencia": "Cultiva una mentalidad profunda de reciprocidad e interconexión ecológica."
+    }
+  },
+  {
+    "nombre": "Tambores Sami Noaidi",
+    "región": "Finlandia/Suecia",
+    "tipo": "Energía",
+    "descripción": "Viaje grupal chamánico.",
+    "detalles": {
+      "preparación": "Reunión alrededor del fuego; el Noaidi (chamán) prepara el tambor sagrado.",
+      "esquema": "1. Tamborileo rítmico y monótono. 2. Canto Joik para inducir el trance. 3. El chamán viaja a otros reinos en busca de respuestas. 4. Interpretación grupal.",
+      "preguntas": "¿Qué mensajes nos envían los espíritus de la tierra?",
+      "conciencia": "Facilita estados alterados de conciencia donde el límite entre la percepción humana y la realidad ambiental se desdibuja."
+    }
+  },
+  {
+    "nombre": "Ceremonias Ngepin Mapuches",
+    "región": "Chile",
+    "tipo": "Ritual",
+    "descripción": "Círculos de sanación indígenas para el parentesco con la tierra.",
+    "detalles": {
+      "preparación": "Plantación del Rehue (tronco de árbol sagrado/escalera).",
+      "esquema": "1. Reunión al amanecer. 2. La Machi (sanadora) sube al Rehue. 3. Danza y oración continua por parte de la comunidad. 4. Petición por el equilibrio planetario.",
+      "preguntas": "¿Nuestras acciones están enfermando a la tierra?",
+      "conciencia": "Incrusta la salud psicológica directamente dentro del contexto de la salud ecológica y terrestre."
+    }
+  },
+  {
+    "nombre": "Grupos Wirinaka Aymaras",
+    "región": "Bolivia",
+    "tipo": "Energía",
+    "descripción": "Visiones comunales andinas de seres estelares.",
+    "detalles": {
+      "preparación": "Reuniones nocturnas a grandes altitudes.",
+      "esquema": "1. Observación de las constelaciones oscuras (Vía Láctea). 2. Masticación de coca. 3. Discusión de astronomía mitológica. 4. Alineación de ciclos agrícolas.",
+      "preguntas": "¿Cómo dictan los movimientos de las estrellas nuestras acciones diarias?",
+      "conciencia": "Expande el marco de referencia a una escala cósmica, minimizando las preocupaciones egoicas insignificantes."
+    }
+  },
+  {
+    "nombre": "Iniciaciones Zulúes de Sangoma",
+    "región": "Sudáfrica",
+    "tipo": "Mentoría",
+    "descripción": "Entrenamiento grupal de adivinos para etapas del alma.",
+    "detalles": {
+      "preparación": "El iniciado (Thwasa) se aísla y experimenta 'enfermedad espiritual'.",
+      "esquema": "1. Aprendizaje bajo un Sangoma senior. 2. Aprendizaje de tirar los huesos. 3. Danza comunal intensa para despertar a los espíritus. 4. Ceremonia final de graduación.",
+      "preguntas": "¿Puedo traducir las voces de los antepasados para los vivos?",
+      "conciencia": "Transforma la angustia psicológica aguda en una capacidad de sanación comunal estructurada y altamente valorada."
+    }
+  },
+  {
+    "nombre": "Consejos Subak Balineses",
+    "región": "Indonesia",
+    "tipo": "Diálogo",
+    "descripción": "Colectivos de templos de arroz para el crecimiento equilibrado.",
+    "detalles": {
+      "preparación": "Reunión en el templo del agua.",
+      "esquema": "1. Ofrendas rituales a la diosa del agua. 2. Discusión democrática de la asignación de agua. 3. Coordinación de calendarios de siembra. 4. Estrategias de control de plagas.",
+      "preguntas": "¿Cómo podemos compartir este recurso escaso perfectamente?",
+      "conciencia": "Fusiona la devoción espiritual con una gestión agrícola y ecológica cooperativa altamente compleja."
+    }
+  },
+  {
+    "nombre": "Rituales de Ovoo Mongol",
+    "región": "Mongolia",
+    "tipo": "Ritual",
+    "descripción": "Ofrendas grupales cielo-tierra.",
+    "detalles": {
+      "preparación": "Acercamiento al túmulo de piedras sagrado (Ovoo) en un paso de montaña.",
+      "esquema": "1. Caminar en el sentido de las agujas del reloj alrededor del Ovoo tres veces. 2. Añadir una piedra o un pañuelo de seda azul (Khadag). 3. Ofrenda de leche o vodka. 4. Oración al Eterno Cielo Azul.",
+      "preguntas": "¿Cómo honro a los espíritus del lugar por el que estoy pasando?",
+      "conciencia": "Inculca una conciencia situacional constante y reverencia por el paisaje físico y sus guardianes invisibles."
+    }
+  },
+  {
+    "nombre": "Ngakpa Chöd Tibetano",
+    "región": "Bután",
+    "tipo": "Energía",
+    "descripción": "Círculos de práctica de corte para el corte del ego.",
+    "detalles": {
+      "preparación": "Ir a un lugar aterrador (p. ej., un cementerio o un bosque oscuro).",
+      "esquema": "1. Toque de la trompeta de fémur y tambor de mano. 2. Visualización de ofrecer el propio cuerpo a los demonios. 3. Corte a través del miedo. 4. Descanso en la vacuidad.",
+      "preguntas": "¿Puedo invitar a mis mayores terrores a un banquete?",
+      "conciencia": "Una tecnología psicológica radical para confrontar y desmantelar el miedo del ego a la aniquilación."
+    }
+  },
+  {
+    "nombre": "Narración Inuit Qilaut",
+    "región": "Groenlandia",
+    "tipo": "Diálogo",
+    "descripción": "Círculos de canciones con tambor para la madurez mítica.",
+    "detalles": {
+      "preparación": "Reunión en la casa de nieve durante la larga noche de invierno.",
+      "esquema": "1. Calentamiento del tambor de marco. 2. Canto de canciones ancestrales. 3. Representación de mitos a través de la danza y expresiones faciales. 4. Paso del tambor.",
+      "preguntas": "¿Cómo instruye esta historia antigua mi comportamiento mañana?",
+      "conciencia": "Utiliza el ritmo y la narrativa para codificar datos complejos de supervivencia y sociales profundamente en la memoria colectiva."
+    }
+  }
+]

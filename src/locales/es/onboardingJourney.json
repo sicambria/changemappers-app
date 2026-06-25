@@ -1,0 +1,175 @@
+{
+  "eyebrow": "Onboarding a tu ritmo",
+  "title": "Tu camino dentro de Changemappers, {{name}}",
+  "intro": "Este recorrido existe para apoyar tu orientación, no para apurarte. Marca una práctica como hecha solo cuando realmente ocurrió. Puedes reabrir cualquier paso cuando vuelva a ser relevante.",
+  "progressLabel": "Progreso del recorrido",
+  "progressSummary": "{{completed}} de {{total}} prácticas marcadas como hechas",
+  "pace": {
+    "title": "Sin fecha límite, sin presión",
+    "body": "La antigua secuencia de 12 semanas ahora es un ritmo que tú sostienes. Algunas personas completan una práctica en un día; otras vuelven meses después. Ambas formas son válidas. El objetivo es integración honesta, no velocidad."
+  },
+  "next": {
+    "title": "Siguiente paso disponible",
+    "complete": "Todas las prácticas están marcadas como hechas. Aun así puedes volver a cualquier paso cuando tu trabajo cambie."
+  },
+  "completion": {
+    "title": "Recorrido completado",
+    "subtitle": "Has trabajado las 12 prácticas. Sigue integrándolas a tu propio ritmo — el mapa te espera.",
+    "cta": "Explorar el mapa"
+  },
+  "status": {
+    "done": "Hecho",
+    "open": "Abierto"
+  },
+  "actions": {
+    "browseMap": "Explorar el mapa",
+    "openReflection": "Abrir reflexión",
+    "writePitch": "Escribir tu pitch",
+    "mapEnergy": "Mapear tu energía",
+    "shareStory": "Abrir historias",
+    "findGroup": "Encontrar un grupo de trabajo",
+    "postAsk": "Publicar o explorar una petición",
+    "reviewEnergy": "Revisar energía",
+    "findIntersection": "Encontrar intersecciones",
+    "reviewLanguage": "Revisar lenguaje compartido",
+    "reviewBoundaries": "Revisar configuración",
+    "reflectJoy": "Reflexionar sobre el servicio",
+    "markDone": "Marcar como hecho",
+    "reopen": "Reabrir",
+    "moreInfo": "Más información"
+  },
+  "errors": {
+    "saveFailed": "No se pudo guardar este paso. Inténtalo de nuevo."
+  },
+  "steps": {
+    "welcome": {
+      "title": "Bienvenida y orientación",
+      "body": "Entra con calma. Mira el mapa, observa lo que ya está en movimiento y permite que el ecosistema tome forma antes de comprometerte.",
+      "practice": "Hecho cuando hayas explorado el mapa o te hayas presentado de una forma honesta.",
+      "quote": "Nunca dudes de que un pequeño grupo de personas reflexivas y comprometidas puede cambiar el mundo; de hecho, es lo único que siempre lo ha logrado.",
+      "quoteBy": "Margaret Mead",
+      "subject": "Bienvenida a Changemappers. Tu trabajo empieza aquí.",
+      "details": "Este es un umbral de orientación, no una prueba de rendimiento. Deja que el mapa, los canales y las personas te muestren lo que ya está vivo antes de decidir dónde contribuir.",
+      "winWinWin": "Tú ganas entrando a un ritmo sostenible, otras personas ganan al encontrarte con más claridad y el común gana porque la atención va donde realmente puede ayudar."
+    },
+    "inner_condition": {
+      "title": "Revisar tu condición interior",
+      "body": "Antes de actuar hacia afuera, nota tu capacidad. El cambio necesita personas que puedan percibir agotamiento, resentimiento, entusiasmo y energía sostenible.",
+      "practice": "Hecho cuando hayas escrito o dicho una revisión real de cansancio y propósito.",
+      "quote": "El éxito de una intervención depende de la condición interior de quien interviene.",
+      "quoteBy": "Bill O'Brien",
+      "subject": "¿Cómo estás, de verdad? Revisión de agotamiento.",
+      "details": "Antes de cambiar sistemas, revisa el instrumento con el que los tocas: tu atención, tu cuerpo, tus motivos y tu capacidad.",
+      "winWinWin": "Tú ganas honestidad contigo, quienes colaboran contigo ganan contacto más estable y el sistema amplio gana porque la urgencia agotada no dirige el trabajo."
+    },
+    "pitch": {
+      "title": "Estructurar tu postura",
+      "body": "Aclara lo que ves, hacia dónde trabajas y cómo otras personas pueden unirse sin tener que descifrar toda tu historia.",
+      "practice": "Hecho cuando tu perfil o pitch tenga una versión útil de tu postura actual.",
+      "quote": "Sé el cambio que quieres ver en el mundo.",
+      "quoteBy": "Mahatma Gandhi",
+      "subject": "¿Qué defiendes? Escribir tu pitch.",
+      "details": "Un buen pitch no es un guion de venta. Es una invitación compacta que vuelve legibles tu problema, visión, rol y forma de unirse.",
+      "winWinWin": "Tú ganas claridad sobre tu postura, posibles aliadas ganan una invitación comprensible y el ecosistema gana al reducir fricción de coordinación."
+    },
+    "regenerative_practice": {
+      "title": "Elegir una práctica regenerativa",
+      "body": "Observa si tus métodos regeneran o extraen de tu cuerpo, tu equipo y el sistema más amplio.",
+      "practice": "Hecho cuando hayas nombrado una práctica que vas a mantener, cambiar o detener.",
+      "quote": "Amar no es reducir la complejidad de alguien.",
+      "quoteBy": "Nora Bateson",
+      "subject": "Cuidar la complejidad y cuidarte.",
+      "details": "El trabajo regenerativo pregunta si tus métodos reponen vida o extraen silenciosamente de cuerpos, equipos y lugares mientras se presentan como progreso.",
+      "winWinWin": "Tú ganas al rechazar la autoextracción, quienes colaboran ganan métodos más humanos y el sistema vivo gana cuando la complejidad se cuida en vez de aplanarse."
+    },
+    "failure_learning": {
+      "title": "Normalizar aprender del fracaso",
+      "body": "El perfeccionismo bloquea el contacto con la realidad. Comparte o documenta en privado qué se rompió, qué enseñó y qué cambia ahora.",
+      "practice": "Hecho cuando hayas capturado una lección útil de un fracaso.",
+      "quote": "Empieza donde estás. Usa lo que tienes. Haz lo que puedas.",
+      "quoteBy": "Arthur Ashe",
+      "subject": "Fallar rápido, aprender hacia adelante.",
+      "details": "El fracaso es información cuando se trabaja sin vergüenza. No se trata de celebrar el daño, sino de extraer aprendizaje lo bastante temprano para cambiar de rumbo.",
+      "winWinWin": "Tú ganas al transformar vergüenza en aprendizaje, tus pares ganan lecciones reutilizables y el común gana cuando los experimentos mejoran en vez de esconderse."
+    },
+    "working_group": {
+      "title": "Encontrar a tu gente",
+      "body": "El trabajo sistémico pesa demasiado en soledad. Busca un grupo, iniciativa, círculo o tarea donde tu presencia pueda ser real y acotada.",
+      "practice": "Hecho cuando hayas entrado, iniciado o descartado conscientemente un grupo concreto.",
+      "quote": "Si quieres ir rápido, ve solo. Si quieres llegar lejos, ve acompañado.",
+      "quoteBy": "Proverbio africano",
+      "subject": "No puedes hacer esto en soledad.",
+      "details": "El cambio sistémico pesa demasiado para cargarlo a solas. Busca una comunidad de práctica, un círculo transformador o un grupo de investigación-acción donde contribuir y aprender ocurran juntos.",
+      "winWinWin": "Tú ganas apoyo y foco, el grupo gana tu contribución acotada y el sistema gana cuando el esfuerzo aislado se vuelve capacidad compartida."
+    },
+    "mutual_aid": {
+      "title": "Practicar ayuda mutua",
+      "body": "Un bien común sano incluye dar y recibir. Pedir con claridad es parte de participar, no una debilidad.",
+      "practice": "Hecho cuando hayas publicado, redactado o pedido directamente una petición clara.",
+      "quote": "Si has venido aquí para ayudarme, estás perdiendo tu tiempo. Pero si tu liberación está vinculada con la mía, entonces trabajemos juntos.",
+      "quoteBy": "Lilla Watson",
+      "subject": "Practicar ayuda mutua",
+      "details": "Un bien común sano incluye dar y recibir. Pedir con claridad es parte de participar, no una debilidad.",
+      "winWinWin": "Usa este paso para elegir un siguiente movimiento que proteja tu capacidad, aporte valor claro a quienes colaboran contigo y fortalezca el común más amplio."
+    },
+    "energy_alignment": {
+      "title": "Alinear con tu energía",
+      "body": "Revisa tus compromisos. Nota qué tareas dan energía, cuáles drenan y dónde estás llenando huecos por culpa.",
+      "practice": "Hecho cuando hayas ajustado un compromiso hacia un rol más sostenible.",
+      "quote": "No preguntes qué necesita el mundo. Pregunta qué te hace sentir vivo, y ve y hazlo.",
+      "quoteBy": "Howard Thurman",
+      "subject": "Alinear con tu energía",
+      "details": "Revisa tus compromisos. Nota qué tareas dan energía, cuáles drenan y dónde estás llenando huecos por culpa.",
+      "winWinWin": "Usa este paso para elegir un siguiente movimiento que proteja tu capacidad, aporte valor claro a quienes colaboran contigo y fortalezca el común más amplio."
+    },
+    "systems_connection": {
+      "title": "Ver a través de sistemas",
+      "body": "Encuentra un proyecto fuera de tu campo habitual y busca intersecciones. Clima, vivienda, cuidado, gobernanza y aprendizaje suelen encontrarse en lugares inesperados.",
+      "practice": "Hecho cuando hayas explorado o contactado un proyecto fuera de tu área familiar.",
+      "quote": "La tierra es un solo país, y la humanidad sus ciudadanos.",
+      "quoteBy": "Bahaullah",
+      "subject": "Ver a través de sistemas",
+      "details": "Encuentra un proyecto fuera de tu campo habitual y busca intersecciones. Clima, vivienda, cuidado, gobernanza y aprendizaje suelen encontrarse en lugares inesperados.",
+      "winWinWin": "Usa este paso para elegir un siguiente movimiento que proteja tu capacidad, aporte valor claro a quienes colaboran contigo y fortalezca el común más amplio."
+    },
+    "friction_grace": {
+      "title": "Sostener fricción con gracia",
+      "body": "El conflicto forma parte del trabajo colectivo. Practica separar impacto e intención, y enfocar la crítica en la idea o el proceso.",
+      "practice": "Hecho cuando hayas usado o preparado un movimiento de conflicto más saludable.",
+      "quote": "Haz a otros lo que quieras que te hagan a ti.",
+      "quoteBy": "La Regla de Oro",
+      "subject": "Sostener fricción con gracia",
+      "details": "El conflicto forma parte del trabajo colectivo. Practica separar impacto e intención, y enfocar la crítica en la idea o el proceso.",
+      "winWinWin": "Usa este paso para elegir un siguiente movimiento que proteja tu capacidad, aporte valor claro a quienes colaboran contigo y fortalezca el común más amplio."
+    },
+    "boundaries": {
+      "title": "Proteger tus límites",
+      "body": "La contribución sostenible necesita límites. Revisa notificaciones, visibilidad, ritmo y qué tipo de contacto es bienvenido.",
+      "practice": "Hecho cuando un límite o ajuste refleje tu capacidad real.",
+      "quote": "Cuidarme a mí misma no es autoindulgencia, es autopreservación, y eso es un acto de guerra política.",
+      "quoteBy": "Audre Lorde",
+      "subject": "Proteger tus límites",
+      "details": "La contribución sostenible necesita límites. Revisa notificaciones, visibilidad, ritmo y qué tipo de contacto es bienvenido.",
+      "winWinWin": "Usa este paso para elegir un siguiente movimiento que proteja tu capacidad, aporte valor claro a quienes colaboran contigo y fortalezca el común más amplio."
+    },
+    "cycle_of_joy": {
+      "title": "Volver al ciclo de la alegría",
+      "body": "El trabajo no termina, así que la alegría no puede posponerse hasta el final. Observa dónde se encuentran servicio, respeto y vitalidad.",
+      "practice": "Hecho cuando hayas marcado qué hace que valga la pena continuar este trabajo.",
+      "quote": "Dormí y soñé que la vida era alegría. Desperté y vi que la vida era servicio. Actué y, he aquí, el servicio era alegría.",
+      "quoteBy": "Rabindranath Tagore",
+      "subject": "Volver al ciclo de la alegría",
+      "details": "El trabajo no termina, así que la alegría no puede posponerse hasta el final. Observa dónde se encuentran servicio, respeto y vitalidad.",
+      "winWinWin": "Usa este paso para elegir un siguiente movimiento que proteja tu capacidad, aporte valor claro a quienes colaboran contigo y fortalezca el común más amplio."
+    }
+  },
+  "modal": {
+    "eyebrow": "Guía de práctica",
+    "close": "Cerrar",
+    "contextLabel": "Contexto",
+    "practiceLabel": "Señal de finalización",
+    "winWinWinLabel": "Dirección regenerativa win-win-win",
+    "draftNotesLabel": "Notas privadas",
+    "draftNotesPlaceholder": "Notas privadas"
+  }
+}

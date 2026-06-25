@@ -1,0 +1,14 @@
+{
+  "minLength": "Minimum {{min}} karakter szükséges",
+  "maxLength": "Maximum {{max}} karakter engedélyezett",
+  "email": "Adj meg egy érvényes email címet",
+  "url": "Adj meg egy érvényes URL-t (https://...)",
+  "required": "A mező kitöltése kötelező",
+  "password": {
+    "minLength": "Legalább 12 karakter",
+    "uppercase": "Tartalmaznia kell nagybetűt",
+    "lowercase": "Tartalmaznia kell kisbetűt",
+    "number": "Tartalmaznia kell számot",
+    "special": "Tartalmaznia kell speciális karaktert"
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "title": "Coordinación",
+  "nav": {
+    "board": "Tablero de Iniciativas",
+    "backlog": "Lista de Espera",
+    "new": "Proponer Iniciativa",
+    "metrics": "Métricas",
+    "myBoard": "Mi Tablero"
+  },
+  "philosophy": "Este es un espacio común de iniciativas — un mapa compartido de en qué está trabajando la comunidad, qué está atascado, quién se necesita y qué se ha aprendido.",
+  "board": {
+    "title": "Tablero de Iniciativas",
+    "subtitle": "Lo que la comunidad sostiene y en lo que trabaja.",
+    "empty": "No hay iniciativas en este estado.",
+    "whatNeeded": "Qué se necesita ahora",
+    "personal": "Tablero Personal",
+    "communityInternal": "Tablero Comunitario (Interno)",
+    "communityPublic": "Tablero Comunitario (Público)",
+    "bioregional": "Bioregional",
+    "national": "Nacional",
+    "international": "Tablero Internacional"
+  },
+  "states": {
+    "IMAGINED": "Imaginado",
+    "EXPLORING": "Explorando",
+    "PLANNED": "Planificado",
+    "IN_PROGRESS": "En Progreso",
+    "INTEGRATING": "Integrando",
+    "COMPLETED": "Completado",
+    "ARCHIVED": "Archivado"
+  },
+  "stateDescriptions": {
+    "IMAGINED": "Una dirección o pregunta, aún no una iniciativa definida",
+    "EXPLORING": "Construcción activa de sentido; la forma del trabajo se está formando",
+    "PLANNED": "Lo suficientemente definido para invitar contribuciones específicas",
+    "IN_PROGRESS": "Activo",
+    "INTEGRATING": "Concluyendo; el aprendizaje se está capturando antes del cierre",
+    "COMPLETED": "Listo; documentación en los comunes",
+    "ARCHIVED": "Detenido o en pausa; razón documentada"
+  },
+  "initiative": {
+    "create": "Proponer Iniciativa",
+    "edit": "Editar Iniciativa",
+    "title": "Título",
+    "description": "Qué intenta hacer esta iniciativa",
+    "why": "Por qué importa",
+    "rdgAlignment": "Alineación con objetivos RDG",
+    "rdgAlignmentOptional": "Alineación con objetivos RDG (opcional)",
+    "rdgDomain": "Dominio RDG",
+    "rdgDomainHint": "Selecciona el dominio principal al que contribuye esta iniciativa.",
+    "rdgGoalHint": "Opcionalmente, selecciona objetivos específicos dentro del dominio.",
+    "canvasNode": "Nodo de mapa vinculado (opcional)",
+    "state": "Estado",
+    "moveState": "Mover a",
+    "archiveReason": "Razón para archivar",
+    "archive": "Archivar iniciativa",
+    "complete": "Marcar como completado"
+  },
+  "domains": {
+    "1": "Desarrollo Humano y Capacidad Interior",
+    "2": "Regeneración de Sistemas Vivos",
+    "3": "Economía e Infraestructura Regenerativa",
+    "4": "Gobernanza e Inteligencia Colectiva",
+    "5": "Administración a Largo Plazo y Resiliencia Civilizacional"
+  },
+  "roles": {
+    "title": "Roles de contribución",
+    "add": "Añadir rol de contribución",
+    "remove": "Eliminar",
+    "roleType": "Tipo de rol",
+    "contributionType": "Qué estás contribuyendo",
+    "types": {
+      "CONTRIBUTOR": "Contribuyente",
+      "COORDINATOR": "Coordinador",
+      "STEWARD": "Custodio",
+      "NODE_FACILITATOR": "Facilitador de nodo",
+      "SYSTEMS_STEWARD": "Custodio de sistemas"
+    }
+  },
+  "updates": {
+    "title": "Actualizaciones",
+    "add": "Añadir actualización narrativa",
+    "narrative": "Qué está pasando",
+    "whatShifting": "Qué está cambiando (opcional)",
+    "whatHard": "Qué es difícil (opcional)",
+    "helpNeeded": "Qué ayuda realmente cambiaría las cosas (opcional)"
+  },
+  "retrospective": {
+    "title": "Retrospectiva",
+    "prompt": "Qué intentamos hacer, qué pasó, qué haríamos diferente, qué dejamos en los comunes para la siguiente comunidad que enfrente algo similar.",
+    "submit": "Enviar retrospectiva",
+    "publicNote": "Esta retrospectiva vive en los comunes."
+  },
+  "backlog": {
+    "title": "Lista de Espera Comunitaria",
+    "subtitle": "Ideas y trabajo emergente que la comunidad considera valioso. Ordenado por resonancia comunitaria — no por prioridad de arriba hacia abajo.",
+    "add": "Añadir a la lista",
+    "resonance": "rezonancia",
+    "flagResonance": "Veo potencial aquí",
+    "proposedBy": "Propuesto por {{name}}",
+    "unflagResonance": "Quitar mi resonancia",
+    "empty": "La lista de espera está vacía.",
+    "filters": {
+      "rdgGoal": "Objetivo RDG",
+      "domain": "Área"
+    },
+    "item": {
+      "title": "Título",
+      "description": "Descripción",
+      "rdgGoal": "Objetivo RDG (opcional)",
+      "domain": "Área (opcional)"
+    }
+  },
+  "card": {
+    "state": "Estado",
+    "contributions": "contribuciones",
+    "retrospective": "✓ Retrospectiva",
+    "updated": "Última actualización"
+  },
+  "wip": {
+    "title": "Límites WIP",
+    "configure": "Configurar Límites WIP",
+    "description": "Establecer límites de trabajo en progreso para cada columna. Los elementos no se pueden mover a una columna que ha alcanzado su límite.",
+    "noLimit": "Sin límite",
+    "atLimit": "En el límite",
+    "overLimit": "Sobre el límite",
+    "limitReached": "Límite WIP alcanzado para {{state}} (máx: {{limit}})",
+    "saveLimits": "Guardar Límites"
+  },
+  "metrics": {
+    "title": "Métricas",
+    "subtitle": "Métricas Lean y análisis de rendimiento",
+    "cycleTime": "Tiempo de Ciclo Promedio",
+    "leadTime": "Tiempo de Entrega Promedio",
+    "throughput": "Producción",
+    "throughputUnit": "elementos/30d",
+    "wip": "Trabajo en Progreso",
+    "flowEfficiency": "Eficiencia de Flujo",
+    "completionRate": "Tasa de Finalización",
+    "distributionByState": "Distribución por Estado",
+    "weeklyThroughput": "Producción Semanal",
+    "blockedItems": "Elementos Bloqueados",
+    "blockedItemsDescription": "Elementos en el mismo estado por más de 30 días",
+    "moreBlocked": "más elementos bloqueados",
+    "backToBoard": "Volver al Tablero",
+    "na": "N/D",
+    "flowEfficiencyDescription": "Porcentaje de tiempo activo vs tiempo total en proceso",
+    "completedOf": "{{completed}} de {{total}}",
+    "week1": "Sem 1",
+    "week2": "Sem 2",
+    "week3": "Sem 3",
+    "week4": "Sem 4",
+    "completed": "Completado"
+  },
+  "retrospectiveForm": {
+    "submitted": "Retrospectiva enviada",
+    "submittedMessage": "Gracias por compartir lo aprendido.",
+    "submitTitle": "Enviar retrospectiva",
+    "publicNarrative": "Narrativa pública",
+    "placeholder": "Qué intentamos hacer, qué pasó, qué haríamos diferente...",
+    "submitting": "Enviando\u2026"
+  },
+  "age": {
+    "hours": "h",
+    "days": "d",
+    "weeks": "s",
+    "months": "me",
+    "years": "a"
+  },
+  "form": {
+    "section1Title": "Información Básica",
+    "section1Subtitle": "¿Cómo llamas a esta iniciativa?",
+    "titleLabel": "Título",
+    "titlePlaceholder": "Título de la iniciativa",
+    "descriptionLabel": "Descripción",
+    "descriptionPlaceholder": "Describe esta iniciativa",
+    "whyLabel": "Por qué",
+    "whyPlaceholder": "¿Por qué importa esto? ¿Qué cambio buscas?",
+    "minChars": "Mínimo 20 caracteres",
+    "minCharsShort": "{{length}}/20 min",
+    "typeLabel": "Tipo de Iniciativa",
+    "typePlaceholder": "Buscar y seleccionar tipo...",
+    "typeSearchPlaceholder": "Buscar tipos...",
+    "typeNoResults": "No se encontraron tipos.",
+    "rdgPlaceholder": "Selecciona una alineación RDG...",
+    "rdgSearchPlaceholder": "Buscar RDGs...",
+    "rdgNoResults": "No se encontraron RDGs.",
+    "section2Title": "Alineación RDG",
+    "section2Subtitle": "Conecta esta iniciativa con el marco de desarrollo regenerativo.",
+    "selectDomain": "Seleccionar dominio...",
+    "errorType": "Por favor selecciona un tipo de iniciativa.",
+    "errorDomain": "Por favor selecciona un dominio.",
+    "errorGeneric": "Error al crear la iniciativa. Por favor intenta de nuevo.",
+    "creating": "Creando...",
+    "createCta": "Crear Iniciativa"
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "title": "Growth Hub",
+  "subtitle": "Find and offer mentoring, coaching, training, and peer support",
+  "tabs": {
+    "find": "Find Support",
+    "offer": "Offer Support",
+    "myOffers": "My Offers",
+    "connections": "My Connections",
+    "nature": "Nature"
+  },
+  "modality": {
+    "mentor": "Mentoring",
+    "coach": "Coaching",
+    "training": "Training",
+    "peer": "Peer Support"
+  },
+  "levels": {
+    "EXPLORER": "Explorer",
+    "PRACTITIONER": "Practitioner",
+    "GUIDE": "Guide"
+  },
+  "deliveryMode": {
+    "ONLINE": "Online",
+    "IN_PERSON": "In Person",
+    "HYBRID": "Hybrid (Online + In Person)"
+  },
+  "filter": {
+    "all": "All Modalities",
+    "domain": "Domain",
+    "format": "Format"
+  },
+  "actions": {
+    "create": "Create Offer",
+    "edit": "Edit",
+    "delete": "Archive",
+    "contact": "Contact",
+    "archive": "Archive",
+    "confirmArchive": "Archive this offer?",
+    "confirmYes": "Yes, archive",
+    "archiving": "Archiving…",
+    "cancel": "Cancel",
+    "archiveFailed": "Could not archive. Please try again."
+  },
+  "form": {
+    "selectModality": "Select what you want to offer",
+    "domainLabel": "Domain / Area of expertise",
+    "domainPlaceholder": "e.g., Permaculture, Community organizing",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Describe what you offer...",
+    "formatLabel": "Format",
+    "levelLabel": "Level",
+    "deliveryModeLabel": "Delivery Mode",
+    "cityLabel": "City",
+    "cityPlaceholder": "Search for a city...",
+    "urlLabel": "Professional webpage or social media",
+    "urlPlaceholder": "https://...",
+    "styleLabel": "Coaching Style",
+    "timeCommitmentLabel": "Time Commitment",
+    "timeCommitmentPresets": {
+      "1-2h": "1-2 hours/week",
+      "3-5h": "3-5 hours/week",
+      "weekend": "Weekend intensive",
+      "selfPaced": "Self-paced",
+      "custom": "Custom..."
+    },
+    "situationTypeLabel": "Situation Type",
+    "maxConcurrentLabel": "Max concurrent relationships",
+    "customTimePlaceholder": "e.g., 10 hours/month",
+    "stylePlaceholder": "e.g., Art-based, Somatic...",
+    "formatPlaceholder": "e.g., 1-on-1 sessions, Workshops...",
+    "situationTypePlaceholder": "e.g., Career transition, Grief & loss...",
+    "peerFormatPlaceholder": "e.g., Weekly check-ins...",
+    "yearsExperienceLabel": "Years of Experience",
+    "coachingFormats": [
+      "1-on-1 sessions",
+      "Group sessions",
+      "Workshops",
+      "Retreats",
+      "Online course"
+    ],
+    "peerSituations": [
+      "Career transition",
+      "Relationship challenges",
+      "Grief & loss",
+      "Creative blocks",
+      "Burnout recovery",
+      "Spiritual journey"
+    ],
+    "peerFormats": [
+      "Weekly check-ins",
+      "Monthly walks",
+      "Online messaging",
+      "In-person meetings"
+    ]
+  },
+  "empty": {
+    "noOffers": "No offers available",
+    "noMyOffers": "You haven't created any offers yet",
+    "noConnections": "No active connections"
+  },
+  "card": {
+    "offeredBy": "Offered by"
+  },
+  "offer": {
+    "pageTitle": "Offer Support",
+    "loading": "Loading..."
+  },
+  "compass": {
+    "shell": {
+      "title": "The Changemaker Compass",
+      "subtitle": "Personal growth planning — orientation over instruction.",
+      "navAriaLabel": "Compass pillars"
+    },
+    "capacity": {
+      "pillarLabel": "Pillar III",
+      "title": "Capacity & Resources",
+      "description": "How much time, energy, and material support can you realistically dedicate to changemaking right now?",
+      "honestAssessment": "Honest Self-Assessment",
+      "required": "Required",
+      "rateEach": "Rate each dimension honestly — not where you wish you were, but where you are today.",
+      "timeLabel": "Time",
+      "timeDescription": "How much discretionary time can you reliably allocate each week?",
+      "resourcesLabel": "Resources",
+      "resourcesDescription": "Financial, material, or logistical resources at your disposal.",
+      "bandwidthLabel": "Emotional & Mental Bandwidth",
+      "bandwidthDescription": "Your current cognitive and emotional capacity for taking on new commitments.",
+      "scoreLabels": {
+        "1": "Barely any",
+        "2": "Very limited",
+        "3": "Moderate",
+        "4": "Solid",
+        "5": "Abundant"
+      },
+      "notSet": "Not set",
+      "seeSuggestedScope": "See suggested scope",
+      "scopeSetting": "Scope Setting",
+      "scopeSuggestionIntro": "Based on your average score of {{avg}}, we suggest:",
+      "suggestScope": {
+        "narrow": {
+          "label": "Narrow Scope",
+          "desc": "Focus on one small, manageable experiment. Protect your energy."
+        },
+        "moderate": {
+          "label": "Moderate Scope",
+          "desc": "A balanced approach — enough to make progress without overcommitting."
+        },
+        "active": {
+          "label": "Active Scope",
+          "desc": "You have solid capacity across the board. Take on more ambitious experiments."
+        }
+      },
+      "scopeAdjustPrompt": "Adjust if needed — pick the scope that truly fits your life right now:",
+      "scopeOptions": {
+        "1": {
+          "label": "Narrow",
+          "desc": "1 experiment slot"
+        },
+        "2": {
+          "label": "Moderate",
+          "desc": "2 experiment slots"
+        },
+        "3": {
+          "label": "Active",
+          "desc": "3 experiment slots"
+        }
+      },
+      "optionalDepth": "Go Deeper (Optional)",
+      "anyOrderPrivate": "fill in any order, purely private",
+      "energyPatternLabel": "Energy Patterns",
+      "energyPatternHint": "When are you at your best? When do you crash? What drains or recharges you?",
+      "riskFearsLabel": "Risks & Fears",
+      "riskFearsHint": "What could go wrong? What scares you — and what would help you move anyway?",
+      "emotionalPatternLabel": "Emotional Pattern",
+      "emotionalPatternHint": "How do you typically respond under pressure or uncertainty?",
+      "supportNetworkMap": "Support Network Map",
+      "optional": "optional",
+      "emptyFieldsGaps": "Empty fields reveal gaps — that's the point.",
+      "supportNet": {
+        "mentor": "Mentor",
+        "peer": "Peer",
+        "challenger": "Challenger",
+        "believer": "Believer"
+      },
+      "supportNetPlaceholder": "Name or role…",
+      "emptyFieldsNote": "Empty fields aren't failures — they're invitations to grow your network.",
+      "error": "Something went wrong. Please try again.",
+      "savedMessage": "Capacity profile saved!",
+      "planningFor": "Planning for {{count}} experiment slot(s)",
+      "selectScopeAbove": "Select a scope above to continue",
+      "saving": "Saving…",
+      "updateCapacity": "Update Capacity",
+      "confirmScopeUnlock": "Confirm scope and open next pillar"
+    },
+    "catalyst": {
+      "pillarLabel": "Pillar IV",
+      "title": "Catalyst & Experimentation",
+      "description": "Design real-world experiments to test your changemaking hypotheses. You have {{count}} experiment slot(s).",
+      "experimentDesign": "Experiment Design",
+      "atLeast1Required": "At least 1 required",
+      "hypothesisPrompt": "If I do X with Y, then something shifts — and here's how I'll check.",
+      "experimentNum": "Experiment {{num}}",
+      "clearExperiment": "Clear experiment {{num}}",
+      "ifIDo": "If I do…",
+      "actionPlaceholder": "e.g., host a community dinner, start a skill-share circle",
+      "with": "With…",
+      "peoplePlaceholder": "e.g., my neighbors, local youth group, co-op members",
+      "thenSomethingShifts": "Then something shifts…",
+      "hypothesisPlaceholder": "e.g., people will share contact info and form a loose network",
+      "impactCheck": "Impact check",
+      "impactCheckHint": "How will you know if it worked? What observable signal would confirm your hypothesis?",
+      "impactPlaceholder": "e.g., 3+ people exchange contacts, someone volunteers to organize the next one",
+      "whatHappened": "What happened?",
+      "outcomePlaceholder": "What actually occurred? Be honest — negative results are data too.",
+      "recordWhatHappened": "Record what happened",
+      "domainBalanceTracker": "Domain Balance Tracker",
+      "optional": "optional",
+      "imbalanceInfo": "Which domains are growing, stable, or slipping? Erosion here is information, not failure.",
+      "domains": {
+        "relationships": {
+          "label": "Relationships",
+          "hint": "Depth & trust in key connections"
+        },
+        "resources": {
+          "label": "Resources",
+          "hint": "Financial, material, logistical"
+        },
+        "knowledge": {
+          "label": "Knowledge",
+          "hint": "Skills, information, expertise"
+        },
+        "influence": {
+          "label": "Influence",
+          "hint": "Ability to shape decisions"
+        },
+        "wellbeing": {
+          "label": "Wellbeing",
+          "hint": "Physical, emotional, spiritual"
+        },
+        "integrity": {
+          "label": "Integrity",
+          "hint": "Alignment with non-negotiables"
+        }
+      },
+      "statuses": {
+        "building": "Building",
+        "holding": "Holding",
+        "eroding": "Erosion"
+      },
+      "integritySignal": "Integrity signal — one of your non-negotiables may be compromised",
+      "integrityPrompt": "Consider whether this experiment needs adjustment to protect what matters most.",
+      "storytelling": "Storytelling",
+      "optionalPrivate": "optional, private",
+      "honestNotPolished": "Be honest, not polished. These are for you.",
+      "story": {
+        "whyLabel": "Why this matters to me",
+        "whyPlaceholder": "What's driving you at a gut level?",
+        "visionLabel": "The future I'm reaching for",
+        "visionPlaceholder": "What does success look like in your own words?",
+        "shiftLabel": "The shift I'm trying to create",
+        "shiftPlaceholder": "What change do you want to see in the world?"
+      },
+      "error": "Something went wrong. Please try again.",
+      "saved": "Catalyst profile saved!",
+      "experimentComplete": "Experiment complete — ready to save",
+      "completeOneToSave": "Complete at least one experiment to save",
+      "saving": "Saving…",
+      "saveExperiments": "Save Experiments"
+    },
+    "clarity": {
+      "pillarLabel": "Pillar I",
+      "title": "Clarity & Direction",
+      "description": "Define the inner compass that guides your changemaking — your north star, boundaries, and origin story.",
+      "northStarDraft": "North Star Draft",
+      "required": "Required",
+      "northStarPrompt": "What is the change you most want to see in the world? Say it in your own words — a rough draft is perfect.",
+      "northStarPlaceholder": "e.g., Everyone in my neighborhood has someone they can count on",
+      "valuesNonNegotiables": "Values & Non-Negotiables",
+      "requiredMin1": "Required — min 1",
+      "valuesPrompt": "What will you not compromise on, even under pressure? These are your red lines.",
+      "nonNegotiablePlaceholder": "e.g., No work that exploits vulnerable people",
+      "removeNonNegotiable": "Remove non-negotiable {{num}}",
+      "addAnother": "Add another",
+      "originQuestion": "Origin Question",
+      "optional": "optional",
+      "originPrompt": "What question or experience set you on this path? What keeps pulling you back?",
+      "originPlaceholder": "e.g., Why do some communities thrive while others barely survive?",
+      "bioInventory": "Biographical Inventory",
+      "bioDescription": "Map the experiences that shaped your changemaking DNA.",
+      "bioChoosePrompts": "Choose the prompts that resonate — skip the rest.",
+      "bioPrompts": {
+        "turning": "A turning point that changed my direction",
+        "proud": "Something I did that I'm proud of",
+        "failures": "A failure that taught me something essential",
+        "shapers": "People or communities that shaped who I am",
+        "themes": "Recurring themes in my life"
+      },
+      "bioThreadPrompt": "Look for the thread that connects these — that's your pattern.",
+      "lockedPillarsTitle": "More pillars ahead",
+      "lockedPillarsHint": "Save this pillar to open the next one.",
+      "error": "Something went wrong. Please try again.",
+      "updated": "Clarity updated!",
+      "savedUnlock": "Clarity saved — next pillar unlocked!",
+      "readyToSave": "Ready to save",
+      "addNorthStarAndNonNegotiable": "Add a north star and at least one non-negotiable",
+      "saving": "Saving…",
+      "updateClarity": "Update Clarity",
+      "saveAndUnlock": "Save and open next pillar"
+    },
+    "context": {
+      "pillarLabel": "Pillar II",
+      "title": "Context & Ecosystem",
+      "description": "Map the people, power structures, and communication dynamics around your changemaking work.",
+      "ecosystemMap": "Ecosystem Map",
+      "optional": "optional",
+      "ecosystemHint": "Who surrounds your work? Name the people and groups in each ring.",
+      "rings": {
+        "sharers": {
+          "label": "Sharers",
+          "placeholder": "e.g., a fellow organizer, a trusted advisor"
+        },
+        "gatekeepers": {
+          "label": "Gatekeepers",
+          "placeholder": "e.g., a funder, a local official, a board chair"
+        },
+        "affected": {
+          "label": "Affected",
+          "placeholder": "e.g., the families depending on this service"
+        }
+      },
+      "addAnother": "Add another",
+      "removeEntry": "Remove entry {{num}} from {{ring}}",
+      "add": "Add",
+      "gapPrompt": "Who's missing?",
+      "optionalReflection": "optional reflection",
+      "gapHint": "Whose voice is absent from your map — and what would it take to include them?",
+      "translationMap": "Translation Map",
+      "translationHint": "How is your work described by different audiences? Understanding these framings helps you communicate across boundaries.",
+      "trans": {
+        "mine": "My framing",
+        "minePlaceholder": "How I describe my work to myself",
+        "allies": "Allies' framing",
+        "alliesPlaceholder": "How my allies or collaborators describe it",
+        "power": "Power holders' framing",
+        "powerPlaceholder": "How decision-makers or funders would describe it"
+      },
+      "conflictStyle": "Conflict Style",
+      "conflictHint": "How do you typically show up in conflict? What pattern do you default to — and what would you prefer?",
+      "conflictPlaceholder": "e.g., I tend to avoid conflict until it boils over…",
+      "commReflection": "Communication Reflection",
+      "commHint": "What's your default communication style under pressure? What gets lost?",
+      "commPlaceholder": "e.g., I over-explain when I'm nervous and skip the emotional core…",
+      "error": "Something went wrong. Please try again.",
+      "savedMessage": "Context saved!",
+      "saving": "Saving…",
+      "saveButton": "Save Context"
+    },
+    "entry": {
+      "introTitle": "Where are you on the changemaking journey?",
+      "introDescription": "The Compass helps you find your place in the changemaking landscape. Choose the phase that fits, then pick your level. There are no wrong answers — only honest ones.",
+      "selectPhase": "Select your phase",
+      "phaseNum": "Phase {{num}}",
+      "focusLabel": "Focus:",
+      "phases": {
+        "I": {
+          "focus": "myself",
+          "description": "You're focused on building inner clarity, skills, and resilience before engaging externally. This is foundational work — getting your own house in order.",
+          "markers": "Self-awareness, personal values, emotional patterns, skill-building"
+        },
+        "II": {
+          "focus": "my community",
+          "description": "You're actively engaging with people and structures around you — mapping ecosystems, building relationships, and navigating power dynamics.",
+          "markers": "Relationship mapping, stakeholder analysis, conflict navigation, coalition-building"
+        },
+        "III": {
+          "focus": "the journey itself",
+          "description": "You're integrating capacity, resources, and experimentation into a sustainable practice. The focus shifts from doing to being — making changemaking a way of life.",
+          "markers": "Resource stewardship, experiment design, storytelling, systemic balance"
+        }
+      },
+      "whereExactly": "Where exactly in Phase {{phase}}?",
+      "placementOptionalHint": "This self-placement is optional but helps us tailor your Compass experience.",
+      "levels": {
+        "0": {
+          "archetype": "Bystander",
+          "sphere": "Awareness"
+        },
+        "1": {
+          "archetype": "Observer",
+          "sphere": "Awareness"
+        },
+        "2": {
+          "archetype": "Sympathizer",
+          "sphere": "Awareness"
+        },
+        "3": {
+          "archetype": "Learner",
+          "sphere": "Awareness"
+        },
+        "4": {
+          "archetype": "Local Practitioner",
+          "sphere": "Engagement"
+        },
+        "5": {
+          "archetype": "Community Weaver",
+          "sphere": "Engagement"
+        },
+        "6": {
+          "archetype": "System Innovator",
+          "sphere": "Integration"
+        },
+        "7": {
+          "archetype": "Movement Builder",
+          "sphere": "Integration"
+        },
+        "8": {
+          "archetype": "System Shifter",
+          "sphere": "Integration"
+        },
+        "9": {
+          "archetype": "Paradigm Weaver",
+          "sphere": "Integration"
+        }
+      },
+      "sphereLabel": "Sphere:",
+      "error": "Something went wrong. Please try again.",
+      "saving": "Saving…",
+      "confirmSelfPlacement": "Confirm Placement & Continue"
+    }
+  },
+  "lifecycle": {
+    "accept": {
+      "label": "Accept",
+      "confirmPrompt": "Accept this request?",
+      "confirmYes": "Yes, accept",
+      "pending": "Accepting…",
+      "failed": "Could not accept. Please try again."
+    },
+    "complete": {
+      "label": "Mark complete",
+      "confirmPrompt": "Mark this as complete?",
+      "confirmYes": "Yes, complete",
+      "pending": "Completing…",
+      "failed": "Could not complete. Please try again."
+    },
+    "cancelEngagement": {
+      "label": "Cancel",
+      "confirmPrompt": "Cancel this engagement?",
+      "confirmYes": "Yes, cancel",
+      "pending": "Cancelling…",
+      "failed": "Could not cancel. Please try again."
+    },
+    "close": {
+      "label": "Close",
+      "confirmPrompt": "Close this connection?",
+      "confirmYes": "Yes, close",
+      "pending": "Closing…",
+      "failed": "Could not close. Please try again."
+    },
+    "dismiss": "Dismiss"
+  }
+}

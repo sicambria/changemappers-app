@@ -1,0 +1,198 @@
+{
+  "title": "Coaching",
+  "subtitle": "El coaching es investigación estructurada — no mentoría, no terapia, no consejos. Un coach sostiene espacio para que encuentres tu propio siguiente paso. La coincidencia aquí usa solo estilo y formato; la experiencia del dominio pertenece a mentoría.",
+  "nav": {
+    "find": "Buscar Coach",
+    "offer": "Ofrecer Coaching",
+    "engagements": "Mis Compromisos"
+  },
+  "distinction": "Tu coach no te dirá qué hacer — te ayudará a encontrar lo que ya sabes. Sin consejos; la experiencia temática o de dominio corresponde a mentoría, no a coaching.",
+  "overview": {
+    "stylePrompt": "¿Cuál es tu estilo de coaching?",
+    "styleDescription": "Si sostienes a personas en investigación — socrático, somático, basado en desafíos, o de otra forma — ofrécelo aquí.",
+    "offerButton": "Ofrecer Coaching",
+    "requestButton": "Solicitar Coaching",
+    "browseCoaches": "Explorar Coaches",
+    "browseDescription": "Encuentra coaches solo por estilo y formato. Si necesitas experiencia temática, usa mentoría.",
+    "myEngagements": "Mis Compromisos",
+    "engagementsDescription": "Ver compromisos de coaching activos y pasados. Escribe tu reflexión del arco al completar.",
+    "myRequests": "Mis Solicitudes",
+    "myRequestsDescription": "Ver y retirar tus solicitudes de coaching pendientes.",
+    "incomingRequests": "Solicitudes Entrantes",
+    "incomingRequestsDescription": "Explora solicitudes de coaching abiertas y acéptalas como coach.",
+    "howItWorks": "Cómo funciona la coincidencia de coaching",
+    "howItWorksItems": {
+      "matching": "La coincidencia se basa solo en compatibilidad de estilo y formato; la experiencia del dominio pertenece a mentoría",
+      "accept": "Los coaches aceptan solicitudes; el compromiso entonces se activa",
+      "noRatings": "Sin calificaciones. El coachee escribe una reflexión; el coach puede añadir una observación (no una evaluación)",
+      "availability": "Los coaches en disponibilidad RESTING o REFLECTING no se muestran en la exploración"
+    }
+  },
+  "find": {
+    "title": "Buscar Coach",
+    "subtitle": "Explora coaches disponibles para nuevos compromisos.",
+    "filters": {
+      "style": "Estilo de coaching",
+      "format": "Formato",
+      "arcLength": "Duración del arco"
+    },
+    "empty": "No hay ofertas de coaching que coincidan con tus filtros.",
+    "noOffers": "No hay ofertas de coaching disponibles ahora. Vuelve pronto.",
+    "loading": "Cargando ofertas..."
+  },
+  "offer": {
+    "create": "Crear Oferta de Coaching",
+    "edit": "Editar Oferta",
+    "new": "Nueva Oferta",
+    "style": "Estilo de coaching (p.ej. socrático, somático, sistémico)",
+    "format": "Formato",
+    "arcLengthOption": "Opciones de duración del arco",
+    "availability": "Disponibilidad",
+    "coacheeKnow": "Lo que el coachee debe saber antes de empezar",
+    "stylePlaceholder": "ej. socrático, reflexivo, basado en desafíos",
+    "formatPlaceholder": "ej. vídeo 1:1, texto asíncrono, híbrido",
+    "arcLengthPlaceholder": "ej. 4 sesiones, 3 meses",
+    "availabilityPlaceholder": "ej. 2 cupos/mes",
+    "coacheeKnowPlaceholder": "¿Qué debe saber el coachee antes de solicitar?",
+    "updated": "¡Oferta de coaching actualizada!",
+    "createdSuccess": "¡Oferta de coaching creada exitosamente!",
+    "saving": "Guardando…",
+    "pageTitle": "Ofrecer Coaching",
+    "pageDescription": "Describe tu estilo de coaching, formato y disponibilidad.",
+    "editPageTitle": "Editar Oferta de Coaching",
+    "editPageDescription": "Actualiza los detalles de tu oferta de coaching.",
+    "backToOffers": "← Volver a ofertas",
+    "backToOffer": "← Volver a la oferta",
+    "editButton": "Editar oferta",
+    "myOffers": {
+      "title": "Mis Ofertas de Coaching",
+      "empty": "Aún no has creado ninguna oferta de coaching."
+    },
+    "detail": {
+      "title": "Oferta de Coaching",
+      "coach": "Coach"
+    }
+  },
+  "request": {
+    "create": "Solicitar Coaching",
+    "stuckOn": "¿En qué estás atascado/a?",
+    "shiftsWanted": "¿Qué cambios harían una diferencia?",
+    "formatPreference": "Formato preferido (opcional)",
+    "pageTitle": "Solicitar Coaching",
+    "pageDescription": "Comparte dónde estás atascado y qué cambios esperas.",
+    "detail": {
+      "title": "Solicitud de Coaching",
+      "stuckOn": "Atascado en",
+      "shiftsWanted": "Cambios deseados",
+      "formatPreference": "Preferencia de formato",
+      "requester": "Solicitante"
+    },
+    "backToConnections": "← Volver a conexiones",
+    "stuckOnLabel": "Bloqueado en",
+    "shiftsWantedLabel": "Cambios deseados",
+    "formatPreferenceLabel": "Preferencia de formato"
+  },
+  "myRequests": {
+    "title": "Mis Solicitudes de Coaching",
+    "subtitle": "Tus solicitudes de coaching pendientes. Retira una solicitud si ya no la necesitas.",
+    "empty": "No tienes solicitudes de coaching pendientes.",
+    "cardTitle": "Solicitud de Coaching",
+    "withdraw": "Retirar",
+    "withdrawConfirm": "¿Retirar esta solicitud?",
+    "withdrawYes": "Sí, retirar",
+    "withdrawPending": "Retirando…",
+    "withdrawError": "No se pudo retirar la solicitud."
+  },
+  "requests": {
+    "incomingTitle": "Solicitudes de Coaching Entrantes",
+    "incomingSubtitle": "Solicitudes abiertas de agentes de cambio que buscan coaching. Acepta una solicitud para iniciar un compromiso.",
+    "incomingEmpty": "No hay solicitudes de coaching abiertas ahora mismo.",
+    "cardTitle": "Solicitud de Coaching",
+    "acceptButton": "Aceptar esta solicitud",
+    "acceptPending": "Aceptando…",
+    "acceptError": "No se pudo aceptar la solicitud.",
+    "cancelAccept": "Cancelar",
+    "offerLabel": "Tu oferta",
+    "offerPlaceholder": "Selecciona una de tus ofertas",
+    "offerRequired": "Por favor, selecciona una oferta",
+    "styleLabel": "Estilo",
+    "stylePlaceholder": "ej. socrático, somático",
+    "formatLabel": "Formato",
+    "formatPlaceholder": "ej. video 1:1, híbrido",
+    "arcLengthLabel": "Duración del arco",
+    "arcLengthPlaceholder": "ej. 3 meses, 4 sesiones",
+    "checkInRhythmLabel": "Ritmo de seguimiento (opcional)",
+    "checkInRhythmPlaceholder": "ej. quincenal, mensual"
+  },
+  "connections": {
+    "title": "Mis Conexiones de Coaching",
+    "subtitle": "Sigue tus compromisos de coaching en todas las etapas.",
+    "empty": "Aún no tienes compromisos de coaching.",
+    "unknownCoach": "Coach desconocido"
+  },
+  "engagement": {
+    "status": {
+      "PENDING": "Pendiente",
+      "ACTIVE": "Activo",
+      "COMPLETE": "Completo",
+      "CANCELLED": "Cancelado"
+    },
+    "accept": "Aceptar solicitud",
+    "decline": "Rechazar",
+    "cancel": "Cancelar",
+    "complete": "Marcar como completo",
+    "style": "Estilo",
+    "arcLength": "Duración del arco",
+    "checkInRhythm": "Ritmo de sesiones"
+  },
+  "feedback": {
+    "coachee": {
+      "title": "Reflexiona sobre este proceso de coaching",
+      "prompt": "¿En qué estabas atascado/a? ¿Qué cambió? ¿Qué hizo posible este proceso?"
+    },
+    "coach": {
+      "title": "Opcional: ¿qué aportó el coachee al trabajo?",
+      "prompt": "Una observación sobre la calidad del proceso — no una evaluación del progreso del coachee.",
+      "note": "Esto es opcional."
+    },
+    "submit": "Enviar reflexión",
+    "publicNote": "Esta reflexión será visible en el registro del compromiso."
+  },
+  "feedbackForm": {
+    "successMessage": "Reflexión enviada. Gracias.",
+    "yourReflectionLabel": "Tu reflexión",
+    "yourReflectionHint": "¿Qué cambió? ¿Qué hizo posible este compromiso?",
+    "yourReflectionPlaceholder": "Comparte tu reflexión honesta sobre este compromiso…",
+    "minChars": "Mínimo {{count}} caracteres",
+    "charCount": "{{current}}/{{min}}",
+    "coachObservationLabel": "Observación del coach",
+    "coachObservationHint": "Una observación sobre la calidad del compromiso — no una evaluación.",
+    "coachObservationPlaceholder": "Observación opcional sobre el compromiso del coachee…",
+    "optional": "opcional",
+    "submitting": "Enviando…",
+    "submit": "Enviar reflexión"
+  },
+  "requestForm": {
+    "successMessage": "Solicitud de coaching enviada.",
+    "stuckOnLabel": "¿En qué estás atascado/a?",
+    "stuckOnPlaceholder": "Describe en qué estás atascado/a…",
+    "minChars": "Mínimo {{min}} caracteres ({{current}}/{{min}})",
+    "minCharsShort": "Mínimo {{min}} caracteres ({{current}}/{{min}})",
+    "shiftsWantedLabel": "¿Qué cambios harían una diferencia?",
+    "shiftsWantedPlaceholder": "¿Cómo se vería un cambio significativo?",
+    "formatPreferenceLabel": "Formato preferido",
+    "formatPreferencePlaceholder": "p.ej. videollamada, correo asíncrono, presencial",
+    "optional": "opcional",
+    "submitting": "Enviando…",
+    "submit": "Solicitar Coaching"
+  },
+  "card": {
+    "by": "Ofrecido por",
+    "availabilityLabel": "Disponibilidad: {{availability}}",
+    "viewOffer": "Ver oferta",
+    "style": "Estilo",
+    "format": "Formato",
+    "request": "Solicitar coaching"
+  },
+  "anonymous": "Anónimo"
+}

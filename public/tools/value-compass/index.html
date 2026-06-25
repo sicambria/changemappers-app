@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO & Meta Tags -->
+    <title id="pageTitle">Personal Value Compass</title>
+    <meta name="description" content="Interactive matrix for selecting, evaluating, and planning your core values.">
+
+    <!-- Tailwind CSS -->
+    <script src="/tools/vendor/tailwind.min.js"></script>
+
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="/tools/vendor/fontawesome/css/all.min.css">
+
+    <!-- Custom Tailwind Config for Brand Colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#FDFBF7',
+                            100: '#E6E2DD',
+                            500: '#3D7A55',
+                            600: '#2D5A3D',
+                            700: '#244832',
+                            900: '#1A1A1A',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Print Styles */
+        @media print {
+            body { background-color: white; }
+            .no-print { display: none !important; }
+            .print-break { page-break-before: always; }
+            .shadow-lg, .shadow-md { box-shadow: none !important; border: 1px solid #e5e7eb; }
+        }
+
+        /* Custom Scrollbar for Textareas */
+        textarea::-webkit-scrollbar { width: 8px; }
+        textarea::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 4px; }
+
+        /* Toast Animations */
+        @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+        @keyframes fadeOut { from { opacity: 1; } to { opacity: 0; } }
+        .toast-enter { animation: slideIn 0.3s ease-out forwards; }
+        .toast-exit { animation: fadeOut 0.3s ease-out forwards; }
+
+        .cm-tools-bridge {
+            background: #2D5A3D;
+            color: #FDFBF7;
+            font-family: 'DM Sans', 'Inter', system-ui, sans-serif;
+            border-bottom: 1px solid rgba(253, 251, 247, 0.22);
+        }
+        .cm-tools-bridge a { color: #FDFBF7; text-decoration: none; }
+        .cm-tools-bridge a:hover { text-decoration: underline; }
+        h1, h2, h3, .cm-tools-title { font-family: 'Playfair Display', Georgia, serif; }
+        button, input, select, textarea, .cm-tools-ui { font-family: 'DM Sans', 'Inter', system-ui, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased min-h-screen flex flex-col">
+
+    <div class="cm-tools-bridge no-print">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 text-sm">
+            <a href="/tools" class="font-semibold">Changemappers tools</a>
+            <div class="flex gap-4 opacity-90">
+                <a href="/tools">Tools hub</a>
+                <a href="/">Changemappers</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Toast Container -->
+    <div id="toastContainer" class="fixed top-5 right-5 z-50 flex flex-col gap-3 no-print"></div>
+
+    <!-- Header -->
+    <header class="bg-brand-600 text-white shadow-md no-print">
+        <div class="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="text-center md:text-left">
+                <h1 id="ui_headerTitle" class="text-3xl font-bold tracking-tight">Személyes Értékiránytű</h1>
+                <p id="ui_headerDesc" class="mt-1 text-brand-100 text-sm">Navigálj az életedben a legfontosabb értékeid azonosításával és egyensúlyba hozásával.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-3 items-center">
+                <select id="languageSelector" onchange="app.changeLanguage(this.value)" class="bg-white/20 hover:bg-white/30 text-white px-3 py-2 rounded-lg text-sm transition-colors duration-200 outline-none border border-white/30 appearance-none cursor-pointer">
+                    <option value="en" class="text-gray-800">English</option>
+                    <option value="es" class="text-gray-800">Español</option>
+                    <option value="hu" class="text-gray-800">Magyar</option>
+                </select>
+
+                <button onclick="document.getElementById('importFile').click()" class="bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg text-sm transition-colors duration-200">
+                    <i class="fa-solid fa-file-import mr-2"></i> <span id="ui_btnImport">JSON Import</span>
+                </button>
+                <input type="file" id="importFile" class="hidden" accept=".json" onchange="app.importData(event)">
+
+                <button onclick="app.exportData()" class="bg-white/20 hover:bg-white/30 px-4 py-2 rounded-lg text-sm transition-colors duration-200">
+                    <i class="fa-solid fa-file-export mr-2"></i> <span id="ui_btnExport">JSON Export</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full">
+
+        <!-- Step 1: Matrix Selection -->
+        <div id="step1" class="space-y-6 transition-opacity duration-300">
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+                <h2 id="ui_step1Title" class="text-2xl font-semibold text-gray-900 mb-2">Step 1: The Value Matrix</h2>
+                <p id="ui_step1Desc" class="text-gray-600 mb-4">Choose up to 24 core values from the list below that are most important to you.</p>
+                <div class="flex items-center justify-between bg-brand-50 p-4 rounded-lg">
+                    <span id="ui_selectedCountLabel" class="text-brand-900 font-medium">Selected values:</span>
+                    <span id="selectionCount" class="text-2xl font-bold text-brand-600">0 / 24</span>
+                </div>
+            </div>
+
+            <div id="matrixContainer" class="bg-white rounded-xl shadow-md p-6 border border-gray-100">
+                <!-- Matrix categories will be injected here via JS -->
+            </div>
+
+            <div class="flex justify-end mt-8">
+                <button id="btnNext1" onclick="app.goToStep2()" class="bg-brand-600 hover:bg-brand-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition duration-200 disabled:opacity-50 disabled:cursor-not-allowed">
+                    <span id="ui_btnProceedEval">Proceed to Evaluation</span> <i class="fa-solid fa-arrow-right ml-2"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Step 2: Evaluation (Importance vs State) -->
+        <div id="step2" class="hidden space-y-6 transition-opacity duration-300">
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+                <div class="flex items-center space-x-4 mb-4">
+                    <button onclick="app.goToStep1()" class="text-gray-400 hover:text-brand-600 transition"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+                    <h2 id="ui_step2Title" class="text-2xl font-semibold text-gray-900">Step 2: Evaluate Your Values</h2>
+                </div>
+                <p id="ui_step2Desc" class="text-gray-600">Rate the selected values from 1 to 10 based on how <strong>Important</strong> they are to you, and their current <strong>State</strong> (how well they are realized in your life).</p>
+            </div>
+
+            <div id="evaluationContainer" class="space-y-4">
+                <!-- Evaluation sliders will be injected here -->
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-between mt-8 gap-4">
+                <button onclick="app.goToStep1()" class="bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-8 rounded-xl transition duration-200">
+                    <span id="ui_btnBack">Back</span>
+                </button>
+                <button onclick="app.goToStep3()" class="bg-brand-600 hover:bg-brand-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition duration-200">
+                    <span id="ui_btnGenerate">Generate Analysis</span> <i class="fa-solid fa-chart-pie ml-2"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Step 3: Results & Action Plan -->
+        <div id="step3" class="hidden space-y-8 transition-opacity duration-300">
+            <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100 no-print flex flex-col md:flex-row justify-between items-center gap-4">
+                <div class="flex items-center space-x-4">
+                    <button onclick="app.goToStep2()" class="text-gray-400 hover:text-brand-600 transition"><i class="fa-solid fa-arrow-left fa-lg"></i></button>
+                    <h2 id="ui_step3Title" class="text-2xl font-semibold text-gray-900">Step 3: Results & Action Plan</h2>
+                </div>
+                <button onclick="window.print()" class="bg-gray-800 hover:bg-gray-900 text-white px-4 py-2 rounded-lg transition whitespace-nowrap">
+                    <i class="fa-solid fa-print mr-2"></i> <span id="ui_btnPrint">Print Report</span>
+                </button>
+            </div>
+
+            <!-- Dashboard / Category Health -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="bg-white rounded-xl shadow-md p-6">
+                    <h3 id="ui_catHealthTitle" class="text-xl font-bold text-gray-800 mb-4 border-b pb-2"><i class="fa-solid fa-heart-pulse text-red-500 mr-2"></i> Category Health</h3>
+                    <div id="categoryHealthContainer" class="space-y-4">
+                        <!-- Category stats injected here -->
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md p-6 bg-gradient-to-br from-brand-50 to-white border-brand-100 border">
+                    <h3 id="ui_missingCatTitle" class="text-xl font-bold text-gray-800 mb-4 border-b pb-2"><i class="fa-solid fa-triangle-exclamation text-yellow-500 mr-2"></i> Missing Categories</h3>
+                    <div id="missingCategoriesContainer" class="text-gray-600 italic">
+                        <!-- Missing categories injected here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Plan (Gaps) -->
+            <div class="print-break">
+                <h3 id="ui_actionPlanTitle" class="text-2xl font-bold text-gray-800 mb-6 mt-8"><i class="fa-solid fa-bullseye text-brand-600 mr-2"></i> Gap Analysis and Action Plan</h3>
+                <p id="ui_actionPlanDesc" class="text-gray-600 mb-6 no-print">Below are the areas where the current state falls short of expectations. Use the questions to formulate an action plan.</p>
+                <div id="actionPlanContainer" class="space-y-6">
+                    <!-- Textareas for gaps injected here -->
+                </div>
+            </div>
+
+            <!-- CTAs -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 no-print" id="hu_links" style="display: none;">
+                <a href="https://eletkozosseg.hu/" target="_blank" class="block bg-white hover:bg-brand-50 rounded-xl shadow-md border border-brand-100 p-8 transition duration-200 text-center group">
+                    <i class="fa-solid fa-users text-4xl text-brand-500 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h4 class="text-xl font-bold text-gray-800 mb-3">Közösséget szeretnél találni hasonló értékrendű emberekkel?</h4>
+                    <p class="text-brand-600 font-bold text-lg">Találj / Szervezz Életközösséget <i class="fa-solid fa-arrow-up-right-from-square ml-1 text-sm"></i></p>
+                </a>
+                <a href="https://legyavaltozas.hu/" target="_blank" class="block bg-white hover:bg-emerald-50 rounded-xl shadow-md border border-emerald-100 p-8 transition duration-200 text-center group">
+                    <i class="fa-solid fa-hands-holding-circle text-4xl text-emerald-500 mb-4 group-hover:scale-110 transition-transform"></i>
+                    <h4 class="text-xl font-bold text-gray-800 mb-3">Segítség kell a gyakorlatba ültetéshez?</h4>
+                    <p class="text-emerald-600 font-bold text-lg">legyavaltozas.hu <i class="fa-solid fa-arrow-up-right-from-square ml-1 text-sm"></i></p>
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 border-t border-gray-200 mt-auto py-8 text-center no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <p id="ui_footerQuote" class="text-gray-500 italic mb-4">"The best time to plant a tree was 20 years ago. The second best time is now."</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+        // --- Multilingual Dictionary & Data ---
+        const i18n = {
+            en: {
+                pageTitle: "Personal Value Compass",
+                headerTitle: "Personal Value Compass",
+                headerDesc: "Navigate your life by identifying and balancing your core values.",
+                btnImport: "JSON Import",
+                btnExport: "JSON Export",
+                step1Title: "1. The Value Matrix",
+                step1Desc: "Choose up to 24 core values from the list below that are most important to you.",
+                selectedCountLabel: "Selected values:",
+                btnProceedEval: "Proceed to Evaluation",
+                step2Title: "2. Evaluate Your Values",
+                step2Desc: "Rate the selected values from 1 to 10 based on how <strong>Important</strong> they are to you, and their current <strong>State</strong> (how well they are realized in your life).",
+                btnBack: "Back",
+                btnGenerate: "Generate Analysis",
+                step3Title: "3. Results & Action Plan",
+                btnPrint: "Print Report",
+                catHealthTitle: "Category Health",
+                missingCatTitle: "Missing Categories",
+                actionPlanTitle: "Gap Analysis & Action Plan",
+                actionPlanDesc: "Below are the areas where the current state falls short of your desired importance. Use the questions to formulate an actionable plan.",
+                footerQuote: '"The best time to plant a tree was 20 years ago. The second best time is now."',
+
+                // Dynamic Strings
+                alertMaxSelection: "You can select a maximum of {0} values.",
+                alertImportSuccess: "Data imported successfully!",
+                alertInvalidFormat: "Invalid JSON format.",
+                alertFileError: "Error reading file.",
+                noValuesSelected: "No values selected. Please go back and choose at least one.",
+                lblImportance: "Importance",
+                lblState: "Current State",
+                lblDifference: "Gap",
+                missingCatWarning: "You haven't selected any values from the following categories. Consider if this might represent a blind spot in your current focus:",
+                perfectBalanceText: "Excellent! You have chosen values from all categories, ensuring a complete balance.",
+                excellentBalanceTitle: "Excellent Balance!",
+                excellentBalanceDesc: "Currently, the state of all your selected values meets or exceeds their importance. Keep it up!",
+                actionQuestion: "Question: What specific steps can you take this week to bring your reality closer to the desired level in: {0}?",
+                actionPlaceholder: "Write your action plan here...",
+            },
+            es: {
+                pageTitle: "Brújula de Valores Personales",
+                headerTitle: "Brújula de Valores Personales",
+                headerDesc: "Navega tu vida identificando y equilibrando tus valores fundamentales.",
+                btnImport: "Importar JSON",
+                btnExport: "Exportar JSON",
+                step1Title: "1. La Matriz de Valores",
+                step1Desc: "Elige hasta 24 valores fundamentales de la siguiente lista que sean los más importantes para ti.",
+                selectedCountLabel: "Valores seleccionados:",
+                btnProceedEval: "Proceder a la Evaluación",
+                step2Title: "2. Evalúa tus Valores",
+                step2Desc: "Califica los valores de 1 a 10 según su <strong>Importancia</strong> para ti y su <strong>Estado</strong> actual (qué tan bien se realizan en tu vida).",
+                btnBack: "Atrás",
+                btnGenerate: "Generar Análisis",
+                step3Title: "3. Resultados y Plan de Acción",
+                btnPrint: "Imprimir Reporte",
+                catHealthTitle: "Salud de la Categoría",
+                missingCatTitle: "Categorías Faltantes",
+                actionPlanTitle: "Análisis de Brechas y Plan de Acción",
+                actionPlanDesc: "A continuación se muestran las áreas donde el estado actual no alcanza la importancia deseada. Usa las preguntas para formular un plan de acción.",
+                footerQuote: '"El mejor momento para plantar un árbol fue hace 20 años. El segundo mejor momento es ahora."',
+
+                // Dynamic Strings
+                alertMaxSelection: "Puedes seleccionar un máximo de {0} valores.",
+                alertImportSuccess: "¡Datos importados con éxito!",
+                alertInvalidFormat: "Formato JSON inválido.",
+                alertFileError: "Error al leer el archivo.",
+                noValuesSelected: "No se seleccionaron valores. Por favor regresa y elige al menos uno.",
+                lblImportance: "Importancia",
+                lblState: "Estado Actual",
+                lblDifference: "Brecha",
+                missingCatWarning: "No has seleccionado ningún valor de las siguientes categorías. Considera si esto podría representar un punto ciego en tu enfoque actual:",
+                perfectBalanceText: "¡Excelente! Has elegido valores de todas las categorías, asegurando un equilibrio completo.",
+                excellentBalanceTitle: "¡Excelente Equilibrio!",
+                excellentBalanceDesc: "Actualmente, el estado de todos tus valores seleccionados cumple o supera su importancia. ¡Sigue así!",
+                actionQuestion: "Pregunta: ¿Qué pasos específicos puedes tomar esta semana para acercar tu realidad al nivel deseado en: {0}?",
+                actionPlaceholder: "Escribe tu plan de acción aquí...",
+            },
+            hu: {
+                pageTitle: "Személyes Értékiránytű",
+                headerTitle: "Személyes Értékiránytű",
+                headerDesc: "Navigálj az életedben a legfontosabb értékeid azonosításával és egyensúlyba hozásával.",
+                btnImport: "JSON Importálás",
+                btnExport: "JSON Exportálás",
+                step1Title: "1. Lépés: Az Értékmátrix",
+                step1Desc: "Válassz ki legfeljebb 24 alapértéket az alábbi listából, amelyek a legfontosabbak számodra.",
+                selectedCountLabel: "Kiválasztott értékek:",
+                btnProceedEval: "Tovább az értékeléshez",
+                step2Title: "2. Lépés: Értékeid Értékelése",
+                step2Desc: "Értékeld a kiválasztott értékeket 1-től 10-ig aszerint, hogy mennyire <strong>Fontosak</strong> számodra, és mi a jelenlegi <strong>Állapotuk</strong> (mennyire valósulnak meg az életedben).",
+                btnBack: "Vissza",
+                btnGenerate: "Elemzés elkészítése",
+                step3Title: "3. Lépés: Eredmények és Akcióterv",
+                btnPrint: "Jelentés nyomtatása",
+                catHealthTitle: "Kategóriák Egészségi Állapota",
+                missingCatTitle: "Hiányzó Kategóriák",
+                actionPlanTitle: "Szakadékelemzés és Akcióterv",
+                actionPlanDesc: "Az alábbiakban láthatod azokat a területeket, ahol a jelenlegi állapot elmarad az elvárttól. Használd a kérdéseket a cselekvési terv megfogalmazásához.",
+                footerQuote: '"A legjobb időpont egy fa elültetésére 20 évvel ezelőtt volt. A második legjobb időpont most van."',
+
+                // Dynamic Strings
+                alertMaxSelection: "Legfeljebb {0} értéket választhatsz ki.",
+                alertImportSuccess: "Adatok sikeresen importálva!",
+                alertInvalidFormat: "Érvénytelen JSON formátum.",
+                alertFileError: "Hiba a fájl olvasásakor.",
+                noValuesSelected: "Nincs kiválasztott érték. Kérlek, menj vissza, és válassz legalább egyet.",
+                lblImportance: "Fontosság",
+                lblState: "Jelenlegi Állapot",
+                lblDifference: "Különbség",
+                missingCatWarning: "Nem választottál ki értéket az alábbi kategóriákból. Gondold át, hogy ez jelenthet-e vakfoltot a jelenlegi fókuszodban:",
+                perfectBalanceText: "Kiváló! Minden kategóriából választottál értékeket, így teljes az egyensúly.",
+                excellentBalanceTitle: "Kiváló Egyensúly!",
+                excellentBalanceDesc: "Jelenleg minden kiválasztott értéked állapota eléri vagy meghaladja a fontosságát. Csak így tovább!",
+                actionQuestion: "Kérdés: Milyen konkrét lépéseket tehetsz a héten, hogy a valóságod közelebb kerüljön a kívánt szinthez ebben: {0}?",
+                actionPlaceholder: "Írd ide az akciótervedet...",
+            }
+        };
+
+        const rawData = [
+            { catId: 'c1',
+              catName: { hu: '1. Bölcsesség – Rend', en: '1. Wisdom – Order', es: '1. Sabiduría – Orden' },
+              items: [
+                { id: '1_1', title: { hu: 'Bölcsesség', en: 'Wisdom', es: 'Sabiduría' }, desc: { hu: 'A tudás és az élettapasztalat erkölcsös, életrevaló alkalmazása.', en: 'The moral and practical application of knowledge and life experience.', es: 'La aplicación moral y práctica del conocimiento y la experiencia de vida.' } },
+                { id: '1_2', title: { hu: 'Igazságkeresés', en: 'Truth-seeking', es: 'Búsqueda de la verdad' }, desc: { hu: 'A valóság megismerésére és a tények tiszteletére való folyamatos törekvés.', en: 'The continuous pursuit of knowing reality and respecting facts.', es: 'La búsqueda continua de conocer la realidad y respetar los hechos.' } },
+                { id: '1_3', title: { hu: 'Becsület', en: 'Honor', es: 'Honor' }, desc: { hu: 'Az adott szóhoz és a tiszta elvekhez való rendíthetetlen hűség.', en: 'Unwavering loyalty to one’s word and pure principles.', es: 'Lealtad inquebrantable a la propia palabra y a los principios puros.' } },
+                { id: '1_4', title: { hu: 'Fegyelem', en: 'Discipline', es: 'Disciplina' }, desc: { hu: 'A vágyak és indulatok tudatos mederben tartása a magasabb célok érdekében.', en: 'Consciously channeling desires and impulses for higher goals.', es: 'Canalizar conscientemente los deseos y los impulsos hacia metas superiores.' } },
+                { id: '1_5', title: { hu: 'Józanság', en: 'Clear-headedness', es: 'Claridad mental' }, desc: { hu: 'Világos, elvakultságtól mentes gondolkodás és a valóság reális megítélése.', en: 'Clear, unbiased thinking and realistic assessment of reality.', es: 'Pensamiento claro e imparcial y evaluación realista de la realidad.' } },
+                { id: '1_6', title: { hu: 'Egyenesség', en: 'Straightforwardness', es: 'Franqueza' }, desc: { hu: 'Nyílt, őszinte és kerülőutak nélküli beszéd és cselekvés.', en: 'Open, honest speech and action without detours.', es: 'Habla y acción abierta y honesta sin desvíos.' } },
+                { id: '1_7', title: { hu: 'Alázat', en: 'Humility', es: 'Humildad' }, desc: { hu: 'Saját korlátaink és tévedhetőségünk reális felismerése.', en: 'Realistic recognition of our own limitations and fallibility.', es: 'Reconocimiento realista de nuestras propias limitaciones y falibilidad.' } },
+                { id: '1_8', title: { hu: 'Megfontoltság', en: 'Prudence', es: 'Prudencia' }, desc: { hu: 'Az elhamarkodott ítéletek elkerülése és az ok-okozati összefüggések átgondolása.', en: 'Avoiding hasty judgments and thinking through cause-and-effect relationships.', es: 'Evitar juicios apresurados y pensar en las relaciones de causa y efecto.' } },
+                { id: '1_9', title: { hu: 'Értékelő gondolkodás', en: 'Critical thinking', es: 'Pensamiento crítico' }, desc: { hu: 'Az információk és állítások több szempontú, ésszerű megvizsgálata.', en: 'Multi-perspective, rational examination of information and claims.', es: 'Examen racional y multiperspectiva de información y afirmaciones.' } },
+                { id: '1_10', title: { hu: 'Éberség', en: 'Vigilance', es: 'Vigilancia' }, desc: { hu: 'Folyamatos szellemi jelenlét és figyelem a mindennapok történéseire.', en: 'Continuous mental presence and attention to everyday events.', es: 'Presencia mental continua y atención a los acontecimientos cotidianos.' } },
+                { id: '1_11', title: { hu: 'Tényszerűség', en: 'Objectivity', es: 'Objetividad' }, desc: { hu: 'A helyzetek és események személyes torzítás nélküli, pontos bemutatása.', en: 'Accurate presentation of situations and events without personal bias.', es: 'Presentación precisa de situaciones y eventos sin sesgo personal.' } },
+                { id: '1_12', title: { hu: 'Tisztánlátás', en: 'Clarity of vision', es: 'Claridad de visión' }, desc: { hu: 'A megtévesztésen és a felszínes káprázatokon átlátó, éles ítélőképesség.', en: 'Sharp judgment that sees through deception and superficial illusions.', es: 'Agudo juicio que ve a través del engaño y las ilusiones superficiales.' } },
+                { id: '1_13', title: { hu: 'Igazságosság', en: 'Justice', es: 'Justicia' }, desc: { hu: 'Pártatlan, mindenkivel szemben méltányos és arányos elbírálás.', en: 'Impartial, fair, and proportionate treatment of everyone.', es: 'Trato imparcial, justo y proporcionado a todos.' } },
+                { id: '1_14', title: { hu: 'Rendszeretet', en: 'Love of order', es: 'Amor por el orden' }, desc: { hu: 'Az átláthatóság, a logikus felépítés és a szellemi rend megteremtése.', en: 'Creating transparency, logical structure, and intellectual order.', es: 'Crear transparencia, estructura lógica y orden intelectual.' } },
+                { id: '1_15', title: { hu: 'Értés', en: 'Understanding', es: 'Comprensión' }, desc: { hu: 'A felszín mögötti mélyebb összefüggések és a másik ember valódi szándékainak felfogása.', en: 'Grasping the deeper connections beneath the surface and the true intentions of others.', es: 'Captar las conexiones más profundas bajo la superficie y las verdaderas intenciones de los demás.' } }
+            ]},
+            { catId: 'c2',
+              catName: { hu: '2. Szeretet (Kapcsolatok)', en: '2. Love (Relationships)', es: '2. Amor (Relaciones)' },
+              items: [
+                { id: '2_1', title: { hu: 'Szeretet', en: 'Love', es: 'Amor' }, desc: { hu: 'Mások létének, jóllétének örömteli és cselekvő akarása.', en: 'Joyful and active willing of the existence and well-being of others.', es: 'Deseo gozoso y activo de la existencia y el bienestar de los demás.' } },
+                { id: '2_2', title: { hu: 'Együttérzés', en: 'Compassion', es: 'Compasión' }, desc: { hu: 'Mások nehézségeinek megértése és a rajtuk való segítés belső szándéka.', en: 'Understanding others\' difficulties and having the inner intention to help them.', es: 'Comprender las dificultades de los demás y tener la intención interior de ayudarlos.' } },
+                { id: '2_3', title: { hu: 'Bizalom', en: 'Trust', es: 'Confianza' }, desc: { hu: 'Mások jószándékába és megbízhatóságába vetett megelőlegezett hit.', en: 'Advance faith in the good intentions and reliability of others.', es: 'Fe anticipada en las buenas intenciones y confiabilidad de los demás.' } },
+                { id: '2_4', title: { hu: 'Megbocsátás', en: 'Forgiveness', es: 'Perdón' }, desc: { hu: 'A harag, a sérelmek és a neheztelés elengedése a továbblépés érdekében.', en: 'Letting go of anger, grievances, and resentment to move forward.', es: 'Dejar ir la ira, los agravios y el resentimiento para avanzar.' } },
+                { id: '2_5', title: { hu: 'Hűség', en: 'Loyalty', es: 'Lealtad' }, desc: { hu: 'Tartós, megingathatatlan kitartás személyek és közösségek iránt.', en: 'Lasting, unwavering perseverance towards people and communities.', es: 'Perseverancia duradera e inquebrantable hacia las personas y comunidades.' } },
+                { id: '2_6', title: { hu: 'Tisztelet', en: 'Respect', es: 'Respeto' }, desc: { hu: 'Mások emberi mivoltának, értékének és határainak elismerő elfogadása.', en: 'Appreciative acceptance of others\' humanity, value, and boundaries.', es: 'Aceptación apreciativa de la humanidad, el valor y los límites de los demás.' } },
+                { id: '2_7', title: { hu: 'Tapintat', en: 'Tact', es: 'Tacto' }, desc: { hu: 'Mások magánszférájának óvása, a felesleges bántás és a pletyka kerülése.', en: 'Protecting others\' privacy, avoiding unnecessary hurt and gossip.', es: 'Proteger la privacidad de los demás, evitando daños innecesarios y chismes.' } },
+                { id: '2_8', title: { hu: 'Gondoskodás', en: 'Caring', es: 'Cuidado' }, desc: { hu: 'Mások testi és lelki szükségleteire való aktív odafigyelés és segítség.', en: 'Active attention and help for the physical and spiritual needs of others.', es: 'Atención activa y ayuda para las necesidades físicas y espirituales de los demás.' } },
+                { id: '2_9', title: { hu: 'Gyengédség', en: 'Tenderness', es: 'Ternura' }, desc: { hu: 'Finom, durvaságtól mentes, odaadó megnyilvánulás embertársaink felé.', en: 'Gentle, non-harsh, devoted manifestation towards our fellow human beings.', es: 'Manifestación suave, no dura y devota hacia nuestros semejantes.' } },
+                { id: '2_10', title: { hu: 'Jóindulat', en: 'Goodwill', es: 'Buena voluntad' }, desc: { hu: 'Alapvető barátságos, feltételezések nélküli hozzáállás mindenkihez.', en: 'Fundamental friendly, assumption-free attitude towards everyone.', es: 'Actitud fundamentalmente amistosa y sin suposiciones hacia todos.' } },
+                { id: '2_11', title: { hu: 'Szívélyesség', en: 'Cordiality', es: 'Cordialidad' }, desc: { hu: 'Meleg, nyitott, befogadó közeledés a mindennapi érintkezésekben.', en: 'Warm, open, receptive approach in everyday interactions.', es: 'Enfoque cálido, abierto y receptivo en las interacciones cotidianas.' } },
+                { id: '2_12', title: { hu: 'Bajtársiasság', en: 'Comradeship', es: 'Camaradería' }, desc: { hu: 'Feltétlen egymás mellé állás és összetartás a bajban.', en: 'Unconditional standing by each other and solidarity in trouble.', es: 'Estar al lado del otro incondicionalmente y solidaridad en problemas.' } },
+                { id: '2_13', title: { hu: 'Figyelmesség', en: 'Attentiveness', es: 'Atención' }, desc: { hu: 'A másik ember apró rezdüléseinek és igényeinek észrevétele.', en: 'Noticing the subtle nuances and needs of the other person.', es: 'Notar los matices sutiles y las necesidades de la otra persona.' } },
+                { id: '2_14', title: { hu: 'Meghallgatás', en: 'Listening', es: 'Escucha activa' }, desc: { hu: 'Fókuszált, értő és türelmes odafigyelés a másik ember mondandójára.', en: 'Focused, understanding, and patient attention to what the other person is saying.', es: 'Atención enfocada, comprensiva y paciente a lo que dice la otra persona.' } },
+                { id: '2_15', title: { hu: 'Közösség', en: 'Community', es: 'Comunidad' }, desc: { hu: 'Élő, megtartó hálózat kialakítása és ápolása más emberekkel.', en: 'Building and nurturing a living, supportive network with other people.', es: 'Construir y nutrir una red viva y de apoyo con otras personas.' } },
+                { id: '2_16', title: { hu: 'Szerelem', en: 'Romantic Love', es: 'Amor Romántico' }, desc: { hu: 'Mély érzelmi, szellemi és testi vonzalom, intimitás és elköteleződés egy társ iránt.', en: 'Deep emotional, spiritual, and physical attraction, intimacy, and commitment to a partner.', es: 'Atracción emocional, espiritual y física profunda, intimidad y compromiso con una pareja.' } }
+            ]},
+            { catId: 'c3a',
+              catName: { hu: '3A. Egészség – Erő', en: '3A. Health – Strength', es: '3A. Salud – Fuerza' },
+              items: [
+                { id: '3a_1', title: { hu: 'Testi-lelki épség ápolása', en: 'Physical-mental care', es: 'Cuidado físico-mental' }, desc: { hu: 'Az egészség megőrzésének felelős és mindennapi gyakorlata.', en: 'Responsible and daily practice of maintaining health.', es: 'Práctica responsable y diaria del mantenimiento de la salud.' } },
+                { id: '3a_2', title: { hu: 'Lelki erő', en: 'Mental strength', es: 'Fuerza mental' }, desc: { hu: 'A nehézségek, veszteségek és terhek méltósággal való elviselésének képessége.', en: 'The ability to bear difficulties, losses, and burdens with dignity.', es: 'La capacidad de soportar dificultades, pérdidas y cargas con dignidad.' } },
+                { id: '3a_3', title: { hu: 'Talpraállás képessége', en: 'Resilience', es: 'Resiliencia' }, desc: { hu: 'A kudarcokból és mélypontokból való gyors és tanulékony felépülés.', en: 'Fast and learning-oriented recovery from failures and low points.', es: 'Recuperación rápida y orientada al aprendizaje de fracasos y puntos bajos.' } },
+                { id: '3a_4', title: { hu: 'Bátorság', en: 'Courage', es: 'Coraje' }, desc: { hu: 'Cselekvőképesség a félelem, a kockázat vagy a bizonytalanság ellenére is.', en: 'Ability to act despite fear, risk, or uncertainty.', es: 'Capacidad de actuar a pesar del miedo, el riesgo o la incertidumbre.' } },
+                { id: '3a_5', title: { hu: 'Mértékletesség', en: 'Temperance', es: 'Templanza' }, desc: { hu: 'A szélsőségek kerülése, a vágyak és a fogyasztás tudatos korlátozása.', en: 'Avoiding extremes, consciously limiting desires and consumption.', es: 'Evitar extremos, limitando conscientemente los deseos y el consumo.' } },
+                { id: '3a_6', title: { hu: 'Kitartás', en: 'Perseverance', es: 'Perseverancia' }, desc: { hu: 'Hosszú távú célok melletti töretlen munkabírás az akadályok ellenére is.', en: 'Unbroken work ethic for long-term goals despite obstacles.', es: 'Ética de trabajo inquebrantable para objetivos a largo plazo a pesar de los obstáculos.' } },
+                { id: '3a_7', title: { hu: 'Állhatatosság', en: 'Steadfastness', es: 'Firmeza' }, desc: { hu: 'Megingathatatlan ragaszkodás a választott jó úthoz a külső kísértésekkel szemben.', en: 'Unwavering adherence to the chosen good path against external temptations.', es: 'Adherencia inquebrantable al buen camino elegido contra las tentaciones externas.' } },
+                { id: '3a_8', title: { hu: 'Tettrekészség', en: 'Readiness to act', es: 'Disposición a actuar' }, desc: { hu: 'A belső hajtóerő, a mozgás és a cselekvés iránti természetes igény.', en: 'Inner drive, a natural need for movement and action.', es: 'Impulso interior, una necesidad natural de movimiento y acción.' } },
+                { id: '3a_9', title: { hu: 'Határozottság', en: 'Decisiveness', es: 'Firmeza de decisión' }, desc: { hu: 'A bizonytalanság leküzdése és az elhatározások gyors tettekbe fordítása.', en: 'Overcoming uncertainty and quickly turning decisions into actions.', es: 'Superar la incertidumbre y convertir rápidamente las decisiones en acciones.' } },
+                { id: '3a_10', title: { hu: 'Önuralom', en: 'Self-control', es: 'Autocontrol' }, desc: { hu: 'Az erős indulatok és a hirtelen, romboló reakciók tudatos kezelése.', en: 'Conscious management of strong emotions and sudden, destructive reactions.', es: 'Manejo consciente de emociones fuertes y reacciones destructivas repentinas.' } },
+                { id: '3a_11', title: { hu: 'Helytállás', en: 'Holding ground', es: 'Mantenerse firme' }, desc: { hu: 'Erőt próbáló helyzetekben való becsületes, kitartó jelenlét.', en: 'Honest, persevering presence in challenging situations.', es: 'Presencia honesta y perseverante en situaciones desafiantes.' } },
+                { id: '3a_12', title: { hu: 'Körültekintés', en: 'Foresight', es: 'Previsión' }, desc: { hu: 'A lehetséges veszélyek és akadályok előzetes, józan felmérése.', en: 'Preliminary, sober assessment of potential dangers and obstacles.', es: 'Evaluación preliminar y sobria de peligros y obstáculos potenciales.' } },
+                { id: '3a_13', title: { hu: 'Határtartás', en: 'Setting boundaries', es: 'Establecer límites' }, desc: { hu: 'Saját testi és lelki határaink, energiáink tudatos megóvása a kimerüléstől.', en: 'Conscious protection of our physical and mental boundaries and energy from exhaustion.', es: 'Protección consciente de nuestros límites físicos y mentales y de la energía contra el agotamiento.' } },
+                { id: '3a_14', title: { hu: 'Pihenés tisztelete', en: 'Respect for rest', es: 'Respeto por el descanso' }, desc: { hu: 'A megújulás, a feltöltődés és a semmittevés idejének bűntudat nélküli megélése.', en: 'Experiencing the time of renewal, recharge, and doing nothing without guilt.', es: 'Experimentar el tiempo de renovación, recarga y no hacer nada sin culpa.' } },
+                { id: '3a_15', title: { hu: 'Biztonság', en: 'Security', es: 'Seguridad' }, desc: { hu: 'Stabil, fenyegetettségtől mentes fizikai és lelki alapok megteremtése.', en: 'Creating stable physical and mental foundations free from threats.', es: 'Crear bases físicas y mentales estables libres de amenazas.' } },
+                { id: '3a_16', title: { hu: 'Erő', en: 'Strength', es: 'Fuerza' }, desc: { hu: 'Fizikai és szellemi teherbírás, amely képessé tesz az akadályok leküzdésére.', en: 'Physical and mental endurance that enables overcoming obstacles.', es: 'Resistencia física y mental que permite superar obstáculos.' } }
+            ]},
+            { catId: 'c3b',
+              catName: { hu: '3B. Értékteremtés', en: '3B. Value Creation', es: '3B. Creación de Valor' },
+              items: [
+                { id: '3b_1', title: { hu: 'Alkotókészség', en: 'Creativity', es: 'Creatividad' }, desc: { hu: 'Új, hasznos ötletek, megoldások és formák létrehozása.', en: 'Creating new, useful ideas, solutions, and forms.', es: 'Crear ideas, soluciones y formas nuevas y útiles.' } },
+                { id: '3b_2', title: { hu: 'Szorgalom', en: 'Diligence', es: 'Diligencia' }, desc: { hu: 'Folyamatos, becsületes és kitartó igyekezet a munka elvégzésében.', en: 'Continuous, honest, and persistent effort in doing the work.', es: 'Esfuerzo continuo, honesto y persistente en hacer el trabajo.' } },
+                { id: '3b_3', title: { hu: 'Felelősségvállalás', en: 'Responsibility', es: 'Responsabilidad' }, desc: { hu: 'Saját tetteink és azok közösségi következményeinek felvállalása.', en: 'Taking ownership of our actions and their communal consequences.', es: 'Asumir la propiedad de nuestras acciones y sus consecuencias comunitarias.' } },
+                { id: '3b_4', title: { hu: 'Hivatástudat', en: 'Sense of calling', es: 'Vocación' }, desc: { hu: 'A munkának nem pusztán teherként, hanem értelmes szolgálatként való megélése.', en: 'Experiencing work not merely as a burden, but as meaningful service.', es: 'Experimentar el trabajo no simplemente como una carga, sino como un servicio significativo.' } },
+                { id: '3b_5', title: { hu: 'Együttműködés', en: 'Cooperation', es: 'Cooperación' }, desc: { hu: 'Közös célok érdekében végzett összehangolt, segítő munka.', en: 'Coordinated, helpful work carried out for common goals.', es: 'Trabajo coordinado y útil llevado a cabo por objetivos comunes.' } },
+                { id: '3b_6', title: { hu: 'Kiválóságra törekvés', en: 'Striving for excellence', es: 'Búsqueda de la excelencia' }, desc: { hu: 'A saját képességek legjavának nyújtására való folyamatos igény.', en: 'The continuous need to provide the best of one\'s abilities.', es: 'La necesidad continua de proporcionar lo mejor de las propias habilidades.' } },
+                { id: '3b_7', title: { hu: 'Alaposság', en: 'Thoroughness', es: 'Minuciosidad' }, desc: { hu: 'A feladatok elnagyolás nélküli, gondos és minőségi kidolgozása.', en: 'Careful and high-quality elaboration of tasks without rushing.', es: 'Elaboración cuidadosa y de alta calidad de tareas sin prisas.' } },
+                { id: '3b_8', title: { hu: 'Találékonyság', en: 'Resourcefulness', es: 'Ingenio' }, desc: { hu: 'Problémamegoldás okosan, a rendelkezésre álló erőforrásokból.', en: 'Solving problems smartly using available resources.', es: 'Resolver problemas inteligentemente utilizando los recursos disponibles.' } },
+                { id: '3b_9', title: { hu: 'Kezdeményezőkészség', en: 'Initiative', es: 'Iniciativa' }, desc: { hu: 'Új lehetőségek felkutatása és az első lépés megtétele.', en: 'Seeking new opportunities and taking the first step.', es: 'Buscar nuevas oportunidades y dar el primer paso.' } },
+                { id: '3b_10', title: { hu: 'Szolgálat', en: 'Service', es: 'Servicio' }, desc: { hu: 'Mások javát, kényelmét vagy fejlődését célzó, alázatos tevékenység.', en: 'Humble activity aimed at the benefit, comfort, or development of others.', es: 'Actividad humilde dirigida al beneficio, la comodidad o el desarrollo de otros.' } },
+                { id: '3b_11', title: { hu: 'Pontosság', en: 'Punctuality', es: 'Puntualidad' }, desc: { hu: 'Saját és mások idejének megbecsülése a megállapodások betartásával.', en: 'Appreciating one\'s own and others\' time by keeping agreements.', es: 'Apreciar el propio tiempo y el de los demás cumpliendo los acuerdos.' } },
+                { id: '3b_12', title: { hu: 'Átláthatóság', en: 'Transparency', es: 'Transparencia' }, desc: { hu: 'A döntések és munkafolyamatok nyílt, ellenőrizhető végzése.', en: 'Open, verifiable execution of decisions and workflows.', es: 'Ejecución abierta y verificable de decisiones y flujos de trabajo.' } },
+                { id: '3b_13', title: { hu: 'Tisztesség', en: 'Integrity', es: 'Integridad' }, desc: { hu: 'Egyenes, korrekt és méltányos bánásmód az üzletben és a munkában.', en: 'Straightforward, correct, and fair treatment in business and work.', es: 'Trato directo, correcto y justo en los negocios y el trabajo.' } },
+                { id: '3b_14', title: { hu: 'Kölcsönösség', en: 'Reciprocity', es: 'Reciprocidad' }, desc: { hu: 'Az adás és kapás, a munka és az elismerés egyensúlyának megteremtése.', en: 'Creating a balance between giving and receiving, work and recognition.', es: 'Crear un equilibrio entre dar y recibir, trabajo y reconocimiento.' } },
+                { id: '3b_15', title: { hu: 'Értékteremtés', en: 'Value creation', es: 'Creación de valor' }, desc: { hu: 'Olyan maradandó és hasznos dolgok létrehozása, amelyek mások életét is gazdagítják.', en: 'Creating lasting and useful things that enrich the lives of others too.', es: 'Crear cosas duraderas y útiles que también enriquecen la vida de los demás.' } }
+            ]},
+            { catId: 'c4',
+              catName: { hu: '4. Összhang (Jelen)', en: '4. Harmony (Present)', es: '4. Armonía (Presente)' },
+              items: [
+                { id: '4_1', title: { hu: 'Békesség', en: 'Peacefulness', es: 'Paz' }, desc: { hu: 'Erőszakmentes, belső és külső feszültségektől mentes létállapot.', en: 'Non-violent state of being, free from inner and outer tensions.', es: 'Estado de ser no violento, libre de tensiones internas y externas.' } },
+                { id: '4_2', title: { hu: 'Derű', en: 'Serenity', es: 'Serenidad' }, desc: { hu: 'Független, belső mosoly és derűlátó életszemlélet a borús napokon is.', en: 'Independent, inner smile and optimistic outlook on life even on gloomy days.', es: 'Sonrisa interior independiente y perspectiva optimista de la vida incluso en días sombríos.' } },
+                { id: '4_3', title: { hu: 'Hála', en: 'Gratitude', es: 'Gratitud' }, desc: { hu: 'A kapott jó dolgok, a segítség és az élet ajándékainak tudatos értékelése.', en: 'Conscious appreciation of good things received, help, and life\'s gifts.', es: 'Apreciación consciente de las cosas buenas recibidas, la ayuda y los dones de la vida.' } },
+                { id: '4_4', title: { hu: 'Életöröm', en: 'Joy of life', es: 'Alegría de vivir' }, desc: { hu: 'Az élet mindennapi szépségeinek és apró csodáinak élvezete.', en: 'Enjoying the everyday beauties and small miracles of life.', es: 'Disfrutar de las bellezas cotidianas y los pequeños milagros de la vida.' } },
+                { id: '4_5', title: { hu: 'Elfogadás', en: 'Acceptance', es: 'Aceptación' }, desc: { hu: 'A megváltoztathatatlan események és emberek békés tudomásul vétele.', en: 'Peaceful acknowledgment of unchangeable events and people.', es: 'Reconocimiento pacífico de eventos y personas inmutables.' } },
+                { id: '4_6', title: { hu: 'Egyszerűség', en: 'Simplicity', es: 'Simplicidad' }, desc: { hu: 'A felesleges bonyolultság, a tárgyak halmozása és a hivalkodás elhagyása.', en: 'Letting go of unnecessary complexity, hoarding objects, and ostentation.', es: 'Dejar ir la complejidad innecesaria, la acumulación de objetos y la ostentación.' } },
+                { id: '4_7', title: { hu: 'Nyugalom', en: 'Calmness', es: 'Calma' }, desc: { hu: 'Belső higgadtság megőrzése a zavaros, zajos vagy provokatív helyzetekben.', en: 'Maintaining inner composure in confusing, noisy, or provocative situations.', es: 'Mantener la compostura interior en situaciones confusas, ruidosas o provocativas.' } },
+                { id: '4_8', title: { hu: 'Egyensúly', en: 'Balance', es: 'Equilibrio' }, desc: { hu: 'A munka, a magánélet, az adás és a kapás egészséges arányának fenntartása.', en: 'Maintaining a healthy ratio of work, private life, giving, and receiving.', es: 'Mantener una proporción saludable de trabajo, vida privada, dar y recibir.' } },
+                { id: '4_9', title: { hu: 'Kiegyensúlyozottság', en: 'Poise', es: 'Aplomo' }, desc: { hu: 'Érzelmi kilengésektől mentes, stabil lelki alap.', en: 'Stable mental foundation free from emotional swings.', es: 'Base mental estable libre de cambios emocionales.' } },
+                { id: '4_10', title: { hu: 'Megegyezésre törekvés', en: 'Seeking agreement', es: 'Búsqueda de acuerdos' }, desc: { hu: 'A közös pontok és a mindenki számára jó megoldások keresése.', en: 'Searching for common ground and win-win solutions.', es: 'Búsqueda de puntos en común y soluciones beneficiosas para todos.' } },
+                { id: '4_11', title: { hu: 'Béketeremtés', en: 'Peacemaking', es: 'Construcción de paz' }, desc: { hu: 'Nézeteltérések és viták aktív, indulatmentes és igazságos rendezése.', en: 'Active, dispassionate, and just resolution of disagreements and disputes.', es: 'Resolución activa, desapasionada y justa de desacuerdos y disputas.' } },
+                { id: '4_12', title: { hu: 'Játékosság', en: 'Playfulness', es: 'Juguetón' }, desc: { hu: 'A görcsösséget oldó, felszabadult és humorral átszőtt életszemlélet.', en: 'A liberated life perspective woven with humor that relieves tension.', es: 'Una perspectiva de vida liberada entretejida con humor que alivia la tensión.' } },
+                { id: '4_13', title: { hu: 'Szelídség', en: 'Gentleness', es: 'Gentileza' }, desc: { hu: 'Olyan belső erő és megnyilvánulás, amelynek nincs szüksége erőszakra a hatáshoz.', en: 'An inner strength and manifestation that does not need violence to have an impact.', es: 'Una fuerza interior y manifestación que no necesita violencia para tener un impacto.' } },
+                { id: '4_14', title: { hu: 'Természetesség', en: 'Naturalness', es: 'Naturalidad' }, desc: { hu: 'Megjátszás, álarcok és mesterkéltség nélküli, tiszta létezés.', en: 'Pure existence without pretense, masks, and artificiality.', es: 'Existencia pura sin pretensiones, máscaras y artificialidad.' } },
+                { id: '4_15', title: { hu: 'Csend', en: 'Silence', es: 'Silencio' }, desc: { hu: 'A külső és belső zajok elcsendesítése a tiszta figyelem és jelenlét érdekében.', en: 'Quieting external and internal noises for clear attention and presence.', es: 'Aquietar los ruidos externos e internos para una atención y presencia claras.' } },
+                { id: '4_16', title: { hu: 'Bőség', en: 'Abundance', es: 'Abundancia' }, desc: { hu: 'Az anyagi és szellemi javak áramlásának, a hiánymentes, gazdag létnek a megtapasztalása.', en: 'Experiencing the flow of material and spiritual wealth, a rich existence free of lack.', es: 'Experimentar el flujo de la riqueza material y espiritual, una existencia rica y sin carencias.' } }
+            ]},
+            { catId: 'c5',
+              catName: { hu: '5. Szabadság', en: '5. Freedom', es: '5. Libertad' },
+              items: [
+                { id: '5_1', title: { hu: 'Belső szabadság', en: 'Inner freedom', es: 'Libertad interior' }, desc: { hu: 'A külső nyomástól, elvárásoktól és félelmektől mentes értékítélet.', en: 'Value judgment free from external pressure, expectations, and fears.', es: 'Juicio de valor libre de presiones externas, expectativas y miedos.' } },
+                { id: '5_2', title: { hu: 'Függetlenség', en: 'Independence', es: 'Independencia' }, desc: { hu: 'Az önálló gondolkodás, a saját lábon állás megtartott képessége.', en: 'The retained ability of independent thinking and standing on one\'s own feet.', es: 'La capacidad retenida de pensamiento independiente y de valerse por sí mismo.' } },
+                { id: '5_3', title: { hu: 'Önrendelkezés', en: 'Self-determination', es: 'Autodeterminación' }, desc: { hu: 'A saját sorsunk és testünk feletti kizárólagos és felelős irányítás.', en: 'Exclusive and responsible control over our own fate and body.', es: 'Control exclusivo y responsable sobre nuestro propio destino y cuerpo.' } },
+                { id: '5_4', title: { hu: 'Önazonosság', en: 'Authenticity', es: 'Autenticidad' }, desc: { hu: 'A belső értékeken alapuló, a külvilággal is összhangban lévő valódi arcunk felvállalása.', en: 'Embracing our true face based on inner values, in harmony with the outside world.', es: 'Abrazar nuestro verdadero rostro basado en valores internos, en armonía con el mundo exterior.' } },
+                { id: '5_5', title: { hu: 'Gondolat szabadsága', en: 'Freedom of thought', es: 'Libertad de pensamiento' }, desc: { hu: 'A független, merev tanoktól és dogmáktól mentes véleményalkotás.', en: 'Forming opinions independently, free from rigid doctrines and dogmas.', es: 'Formar opiniones de forma independiente, libre de doctrinas rígidas y dogmas.' } },
+                { id: '5_6', title: { hu: 'Beszéd szabadsága', en: 'Freedom of speech', es: 'Libertad de expresión' }, desc: { hu: 'A saját igazságunk és véleményünk retorzió nélküli kifejezésének igénye.', en: 'The need to express our own truth and opinion without retaliation.', es: 'La necesidad de expresar nuestra propia verdad y opinión sin represalias.' } },
+                { id: '5_7', title: { hu: 'Önbecsülés', en: 'Self-esteem', es: 'Autoestima' }, desc: { hu: 'Annak mély tudata, hogy értékünk nem mások elismerésétől függ.', en: 'The deep awareness that our value does not depend on the recognition of others.', es: 'La profunda conciencia de que nuestro valor no depende del reconocimiento de los demás.' } },
+                { id: '5_8', title: { hu: 'Felelős szabadság', en: 'Responsible freedom', es: 'Libertad responsable' }, desc: { hu: 'Saját szabadságunk megélése úgy, hogy az ne csorbítsa mások jogait.', en: 'Living our own freedom in a way that does not infringe on the rights of others.', es: 'Vivir nuestra propia libertad de manera que no infrinja los derechos de los demás.' } },
+                { id: '5_9', title: { hu: 'Döntésszabadság', en: 'Freedom of choice', es: 'Libertad de elección' }, desc: { hu: 'A kényszerítés és zsarolás nélküli választás joga a lehetőségek közül.', en: 'The right to choose from possibilities without coercion and blackmail.', es: 'El derecho a elegir entre las posibilidades sin coacción ni chantaje.' } },
+                { id: '5_10', title: { hu: 'Szenvedélymentesség', en: 'Freedom from addiction', es: 'Libertad de adicciones' }, desc: { hu: 'A belső függőségektől, romboló szokásoktól és a puszta vágyaktól való megkötözetlenség.', en: 'Unboundedness from inner addictions, destructive habits, and mere desires.', es: 'Desvinculación de adicciones internas, hábitos destructivos y meros deseos.' } },
+                { id: '5_11', title: { hu: 'Szellemi önállóság', en: 'Intellectual autonomy', es: 'Autonomía intelectual' }, desc: { hu: 'Kész és előre gyártott válaszok helyett a saját igazság megtalálása.', en: 'Finding one\'s own truth instead of ready-made and prefabricated answers.', es: 'Encontrar la propia verdad en lugar de respuestas prefabricadas y listas.' } },
+                { id: '5_12', title: { hu: 'Személyes tér tisztelete', en: 'Respect for personal space', es: 'Respeto por el espacio personal' }, desc: { hu: 'A saját és mások önálló, szabad mozgásterének kölcsönös biztosítása.', en: 'Mutually ensuring one\'s own and others\' independent, free room to maneuver.', es: 'Asegurar mutuamente el propio espacio de maniobra independiente y libre y el de los demás.' } }
+            ]},
+            { catId: 'c6',
+              catName: { hu: '6. Örökség', en: '6. Legacy', es: '6. Legado' },
+              items: [
+                { id: '6_1', title: { hu: 'Példamutatás', en: 'Leading by example', es: 'Liderar con el ejemplo' }, desc: { hu: 'Az értékek hiteles megélése a mindennapi tettekben, ami másokat emel és tanít.', en: 'Authentically living values in everyday actions, which elevates and teaches others.', es: 'Vivir auténticamente los valores en las acciones cotidianas, lo que eleva y enseña a los demás.' } },
+                { id: '6_2', title: { hu: 'Tanítás', en: 'Teaching', es: 'Enseñanza' }, desc: { hu: 'A megszerzett tudás, tapasztalat és emberi bölcsesség türelmes átadása az utódoknak.', en: 'Patiently passing on acquired knowledge, experience, and human wisdom to descendants.', es: 'Transmitir pacientemente los conocimientos adquiridos, la experiencia y la sabiduría humana a los descendientes.' } },
+                { id: '6_3', title: { hu: 'Jövőkímélő szemlélet', en: 'Future-conscious mindset', es: 'Mentalidad consciente del futuro' }, desc: { hu: 'Tetteink jövő nemzedékekre gyakorolt hatásának felelős mérlegelése.', en: 'Responsible consideration of the impact of our actions on future generations.', es: 'Consideración responsable del impacto de nuestras acciones en las generaciones futuras.' } },
+                { id: '6_4', title: { hu: 'Közjó építése', en: 'Building the common good', es: 'Construir el bien común' }, desc: { hu: 'Az egyéni érdekeken túlmutató, a tágabb közösség javát hosszútávon szolgáló munka.', en: 'Work that goes beyond individual interests and serves the good of the wider community in the long term.', es: 'Trabajo que va más allá de los intereses individuales y sirve al bien de la comunidad en general a largo plazo.' } },
+                { id: '6_5', title: { hu: 'Értékőrzés', en: 'Preserving values', es: 'Preservar valores' }, desc: { hu: 'A múltból származó hasznos, építő hagyományok tisztelete és továbbadása.', en: 'Respecting and passing on useful, constructive traditions from the past.', es: 'Respetar y transmitir tradiciones útiles y constructivas del pasado.' } },
+                { id: '6_6', title: { hu: 'Tudásmegosztás', en: 'Knowledge sharing', es: 'Compartir conocimientos' }, desc: { hu: 'Az értékes ismeretek önző visszatartás nélküli átadása a közösségnek.', en: 'Passing on valuable knowledge to the community without selfish withholding.', es: 'Transmitir conocimientos valiosos a la comunidad sin retención egoísta.' } },
+                { id: '6_7', title: { hu: 'Gondos örökség hagyása', en: 'Careful legacy', es: 'Legado cuidadoso' }, desc: { hu: 'Anyagi és szellemi javak tudatos gyarapítása az utánunk jövők számára.', en: 'Conscious accumulation of material and spiritual wealth for those who come after us.', es: 'Acumulación consciente de riqueza material y espiritual para los que vienen después de nosotros.' } },
+                { id: '6_8', title: { hu: 'Társadalmi felelősség', en: 'Social responsibility', es: 'Responsabilidad social' }, desc: { hu: 'Nemzetünk vagy szűkebb közösségünk sorsának cselekvő szívén viselése.', en: 'Actively caring about the fate of our nation or narrower community.', es: 'Preocuparse activamente por el destino de nuestra nación o comunidad más estrecha.' } },
+                { id: '6_9', title: { hu: 'Közösségi emlékezet ápolása', en: 'Cultivating collective memory', es: 'Cultivar la memoria colectiva' }, desc: { hu: 'A közös történetek, hősök és tanulságok megőrzése az utókornak.', en: 'Preserving shared stories, heroes, and lessons for posterity.', es: 'Preservar historias compartidas, héroes y lecciones para la posteridad.' } },
+                { id: '6_10', title: { hu: 'Közös jövő tisztelete', en: 'Respecting our common future', es: 'Respetar nuestro futuro común' }, desc: { hu: 'Annak megértése, hogy a döntéseink összeadódnak és formálják a holnapot.', en: 'Understanding that our decisions add up and shape tomorrow.', es: 'Comprender que nuestras decisiones se suman y dan forma al mañana.' } },
+                { id: '6_11', title: { hu: 'Értelmes élet megélése', en: 'Living a meaningful life', es: 'Vivir una vida significativa' }, desc: { hu: 'A puszta túlélésen és fogyasztáson túlmutató, tartalommal bíró életút bejárása.', en: 'Walking a life path with content that goes beyond mere survival and consumption.', es: 'Recorrer un camino de vida con contenido que va más allá de la mera supervivencia y el consumo.' } },
+                { id: '6_12', title: { hu: 'Természet védelme', en: 'Protecting nature', es: 'Proteger la naturaleza' }, desc: { hu: 'A bolygó és az élővilág megóvása, hogy a jövő nemzedékek is élvezhessék.', en: 'Protecting the planet and wildlife so that future generations can enjoy them too.', es: 'Proteger el planeta y la vida silvestre para que las generaciones futuras también puedan disfrutarlos.' } },
+                { id: '6_13', title: { hu: 'Társadalmi béke építése', en: 'Building social peace', es: 'Construir la paz social' }, desc: { hu: 'Az ellenségeskedés és a harag generációkon átívelő továbbadásának megállítása.', en: 'Stopping the transmission of hostility and anger across generations.', es: 'Detener la transmisión de hostilidad e ira a través de las generaciones.' } }
+            ]}
+        ];
+
+        // Custom Toast Notification System
+        function showToast(message, type = 'success') {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+
+            const colors = {
+                success: 'bg-emerald-100 border-emerald-500 text-emerald-800',
+                error: 'bg-red-100 border-red-500 text-red-800',
+                warning: 'bg-yellow-100 border-yellow-500 text-yellow-800'
+            };
+
+            const icons = {
+                success: '<i class="fa-solid fa-check-circle"></i>',
+                error: '<i class="fa-solid fa-triangle-exclamation"></i>',
+                warning: '<i class="fa-solid fa-circle-exclamation"></i>'
+            };
+
+            toast.className = `toast-enter flex items-center gap-3 px-4 py-3 rounded-lg border shadow-md ${colors[type]}`;
+            toast.innerHTML = `
+                <div class="text-xl">${icons[type]}</div>
+                <div class="font-medium">${message}</div>
+            `;
+
+            container.appendChild(toast);
+
+            setTimeout(() => {
+                toast.classList.replace('toast-enter', 'toast-exit');
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        // Application State
+        const state = {
+            lang: 'en', // default, will be overwritten by autodetect
+            selectedIds: new Set(),
+            ratings: {}, // Format: { id: { importance: 5, state: 5, action: "" } }
+            currentStep: 1
+        };
+
+        const MAX_SELECTION = 24;
+
+        // Core App Logic
+        const app = {
+            init() {
+                this.autodetectLanguage();
+                this.updateUI();
+                this.renderMatrix();
+                this.updateSelectionCount();
+            },
+
+            autodetectLanguage() {
+                const browserLang = navigator.language || navigator.userLanguage;
+                let lang = 'en';
+                if (browserLang.toLowerCase().startsWith('hu')) lang = 'hu';
+                else if (browserLang.toLowerCase().startsWith('es')) lang = 'es';
+
+                document.getElementById('languageSelector').value = lang;
+                this.changeLanguage(lang);
+            },
+
+            changeLanguage(lang) {
+                state.lang = lang;
+                document.documentElement.lang = lang;
+
+                // Show/hide HU specific links
+                document.getElementById('hu_links').style.display = (lang === 'hu') ? 'grid' : 'none';
+
+                this.updateUI();
+                if(state.currentStep === 1) this.renderMatrix();
+                if(state.currentStep === 2) this.renderEvaluation();
+                if(state.currentStep === 3) this.renderResults();
+            },
+
+            updateUI() {
+                const dict = i18n[state.lang];
+
+                // Static elements mapping
+                const elements = [
+                    'pageTitle', 'headerTitle', 'headerDesc', 'btnImport', 'btnExport',
+                    'step1Title', 'step1Desc', 'selectedCountLabel', 'btnProceedEval',
+                    'step2Title', 'step2Desc', 'btnBack', 'btnGenerate',
+                    'step3Title', 'btnPrint', 'catHealthTitle', 'missingCatTitle',
+                    'actionPlanTitle', 'actionPlanDesc', 'footerQuote'
+                ];
+
+                elements.forEach(id => {
+                    const el = document.getElementById(`ui_${id}`) || document.getElementById(id);
+                    if(el && dict[id]) el.innerHTML = dict[id];
+                });
+
+                this.updateSelectionCount();
+            },
+
+            // --- UI Rendering ---
+            renderMatrix() {
+                const container = document.getElementById('matrixContainer');
+                container.innerHTML = '<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"></div>';
+                const grid = container.firstElementChild;
+                const dict = i18n[state.lang];
+
+                let allItems = [];
+                rawData.forEach(category => {
+                    category.items.forEach(item => {
+                        allItems.push(item);
+                    });
+                });
+
+                allItems.forEach(item => {
+                    const isChecked = state.selectedIds.has(item.id) ? 'checked' : '';
+
+                    grid.innerHTML += `
+                        <label class="flex items-start space-x-3 cursor-pointer group hover:bg-brand-50 p-3 rounded-lg border border-transparent hover:border-brand-100 transition duration-200">
+                            <div class="flex-shrink-0 mt-0.5">
+                                <input type="checkbox" id="chk_${item.id}" value="${item.id}" onchange="app.toggleSelection(this)" ${isChecked}
+                                    class="w-5 h-5 text-brand-600 border-gray-300 rounded focus:ring-brand-500">
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 group-hover:text-brand-700 transition">${item.title[state.lang]}</p>
+                                <p class="text-xs text-gray-500 leading-snug mt-1">${item.desc[state.lang]}</p>
+                            </div>
+                        </label>
+                    `;
+                });
+            },
+
+            renderEvaluation() {
+                const container = document.getElementById('evaluationContainer');
+                container.innerHTML = '';
+                const dict = i18n[state.lang];
+
+                const selectedItems = this.getSelectedItemsData();
+
+                if(selectedItems.length === 0) {
+                    container.innerHTML = `<div class="p-8 text-center text-gray-500 bg-white rounded-xl shadow-sm">${dict.noValuesSelected}</div>`;
+                    return;
+                }
+
+                selectedItems.forEach(item => {
+                    // Initialize default ratings if not exist
+                    if (!state.ratings[item.id]) {
+                        state.ratings[item.id] = { importance: 5, state: 5, action: "" };
+                    }
+                    const r = state.ratings[item.id];
+
+                    container.innerHTML += `
+                        <div class="bg-white rounded-xl shadow-sm p-5 border border-gray-100 flex flex-col md:flex-row md:items-center gap-6">
+                            <div class="md:w-1/3">
+                                <h4 class="font-bold text-lg text-gray-800">${item.title[state.lang]}</h4>
+                            </div>
+
+                            <div class="md:w-1/3 space-y-2 bg-blue-50/50 p-3 rounded-lg border border-blue-100">
+                                <div class="flex justify-between">
+                                    <label class="text-sm font-semibold text-brand-800">${dict.lblImportance}</label>
+                                    <span class="font-bold text-brand-600" id="val_imp_${item.id}">${r.importance}</span>
+                                </div>
+                                <input type="range" min="1" max="10" value="${r.importance}"
+                                    class="w-full accent-brand-600"
+                                    oninput="document.getElementById('val_imp_${item.id}').innerText = this.value; app.updateRating('${item.id}', 'importance', this.value)">
+                            </div>
+
+                            <div class="md:w-1/3 space-y-2 bg-emerald-50/50 p-3 rounded-lg border border-emerald-100">
+                                <div class="flex justify-between">
+                                    <label class="text-sm font-semibold text-emerald-800">${dict.lblState}</label>
+                                    <span class="font-bold text-emerald-600" id="val_state_${item.id}">${r.state}</span>
+                                </div>
+                                <input type="range" min="1" max="10" value="${r.state}"
+                                    class="w-full accent-emerald-600"
+                                    oninput="document.getElementById('val_state_${item.id}').innerText = this.value; app.updateRating('${item.id}', 'state', this.value)">
+                            </div>
+                        </div>
+                    `;
+                });
+            },
+
+            renderResults() {
+                const healthContainer = document.getElementById('categoryHealthContainer');
+                const missingContainer = document.getElementById('missingCategoriesContainer');
+                const actionContainer = document.getElementById('actionPlanContainer');
+                const dict = i18n[state.lang];
+
+                healthContainer.innerHTML = '';
+                missingContainer.innerHTML = '';
+                actionContainer.innerHTML = '';
+
+                let missingCats = [];
+                let actionPlanCount = 0;
+
+                rawData.forEach(category => {
+                    const selectedInCategory = category.items.filter(i => state.selectedIds.has(i.id));
+
+                    if (selectedInCategory.length === 0) {
+                        missingCats.push(category.catName[state.lang]);
+                    } else {
+                        // Calculate averages
+                        let sumImp = 0, sumState = 0;
+                        selectedInCategory.forEach(i => {
+                            sumImp += parseInt(state.ratings[i.id].importance);
+                            sumState += parseInt(state.ratings[i.id].state);
+                        });
+
+                        const avgImp = (sumImp / selectedInCategory.length).toFixed(1);
+                        const avgState = (sumState / selectedInCategory.length).toFixed(1);
+
+                        // Render Category Health Bar
+                        const healthPercentage = Math.min(100, Math.max(0, (avgState / avgImp) * 100));
+                        let healthColor = 'bg-emerald-500';
+                        if(healthPercentage < 50) healthColor = 'bg-red-500';
+                        else if(healthPercentage < 80) healthColor = 'bg-yellow-500';
+
+                        healthContainer.innerHTML += `
+                            <div class="mb-4">
+                                <div class="flex justify-between text-sm mb-1">
+                                    <span class="font-bold text-gray-700">${category.catName[state.lang]}</span>
+                                    <span class="text-gray-500">${dict.lblImportance}: ${avgImp} | ${dict.lblState}: ${avgState}</span>
+                                </div>
+                                <div class="w-full bg-gray-200 rounded-full h-2.5">
+                                    <div class="${healthColor} h-2.5 rounded-full" style="width: ${healthPercentage}%"></div>
+                                </div>
+                            </div>
+                        `;
+
+                        // Render Action Plans for Gaps
+                        selectedInCategory.forEach(item => {
+                            const r = state.ratings[item.id];
+                            if (parseInt(r.state) < parseInt(r.importance)) {
+                                actionPlanCount++;
+
+                                actionContainer.innerHTML += `
+                                    <div class="bg-white rounded-xl shadow-md border border-brand-500 p-6 flex flex-col space-y-3">
+                                        <div class="flex justify-between items-start">
+                                            <div>
+                                                <h4 class="text-xl font-bold text-gray-800">${item.title[state.lang]} <span class="text-sm font-normal text-gray-500 ml-2">(${category.catName[state.lang]})</span></h4>
+                                                <div class="flex space-x-4 mt-2 text-sm">
+                                                    <span class="bg-red-100 text-red-800 px-2 py-1 rounded">${dict.lblDifference}: ${r.importance - r.state}</span>
+                                                    <span class="text-gray-500 py-1">${dict.lblImportance}: ${r.importance} | ${dict.lblState}: ${r.state}</span>
+                                                </div>
+                                            </div>
+                                            <i class="fa-solid fa-pen-to-square text-brand-200 text-2xl"></i>
+                                        </div>
+
+                                        <label class="font-semibold text-gray-700 mt-4 block">${dict.actionQuestion.replace('{0}', item.title[state.lang])}</label>
+                                        <textarea
+                                            class="w-full border border-gray-300 rounded-lg p-3 focus:ring-2 focus:ring-brand-500 focus:border-brand-500 outline-none transition"
+                                            rows="3"
+                                            placeholder="${dict.actionPlaceholder}"
+                                            onchange="app.updateActionPlan('${item.id}', this.value)"
+                                        >${r.action || ''}</textarea>
+                                    </div>
+                                `;
+                            }
+                        });
+                    }
+                });
+
+                // Handle Missing Categories Warning
+                if (missingCats.length > 0) {
+                    missingContainer.innerHTML = `
+                        <p class="mb-3 text-gray-700">${dict.missingCatWarning}</p>
+                        <ul class="list-disc pl-5 space-y-1 text-red-600 font-medium">
+                            ${missingCats.map(c => `<li>${c}</li>`).join('')}
+                        </ul>
+                    `;
+                } else {
+                    missingContainer.innerHTML = `<div class="flex items-center text-emerald-600 font-bold"><i class="fa-solid fa-check-circle mr-2 text-xl"></i> ${dict.perfectBalanceText}</div>`;
+                }
+
+                if (actionPlanCount === 0) {
+                    actionContainer.innerHTML = `
+                        <div class="bg-emerald-50 border border-emerald-200 text-emerald-800 p-6 rounded-xl text-center shadow-sm">
+                            <i class="fa-solid fa-trophy text-4xl mb-3 text-emerald-500"></i>
+                            <h4 class="text-xl font-bold mb-2">${dict.excellentBalanceTitle}</h4>
+                            <p>${dict.excellentBalanceDesc}</p>
+                        </div>
+                    `;
+                }
+            },
+
+            // --- State Management ---
+            toggleSelection(checkbox) {
+                const id = checkbox.value;
+                const dict = i18n[state.lang];
+
+                if (checkbox.checked) {
+                    if (state.selectedIds.size >= MAX_SELECTION) {
+                        showToast(dict.alertMaxSelection.replace('{0}', MAX_SELECTION), 'warning');
+                        checkbox.checked = false;
+                        return;
+                    }
+                    state.selectedIds.add(id);
+                } else {
+                    state.selectedIds.delete(id);
+                }
+                this.updateSelectionCount();
+            },
+
+            updateSelectionCount() {
+                const countSpan = document.getElementById('selectionCount');
+                const btnNext = document.getElementById('btnNext1');
+                const count = state.selectedIds.size;
+
+                countSpan.innerText = `${count} / ${MAX_SELECTION}`;
+
+                if(count > 0) {
+                    countSpan.classList.add('text-brand-600');
+                    countSpan.classList.remove('text-red-500');
+                    btnNext.disabled = false;
+                } else {
+                    countSpan.classList.remove('text-brand-600');
+                    countSpan.classList.add('text-red-500');
+                    btnNext.disabled = true;
+                }
+            },
+
+            updateRating(id, type, val) {
+                if(!state.ratings[id]) state.ratings[id] = { importance: 5, state: 5, action: "" };
+                state.ratings[id][type] = val;
+            },
+
+            updateActionPlan(id, val) {
+                if(state.ratings[id]) {
+                    state.ratings[id].action = val;
+                }
+            },
+
+            getSelectedItemsData() {
+                const items = [];
+                rawData.forEach(cat => {
+                    cat.items.forEach(item => {
+                        if(state.selectedIds.has(item.id)) {
+                            items.push({ ...item, catName: cat.catName });
+                        }
+                    });
+                });
+                return items;
+            },
+
+            // --- Navigation ---
+            hideAllSteps() {
+                ['step1', 'step2', 'step3'].forEach(id => {
+                    document.getElementById(id).classList.add('hidden');
+                });
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            },
+
+            goToStep1() {
+                state.currentStep = 1;
+                this.hideAllSteps();
+                document.getElementById('step1').classList.remove('hidden');
+            },
+
+            goToStep2() {
+                if(state.selectedIds.size === 0) return;
+                state.currentStep = 2;
+                this.hideAllSteps();
+                this.renderEvaluation();
+                document.getElementById('step2').classList.remove('hidden');
+            },
+
+            goToStep3() {
+                state.currentStep = 3;
+                this.hideAllSteps();
+                this.renderResults();
+                document.getElementById('step3').classList.remove('hidden');
+            },
+
+            // --- I/O Operations ---
+            exportData() {
+                const dataToExport = {
+                    selectedIds: Array.from(state.selectedIds),
+                    ratings: state.ratings,
+                    exportDate: new Date().toISOString()
+                };
+
+                const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(dataToExport, null, 2));
+                const downloadAnchorNode = document.createElement('a');
+                downloadAnchorNode.setAttribute("href", dataStr);
+                downloadAnchorNode.setAttribute("download", "value_compass_export.json");
+                document.body.appendChild(downloadAnchorNode);
+                downloadAnchorNode.click();
+                downloadAnchorNode.remove();
+            },
+
+            importData(event) {
+                const file = event.target.files[0];
+                const dict = i18n[state.lang];
+                if (!file) return;
+
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    try {
+                        const importedData = JSON.parse(e.target.result);
+                        if(importedData.selectedIds && importedData.ratings) {
+                            state.selectedIds = new Set(importedData.selectedIds);
+                            state.ratings = importedData.ratings;
+
+                            this.renderMatrix();
+                            this.updateSelectionCount();
+
+                            event.target.value = '';
+                            showToast(dict.alertImportSuccess, 'success');
+                            this.goToStep1();
+                        } else {
+                            showToast(dict.alertInvalidFormat, 'error');
+                        }
+                    } catch (error) {
+                        showToast(dict.alertFileError, 'error');
+                        console.error(error);
+                    }
+                };
+                reader.readAsText(file);
+            }
+        };
+
+        // Initialize App on load
+        document.addEventListener('DOMContentLoaded', () => {
+            app.init();
+        });
+
+    </script>
+    <!-- Language sync from parent app via URL param -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var p = new URLSearchParams(window.location.search);
+            var l = p.get('lang');
+            if (!l) return;
+            if (typeof app !== 'undefined' && typeof app.changeLanguage === 'function') { app.changeLanguage(l); }
+            else if (typeof changeLanguage === 'function') { changeLanguage(l); }
+            var sel = document.getElementById('langSelect') || document.getElementById('languageSelector');
+            if (sel) sel.value = l;
+        });
+    </script>
+</body>
+</html>

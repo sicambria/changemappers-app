@@ -1,0 +1,134 @@
+{
+  "title": "Apoyo entre Pares",
+  "nav": {
+    "find": "Buscar Apoyo entre Pares",
+    "offer": "Ofrecer Apoyo entre Pares",
+    "connections": "Mis Conexiones"
+  },
+  "distinction": "El apoyo entre pares es acompañamiento de alguien que ha estado donde tú estás. Sin consejos a menos que los pidas.",
+  "connections": {
+    "title": "Mis Conexiones de Apoyo entre Pares",
+    "subtitle": "Consulta tus conexiones de apoyo entre pares activas y pasadas.",
+    "empty": "Aún no tienes conexiones de apoyo entre pares.",
+    "status": {
+      "PENDING": "Pendiente",
+      "ACTIVE": "Activa",
+      "CLOSED": "Cerrada",
+      "CANCELLED": "Cancelada"
+    },
+    "unknownSupporter": "Colaborador desconocido"
+  },
+  "myRequests": {
+    "title": "Mis Solicitudes de Apoyo Entre Pares",
+    "subtitle": "Tus solicitudes de apoyo entre pares pendientes. Retira una solicitud si ya no la necesitas.",
+    "empty": "No tienes solicitudes de apoyo entre pares pendientes.",
+    "cardTitle": "Solicitud de Apoyo Entre Pares",
+    "situationTypeLabel": "Tipo de situación",
+    "whatSupportLooksLabel": "Cómo se ve el apoyo",
+    "whatNotLookingLabel": "Lo que no busco",
+    "withdraw": "Retirar",
+    "withdrawConfirm": "¿Retirar esta solicitud?",
+    "withdrawYes": "Sí, retirar",
+    "withdrawPending": "Retirando…",
+    "withdrawError": "No se pudo retirar la solicitud."
+  },
+  "professional": {
+    "bannerTitle": "El apoyo profesional también está disponible",
+    "bannerBody": "El apoyo entre pares complementa — pero no reemplaza — la atención profesional de salud mental. Si necesitas más, buscar un profesional es un signo de fortaleza.",
+    "findProfessional": "Buscar apoyo profesional"
+  },
+  "find": {
+    "title": "Buscar Apoyo entre Pares",
+    "subtitle": "Acompañamiento de alguien que genuinamente ha navegado algo similar a lo que tú enfrentas.",
+    "filters": {
+      "situation": "Tipo de situación",
+      "format": "Formato"
+    },
+    "empty": "No hay ofertas de apoyo entre pares que coincidan con tus filtros.",
+    "noOffers": "No hay ofertas de apoyo entre pares disponibles ahora. Vuelve pronto.",
+    "loading": "Cargando ofertas..."
+  },
+  "offer": {
+    "create": "Ofrecer Apoyo entre Pares",
+    "edit": "Editar Oferta",
+    "situationsNavigated": "Situaciones que has navegado",
+    "format": "Formato",
+    "capacity": "Cuántas conexiones puedes sostener a la vez",
+    "boundaryStatement": "Tu declaración de límites — qué puedes y no puedes sostener",
+    "pause": "Pausar oferta",
+    "resume": "Reanudar oferta"
+  },
+  "request": {
+    "create": "Solicitar Apoyo entre Pares",
+    "situationType": "¿En qué situación estás?",
+    "whatSupportLooks": "Cómo se ve el apoyo para ti ahora mismo",
+    "whatNotLooking": "Lo que NO estás buscando"
+  },
+  "connection": {
+    "status": {
+      "PENDING": "Pendiente",
+      "ACTIVE": "Activo",
+      "PAUSING": "En pausa",
+      "CLOSED": "Cerrado"
+    },
+    "accept": "Aceptar",
+    "decline": "Rechazar",
+    "close": "Cerrar conexión",
+    "format": "Formato",
+    "arcLength": "Arco esperado"
+  },
+  "feedback": {
+    "private": {
+      "title": "¿Cómo fue esta conexión para ti?",
+      "feltMet": "¿Sentiste que te encontraron genuinamente?",
+      "feltSafe": "¿Te sentiste seguro/a en esta conexión?",
+      "note": "Tus respuestas son privadas y ayudan a los administradores a entender patrones — no individuos."
+    },
+    "public": {
+      "title": "Opcional: qué lo hizo útil (breve)",
+      "prompt": "Qué hizo útil esta conexión, si hay algo que quieras compartir.",
+      "note": "Esto es opcional y breve. Nada es requerido."
+    },
+    "submit": "Enviar"
+  },
+  "card": {
+    "navigated": "Ha navegado",
+    "format": "Formato",
+    "request": "Solicitar apoyo"
+  },
+  "offerForm": {
+    "minSituations": "Por favor, lista al menos una situación que hayas navegado.",
+    "success": "Tu oferta de apoyo entre pares ha sido publicada.",
+    "situationsNavigated": "Situaciones que has navegado",
+    "onePerLine": "(una por línea)",
+    "situationsPlaceholder": "Burnout en trabajo activista\nPérdida de un miembro fundador\nTransición fuera del liderazgo",
+    "situationsHint": "Estas describen lo que has vivido — no credenciales ni experiencia profesional.",
+    "format": "Formato",
+    "formatPlaceholder": "ej. texto asíncrono, videollamadas de 30 min, notas de voz",
+    "capacity": "Capacidad",
+    "capacityHint": "(conexiones simultáneas)",
+    "boundaryStatement": "Declaración de límites",
+    "boundaryPlaceholder": "ej. Puedo contener el espacio para el duelo y el burnout, pero no estoy equipado para crisis activa. Busca apoyo profesional si estás en angustia aguda.",
+    "minChars": "Mínimo {{min}} caracteres ({{count}}/{{min}})",
+    "boundaryHint": "Esto es visible para todos los que navegan tu oferta. Sé honesto sobre lo que puedes y no puedes sostener.",
+    "publishing": "Publicando…",
+    "publish": "Publicar Oferta"
+  },
+  "requestForm": {
+    "success": "Tu solicitud ha sido enviada. Navega las ofertas para encontrar a alguien que haya estado ahí.",
+    "situationType": "¿Qué situación estás navegando?",
+    "situationPlaceholder": "ej. Burnout después de una campaña, duelo por una fractura comunitaria",
+    "whatSupportLooks": "¿Cómo se ve el apoyo para ti ahora mismo?",
+    "whatSupportPlaceholder": "ej. Alguien que escuche sin intentar arreglar nada. Alguien que haya pasado por algo similar.",
+    "whatNotLooking": "¿Qué NO estás buscando?",
+    "whatNotLookingPlaceholder": "ej. Consejos o soluciones. Personas que no han experimentado burnout.",
+    "minChars": "Mínimo {{min}} caracteres ({{count}}/{{min}})",
+    "whatNotLookingHint": "Ser honesto sobre esto te ayuda a encontrar a la persona adecuada y protege el tiempo de todos.",
+    "submitting": "Enviando…",
+    "submit": "Enviar Solicitud"
+  },
+  "professionalSupportBanner": {
+    "important": "Importante:",
+    "body": "Si estás en crisis o necesitas apoyo profesional, por favor contacta a un profesional de salud mental o línea de crisis. El apoyo entre pares no sustituye la atención profesional."
+  }
+}

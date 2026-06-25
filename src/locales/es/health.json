@@ -1,0 +1,16 @@
+{
+  "title": "Estado del Sistema",
+  "description": "Estado actual de la plataforma y sus servicios.",
+  "allSystemsOperational": "Todos los sistemas operativos",
+  "serviceOutage": "Interrupción del servicio",
+  "webInterface": "Interfaz Web",
+  "webInterfaceDesc": "Disponibilidad de la aplicación web principal y la interfaz de usuario",
+  "available": "Disponible",
+  "online": "En línea",
+  "databaseService": "Servicio de Base de Datos",
+  "databaseDesc": "Tiempo de respuesta de la base de datos central y sistemas de almacenamiento",
+  "connected": "Conectado",
+  "connectionError": "Error de conexión",
+  "offline": "Fuera de línea",
+  "lastUpdated": "Última actualización:"
+}

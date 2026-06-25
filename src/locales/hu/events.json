@@ -1,0 +1,146 @@
+{
+  "title": "Események",
+  "subtitle": "Találj közösségi eseményeket, műhelymunka lehetőségeket és ünnepeket.",
+  "create": "Esemény létrehozása",
+  "search": {
+    "placeholder": "Keresés események között...",
+    "noResults": "Nincs a keresésnek megfelelő esemény"
+  },
+  "filters": {
+    "title": "Szűrők",
+    "all": "Összes",
+    "upcoming": "Közelgő",
+    "this_week": "Ez a hét",
+    "this_month": "Ez a hónap",
+    "next_month": "Jövő hónap",
+    "past": "Korábbi",
+    "cause": "Ügy",
+    "allCauses": "Minden ügy"
+  },
+  "viewMode": {
+    "list": "Lista nézet",
+    "calendar": "Naptár nézet"
+  },
+  "calendar": {
+    "next": "Következő",
+    "previous": "Előző",
+    "today": "Ma",
+    "month": "Hónap",
+    "week": "Hét",
+    "day": "Nap",
+    "agenda": "Napirend",
+    "date": "Dátum",
+    "time": "Idő",
+    "event": "Esemény",
+    "noEventsInRange": "Nincs esemény ebben az időszakban"
+  },
+  "types": {
+    "workshop": "Műhelymunka",
+    "gathering": "Találkozó",
+    "workday": "Kaláka",
+    "celebration": "Ünneplés",
+    "training": "Képzés",
+    "openDay": "Nyílt Nap",
+    "other": "Egyéb"
+  },
+  "details": {
+    "hostedBy": "Szervező",
+    "attendees": "résztvevő",
+    "attendeesCount": "{{count}} résztvevő",
+    "free": "Ingyenes",
+    "online": "Online esemény",
+    "inPerson": "Személyes",
+    "location": "Helyszín",
+    "date": "Időpont",
+    "description": "Leírás",
+    "noDescription": "Nincs leírás megadva.",
+    "sectionTitle": "Részletek",
+    "unknownHost": "Ismeretlen",
+    "admission": "Belépés"
+  },
+  "claims": {
+    "title": "Te szervezed ezt?",
+    "description": "Ez az esemény nyilvános adatok alapján jött létre. Ha te vagy a szervezője, igényeld vissza a szerkesztési jogot!",
+    "pending": "Igénylés folyamatban",
+    "submit": "Tulajdonjog igénylése",
+    "loginRequired": "Jelentkezz be az igényléshez.",
+    "success": "Igénylés elküldve! Admin jóváhagyásra vár."
+  },
+  "form": {
+    "createTitle": "Új esemény létrehozása",
+    "editTitle": "Esemény szerkesztése",
+    "coverImage": "Borítókép",
+    "coverImageUpload": "Kattints a kép feltöltéséhez",
+    "title": "Esemény neve",
+    "titlePlaceholder": "pl. Permakultúra workshop",
+    "type": "Típus",
+    "description": "Leírás",
+    "descriptionPlaceholder": "Írd le az eseményt részletesen...",
+    "dates": {
+      "start": "Kezdés dátuma",
+      "startTime": "Kezdés időpontja",
+      "end": "Befejezés dátuma",
+      "endTime": "Befejezés időpontja"
+    },
+    "isOnline": "Online esemény",
+    "onlineLink": "Online link",
+    "location": "Helyszín",
+    "locationPlaceholder": "pl. Budapest, Margit-sziget",
+    "maxAttendees": "Maximum résztvevő (opcionális)",
+    "maxAttendeesPlaceholder": "pl. 20",
+    "onlineLinkPlaceholder": "https://meet.pelda.hu/...",
+    "isPublic": "Publikus esemény (bárki láthatja)",
+    "submit": "Létrehozás",
+    "save": "Mentés",
+    "delete": "Törlés",
+    "deleteConfirm": "Biztosan törölni szeretnéd az eseményt? Ez a művelet nem vonható vissza.",
+    "loginRequired": "Bejelentkezés szükséges",
+    "genericError": "Hiba történt a művelet során",
+    "commError": "Hiba történt a kommunikáció során",
+    "deleteFailed": "Törlés sikertelen",
+    "deleteCommError": "Hiba történt a törlés során",
+    "community": "Közösség",
+    "noCommunity": "Nincs közösség",
+    "causes": "Ügyek"
+  },
+  "rsvp": {
+    "label": "Részvétel",
+    "sectionTitle": "Jelentkezés",
+    "going": "Megyek",
+    "attending": "Ott leszek",
+    "confirmed": "Ott leszel!",
+    "maybe": "Talán",
+    "interested": "Érdekel",
+    "notGoing": "Nem megyek",
+    "cancel": "Lemondás",
+    "full": "Betelt",
+    "loginPrompt": "Jelentkezéshez",
+    "loginLink": "jelentkezz be",
+    "goingSelected": "Megyek ✓",
+    "action": "Részvétel",
+    "fullSuffix": " (betelt)",
+    "failed": "Nem sikerült rögzíteni a jelentkezésed. Próbáld újra."
+  },
+  "eventTypes": {
+    "WORKSHOP": "Műhelymunka",
+    "GATHERING": "Találkozó",
+    "WORKDAY": "Kaláka",
+    "CELEBRATION": "Ünneplés",
+    "TRAINING": "Képzés",
+    "OTHER": "Egyéb"
+  },
+  "status": {
+    "past": "Elmúlt"
+  },
+  "relations": {
+    "organizers": "Szervezők",
+    "linkedFocus": "Kapcsolódó fókusz"
+  },
+  "labels": {
+    "onlineEvent": "Online esemény",
+    "attendeeCount": "{{count}} résztvevő",
+    "organizer": "Szervező",
+    "facebookEvent": "Facebook esemény"
+  },
+  "addToCalendar": "Hozzáadás a Google Naptárhoz"
+}

@@ -1,0 +1,277 @@
+{
+  "admin": {
+    "cannotSuspendSelf": "You cannot suspend yourself.",
+    "featureUnavailable": "Feature Unavailable.",
+    "invite": {
+      "acceptedCannotRevoke": "Accepted invites cannot be revoked.",
+      "cannotResend": "This invite cannot be resent.",
+      "directCreateFailed": "Direct Create Failed.",
+      "noLongerActive": "This invite is no longer active.",
+      "noRecipient": "This invite has no recipient email address.",
+      "resendFailed": "Failed to resend invite.",
+      "revokeFailed": "Failed to revoke invite.",
+      "validation": {
+        "commentMax": "Comment Max.",
+        "emailMax": "Email Max.",
+        "emailRequired": "Email Required.",
+        "reasonMin": "Reason Min.",
+        "subjectMax": "Subject Max.",
+        "subjectMin": "Subject Min.",
+        "subjectNoNewlines": "Subject No Newlines."
+      }
+    },
+    "seed": {
+      "batchCommunitiesCreated": "Batch Communities Created.",
+      "batchCommunitiesCreatedWithSkipped": "Batch Communities Created With Skipped.",
+      "batchCommunitiesDeleted": "Batch Communities Deleted.",
+      "batchEventsCreated": "Batch Events Created.",
+      "batchEventsCreatedWithSkipped": "Batch Events Created With Skipped.",
+      "batchEventsDeleted": "Batch Events Deleted.",
+      "batchSocialIssuesCreated": "Batch Social Issues Created.",
+      "batchSocialIssuesCreatedWithSkipped": "Batch Social Issues Created With Skipped.",
+      "batchSocialIssuesDeleted": "Batch Social Issues Deleted.",
+      "batchUsersCreated": "Batch Users Created.",
+      "batchUsersCreatedWithSkipped": "Batch Users Created With Skipped.",
+      "batchUsersDeleted": "Batch Users Deleted.",
+      "batchWeakSignalsCreated": "Batch Weak Signals Created.",
+      "batchWeakSignalsCreatedWithSkipped": "Batch Weak Signals Created With Skipped.",
+      "batchWeakSignalsDeleted": "Batch Weak Signals Deleted.",
+      "clearDemoSuccess": "Demo data has been cleared.",
+      "communityDeleted": "Community Deleted.",
+      "demoCommunityCreated": "Demo community {{name}} has been created.",
+      "demoEventCreated": "Demo event {{title}} has been created.",
+      "demoSocialIssueCreated": "Demo Social Issue Created.",
+      "demoUserCreated": "Demo user {{name}} ({{email}}) has been created.",
+      "demoUserDeleted": "Demo user {{name}} has been deleted.",
+      "demoWeakSignalCreated": "Demo Weak Signal Created.",
+      "eventDeleted": "Event Deleted.",
+      "networkUpdated": "Network updated: {{communities}} communities and {{events}} events.",
+      "onlyDemoCommunitiesDelete": "Only Demo Communities Delete.",
+      "onlyDemoEventsDelete": "Only Demo Events Delete.",
+      "onlyDemoSocialIssuesDelete": "Only Demo Social Issues Delete.",
+      "onlyDemoUsersDelete": "Only demo users can be deleted here.",
+      "onlyDemoWeakSignalsDelete": "Only Demo Weak Signals Delete.",
+      "socialIssueDeleted": "Social Issue Deleted.",
+      "socialIssueNotFound": "Social Issue Not Found.",
+      "uploadFailed": "Upload Failed.",
+      "weakSignalDeleted": "Weak Signal Deleted.",
+      "weakSignalNotFound": "Weak Signal Not Found.",
+      "pastEventsDeleted": "Deleted {{count}} past events."
+    },
+    "settings": {
+      "cannotDeleteAdmin": "Cannot Delete Admin.",
+      "cannotDeleteSelf": "Cannot Delete Self.",
+      "deleteUserFailed": "Delete User Failed.",
+      "fetchFailed": "Fetch Failed.",
+      "registrationsFetchFailed": "Registrations Fetch Failed.",
+      "saveFailed": "Save Failed."
+    },
+    "profileTypeChanged": "Profile type updated.",
+    "userRestored": "Suspension revoked.",
+    "userSuspended": "User Suspended.",
+    "manage": {
+      "usersDeleted": "{{count}} user(s) deleted.",
+      "usersDeletedWithAnonymized": "{{total}} user(s) processed: {{deleted}} fully deleted, {{anonymized}} anonymized (authored content retained).",
+      "deleteBlockedByLinkedRecords": "Delete blocked by linked records ({{constraint}}).",
+      "deleteFailed": "Delete failed."
+    }
+  },
+  "common": {
+    "adminRequired": "admin authorization required.",
+    "deleteFailed": "Delete failed.",
+    "failed": "Failed",
+    "forbidden": "You do not have permission.",
+    "invalidData": "Invalid data.",
+    "invalidEmail": "Invalid email address.",
+    "loadFailed": "Failed to load data.",
+    "loginRequired": "Please sign in to continue.",
+    "operationFailed": "The operation failed.",
+    "saveFailed": "Save failed.",
+    "searchFailed": "Search failed.",
+    "settingSaveFailed": "Failed to save setting.",
+    "unauthorized": "Unauthorized action.",
+    "updateFailed": "Update failed."
+  },
+  "community": {
+    "createFailed": "Create Failed.",
+    "created": "Created.",
+    "deleted": "Deleted.",
+    "idRequired": "Id Required.",
+    "join": {
+      "accepted": "Accepted.",
+      "alreadyMember": "Already Member.",
+      "alreadyRequested": "Already Requested.",
+      "banned": "Banned.",
+      "rejected": "Rejected.",
+      "requestFailed": "Request Failed.",
+      "requestNotFoundOrProcessed": "Request Not Found Or Processed.",
+      "requestSent": "Request Sent.",
+      "requestsFetchFailed": "Requests Fetch Failed."
+    },
+    "leave": {
+      "failed": "Failed.",
+      "notMember": "Not Member.",
+      "ownerCannotLeave": "Owner Cannot Leave.",
+      "success": "Success."
+    },
+    "loadFailed": "Load Failed.",
+    "notFound": "Not Found.",
+    "updated": "Updated.",
+    "validation": {
+      "nameMin": "Name must be at least 3 characters"
+    }
+  },
+  "connection": {
+    "accepted": "Accepted.",
+    "alreadyConnected": "You are already connected.",
+    "alreadyRequested": "You already sent a connection request.",
+    "cannotConnectSelf": "You cannot connect with yourself.",
+    "cannotRequest": "Cannot Request.",
+    "cannotRequestUser": "You cannot send a connection request to this user.",
+    "createdFromReverse": "Connection created because they had already selected you.",
+    "fetchFailed": "Fetch Failed.",
+    "notFound": "Not Found.",
+    "notReceiver": "This request was not sent to you.",
+    "notification": {
+      "acceptedMessage": "Accepted Message.",
+      "acceptedTitle": "Accepted Title."
+    },
+    "rateLimited": "Rate Limited.",
+    "recommendationsFetchFailed": "Recommendations Fetch Failed.",
+    "rejected": "Rejected.",
+    "removed": "Connection deleted.",
+    "requestFailed": "Request Failed.",
+    "requestNotFound": "Request Not Found.",
+    "requestResent": "Request Resent.",
+    "requestSent": "Request Sent.",
+    "requestsFetchFailed": "Requests Fetch Failed.",
+    "statusFetchFailed": "Status Fetch Failed."
+  },
+  "event": {
+    "created": "Created.",
+    "deleted": "Deleted.",
+    "notFound": "Event not found.",
+    "notRegistered": "You are not registered for this event.",
+    "registrationCancelled": "Registration Cancelled.",
+    "rsvpFailed": "Rsvp Failed.",
+    "rsvpSuccess": "Rsvp Success.",
+    "upcomingFetchFailed": "Upcoming Fetch Failed.",
+    "updated": "Updated.",
+    "validation": {
+      "titleMin": "Title Min."
+    }
+  },
+  "feedback": {
+    "email": {
+      "expectationLabel": "Expected outcome:",
+      "expectationText": "Expected outcome",
+      "guest": "Guest.",
+      "improvementLabel": "Improvement Label.",
+      "otherLabel": "Other Label.",
+      "realityLabel": "Actual result:",
+      "realityText": "Actual result",
+      "subject": "New Feedback: {{type}}",
+      "title": "New feedback received",
+      "typeLabel": "Type:",
+      "userIdLabel": "User ID:"
+    },
+    "fetchFailed": "Failed to fetch feedback.",
+    "settingsUpdateFailed": "Settings Update Failed.",
+    "statusUpdateFailed": "Status Update Failed.",
+    "submitFailed": "Submit Failed.",
+    "tooManySubmissions": "Too Many Submissions.",
+    "validation": {
+      "expectationRequired": "Expectation Required.",
+      "realityRequired": "Reality Required."
+    }
+  },
+  "ideas": {
+    "fetchFailed": "Failed to load ideas.",
+    "submitFailed": "Failed to submit your idea.",
+    "tooManySubmissions": "Too many submissions. Please try again later.",
+    "voteFailed": "Failed to register your vote.",
+    "commentFailed": "Failed to post your comment.",
+    "commentNotFound": "Comment not found.",
+    "commentDeleteFailed": "Failed to delete the comment.",
+    "statusUpdateFailed": "Failed to update the idea status."
+  },
+  "graph": {
+    "loadFailed": "Load Failed."
+  },
+  "invite": {
+    "acceptFailed": "Accept Failed.",
+    "cannotSend": "Cannot Send.",
+    "createFailed": "Create Failed.",
+    "expired": "Expired.",
+    "fetchFailed": "Fetch Failed.",
+    "noLongerUsable": "No Longer Usable.",
+    "noSlots": "No Slots.",
+    "notFound": "Invite not found.",
+    "openFailed": "Open Failed.",
+    "rateLimited": "Rate Limited.",
+    "resendLimit": "Invite can be resent at most 3 times.",
+    "sendFailed": "Send Failed.",
+    "statsFetchFailed": "Stats Fetch Failed.",
+    "validationFailed": "Validation Failed."
+  },
+  "onboarding": {
+    "errors": {
+      "countryRequired": "Country Required."
+    },
+    "validation": {
+      "baseArchetypesRequired": "Base Archetypes Required.",
+      "bioMin": "Bio Min.",
+      "taglineMin": "Tagline Min."
+    }
+  },
+  "profile": {
+    "levelUpdateFailed": "Level Update Failed.",
+    "levelUpdated": "Level Updated.",
+    "loadFailed": "Load Failed.",
+    "notAllowedForAction": "You are not allowed to perform this action.",
+    "notAvailable": "Not Available.",
+    "notLoggedInForAction": "Not Logged In For Action."
+  },
+  "proximity": {
+    "communityMessage": "Community Message.",
+    "communityTitle": "Community Title.",
+    "userMessage": "User Message.",
+    "userTitle": "User Title."
+  },
+  "report": {
+    "alreadyReported": "Already Reported.",
+    "blockCheckFailed": "Block Check Failed.",
+    "cannotReportSelf": "You cannot report yourself.",
+    "fetchFailed": "Fetch Failed.",
+    "notFound": "Not Found.",
+    "statusUpdateFailed": "Status Update Failed.",
+    "statusUpdated": "Status Updated.",
+    "submitFailed": "Submit Failed.",
+    "submitted": "Submitted.",
+    "unblockFailed": "Unblock Failed.",
+    "userNotBlocked": "User Not Blocked.",
+    "userUnblocked": "User Unblocked."
+  },
+  "user": {
+    "accountDeleted": "Account Deleted.",
+    "algorithmicMatchingDisabled": "Algorithmic Matching Disabled.",
+    "algorithmicMatchingEnabled": "Algorithmic Matching Enabled.",
+    "blockFailed": "Block Failed.",
+    "blocked": "Blocked.",
+    "cancelFailed": "Cancel Failed.",
+    "defaultName": "Default Name.",
+    "deleteFailed": "Delete Failed.",
+    "deletionCancelled": "Deletion Cancelled.",
+    "deletionScheduleFailed": "Deletion Schedule Failed.",
+    "deletionScheduled": "Your account deletion will start in {{days}} days. You can cancel deletion with the link below.",
+    "exportFailed": "Export Failed.",
+    "exportReady": "Export Ready.",
+    "idRequired": "User ID is required.",
+    "invalidConfirmation": "Invalid Confirmation.",
+    "notFound": "Not Found.",
+    "processingRestricted": "Processing Restricted.",
+    "processingRestrictionLifted": "Processing Restriction Lifted.",
+    "recentFetchFailed": "Recent Fetch Failed.",
+    "sensitiveMatchingDisabled": "Sensitive Matching Disabled."
+  }
+}

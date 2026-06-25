@@ -1,0 +1,167 @@
+{
+  "title": "Mentoring",
+  "becomeMentor": "Become a Mentor",
+  "requestMentor": "Request a Mentor",
+  "browseMentors": "Browse Mentors",
+  "findMentor": "Find a Mentor",
+  "noMentorsAvailable": "No mentors currently available",
+  "yearsExperience": "years of experience",
+  "mentorProfile": "Mentor Profile",
+  "backToMentors": "Back to mentors",
+  "maxConcurrent": "Max concurrent",
+  "editMentorProfile": "Edit Mentor Profile",
+  "updateMentoringDetails": "Update your mentoring details",
+  "shareExpertise": "Share your expertise...",
+  "myMentorProfile": "My Mentor Profile",
+  "createMentorProfile": "Create Mentor Profile",
+  "comingSoon": "coming soon",
+  "myMentoringRelationships": "My Mentoring Relationships",
+  "nav": {
+    "find": "Find a Mentor",
+    "offer": "Become a Mentor",
+    "relationships": "My Relationships"
+  },
+  "distinction": "A mentor gives advice — they can say 'I wouldn't do that' from lived experience. This is different from coaching.",
+  "find": {
+    "title": "Find a Mentor",
+    "subtitle": "Guidance from someone who has navigated similar terrain. They can give you their honest take.",
+    "filters": {
+      "domain": "Domain",
+      "experience": "Years of experience",
+      "arcLength": "Arc length"
+    },
+    "empty": "No mentor profiles match your filters.",
+    "loading": "Loading profiles..."
+  },
+  "profile": {
+    "create": "Create Mentor Profile",
+    "edit": "Edit Profile",
+    "domain": "Domain of experience",
+    "yearsExperience": "Years of experience",
+    "whatCanOffer": "What you can offer (judgment, navigation, honest perspective)",
+    "arcLengthPreference": "Preferred arc length",
+    "maxConcurrent": "Maximum concurrent mentees"
+  },
+  "request": {
+    "create": "Request Mentoring",
+    "domain": "What domain are you navigating?",
+    "domainLabel": "Domain",
+    "inflectionPoint": "Describe the inflection point you're at",
+    "inflectionPointLabel": "Inflection Point",
+    "inflectionPointPlaceholder": "What life/work transition are you navigating?",
+    "guidanceSought": "What kind of guidance are you seeking?",
+    "guidanceSoughtLabel": "Guidance Sought",
+    "guidanceSoughtPlaceholder": "What kind of guidance are you looking for?",
+    "minChars": "Minimum {{min}} characters ({{current}}/{{min}})",
+    "submitting": "Submitting…",
+    "submit": "Send request",
+    "successMessage": "Mentoring request submitted successfully!"
+  },
+  "relationship": {
+    "status": {
+      "EXPLORING": "Exploring",
+      "ACTIVE": "Active",
+      "PAUSING": "Pausing",
+      "CLOSED": "Closed"
+    },
+    "accept": "Accept request",
+    "decline": "Decline",
+    "setArc": "Set arc length and check-in rhythm",
+    "arcLength": "Arc length",
+    "checkInRhythm": "Check-in rhythm",
+    "close": "Close relationship",
+    "withdraw": "Withdraw request"
+  },
+  "feedback": {
+    "midArc": {
+      "title": "Mid-arc reflection",
+      "prompt": "What is working in this relationship? What are you avoiding? What would a more honest version of this look like?"
+    },
+    "postArc": {
+      "title": "Post-arc reflection",
+      "prompt": "What shifted? What did you each bring? What would you tell someone entering a mentoring relationship?"
+    },
+    "submit": "Send reflection",
+    "publicNote": "This reflection will be visible on the relationship record."
+  },
+  "card": {
+    "by": "Offered by",
+    "domain": "Domain",
+    "experience": "Experience",
+    "years": "years",
+    "arcLabel": "Arc: {{arc}}",
+    "viewProfile": "View Profile",
+    "request": "Request mentoring"
+  },
+  "myRequests": {
+    "title": "My Mentoring Requests",
+    "subtitle": "Your pending mentoring requests. Withdraw a request if it is no longer needed.",
+    "empty": "You have no pending mentoring requests.",
+    "cardTitle": "Mentoring Request",
+    "domainLabel": "Domain",
+    "inflectionPointLabel": "Inflection point",
+    "guidanceSoughtLabel": "Guidance sought",
+    "withdraw": "Withdraw",
+    "withdrawConfirm": "Withdraw this request?",
+    "withdrawYes": "Yes, withdraw",
+    "withdrawPending": "Withdrawing…",
+    "withdrawError": "Failed to withdraw request."
+  },
+  "requests": {
+    "incomingTitle": "Incoming Mentoring Requests",
+    "incomingSubtitle": "Open requests from changemakers seeking mentoring. Accept a request to start a relationship.",
+    "incomingEmpty": "No open mentoring requests right now.",
+    "cardTitle": "Mentoring Request",
+    "acceptButton": "Accept this request",
+    "acceptPending": "Accepting…",
+    "acceptError": "Failed to accept request.",
+    "cancelAccept": "Cancel",
+    "arcLengthLabel": "Arc length",
+    "arcLengthPlaceholder": "e.g. 3–6 months",
+    "checkInRhythmLabel": "Check-in rhythm",
+    "checkInRhythmPlaceholder": "e.g. bi-weekly, monthly"
+  },
+  "profileForm": {
+    "created": "Mentor profile created successfully!",
+    "updated": "Mentor profile updated!",
+    "domain": "Domain",
+    "yearsExperience": "Years of Experience",
+    "whatCanOffer": "What can you offer?",
+    "whatCanOfferHint": "Describe what you bring — this is not a rating, it is an invitation.",
+    "minChars": "Minimum {{min}} characters",
+    "min": "{{min}} min",
+    "arcLengthPreference": "Arc Length Preference",
+    "arcLengthPlaceholder": "e.g. 3–6 months",
+    "maxConcurrent": "Max Concurrent Relationships",
+    "saving": "Saving…",
+    "update": "Update Mentor Profile",
+    "create": "Create Mentor Profile"
+  },
+  "relationshipList": {
+    "empty": "No mentoring relationships yet.",
+    "defaultMentorName": "Mentor",
+    "arcLabel": "Arc: {{arc}}",
+    "checkInLabel": "Check-in: {{rhythm}}",
+    "mentorLabel": "Mentor: {{name}}",
+    "closedReflectionPrompt": "This arc is closed. Writing a reflection helps you integrate what you received — it is not a rating.",
+    "writeReflection": "Write a reflection",
+    "subtitle": "Track your active and past mentoring connections."
+  },
+  "overview": {
+    "carryTitle": "What do you carry that someone else needs?",
+    "carryBody": "If you've navigated a difficult transition — career, movement, leadership, loss — your experience is of real value.",
+    "browseDescription": "Find mentors by domain and experience. Connection begins with curiosity, not a match algorithm.",
+    "relationshipsDescription": "Track active and completed mentoring arcs. Reflect at mid-arc and close.",
+    "myRequests": "My Requests",
+    "myRequestsDescription": "View and withdraw your pending mentoring requests.",
+    "incomingRequests": "Incoming Requests",
+    "incomingRequestsDescription": "Browse open mentoring requests and accept them as a mentor.",
+    "howTitle": "How this works",
+    "howItems": [
+      "Mentors set a max concurrent relationship cap — respected automatically",
+      "No public ratings. Reflections stay on the relationship record, not the profile",
+      "Mentors in RESTING or REFLECTING availability are not shown in browse",
+      "Either party can close a relationship; the mentee is invited to reflect"
+    ]
+  }
+}

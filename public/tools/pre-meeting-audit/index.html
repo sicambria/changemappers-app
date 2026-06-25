@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="hu" id="htmlTag">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="title_main">Holisztikus Regeneratív Program-Canvas</title>
+
+    <!-- SEO & Meta Tags -->
+    <meta name="description" content="Átfogó eszköz események és programok értékének, hatásának és regeneratív potenciáljának felmérésére.">
+
+    <!-- Tailwind CSS -->
+    <script src="/tools/vendor/tailwind.min.js"></script>
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#ecfdf5',
+                            DEFAULT: '#10b981',
+                            dark: '#047857',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="/tools/vendor/fontawesome/css/all.min.css">
+
+    <!-- Local Fonts -->
+    <link rel="stylesheet" href="/tools/vendor/fonts/fonts.css">
+</head>
+<body class="bg-stone-50 text-stone-800 antialiased pb-24">
+
+    <div class="cm-tools-bridge no-print">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 text-sm">
+            <a href="/tools" class="font-semibold">Changemappers tools</a>
+            <div class="flex gap-4 opacity-90">
+                <a href="/tools">Tools hub</a>
+                <a href="/">Changemappers</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sticky Header: Score Indicator & Actions -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-stone-200 shadow-sm py-4 px-6 mb-8">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+
+            <!-- Result Indicator (%, Red/Yellow/Green) -->
+            <div class="flex-1 w-full flex items-center gap-4">
+                <div class="w-16 text-right font-bold text-xl text-stone-700" id="scoreDisplay">0%</div>
+                <div class="flex-1 bg-stone-200 rounded-full h-4 overflow-hidden relative border border-stone-300">
+                    <div id="scoreBar" class="h-full bg-red-500 transition-all duration-500 ease-out w-0"></div>
+                </div>
+                <div class="text-xs font-semibold text-stone-500 uppercase tracking-wider" data-i18n="potential">Potenciál</div>
+            </div>
+
+            <!-- Controls: Lang, Import, Export -->
+            <div class="flex items-center gap-3 w-full md:w-auto">
+                <!-- Language Switcher -->
+                <div class="flex items-center justify-center bg-stone-100 border border-stone-300 rounded-lg px-2 h-9">
+                    <i class="fa-solid fa-globe text-stone-500 mr-2 text-sm"></i>
+                    <select id="langSelect" onchange="changeLanguage(this.value)" class="bg-transparent border-none text-stone-700 text-sm font-bold cursor-pointer focus:ring-0 outline-none">
+                        <option value="hu">HU</option>
+                        <option value="en">EN</option>
+                        <option value="es">ES</option>
+                    </select>
+                </div>
+
+                <input type="file" id="importFile" accept=".json" class="hidden">
+                <button onclick="document.getElementById('importFile').click()" class="flex-1 md:flex-none flex items-center justify-center gap-2 px-3 py-2 bg-stone-100 hover:bg-stone-200 text-stone-700 rounded-lg text-sm font-medium transition-colors border border-stone-300 h-9">
+                    <i class="fa-solid fa-file-import"></i> <span data-i18n="btn_import">JSON Importálása</span>
+                </button>
+                <button onclick="exportToJSON()" class="flex-1 md:flex-none flex items-center justify-center gap-2 px-3 py-2 bg-brand hover:bg-brand-dark text-white rounded-lg text-sm font-medium transition-colors shadow-sm h-9">
+                    <i class="fa-solid fa-file-export"></i> <span data-i18n="btn_export">JSON Exportálása</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-4 md:px-6">
+        <div class="text-center mb-10">
+            <h1 class="text-3xl md:text-4xl font-extrabold text-stone-900 mb-3 tracking-tight" data-i18n="title_main">Holisztikus Regeneratív Program-Canvas</h1>
+            <p class="text-stone-500" data-i18n="subtitle">Tervezd meg, értékeld és integráld eseményeidet mély, rendszerszintű összhanggal.</p>
+        </div>
+
+        <form id="canvasForm" class="space-y-8">
+
+            <!-- Basic Info Section -->
+            <section class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-stone-100">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="md:col-span-3">
+                        <label class="block text-sm font-semibold text-stone-700 mb-2" data-i18n="lbl_event_name">Esemény / Program neve:</label>
+                        <input type="text" name="eventName" class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:ring-2 focus:ring-brand focus:border-brand transition-shadow" data-i18n-placeholder="ph_event_name" placeholder="Program címe...">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-stone-700 mb-2" data-i18n="lbl_event_date">Dátum / Hossz:</label>
+                        <input type="text" name="eventDate" class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:ring-2 focus:ring-brand focus:border-brand transition-shadow" data-i18n-placeholder="ph_event_date" placeholder="pl. 2024. 10. 12. / 3 óra">
+                    </div>
+                    <div class="md:col-span-2">
+                        <label class="block text-sm font-semibold text-stone-700 mb-2" data-i18n="lbl_event_org">Szervező:</label>
+                        <input type="text" name="eventOrganizer" class="w-full px-4 py-3 rounded-lg border border-stone-300 focus:ring-2 focus:ring-brand focus:border-brand transition-shadow" data-i18n-placeholder="ph_event_org" placeholder="Szervező neve...">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 1. Value Proposition -->
+            <section class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-stone-100">
+                <h2 class="text-xl font-bold text-brand-dark mb-1" data-i18n="sec1_title">1. ÉRTÉKAJÁNLAT (Value Proposition)</h2>
+                <p class="text-sm text-stone-500 mb-6 italic" data-i18n="sec1_sub">A kölcsönösség elve: mit kapok, és mit adok a rendszernek?</p>
+
+                <div class="space-y-6">
+                    <div>
+                        <h3 class="font-semibold text-stone-800 mb-3" data-i18n="val_in_title">Belső Érték (Mit kapok?)</h3>
+                        <div class="space-y-4 pl-4 border-l-2 border-stone-200">
+                            <div>
+                                <label class="flex items-center gap-2 text-sm text-stone-700 mb-1 font-medium"><input type="checkbox" name="val_knowledge_check" class="rounded text-brand focus:ring-brand h-4 w-4"> <span data-i18n="val_know">Tudás / Készség:</span></label>
+                                <input type="text" name="val_knowledge_text" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand focus:border-brand" data-i18n-placeholder="ph_val_know" placeholder="Írd le a tudást vagy készséget...">
+                            </div>
+                            <div>
+                                <label class="flex items-center gap-2 text-sm text-stone-700 mb-1 font-medium"><input type="checkbox" name="val_energy_check" class="rounded text-brand focus:ring-brand h-4 w-4"> <span data-i18n="val_energy">Energia / Gyógyulás:</span></label>
+                                <input type="text" name="val_energy_text" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand focus:border-brand" data-i18n-placeholder="ph_val_energy" placeholder="Írd le az energiát vagy gyógyulást...">
+                            </div>
+                            <div>
+                                <label class="flex items-center gap-2 text-sm text-stone-700 mb-1 font-medium"><input type="checkbox" name="val_network_check" class="rounded text-brand focus:ring-brand h-4 w-4"> <span data-i18n="val_net">Kapcsolati tőke:</span></label>
+                                <input type="text" name="val_network_text" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand focus:border-brand" data-i18n-placeholder="ph_val_net" placeholder="Írd le a kapcsolati tőkét...">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="font-semibold text-stone-800 mb-3" data-i18n="val_out_title">Külső Érték (Mit adok?)</h3>
+                        <div class="pl-4 border-l-2 border-stone-200">
+                            <label class="block text-sm text-stone-700 mb-2 font-medium">
+                                <span data-i18n="val_contrib">Mivel tudok én hozzájárulni a közösséghez/programhoz?</span>
+                                <span class="text-stone-500 font-normal" data-i18n="val_contrib_sub">(pl. figyelem, tapasztalat, önkéntes munka):</span>
+                            </label>
+                            <textarea name="val_contribution" rows="2" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand focus:border-brand" data-i18n-placeholder="ph_val_contrib" placeholder="Az én hozzájárulásom..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="bg-stone-50 p-4 rounded-lg border border-stone-200">
+                        <h3 class="font-semibold text-stone-800 mb-2" data-i18n="align_title">Azonosulás (Alignment)</h3>
+                        <p class="text-sm text-stone-600 mb-3" data-i18n="align_sub">Mennyire rezonál a jelenlegi mély céljaimmal?</p>
+                        <div class="flex items-center gap-4 score-trigger">
+                            <label class="flex flex-col items-center cursor-pointer group"><input type="radio" name="alignment" value="1" class="peer sr-only"><div class="w-10 h-10 rounded-full flex items-center justify-center border-2 border-stone-300 peer-checked:bg-brand peer-checked:border-brand peer-checked:text-white text-stone-500 group-hover:border-brand transition-colors">1</div></label>
+                            <label class="flex flex-col items-center cursor-pointer group"><input type="radio" name="alignment" value="2" class="peer sr-only"><div class="w-10 h-10 rounded-full flex items-center justify-center border-2 border-stone-300 peer-checked:bg-brand peer-checked:border-brand peer-checked:text-white text-stone-500 group-hover:border-brand transition-colors">2</div></label>
+                            <label class="flex flex-col items-center cursor-pointer group"><input type="radio" name="alignment" value="3" class="peer sr-only"><div class="w-10 h-10 rounded-full flex items-center justify-center border-2 border-stone-300 peer-checked:bg-brand peer-checked:border-brand peer-checked:text-white text-stone-500 group-hover:border-brand transition-colors">3</div></label>
+                            <label class="flex flex-col items-center cursor-pointer group"><input type="radio" name="alignment" value="4" class="peer sr-only"><div class="w-10 h-10 rounded-full flex items-center justify-center border-2 border-stone-300 peer-checked:bg-brand peer-checked:border-brand peer-checked:text-white text-stone-500 group-hover:border-brand transition-colors">4</div></label>
+                            <label class="flex flex-col items-center cursor-pointer group"><input type="radio" name="alignment" value="5" class="peer sr-only"><div class="w-10 h-10 rounded-full flex items-center justify-center border-2 border-stone-300 peer-checked:bg-brand peer-checked:border-brand peer-checked:text-white text-stone-500 group-hover:border-brand transition-colors">5</div></label>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2. Three Horizons -->
+            <section class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-stone-100">
+                <h2 class="text-xl font-bold text-brand-dark mb-1" data-i18n="sec2_title">2. IDŐHORIZONTOK (Three Horizons)</h2>
+                <p class="text-sm text-stone-500 mb-6 italic" data-i18n="sec2_sub">Melyik horizontra hat leginkább az esemény? (Jelöld a dominánst!)</p>
+
+                <div class="space-y-4">
+                    <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-stone-50 transition-colors border border-transparent hover:border-stone-200">
+                        <input type="radio" name="horizon" value="H1" id="h1" class="mt-1 text-brand focus:ring-brand h-4 w-4">
+                        <div class="flex-1">
+                            <label for="h1" class="font-semibold text-stone-800 cursor-pointer block"><span data-i18n="h1_title">H1 (Jelen - Optimalizálás):</span> <span class="font-normal text-stone-600" data-i18n="h1_sub">Sürgős, aktuális problémát old meg.</span></label>
+                            <input type="text" name="h1_text" class="mt-2 w-full px-3 py-2 text-sm rounded-md border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_specific" placeholder="Konkrétan...">
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-stone-50 transition-colors border border-transparent hover:border-stone-200">
+                        <input type="radio" name="horizon" value="H2" id="h2" class="mt-1 text-brand focus:ring-brand h-4 w-4">
+                        <div class="flex-1">
+                            <label for="h2" class="font-semibold text-stone-800 cursor-pointer block"><span data-i18n="h2_title">H2 (Átmenet - Innováció):</span> <span class="font-normal text-stone-600" data-i18n="h2_sub">Hidat épít a jelenből a vágyott jövő felé, új formákat tesztel.</span></label>
+                            <input type="text" name="h2_text" class="mt-2 w-full px-3 py-2 text-sm rounded-md border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_specific" placeholder="Konkrétan...">
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-3 p-3 rounded-lg hover:bg-stone-50 transition-colors border border-transparent hover:border-stone-200">
+                        <input type="radio" name="horizon" value="H3" id="h3" class="mt-1 text-brand focus:ring-brand h-4 w-4">
+                        <div class="flex-1">
+                            <label for="h3" class="font-semibold text-stone-800 cursor-pointer block"><span data-i18n="h3_title">H3 (Jövő - Transzformáció):</span> <span class="font-normal text-stone-600" data-i18n="h3_sub">Új paradigma, mély megértés, hosszú távú regeneratív jövőkép.</span></label>
+                            <input type="text" name="h3_text" class="mt-2 w-full px-3 py-2 text-sm rounded-md border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_specific" placeholder="Konkrétan...">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 3. Spiral Dynamics -->
+            <section class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-stone-100">
+                <h2 class="text-xl font-bold text-brand-dark mb-1" data-i18n="sec3_title">3. SPIRÁL DINAMIKA HATÁSMETRIKA (SD 3-8)</h2>
+                <p class="text-sm text-stone-500 mb-6 italic" data-i18n="sec3_sub">Milyen tudatszinteket mozgat meg, és mire van most a legnagyobb szükségem? (1: Nem jellemző, 5: Erősen fókuszál rá.)</p>
+
+                <div class="space-y-4 score-trigger">
+                    <!-- SD3 Red -->
+                    <div class="p-4 rounded-lg border border-red-200 bg-red-50/50">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-2">
+                            <h3 class="font-bold text-red-700"><span data-i18n="sd3_title">SD3 (Piros):</span> <span class="font-normal text-red-900" data-i18n="sd3_sub">Energia, cselekvés, erő, vitalitás</span></h3>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs font-semibold text-stone-500" data-i18n="sd_rate">Értékelés:</span>
+                                <input type="range" name="sd3" min="0" max="5" value="0" class="w-32 accent-red-600" oninput="this.nextElementSibling.value = this.value">
+                                <output class="text-sm font-bold text-red-700 w-4">0</output>
+                            </div>
+                        </div>
+                        <input type="text" name="sd3_notes" class="w-full px-3 py-1.5 text-sm rounded bg-white border border-red-200 focus:ring-2 focus:ring-red-400" data-i18n-placeholder="ph_notes" placeholder="Megjegyzés...">
+                    </div>
+
+                    <!-- SD4 Blue -->
+                    <div class="p-4 rounded-lg border border-blue-200 bg-blue-50/50">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-2">
+                            <h3 class="font-bold text-blue-700"><span data-i18n="sd4_title">SD4 (Kék):</span> <span class="font-normal text-blue-900" data-i18n="sd4_sub">Struktúra, rend, fegyelem, világos keretek</span></h3>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs font-semibold text-stone-500" data-i18n="sd_rate">Értékelés:</span>
+                                <input type="range" name="sd4" min="0" max="5" value="0" class="w-32 accent-blue-600" oninput="this.nextElementSibling.value = this.value">
+                                <output class="text-sm font-bold text-blue-700 w-4">0</output>
+                            </div>
+                        </div>
+                        <input type="text" name="sd4_notes" class="w-full px-3 py-1.5 text-sm rounded bg-white border border-blue-200 focus:ring-2 focus:ring-blue-400" data-i18n-placeholder="ph_notes" placeholder="Megjegyzés...">
+                    </div>
+
+                    <!-- SD5 Orange -->
+                    <div class="p-4 rounded-lg border border-orange-200 bg-orange-50/50">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-2">
+                            <h3 class="font-bold text-orange-700"><span data-i18n="sd5_title">SD5 (Narancs):</span> <span class="font-normal text-orange-900" data-i18n="sd5_sub">Stratégia, eredmény, hatékonyság, siker</span></h3>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs font-semibold text-stone-500" data-i18n="sd_rate">Értékelés:</span>
+                                <input type="range" name="sd5" min="0" max="5" value="0" class="w-32 accent-orange-500" oninput="this.nextElementSibling.value = this.value">
+                                <output class="text-sm font-bold text-orange-700 w-4">0</output>
+                            </div>
+                        </div>
+                        <input type="text" name="sd5_notes" class="w-full px-3 py-1.5 text-sm rounded bg-white border border-orange-200 focus:ring-2 focus:ring-orange-400" data-i18n-placeholder="ph_notes" placeholder="Megjegyzés...">
+                    </div>
+
+                    <!-- SD6 Green -->
+                    <div class="p-4 rounded-lg border border-green-200 bg-green-50/50">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-2">
+                            <h3 class="font-bold text-green-700"><span data-i18n="sd6_title">SD6 (Zöld):</span> <span class="font-normal text-green-900" data-i18n="sd6_sub">Közösség, empátia, elfogadás, kapcsolódás</span></h3>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs font-semibold text-stone-500" data-i18n="sd_rate">Értékelés:</span>
+                                <input type="range" name="sd6" min="0" max="5" value="0" class="w-32 accent-green-600" oninput="this.nextElementSibling.value = this.value">
+                                <output class="text-sm font-bold text-green-700 w-4">0</output>
+                            </div>
+                        </div>
+                        <input type="text" name="sd6_notes" class="w-full px-3 py-1.5 text-sm rounded bg-white border border-green-200 focus:ring-2 focus:ring-green-400" data-i18n-placeholder="ph_notes" placeholder="Megjegyzés...">
+                    </div>
+
+                    <!-- SD7 Yellow -->
+                    <div class="p-4 rounded-lg border border-yellow-300 bg-yellow-50/50">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-2">
+                            <h3 class="font-bold text-yellow-600"><span data-i18n="sd7_title">SD7 (Sárga):</span> <span class="font-normal text-yellow-800" data-i18n="sd7_sub">Rendszerszemlélet, komplexitás, rugalmasság</span></h3>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs font-semibold text-stone-500" data-i18n="sd_rate">Értékelés:</span>
+                                <input type="range" name="sd7" min="0" max="5" value="0" class="w-32 accent-yellow-500" oninput="this.nextElementSibling.value = this.value">
+                                <output class="text-sm font-bold text-yellow-600 w-4">0</output>
+                            </div>
+                        </div>
+                        <input type="text" name="sd7_notes" class="w-full px-3 py-1.5 text-sm rounded bg-white border border-yellow-300 focus:ring-2 focus:ring-yellow-400" data-i18n-placeholder="ph_notes" placeholder="Megjegyzés...">
+                    </div>
+
+                    <!-- SD8 Turquoise -->
+                    <div class="p-4 rounded-lg border border-teal-200 bg-teal-50/50">
+                        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-2">
+                            <h3 class="font-bold text-teal-700"><span data-i18n="sd8_title">SD8 (Türkiz):</span> <span class="font-normal text-teal-900" data-i18n="sd8_sub">Holisztikus tudatosság, globális szinergia, mélyökológia</span></h3>
+                            <div class="flex items-center gap-2">
+                                <span class="text-xs font-semibold text-stone-500" data-i18n="sd_rate">Értékelés:</span>
+                                <input type="range" name="sd8" min="0" max="5" value="0" class="w-32 accent-teal-600" oninput="this.nextElementSibling.value = this.value">
+                                <output class="text-sm font-bold text-teal-700 w-4">0</output>
+                            </div>
+                        </div>
+                        <input type="text" name="sd8_notes" class="w-full px-3 py-1.5 text-sm rounded bg-white border border-teal-200 focus:ring-2 focus:ring-teal-400" data-i18n-placeholder="ph_notes" placeholder="Megjegyzés...">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 4. RDG -->
+            <section class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-stone-100">
+                <h2 class="text-xl font-bold text-brand-dark mb-1" data-i18n="sec4_title">4. REGENERATÍV FEJLŐDÉSI CÉLOK (RDG)</h2>
+                <p class="text-sm text-stone-500 mb-6 italic" data-i18n="sec4_sub">Mely területeket regenerálja az esemény? (Jelöld be a dominánsakat)</p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 score-trigger">
+                    <div class="bg-stone-50 p-4 rounded-lg border border-stone-200">
+                        <label class="flex items-start gap-3 font-semibold text-stone-800 cursor-pointer mb-2">
+                            <input type="checkbox" name="rdg_inner" value="1" class="mt-1 rounded text-brand focus:ring-brand h-4 w-4">
+                            <span><span data-i18n="rdg_inner">Belső Regeneráció:</span><br><span class="text-xs font-normal text-stone-500" data-i18n="rdg_inner_sub">Önreflexió, mentális/fizikai egészség helyreállítása.</span></span>
+                        </label>
+                        <input type="text" name="rdg_inner_how" class="w-full px-3 py-2 text-sm rounded border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_how" placeholder="Hogyan?">
+                    </div>
+
+                    <div class="bg-stone-50 p-4 rounded-lg border border-stone-200">
+                        <label class="flex items-start gap-3 font-semibold text-stone-800 cursor-pointer mb-2">
+                            <input type="checkbox" name="rdg_social" value="1" class="mt-1 rounded text-brand focus:ring-brand h-4 w-4">
+                            <span><span data-i18n="rdg_soc">Társadalmi/Közösségi Regeneráció:</span><br><span class="text-xs font-normal text-stone-500" data-i18n="rdg_soc_sub">Együttműködés, bizalomépítés, részvétel.</span></span>
+                        </label>
+                        <input type="text" name="rdg_social_how" class="w-full px-3 py-2 text-sm rounded border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_how" placeholder="Hogyan?">
+                    </div>
+
+                    <div class="bg-stone-50 p-4 rounded-lg border border-stone-200">
+                        <label class="flex items-start gap-3 font-semibold text-stone-800 cursor-pointer mb-2">
+                            <input type="checkbox" name="rdg_eco" value="1" class="mt-1 rounded text-brand focus:ring-brand h-4 w-4">
+                            <span><span data-i18n="rdg_eco">Ökológiai Regeneráció:</span><br><span class="text-xs font-normal text-stone-500" data-i18n="rdg_eco_sub">Természeti tőke helyreállítása, körforgásosság.</span></span>
+                        </label>
+                        <input type="text" name="rdg_eco_how" class="w-full px-3 py-2 text-sm rounded border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_how" placeholder="Hogyan?">
+                    </div>
+
+                    <div class="bg-stone-50 p-4 rounded-lg border border-stone-200">
+                        <label class="flex items-start gap-3 font-semibold text-stone-800 cursor-pointer mb-2">
+                            <input type="checkbox" name="rdg_sys" value="1" class="mt-1 rounded text-brand focus:ring-brand h-4 w-4">
+                            <span><span data-i18n="rdg_sys">Rendszerszintű Design:</span><br><span class="text-xs font-normal text-stone-500" data-i18n="rdg_sys_sub">Megtanít regeneratív rendszereket tervezni/működtetni.</span></span>
+                        </label>
+                        <input type="text" name="rdg_sys_how" class="w-full px-3 py-2 text-sm rounded border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_how" placeholder="Hogyan?">
+                    </div>
+                </div>
+            </section>
+
+            <!-- 5. Resource & Resilience Check -->
+            <section class="bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-stone-100">
+                <h2 class="text-xl font-bold text-brand-dark mb-1" data-i18n="sec5_title">5. ERŐFORRÁS & RESILIENCE CHECK</h2>
+                <p class="text-sm text-stone-500 mb-6 italic" data-i18n="sec5_sub">A földhözragadt realitás és integráció.</p>
+
+                <div class="space-y-6">
+                    <div class="bg-stone-50 p-5 rounded-xl border border-stone-200">
+                        <h3 class="font-semibold text-stone-800 mb-4 border-b border-stone-200 pb-2" data-i18n="invest_title">Befektetés</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div>
+                                <label class="block text-sm text-stone-600 mb-1" data-i18n="lbl_money">Pénz:</label>
+                                <input type="text" name="invest_money" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_money" placeholder="Összeg...">
+                            </div>
+                            <div>
+                                <label class="block text-sm text-stone-600 mb-1" data-i18n="lbl_time">Idő:</label>
+                                <input type="text" name="invest_time" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_time" placeholder="Időtartam...">
+                            </div>
+                            <div>
+                                <label class="block text-sm text-stone-600 mb-1" data-i18n="lbl_load">Kognitív/érzelmi teher:</label>
+                                <select name="invest_load" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand bg-white">
+                                    <option value="" disabled selected data-i18n="load_opt0">Válassz...</option>
+                                    <option value="low" data-i18n="load_opt1">Alacsony</option>
+                                    <option value="medium" data-i18n="load_opt2">Közepes</option>
+                                    <option value="high" data-i18n="load_opt3">Magas</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="bg-stone-50 p-5 rounded-xl border border-stone-200">
+                        <h3 class="font-semibold text-stone-800 mb-4 border-b border-stone-200 pb-2" data-i18n="roi_title">Regeneratív ROI (Return on Integration)</h3>
+
+                        <div class="mb-5 score-trigger">
+                            <p class="text-sm text-stone-700 mb-2 font-medium" data-i18n="roi_sub">Várható energiaszint az esemény UTÁN:</p>
+                            <div class="flex flex-wrap gap-4 md:gap-6">
+                                <label class="flex items-center gap-2 cursor-pointer text-sm">
+                                    <input type="radio" name="roi_energy" value="kimerult" class="text-red-500 focus:ring-red-500 h-4 w-4">
+                                    <span class="text-stone-700"><span data-i18n="roi_low">Kimerült</span> <i class="fa-solid fa-battery-quarter text-red-400"></i></span>
+                                </label>
+                                <label class="flex items-center gap-2 cursor-pointer text-sm">
+                                    <input type="radio" name="roi_energy" value="kozepes" class="text-yellow-500 focus:ring-yellow-500 h-4 w-4">
+                                    <span class="text-stone-700"><span data-i18n="roi_med">Közepes</span> <i class="fa-solid fa-battery-half text-yellow-500"></i></span>
+                                </label>
+                                <label class="flex items-center gap-2 cursor-pointer text-sm">
+                                    <input type="radio" name="roi_energy" value="feltoltodott" class="text-green-500 focus:ring-green-500 h-4 w-4">
+                                    <span class="text-stone-700"><span data-i18n="roi_high">Feltöltődött</span> <i class="fa-solid fa-battery-full text-green-500"></i></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <p class="text-sm text-stone-700 mb-2 font-medium" data-i18n="roi_q2">Van-e dedikált időm és energiám feldolgozni/integrálni a tanultakat a program után?</p>
+                            <div class="space-y-3">
+                                <label class="flex items-center gap-2 cursor-pointer text-sm">
+                                    <input type="radio" name="roi_integration" value="yes" class="text-brand focus:ring-brand h-4 w-4">
+                                    <span class="text-stone-700" data-i18n="roi_yes">Igen</span>
+                                </label>
+                                <div class="flex items-start gap-2 text-sm">
+                                    <input type="radio" name="roi_integration" value="no" id="roi_no" class="mt-1 text-brand focus:ring-brand h-4 w-4">
+                                    <div class="flex-1">
+                                        <label for="roi_no" class="text-stone-700 cursor-pointer block mb-1" data-i18n="roi_no">Nem, meg kell teremtenem. Hogyan?:</label>
+                                        <input type="text" name="roi_integration_how" class="w-full px-3 py-2 rounded-md border border-stone-300 focus:ring-2 focus:ring-brand" data-i18n-placeholder="ph_roi" placeholder="Integrációs terv...">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Summary & Decision -->
+            <section class="bg-gradient-to-br from-teal-600 to-teal-800 p-6 md:p-8 rounded-2xl shadow-xl text-white relative overflow-hidden">
+                <!-- Decorative background icon -->
+                <div class="absolute top-0 right-0 -mr-8 -mt-8 text-teal-500 opacity-30 pointer-events-none">
+                    <i class="fa-solid fa-compass text-9xl"></i>
+                </div>
+
+                <h2 class="text-2xl font-bold mb-4 flex items-center gap-3 relative z-10">
+                    <i class="fa-solid fa-sparkles text-teal-200"></i> <span data-i18n="sec6_title">ÖSSZEGZÉS & DÖNTÉS</span>
+                </h2>
+                <p class="text-teal-100 mb-6 font-medium relative z-10" data-i18n="sec6_sub">Ez a program a jelenlegi állapotomban...</p>
+
+                <div class="space-y-4 mb-6 relative z-10">
+                    <label class="flex items-center gap-4 p-4 rounded-xl bg-teal-900/40 hover:bg-teal-900/60 cursor-pointer border border-teal-500/30 transition-all backdrop-blur-sm">
+                        <input type="radio" name="final_decision" value="critical" class="text-teal-400 focus:ring-teal-400 h-5 w-5 bg-teal-900 border-teal-500">
+                        <div class="flex items-center justify-center w-10 h-10 rounded-full bg-teal-800 text-teal-300 shadow-inner">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <span class="font-semibold text-lg" data-i18n="dec_crit">Kritikus fontosságú (Megyek)</span>
+                    </label>
+                    <label class="flex items-center gap-4 p-4 rounded-xl bg-teal-900/40 hover:bg-teal-900/60 cursor-pointer border border-teal-500/30 transition-all backdrop-blur-sm">
+                        <input type="radio" name="final_decision" value="useful" class="text-yellow-400 focus:ring-yellow-400 h-5 w-5 bg-teal-900 border-teal-500">
+                        <div class="flex items-center justify-center w-10 h-10 rounded-full bg-teal-800 text-yellow-300 shadow-inner">
+                            <i class="fa-solid fa-seedling"></i>
+                        </div>
+                        <span class="font-semibold text-lg" data-i18n="dec_use">Hasznos, de nem prioritás (Későbbre halasztom)</span>
+                    </label>
+                    <label class="flex items-center gap-4 p-4 rounded-xl bg-teal-900/40 hover:bg-teal-900/60 cursor-pointer border border-teal-500/30 transition-all backdrop-blur-sm">
+                        <input type="radio" name="final_decision" value="drop" class="text-red-400 focus:ring-red-400 h-5 w-5 bg-teal-900 border-teal-500">
+                        <div class="flex items-center justify-center w-10 h-10 rounded-full bg-teal-800 text-red-300 shadow-inner">
+                            <i class="fa-solid fa-feather"></i>
+                        </div>
+                        <span class="font-semibold text-lg" data-i18n="dec_drop">Nem szolgálja a regeneratív céljaimat (Elengedem)</span>
+                    </label>
+                </div>
+
+                <div class="relative z-10">
+                    <label class="block text-sm text-teal-100 mb-2 font-medium" data-i18n="lbl_reason">Fő indoklás:</label>
+                    <textarea name="final_reasoning" rows="3" class="w-full px-4 py-3 rounded-xl bg-teal-900/50 border border-teal-500/50 text-white focus:ring-2 focus:ring-teal-300 focus:border-teal-300 placeholder-teal-300/50 transition-all" data-i18n-placeholder="ph_reason" placeholder="A végső konklúzióm..."></textarea>
+                </div>
+            </section>
+
+        </form>
+    </main>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Language Dictionary
+        const translations = {
+            hu: {
+                title_main: "Holisztikus Regeneratív Program-Canvas",
+                subtitle: "Tervezd meg, értékeld és integráld eseményeidet mély, rendszerszintű összhanggal.",
+                potential: "Potenciál",
+                btn_import: "JSON Importálása",
+                btn_export: "JSON Exportálása",
+                lbl_event_name: "Esemény / Program neve:",
+                ph_event_name: "Program címe...",
+                lbl_event_date: "Dátum / Hossz:",
+                ph_event_date: "pl. 2024. 10. 12. / 3 óra",
+                lbl_event_org: "Szervező:",
+                ph_event_org: "Szervező neve...",
+                sec1_title: "1. ÉRTÉKAJÁNLAT (Value Proposition)",
+                sec1_sub: "A kölcsönösség elve: mit kapok, és mit adok a rendszernek?",
+                val_in_title: "Belső Érték (Mit kapok?)",
+                val_know: "Tudás / Készség:",
+                ph_val_know: "Írd le a tudást vagy készséget...",
+                val_energy: "Energia / Gyógyulás:",
+                ph_val_energy: "Írd le az energiát vagy gyógyulást...",
+                val_net: "Kapcsolati tőke:",
+                ph_val_net: "Írd le a kapcsolati tőkét...",
+                val_out_title: "Külső Érték (Mit adok?)",
+                val_contrib: "Mivel tudok én hozzájárulni a közösséghez/programhoz?",
+                val_contrib_sub: "(pl. figyelem, tapasztalat, önkéntes munka):",
+                ph_val_contrib: "Az én hozzájárulásom...",
+                align_title: "Azonosulás (Alignment)",
+                align_sub: "Mennyire rezonál a jelenlegi mély céljaimmal?",
+                sec2_title: "2. IDŐHORIZONTOK (Three Horizons)",
+                sec2_sub: "Melyik horizontra hat leginkább az esemény? (Jelöld a dominánst!)",
+                h1_title: "H1 (Jelen - Optimalizálás):",
+                h1_sub: "Sürgős, aktuális problémát old meg.",
+                h2_title: "H2 (Átmenet - Innováció):",
+                h2_sub: "Hidat épít a jelenből a vágyott jövő felé, új formákat tesztel.",
+                h3_title: "H3 (Jövő - Transzformáció):",
+                h3_sub: "Új paradigma, mély megértés, hosszú távú regeneratív jövőkép.",
+                ph_specific: "Konkrétan...",
+                sec3_title: "3. SPIRÁL DINAMIKA HATÁSMETRIKA (SD 3-8)",
+                sec3_sub: "Milyen tudatszinteket mozgat meg, és mire van most a legnagyobb szükségem? (1: Nem jellemző, 5: Erősen fókuszál rá.)",
+                sd_rate: "Értékelés:",
+                ph_notes: "Megjegyzés...",
+                sd3_title: "SD3 (Piros):",
+                sd3_sub: "Energia, cselekvés, erő, vitalitás",
+                sd4_title: "SD4 (Kék):",
+                sd4_sub: "Struktúra, rend, fegyelem, világos keretek",
+                sd5_title: "SD5 (Narancs):",
+                sd5_sub: "Stratégia, eredmény, hatékonyság, siker",
+                sd6_title: "SD6 (Zöld):",
+                sd6_sub: "Közösség, empátia, elfogadás, kapcsolódás",
+                sd7_title: "SD7 (Sárga):",
+                sd7_sub: "Rendszerszemlélet, komplexitás, rugalmasság",
+                sd8_title: "SD8 (Türkiz):",
+                sd8_sub: "Holisztikus tudatosság, globális szinergia, mélyökológia",
+                sec4_title: "4. REGENERATÍV FEJLŐDÉSI CÉLOK (RDG)",
+                sec4_sub: "Mely területeket regenerálja az esemény? (Jelöld be a dominánsakat)",
+                rdg_inner: "Belső Regeneráció:",
+                rdg_inner_sub: "Önreflexió, mentális/fizikai egészség helyreállítása.",
+                rdg_soc: "Társadalmi/Közösségi Regeneráció:",
+                rdg_soc_sub: "Együttműködés, bizalomépítés, részvétel.",
+                rdg_eco: "Ökológiai Regeneráció:",
+                rdg_eco_sub: "Természeti tőke helyreállítása, körforgásosság.",
+                rdg_sys: "Rendszerszintű Design:",
+                rdg_sys_sub: "Megtanít regeneratív rendszereket tervezni/működtetni.",
+                ph_how: "Hogyan?",
+                sec5_title: "5. ERŐFORRÁS & RESILIENCE CHECK",
+                sec5_sub: "A földhözragadt realitás és integráció.",
+                invest_title: "Befektetés",
+                lbl_money: "Pénz:",
+                ph_money: "Összeg...",
+                lbl_time: "Idő:",
+                ph_time: "Időtartam...",
+                lbl_load: "Kognitív/érzelmi teher:",
+                load_opt0: "Válassz...",
+                load_opt1: "Alacsony",
+                load_opt2: "Közepes",
+                load_opt3: "Magas",
+                roi_title: "Regeneratív ROI (Return on Integration)",
+                roi_sub: "Várható energiaszint az esemény UTÁN:",
+                roi_low: "Kimerült",
+                roi_med: "Közepes",
+                roi_high: "Feltöltődött",
+                roi_q2: "Van-e dedikált időm és energiám feldolgozni/integrálni a tanultakat a program után?",
+                roi_yes: "Igen",
+                roi_no: "Nem, meg kell teremtenem. Hogyan?:",
+                ph_roi: "Integrációs terv...",
+                sec6_title: "ÖSSZEGZÉS & DÖNTÉS",
+                sec6_sub: "Ez a program a jelenlegi állapotomban...",
+                dec_crit: "Kritikus fontosságú (Megyek)",
+                dec_use: "Hasznos, de nem prioritás (Későbbre halasztom)",
+                dec_drop: "Nem szolgálja a regeneratív céljaimat (Elengedem)",
+                lbl_reason: "Fő indoklás:",
+                ph_reason: "A végső konklúzióm...",
+                alert_json: "Érvénytelen JSON fájl."
+            },
+            en: {
+                title_main: "Holistic Regenerative Program Canvas",
+                subtitle: "Plan, assess, and integrate your events with deep systemic alignment.",
+                potential: "Potential",
+                btn_import: "Import JSON",
+                btn_export: "Export JSON",
+                lbl_event_name: "Event / Program Name:",
+                ph_event_name: "Program Title...",
+                lbl_event_date: "Date / Duration:",
+                ph_event_date: "e.g., Oct 12, 2024 / 3 hours",
+                lbl_event_org: "Organizer:",
+                ph_event_org: "Organizer Name...",
+                sec1_title: "1. VALUE PROPOSITION",
+                sec1_sub: "The principle of reciprocity: what do I receive, and what do I give to the system?",
+                val_in_title: "Internal Value (What I get)",
+                val_know: "Knowledge / Skill:",
+                ph_val_know: "Describe the knowledge or skill...",
+                val_energy: "Energy / Healing:",
+                ph_val_energy: "Describe the energy or healing...",
+                val_net: "Social Capital:",
+                ph_val_net: "Describe the networking value...",
+                val_out_title: "External Value (What I give)",
+                val_contrib: "How can I contribute to the community/program?",
+                val_contrib_sub: "(e.g., attention, experience, volunteer work):",
+                ph_val_contrib: "My contribution...",
+                align_title: "Alignment",
+                align_sub: "How much does this resonate with my current deep purpose?",
+                sec2_title: "2. THREE HORIZONS",
+                sec2_sub: "Which horizon does the event affect most? (Mark the dominant one)",
+                h1_title: "H1 (Present - Optimization):",
+                h1_sub: "Solves an urgent, current problem.",
+                h2_title: "H2 (Transition - Innovation):",
+                h2_sub: "Builds a bridge from the present to the desired future, tests new forms.",
+                h3_title: "H3 (Future - Transformation):",
+                h3_sub: "Fresh thinking, deep understanding, long-term regenerative vision.",
+                ph_specific: "Specifically...",
+                sec3_title: "3. SPIRAL DYNAMICS IMPACT METRICS (SD 3-8)",
+                sec3_sub: "What levels of consciousness does it move, and what do I need most right now? (1: Not typical, 5: Strong focus)",
+                sd_rate: "Rating:",
+                ph_notes: "Notes...",
+                sd3_title: "SD3 (Red):",
+                sd3_sub: "Energy, action, power, vitality",
+                sd4_title: "SD4 (Blue):",
+                sd4_sub: "Structure, order, discipline, clear frameworks",
+                sd5_title: "SD5 (Orange):",
+                sd5_sub: "Strategy, results, efficiency, success",
+                sd6_title: "SD6 (Green):",
+                sd6_sub: "Community, empathy, acceptance, connection",
+                sd7_title: "SD7 (Yellow):",
+                sd7_sub: "Systems thinking, complexity, flexibility",
+                sd8_title: "SD8 (Turquoise):",
+                sd8_sub: "Holistic consciousness, global synergy, deep ecology",
+                sec4_title: "4. REGENERATIVE DEVELOPMENT GOALS (RDG)",
+                sec4_sub: "Which areas does the event regenerate? (Mark the dominant ones)",
+                rdg_inner: "Inner Regeneration:",
+                rdg_inner_sub: "Self-reflection, restoration of mental/physical health.",
+                rdg_soc: "Social/Community Regeneration:",
+                rdg_soc_sub: "Cooperation, trust building, participation.",
+                rdg_eco: "Ecological Regeneration:",
+                rdg_eco_sub: "Restoration of natural capital, circularity.",
+                rdg_sys: "Systemic Design:",
+                rdg_sys_sub: "Teaches how to design/operate regenerative systems.",
+                ph_how: "How?",
+                sec5_title: "5. RESOURCE & RESILIENCE CHECK",
+                sec5_sub: "Grounded reality and integration.",
+                invest_title: "Investment",
+                lbl_money: "Money:",
+                ph_money: "Amount...",
+                lbl_time: "Time:",
+                ph_time: "Duration...",
+                lbl_load: "Cognitive/Emotional Load:",
+                load_opt0: "Select...",
+                load_opt1: "Low",
+                load_opt2: "Medium",
+                load_opt3: "High",
+                roi_title: "Regenerative ROI (Return on Integration)",
+                roi_sub: "Expected energy level AFTER the event:",
+                roi_low: "Drained",
+                roi_med: "Medium",
+                roi_high: "Recharged",
+                roi_q2: "Do I have dedicated time and energy to process/integrate the learnings after the program?",
+                roi_yes: "Yes",
+                roi_no: "No, I need to create it. How?:",
+                ph_roi: "Integration plan...",
+                sec6_title: "SUMMARY & DECISION",
+                sec6_sub: "This program in my current state is...",
+                dec_crit: "Critical (I am going)",
+                dec_use: "Useful, but not a priority (Postponing)",
+                dec_drop: "Doesn't serve my regenerative goals (Letting go)",
+                lbl_reason: "Main reasoning:",
+                ph_reason: "My final conclusion...",
+                alert_json: "Invalid JSON file."
+            },
+            es: {
+                title_main: "Canvas del Programa Regenerativo Holístico",
+                subtitle: "Planifica, evalúa e integra tus eventos con una profunda alineación sistémica.",
+                potential: "Potencial",
+                btn_import: "Importar JSON",
+                btn_export: "Exportar JSON",
+                lbl_event_name: "Nombre del Evento / Programa:",
+                ph_event_name: "Título del Programa...",
+                lbl_event_date: "Fecha / Duración:",
+                ph_event_date: "ej. 12 oct 2024 / 3 horas",
+                lbl_event_org: "Organizador:",
+                ph_event_org: "Nombre del Organizador...",
+                sec1_title: "1. PROPUESTA DE VALOR",
+                sec1_sub: "El principio de reciprocidad: ¿qué recibo y qué aporto al sistema?",
+                val_in_title: "Valor Interno (Lo que recibo)",
+                val_know: "Conocimiento / Habilidad:",
+                ph_val_know: "Describe el conocimiento o habilidad...",
+                val_energy: "Energía / Sanación:",
+                ph_val_energy: "Describe la energía o sanación...",
+                val_net: "Capital Social:",
+                ph_val_net: "Describe el valor de la red...",
+                val_out_title: "Valor Externo (Lo que aporto)",
+                val_contrib: "¿Cómo puedo contribuir a la comunidad/programa?",
+                val_contrib_sub: "(ej. atención, experiencia, voluntariado):",
+                ph_val_contrib: "Mi contribución...",
+                align_title: "Alineación",
+                align_sub: "¿Cuánto resuena esto con mi propósito profundo actual?",
+                sec2_title: "2. TRES HORIZONTES",
+                sec2_sub: "¿A qué horizonte afecta más el evento? (Marca el dominante)",
+                h1_title: "H1 (Presente - Optimización):",
+                h1_sub: "Resuelve un problema urgente y actual.",
+                h2_title: "H2 (Transición - Innovación):",
+                h2_sub: "Construye un puente del presente al futuro deseado, prueba nuevas formas.",
+                h3_title: "H3 (Futuro - Transformación):",
+                h3_sub: "Nuevo paradigma, comprensión profunda, visión regenerativa a largo plazo.",
+                ph_specific: "Específicamente...",
+                sec3_title: "3. MÉTRICAS DE IMPACTO DE DINÁMICA ESPIRAL (SD 3-8)",
+                sec3_sub: "¿Qué niveles de conciencia moviliza y qué necesito más ahora? (1: No típico, 5: Enfoque fuerte)",
+                sd_rate: "Calificación:",
+                ph_notes: "Notas...",
+                sd3_title: "SD3 (Rojo):",
+                sd3_sub: "Energía, acción, poder, vitalidad",
+                sd4_title: "SD4 (Azul):",
+                sd4_sub: "Estructura, orden, disciplina, marcos claros",
+                sd5_title: "SD5 (Naranja):",
+                sd5_sub: "Estrategia, resultados, eficiencia, éxito",
+                sd6_title: "SD6 (Verde):",
+                sd6_sub: "Comunidad, empatía, aceptación, conexión",
+                sd7_title: "SD7 (Amarillo):",
+                sd7_sub: "Pensamiento sistémico, complejidad, flexibilidad",
+                sd8_title: "SD8 (Turquesa):",
+                sd8_sub: "Conciencia holística, sinergia global, ecología profunda",
+                sec4_title: "4. OBJETIVOS DE DESARROLLO REGENERATIVO (RDG)",
+                sec4_sub: "¿Qué áreas regenera el evento? (Marca las dominantes)",
+                rdg_inner: "Regeneración Interior:",
+                rdg_inner_sub: "Autorreflexión, restauración de la salud mental/física.",
+                rdg_soc: "Regeneración Social/Comunitaria:",
+                rdg_soc_sub: "Cooperación, construcción de confianza, participación.",
+                rdg_eco: "Regeneración Ecológica:",
+                rdg_eco_sub: "Restauración del capital natural, circularidad.",
+                rdg_sys: "Diseño Sistémico:",
+                rdg_sys_sub: "Enseña a diseñar/operar sistemas regenerativos.",
+                ph_how: "¿Cómo?",
+                sec5_title: "5. CHEQUEO DE RECURSOS Y RESILIENCIA",
+                sec5_sub: "Realidad terrenal e integración.",
+                invest_title: "Inversión",
+                lbl_money: "Dinero:",
+                ph_money: "Cantidad...",
+                lbl_time: "Tiempo:",
+                ph_time: "Duración...",
+                lbl_load: "Carga Cognitiva/Emocional:",
+                load_opt0: "Seleccionar...",
+                load_opt1: "Baja",
+                load_opt2: "Media",
+                load_opt3: "Alta",
+                roi_title: "ROI Regenerativo (Retorno sobre Integración)",
+                roi_sub: "Nivel de energía esperado DESPUÉS del evento:",
+                roi_low: "Agotado",
+                roi_med: "Medio",
+                roi_high: "Recargado",
+                roi_q2: "¿Tengo tiempo y energía dedicados para procesar/integrar los aprendizajes después del programa?",
+                roi_yes: "Sí",
+                roi_no: "No, necesito crearlo. ¿Cómo?:",
+                ph_roi: "Plan de integración...",
+                sec6_title: "RESUMEN Y DECISIÓN",
+                sec6_sub: "Este programa en mi estado actual es...",
+                dec_crit: "Crítico (Voy)",
+                dec_use: "Útil, pero no prioritario (Lo pospongo)",
+                dec_drop: "No sirve a mis objetivos regenerativos (Lo dejo ir)",
+                lbl_reason: "Razonamiento principal:",
+                ph_reason: "Mi conclusión final...",
+                alert_json: "Archivo JSON no válido."
+            }
+        };
+
+        let currentLang = 'hu'; // default fallback
+
+        document.addEventListener('DOMContentLoaded', () => {
+
+            // Language Detection & Initialization
+            const userLang = navigator.language || navigator.userLanguage;
+            if(userLang && userLang.toLowerCase().startsWith('en')) {
+                currentLang = 'en';
+            } else {
+                currentLang = 'hu'; // Fallback covers anything that isn't english
+            }
+
+            document.getElementById('langSelect').value = currentLang;
+            renderLanguage();
+
+            // Initialize score calculation listeners
+            const triggers = document.querySelectorAll('.score-trigger input');
+            triggers.forEach(input => {
+                input.addEventListener('change', calculateScore);
+                input.addEventListener('input', calculateScore);
+            });
+
+            // Initial calculation
+            calculateScore();
+
+            // Import JSON functionality
+            document.getElementById('importFile').addEventListener('change', importFromJSON);
+        });
+
+        // Language toggle function
+        function changeLanguage(langCode) {
+            currentLang = langCode;
+            renderLanguage();
+        }
+
+        function renderLanguage() {
+            const dict = translations[currentLang];
+            document.getElementById('htmlTag').lang = currentLang;
+
+            // Translate Text Elements
+            const textElements = document.querySelectorAll('[data-i18n]');
+            textElements.forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if(dict[key]) {
+                    el.textContent = dict[key];
+                }
+            });
+
+            // Translate Placeholders
+            const phElements = document.querySelectorAll('[data-i18n-placeholder]');
+            phElements.forEach(el => {
+                const key = el.getAttribute('data-i18n-placeholder');
+                if(dict[key]) {
+                    el.placeholder = dict[key];
+                }
+            });
+        }
+
+        function calculateScore() {
+            let score = 0;
+            const form = document.getElementById('canvasForm');
+
+            // 1. Alignment (Max 5 points)
+            const alignment = form.querySelector('input[name="alignment"]:checked');
+            if (alignment) score += parseInt(alignment.value);
+
+            // 2. Spiral Dynamics (Max 30 points, 5 each)
+            for (let i = 3; i <= 8; i++) {
+                const sdValue = parseInt(form.querySelector(`input[name="sd${i}"]`).value);
+                score += sdValue;
+            }
+
+            // 3. RDG Checkboxes (Max 20 points, 5 each)
+            const rdgInputs = ['rdg_inner', 'rdg_social', 'rdg_eco', 'rdg_sys'];
+            rdgInputs.forEach(name => {
+                if (form.querySelector(`input[name="${name}"]`).checked) score += 5;
+            });
+
+            // 4. ROI (Max 5 points)
+            const roi = form.querySelector('input[name="roi_energy"]:checked');
+            if (roi) {
+                if (roi.value === 'feltoltodott') {
+                    score += 5;
+                } else if (roi.value === 'kozepes') {
+                    score += 2;
+                }
+            }
+
+            // Total Max Score = 5 + 30 + 20 + 5 = 60
+            const maxScore = 60;
+            const percentage = Math.min(100, Math.round((score / maxScore) * 100));
+
+            // Update UI
+            const display = document.getElementById('scoreDisplay');
+            const bar = document.getElementById('scoreBar');
+
+            display.textContent = `${percentage}%`;
+            bar.style.width = `${percentage}%`;
+
+            // Reset color classes
+            bar.className = 'h-full transition-all duration-500 ease-out ';
+            display.className = 'w-16 text-right font-bold text-xl transition-colors ';
+
+            if (percentage < 34) {
+                bar.classList.add('bg-red-500');
+                display.classList.add('text-red-600');
+            } else if (percentage < 67) {
+                bar.classList.add('bg-yellow-400');
+                display.classList.add('text-yellow-600');
+            } else {
+                bar.classList.add('bg-green-500');
+                display.classList.add('text-green-600');
+            }
+        }
+
+        function exportToJSON() {
+            const form = document.getElementById('canvasForm');
+            const formData = new FormData(form);
+            const dataObj = {};
+
+            // Handle standard inputs
+            for (let [key, value] of formData.entries()) {
+                dataObj[key] = value;
+            }
+
+            // Explicitly handle un-checked checkboxes for complete state
+            const checkboxes = form.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(cb => {
+                dataObj[cb.name] = cb.checked;
+            });
+
+            // Handle range inputs specifically
+            const ranges = form.querySelectorAll('input[type="range"]');
+            ranges.forEach(range => {
+                dataObj[range.name] = range.value;
+            });
+
+            // Download Blob
+            const dataStr = JSON.stringify(dataObj, null, 2);
+            const blob = new Blob([dataStr], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'regenerative_canvas_export.json';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        function importFromJSON(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                try {
+                    const data = JSON.parse(e.target.result);
+                    const form = document.getElementById('canvasForm');
+
+                    // Reset form first
+                    form.reset();
+
+                    // Loop through data and populate
+                    for (const key in data) {
+                        const input = form.elements[key];
+                        if (!input) continue;
+
+                        if (input.type === 'checkbox') {
+                            input.checked = data[key] === true || data[key] === "1";
+                        } else if (input.type === 'radio') {
+                            // If elements with same name, it returns a RadioNodeList
+                            if (input.length) {
+                                Array.from(input).forEach(radio => {
+                                    if (radio.value === data[key]) radio.checked = true;
+                                });
+                            }
+                        } else {
+                            input.value = data[key];
+                            // Update output display for range sliders immediately
+                            if (input.type === 'range' && input.nextElementSibling) {
+                                input.nextElementSibling.value = data[key];
+                            }
+                        }
+                    }
+
+                    // Recalculate score after import
+                    calculateScore();
+
+                } catch (error) {
+                    console.error('Error parsing JSON:', error);
+                    alert(translations[currentLang].alert_json);
+                }
+            };
+            reader.readAsText(file);
+
+            // Clear input so same file can be loaded again if needed
+            event.target.value = '';
+        }
+    </script>
+    <!-- Language sync from parent app via URL param -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var p = new URLSearchParams(window.location.search);
+            var l = p.get('lang');
+            if (!l) return;
+            if (typeof changeLanguage === 'function') changeLanguage(l);
+            var sel = document.getElementById('langSelect');
+            if (sel) sel.value = l;
+        });
+    </script>
+</body>
+</html>

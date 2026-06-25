@@ -1,0 +1,262 @@
+{
+  "title": "Energiaábra Vászon",
+  "subtitle": "Hatalmi dinamikák és energiaáramok feltérképezése társadalmi rendszerekben",
+  "newCanvas": "Új vászon",
+  "noCanvasesYet": "Még nincs energia vászon. Hozd létre az elsőt a feltérképezés megkezdéséhez.",
+  "patternLibrary": "Minta Könyvtár",
+  "backToCanvases": "Vissza a vászonokhoz",
+  "allCanvases": "← Minden vászon",
+  "definition": "Definíció",
+  "mechanism": "Mechanizmus",
+  "newEnergyCanvas": "Új Energia Vászon",
+  "addEntity": "Entitás hozzáadása | Energia Vászon",
+  "backToCanvas": "Vissza a vászonhoz",
+  "scale": {
+    "planetary": "Planetáris / Nemzetközi",
+    "supranational": "Szupranacionális / Regionális blokk",
+    "national": "Nemzeti",
+    "state": "Áami / Regionális",
+    "bioregional": "Bioregionális",
+    "community": "Közösségi",
+    "local": "Helyi / Csoport"
+  },
+  "entityType": {
+    "individual": "Egyén",
+    "household": "Háztartás",
+    "workingGroup": "Munkacsoport",
+    "community": "Közösség",
+    "institution": "Intézmény",
+    "corporation": "Vállalat",
+    "norm": "Norma",
+    "commons": "Közjavak",
+    "infrastructure": "Infrastruktúra",
+    "narrative": "Narratíva",
+    "bioregion": "Bioregion",
+    "nation": "Nemzet",
+    "treatyBody": "Szerződéses testület"
+  },
+  "energyState": {
+    "extractive": "Kitermelő",
+    "regenerative": "Regeneratív",
+    "neutral": "Semleges",
+    "contested": "Vitatott",
+    "depleted": "Kimerült",
+    "captured": "Elfogott"
+  },
+  "systemState": {
+    "regenerating": "Regenerálódó",
+    "stable": "Stabil",
+    "depleting": "Kimerülő",
+    "collapsing": "Összeomló",
+    "contested": "Vitatott"
+  },
+  "panel": {
+    "systemEnergy": "Rendszer Energia Állapota",
+    "flowBreakdown": "Áramlás Eloszlás",
+    "extractiveFlows": "Kitermelő áramok",
+    "regenerativeFlows": "Regeneratív áramok",
+    "netEnergy": "Netto energia irány",
+    "dataQuality": "Adatminőség",
+    "depletionChains": "Kimerülési láncok",
+    "regenerativePockets": "Regeneratív zsebek",
+    "scorecard": "Energia Scorecard"
+  },
+  "pattern": {
+    "detectedPatterns": "Észlelt Minták",
+    "confidence": {
+      "strong": "Erős jelzés",
+      "possible": "Lehetséges",
+      "worthExamining": "Megvizsgálásra érdemes"
+    },
+    "threshold": {
+      "strict": "Szigorú",
+      "standard": "Szabványos",
+      "exploratory": "Felfedező"
+    }
+  },
+  "layer": {
+    "formalPower": "Formális hatalom",
+    "informalBypass": "Informális / megkerülő",
+    "energyFlows": "Energia áramok",
+    "informationFlows": "Információ áramok",
+    "counterFlows": "Ellenáramok / Ellenállás",
+    "frictionPoints": "Súrlódási pontok",
+    "invisibleNorms": "Láthatatlan normák",
+    "detectedPatterns": "Észlelt minták"
+  },
+  "export": {
+    "pdf": "PDF exportálás",
+    "json": "JSON exportálás",
+    "svg": "SVG exportálás",
+    "markdown": "Markdown exportálás"
+  },
+  "privacy": {
+    "onlyMe": "Csak én",
+    "myCommunity": "Saját közösség",
+    "public": "Nyilvános"
+  },
+  "contextMenu": {
+    "entityType": "Entitás típus",
+    "energyState": "Energia állapot"
+  },
+  "editSidebar": {
+    "editEntity": "Entitás szerkesztése",
+    "saving": "Mentés…",
+    "label": "Címke",
+    "name": "Név",
+    "namePlaceholder": "Név vagy címke",
+    "description": "Leírás",
+    "descriptionPlaceholder": "Leírás hozzáadása…",
+    "youtubeUrl": "YouTube URL vagy videó ID",
+    "latLngCoordinates": "Szél., Hossz. koordináták",
+    "youtubeUrlPlaceholder": "https://youtube.com/watch?v=...",
+    "latLngPlaceholder": "47.4979, 19.0402",
+    "energyState": "Energia állapot",
+    "type": "Típus",
+    "scaleBand": {
+      "planetary": "Planetáris / Nemzetközi",
+      "supranational": "Szupranacionális / Regionális",
+      "national": "Nemzeti",
+      "stateRegional": "Állami / Regionális",
+      "bioregional": "Bioregionális",
+      "community": "Közösségi",
+      "localGroup": "Helyi / Csoport"
+    },
+    "deleteConfirm": "Törlöd ezt az entitást?",
+    "delete": "Törlés"
+  },
+  "canvasForm": {
+    "createTitle": "Új Energia Vászon létrehozása",
+    "titleLabel": "Cím",
+    "titlePlaceholder": "pl. Közösségi Kert Hatalmi Dinamikája",
+    "descriptionOptional": "Leírás (opcionális)",
+    "descriptionPlaceholder": "Milyen rendszert térképezel?",
+    "privacyLabel": "Adatvédelem",
+    "privacyPlaceholder": "Válassz adatvédelmi szintet",
+    "privacyNote": "Megjegyzés: Az általad megadott szerepkörcímkék megjelenhetnek a vásznon. Kerüld a személyes neveket.",
+    "creating": "Létrehozás…",
+    "createCanvas": "Vászon létrehozása",
+    "cancel": "Mégsem",
+    "createFailed": "Nem sikerült létrehozni a vásznat"
+  },
+  "canvas": {
+    "newEntityType": "Új {{type}}",
+    "invalidYoutubeUrl": "Nincs érvényes YouTube URL",
+    "enterCoordinates": "Adj meg szélesség,hosszúság koordinátákat",
+    "saving": "Mentés…",
+    "viewOnly": "Csak megtekintés",
+    "toolbar": {
+      "select": "Kijelölés",
+      "text": "Szöveg",
+      "stickyNote": "Ragacsos jegyzet",
+      "connect": "Összekapcsolás",
+      "youtubeEmbed": "YouTube beágyazás",
+      "osmMapEmbed": "OSM térkép beágyazás",
+      "zoomIn": "Nagyítás",
+      "zoomOut": "Kicsinyítés",
+      "resetView": "Nézet visszaállítása",
+      "help": "Súgó"
+    },
+    "help": {
+      "title": "Vezérlők",
+      "rightClick": "Jobb klikk",
+      "rightClickDesc": "entitás hozzáadásához",
+      "doubleClick": "Dupla klikk",
+      "doubleClickDesc": "átnevezéshez",
+      "space": "Szóköz",
+      "spaceDesc": "+ húzás a pánhoz",
+      "scroll": "Görgetés",
+      "scrollDesc": "nagyításhoz",
+      "drag": "Húzás",
+      "dragDesc": "sáv széle az átméretezéshez",
+      "undo": "visszavonás",
+      "redo": "ismétlés",
+      "delete": "Törlés",
+      "deleteDesc": "kijelölt entitás eltávolítása"
+    },
+    "hint": {
+      "clickToAddText": "Kattints bárhová szöveg hozzáadásához",
+      "clickToAddStickyNote": "Kattints bárhová ragacsos jegyzet hozzáadásához",
+      "clickTargetEntity": "Kattints a cél entitásra az összekapcsoláshoz",
+      "clickSourceEntity": "Kattints a forrás entitásra",
+      "clickToPlaceYoutube": "Kattints a YouTube beágyazás elhelyezéséhez",
+      "clickToPlaceOsm": "Kattints az OpenStreetMap beágyazás elhelyezéséhez"
+    },
+    "flow": {
+      "extractive": "Kitermelő",
+      "generative": "Generatív",
+      "captured": "Elfogott",
+      "diverted": "Átirányított",
+      "unknown": "Ismeretlen"
+    },
+    "linkModal": {
+      "createRelation": "Kapcsolat létrehozása",
+      "flow": "áramlás",
+      "connect": "Összekapcsolás",
+      "cancel": "Mégsem"
+    },
+    "widgetModal": {
+      "youtubeVideo": "YouTube Videó",
+      "openStreetMap": "OpenStreetMap",
+      "pasteYoutubeUrl": "Illessz be YouTube URL-t vagy videó ID-t",
+      "enterCoordinates": "Adj meg szél., hossz. koordinátákat (pl. 47.5, 19.0)",
+      "youtubePlaceholder": "https://youtube.com/watch?v=...",
+      "osmPlaceholder": "47.4979, 19.0402",
+      "add": "Hozzáadás",
+      "cancel": "Mégsem"
+    },
+    "scale": {
+      "planetary": "Planetáris / Nemzetközi",
+      "supranational": "Szupranacionális / Regionális",
+      "national": "Nemzeti",
+      "stateRegional": "Állami / Regionális",
+      "bioregional": "Bioregionális",
+      "community": "Közösségi",
+      "localGroup": "Helyi / Csoport"
+    }
+  },
+  "form": {
+    "roleLabel": "Szerepkör címke",
+    "roleLabelHint": "Használj szerepkört/funkciót, ne személyes nevet",
+    "entityType": "Entitás típus",
+    "primaryScale": "Elsődleges skála",
+    "energyState": "Energia állapot",
+    "scaleBand": "Skála sáv",
+    "numericValue": "Numerikus érték",
+    "numericUnit": "Mértékegység",
+    "notes": "Jegyzetek",
+    "notesHint": "Belső jegyzetek erről az entitásról"
+  },
+  "entityForm": {
+    "addEntityTo": "Entitás hozzáadása: {{title}}",
+    "privacyNote": "Megjegyzés: Az általad megadott szerepkörcímkék megjelenhetnek a vásznon. Kerüld a személyes neveket.",
+    "roleLabel": "Szerepkör címke",
+    "roleLabelPlaceholder": "pl. Facilitátor, Koordinátor",
+    "roleLabelHint": "Használj szerepkört/funkciót, ne személyes nevet",
+    "entityType": "Entitás típus",
+    "selectType": "Válassz típust",
+    "primaryScale": "Elsődleges skála",
+    "selectScale": "Válassz skálát",
+    "energyState": "Energia állapot",
+    "selectState": "Válassz állapotot",
+    "scaleBand": "Skála sáv",
+    "numericValue": "Numerikus érték",
+    "numericValuePlaceholder": "pl. 100",
+    "unit": "Mértékegység",
+    "unitPlaceholder": "pl. kWh, fő",
+    "notes": "Jegyzetek",
+    "notesPlaceholder": "Belső jegyzetek erről az entitásról",
+    "addEntity": "Entitás hozzáadása",
+    "adding": "Hozzáadás…",
+    "cancel": "Mégsem",
+    "createFailed": "Nem sikerült létrehozni az entitást"
+  },
+  "patterns": {
+    "subtitle": "Felismert mintázatok a hatalmi dinamikákban és energiaáramlásokban",
+    "empty": "Még nem javasoltak mintázatokat. A mintázatok közösségi hozzájárulásokból kerülnek be.",
+    "leveragePoints": "Beavatkozási pontok",
+    "proposedBy": "Javasolta: {{name}}",
+    "unknownProposer": "Névtelen",
+    "proposedByPrefix": "Javasolta:"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "metaTitle": "Stories",
+  "metaDescription": "Open stories about breakthroughs, failures and real-world learning.",
+  "title": "Stories",
+  "description": "Open stories about breakthroughs, failures and real-world learning.",
+  "backToHome": "Back to home",
+  "badge": "Stories",
+  "heading": "Open stories about what helped, what failed, and what changed afterward.",
+  "commons": "This page is now a real story commons. People can publish success and failure stories, update them for 30 days after publishing, and add later follow-up comments as the situation evolves.",
+  "categories": {
+    "connections": "Connections",
+    "communities": "Communities",
+    "impact": "Impact"
+  },
+  "stories": {
+    "story1": {
+      "title": "Two eco-faces meet on the map",
+      "summary": "Anna and Ben found each other through the platform and now tend a shared permaculture garden.",
+      "author": "Anna Kovacs"
+    },
+    "story2": {
+      "title": "Growth of the Green Island community",
+      "summary": "Five new members joined our community within a month thanks to the Changemappers newsletter.",
+      "author": "Peter Nagy"
+    }
+  },
+  "shareYourStory": "Share your own story!",
+  "shareDescription": "Publish a grounded account of what helped, what failed and what changed.",
+  "beforePublish": {
+    "title": "Before you publish",
+    "noDeletion": "Stories cannot be deleted later. If you delete your account, authorship becomes anonymized, but the story stays in the commons. All submitted stories are licensed under",
+    "useDetail": "Use concrete detail. Name the context, the challenge, what actually happened, and what you learned. Failure stories are explicitly welcome."
+  },
+  "form": {
+    "editTitle": "Edit your story",
+    "shareTitle": "Share a story",
+    "publishingAs": "Publishing as {{name}}",
+    "signInPrompt": "Sign in to publish a story or add follow-up comments to your own stories.",
+    "browseWithoutLogin": "You can browse all stories without signing in.",
+    "signIn": "Sign in to contribute",
+    "storyTypeLabel": "Story type",
+    "successLabel": "Success story",
+    "successHint": "A breakthrough, win, or approach that helped.",
+    "failureLabel": "Failure story",
+    "failureHint": "A miss, setback, or attempt that did not work.",
+    "fields": {
+      "title": "Title",
+      "titleHint": "Short, specific, and searchable.",
+      "summary": "Summary",
+      "summaryHint": "One concise paragraph people can scan quickly.",
+      "context": "Context",
+      "contextHint": "What setting, team, or project was this in?",
+      "challenge": "Challenge",
+      "challengeHint": "What problem, tension, or risk were you facing?",
+      "whatHappened": "What happened",
+      "whatHappenedHint": "Describe the sequence, not the polished version.",
+      "outcome": "Outcome",
+      "outcomeHint": "What changed, improved, failed, or stayed unresolved?",
+      "lessonsLearned": "Lessons learned",
+      "lessonsLearnedHint": "What should others understand before trying something similar?"
+    },
+    "retrospective": {
+      "title": "Mini retrospective (optional)",
+      "hint": "Keep this lightweight. These fields are optional but useful.",
+      "whatWorked": "What worked",
+      "whatToChange": "What would you change next time",
+      "advice": "Advice for others"
+    },
+    "acknowledgements": {
+      "noDeletion": "I understand this story cannot be deleted later and will only become anonymized if I delete my platform account.",
+      "license": "I agree to publish this story under the CC-BY-SA 4.0 license."
+    },
+    "submit": "Publish story",
+    "save": "Save story",
+    "saving": "Saving...",
+    "cancelEdit": "Cancel editing"
+  },
+  "published": {
+    "title": "Published stories",
+    "count": "{{count}} stories",
+    "count_one": "{{count}} story in the commons",
+    "count_other": "{{count}} stories in the commons",
+    "empty": "No stories yet. The first one can be a success or a failure. Both are useful.",
+    "publishedOn": "Published {{date}}",
+    "by": "By {{name}}",
+    "updated": "updated {{time}}",
+    "edit": "Edit",
+    "editingClosed": "Editing closed on {{date}} because stories are only editable for 30 days after publishing."
+  },
+  "sections": {
+    "summary": "Summary",
+    "context": "Context",
+    "challenge": "Challenge",
+    "whatHappened": "What happened",
+    "outcome": "Outcome",
+    "lessonsLearned": "Lessons learned",
+    "miniRetrospective": "Mini retrospective",
+    "whatWorked": "What worked",
+    "whatToChange": "What to change",
+    "adviceForOthers": "Advice for others"
+  },
+  "comments": {
+    "title": "Submitter comments",
+    "empty": "No follow-up comments yet.",
+    "addLabel": "Add a follow-up comment",
+    "placeholder": "What changed after publishing? What would you add now?",
+    "posting": "Posting...",
+    "submit": "Add comment"
+  },
+  "typeLabels": {
+    "SUCCESS": "Success",
+    "FAILURE": "Failure"
+  },
+  "errors": {
+    "commentTooShort": "Comment must be at least 3 characters.",
+    "commentFailed": "Could not add comment right now."
+  }
+}

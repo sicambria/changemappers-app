@@ -1,0 +1,216 @@
+{
+  "metaTitle": "Analysis Tools",
+  "metaDescription": "Interactive models and analyzers for understanding systemic change.",
+  "impactDashboard": {
+    "metaTitle": "Social Impact Potential Dashboard",
+    "metaDescription": "Model the conditions that raise or lower the chance of positive social impact.",
+    "clientTitle": "Social Impact Potential Dashboard",
+    "clientDescription": "Adjust the sliders to model your system's potential for positive change. The model evaluates Core Capacities, Structural Multipliers, Psycho-Social dynamics, Narrative coherence, and Emergence factors against negative forces.",
+    "highExample": "High example",
+    "lowExample": "Low example",
+    "probabilityOfPositiveImpact": "Chance of positive impact",
+    "recommendations": "Recommendations",
+    "strengthsToBuildOn": "Strengths to build on",
+    "strengthDescription": "This is a strong area. Use it to support weaker areas.",
+    "bottlenecksToAddress": "Bottlenecks to address",
+    "bottleneckDescription": "This bottleneck needs attention. Focus here could improve the whole system.",
+    "resetAllSliders": "Reset all sliders"
+  },
+  "preMeetingAudit": {
+    "metaTitle": "Holistic Regenerative Program Canvas",
+    "metaDescription": "Plan and evaluate events with clear goals, care, and systemic awareness.",
+    "title": "Pre-meeting audit tool"
+  },
+  "participationIndex": {
+    "metaTitle": "Participation Index",
+    "metaDescription": "Measure the real level of citizen participation and distinguish genuine inclusion from public relations theater."
+  },
+  "valueCompass": {
+    "metaTitle": "Personal Value Compass",
+    "metaDescription": "Identify and balance your core values to navigate life with purpose."
+  },
+  "principles": {
+    "metaTitle": "Universal Community Principles",
+    "metaDescription": "Explore 200+ timeless principles for building sustainable and harmonious human communities."
+  },
+  "innerHelpers": {
+    "metaTitle": "Inner Compass Helpers",
+    "metaDescription": "Deep-dive tools to identify and resolve internal blockages and cognitive patterns."
+  },
+  "externalNotice": {
+    "eyebrow": "Third-party notice",
+    "summary": "This tool is served inside an embedded page. Most frontend assets are now self-hosted, but some tools may still connect to external services or open third-party links.",
+    "ipDisclosure": "If a tool connects to an external service, your IP address may become visible to that service.",
+    "refererDisclosure": "Your browser may also send the current page as a Referer when those external requests occur.",
+    "domains": "Current third-party connections depend on the specific tool, and are narrower than the earlier CDN-based setup.",
+    "remember": "Your choice is remembered for this tool during the current browser session.",
+    "accept": "Load external tool",
+    "decline": "Back to tools"
+  },
+  "draw": {
+    "metaTitle": "Local Whiteboard",
+    "metaDescription": "A fully local Excalidraw whiteboard embedded directly in Changemappers.",
+    "title": "Local Whiteboard",
+    "description": "Sketch, map, and export diagrams directly in the app with a fully local Excalidraw workspace.",
+    "badge": "LOCAL ONLY",
+    "backToTools": "Back to Tools",
+    "clearCanvas": "Clear local canvas",
+    "reloadLocalScene": "Reload saved scene",
+    "localOnly": "Runs inside Changemappers with self-hosted assets and no iframe dependency.",
+    "autosave": "Your scene autosaves in this browser so you can return to unfinished work.",
+    "exportHint": "Use Excalidraw's built-in export menu for PNG, SVG, or .excalidraw files.",
+    "helpTitle": "Local Whiteboard Help",
+    "helpIntro": "Sketch, map, and export diagrams directly in the app with a fully local Excalidraw workspace.",
+    "helpClear": "Clear local canvas",
+    "helpReload": "Reload saved scene",
+    "helpSelfHosted": "Runs inside Changemappers with self-hosted assets and no iframe dependency.",
+    "helpAutosave": "Your scene autosaves in this browser so you can return to unfinished work.",
+    "helpExport": "Use Excalidraw's built-in export menu for PNG, SVG, or .excalidraw files.",
+    "helpLimitations": "This whiteboard keeps one local scene in your browser. For multiple saved diagrams, switching between them, visibility settings, or shareable team workflows, use Canvas instead.",
+    "openCanvas": "Go to Canvas",
+    "openHelp": "Help",
+    "closeHelp": "Close"
+  },
+  "openPlatform": {
+    "metaTitle": "Open Platform Analyzer",
+    "metaDescription": "Compare regenerative platforms, civic networks, and collective intelligence tools.",
+    "title": "Regenerative Portals Analyzer",
+    "subtitle": "Compare open-source platforms, networks, and collective intelligence systems in the Game B ecosystem.",
+    "searchLabel": "Search by name or description",
+    "searchPlaceholder": "e.g. Wikipedia, web3...",
+    "dimensions": "Dimensions",
+    "filterLogic": "Filter logic",
+    "clear": "Clear filters",
+    "results": "{{count}} portals found",
+    "gridView": "Grid view",
+    "tableView": "Table view",
+    "visit": "Visit platform",
+    "portal": "Portal / Platform",
+    "score": "Score",
+    "features": "Key features",
+    "audience": "Audience / focus",
+    "dimensionsList": [
+      "Vertical Development",
+      "Mentoring / RPS",
+      "Connections / P2P",
+      "Open Source",
+      "Advanced Visualization",
+      "Collective Governance",
+      "Web3 / Tokenomics",
+      "Bioregional Focus",
+      "Economic Allocation",
+      "No Gamified Reputation"
+    ],
+    "portals": [
+      {
+        "name": "Changemappers",
+        "type": "Baseline",
+        "url": "https://changemappers.org/",
+        "score": 100,
+        "audience": "Changemakers, system innovators",
+        "features": [
+          "Vertical Development",
+          "Mentoring / RPS",
+          "Connections / P2P",
+          "Open Source",
+          "Collective Governance",
+          "No Gamified Reputation"
+        ],
+        "description": "Archetype complementarity matching, regenerative peer support, and RDG-oriented coordination for changemakers."
+      },
+      {
+        "name": "Hylo",
+        "type": "High-fidelity ecosystem",
+        "url": "https://www.hylo.com",
+        "score": 92,
+        "audience": "Purpose-driven groups and local communities",
+        "features": [
+          "Connections / P2P",
+          "Open Source",
+          "Bioregional Focus",
+          "Collective Governance",
+          "No Gamified Reputation"
+        ],
+        "description": "Community-led coordination platform for bioregional organizing, regenerative agriculture, and resilience."
+      },
+      {
+        "name": "CoDo / Kamooni",
+        "type": "High-fidelity ecosystem",
+        "url": "https://kamooni.org/",
+        "score": 88,
+        "audience": "Civic activists and environmental managers",
+        "features": [
+          "Connections / P2P",
+          "Open Source",
+          "Collective Governance",
+          "Economic Allocation"
+        ],
+        "description": "Open-source civic engagement system with altruistic wallet mechanics and liquid democracy."
+      },
+      {
+        "name": "OpenCivics",
+        "type": "High-fidelity ecosystem",
+        "url": "https://opencivics.co",
+        "score": 85,
+        "audience": "Institutions, system builders, DAOs",
+        "features": [
+          "Open Source",
+          "Collective Governance",
+          "Economic Allocation"
+        ],
+        "description": "Decentralized solidarity network focused on institutional bridging and systemic grant-making."
+      },
+      {
+        "name": "Decidim",
+        "type": "Participation platform",
+        "url": "https://decidim.org",
+        "score": null,
+        "audience": "Citizens and municipalities",
+        "features": [
+          "Collective Governance",
+          "Open Source"
+        ],
+        "description": "Open-source platform for participatory democracy, assemblies, proposals, debates, and votes."
+      },
+      {
+        "name": "Polis",
+        "type": "Sense-making tool",
+        "url": "https://pol.is",
+        "score": null,
+        "audience": "Large groups, citizens, researchers",
+        "features": [
+          "Collective Governance",
+          "Open Source",
+          "Advanced Visualization"
+        ],
+        "description": "Conversation platform that uses real-time analysis to surface consensus and divisions."
+      },
+      {
+        "name": "Terraso",
+        "type": "Landscape coordinator",
+        "url": "https://terraso.org",
+        "score": 55,
+        "audience": "Landowners, ecologists, local government",
+        "features": [
+          "Open Source",
+          "Advanced Visualization",
+          "Bioregional Focus"
+        ],
+        "description": "GIS mapping platform for landscape partnerships and ecological restoration."
+      },
+      {
+        "name": "SEEDS / Hypha DHO",
+        "type": "DeFi and tokenized",
+        "url": "https://joinseeds.earth",
+        "score": 60,
+        "audience": "Web3 community and regenerative finance",
+        "features": [
+          "Web3 / Tokenomics",
+          "Collective Governance",
+          "Economic Allocation"
+        ],
+        "description": "Blockchain-based financial ecosystem using tokenomics and incentives for regeneration."
+      }
+    ]
+  }
+}

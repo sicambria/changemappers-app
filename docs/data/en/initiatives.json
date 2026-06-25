@@ -1,0 +1,687 @@
+{
+  "datasetInfo": {
+    "title": "Networks of Systemic Transformation",
+    "years": "2025-2026",
+    "description": "Comprehensive Catalog of Sustainability, Community, and Consciousness Initiatives in Hungary",
+    "trends": [
+      "Radical Localization",
+      "Integral Holism",
+      "Knowledge-Based Action"
+    ]
+  },
+  "initiatives": [
+    {
+      "name": "MAPER Budapest and Surroundings Circle",
+      "type": "Permaculture",
+      "region": "Pest",
+      "city": "Budapest",
+      "description": "Urban permaculture, intensive small garden design, integration of community gardens.",
+      "tags": ["urban garden", "education", "community garden"]
+    },
+    {
+      "name": "MAPER South Transdanubia Circle",
+      "type": "Permaculture",
+      "region": "Baranya, Somogy, Tolna",
+      "city": "",
+      "description": "Hilly water retention, establishment of forest gardens (food forests), ecovillage synergies.",
+      "tags": ["water management", "forest garden", "rural development"]
+    },
+    {
+      "name": "MAPER Great Plain Circle (Danube-Tisza Interfluve)",
+      "type": "Permaculture",
+      "region": "Bács-Kiskun, Csongrád-Csanád",
+      "city": "Pusztaszer",
+      "description": "Swaying sand farming, drought-tolerant plant associations, rehabilitation of the farm world.",
+      "tags": ["sand ridge", "drought tolerance", "farmstead"]
+    },
+    {
+      "name": "MAPER North Hungary Circle",
+      "type": "Permaculture",
+      "region": "Borsod-Abaúj-Zemplén, Heves, Nógrád",
+      "city": "Gömörszőlős",
+      "description": "Mountain permaculture, management of sloping areas, social inclusion through gardens.",
+      "tags": ["social integration", "sloping farming"]
+    },
+    {
+      "name": "MAPER West Transdanubia Circle",
+      "type": "Permaculture",
+      "region": "Vas, Zala, Győr-Moson-Sopron",
+      "city": "Őrség",
+      "description": "Blending traditional peasant farming with permaculture, cross-border relations.",
+      "tags": ["landrace", "tradition preservation"]
+    },
+    {
+      "name": "Csendüllő Garden of Life",
+      "type": "CSA",
+      "region": "Borsod-Abaúj-Zemplén",
+      "city": "Aszaló",
+      "description": "Compact service: vegetables + sprouts + community experience. Zero waste handover.",
+      "tags": ["vegetables", "zero waste", "sprouts"],
+      "leaders": "Janó Kiss",
+      "size": "60 families"
+    },
+    {
+      "name": "Jászság Organic Garden",
+      "type": "CSA",
+      "region": "Jász-Nagykun-Szolnok",
+      "city": "Jánoshida",
+      "description": "Success story of an industrial worker turned farmer. Tomato specialties, herbs.",
+      "tags": ["tomato", "herbs"],
+      "leaders": "Norbert Varga",
+      "size": "52 families"
+    },
+    {
+      "name": "I Raise a Garden",
+      "type": "CSA",
+      "region": "Fejér",
+      "city": "Lovasberény",
+      "description": "Bio-intensive methods, exotic plants (lychee, okra), winter processed products.",
+      "tags": ["bio-intensive", "exotic", "processing"],
+      "leaders": "Dudás Kriszta",
+      "size": "37-40 families"
+    },
+    {
+      "name": "Panorama Eco-Garden",
+      "type": "CSA",
+      "region": "Pest",
+      "city": "Fót",
+      "description": "Magnificent view, herb tours in protected areas, okra cultivation.",
+      "tags": ["herbs", "tour"],
+      "leaders": "Kinga Kocsis and her sisters",
+      "size": "80 families"
+    },
+    {
+      "name": "Sun-braid Garden",
+      "type": "CSA",
+      "region": "Baranya",
+      "city": "Mozsgó",
+      "description": "No-till (no turnover) soil cultivation, Asian specialties (water spinach), essential oils.",
+      "tags": ["no-till", "essential oil", "education"],
+      "leaders": "Tamás Barcsik",
+      "size": "30-40 families"
+    },
+    {
+      "name": "MagosVölgy",
+      "type": "CSA",
+      "region": "Nógrád",
+      "city": "Terény",
+      "description": "Tomato research, preservation of landraces, volunteer programs.",
+      "tags": ["landrace", "research", "volunteering"],
+      "leaders": "Zoltán and Judit",
+      "size": "130 families"
+    },
+    {
+      "name": "Táncoskert",
+      "type": "CSA",
+      "region": "Hajdú-Bihar",
+      "city": "Polgár",
+      "description": "Regenerative animal husbandry (Grey cattle, Mangalica), 'Chicken Leasing' program.",
+      "tags": ["animal husbandry", "meat", "chicken leasing"],
+      "leaders": "Zoltán Lengyel",
+      "size": "80+ families"
+    },
+    {
+      "name": "Organic Poppy",
+      "type": "CSA",
+      "region": "Csongrád-Csanád",
+      "city": "Pusztaszer",
+      "description": "Sand farming, asparagus cultivation, Szeged pickup community.",
+      "tags": ["asparagus", "sand ridge"],
+      "leaders": "Zsuzsanna Arnoldné Óré",
+      "size": "44 families"
+    },
+    {
+      "name": "Kisdomb Eco-Garden",
+      "type": "CSA",
+      "region": "Pest",
+      "city": "Zsámbék",
+      "description": "Waldorf-style family farm, strong educational focus.",
+      "tags": ["education", "waldorf", "family"],
+      "leaders": "Béla Király",
+      "size": "60 families"
+    },
+    {
+      "name": "Pallagvölgyi Organic Garden",
+      "type": "CSA",
+      "region": "Pest",
+      "city": "Kóspallag",
+      "description": "Municipal cooperation, social employment, kindergarten garden program.",
+      "tags": ["social employment", "kindergarten", "municipality"],
+      "leaders": "Niki and her team",
+      "size": "80 families"
+    },
+    {
+      "name": "Vas Green Basket",
+      "type": "Basket Community",
+      "region": "Vas",
+      "city": "Szombathely",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Göcsej Basket",
+      "type": "Basket Community",
+      "region": "Zala",
+      "city": "Zalaegerszeg",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Pápa Pantry",
+      "type": "Basket Community",
+      "region": "Veszprém",
+      "city": "Pápa",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Vértes Pantry",
+      "type": "Basket Community",
+      "region": "Fejér",
+      "city": "Csákvár",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Forrás Shopping Community",
+      "type": "Basket Community",
+      "region": "Komárom-Esztergom",
+      "city": "Tata",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Gerecse Bag",
+      "type": "Basket Community",
+      "region": "Komárom-Esztergom",
+      "city": "Szomód",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Pécs Basket Community",
+      "type": "Basket Community",
+      "region": "Baranya",
+      "city": "Pécs",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Mohács Basket",
+      "type": "Basket Community",
+      "region": "Baranya",
+      "city": "Mohács",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Somogy Basket",
+      "type": "Basket Community",
+      "region": "Somogy",
+      "city": "Kaposvár",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Szekszárd Basket",
+      "type": "Basket Community",
+      "region": "Tolna",
+      "city": "Szekszárd",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Dombvidék Basket",
+      "type": "Basket Community",
+      "region": "Pest",
+      "city": "Gödöllő",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Szatyor Community (Bag Community)",
+      "type": "Basket Community",
+      "region": "Pest",
+      "city": "Budapest",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Little Basket",
+      "type": "Basket Community",
+      "region": "Komárom-Esztergom",
+      "city": "Esztergom",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Szolnok Basket",
+      "type": "Basket Community",
+      "region": "Jász-Nagykun-Szolnok",
+      "city": "Szolnok",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Kecskemét Bag",
+      "type": "Basket Community",
+      "region": "Bács-Kiskun",
+      "city": "Kecskemét",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Miskolc Green Basket",
+      "type": "Basket Community",
+      "region": "Borsod-Abaúj-Zemplén",
+      "city": "Miskolc",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Debrecen Basket",
+      "type": "Basket Community",
+      "region": "Hajdú-Bihar",
+      "city": "Debrecen",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Nyíregyháza Basket",
+      "type": "Basket Community",
+      "region": "Szabolcs-Szatmár-Bereg",
+      "city": "Nyíregyháza",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Körös Basket",
+      "type": "Basket Community",
+      "region": "Békés",
+      "city": "Békéscsaba",
+      "description": "Local shopping community (SFSC).",
+      "tags": ["food", "short food supply chain"]
+    },
+    {
+      "name": "Gömörszőlős",
+      "type": "Ecovillage",
+      "region": "Borsod-Abaúj-Zemplén",
+      "city": "Gömörszőlős",
+      "description": "Model settlement of the 'Sustainable Village' program, the base of the Institute for Sustainable Development Foundation.",
+      "tags": ["wool", "biomass", "training center"]
+    },
+    {
+      "name": "Nagyszékely",
+      "type": "Ecovillage",
+      "region": "Tolna",
+      "city": "Nagyszékely",
+      "description": "Local seed conservation, community orchardry, integration of 'gyüttment' (newcomer) families.",
+      "tags": ["seeds", "orchardry", "rural development"]
+    },
+    {
+      "name": "Galgahévíz",
+      "type": "Ecovillage",
+      "region": "Pest",
+      "city": "Galgahévíz",
+      "description": "Technology-oriented ecovillage, energy independence, biogas utilization.",
+      "tags": ["energy", "technology", "biogas"]
+    },
+    {
+      "name": "Háttér Society",
+      "type": "Social Justice",
+      "region": "National",
+      "city": "Budapest",
+      "description": "LGBTQI rights, legal aid, helpline service, policy advocacy.",
+      "tags": ["lgbtqi", "legal aid", "helpline"],
+      "url": "hatter.hu"
+    },
+    {
+      "name": "National Federation of Autists (AOSZ)",
+      "type": "Social Justice",
+      "region": "National",
+      "city": "National network",
+      "description": "Advocacy for people living with autism, family support, sensitivity training.",
+      "tags": ["autism", "advocacy", "family"],
+      "url": "aosz.hu"
+    },
+    {
+      "name": "ÉFOÉSZ",
+      "type": "Social Justice",
+      "region": "National",
+      "city": "County organizations",
+      "description": "Support for people with intellectual disabilities, helping self-advocacy.",
+      "tags": ["disability", "support"],
+      "url": "efoesz.hu"
+    },
+    {
+      "name": "Hungarian Women's Lobby",
+      "type": "Social Justice",
+      "region": "National",
+      "city": "Budapest",
+      "description": "Women's rights, gender equality, non-violence.",
+      "tags": ["women", "rights", "equality"],
+      "url": "noierdek.hu"
+    },
+    {
+      "name": "Igazgyöngy Foundation",
+      "type": "Social Justice",
+      "region": "Hajdú-Bihar",
+      "city": "Berettyóújfalu, Told",
+      "description": "Fighting deep poverty, arts education, community development.",
+      "tags": ["deep poverty", "education", "art"],
+      "url": "igazgyongyalapitvany.hu"
+    },
+    {
+      "name": "BAGázs Public Benefit Association",
+      "type": "Social Justice",
+      "region": "Pest",
+      "city": "Bag, Dány",
+      "description": "Roma integration, slum rehabilitation, mentoring program.",
+      "tags": ["roma", "integration", "mentor"],
+      "url": "bagazs.org"
+    },
+    {
+      "name": "Menedék Association",
+      "type": "Social Justice",
+      "region": "National",
+      "city": "Budapest",
+      "description": "Social integration of migrants and refugees, legal assistance.",
+      "tags": ["refugee", "legal aid", "integration"],
+      "url": "menedek.hu"
+    },
+    {
+      "name": "Blue Line Child Crisis Foundation",
+      "type": "Social Justice",
+      "region": "National",
+      "city": "Budapest",
+      "description": "Child protection, 116-111 helpline, prevention.",
+      "tags": ["child protection", "crisis line"],
+      "url": "kek-vonal.hu"
+    },
+    {
+      "name": "Roma Láng Association",
+      "type": "Social Justice",
+      "region": "National",
+      "city": "Budapest",
+      "description": "Preservation of Roma culture, advocacy.",
+      "tags": ["roma", "culture", "advocacy"]
+    },
+    {
+      "name": "Misina Nature and Animal Protection Association",
+      "type": "Animal Protection",
+      "region": "Baranya",
+      "city": "Pécs",
+      "description": "Operation of a shelter and training center.",
+      "tags": ["shelter", "education", "animal protection"]
+    },
+    {
+      "name": "Tenkesalja Animal Protection Association",
+      "type": "Animal Protection",
+      "region": "Baranya",
+      "city": "Siklós",
+      "description": "Operation of a small-area shelter.",
+      "tags": ["shelter", "animal protection"]
+    },
+    {
+      "name": "Mentsvár for Animals",
+      "type": "Animal Protection",
+      "region": "Bács-Kiskun",
+      "city": "Kecskemét",
+      "description": "Animal shelter and prevention education.",
+      "tags": ["shelter", "animal protection"]
+    },
+    {
+      "name": "Tappancs Animal Protection Foundation",
+      "type": "Animal Protection",
+      "region": "Csongrád-Csanád",
+      "city": "Szeged",
+      "description": "The westernmost regional shelter network centered in Szeged.",
+      "tags": ["shelter", "animal protection"]
+    },
+    {
+      "name": "PCAS Animal Rescue",
+      "type": "Animal Protection",
+      "region": "Szabolcs-Szatmár-Bereg",
+      "city": "Nyíregyháza",
+      "description": "Animal rescue and education campaign against the stray animal problem.",
+      "tags": ["animal rescue", "education"]
+    },
+    {
+      "name": "National Animal Protection Foundation (Szeged)",
+      "type": "Animal Protection",
+      "region": "Csongrád-Csanád",
+      "city": "Szeged",
+      "description": "Organization for animal protection legislation and support.",
+      "tags": ["legislation", "support"]
+    },
+    {
+      "name": "HEROSZ Székesfehérvár Animal Home",
+      "type": "Animal Protection",
+      "region": "Fejér",
+      "city": "Székesfehérvár",
+      "description": "Local base of the nation's oldest organization, orphaning and reception.",
+      "tags": ["shelter"]
+    },
+    {
+      "name": "Waldorf Institutions Network",
+      "type": "Education",
+      "region": "National",
+      "city": "Budapest, Solymár, Pilisszentlászló, Győr etc.",
+      "description": "Education based on Rudolf Steiner's pedagogy, placing community building at the center. The network holds regular open days (Michaelmas, Advent).",
+      "tags": ["waldorf", "pedagogy", "community", "holidays"]
+    },
+    {
+      "name": "Alternative Secondary School of Economics (AKG)",
+      "type": "Education",
+      "region": "Pest",
+      "city": "Budapest",
+      "description": "Alternative pedagogical center and workshop.",
+      "tags": ["alternative school", "secondary school"]
+    },
+    {
+      "name": "Rogers Person-Centered School",
+      "type": "Education",
+      "region": "Pest",
+      "city": "Budapest",
+      "description": "Alternative school applying person-centered pedagogy.",
+      "tags": ["alternative school", "person-centered"]
+    },
+    {
+      "name": "Small Community Program - Human Ecology",
+      "type": "Education",
+      "region": "National",
+      "city": "National",
+      "description": "Human ecology course for the transmission of deep ecology and systems theory.",
+      "tags": ["human ecology", "deep ecology", "course"]
+    },
+    {
+      "name": "Integral Academy",
+      "type": "Spirituality",
+      "region": "Pest",
+      "city": "Budapest",
+      "description": "Integral-view training school following Ken Wilber. (Founder: Bence Gánti)",
+      "tags": ["integral psychology", "consciousness", "training"]
+    },
+    {
+      "name": "The Gate of Dharma Buddhist College and Church",
+      "type": "Spirituality",
+      "region": "Pest",
+      "city": "Budapest",
+      "description": "Central-European center of Buddhism. Events and education.",
+      "tags": ["buddhism", "college", "meditation"]
+    },
+    {
+      "name": "Shambhala Tibet Center",
+      "type": "Spirituality",
+      "region": "Pest",
+      "city": "Budapest",
+      "description": "Meditation and cultural center (Tibet Cinema, yoga).",
+      "tags": ["tibet", "yoga", "cultural"]
+    },
+    {
+      "name": "Nonviolent Communication (NVC)",
+      "type": "Spirituality",
+      "region": "National",
+      "city": "National",
+      "description": "Community and trainings organized based on Marshall Rosenberg's method.",
+      "tags": ["nonviolent communication", "nvc", "training"]
+    },
+    {
+      "name": "Community Energy Service Nonprofit Kft. (KESZ)",
+      "type": "Energy Communities",
+      "region": "National",
+      "city": "National",
+      "description": "Network mentored by MTVSZ, promoting energy sharing (SSE) at the condominium and municipal levels.",
+      "tags": ["energy", "solar panel", "sharing", "community service provider"]
+    }
+  ],
+  "events": [
+    {
+      "name": "Animal Protection Pedagogy Day",
+      "date": "2025. Mar. 10.",
+      "location": "National",
+      "topic": "Education, awareness raising",
+      "season": "2025. Spring"
+    },
+    {
+      "name": "World Water Day Celebrations",
+      "date": "2025. Mar. 20-21.",
+      "location": "Szabolcs-Szatmár-Bereg",
+      "topic": "Environmental protection, water resources",
+      "season": "2025. Spring"
+    },
+    {
+      "name": "NGO Proposal Workshop",
+      "date": "2025. Apr. 14.",
+      "location": "Budapest",
+      "topic": "Support for the civil sector",
+      "season": "2025. Spring"
+    },
+    {
+      "name": "Sustainability Theme Week",
+      "date": "2025. Apr. 22-26.",
+      "location": "National (Schools)",
+      "topic": "Ecological education",
+      "season": "2025. Spring"
+    },
+    {
+      "name": "Civil May Days",
+      "date": "2025. May 1.",
+      "location": "Tolna (Bonyhád, Dombóvár)",
+      "topic": "Community building, celebration",
+      "season": "2025. Spring"
+    },
+    {
+      "name": "Birds and Trees Day",
+      "date": "2025. May 9-10.",
+      "location": "Budapest Zoo, National",
+      "topic": "Nature conservation",
+      "season": "2025. Spring"
+    },
+    {
+      "name": "Garden Festival",
+      "date": "2025. May 23-24.",
+      "location": "Budapest",
+      "topic": "Gardening, Permaculture",
+      "season": "2025. Spring"
+    },
+    {
+      "name": "Everness Festival",
+      "date": "2025. Jun. 24-30.",
+      "location": "Siófok-Sóstó (Somogy)",
+      "topic": "Spirituality, Self-knowledge, Music",
+      "season": "2025. Summer"
+    },
+    {
+      "name": "Danube-Bank Fest",
+      "date": "2025. Jul. 3-5.",
+      "location": "Ráckeve (Pest)",
+      "topic": "Music, community",
+      "season": "2025. Summer"
+    },
+    {
+      "name": "NVC International Training (IIT)",
+      "date": "2025. Jul. 18-27.",
+      "location": "Bátonyterenye (Nógrád)",
+      "topic": "Nonviolent communication",
+      "season": "2025. Summer"
+    },
+    {
+      "name": "Integral Summer Camp",
+      "date": "2025. Aug. 26-31.",
+      "location": "Bölcske (Tolna)",
+      "topic": "Integral psychology, retreat",
+      "season": "2025. Summer"
+    },
+    {
+      "name": "European Car-Free Day",
+      "date": "2025. Sep. 22.",
+      "location": "National",
+      "topic": "Sustainable transport",
+      "season": "2025. Autumn-Winter"
+    },
+    {
+      "name": "National Meeting of Civil Centers",
+      "date": "2025. Oct. 1-3.",
+      "location": "Kaposvár (Somogy)",
+      "topic": "Civil sector coordination",
+      "season": "2025. Autumn-Winter"
+    },
+    {
+      "name": "Animal Protection Theme Week",
+      "date": "2025. Oct. 1-5.",
+      "location": "National",
+      "topic": "Animal protection, education",
+      "season": "2025. Autumn-Winter"
+    },
+    {
+      "name": "World Animal Day",
+      "date": "2025. Oct. 4.",
+      "location": "National (Shelters)",
+      "topic": "Open days, adoption",
+      "season": "2025. Autumn-Winter"
+    },
+    {
+      "name": "X. MAPER Conference",
+      "date": "2025. Nov. 24.",
+      "location": "Budapest",
+      "topic": "Permaculture science",
+      "season": "2025. Autumn-Winter"
+    },
+    {
+      "name": "Integral Winter Camp",
+      "date": "2025. Dec. 27. - 2026. Jan. 01.",
+      "location": "Bölcske (Tolna)",
+      "topic": "Year-end retreat",
+      "season": "2025. Autumn-Winter"
+    },
+    {
+      "name": "Planet Budapest 2026",
+      "date": "2026. Feb. 25 - Mar. 1.",
+      "location": "Budapest (Railway History Park)",
+      "topic": "Sustainability Expo",
+      "season": "2026. Spring"
+    },
+    {
+      "name": "PENZ7 (Financial Theme Week)",
+      "date": "2026. Mar. 2-6.",
+      "location": "National",
+      "topic": "Economic awareness",
+      "season": "2026. Spring"
+    },
+    {
+      "name": "Sustainability Theme Week 2026",
+      "date": "2026. Apr. (expected)",
+      "location": "National",
+      "topic": "Ecology, climate protection",
+      "season": "2026. Spring"
+    },
+    {
+      "name": "Integral Academy Open Day",
+      "date": "2026. Apr. 16.",
+      "location": "Budapest",
+      "topic": "Education, Spirituality",
+      "season": "2026. Spring"
+    }
+  ]
+}

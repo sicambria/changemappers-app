@@ -1,0 +1,194 @@
+{
+  "title": "SolutionPath",
+  "subtitle": "Reflexión Autoguiada",
+  "nav": {
+    "coachme": "Coach SolutionPath"
+  },
+  "phases": {
+    "consent": {
+      "title": "Antes de Comenzar",
+      "statement1": "Esta es una herramienta de reflexión autoguiada basada en preguntas de Coaching Breve Centrado en Soluciones. Es un formulario estructurado, no un servicio dirigido por una persona ni por IA. Almacena lo que escribes de forma privada y te lo muestra de vuelta.",
+      "statement2": "Esta herramienta no es terapia. No es apoyo en crisis. No es consejo profesional de ningún tipo. Si estás en crisis o angustia, por favor usa los recursos de apoyo vinculados en la parte inferior de cada pantalla.",
+      "statement3": "Tus resultados dependen enteramente de tu propia reflexión. La herramienta no contribuye con nada excepto las preguntas y la estructura.",
+      "checkbox1": "Entiendo que esto es un formulario pre-programado, no una persona o IA.",
+      "checkbox2": "Entiendo que esto no es terapia, apoyo en crisis o consejo profesional.",
+      "checkbox3": "Entiendo que la herramienta almacena mi texto de forma privada y puede hacer comprobaciones limitadas por frases de angustia solo para mostrar recursos de apoyo.",
+      "checkbox4": "Entiendo que puedo salir o pausar en cualquier momento.",
+      "startButton": "Acepto — Configurar Mi Bóveda Privada",
+      "exitButton": "Salir",
+      "returningTitle": "Bienvenido de Nuevo",
+      "returningSummary": "Esta herramienta es un formulario estructurado, no terapia ni consejo profesional. Almacena tu texto de forma privada y puede mostrar recursos de apoyo cuando comprobaciones limitadas por frases detectan lenguaje de angustia.",
+      "returningButton": "Todavía Acepto — Iniciar Sesión",
+      "readFullLink": "Leer el acuerdo completo de nuevo",
+      "encryption": {
+        "title": "Elige tu nivel de privacidad",
+        "recoverableTitle": "Recuperable (recomendado)",
+        "recoverableDesc": "Tus datos pueden recuperarse si cambias o restableces tu contraseña. Ligeramente menos seguro.",
+        "strongTitle": "Máxima privacidad",
+        "strongDesc": "Los datos no se pueden recuperar si cambias o pierdes tu contraseña. Si olvidas tu contraseña, todos los datos de sesión se pierden permanentemente.",
+        "accountPasswordTitle": "Ingresa la contraseña de tu cuenta",
+        "accountPasswordDesc": "La contraseña de tu cuenta se usará para cifrar tus datos de CoachMe. Si cambias o restableces la contraseña de tu cuenta, deberás desbloquear la bóveda con la nueva contraseña.",
+        "accountPasswordPlaceholder": "Contraseña de tu cuenta"
+      },
+      "errors": {
+        "passwordEmpty": "Por favor ingresa la contraseña de tu cuenta.",
+        "wrongPassword": "Contraseña incorrecta. Por favor intenta de nuevo.",
+        "saveFailed": "No se pudo guardar. Por favor intenta de nuevo."
+      }
+    },
+    "focus": {
+      "title": "Que te trae aqui hoy?",
+      "focusTagLabel": "¿En qué área te gustaría enfocarte?",
+      "focusTags": {
+        "WORK_CAREER": "Trabajo / Carrera",
+        "RELATIONSHIPS": "Relaciones",
+        "HEALTH": "Salud",
+        "PERSONAL_GROWTH": "Crecimiento Personal",
+        "LIFE_BALANCE": "Equilibrio de Vida",
+        "OTHER": "Otro"
+      },
+      "customFocusLabel": "Nombra brevemente tu área de enfoque",
+      "customFocusPlaceholder": "ej., Proyectos creativos",
+      "whyImportantLabel": "Por que es importante para ti ahora?",
+      "whyImportantPlaceholder": "p. ej., Me esta quitando energia y quiero encontrar una direccion mas clara...",
+      "sessionGoalLabel": "Cual es tu objetivo para esta sesion?",
+      "sessionGoalPlaceholder": "p. ej., Decidir que quiero decir y cual sera mi primer paso...",
+      "continueButton": "Continuar",
+      "topicLabel": "Que te trae aqui hoy? (tema)",
+      "topicPlaceholder": "p. ej., Quiero pensar una conversacion que sigo posponiendo...",
+      "successCriteriaLabel": "Que tendria que pasar para que esta sesion se sienta exitosa?",
+      "successCriteriaPlaceholder": "p. ej., Salir con un pequeno siguiente paso que confie en probar..."
+    },
+    "miracle": {
+      "title": "El Futuro Preferido",
+      "subtitle": "Imagina el futuro preferido hacia el que quieres avanzar...",
+      "questionA": "Supón que un milagro ocurre esta noche mientras duermes, y la situación que trajiste a esta sesión está completamente resuelta. Como estabas durmiendo, no supiste que ocurrió. ¿Cuál es la primera pequeña cosa que notas mañana por la mañana que te dice que el milagro ocurrió?",
+      "questionB": "¿Cuál sería la siguiente señal después de eso?",
+      "questionC": "¿Qué notarían las personas a tu alrededor que fuera diferente sobre ti?",
+      "optionalLabel": "¿Algo más que quieras agregar sobre tu futuro preferido?",
+      "verificationTitle": "Revisa Tu Futuro Preferido",
+      "verificationSubtitle": "Estas son copias exactas de lo que escribiste.",
+      "editButton": "Editar esta respuesta",
+      "confirmButton": "Esto es correcto — Continuar"
+    },
+    "action": {
+      "title": "Tu Siguiente Paso",
+      "questionLabel": "¿Cuál es una acción concreta y realista que quieres tomar de esta sesión?",
+      "refineLabel": "¿Te gustaría refinar o mejorar este paso? (opcional)",
+      "refinePlaceholder": "ej., Reducirlo — comprometerse solo con 15 minutos el martes...",
+      "optionalLabel": "¿Algún otro paso posible o nota?"
+    },
+    "synthesis": {
+      "title": "Tu Resumen de Sesión",
+      "goalHeading": "Tu Objetivo para Esta Sesión",
+      "miracleHeading": "Tu Futuro Preferido",
+      "firstSign": "Primera señal",
+      "nextSign": "Siguiente señal",
+      "othersNotice": "Lo que otros notarían",
+      "stepHeading": "Tu Siguiente Paso",
+      "originalStep": "Tu paso original",
+      "refinedStep": "Tu paso refinado",
+      "closingHeading": "Reflexión de Cierre",
+      "usefulnessLabel": "¿Qué tan útil fue este recorrido?",
+      "finalLabel": "¿Alguna reflexión final o notas adicionales para esta sesión?",
+      "actionMenuTitle": "¿Qué te gustaría hacer después?",
+      "saveEnd": "Guardar y Finalizar Sesión",
+      "newSameFocus": "Iniciar un nuevo recorrido en el mismo enfoque",
+      "differentFocus": "Elegir un área de enfoque diferente",
+      "exportJson": "Exportar esta sesión como JSON",
+      "goBack": "Volver",
+      "discardSession": "Descartar sesión",
+      "topicHeading": "Tema",
+      "whyImportantHeading": "Por que importa",
+      "successCriteriaHeading": "Criterios de exito de la sesion",
+      "scalingHeading": "Escala",
+      "currentScale": "Posicion actual",
+      "resources": "Mochila",
+      "recentMoments": "Buenos momentos de los ultimos dias y semanas",
+      "nextScaleStep": "Un punto mas alto"
+    },
+    "scaling": {
+      "title": "Escalar el futuro preferido",
+      "slopeLabel": "La cima es 10 (el sueno magico), la base es 1 (la dificultad mas profunda). Donde estas ahora?",
+      "backpackLabel": "Un {{score}}? Excelente. Que hace que sea un {{score}}? Que hay ya en tu mochila: fortalezas, recursos o logros?",
+      "backpackPlaceholder": "p. ej., Ya se con quien necesito hablar, y una vez esta semana mantuve la calma...",
+      "recentMomentsLabel": "Que buenos momentos has notado en los ultimos dias y semanas?",
+      "recentMomentsPlaceholder": "p. ej., Un momento en que esto fue un poco mas facil, ligero o posible...",
+      "nextStepLabel": "Como seria un {{nextScore}}? Que podrias hacer para manana?",
+      "nextStepPlaceholder": "p. ej., Escribir las tres primeras lineas, preguntar a una persona, reservar 15 minutos..."
+    }
+  },
+  "unlock": {
+    "title": "Bóveda CoachMe",
+    "description": "Ingresa la contraseña de tu cuenta para descifrar los datos de tu sesión.",
+    "accountPasswordPlaceholder": "Contraseña de tu cuenta",
+    "button": "Desbloquear",
+    "cancel": "Cancelar",
+    "wrongPassword": "Contraseña incorrecta. Por favor intenta de nuevo."
+  },
+  "safety": {
+    "pauseButton": "Pausar — Necesito apoyo",
+    "pauseMessage": "Este recorrido está pausado. No hay prisa por volver.",
+    "returnButton": "Volver a mi recorrido",
+    "endSession": "Terminar esta sesión",
+    "disclosure": "Esta herramienta puede hacer comprobaciones limitadas por frases de angustia solo para mostrar recursos de apoyo. Si necesitas apoyo en cualquier momento, presiona el botón de arriba.",
+    "supportResources": "Recursos de apoyo",
+    "crisisLines": "Líneas de crisis en Hungría:",
+    "emergency": "Emergencias: 112",
+    "close": "Cerrar"
+  },
+  "navigation": {
+    "continue": "Continuar a la siguiente fase",
+    "backMiracle": "Volver al Futuro Preferido",
+    "reviewAnswers": "Revisar y editar todas mis respuestas hasta ahora",
+    "endEarly": "Terminar sesión antes",
+    "addNote": "Agregar una nota para esta fase"
+  },
+  "progress": {
+    "title": "Tu Progreso",
+    "date": "Fecha",
+    "focus": "Enfoque",
+    "nextStep": "Siguiente Paso",
+    "filterByFocus": "Filtrar por enfoque",
+    "allFocus": "Todas las áreas de enfoque",
+    "exportSelected": "Exportar sesiones seleccionadas como JSON",
+    "printSelected": "Imprimir sesiones seleccionadas",
+    "empty": "Aún no hay sesiones. Inicia tu primer recorrido para ver tu progreso aquí.",
+    "actions": "Acciones",
+    "export": "Exportar",
+    "startNewSession": "Iniciar nueva sesión"
+  },
+  "resume": {
+    "title": "Reanudar Sesión",
+    "message": "Tienes una sesión incompleta del {{date}}. ¿Te gustaría continuar donde lo dejaste?",
+    "phase": "Estabas en: {{phase}}",
+    "resumeButton": "Reanudar Sesión",
+    "startFresh": "Comenzar de Nuevo"
+  },
+  "autoSave": {
+    "saved": "Guardado",
+    "saving": "Guardando...",
+    "error": "No se pudo guardar"
+  },
+  "sessionStart": {
+    "editButton": "Editar tema y objetivo"
+  },
+  "errors": {
+    "minLength": "Por favor ingresa al menos 3 caracteres",
+    "required": "Este campo es obligatorio",
+    "selectFocus": "Por favor selecciona un área de enfoque",
+    "sessionNotFound": "Sesión no encontrada",
+    "notAuthorized": "No estás autorizado para acceder a esta sesión",
+    "startFailed": "Error al iniciar la sesión",
+    "encryptionNotConfigured": "El cifrado no está configurado",
+    "recoverableUnlockFailed": "No se pudo desbloquear el cifrado recuperable"
+  },
+  "restart": {
+    "button": "Cancelar y empezar de nuevo",
+    "confirm": "Cancelar este recorrido y empezar de nuevo? Tus respuestas actuales se eliminaran.",
+    "error": "No se pudo empezar de nuevo. Por favor intenta otra vez."
+  },
+  "session": {
+    "goalLabel": "Tu objetivo"
+  }
+}

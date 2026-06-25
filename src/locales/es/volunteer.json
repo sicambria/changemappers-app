@@ -1,0 +1,268 @@
+{
+  "title": "Voluntariado",
+  "nav": {
+    "browse": "Explorar Oportunidades",
+    "post": "Publicar Solicitud",
+    "myOpportunities": "Mis Oportunidades",
+    "applications": "Mis Solicitudes"
+  },
+  "hero": {
+    "title": "Encuentra Trabajo Voluntario Significativo",
+    "subtitle": "Descubre oportunidades alineadas con tus valores, habilidades y disponibilidad"
+  },
+  "browse": {
+    "title": "Explorar Oportunidades de Voluntariado",
+    "filters": {
+      "rdgDomain": "Dominio RDG",
+      "specificRdg": "RDG Específico",
+      "topic": "Tema de Causa Social",
+      "impactScale": "Escala de Impacto",
+      "format": "Formato",
+      "location": "Ubicación",
+      "commitment": "Compromiso de Tiempo",
+      "skills": "Habilidades",
+      "rollingApplications": "Solicitudes Continuas"
+    },
+    "empty": "No hay oportunidades que coincidan con tus filtros.",
+    "loading": "Cargando oportunidades...",
+    "loadMore": "Cargar más"
+  },
+  "card": {
+    "primaryRdg": "RDG Principal",
+    "format": "Formato",
+    "location": "Ubicación",
+    "timeCommitment": "Compromiso de Tiempo",
+    "skillsNeeded": "Habilidades Requeridas",
+    "physicalRequirements": "Requisitos Físicos",
+    "rollingApplications": "Solicitudes Continuas",
+    "deadline": "Fecha Límite",
+    "spotsRemaining": "plazas disponibles",
+    "apply": "Aplicar",
+    "save": "Guardar",
+    "saved": "Guardado",
+    "remote": "Remoto",
+    "hoursPerWeek": "{{count}} horas/semana",
+    "beginnerFriendly": "Apto para principiantes"
+  },
+  "request": {
+    "create": "Publicar Solicitud de Voluntariado",
+    "edit": "Editar Oportunidad",
+    "basicInfo": {
+      "title": "Información Básica",
+      "titleLabel": "Título de la Oportunidad",
+      "summaryLabel": "Resumen Corto",
+      "descriptionLabel": "Descripción Detallada",
+      "requesterTypeLabel": "Tipo de Solicitante",
+      "organizationLabel": "Nombre de la Organización",
+      "subtitle": "Proporciona la información central de esta oportunidad."
+    },
+    "rdg": {
+      "title": "Objetivos de Desarrollo Regenerativo",
+      "required": "Selecciona 1-3 RDGs que esta oportunidad apoye",
+      "selected": "Seleccionados",
+      "primaryLabel": "Alineación RDG Principal (requerido, 1-3)",
+      "additionalLabel": "Conexiones RDG Adicionales (opcional, hasta 5)",
+      "topicsLabel": "Temas de Causa Social",
+      "impactScaleLabel": "Escala de Impacto"
+    },
+    "time": {
+      "title": "Tiempo y Compromiso",
+      "commitmentTypeLabel": "Tipo de Compromiso",
+      "startDateLabel": "Fecha de Inicio",
+      "endDateLabel": "Fecha de Fin",
+      "eventDateLabel": "Fecha del Evento",
+      "deadlineLabel": "Fecha Límite de Solicitud",
+      "rollingApplicationsLabel": "Recibiendo solicitudes continuamente",
+      "moreInfoUrlLabel": "URL de Más Información",
+      "weeklyHoursLabel": "Horas Semanales",
+      "totalHoursLabel": "Horas Totales Esperadas",
+      "shiftLengthLabel": "Duración del Turno",
+      "timePreferenceLabel": "Preferencia de Horario",
+      "subtitle": "Especifica el tiempo requerido y los plazos de solicitud."
+    },
+    "requirements": {
+      "title": "Requisitos del Voluntario",
+      "requiredSkillsLabel": "Habilidades Requeridas",
+      "niceToHaveSkillsLabel": "Habilidades Deseables",
+      "experienceLevelLabel": "Nivel de Experiencia Requerido",
+      "beginnerFriendlyLabel": "Para Principiantes",
+      "trainingProvidedLabel": "Capacitación Proporcionada",
+      "languageRequirementsLabel": "Requisitos de Idioma",
+      "volunteersNeededLabel": "Número de Voluntarios Necesarios",
+      "teamBasedLabel": "Actividad en Equipo",
+      "subtitle": "¿Qué deberían saber o esperar las personas voluntarias?"
+    },
+    "physical": {
+      "title": "Requisitos Físicos y Prácticos",
+      "effortLevelLabel": "Nivel de Esfuerzo Físico",
+      "requirementsLabel": "Requisitos Físicos Específicos",
+      "accessibilityLabel": "Acomodaciones de Accesibilidad",
+      "indoorOutdoorLabel": "Ambiente de Trabajo",
+      "weatherExposedLabel": "Exposición al Clima",
+      "travelRequiredLabel": "Viaje Requerido",
+      "transportProvidedLabel": "Transporte Proporcionado",
+      "equipmentLabel": "Equipamiento Necesario",
+      "dressCodeLabel": "Código de Vestir o Ropa de Seguridad"
+    },
+    "trust": {
+      "title": "Confianza y Seguridad",
+      "backgroundCheckLabel": "Verificación de Antecedentes Requerida",
+      "referencesLabel": "Referencias Requeridas",
+      "codeOfConductLabel": "Acuerdo de Código de Conducta",
+      "vulnerableLabel": "Trabajo con Menores o Grupos Vulnerables",
+      "supervisionLabel": "Nivel de Supervisión",
+      "riskLevelLabel": "Nivel de Riesgo"
+    },
+    "location": {
+      "title": "Ubicación y Formato",
+      "formatLabel": "Formato",
+      "locationLabel": "Ubicación",
+      "regionLabel": "Región",
+      "remoteCapableLabel": "Posibilidad Remota",
+      "subtitle": "¿Cómo y dónde se realizará?",
+      "searchPlaceholder": "Buscar ubicación..."
+    },
+    "description": "Crea una nueva oportunidad de voluntariado y encuentra personas que compartan tu misión.",
+    "optional": "(opcional)",
+    "tooltips": {
+      "titleLength": "5-200 caracteres",
+      "summaryLength": "20-500 caracteres",
+      "validUrl": "Debe ser una URL válida (https://...)",
+      "volunteerCount": "1-1000"
+    },
+    "actions": {
+      "saving": "Guardando...",
+      "saveDraft": "Guardar borrador",
+      "draftId": "Borrador: {{id}}",
+      "publishing": "Publicando...",
+      "publishRequest": "Publicar solicitud"
+    }
+  },
+  "application": {
+    "title": "Aplicar a la Oportunidad",
+    "messageLabel": "Mensaje al Solicitante",
+    "availabilityLabel": "Tu Disponibilidad",
+    "experienceLabel": "Experiencia Relevante",
+    "submit": "Enviar Solicitud",
+    "cancel": "Cancelar",
+    "status": {
+      "PENDING": "Pendiente",
+      "ACCEPTED": "Aceptada",
+      "DECLINED": "Declinada",
+      "CONFIRMED": "Confirmada",
+      "CANCELLED": "Cancelada",
+      "COMPLETED": "Completada"
+    },
+    "messagePlaceholder": "¿Por qué te interesa esta oportunidad?",
+    "availabilityPlaceholder": "p. ej., fines de semana, tardes después de las 18:00",
+    "experiencePlaceholder": "Experiencia o habilidades relevantes"
+  },
+  "status": {
+    "DRAFT": "Borrador",
+    "PUBLISHED": "Publicado",
+    "ACCEPTING": "Aceptando Voluntarios",
+    "PARTIALLY_FILLED": "Parcialmente Lleno",
+    "FULL": "Lleno",
+    "PAUSED": "Pausado",
+    "CLOSED": "Cerrado",
+    "CANCELLED": "Cancelado",
+    "COMPLETED": "Completado"
+  },
+  "format": {
+    "ONLINE": "En Línea",
+    "OFFLINE": "Presencial",
+    "HYBRID": "Híbrido"
+  },
+  "commitmentType": {
+    "ONE_TIME": "Único",
+    "RECURRING": "Recurrente",
+    "ONGOING": "Continuo"
+  },
+  "impactScale": {
+    "LOCAL": "Local",
+    "BIOREGIONAL": "Bioregional",
+    "NATIONAL": "Nacional",
+    "GLOBAL": "Global"
+  },
+  "urgency": {
+    "LOW": "Baja",
+    "NORMAL": "Habitual",
+    "HIGH": "Alta",
+    "URGENT": "Urgente"
+  },
+  "experienceLevel": {
+    "ANY": "Cualquier Nivel",
+    "BEGINNER": "Principiante",
+    "INTERMEDIATE": "Intermedio",
+    "ADVANCED": "Avanzado"
+  },
+  "physicalEffort": {
+    "LIGHT": "Ligero",
+    "MODERATE": "Moderado",
+    "HEAVY": "Pesado"
+  },
+  "requesterType": {
+    "INDIVIDUAL": "Persona individual",
+    "NGO": "ONG",
+    "SCHOOL": "Escuela",
+    "COMMUNITY_GROUP": "Grupo Comunitario",
+    "PUBLIC_INSTITUTION": "Institución Pública"
+  },
+  "errors": {
+    "notFound": "Oportunidad no encontrada",
+    "unauthorized": "No estás autorizado para realizar esta acción",
+    "rdgRequired": "Al menos un RDG debe ser seleccionado",
+    "rdgMax": "Máximo {{max}} RDGs permitidos",
+    "saveFailed": "Error al guardar la oportunidad",
+    "applyFailed": "Error al enviar la solicitud"
+  },
+  "rdgs": {
+    "rdg-1": "RDG 1: Bases del Desarrollo Humano",
+    "rdg-2": "RDG 2: Sociedades Conscientes del Trauma",
+    "rdg-3": "RDG 3: Competencias de Desarrollo Interior",
+    "rdg-4": "RDG 4: Estándares de Madurez del Liderazgo",
+    "rdg-5": "RDG 5: Integridad Epistémica",
+    "rdg-6": "RDG 6: Narrativas Culturales Regenerativas",
+    "rdg-7": "RDG 7: Estabilización Climática",
+    "rdg-8": "RDG 8: Biodiversidad y Restauración de Hábitats",
+    "rdg-9": "RDG 9: Sistemas Alimentarios Regenerativos",
+    "rdg-10": "RDG 10: Gestión del Agua",
+    "rdg-11": "RDG 11: Gobernanza Biorregional",
+    "rdg-12": "RDG 12: Integración Urbano-Rural",
+    "rdg-13": "RDG 13: Garantía de Necesidades Básicas",
+    "rdg-14": "RDG 14: Economía Circular",
+    "rdg-15": "RDG 15: Medios de Vida Regenerativos",
+    "rdg-16": "RDG 16: Infraestructura para Todos",
+    "rdg-17": "RDG 17: Gobernanza Tecnológica",
+    "rdg-18": "RDG 18: Energía Renovable",
+    "rdg-19": "RDG 19: Instituciones Transparentes",
+    "rdg-20": "RDG 20: Gobernanza Policéntrica",
+    "rdg-21": "RDG 21: Equidad e Inclusión",
+    "rdg-22": "RDG 22: Construcción de Paz",
+    "rdg-23": "RDG 23: Ciencia Abierta",
+    "rdg-24": "RDG 24: Política Adaptativa",
+    "rdg-25": "RDG 25: Riesgo Existencial",
+    "rdg-26": "RDG 26: Generaciones Futuras",
+    "rdg-27": "RDG 27: Sistemas de Alerta Temprana",
+    "rdg-28": "RDG 28: Métricas Integradas",
+    "rdg-29": "RDG 29: Estrategia de Transición",
+    "rdg-30": "RDG 30: Administración Planetaria"
+  },
+  "rdgDomains": {
+    "1": "Dominio 1: Desarrollo humano",
+    "2": "Dominio 2: Sistemas vivos",
+    "3": "Dominio 3: Economía regenerativa",
+    "4": "Dominio 4: Gobernanza",
+    "5": "Dominio 5: Resiliencia civilizatoria"
+  },
+  "indoorOutdoor": {
+    "INDOOR": "Interior",
+    "OUTDOOR": "Exterior",
+    "BOTH": "Interior y exterior"
+  },
+  "supervisionLevel": {
+    "DIRECT": "Directa",
+    "CHECK_INS": "Seguimientos periódicos",
+    "INDEPENDENT": "Independiente"
+  }
+}

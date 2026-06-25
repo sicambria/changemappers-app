@@ -1,0 +1,277 @@
+{
+  "admin": {
+    "cannotSuspendSelf": "No puedes suspenderte a ti mismo.",
+    "featureUnavailable": "Feature no disponible.",
+    "invite": {
+      "acceptedCannotRevoke": "Las invitaciones aceptadas no se pueden revocar.",
+      "cannotResend": "Esta invitación no se puede reenviar.",
+      "directCreateFailed": "Direct crear falló.",
+      "noLongerActive": "No longer active.",
+      "noRecipient": "No destinatario.",
+      "resendFailed": "Reenviar falló.",
+      "revokeFailed": "Revoke falló.",
+      "validation": {
+        "commentMax": "Comentario máximo.",
+        "emailMax": "Email máximo.",
+        "emailRequired": "Email obligatorio.",
+        "reasonMin": "Reason mínimo.",
+        "subjectMax": "Asunto máximo.",
+        "subjectMin": "Asunto mínimo.",
+        "subjectNoNewlines": "Asunto no saltos de línea."
+      }
+    },
+    "seed": {
+      "batchCommunitiesCreated": "Lote comunidades creado.",
+      "batchCommunitiesCreatedWithSkipped": "Lote comunidades creado with omitido.",
+      "batchCommunitiesDeleted": "Lote comunidades eliminado.",
+      "batchEventsCreated": "Lote eventos creado.",
+      "batchEventsCreatedWithSkipped": "Lote eventos creado with omitido.",
+      "batchEventsDeleted": "Lote eventos eliminado.",
+      "batchSocialIssuesCreated": "Lote social temas creado.",
+      "batchSocialIssuesCreatedWithSkipped": "Lote social temas creado with omitido.",
+      "batchSocialIssuesDeleted": "Lote social temas eliminado.",
+      "batchUsersCreated": "Lote usuarios creado.",
+      "batchUsersCreatedWithSkipped": "Lote usuarios creado with omitido.",
+      "batchUsersDeleted": "Lote usuarios eliminado.",
+      "batchWeakSignalsCreated": "Lote débil signals creado.",
+      "batchWeakSignalsCreatedWithSkipped": "Lote débil signals creado with omitido.",
+      "batchWeakSignalsDeleted": "Lote débil signals eliminado.",
+      "clearDemoSuccess": "Los datos demo se han eliminado.",
+      "communityDeleted": "Comunidad eliminado.",
+      "demoCommunityCreated": "Comunidad demo {{name}} creada.",
+      "demoEventCreated": "Evento demo {{title}} creado.",
+      "demoSocialIssueCreated": "Demo social tema creado.",
+      "demoUserCreated": "Usuario demo {{name}} ({{email}}) creado.",
+      "demoUserDeleted": "Usuario demo {{name}} eliminado.",
+      "demoWeakSignalCreated": "Demo débil señal creado.",
+      "eventDeleted": "Evento eliminado.",
+      "networkUpdated": "Red actualizada: {{communities}} comunidades y {{events}} eventos.",
+      "onlyDemoCommunitiesDelete": "Only demo comunidades eliminar.",
+      "onlyDemoEventsDelete": "Only demo eventos eliminar.",
+      "onlyDemoSocialIssuesDelete": "Only demo social temas eliminar.",
+      "onlyDemoUsersDelete": "Aquí solo se pueden eliminar usuarios demo.",
+      "onlyDemoWeakSignalsDelete": "Only demo débil signals eliminar.",
+      "socialIssueDeleted": "Social tema eliminado.",
+      "socialIssueNotFound": "Social tema no encontrado.",
+      "uploadFailed": "Upload falló.",
+      "weakSignalDeleted": "Débil señal eliminado.",
+      "weakSignalNotFound": "Débil señal no encontrado.",
+      "pastEventsDeleted": "Se eliminaron {{count}} eventos pasados."
+    },
+    "settings": {
+      "cannotDeleteAdmin": "No puede eliminar admin.",
+      "cannotDeleteSelf": "No puede eliminar self.",
+      "deleteUserFailed": "Eliminar usuario falló.",
+      "fetchFailed": "Cargar falló.",
+      "registrationsFetchFailed": "Registrations cargar falló.",
+      "saveFailed": "Save falló."
+    },
+    "profileTypeChanged": "Tipo de perfil actualizado.",
+    "userRestored": "Suspensión revocada.",
+    "userSuspended": "Usuario suspendido.",
+    "manage": {
+      "usersDeleted": "{{count}} usuario(s) eliminado(s).",
+      "usersDeletedWithAnonymized": "{{total}} usuario(s) procesado(s): {{deleted}} eliminado(s) por completo, {{anonymized}} anonimizado(s) (contenido creado conservado).",
+      "deleteBlockedByLinkedRecords": "Eliminación bloqueada por registros vinculados ({{constraint}}).",
+      "deleteFailed": "Error al eliminar."
+    }
+  },
+  "common": {
+    "adminRequired": "Se requiere autorización de administrador.",
+    "deleteFailed": "La eliminación falló.",
+    "failed": "Falló.",
+    "forbidden": "No tienes permiso.",
+    "invalidData": "Datos inválidos.",
+    "invalidEmail": "Email inválido.",
+    "loadFailed": "No se pudieron cargar los datos.",
+    "loginRequired": "Inicia sesión para continuar.",
+    "operationFailed": "La operación falló.",
+    "saveFailed": "No se pudo guardar.",
+    "searchFailed": "La búsqueda falló.",
+    "settingSaveFailed": "No se pudo guardar la configuración.",
+    "unauthorized": "Acción no autorizada.",
+    "updateFailed": "La actualización falló."
+  },
+  "community": {
+    "createFailed": "Crear falló.",
+    "created": "Creado.",
+    "deleted": "Eliminado.",
+    "idRequired": "ID obligatorio.",
+    "join": {
+      "accepted": "Aceptado.",
+      "alreadyMember": "Ya miembro.",
+      "alreadyRequested": "Ya solicitado.",
+      "banned": "Bloqueado.",
+      "rejected": "Rechazado.",
+      "requestFailed": "Solicitud falló.",
+      "requestNotFoundOrProcessed": "Solicitud no encontrado or processed.",
+      "requestSent": "Solicitud enviado.",
+      "requestsFetchFailed": "Solicitudes cargar falló."
+    },
+    "leave": {
+      "failed": "Falló.",
+      "notMember": "No miembro.",
+      "ownerCannotLeave": "Propietario no puede salir.",
+      "success": "Has salido de la comunidad."
+    },
+    "loadFailed": "Cargar falló.",
+    "notFound": "No encontrado.",
+    "updated": "Actualizado.",
+    "validation": {
+      "nameMin": "Nombre mínimo."
+    }
+  },
+  "connection": {
+    "accepted": "Aceptado.",
+    "alreadyConnected": "Ya tienen conexión.",
+    "alreadyRequested": "Ya enviaste una solicitud de conexión.",
+    "cannotConnectSelf": "No puedes conectarte contigo mismo.",
+    "cannotRequest": "No puede solicitud.",
+    "cannotRequestUser": "No puedes enviar una solicitud de conexión a este usuario.",
+    "createdFromReverse": "Conexión creada porque esa persona ya te había elegido.",
+    "fetchFailed": "Cargar falló.",
+    "notFound": "No encontrado.",
+    "notReceiver": "Esta solicitud no fue enviada a ti.",
+    "notification": {
+      "acceptedMessage": "Aceptado message.",
+      "acceptedTitle": "Aceptado título."
+    },
+    "rateLimited": "Límite limited.",
+    "recommendationsFetchFailed": "Recommendations cargar falló.",
+    "rejected": "Rechazado.",
+    "removed": "Conexión eliminada.",
+    "requestFailed": "Solicitud falló.",
+    "requestNotFound": "Solicitud no encontrado.",
+    "requestResent": "Solicitud resent.",
+    "requestSent": "Solicitud enviado.",
+    "requestsFetchFailed": "Solicitudes cargar falló.",
+    "statusFetchFailed": "Estado cargar falló."
+  },
+  "event": {
+    "created": "Creado.",
+    "deleted": "Eliminado.",
+    "notFound": "Evento no encontrado.",
+    "notRegistered": "No estás registrado en este evento.",
+    "registrationCancelled": "Registration cancelled.",
+    "rsvpFailed": "Asistencia falló.",
+    "rsvpSuccess": "Asistencia success.",
+    "upcomingFetchFailed": "Próximos cargar falló.",
+    "updated": "Actualizado.",
+    "validation": {
+      "titleMin": "Título mínimo."
+    }
+  },
+  "feedback": {
+    "email": {
+      "expectationLabel": "Resultado esperado:",
+      "expectationText": "Resultado esperado",
+      "guest": "Invitado.",
+      "improvementLabel": "Mejora label.",
+      "otherLabel": "Otro label.",
+      "realityLabel": "Resultado real:",
+      "realityText": "Resultado real",
+      "subject": "Nuevo feedback: {{type}}",
+      "title": "Nuevo feedback recibido",
+      "typeLabel": "Tipo:",
+      "userIdLabel": "ID de usuario:"
+    },
+    "fetchFailed": "No se pudo cargar el feedback.",
+    "settingsUpdateFailed": "Settings update falló.",
+    "statusUpdateFailed": "Estado update falló.",
+    "submitFailed": "Submit falló.",
+    "tooManySubmissions": "Too many submissions.",
+    "validation": {
+      "expectationRequired": "Expectativa obligatorio.",
+      "realityRequired": "Realidad obligatorio."
+    }
+  },
+  "ideas": {
+    "fetchFailed": "No se pudieron cargar las ideas.",
+    "submitFailed": "No se pudo enviar tu idea.",
+    "tooManySubmissions": "Demasiados envíos. Inténtalo de nuevo más tarde.",
+    "voteFailed": "No se pudo registrar tu voto.",
+    "commentFailed": "No se pudo publicar tu comentario.",
+    "commentNotFound": "Comentario no encontrado.",
+    "commentDeleteFailed": "No se pudo eliminar el comentario.",
+    "statusUpdateFailed": "No se pudo actualizar el estado de la idea."
+  },
+  "graph": {
+    "loadFailed": "Cargar falló."
+  },
+  "invite": {
+    "acceptFailed": "Accept falló.",
+    "cannotSend": "No puede send.",
+    "createFailed": "Crear falló.",
+    "expired": "Caducado.",
+    "fetchFailed": "Cargar falló.",
+    "noLongerUsable": "No longer usable.",
+    "noSlots": "No cupos.",
+    "notFound": "Invitación no encontrada.",
+    "openFailed": "Abrir falló.",
+    "rateLimited": "Límite limited.",
+    "resendLimit": "La invitación se puede reenviar como máximo 3 veces.",
+    "sendFailed": "Send falló.",
+    "statsFetchFailed": "Estadísticas cargar falló.",
+    "validationFailed": "Validación falló."
+  },
+  "onboarding": {
+    "errors": {
+      "countryRequired": "País obligatorio."
+    },
+    "validation": {
+      "baseArchetypesRequired": "Base arquetipos obligatorio.",
+      "bioMin": "Biografía mínimo.",
+      "taglineMin": "Lema mínimo."
+    }
+  },
+  "profile": {
+    "levelUpdateFailed": "Nivel update falló.",
+    "levelUpdated": "Nivel actualizado.",
+    "loadFailed": "Cargar falló.",
+    "notAllowedForAction": "No tienes permiso para realizar esta acción.",
+    "notAvailable": "No disponible.",
+    "notLoggedInForAction": "No sesión iniciada in for action."
+  },
+  "proximity": {
+    "communityMessage": "Comunidad message.",
+    "communityTitle": "Comunidad título.",
+    "userMessage": "Usuario message.",
+    "userTitle": "Usuario título."
+  },
+  "report": {
+    "alreadyReported": "Ya reported.",
+    "blockCheckFailed": "Bloqueo check falló.",
+    "cannotReportSelf": "No puedes reportarte a ti mismo.",
+    "fetchFailed": "Cargar falló.",
+    "notFound": "No encontrado.",
+    "statusUpdateFailed": "Estado update falló.",
+    "statusUpdated": "Estado actualizado.",
+    "submitFailed": "Submit falló.",
+    "submitted": "Enviado.",
+    "unblockFailed": "Desbloquear falló.",
+    "userNotBlocked": "Usuario no bloqueado.",
+    "userUnblocked": "Usuario unblocked."
+  },
+  "user": {
+    "accountDeleted": "Cuenta eliminado.",
+    "algorithmicMatchingDisabled": "Algorítmico matching desactivado.",
+    "algorithmicMatchingEnabled": "Algorítmico matching activado.",
+    "blockFailed": "Bloqueo falló.",
+    "blocked": "Bloqueado.",
+    "cancelFailed": "Cancelar falló.",
+    "defaultName": "Predeterminado nombre.",
+    "deleteFailed": "Eliminar falló.",
+    "deletionCancelled": "Eliminación cancelled.",
+    "deletionScheduleFailed": "Eliminación schedule falló.",
+    "deletionScheduled": "La eliminación de tu cuenta comenzará en {{days}} días. Puedes cancelar la eliminación con el enlace de abajo.",
+    "exportFailed": "Exportación falló.",
+    "exportReady": "Exportación listo.",
+    "idRequired": "Se requiere el ID de usuario.",
+    "invalidConfirmation": "Inválido confirmation.",
+    "notFound": "No encontrado.",
+    "processingRestricted": "Procesamiento restringido.",
+    "processingRestrictionLifted": "Procesamiento restricción lifted.",
+    "recentFetchFailed": "Recent cargar falló.",
+    "sensitiveMatchingDisabled": "Sensible matching desactivado."
+  }
+}

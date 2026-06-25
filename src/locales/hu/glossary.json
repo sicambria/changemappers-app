@@ -1,0 +1,629 @@
+{
+  "metaTitle": "Fogalomtár",
+  "metaDescription": "A változásformálás kulcsfogalmai — archetípusok, szemléletek és a Changemappers ökoszisztéma alapfogalmai.",
+  "categories": {
+    "all": "Összes",
+    "self": "Önmagam",
+    "nature": "Természet",
+    "others": "Mások",
+    "regenerative": "Regeneratív alapelvek",
+    "systems": "Rendszerszemlélet",
+    "change": "Változás"
+  },
+  "categoryDescriptions": {
+    "self": "Belső Átalakulás & Tudatosság — az hiteles, reziliens vezetés belső alapját építi.",
+    "nature": "Ökológiai Bölcsesség — az embereket az élő rendszerek résztvevőiként értelmezi újra.",
+    "others": "Kapcsolati & Társadalmi Dinamikák — erősíti az empátiát, a közösséget és a kollektív erőt.",
+    "regenerative": "Élő Rendszerek Tervezése — a fenntarthatóságon túl az aktív gyógyítás és bőség felé mozdul.",
+    "systems": "Összefüggő Mintázatok — feltárja, hogyan hat minden mindennek.",
+    "change": "Átalakulás & Kihasználási Pontok — felkészít mély, tartós változások katalizálására."
+  },
+  "terms": {
+    "self-awareness": {
+      "term": "Önismeret",
+      "definition": "A saját gondolatok, érzelmek, előítéletek és hatások megfigyelésének képessége; elengedhetetlen a vetítés elkerüléséhez és a tisztán keresztülvezetéshez.",
+      "category": "self",
+      "emoji": "🪞"
+    },
+    "emotional-intelligence": {
+      "term": "Érzelmi Intelligencia (EQ)",
+      "definition": "A saját és mások érzelmeinek felismerése, megértése és kezelése; kulcs a komplexitás reakció nélküli navigálásához.",
+      "category": "self",
+      "emoji": "💝"
+    },
+    "self-regulation": {
+      "term": "Önszabályozás",
+      "definition": "Az impulzusok és válaszok értékekkel összhangban történő kezelése; alapvető a nyomás alatti tartós cselekvéshez.",
+      "category": "self",
+      "emoji": "⚖️"
+    },
+    "mindfulness": {
+      "term": "Tudatos Jelenlét",
+      "definition": "Jelenléti, nem ítélkező tudatosság; műveli a mély érzékeléshez szükséges belső csendet.",
+      "category": "self",
+      "emoji": "🧘"
+    },
+    "shadow-work": {
+      "term": "Árnyékmunka",
+      "definition": "A_SELF elnyomott vagy tudattalan részeinek integrálása; megakadályozza, hogy a vizsgálatlan mintázatok aláaknják a változási erőfeszítéseket.",
+      "category": "self",
+      "emoji": "🌘"
+    },
+    "presencing": {
+      "term": "Jelenlét (Presencing)",
+      "definition": "Teljes jelenlét abban, ami éppen születik (Theory U); elmozdul a reagálástól a jövő letöltése felé.",
+      "category": "self",
+      "emoji": "✨"
+    },
+    "open-mind-heart-will": {
+      "term": "Nyitott Elme/Szív/Akarat",
+      "definition": "Három kapacitás (Theory U) az ítélkezés felfüggesztésére, az együttérzésre és a lehetőségbe való elengedésre.",
+      "category": "self",
+      "emoji": "🌀"
+    },
+    "individuation": {
+      "term": "Individuáció",
+      "definition": "Jungi folyamat az egésszé válásért az ellentétek integrálásával; hiteles célt támogat.",
+      "category": "self",
+      "emoji": "🔮"
+    },
+    "growth-mindset": {
+      "term": "Fejlődési Szemlélet",
+      "definition": "A képességek fejleszthetőségébe vetett hit; a folyamatos tanulást és rezilienciát táplálja a változásformálásban.",
+      "category": "self",
+      "emoji": "🌱"
+    },
+    "vulnerability": {
+      "term": "Sebezhetőség",
+      "definition": "Hajlandóság tökéletlennek mutatkozni; bizalmat épít és lehetővé teszi az igazi kapcsolódást.",
+      "category": "self",
+      "emoji": "💫"
+    },
+    "somatic-awareness": {
+      "term": "Szomatikus Tudatosság",
+      "definition": "A test jelzéseire hangolódás; megalapozza az intuíciót és megelőzi a kiégést.",
+      "category": "self",
+      "emoji": "🫀"
+    },
+    "metacognition": {
+      "term": "Metakogníció",
+      "definition": "Gondolkodás a gondolkodásodról; feltárja a döntéseket formáló mentális modelleket.",
+      "category": "self",
+      "emoji": "🧠"
+    },
+    "personal-purpose-alignment": {
+      "term": "Személyes Célösszhang",
+      "definition": "A saját egyedi \"miért\" meghatározása; minden cselekvést belső motivációhoz kapcsol.",
+      "category": "self",
+      "emoji": "🎯"
+    },
+    "active-hope": {
+      "term": "Aktív Remény",
+      "definition": "Joanna Macy gyakorlata a gyász elismerésére, miközben cselekvésre vállalkozunk; fenntartja a hosszú távú változásmunkát.",
+      "category": "self",
+      "emoji": "🌅"
+    },
+    "self-compassion": {
+      "term": "Önempátia",
+      "definition": "Kegyelem önmagad iránt küzdelem közben; megelőzi az aktivista kiégést.",
+      "category": "self",
+      "emoji": "💚"
+    },
+    "reflexivity": {
+      "term": "Reflexivitás",
+      "definition": "Folyamatos önvizsgálat a rendszerben betöltött szerepedről; lehetővé teszi a személyes evolúciót.",
+      "category": "self",
+      "emoji": "🔄"
+    },
+    "ego-dissolution": {
+      "term": "Ego Feloldódás",
+      "definition": "Az elkülönült én illúziójának átmeneti elengedése; megnyitja a nem-duális tudatosságot kollektív betekintéshez.",
+      "category": "self",
+      "emoji": "🌊"
+    },
+    "biodiversity": {
+      "term": "Biodiverzitás",
+      "definition": "Az élet változatossága minden léptékben; az ökoszisztéma egészségének és rezilienciájának alapja.",
+      "category": "nature",
+      "emoji": "🦋"
+    },
+    "ecosystem": {
+      "term": "Ökoszisztéma",
+      "definition": "Kölcsönható élő és élőközötti összetevők; a holisztikus egymásrautaltságot tanítja.",
+      "category": "nature",
+      "emoji": "🌿"
+    },
+    "ecological-resilience": {
+      "term": "Ökológiai Reziliencia",
+      "definition": "Az ökoszisztémák képessége a zavarások elnyelésére és újraszerveződésre; modell emberi rendszerekhez.",
+      "category": "nature",
+      "emoji": "🔄"
+    },
+    "symbiosis": {
+      "term": "Szimbiózis / Mutualizmus",
+      "definition": "Kölcsönösen előnyös kapcsolatok; a természet alapvető stratégiája a virágzáshoz.",
+      "category": "nature",
+      "emoji": "🤝"
+    },
+    "nutrient-cycles": {
+      "term": "Tápanyagkörforgások",
+      "definition": "Az energia és anyag zárt körű áramlása; a hulladékmentes tervezést inspirálja.",
+      "category": "nature",
+      "emoji": "♻️"
+    },
+    "biomimicry": {
+      "term": "Biomimikri",
+      "definition": "A természet 3,8 milliárd év alatt tesztelt stratégiáinak tudatos utánzása.",
+      "category": "nature",
+      "emoji": "🔬"
+    },
+    "lifes-principles": {
+      "term": "Az Élet Alapelvei",
+      "definition": "A biomimikri átfogó mintázatai (evolválás, alkalmazkodás, helyi hangolódás stb.); regeneratív tervezési mércék.",
+      "category": "nature",
+      "emoji": "📐"
+    },
+    "waste-equals-food": {
+      "term": "Hulladék = Táplálék",
+      "definition": "Minden kimenet egy másik folyamat bemenete lesz (Bölcsőtől a Bölcsőig); megszünteti a lineáris gondolkodást.",
+      "category": "nature",
+      "emoji": "🔄"
+    },
+    "keystone-species": {
+      "term": "Kulcsfajok",
+      "definition": "A fajok, amelyek aránytalanul támogatják az ökoszisztéma működését; az emberek is választhatják ezt a szerepet.",
+      "category": "nature",
+      "emoji": "🗝️"
+    },
+    "mycorrhizal-networks": {
+      "term": "Mikorizális Hálózatok",
+      "definition": "Föld alatti gombafonalak \"fafonala széles hálózata\"; metafora a láthatatlan kapcsolati intelligenciához.",
+      "category": "nature",
+      "emoji": "🍄"
+    },
+    "ecological-succession": {
+      "term": "Ökológiai Szukcesszió",
+      "definition": "Természetes fejlődés a nagyobb komplexitás és stabilitás felé.",
+      "category": "nature",
+      "emoji": "🌲"
+    },
+    "gaia-hypothesis": {
+      "term": "Gaia-elmélet",
+      "definition": "A Föld mint önszabályozó élő rendszer; a mechanikus világképről az élőre vált.",
+      "category": "nature",
+      "emoji": "🌍"
+    },
+    "carrying-capacity": {
+      "term": "Teherbíró Képesség",
+      "definition": "Egy rendszer által fenntartható maximális népesség; a határokra emlékeztet.",
+      "category": "nature",
+      "emoji": "📊"
+    },
+    "rewilding": {
+      "term": "Vadonítás",
+      "definition": "Önfenntartó vad folyamatok helyreállítása; gyógyítja a degradált tájakat és pszichéket.",
+      "category": "nature",
+      "emoji": "🐺"
+    },
+    "soil-health": {
+      "term": "Talajegészség",
+      "definition": "Élő, szénben gazdag talaj mint az összes szárazföldi élet alapja; a regeneratív mezőgazdaság északi csillaga.",
+      "category": "nature",
+      "emoji": "🌱"
+    },
+    "agroecology": {
+      "term": "Agroökológia",
+      "definition": "Tudomány + mozgalom, amely természetes ökoszisztémákat utánoz, miközben igazságosan táplálja az embereket.",
+      "category": "nature",
+      "emoji": "🌾"
+    },
+    "agroforestry": {
+      "term": "Agroerdészet",
+      "definition": "Fák integrálása növényekkel/állatokkal; többrétegű, reziliens élelmiszerrendszereket hoz létre.",
+      "category": "nature",
+      "emoji": "🌳"
+    },
+    "empathy": {
+      "term": "Empátia",
+      "definition": "Együttérzés a másikkal; előfeltétele az igazi kapcsolódásnak és igazságosságnak.",
+      "category": "others",
+      "emoji": "💜"
+    },
+    "nvc": {
+      "term": "Erőszakmentes Kommunikáció (NVC)",
+      "definition": "Marshall Rosenberg folyamata: megfigyelések, érzések, szükségletek, kérések; átalakítja a konfliktust.",
+      "category": "others",
+      "emoji": "🕊️"
+    },
+    "universal-human-needs": {
+      "term": "Egyetemes Emberi Szükségletek",
+      "definition": "Megosztott alapvető szükségletek (kapcsolódás, autonómia stb.) minden stratégia mögött.",
+      "category": "others",
+      "emoji": "💛"
+    },
+    "empathic-connection": {
+      "term": "Empatikus Kapcsolódás",
+      "definition": "Szívről szívre pszichológiai kapcsolat; a kommunikáció igazi célja.",
+      "category": "others",
+      "emoji": "🫂"
+    },
+    "interdependence": {
+      "term": "Egymásrautaltság",
+      "definition": "Szükségünk van egymásra a virágzáshoz; szembe megy az individualizmussal.",
+      "category": "others",
+      "emoji": "🕸️"
+    },
+    "reciprocity": {
+      "term": "Kölcsönösség",
+      "definition": "Adás és kapás egyensúlyban; bizalmat és társadalmi szövetet épít.",
+      "category": "others",
+      "emoji": "⚖️"
+    },
+    "belonging": {
+      "term": "Tartozás",
+      "definition": "A csoportban való értékeltség mély érzése; ellenszere az elszigeteltségnek.",
+      "category": "others",
+      "emoji": "🏠"
+    },
+    "social-capital": {
+      "term": "Társadalmi Tőke",
+      "definition": "Bizalom és kölcsönösség hálózatai; felgyorsítja a kollektív cselekvést.",
+      "category": "others",
+      "emoji": "🔗"
+    },
+    "matching": {
+      "term": "Összekapcsolás",
+      "definition": "Hasonló szándékú emberek, közösségek és lehetőségek összekapcsolása a profiladatok, igények és ajánlások alapján.",
+      "category": "others",
+      "emoji": "🔗"
+    },
+    "collective-intelligence": {
+      "term": "Kollektív Intelligencia",
+      "definition": "A csoport bölcsessége, amely nagyobb a részek összegénél; biztonságos párbeszédben jelenik meg.",
+      "category": "others",
+      "emoji": "🧠"
+    },
+    "generative-dialogue": {
+      "term": "Generatív Párbeszéd",
+      "definition": "Beszélgetés, amely új megértést teremt vita helyett.",
+      "category": "others",
+      "emoji": "💬"
+    },
+    "conflict-transformation": {
+      "term": "Konfliktus Átalakítás",
+      "definition": "A különbségek kreatív energiává fordítása elnyomás helyett.",
+      "category": "others",
+      "emoji": "⚡"
+    },
+    "trust-building": {
+      "term": "Bizalomépítés",
+      "definition": "Megbízhatóság és sebezhetőség egymásra épülő tettei.",
+      "category": "others",
+      "emoji": "🤝"
+    },
+    "community-of-practice": {
+      "term": "Gyakorlatközösség",
+      "definition": "Csoportos tanulás és fejlődés közös gyakorlaton keresztül.",
+      "category": "others",
+      "emoji": "👥"
+    },
+    "co-creation": {
+      "term": "Közös Alkotás",
+      "definition": "Megoldások együttes születése; tiszteletben tartja a különböző adottságokat.",
+      "category": "others",
+      "emoji": "🎨"
+    },
+    "relational-intelligence": {
+      "term": "Kapcsolati Intelligencia",
+      "definition": "Az emberi kapcsolatok jártas navigálása élő rendszerekként.",
+      "category": "others",
+      "emoji": "🌊"
+    },
+    "compassionate-action": {
+      "term": "Együttérző Cselekvés",
+      "definition": "Empátia hatékony segítséggé fordítása kiégés nélkül.",
+      "category": "others",
+      "emoji": "💝"
+    },
+    "inclusion-equity": {
+      "term": "Befogadás & Méltányosság",
+      "definition": "Mindenki hangjának és szükségleteinek biztosítása, hogy alakítsák az eredményeket.",
+      "category": "others",
+      "emoji": "🌈"
+    },
+    "earth-care-people-care-fair-share": {
+      "term": "Földgondoskodás, emberi gondoskodás, igazságos megosztás",
+      "definition": "A permakultúra három etikája; alapvető tájékozódás.",
+      "category": "regenerative",
+      "emoji": "🌍"
+    },
+    "observe-and-interact": {
+      "term": "Figyelj és kapcsolódj",
+      "definition": "Az első permakultúra elv; mély hallgatás a cselekvés előtt.",
+      "category": "regenerative",
+      "emoji": "👁️"
+    },
+    "catch-and-store-energy": {
+      "term": "Gyűjts és tárolj energiát",
+      "definition": "A bőség elfogása, amikor elérhető, a szűkös időkre.",
+      "category": "regenerative",
+      "emoji": "☀️"
+    },
+    "produce-no-waste": {
+      "term": "Ne termelj hulladékot",
+      "definition": "Minden erőforrás; zárja a körforgásokat.",
+      "category": "regenerative",
+      "emoji": "♻️"
+    },
+    "use-and-value-diversity": {
+      "term": "Használj és Értékeld a Diverzitást",
+      "definition": "A reziliencia a változatosságból születik.",
+      "category": "regenerative",
+      "emoji": "🌈"
+    },
+    "integrate-rather-than-segregate": {
+      "term": "Kapcsolj össze szétválasztás helyett",
+      "definition": "A kapcsolatok értéket teremtenek; halmozz funkciókat.",
+      "category": "regenerative",
+      "emoji": "🔗"
+    },
+    "use-small-and-slow-solutions": {
+      "term": "Használj kicsi és lassú megoldásokat",
+      "definition": "Kezdj szerényen, skálázd ami működik.",
+      "category": "regenerative",
+      "emoji": "🐢"
+    },
+    "creatively-use-and-respond-to-change": {
+      "term": "Használd kreatívan a változást, és reagálj rá",
+      "definition": "Fogadd el az evolúciót lehetőségként.",
+      "category": "regenerative",
+      "emoji": "🌀"
+    },
+    "holism-holons": {
+      "term": "HOLIZMUS / Holonok",
+      "definition": "Minden egész és rész egyszerre; beágyazott valóság.",
+      "category": "regenerative",
+      "emoji": "🪆"
+    },
+    "reciprocity-regenerative": {
+      "term": "Kölcsönösség (Regeneratív)",
+      "definition": "Több visszadása az élő rendszerekből, mint amit veszel.",
+      "category": "regenerative",
+      "emoji": "⚖️"
+    },
+    "closed-loops": {
+      "term": "Zárt Körforgások / Cirkuláris",
+      "definition": "A természet végtelen körforgásainak utánzása.",
+      "category": "regenerative",
+      "emoji": "🔄"
+    },
+    "place-based-design": {
+      "term": "Helyalapú Tervezés",
+      "definition": "Helyi kontextusba és kultúrába gyökerező megoldások.",
+      "category": "regenerative",
+      "emoji": "📍"
+    },
+    "antifragility": {
+      "term": "Antifragilitás",
+      "definition": "Stressz alatt javuló rendszerek.",
+      "category": "regenerative",
+      "emoji": "💪"
+    },
+    "regeneration": {
+      "term": "Regeneráció",
+      "definition": "Az élet, talaj, biodiverzitás és jólét aktív növelése.",
+      "category": "regenerative",
+      "emoji": "🌱"
+    },
+    "land-stewardship": {
+      "term": "Földgondnokság",
+      "definition": "A föld gondozása mint élő letét, nem árucikk.",
+      "category": "regenerative",
+      "emoji": "🌾"
+    },
+    "perpetual-commons": {
+      "term": "Örök Közjavak",
+      "definition": "Föld, amely örökre közösségi és természeti letétben van.",
+      "category": "regenerative",
+      "emoji": "🏛️"
+    },
+    "guardians-of-nature": {
+      "term": "Természet Gyámjai",
+      "definition": "Az ökoszisztémák jogainak képviselete a döntésekben.",
+      "category": "regenerative",
+      "emoji": "🌿"
+    },
+    "interconnectedness": {
+      "term": "Összefüggés",
+      "definition": "Semmi sem létezik elszigetelten; alapvető szemléletváltás.",
+      "category": "systems",
+      "emoji": "🕸️"
+    },
+    "emergence": {
+      "term": "Emergencia",
+      "definition": "Új tulajdonságok születnek a kölcsönhatásokból, nem csak a részekből.",
+      "category": "systems",
+      "emoji": "✨"
+    },
+    "feedback-loops": {
+      "term": "Visszacsatolási Hurkok",
+      "definition": "Erősítő (növekedés) és kiegyenlítő (stabilitás) ciklusok, amelyek a viselkedést irányítják.",
+      "category": "systems",
+      "emoji": "🔄"
+    },
+    "leverage-points": {
+      "term": "Kihasználási Pontok",
+      "definition": "Donella Meadows 12 beavatkozási pontja a nagy változáshoz.",
+      "category": "systems",
+      "emoji": "🎯"
+    },
+    "system-boundaries": {
+      "term": "Rendszerhatárok",
+      "definition": "A \"benne\" vs. \"kívül\" megválasztása alakítja, amit látsz.",
+      "category": "systems",
+      "emoji": "🔲"
+    },
+    "system-purpose": {
+      "term": "Rendszercél",
+      "definition": "A viselkedés legmélyebb mozgatórugója; gyakran kimondatlan.",
+      "category": "systems",
+      "emoji": "🧭"
+    },
+    "synthesis": {
+      "term": "Szintézis",
+      "definition": "Egészek és kapcsolatok megértése, nem csak részekre bontás.",
+      "category": "systems",
+      "emoji": "🔮"
+    },
+    "iceberg-model": {
+      "term": "Jéghegy Modell",
+      "definition": "Események → mintázatok → struktúrák → mentális modellek.",
+      "category": "systems",
+      "emoji": "🧊"
+    },
+    "mental-models": {
+      "term": "Mentális Modellek",
+      "definition": "Mély feltételezések, amelyek a rendszereket irányítják; változtasd meg őket, hogy mindent megváltoztass.",
+      "category": "systems",
+      "emoji": "🧠"
+    },
+    "complex-adaptive-systems": {
+      "term": "Komplex Adaptív Rendszerek",
+      "definition": "Élő rendszerek, amelyek tanulnak és fejlődnek.",
+      "category": "systems",
+      "emoji": "🧬"
+    },
+    "homeostasis": {
+      "term": "Homeosztázis",
+      "definition": "A változásellenállás tendenciája; megmagyarázza, miért maradnak a rendszerek ragadva.",
+      "category": "systems",
+      "emoji": "⚖️"
+    },
+    "stocks-and-flows": {
+      "term": "Készletek és Áramlások",
+      "definition": "Felhalmozások és sebességek, amelyek dinamikát teremtenek.",
+      "category": "systems",
+      "emoji": "📊"
+    },
+    "delays": {
+      "term": "Késések",
+      "definition": "Időeltolódás a cselekvés és hatás között; a túllövés gyakori forrása.",
+      "category": "systems",
+      "emoji": "⏳"
+    },
+    "system-archetypes": {
+      "term": "Rendszerarchetípusok",
+      "definition": "Ismétlődő mintázatok (pl. növekedési határok, köztulajdon tragédiája).",
+      "category": "systems",
+      "emoji": "📚"
+    },
+    "stip-principles": {
+      "term": "Relációs / Perspektíva / Adaptív STiP",
+      "definition": "Három elve a rendszerszemlélet gyakorlatban.",
+      "category": "systems",
+      "emoji": "🔺"
+    },
+    "whole-systems-view": {
+      "term": "Teljes Rendszerszemlélet",
+      "definition": "Az erdő, a fák és a kapcsolatok egyidejű látása.",
+      "category": "systems",
+      "emoji": "🌳"
+    },
+    "nested-systems": {
+      "term": "Beágyazott Rendszerek",
+      "definition": "Rendszerek rendszerekben; a lépték számít.",
+      "category": "systems",
+      "emoji": "🪆"
+    },
+    "tipping-points": {
+      "term": "Töréspontok",
+      "definition": "Küszöbök, ahol kis változások gyors, visszafordíthatatlan eltolódásokat okoznak.",
+      "category": "change",
+      "emoji": "⚡"
+    },
+    "transformation": {
+      "term": "Transzformáció",
+      "definition": "Alapvető váltás a rendszer identitásában és szabályaiban (szemben az inkrementális reformmal).",
+      "category": "change",
+      "emoji": "🌀"
+    },
+    "theory-u-process": {
+      "term": "Theory U Folyamat",
+      "definition": "Érzékelés → jelenlét → kristályosodás → prototípus → megvalósítás.",
+      "category": "change",
+      "emoji": "🛤️"
+    },
+    "prototyping": {
+      "term": "Prototípus-készítés",
+      "definition": "Gyors, alacsony kockázatú kísérletek, hogy megtanuljuk, mi akar születni.",
+      "category": "change",
+      "emoji": "🔬"
+    },
+    "co-sensing-co-creating": {
+      "term": "Közös Érzékelés / Közös Alkotás",
+      "definition": "Kollektív felfedezés és a jövő formálása.",
+      "category": "change",
+      "emoji": "🤝"
+    },
+    "systemic-leverage": {
+      "term": "Rendszeri Kihasználás",
+      "definition": "Nagy hatású beavatkozások megcélzása.",
+      "category": "change",
+      "emoji": "🎯"
+    },
+    "positive-disruption": {
+      "term": "Pozitív Diszrupció",
+      "definition": "Szándékos törések a káros mintázatokban.",
+      "category": "change",
+      "emoji": "💥"
+    },
+    "adaptive-capacity": {
+      "term": "Adaptív Kapacitás",
+      "definition": "Képesség az alkalmazkodásra és virágzásra bizonytalanság közepette.",
+      "category": "change",
+      "emoji": "🌊"
+    },
+    "scaling-deep-wide-out": {
+      "term": "Mélységi / Szélességi / Kimeneti Skálázás",
+      "definition": "Belső váltások, replikáció és kulturális terjedés.",
+      "category": "change",
+      "emoji": "📈"
+    },
+    "regenerative-change": {
+      "term": "Regeneratív Változás",
+      "definition": "Változás, amely egészségesebbé teszi a rendszereket, mint előtte.",
+      "category": "change",
+      "emoji": "🌱"
+    },
+    "butterfly-effect": {
+      "term": "Pillangóhatás",
+      "definition": "Kis cselekvések komplex rendszerekben aránytalan hatást okozhatnak.",
+      "category": "change",
+      "emoji": "🦋"
+    },
+    "agency": {
+      "term": "Cselekvőképesség (Egyéni és Kollektív)",
+      "definition": "Hatalom és szabadság a jelentőségteljes cselekvéshez.",
+      "category": "change",
+      "emoji": "✊"
+    },
+    "evolutionary-leadership": {
+      "term": "Evolúciós Vezetés",
+      "definition": "Vezetés olyan módon, amely magát a tudatosságot fejleszti.",
+      "category": "change",
+      "emoji": "🧭"
+    },
+    "futures-thinking": {
+      "term": "Jövőgondolkodás",
+      "definition": "Több lehetséges jövő feltárása a bölcsebb cselekvés érdekében.",
+      "category": "change",
+      "emoji": "🔮"
+    },
+    "continuous-reflexivity": {
+      "term": "Folyamatos Reflexivitás",
+      "definition": "Folyamatos feltételezés-kérdésesség a változás során; megelőzi az új dogmákat.",
+      "category": "change",
+      "emoji": "🔄"
+    }
+  }
+}

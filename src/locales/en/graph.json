@@ -1,0 +1,24 @@
+{
+  "graph": {
+    "title": "Systemic Sensing",
+    "subtitle": "Logical Map & Health",
+    "filterByName": "Filter by Name",
+    "searchPlaceholder": "Search by name or city...",
+    "visibilityLayers": "Visibility Layers",
+    "layers": {
+      "all": "All Layers",
+      "users": "Changemakers",
+      "communities": "Communities",
+      "events": "Events"
+    },
+    "health": {
+      "missingCapacities": "Missing Capacities",
+      "missingDescription": "Based on the current filter criteria, the following archetypes are completely missing from the system (in this area). These are \"blind spots\" and systemic weaknesses.",
+      "allPresent": "All archetypes are present in the ecosystem! ✅",
+      "visibleElements": "Visible elements: {{count}}",
+      "visibleLinks": "Visible links: {{count}}"
+    },
+    "errorLoading": "Error loading map",
+    "description": "Explore ecosystem relationships, capacities, and blind spots."
+  }
+}

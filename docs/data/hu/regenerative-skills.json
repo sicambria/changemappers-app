@@ -1,0 +1,840 @@
+{
+  "skillsDatabase": {
+    "UL - Intentional": {
+      "H1_Hospicing": [
+        {
+          "id": 1,
+          "level": "Micro",
+          "domain": "Pszichológiai Rugalmasság",
+          "text": "Képes szabályozni a saját idegrendszeri válaszait intenzív klímaszorongás vagy ökológiai gyász esetén."
+        },
+        {
+          "id": 4,
+          "level": "Micro",
+          "domain": "Árnyékmunka",
+          "text": "Képes a rendszerszintű összeomlás által kiváltott egyéni árnyék-aspektusokat cselekvő empátiává alakítani mások felé."
+        },
+        {
+          "id": 39,
+          "level": "Micro",
+          "domain": "Poszt-kapitalista Szemlélet",
+          "text": "Tudatosan képes leválasztani az önbecsülését a termelékenység és a végtelen növekedés kapitalista mérőszámairól."
+        },
+        {
+          "id": 41,
+          "level": "Micro",
+          "domain": "Árnyékmunka",
+          "text": "Képes azonosítani és biztonságosan megfigyelni saját védekező mechanizmusait, amikor szembesül a szisztematikus ökológiai kiváltságaival."
+        },
+        {
+          "id": 43,
+          "level": "Micro",
+          "domain": "Szomatikus Rugalmasság",
+          "text": "Képes fenntartani a szomatikus jelenlétet (leföldeltséget) összetett, megterhelő klímaadatok feldolgozása közben."
+        },
+        {
+          "id": 45,
+          "level": "Micro",
+          "domain": "Egó-menedzsment",
+          "text": "Képes gyorsan azonosítani és feloldani az egyéni 'öko-megváltó' komplexusokat, mielőtt azok befolyásolnák a közösségi dinamikát."
+        },
+        {
+          "id": 46,
+          "level": "Micro",
+          "domain": "Érzelmi Határok",
+          "text": "Képes együttérző határokat tartani, amikor akut klíma-tagadásban szenvedő egyénekkel lép kapcsolatba."
+        },
+        {
+          "id": 52,
+          "level": "Micro",
+          "domain": "Morális Helyreállítás",
+          "text": "Képes feldolgozni a kizsákmányoló iparágakban való részvétel okozta erkölcsi sérülést a regeneratív megélhetésre való áttérés során."
+        },
+        {
+          "id": 53,
+          "level": "Micro",
+          "domain": "Pszichológiai Rugalmasság",
+          "text": "Képes a radikális megbocsátás gyakorlására azokkal szemben, akik a pusztító H1 (örökölt) rendszerekben ragadtak."
+        },
+        {
+          "id": 57,
+          "level": "Micro",
+          "domain": "Dekoloniális Szemlélet",
+          "text": "Képes azonosítani azokat a finom módokat, ahogyan az imperialista és koloniális logika áthatja saját gondolkodási mintáit."
+        },
+        {
+          "id": 61,
+          "level": "Micro",
+          "domain": "Szomatikus Szabályozás",
+          "text": "Képes az önszabályozásra légzésmunka vagy meditáció segítségével nagy tétű politikai tárgyalások előtt."
+        },
+        {
+          "id": 65,
+          "level": "Micro",
+          "domain": "Trigger-menedzsment",
+          "text": "Képes azonosítani a hiánnyal kapcsolatos alapvető triggereit, és proaktívan kezelni azokat közösségi környezetben."
+        },
+        {
+          "id": 68,
+          "level": "Micro",
+          "domain": "Ökológiai Emlékezet",
+          "text": "Képes megfigyelni és dokumentálni saját szubjektív észlelésének változásait (shifting baseline syndrome) a helyi ökológiai pusztulással kapcsolatban."
+        },
+        {
+          "id": 72,
+          "level": "Micro",
+          "domain": "Poszt-fogyasztói Szemlélet",
+          "text": "Képes kialakítani az 'elég' szemléletét, hogy aktívan ellenálljon a hiper-fogyasztói kondicionálásnak."
+        },
+        {
+          "id": 78,
+          "level": "Micro",
+          "domain": "Rendszerszintű Elszámoltathatóság",
+          "text": "Képes azonosítani és kibogozni saját szerepét a rendszerszintű elnyomásban anélkül, hogy bénultságba esne."
+        },
+        {
+          "id": 197,
+          "level": "Micro",
+          "domain": "Pszichológiai Rugalmasság",
+          "text": "Képes a 'tanúskodás' gyakorlására – az ökológiai pusztítás megfigyelésére anélkül, hogy azonnal a megoldásokhoz ugrana, hogy teljes mértékben felfogja a léptéket."
+        },
+        {
+          "id": 201,
+          "level": "Micro",
+          "domain": "Rendszerszintű Tudatosság",
+          "text": "Képes összekapcsolni egyéni fogyasztási szokásait azokkal a globális 'feláldozható zónákkal' (sacrifice zones), amelyektől azok függenek."
+        },
+        {
+          "id": 225,
+          "level": "Micro",
+          "domain": "Akció-szomatika",
+          "text": "Képes fenntartani a 'nyugodt éberség' állapotát hosszú, nagy feszültségű közvetlen akciók és blokádok során."
+        },
+        {
+          "id": 277,
+          "level": "Micro",
+          "domain": "Rendszerszintű Hála",
+          "text": "Képes napi szinten gyakorolni a hálát, kifejezetten a láthatatlan infrastrukturális munkások (hulladékgazdálkodás, energiahálózat) felé."
+        },
+        {
+          "id": 289,
+          "level": "Micro",
+          "domain": "Kognitív Higiénia",
+          "text": "Képes a 'Digitális Minimalizmus' gyakorlására, tudatosan válogatva az információs diétát a kognitív sávszélesség megőrzése érdekében."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 2,
+          "level": "Micro",
+          "domain": "Kognitív Agilitás",
+          "text": "Képes a 'kezdő elme' állapotának fenntartására a haldokló örökölt rendszerek elemzésekor, elkerülve a kognitív elfogultságot."
+        },
+        {
+          "id": 5,
+          "level": "Micro",
+          "domain": "Érzelmi Állóképesség",
+          "text": "Képes fenntartani az 'aktív remény' állapotát anélkül, hogy toxikus pozitivitásba vagy bénító világvége-hangulatba esne."
+        },
+        {
+          "id": 35,
+          "level": "Micro",
+          "domain": "Energiamenedzsment",
+          "text": "Képes nyomon követni egyéni energia-bevitelét és -felhasználását a kiégés megelőzése érdekében az intenzív projektfázisok során."
+        },
+        {
+          "id": 42,
+          "level": "Micro",
+          "domain": "Kognitív Váltás",
+          "text": "Képes átváltani a 'hiány-alapú' szemléletről a 'bőség-alapú' szemléletre a helyi biokapacitás értékelésekor."
+        },
+        {
+          "id": 48,
+          "level": "Micro",
+          "domain": "Biomimetikus Életmód",
+          "text": "Képes egyéni 'energia-auditot' végezni, hogy napi feladatait összehangolja saját cirkadián és szezonális ritmusával."
+        },
+        {
+          "id": 49,
+          "level": "Micro",
+          "domain": "Összetettség-tűrés",
+          "text": "Képes elviselni a 'nem-tudás' kényelmetlenségét anélkül, hogy túl korán hamis, mechanisztikus megoldásokhoz menekülne."
+        },
+        {
+          "id": 58,
+          "level": "Micro",
+          "domain": "Érzelmi Alkímia",
+          "text": "Képes a környezeti igazságtalanság miatti haragját tartós, fókuszált és stratégiai cselekvéssé alakítani."
+        },
+        {
+          "id": 59,
+          "level": "Micro",
+          "domain": "Kognitív Rugalmasság",
+          "text": "Képes tudatosan váltani a fókuszált analitikus gondolkodás és a diffúz, divergens rendszerszemléletű gondolkodás között."
+        },
+        {
+          "id": 62,
+          "level": "Micro",
+          "domain": "Cél-összehangolás",
+          "text": "Képes leképezni saját egyéni 'ikigai'-át a helyi bioregió szükségleteire."
+        },
+        {
+          "id": 66,
+          "level": "Micro",
+          "domain": "Evolúciós Szemlélet",
+          "text": "Képes tudatosan elfogadni a kudarcot mint szükséges evolúciós visszacsatolási hurkot, nem pedig egyéni hiányosságként."
+        },
+        {
+          "id": 69,
+          "level": "Micro",
+          "domain": "Gyászműveltség",
+          "text": "Képes a gyászt állandó, egészséges társként integrálni, nem pedig 'gyógyítandó' érzelemként kezelni."
+        },
+        {
+          "id": 71,
+          "level": "Micro",
+          "domain": "Érzelmi Állóképesség",
+          "text": "Képes örömöt és ünneplést átélni bűntudat nélkül a globális polikrízis közepette is."
+        },
+        {
+          "id": 75,
+          "level": "Micro",
+          "domain": "Hely-alapú Szemlélet",
+          "text": "Képes a 'befelé irányuló mobilitás' gyakorlására – mélységet és felfedezést találni fizikai utazás nélkül."
+        },
+        {
+          "id": 198,
+          "level": "Micro",
+          "domain": "Kognitív Agilitás",
+          "text": "Képes gyorsan elfelejteni az ipari korszak hatékonysági paradigmáit egy ételerdő sikerének értékelésekor."
+        },
+        {
+          "id": 200,
+          "level": "Micro",
+          "domain": "Érzelmi Állóképesség",
+          "text": "Képes elviselni a 'tragikus szakadékot' a klímaösszeomlás valósága és a regeneratív jövő víziója között anélkül, hogy kiégne."
+        },
+        {
+          "id": 226,
+          "level": "Micro",
+          "domain": "Traumatudatosság",
+          "text": "Képes felismerni, mikor cselekszik 'traumaválaszból' a 'stratégiai válasz' helyett a szervezőmunka során."
+        },
+        {
+          "id": 228,
+          "level": "Micro",
+          "domain": "Navigáció az Összetettségben",
+          "text": "Képes elengedni az abszolút bizonyosság iránti igényt, mielőtt bonyolult, kaotikus környezetben cselekedne."
+        },
+        {
+          "id": 229,
+          "level": "Micro",
+          "domain": "Az Öröm mint Ellenállás",
+          "text": "Képes mély játékosságot és humort megőrizni még az egzisztenciális fenyegetések megvitatásakor is."
+        },
+        {
+          "id": 245,
+          "level": "Micro",
+          "domain": "Radikális Empátia",
+          "text": "Képes fenntartani a radikális empátiát olyan politikusok vagy vezetők felé, akik aktívan fenntartják a válságot."
+        },
+        {
+          "id": 247,
+          "level": "Micro",
+          "domain": "Ősi Gyógyítás",
+          "text": "Képes feltérképezni saját családfáját és ősi traumáit, hogy megértse a természethez való viszonyának örökölt mintáit."
+        },
+        {
+          "id": 248,
+          "level": "Micro",
+          "domain": "Pozicionalitás-tudatosság",
+          "text": "Tudatosan képes elviselni a feszültséget, hogy 'kívülállóként' támogatja a helyi őslakosok által vezetett mozgalmakat."
+        },
+        {
+          "id": 261,
+          "level": "Micro",
+          "domain": "Radikális Pihenés",
+          "text": "Képes tudatosan gyakorolni a 'nem-cselekvést' mint radikális beavatkozást a kapitalista termelékenységi paradigmákkal szemben."
+        },
+        {
+          "id": 263,
+          "level": "Micro",
+          "domain": "Szolidaritási Szemlélet",
+          "text": "Képes azonosítani és átalakítani a 'megváltó-komplexust' a mély szolidaritás és kölcsönös segítségnyújtás attitűdjévé."
+        },
+        {
+          "id": 285,
+          "level": "Micro",
+          "domain": "Episztemikus Alázat",
+          "text": "Képes felismerni és megkerülni a 'Dunning-Kruger hatást', amikor teljesen új ökológiai diszciplínákat tanul."
+        },
+        {
+          "id": 6,
+          "level": "Meso",
+          "domain": "Paradigma-áthidalás",
+          "text": "Képes elviselni a kognitív disszonanciát, mialatt egyszerre bontja le a régi rendszereket és épít radikálisan újakat."
+        },
+        {
+          "id": 50,
+          "level": "Meso",
+          "domain": "Traumatudatosság",
+          "text": "Képes átlátni, hogyan befolyásolja a történelmi, generációs trauma a jelenlegi szervezeti vezetői viselkedést."
+        },
+        {
+          "id": 55,
+          "level": "Meso",
+          "domain": "Pszicho-szociális Tudatosság",
+          "text": "Képes felismerni a projekciót és transzferenciát az alulról építkező szerveződések hatalmi dinamikáiban."
+        },
+        {
+          "id": 70,
+          "level": "Meso",
+          "domain": "Kapcsolati Pszichológia",
+          "text": "Képes tudatosan kilépni a 'megmentő' szerepből a Karpman-féle drámaháromszögben közösségi viták során."
+        },
+        {
+          "id": 76,
+          "level": "Meso",
+          "domain": "Egó-mentesség",
+          "text": "Képes leválasztani személyes identitását egy konkrét projekt sikeréről, megelőzve az alapítói szindrómát."
+        },
+        {
+          "id": 202,
+          "level": "Meso",
+          "domain": "Vezetői Pszichológia",
+          "text": "Képes a 'hős/megmentő' vezetői archetípusból a 'házigazda/összekötő' archetípusba váltani közösségi környezetben."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 3,
+          "level": "Micro",
+          "domain": "Ökológiai Tudatosság",
+          "text": "Képes fenntartani a mély ökológiai odafigyelés és biomimetikus szemlélődés napi gyakorlatát a döntéshozatal irányításához."
+        },
+        {
+          "id": 7,
+          "level": "Micro",
+          "domain": "Ismeretelméleti Tudatosság",
+          "text": "Képes tudatosan feltérképezni és folyamatosan frissíteni saját világképét és ismeretelméleti vakfoltjait."
+        },
+        {
+          "id": 40,
+          "level": "Micro",
+          "domain": "Navigáció a Mélyidőben",
+          "text": "Képes a mélyidő-tudatosság gyakorlására, szem előtt tartva a 7 generációval ezelőtti ősök és a 7 generációval későbbi utódok perspektíváját."
+        },
+        {
+          "id": 44,
+          "level": "Micro",
+          "domain": "Holisztikus Ismeretelmélet",
+          "text": "Képes rutinszerűen integrálni az intuíciót és az álommunkát a formális stratégiai tervezési folyamatokba."
+        },
+        {
+          "id": 47,
+          "level": "Micro",
+          "domain": "Animisztikus Érzékelés",
+          "text": "Képes tudatosan váltani alapvető tudatállapotán, hogy a tájat élő, cselekvő entitásként érzékelje."
+        },
+        {
+          "id": 51,
+          "level": "Micro",
+          "domain": "Ökológiai Identitás",
+          "text": "Képes 'micélium-szerű' önkép kialakítására, önmagára szigorúan egy nagyobb kapcsolati hálózat csomópontjaként tekintve."
+        },
+        {
+          "id": 54,
+          "level": "Micro",
+          "domain": "Ökológiai Tisztelet",
+          "text": "Képes tudatosan ápolni a rácsodálkozást és a tiszteletet a helyi mikro-ökoszisztémák (pl. moha, zuzmó, talajélet) iránt."
+        },
+        {
+          "id": 56,
+          "level": "Micro",
+          "domain": "Belső Motiváció",
+          "text": "Képes fenntartani személyes motivációját teljesen függetlenül a külső elismeréstől vagy anyagi jutalomtól."
+        },
+        {
+          "id": 60,
+          "level": "Micro",
+          "domain": "Navigáció a Paradoxonokban",
+          "text": "Képes elviselni az egyéni jelentéktelenség és az abszolút egyéni szükségesség paradoxonát a globális átmenetben."
+        },
+        {
+          "id": 63,
+          "level": "Micro",
+          "domain": "Időbeli Rugalmasság",
+          "text": "Képes mély türelemre az ökológiai helyreállítás több éves késleltetési fázisai alatt."
+        },
+        {
+          "id": 64,
+          "level": "Micro",
+          "domain": "Poszt-antropocentrizmus",
+          "text": "Képes szisztematikusan felszámolni a belsővé tett emberközpontúságot a napi döntéshozatalában."
+        },
+        {
+          "id": 67,
+          "level": "Micro",
+          "domain": "Szenzoros Tudatosság",
+          "text": "Képes az érzékszervi tágítás gyakorlására, észrevéve a szél, a páratartalom és az állatok viselkedésének finom változásait."
+        },
+        {
+          "id": 73,
+          "level": "Micro",
+          "domain": "Alkalmazott Spiritualitás",
+          "text": "Képes egyéni spirituális vagy filozófiai meggyőződéseit közvetlenül az anyagi ökológiai gondoskodáshoz igazítani."
+        },
+        {
+          "id": 74,
+          "level": "Micro",
+          "domain": "Test-Elme Ökológia",
+          "text": "Képes nyomon követni, hogyan változtatja meg a táplálkozás és a helyi élelmiszerfogyasztás saját pszichológiai állapotát és leföldeltségét."
+        },
+        {
+          "id": 199,
+          "level": "Micro",
+          "domain": "Belső Gazdaságtan",
+          "text": "Képes a mély biztonságérzetet a közösségi hálózatokra alapozni az anyagi felhalmozás helyett."
+        },
+        {
+          "id": 203,
+          "level": "Micro",
+          "domain": "Kognitív Tágítás",
+          "text": "Képes integrálni a pszichedelikus vagy nem-hétköznapi tudatállapotokat a formális ökológiai tervezési folyamatokba."
+        },
+        {
+          "id": 227,
+          "level": "Micro",
+          "domain": "Ontológiai Váltás",
+          "text": "Képes az 'együtt-lét' (interbeing) gyakorlására – önmaga megélésére mint aki mélyen össze van fonódva minden más életformával."
+        },
+        {
+          "id": 246,
+          "level": "Micro",
+          "domain": "Aszketikus Gyakorlat",
+          "text": "Képes tudatosan böjtölni vagy változtatni az étrendjén a földdel való spirituális kapcsolódás és a kiváltságosság tudatosítása érdekében."
+        },
+        {
+          "id": 262,
+          "level": "Micro",
+          "domain": "Ökológiai Megfigyelés",
+          "text": "Képes tudatosan megfigyelni a víz áramlását egy vihar során, hogy intuitív módon megértse a helyi hidrológiát."
+        },
+        {
+          "id": 273,
+          "level": "Micro",
+          "domain": "Poszt-állami Identitás",
+          "text": "Képes tudatosan leválasztani egyéni biztonságát az államról, és a helyi kölcsönös segítségnyújtási hálózatokhoz kapcsolni."
+        },
+        {
+          "id": 281,
+          "level": "Micro",
+          "domain": "Légköri Tudatosság",
+          "text": "Képes intuitív módon olvasni az időjárási mintákat a felhőformációkból és a szél változásaiból."
+        },
+        {
+          "id": 293,
+          "level": "Micro",
+          "domain": "Vizionárius Leföldelés",
+          "text": "Képes tudatosan teret tartani az 'Eutópia' (a jó hely) számára az 'Utópia' (a sehol sincs hely) helyett."
+        },
+        {
+          "id": 297,
+          "level": "Micro",
+          "domain": "Fenomenológiai Kutatás",
+          "text": "Képes feltérképezni és nyomon követni az időtapasztalat megváltozását a természetben való mély elmerülés során."
+        },
+        {
+          "id": 77,
+          "level": "Macro",
+          "domain": "Mélyökológia",
+          "text": "Képes rokonságérzetet kialakítani nem-emberi entitásokkal (pl. folyókkal, hegyekkel) mint egyenrangú alanyokkal."
+        }
+      ]
+    },
+    "UR - Behavioral": {
+      "H1_Hospicing": [
+        {
+          "id": 80,
+          "level": "Micro",
+          "domain": "Energiahatékonyság",
+          "text": "Képes egy otthon alapvető energia-auditjának elvégzésére hőkamerás vizsgálattal és légtömörség-méréssel."
+        },
+        {
+          "id": 87,
+          "level": "Micro",
+          "domain": "Aktív Közlekedés",
+          "text": "Képes defektet javítani, kereket centírozni és hajtásláncot cserélni egy szabványos kerékpáron."
+        },
+        {
+          "id": 91,
+          "level": "Micro",
+          "domain": "Talajtan",
+          "text": "Képes alapvető talajtextúra-vizsgálatot végezni tapintással és befőttesüveges ülepítéses módszerrel."
+        },
+        {
+          "id": 99,
+          "level": "Micro",
+          "domain": "Gyakorlati Mechanika",
+          "text": "Képes megkötni 5 alapvető teherbíró and feszítő csomót építkezéshez és rögzítéshez."
+        },
+        {
+          "id": 100,
+          "level": "Micro",
+          "domain": "Erdészet",
+          "text": "Képes biztonságosan kivágni egy közepes méretű fát a megfelelő bevágási és döntési technikákkal."
+        },
+        {
+          "id": 103,
+          "level": "Micro",
+          "domain": "Javítási Készségek",
+          "text": "Képes elektromos vezetékek toldására és alapvető kapcsolási rajzok olvasására háztartási gépek javításához."
+        },
+        {
+          "id": 107,
+          "level": "Micro",
+          "domain": "Vízgazdálkodás",
+          "text": "Képes csepegtető öntözőrendszer kialakítására időzítőkkel és nyomásszabályozókkal a víztakarékosság érdekében."
+        },
+        {
+          "id": 204,
+          "level": "Micro",
+          "domain": "Helyszínelemzés",
+          "text": "Képes talaj-áteresztőképességi vizsgálat elvégzésére szikkasztók vagy esőkertek alkalmasságának meghatározásához."
+        },
+        {
+          "id": 231,
+          "level": "Micro",
+          "domain": "Hulladékgazdálkodás",
+          "text": "Képes gilisztakomposztáló (vermikomposzt) építésére és fenntartására beltéri konyhai hulladék feldolgozásához."
+        },
+        {
+          "id": 234,
+          "level": "Micro",
+          "domain": "Elektrifikáció",
+          "text": "Képes indukciós főzőlap beszerelésére és gázvezeték biztonságos lecsatlakoztatására a konyha elektrifikálásához."
+        },
+        {
+          "id": 109,
+          "level": "Meso",
+          "domain": "Vízminőség",
+          "text": "Képes helyi vízforrások pH-értékének, oldott oxigénszintjének és alapvető szennyezőanyagainak tesztelésére terepi készlettel."
+        },
+        {
+          "id": 115,
+          "level": "Meso",
+          "domain": "Adatkezelés",
+          "text": "Képes egyszerű SQL adatbázis tervezésére egy helyi élelmiszer-szövetkezet készletének nyomon követéséhez."
+        },
+        {
+          "id": 9,
+          "level": "Meso",
+          "domain": "Ökológiai Könyvelés",
+          "text": "Képes kiszámítani egy tervezett közösségi épület beépített karbon-lábnyomát, üzemeltetési energiáját és életciklus-hatását."
+        },
+        {
+          "id": 266,
+          "level": "Macro",
+          "domain": "Városi Ökológia",
+          "text": "Képes feltérképezni és kategorizálni a városi lombkoronát nyílt forráskódú műholdképek és QGIS segítségével."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 8,
+          "level": "Micro",
+          "domain": "Alkalmazott Ökológia",
+          "text": "Képes lakossági léptékű szürkevíz-szűrő és öntözőrendszer telepítésére, kalibrálására és karbantartására."
+        },
+        {
+          "id": 12,
+          "level": "Micro",
+          "domain": "Agrárerdészet",
+          "text": "Képes alapvető gyümölcsfafajok metszésére és oltására a hozam és betegségellenállás optimalizálása érdekében."
+        },
+        {
+          "id": 36,
+          "level": "Micro",
+          "domain": "Megfelelő Technológia",
+          "text": "Képes hőtárolós rakétakályha építésére és karbantartására helyi forrásból származó természetes anyagokból."
+        },
+        {
+          "id": 79,
+          "level": "Micro",
+          "domain": "Talajtan",
+          "text": "Képes egyszerű, alacsony költségű biotaszén-égető (retorta) építésére és a keletkező szén megfelelő beoltására."
+        },
+        {
+          "id": 83,
+          "level": "Micro",
+          "domain": "Megújuló Energia",
+          "text": "Képes alapvető szigetüzemű napelemes rendszer telepítésére és konfigurálására (panelek, töltésvezérlő, akkumulátor, inverter)."
+        },
+        {
+          "id": 84,
+          "level": "Micro",
+          "domain": "Agrárökológia",
+          "text": "Képes domboságyás (hugelkultur) építésére helyi forrásból származó korhadó faanyag és szerves anyagok felhasználásával."
+        },
+        {
+          "id": 88,
+          "level": "Micro",
+          "domain": "Hidrológia",
+          "text": "Képes esővízgyűjtő rendszer kialakítására az első literes mosóvíz-eltérítővel (first-flush) és megfelelő túlfolyó-kezeléssel."
+        },
+        {
+          "id": 90,
+          "level": "Micro",
+          "domain": "Javítási Készségek",
+          "text": "Képes alapvető szerkezeti hegesztésre (MIG/TIG) mezőgazdasági vagy újrahasznosított berendezések javításához."
+        },
+        {
+          "id": 96,
+          "level": "Micro",
+          "domain": "Ökológiai Építészet",
+          "text": "Képes passzív szoláris üvegház építésére, az adott szélességi kör téli napszögeire optimalizálva."
+        },
+        {
+          "id": 102,
+          "level": "Micro",
+          "domain": "Megfelelő Technológia",
+          "text": "Képes egyszerű, komposzthővel melegített zuhanyrendszer építésére szigetüzemű higiéniához."
+        },
+        {
+          "id": 106,
+          "level": "Micro",
+          "domain": "Földmunka",
+          "text": "Képes A-vázas szintező készítésére a szintvonalak pontos feltérképezéséhez domboldalon."
+        },
+        {
+          "id": 108,
+          "level": "Micro",
+          "domain": "Természetes Építészet",
+          "text": "Képes tetőtér megfelelő szigetelésére természetes anyagokkal, például birkagyapjúval vagy kenderbetonnal."
+        },
+        {
+          "id": 113,
+          "level": "Micro",
+          "domain": "Természetes Építészet",
+          "text": "Képes vályogfal építésére agyag, homok és szalma megfelelő szerkezeti állagú keverékéből."
+        },
+        {
+          "id": 116,
+          "level": "Micro",
+          "domain": "Tervezés és Rajzolás",
+          "text": "Képes pontos, méretarányos helyszínrajz készítésére CAD szoftverrel vagy kézi rajzeszközökkel."
+        },
+        {
+          "id": 206,
+          "level": "Micro",
+          "domain": "Kertészet",
+          "text": "Képes növények szaporítására fás és félfás dugványokkal, valamint tőosztással."
+        },
+        {
+          "id": 207,
+          "level": "Micro",
+          "domain": "Nyílt Forrású Technológia",
+          "text": "Képes Raspberry Pi konfigurálására helyi időjárás-állomásként és automatizált öntözésvezérlőként."
+        },
+        {
+          "id": 210,
+          "level": "Micro",
+          "domain": "Zárt Körfolyamatú Rendszerek",
+          "text": "Képes akvapóniás rendszer építésére és fenntartására, egyensúlyban tartva a halakat, a biofilter baktériumokat és a növényeket."
+        },
+        {
+          "id": 230,
+          "level": "Micro",
+          "domain": "Tájműveltség",
+          "text": "Képes a táj olvasására a történelmi vízfolyások azonosítása érdekében, még erősen urbanizált környezetben is."
+        },
+        {
+          "id": 251,
+          "level": "Micro",
+          "domain": "Kisléptékű Lakozás",
+          "text": "Képes egy erősen szigetelt, passzív szoláris 'tiny home' vázszerkezetének megépítésére mozgatható utánfutón."
+        },
+        {
+          "id": 264,
+          "level": "Micro",
+          "domain": "Megfelelő Technológia",
+          "text": "Képes egyszerű napkollektoros aszaló építésére a helyi gyümölcs- és zöldségtermés tartósításához."
+        },
+        {
+          "id": 265,
+          "level": "Micro",
+          "domain": "Sürgősségi Orvoslás",
+          "text": "Képes érszorító szakszerű alkalmazására és vadonbeli elsősegélynyújtásra távoli, civilizációtól mentes környezetben."
+        },
+        {
+          "id": 274,
+          "level": "Micro",
+          "domain": "Bioindikátor Olvasás",
+          "text": "Képes a terület 'gyomnövényeinek' elemzésére a talajhiányosságok diagnosztizálásához vegyi vizsgálat nélkül."
+        },
+        {
+          "id": 282,
+          "level": "Micro",
+          "domain": "Haladó Komposztálás",
+          "text": "Képes gyorskomposztáló halom építésére (Berkeley-módszer), amely 4 napon belül eléri az 55-70°C-ot."
+        },
+        {
+          "id": 81,
+          "level": "Meso",
+          "domain": "Hulladékgazdálkodás",
+          "text": "Képes többrekeszes termofil komposztáló rendszer kialakítására és kezelésére közösségi élelmiszerhulladékhoz."
+        },
+        {
+          "id": 86,
+          "level": "Meso",
+          "domain": "Adattudomány",
+          "text": "Képes Python script írására a helyi önkormányzati környezetvédelmi nyílt adatok kinyeréséhez és elemzéséhez."
+        },
+        {
+          "id": 95,
+          "level": "Meso",
+          "domain": "Holisztikus Menedzsment",
+          "text": "Képes rotációs legeltetési terv készítésére és megvalósítására kis nyáj számára a szénmegkötés maximalizálása érdekében."
+        },
+        {
+          "id": 118,
+          "level": "Meso",
+          "domain": "Digitális Szuverenitás",
+          "text": "Képes nyílt forráskódú Nextcloud szerver beállítására, alternatívát nyújtva a nagy technológiai cégek adattárolásával szemben."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 10,
+          "level": "Micro",
+          "domain": "Talajtan",
+          "text": "Képes őshonos mikroorganizmus (IMO) oldatok készítésére a helyi talaj helyreállítása és termékenységének fokozása érdekében."
+        },
+        {
+          "id": 31,
+          "level": "Micro",
+          "domain": "Helyi Ellenállóképesség",
+          "text": "Képes 10+ helyi vadon termő ehető növény biztonságos gyűjtésére és feldolgozására közösségi fogyasztásra."
+        },
+        {
+          "id": 82,
+          "level": "Micro",
+          "domain": "Gyógynövényismeret",
+          "text": "Képes 5 helyi gyógynövény azonosítására, betakarítására és feldolgozására tinktúrákká vagy kenőcsökké."
+        },
+        {
+          "id": 85,
+          "level": "Micro",
+          "domain": "Ökológiai Higiénia",
+          "text": "Képes az emberi ürülék biztonságos gyűjtésére, kezelésére és felhasználására zárt körfolyamatú rendszerben."
+        },
+        {
+          "id": 89,
+          "level": "Micro",
+          "domain": "Mikológia",
+          "text": "Képes rönkök beoltására laska- vagy siitake gomba spórákkal a helyi élelmiszertermelés érdekében."
+        },
+        {
+          "id": 93,
+          "level": "Micro",
+          "domain": "Ősi Élelmiszer-feldolgozás",
+          "text": "Képes makk vagy más helyi összetett termések feldolgozására (tanninmentesítés) és liszt készítésére."
+        },
+        {
+          "id": 97,
+          "level": "Micro",
+          "domain": "Étel-tartósítás",
+          "text": "Képes zöldségek biztonságos fermentálására (savanyítás, kimchi) a helyi termés hűtés nélküli tartósításához."
+        }
+      ]
+    },
+    "LL - Cultural": {
+      "H1_Hospicing": [
+        {
+          "id": 33,
+          "level": "Micro",
+          "domain": "De-eszkaláció",
+          "text": "Képes az Erőszakmentes Kommunikáció (NVC) használatára a feszültség enyhítésére közvetlen környezetvédelmi akciók során."
+        },
+        {
+          "id": 19,
+          "level": "Meso",
+          "domain": "Szektorok Közötti Kommunikáció",
+          "text": "Képes az összetett ökológiai tudományt kulturálisan rezonáló történetmeséléssé alakítani a helyi döntéshozók számára."
+        },
+        {
+          "id": 20,
+          "level": "Meso",
+          "domain": "Közösségi Gyógyulás",
+          "text": "Képes gyászkörök vezetésére, segítve a közösséget a helyi ökoszisztémák vagy fajok elvesztésének feldolgozásában."
+        },
+        {
+          "id": 30,
+          "level": "Meso",
+          "domain": "Régi Rendszerek Búcsúztatása",
+          "text": "Képes egy kifutó szervezeti projekt méltóságteljes lezárására, miközben rögzíti és átadja a legfontosabb tapasztalatokat."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 15,
+          "level": "Meso",
+          "domain": "Konfliktus-átalakítás",
+          "text": "Képes közvetíteni generációk közötti konfliktusokban a földhasználat megváltoztatása kapcsán, helyreállító igazságszolgáltatási körök segítségével."
+        },
+        {
+          "id": 17,
+          "level": "Meso",
+          "domain": "Társadalmi Építészet",
+          "text": "Képes olyan részvételi alapú beléptetési folyamatok tervezésére és vezetésére, amelyek azonnali pszichológiai biztonságot építenek a decentralizált csapatokban."
+        },
+        {
+          "id": 18,
+          "level": "Meso",
+          "domain": "Csoportos Facilitáció",
+          "text": "Képes 'Art of Hosting' vagy 'World Cafe' ülések lebonyolítására, hogy 50+ közösségi tagot hangoljon össze egy közös regeneratív vízió mentén."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 132,
+          "level": "Micro",
+          "domain": "Pedagógia",
+          "text": "Képes összetett rendszerszemléletű fogalmakat tanítani általános iskolás gyerekeknek játékokon és természetjáráson keresztül."
+        },
+        {
+          "id": 123,
+          "level": "Meso",
+          "domain": "Kulturális Rítus",
+          "text": "Képes szezonális beavatási szertartások tervezésére és levezetésére az ökológiai gondnokságba lépő fiatalok számára."
+        }
+      ]
+    },
+    "LR - Social/Systems": {
+      "H1_Hospicing": [
+        {
+          "id": 163,
+          "level": "Meso",
+          "domain": "Pályázatírás",
+          "text": "Képes azonosítani és igényelni olyan mezőgazdasági támogatásokat, amelyek az agrárerdészetre való áttérést segítik."
+        }
+      ],
+      "H2_Bridging": [
+        {
+          "id": 25,
+          "level": "Meso",
+          "domain": "Alternatív Kormányzás",
+          "text": "Képes jogi alapszabályok és irányítási protokollok kidolgozására egy többérdekeltű platform-szövetkezet számára."
+        }
+      ],
+      "H3_Emerging": [
+        {
+          "id": 23,
+          "level": "Meso",
+          "domain": "Permakultúra Tervezés",
+          "text": "Képes átfogó területrendezési terv készítésére (pl. egy ökofalu számára), integrálva a víz-, energia-, lakhatási és élelmiszerrendszereket."
+        }
+      ]
+    }
+  }
+}

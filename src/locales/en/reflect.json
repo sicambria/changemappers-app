@@ -1,0 +1,837 @@
+{
+  "yearCompass": {
+    "title": "YEAR COMPASS +",
+    "officialLink": "This is a custom, revised digital year planner. To download the official YearCompass booklet, visit:",
+    "officialSiteName": "yearcompass.com",
+    "subtitle": "Self-Knowledge • Planning • Implementation",
+    "introTitle": "Conscious Year Planner",
+    "introDesc": "This digital tool helps you look back on the past year and plan the next one. Fill in the fields. You can save your work at any time with the \"Save\" button above.",
+    "tabs": {
+      "past": "1. Closing the Past",
+      "future": "2. Planning the Future",
+      "strategy": "3. Planning the How (Strategy)",
+      "pastShort": "Past",
+      "futureShort": "Future",
+      "strategyShort": "Strategy"
+    },
+    "actions": {
+      "save": "Save",
+      "load": "Load",
+      "print": "Print",
+      "next": "Next: Implementation (Strategy)",
+      "finishPast": "Close Year and Continue",
+      "ready": "Are you ready?",
+      "readyDesc": "Planning is only the first step. Real change lies in implementation.",
+      "printPdf": "Print Plan / Save as PDF",
+      "backToReflect": "Back to Reflection"
+    },
+    "past": {
+      "title": "I. Closing the Past",
+      "calendar": {
+        "title": "Flipping through my calendar",
+        "desc": "Review your calendar from the past year week by week. If you see an important event, meeting or task, write it down here.",
+        "spring": "Spring",
+        "summer": "Summer",
+        "autumn": "Autumn",
+        "winter": "Winter",
+        "placeholder": "Important events..."
+      },
+      "lifeAreas": {
+        "title": "What was my year about?",
+        "desc": "Rate your past year (1-10).",
+        "balance": "Life Areas Balance",
+        "detailed": "Detailed Year Review",
+        "labels": {
+          "family": "Personal life, Family",
+          "career": "Career, Studies",
+          "friends": "Friends, Community",
+          "health": "Health, Fitness",
+          "mental": "Mental Health",
+          "habits": "Habits",
+          "body": "Body, Health, Rest"
+        },
+        "placeholders": {
+          "familyDetail": "What was most important? What changed?",
+          "careerDetail": "What successes did you achieve? What was difficult?",
+          "friendsDetail": "Who did you connect with? Who did you drift apart from?",
+          "healthDetail": "How did you treat your body? Did you have time to recharge?"
+        }
+      },
+      "sixSentences": {
+        "title": "Six Sentences About the Past Year",
+        "placeholder": "Write here...",
+        "lesson": "The biggest lesson...",
+        "lessonDesc": "What you learned that made you wiser this year.",
+        "success": "The biggest success...",
+        "successDesc": "What you completed, or what you're most proud of.",
+        "risk": "The biggest risk...",
+        "riskDesc": "That you took, regardless of the outcome.",
+        "hardship": "The biggest hardship...",
+        "hardshipDesc": "That tested your strength.",
+        "gratitude": "Those I am grateful to...",
+        "gratitudeDesc": "Who helped or stood by you.",
+        "different": "What I would do differently...",
+        "differentDesc": "If I could restart the year."
+      },
+      "bestMoments": {
+        "title": "The three best moments",
+        "desc": "Recall the most beautiful, happiest, most memorable moments.",
+        "p1": "1st moment",
+        "p2": "2nd moment",
+        "p3": "3rd moment"
+      },
+      "lettingGo": {
+        "title": "Letting Go and Forgiveness",
+        "desc": "Is there something you're still angry at yourself about? Or someone else? Write it here to let it out.",
+        "placeholder": "Write here what you want to let go of...",
+        "confirm": "Are you ready to close the past and focus on the future?"
+      }
+    },
+    "future": {
+      "title": "II. Planning the Future",
+      "heading": "2026: The year ahead",
+      "desc": "Dream big. What could happen ideally?",
+      "dreamBig": {
+        "title": "Dare to dream big",
+        "desc": "What does your next year look like ideally? Why will it be great? Write boldly, without limits.",
+        "placeholder": "My ideal year will be like this..."
+      },
+      "magicThrees": {
+        "title": "Magic Threes for the Next Year",
+        "selfLove": "Self-love",
+        "selfLoveDesc": "These three things I do for myself:",
+        "noPower": "Power to say NO",
+        "noPowerDesc": "Three things I say no to:",
+        "results": "Results",
+        "resultsDesc": "Three things I want to achieve:",
+        "supports": "Supports",
+        "supportsDesc": "Three people I can count on:",
+        "rewards": "Rewards",
+        "rewardsDesc": "These three gifts I give myself:",
+        "discovery": "Discovery",
+        "discoveryDesc": "Three new things I'll try:",
+        "placeholder": "Thing..."
+      },
+      "sixSentences": {
+        "title": "Six Sentences About the Next Year",
+        "s1": "This year will be special for me because...",
+        "s2": "My advice to myself for this year is...",
+        "s3": "This year I will say yes when...",
+        "s4": "This year I will be bravest when...",
+        "s5": "This year I will draw the most strength from...",
+        "s6": "This year I will no longer procrastinate on..."
+      },
+      "word": {
+        "title": "My word",
+        "desc": "The guiding thread of my coming year.",
+        "placeholder": "WORD"
+      },
+      "wish": {
+        "title": "Secret Wish",
+        "desc": "Let your imagination run free.",
+        "placeholder": "My secret wish is..."
+      }
+    },
+    "strategy": {
+      "title": "III. Strategy (Extra)",
+      "meter": "Conscious Planning Meter",
+      "progress": {
+        "beginner": "Beginner level: Fill in the essential elements!",
+        "conscious": "Conscious Planning: Taking shape! Fill in the suggested parts too.",
+        "master": "Master Plan: This is a rock-solid strategy. Go for it!",
+        "beginnerTitle": "🌱 Beginner Plan:",
+        "consciousTitle": "🌿 Conscious Plan:",
+        "masterTitle": "🌳 Master Plan:"
+      },
+      "introTitle": "The Science of Implementation",
+      "introDesc": "This section uses the latest methods from psychology and organizational development to help your goals become reality, not just dreams. Watch for the signals: without {basic} elements the plan is unstable, and {suggested} elements increase the chances of success.",
+      "badges": {
+        "basic": "Essential",
+        "suggested": "Suggested"
+      },
+      "science": {
+        "whyTitle": "Why does it work?",
+        "behavior": "Behavioral Psychology",
+        "behaviorDesc": "Lasting change doesn't start with results, it starts with identity. According to James Clear's (Atomic Habits) research, the brain aligns decisions with how you see yourself. If you say: \"I am a runner\", then running becomes a natural behavior, not a separate effort.",
+        "ikigai": "\"Blue Zones\" research, Logotherapy",
+        "ikigaiDesc": "Blue Zones research shows that one key to longevity is having a meaningful purpose in life. Viktor Frankl's logotherapy confirms this: a goal aligned with inner values doesn't exhaust, it vitalizes. In this case, motivation doesn't come from external rewards, but becomes a lasting inner compass.",
+        "energy": "Energy Management",
+        "energyDesc": "According to Jim Loehr's research, energy, not time, is our most important resource. Your year is not linear. There are peaks and valleys. If you plan your marathon for the low point, you'll fail.",
+        "cognitive": "Cognitive Therapy, Hypnosis",
+        "cognitiveDesc": "Your goals are often blocked not by lack of ability but by unconscious beliefs (\"I'm not good enough\", \"Money is bad\"). If you become aware of these and look for evidence to the contrary, your brain rewires itself (neuroplasticity).",
+        "system": "Systems Thinking",
+        "systemDesc": "Your goals are part of a system. They affect each other and strongly depend on your environment. Your relationships, habit patterns and feedback (their presence or absence) can accelerate or hinder progress. Small, conscious experiments help find balance.",
+        "positive": "Positive psychology, neuroplasticity",
+        "positiveDesc": "When you vividly imagine your future self — what you see, feel, hear, etc. — your brain reacts almost as if it were really happening. Neural connections form as if you had already lived that experience. Your brain begins to treat the image as \"reality\" and unconsciously helps your decisions, habits and behavior move in that direction. This is why visualization is so powerful: it helps your brain \"practice\" success in advance, making it much easier to create it in reality too.",
+        "stress": "Cognitive and stress psychology",
+        "stressDesc": "Relapse is not a mistake, it's an expected event. If you decide in advance what to do in difficult situations, stress decreases and perseverance increases. What matters is not whether you fall, but how quickly you get back up.",
+        "habit": "Behavioral psychology, neuroscience",
+        "habitDesc": "The brain loves small, repeated patterns. If your habits are tied to specific times, places and trigger cues, they require less willpower. Well-designed small steps bring stable change in the long run."
+      },
+      "modules": {
+        "identity": {
+          "title": "1. Identity-based goals",
+          "desc": "Don't just write down what you want to achieve, but who you need to become to achieve it.",
+          "goal": "My goal (Result)",
+          "goalPlaceholder": "E.g. I lose 10 kg",
+          "identity": "My identity (How I see myself)",
+          "identityPlaceholder": "E.g. I am a healthy person who respects their body."
+        },
+        "ikigai": {
+          "title": "2. Inner Compass: Ikigai and Values",
+          "values": "My 5 Core Values",
+          "valuesDesc": "What are you not willing to give up? (E.g. Freedom, Security, Creativity)",
+          "ikigai": "Ikigai Intersection",
+          "ikigaiDesc": "Where your passion, talent, what others need, and livelihood meet.",
+          "ikigaiPlaceholder": "How do I simultaneously live my vocation, joyful activities and mission?"
+        },
+        "energy": {
+          "title": "3. Capacity and Energy Map",
+          "heading": "How much energy will you have each month?",
+          "select": "Select",
+          "normal": "Normal",
+          "high": "High",
+          "low": "Low",
+          "redirection": "Resource Redirection (Giving Up!)",
+          "redirectionDesc": "Every \"YES\" is a \"NO\" to something else. What do you let go of for new goals?",
+          "time": "TIME",
+          "timePlaceholder": "What do I take time away from?",
+          "money": "MONEY",
+          "moneyPlaceholder": "What don't I spend on?",
+          "energyLabel": "ENERGY",
+          "energyPlaceholder": "Where do I redirect my attention from?"
+        },
+        "belief": {
+          "title": "4. Awareness and reframing of limiting beliefs",
+          "old": "The old belief (What holds you back)",
+          "oldPlaceholder": "E.g. I'm not a creative person...",
+          "new": "The new truth (What moves you forward)",
+          "newPlaceholder": "E.g. Creativity is learnable, and I practice it every day...",
+          "add": "Add new reframe"
+        },
+        "connection": {
+          "title": "5. Connections and Experiments",
+          "map": "Connection Map",
+          "mapDesc": "Who helps and who pulls you back?",
+          "mapPlaceholder": "List of supporters and skeptics...",
+          "zone": "Experiment Zone",
+          "zoneDesc": "It doesn't have to succeed immediately. Plan an experiment!",
+          "zonePlaceholder": "E.g. For 14 days I sleep at least 7 hours 30 minutes..."
+        },
+        "visualization": {
+          "title": "6. Imagining the Future Self",
+          "date": "December 31, 2026",
+          "desc": "Close your eyes. Where are you? What are you doing? What does it smell like? How do you feel in your skin?",
+          "placeholder": "I see myself..."
+        },
+        "premortem": {
+          "title": "7. Failure-proof Plan",
+          "desc": "Create \"IF... THEN...\" plans for the most likely obstacles.",
+          "if": "IF",
+          "ifPlaceholder": "E.g: I'm too tired after work...",
+          "then": "THEN",
+          "thenPlaceholder": "E.g: I'll only do 5 minutes, but I won't skip it.",
+          "add": "Add new obstacle handling",
+          "obstacleLabel": "Obstacle",
+          "solutionLabel": "Solution"
+        },
+        "habit": {
+          "title": "8. Habit Designer",
+          "signal": "CUE (trigger signal / event)",
+          "signalPlaceholder": "E.g: After morning coffee...",
+          "action": "ACTION",
+          "actionPlaceholder": "E.g: 10 minutes of reading...",
+          "reward": "REWARD",
+          "rewardPlaceholder": "E.g: Checkmark in the calendar...",
+          "add": "Add new habit"
+        },
+        "extra": {
+          "title": "Extra: System Starter Challenges",
+          "desc": "Choose one to start (optional).",
+          "c1": "21-Day Complaint-Free",
+          "c2": "75 Hard",
+          "c3": "30-Day Minimalist",
+          "c4": "Tech-Free Saturday",
+          "c5": "52-Week Financial",
+          "c6": "3-Day Recharge",
+          "c7": "Morning Pages",
+          "c8": "Custom Challenge",
+          "c1desc": "Tim Ferriss and Will Bowen's method. No complaining, no criticizing for 21 days. If you slip, restart. Goal: Mental hygiene.",
+          "c2desc": "Andy Frisella's method. 75 days: Diet, 4L water, 10 pages reading, daily photo, 2x45min workout (one outdoors). Goal: Brutal self-discipline.",
+          "c3desc": "The Minimalists. Day 1: 1 thing to trash, Day 2: 2 things... Day 30: 30 things. Goal: Radical decluttering.",
+          "c4desc": "Brad Stulberg. One screen-free day per week. Goal: Reconnect with reality.",
+          "c5desc": "Week 1: 100 units, Week 2: 200 units... Week 52: 5200 units. Goal: Gamified savings.",
+          "c6desc": "Charge outside the covers. Alarm clock instead of phone. Goal: Morning +10 minutes of calm.",
+          "c7desc": "Julia Cameron. Write 3 pages by hand every morning without overthinking. Goal: Unblock creativity.",
+          "c8desc": "By your own rules. Create a challenge that matters to you.",
+          "notes": "Notes on the challenge",
+          "notesPlaceholder": "Write the implementation details here...",
+          "customTitle": "Design Your Custom Challenge",
+          "customGoal": "What is the goal of the challenge? (What do you want to achieve?)",
+          "customWhy": "Why is this important now?",
+          "customSuccess": "When will the challenge be successful?",
+          "customDuration": "Duration",
+          "customFreq": "Frequency",
+          "customRules": "Rules (What is allowed, what isn't?)"
+        }
+      }
+    },
+    "footer": {
+      "brandName": "Year Planner",
+      "motto": "I believe that everything can succeed this year.",
+      "website": "YearCompass Website",
+      "credit": "The Year Planner was made based on YearCompass, thank you!",
+      "license": "The content is licensed under Creative Commons Attribution - NonCommercial - ShareAlike (CC-BY-NC-SA) 4.0 International."
+    }
+  },
+  "principles": {
+    "title": "My Principles",
+    "description": "Discovering personal principles and guiding values."
+  },
+  "pulse": {
+    "title": "Current Pulse",
+    "privacyNote": "These answers are private — only you see them, and they are not currently used in matching.",
+    "question1Label": "How much do you feel that what you're working on is truly what you want to be doing?",
+    "question1Low": "Very misaligned",
+    "question1High": "Fully aligned",
+    "question2Label": "What is your energy level right now?",
+    "question2Low": "Exhausted",
+    "question2High": "Full and fresh",
+    "question3Label": "How much are you working outside the kinds of work that feel natural to you right now?",
+    "question3Low": "Fully within",
+    "question3High": "Strongly outside",
+    "outsideQuestion": "If you're outside your natural ways of working — is this by choice, or necessity?",
+    "byChoice": "✋ By choice",
+    "byNecessity": "⚓ Necessity",
+    "privateNotesLabel": "Is there something you want to write down? (just for you)",
+    "privateNotesPlaceholder": "Thoughts, observations, free association...",
+    "submit": "Record"
+  },
+  "availability": {
+    "title": "Contribution Availability",
+    "whereAreYou": "Where are you now?",
+    "delivering": "🚀 Delivering",
+    "between": "🌊 Between Projects",
+    "building": "🔨 Building",
+    "reflecting": "🍃 Reflecting",
+    "resting": "🌙 Resting",
+    "markFunctions": "Mark the ways you can contribute",
+    "activeNow": "active now",
+    "notAvailableNow": "not available now",
+    "updateOffer": "Update your offer sentence?",
+    "updateOfferHint": "(will be visible)",
+    "offerPlaceholder": "E.g. Looking for a partner for a short research project...",
+    "privateContext": "Private context (just for you)",
+    "privateContextPlaceholder": "What changed? Why is your availability different now?",
+    "saveUpdate": "Save Update",
+    "functionsUpdatedAt": "Last updated: {{time}}",
+    "energisingCount": "· {{count}} energizing contribution area",
+    "energisingCount_plural": "· {{count}} energizing contribution areas",
+    "functionLabels": {
+      "vision_setting": "Vision setting",
+      "facilitation": "Facilitation",
+      "project_management": "Project management",
+      "writing": "Writing",
+      "research": "Research",
+      "coding": "Coding",
+      "design": "Design",
+      "mentoring": "Mentoring",
+      "fundraising": "Fundraising",
+      "teaching": "Teaching",
+      "network_weaving": "Network weaving",
+      "strategic_thinking": "Strategic thinking",
+      "storytelling": "Storytelling",
+      "coordination": "Coordination",
+      "listening": "Active listening",
+      "data_analysis": "Data analysis",
+      "community_hosting": "Community hosting",
+      "advocacy": "Advocacy",
+      "logistics": "Logistics",
+      "holding_space": "Holding space"
+    }
+  },
+  "project": {
+    "title": "Project Reflection",
+    "projectName": "Project name",
+    "projectNamePlaceholder": "E.g. Community garden, Conference organizing...",
+    "whichPhase": "Which phase are you at?",
+    "start": "🌱 Start",
+    "startDesc": "At the beginning of the project",
+    "mid": "🔥 Mid",
+    "midDesc": "During the project",
+    "closure": "🌿 Closure",
+    "closureDesc": "At the end of the project",
+    "postClosure": "🌀 Post-Closure",
+    "postClosureDesc": "3-6 weeks later",
+    "next": "Next",
+    "whatFunctionsNeeded": "What kinds of contribution does this project need?",
+    "whatPresentNow": "Of these, what is present in the team now?",
+    "missingFunctions": "Missing contribution areas:",
+    "none": "none",
+    "whichActiveNow": "Which contribution areas are present now?",
+    "whichMissing": "Which contribution areas are missing?",
+    "whatItBecame": "What did this project become? (compared to initial intent)",
+    "whatItBecamePlaceholder": "How did it deviate from the plan? What did it bring that you didn't expect?",
+    "whatToCarry": "What are you carrying forward?",
+    "whatToCarryPlaceholder": "What you won't leave behind when moving to the next project...",
+    "lookingBack": "Looking back — what remains of it?",
+    "lookingBackPlaceholder": "What still lives? What has sunk?",
+    "privateNotes": "Private notes (just for you)",
+    "privateNotesPlaceholder": "What doesn't fit the framework above but needs to be written...",
+    "save": "Save",
+    "enterProjectName": "Enter the project name",
+    "functionLabels": {
+      "vision_setting": "Vision",
+      "facilitation": "Facilitation",
+      "project_management": "Management",
+      "writing": "Writing",
+      "research": "Research",
+      "coding": "Coding",
+      "design": "Design",
+      "fundraising": "Funding",
+      "network_weaving": "Network",
+      "strategic_thinking": "Strategy",
+      "storytelling": "Summary",
+      "coordination": "Coordination",
+      "holding_space": "Holding space",
+      "data_analysis": "Data",
+      "listening": "Listening",
+      "teaching": "Teaching"
+    }
+  },
+  "hub": {
+    "title": "Reflection Space",
+    "subtitle": "This space is yours. It's not for evaluation — it's for orientation.",
+    "quickCheckin": "⚡ Quick Check-in",
+    "deepReflection": "🧭 Deep Self-Reflection",
+    "currentPulse": "Current Pulse",
+    "currentPulseDesc": "Three aspects — 2 minutes. How do you feel right now?",
+    "functionalAvailability": "Contribution Availability",
+    "functionalAvailabilityDesc": "Update how you can contribute now — and what you cannot offer right now.",
+    "projectReflection": "Project Reflection",
+    "projectReflectionDesc": "Start, mid, closure, post-closure — along the arc of a project.",
+    "yearCompass": "Year Compass",
+    "yearCompassDesc": "Annual reflection based on the YearCompass methodology.",
+    "lifewheel": "Life Mirror",
+    "lifewheelDesc": "Face yourself from the deathbed perspective.",
+    "valueCompass": "Value Compass",
+    "valueCompassDesc": "Identify and organize your most important personal values.",
+    "principles": "My Principles",
+    "principlesDesc": "Articulate the principles you want to live by.",
+    "solutionPath": "SolutionPath Coach",
+    "solutionPathDesc": "Solution-focused independent reflection in 8 steps.",
+    "helpers": "What Helps Me",
+    "helpersDesc": "What recharges, what helps — discovering personal resources.",
+    "quickCheckins": "Quick Check-ins",
+    "deepTools": "Deeper Reflection Tools",
+    "lastNever": "Never",
+    "lastToday": "Today",
+    "lastYesterday": "Yesterday",
+    "lastDaysAgo": "{{count}} days ago",
+    "deepLevelsComing": "Deeper levels (quarterly, semi-annual) coming soon.",
+    "loginPrompt": "Log in to access the reflection space.",
+    "focusTest": "Changemaker Focus Test",
+    "focusTestDesc": "A quick assessment for focus, purpose, waste, and innovation style.",
+    "calmingExercises": "Calming Exercises",
+    "calmingExercisesDesc": "9 short, proven exercises for stress, tension, and staying calm — under 10 minutes.",
+    "nextPromptTitle": "Your next reflection",
+    "nextPromptSoft": "Due soon",
+    "nextPromptOverdue": "Overdue",
+    "nextPromptNever": "Never done",
+    "nextPromptStart": "Start now"
+  },
+  "metadata": {
+    "lifewheelTitle": "Life Mirror",
+    "lifewheelDesc": "Face yourself from the deathbed perspective.",
+    "yearCompassTitle": "YearCompass+",
+    "yearCompassDesc": "Conscious year planner and strategy tool.",
+    "valueCompassTitle": "Value Compass",
+    "valueCompassDesc": "Identify and balance your personal values.",
+    "principlesTitle": "My Principles",
+    "principlesDesc": "Discover personal principles and guiding values.",
+    "helpersTitle": "What Helps Me",
+    "helpersDesc": "What recharges, what helps — discovering personal resources."
+  },
+  "lifewheel": {
+    "title": "Life Mirror",
+    "subtitle": "The Deathbed Perspective",
+    "intro": {
+      "backToReflect": "Back to Reflection",
+      "cardTitle": "Imagine you are on your deathbed right now. You look back on your life. What do you see? What would you feel? What would you be proud of? What would you regret?",
+      "cardQuote": "\"Life can only be understood backwards; but it must be lived forwards.\" - Kierkegaard",
+      "explanation": "This tool helps you pause for a moment and look back at the most important areas of your life from the 'deathbed' perspective. The goal is to get an honest picture of where you are now and where you are heading in the future.",
+      "disclaimer": "This application does not save your data. Please use the print function at the end or take a screenshot of the results.",
+      "birthYearLabel": "Your Birth Year",
+      "birthYearPlaceholder": "e.g. 1985",
+      "genderLabel": "Gender",
+      "genderMale": "Male",
+      "genderFemale": "Female",
+      "ageInfoLine1": "You are {{age}} years old",
+      "ageInfoLine2": "You have approx. <span class='font-bold text-2xl'>{{remaining}}</span> years left",
+      "ageInfoLine3": "based on average life expectancy",
+      "startButton": "Let's Start!"
+    },
+    "questions": {
+      "titles": {
+        "past": "5 years ago ({{year}})",
+        "present": "Now ({{year}})",
+        "future": "In 5 years ({{year}})"
+      },
+      "subtitles": {
+        "past": "🕰️ How was it 5 years ago?",
+        "present": "📍 How is it now?",
+        "future": "🔮 How will it be in 5 years?"
+      },
+      "scale": {
+        "min": "Very Poor",
+        "max": "Excellent"
+      },
+      "actions": {
+        "back": "Back",
+        "next": "Next",
+        "results": "See Results"
+      },
+      "progress": "Question {{current}} / {{total}}"
+    },
+    "results": {
+      "title": "Your Life's Mirror",
+      "subtitle": "You have approx. <span class='text-purple-600 dark:text-purple-400'>{{remaining}}</span> years left - is this how you want to live them?",
+      "status": {
+        "thrivingGrowing": "Thriving & Growing",
+        "improving": "On an Improving Path",
+        "rising": "Rising",
+        "thriving": "Thriving",
+        "stable": "Stable",
+        "ready": "Ready for Change"
+      },
+      "satisfactionIndex": "Life Satisfaction Index (Now)",
+      "time": {
+        "past": "5 years ago",
+        "present": "Now",
+        "future": "In 5 years"
+      },
+      "improvement": "✨ {{points}} point improvement in 5 years!",
+      "lifewheelTitle": "Life Wheel - Three Timestamps",
+      "detailedAnalysisTitle": "Detailed Analysis",
+      "warning": "<strong>Warning!</strong> If things stay the same, this area of your life will continue to decline. A change is needed!",
+      "greatDirection": "<strong>Great direction!</strong> If you continue on this path, this area of your life will flourish!",
+      "deathbed": {
+        "title": "A Message From Your Deathbed",
+        "positiveGrowth": "🎉 Congratulations! You have improved by {{points}} points in the last 5 years. This is no accident - you are consciously building your life!",
+        "positiveFuture": "✨ Your future can be even brighter! Next step: Choose the 1-2 areas where you see the greatest potential, and take the first small step TODAY.",
+        "positiveStagnation": "⚠️ Be careful! Don't lose momentum. What is the one thing you can do TODAY to keep the positive trend going?",
+        "stableGrowth": "The past 5 years have been stable, but you have so much more in you. {{futureOutlook}}",
+        "stableFuturePositive": "And you feel it too - your vision for the future shows it!",
+        "stableFutureNeutral": "Now is the time for change.",
+        "stableNextStep": "🚀 Next step: Choose the 1 area where you feel the greatest potential. What is the smallest step you can take TODAY? A phone call? Making a plan? A conversation?",
+        "decline": "The past 5 years have been challenging. But you are here, you filled out this test - that shows you are ready for a change!",
+        "declineNextStep": "💪 Next step: DO NOT try to change everything at once! Choose the 1 area where you feel the most pain. What is the smallest step you can take TODAY in this area? Write down 3 possible first steps and choose the easiest one!"
+      },
+      "recipe": {
+        "title": "📝 The Recipe for Change:",
+        "items": [
+          "1️⃣ Choose 1-2 areas (no more!)",
+          "2️⃣ Set small, specific goals (e.g., \"work out twice a week\" not \"get healthier\")",
+          "3️⃣ The first step happens TODAY - anything to get the ball rolling",
+          "4️⃣ Build daily/weekly routines - consistency is key",
+          "5️⃣ Find support - no one changes alone"
+        ]
+      },
+      "actions": {
+        "restart": "Start Over",
+        "print": "Print Results"
+      },
+      "planning": {
+        "title": "Plan Your Next Step",
+        "stepLabel": "What is the ONE small, specific step you will take in the next 24 hours towards your goal?",
+        "stepPlaceholder": "E.g., I will call Gabe to go for a run on Tuesday.",
+        "reminderLabel": "How will you remind yourself to make sure you do it?",
+        "reminderPlaceholder": "E.g., I'll set an alarm for 9 AM tomorrow morning."
+      }
+    },
+    "categories": {
+      "health": "Health & Vitality",
+      "relationships": "Relationships & Love",
+      "career": "Work & Mission",
+      "growth": "Growth & Learning",
+      "joy": "Joy & Enjoyment",
+      "meaning": "Meaning & Spirituality",
+      "contribution": "Contribution & Legacy",
+      "freedom": "Freedom & Autonomy"
+    },
+    "questions_data": {
+      "health": {
+        "past": "How proud were you of your body's strength and health 5 years ago?",
+        "present": "How satisfied are you with your health and energy now?",
+        "future": "If everything stays as it is, where will your health be in 5 years?"
+      },
+      "relationships": {
+        "past": "How deeply loved and valued did you feel 5 years ago?",
+        "present": "How surrounded by love and support are you now?",
+        "future": "If everything stays as it is, how deep will your relationships be in 5 years?"
+      },
+      "career": {
+        "past": "How much did you feel you were using your talents meaningfully 5 years ago?",
+        "present": "How much do you feel you are working on something important now?",
+        "future": "If everything stays as it is, how satisfied will you be with your career in 5 years?"
+      },
+      "growth": {
+        "past": "How much did you grow as a person 5 years ago?",
+        "present": "How much are you continuously learning and growing now?",
+        "future": "If everything stays as it is, how much more developed will you be as a person in 5 years?"
+      },
+      "joy": {
+        "past": "How full of joy and laughter were your everyday life 5 years ago?",
+        "present": "How much do you enjoy life day to day now?",
+        "future": "If everything stays as it is, how happy will you be in 5 years?"
+      },
+      "meaning": {
+        "past": "How meaningful did you feel your life was 5 years ago?",
+        "present": "How much do you feel you are part of a larger purpose now?",
+        "future": "If everything stays as it is, how meaningful will your life be in 5 years?"
+      },
+      "contribution": {
+        "past": "How much did you feel you were leaving a positive mark on the world 5 years ago?",
+        "present": "How much are you contributing to others and the community now?",
+        "future": "If everything stays as it is, what legacy will you leave in 5 years?"
+      },
+      "freedom": {
+        "past": "How much did you live your life according to your own decisions 5 years ago?",
+        "present": "How free are you to choose and live authentically now?",
+        "future": "If everything stays as it is, how free will you be in 5 years?"
+      }
+    }
+  },
+  "errors": {
+    "saveFailed": "Failed to save"
+  },
+  "focus": {
+    "metaTitle": "Changemaker Focus Test",
+    "metaDescription": "Assess your changemaker focus, purpose, and innovation style.",
+    "title": "Are you focused, or just busy?",
+    "intro": "Your energy is your most valuable asset. Take this short assessment to discover your operational archetype.",
+    "start": "Start the assessment",
+    "questionCounter": "Question {{current}} of {{total}}",
+    "resultEyebrow": "Your assessment result",
+    "score": "Score: {{score}} / {{total}}",
+    "insights": "Actionable insights",
+    "restart": "Take the test again",
+    "questions": [
+      [
+        "When starting a new social project, what is your first step?",
+        [
+          "Search for existing solutions and frameworks.",
+          "Combine a proven model with a local twist.",
+          "Brainstorm completely new disruptive ideas."
+        ]
+      ],
+      [
+        "Your team needs software to organize volunteers. What do you do?",
+        [
+          "Use a standard widely adopted platform.",
+          "Evaluate tools and connect the best ones.",
+          "Build a bespoke platform for the full vision."
+        ]
+      ],
+      [
+        "If asked to explain your core initiative in one sentence:",
+        [
+          "I have a sharp pitch that guides daily priorities.",
+          "I can explain the direction, though details shift.",
+          "I struggle because we solve many big problems at once."
+        ]
+      ],
+      [
+        "Looking at your task list from the past month, it mostly shows:",
+        [
+          "Deep work on one or two core objectives.",
+          "Core tasks plus a few side projects.",
+          "Dozens of unrelated tasks and new ideas."
+        ]
+      ],
+      [
+        "When delivering a new program, how do you avoid overproduction?",
+        [
+          "Launch a minimum viable version and build from evidence.",
+          "Build a complete version, then adjust after launch.",
+          "Perfect every detail before anyone else sees it."
+        ]
+      ]
+    ],
+    "results": [
+      {
+        "max": 8,
+        "title": "The Laser-Focused Optimizer",
+        "desc": "Your purpose is clear and your actions are tightly aligned. You naturally reduce waste and reuse existing systems before building new ones.",
+        "tips": [
+          "Keep a small budget for exploratory innovation.",
+          "Check that efficiency is not becoming tunnel vision.",
+          "Keep auditing work for waiting, overproduction, and unused talent."
+        ]
+      },
+      {
+        "max": 12,
+        "title": "The Dynamic Synergist",
+        "desc": "You balance focus with exploration. You use existing tools when practical and innovate when there is a real bottleneck.",
+        "tips": [
+          "Run a quarterly focus audit.",
+          "Review where volunteers or collaborators are waiting.",
+          "Document when your team should adopt versus build."
+        ]
+      },
+      {
+        "max": 15,
+        "title": "The Scattered Visionary",
+        "desc": "You have many ideas, but impact may be diluted by fragmentation, overbuilding, and shifting priorities.",
+        "tips": [
+          "Choose one waste pattern to eliminate this month.",
+          "Use off-the-shelf tools for the next six months.",
+          "Find an operations partner who can protect focus."
+        ]
+      }
+    ]
+  },
+  "calmingExercises": {
+    "title": "Calming Exercises",
+    "subtitle": "Short, proven practices for stress, tension, and nervous-system regulation. Pick one — or use the daily protocol at the bottom.",
+    "backToReflect": "Back to Reflection",
+    "expandLabel": "Show exercise",
+    "collapseLabel": "Hide",
+    "timeLabel": "Time",
+    "bestForLabel": "Best for",
+    "evidenceLabel": "Evidence",
+    "tipLabel": "In practice",
+    "dailyProtocol": {
+      "title": "Simple 10-minute daily protocol",
+      "steps": [
+        "0:00–5:00 — Slow breathing: 4 seconds in, 6 seconds out",
+        "5:00–8:00 — Soften jaw, shoulders, belly, and hands",
+        "8:00–10:00 — Self-compassion or repair sentence"
+      ],
+      "reminder": "The goal is not to never become tense. The goal is to notice sooner, return sooner, and pass on less tension."
+    },
+    "safetyNote": "For trauma, panic attacks, strong dissociation, depression, or serious impairment, these exercises are supportive tools only. Work with a qualified professional in those cases.",
+    "exercises": [
+      {
+        "title": "Slow breathing — 5–6 breaths per minute",
+        "time": "5 minutes",
+        "bestFor": "Stress, irritability, bodily tension, emotional reactivity",
+        "evidence": "Moderate to strong",
+        "steps": [
+          "Sit or lie down.",
+          "Breathe in through the nose for 4 seconds.",
+          "Breathe out slowly for 6 seconds.",
+          "Keep the exhale soft and longer than the inhale.",
+          "Repeat for 5 minutes."
+        ],
+        "tip": "In a tense moment, even 3 slow exhales can create a useful pause before reacting."
+      },
+      {
+        "title": "Short progressive muscle relaxation",
+        "time": "7–8 minutes",
+        "bestFor": "Physical tension, anxiety, sleep preparation",
+        "evidence": "Moderate to strong",
+        "steps": [
+          "For each muscle group: tense gently for 5 seconds, then release for 10 seconds.",
+          "Go through: hands, shoulders, face and jaw, belly, glutes, thighs, calves, whole body.",
+          "Use about 40–60% effort — do not tense at full force."
+        ]
+      },
+      {
+        "title": "Five-senses grounding",
+        "time": "3–5 minutes",
+        "bestFor": "Anxiety, overwhelm, overthinking, dissociation",
+        "evidence": "Moderate as a clinical grounding tool",
+        "steps": [
+          "Name 5 things you can see.",
+          "Name 4 things you can feel on your body.",
+          "Name 3 sounds you can hear.",
+          "Name 2 smells or tastes.",
+          "Name 1 thing that feels safe or neutral right now.",
+          "End with: \"Right now, I am here. This moment is not my whole life.\""
+        ]
+      },
+      {
+        "title": "Three-minute mindfulness breathing",
+        "time": "3 minutes",
+        "bestFor": "Slowing automatic reactions",
+        "evidence": "Moderate to strong",
+        "steps": [
+          "Minute 1: Notice what is happening. Name it — tension, anger, exhaustion.",
+          "Minute 2: Notice the breath. Do not try to change it.",
+          "Minute 3: Expand attention to the whole body — feet, belly, shoulders, face, hands."
+        ],
+        "tip": "\"I do not need to respond perfectly. One degree more awareness is enough.\""
+      },
+      {
+        "title": "Self-compassion pause",
+        "time": "2–4 minutes",
+        "bestFor": "Shame, guilt, self-blame after difficult moments",
+        "evidence": "Moderate",
+        "steps": [
+          "Put one hand on your chest or belly.",
+          "Slow down the exhale.",
+          "Say internally: \"This is hard.\"",
+          "\"Other people experience this too.\"",
+          "\"Can I be 5% kinder to myself right now?\"",
+          "\"I only need to choose the next step, not fix the whole day.\""
+        ],
+        "tip": "This is not an excuse for harmful behavior. It is a way to interrupt shame so you can act more effectively."
+      },
+      {
+        "title": "STOP — before reacting",
+        "time": "30–90 seconds",
+        "bestFor": "Impulse control, snapping, automatic reactions",
+        "evidence": "Based on mindfulness and self-regulation principles",
+        "steps": [
+          "S — Stop.",
+          "T — Take one long breath out.",
+          "O — Observe. What am I feeling in my body? What am I about to do?",
+          "P — Proceed. Choose one less harmful next step."
+        ],
+        "tip": "You can also say aloud: \"I am very tense right now. I will take three breaths, then I will answer.\""
+      },
+      {
+        "title": "Orienting to safety",
+        "time": "2 minutes",
+        "bestFor": "Nervous-system threat response, hypervigilance",
+        "evidence": "Indirect; clinically common in trauma-informed work",
+        "steps": [
+          "Slowly look around the room.",
+          "Do not search for danger. Search for neutral or safe cues.",
+          "Name 5 neutral objects: door, chair, book, lamp, cup.",
+          "Then name 3 safe or pleasant details: warm blanket, soft light, quiet corner.",
+          "End with: \"My body is signaling danger, but I can look around and check what is true now.\""
+        ]
+      },
+      {
+        "title": "Breath plus repair",
+        "time": "3–5 minutes",
+        "bestFor": "Restoring connection after conflict",
+        "evidence": "Indirect; developmentally well supported",
+        "steps": [
+          "First, regulate yourself: take 3 slow exhales.",
+          "Then say briefly to the other person: \"I am sorry I reacted that way.\"",
+          "\"It is not your job to manage my stress.\"",
+          "\"I am starting again more calmly.\"",
+          "\"Let's solve this one step at a time.\""
+        ],
+        "tip": "People don't need perfection from us. They need repair."
+      },
+      {
+        "title": "Tapping (EFT — try and see if it works for you)",
+        "time": "5–8 minutes",
+        "bestFor": "Anxiety, tension, emotional intensity",
+        "evidence": "Mixed to moderate",
+        "steps": [
+          "Rate your tension from 0 to 10.",
+          "Tap gently with two fingers on: inner eyebrow, side of the eye, under the eye, under the collarbone, outer arm or chest.",
+          "While tapping, repeat: \"Even though I feel tense, I notice this is a state.\"",
+          "\"My body is trying to protect me.\"",
+          "\"I can release 5%.\"",
+          "At the end, rate the tension again from 0 to 10."
+        ]
+      }
+    ]
+  }
+}

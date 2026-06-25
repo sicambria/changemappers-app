@@ -1,0 +1,83 @@
+{
+    "types": {
+        "NATURE_CONNECTED_ECO_HUB": "Nature-Connected Eco Hub",
+        "HEALING_SANCTUARY": "Healing & Retreat Sanctuary",
+        "INCLUSIVE_SUPPORT_NETWORK": "Inclusive Support Network",
+        "CREATIVE_ARTS_COLONY": "Creative Arts Colony",
+        "EGALITARIAN_LIVING": "Egalitarian Living",
+        "SPIRITUAL_HAVEN": "Spiritual & Religious Haven",
+        "KNOWLEDGE_HUB": "Knowledge & Education Hub",
+        "NOMADIC_NETWORK": "Nomadic & Traveler Network",
+        "REGENERATIVE_ECONOMIC": "Regenerative Economic Cooperative",
+        "VISIONARY_MODEL_CITY": "Visionary Model City",
+        "EARTH_REGENERATION_CENTER": "Earth Regeneration Center",
+        "FRONTLINE_ACTIVIST": "Frontline Activist Community"
+    },
+    "membership": {
+        "confirmLeave": "Are you sure you want to leave this community?",
+        "accepting": "Accepting members",
+        "title": "Membership",
+        "banned": "You are banned from this community.",
+        "rejected": "Your application was rejected.",
+        "isMember": "You are a member",
+        "leaveLoading": "Leaving...",
+        "leave": "Leave community",
+        "requestSent": "Request sent",
+        "openDescription": "This community is welcoming new members.",
+        "targetLabel": "Who we're looking for:",
+        "costLabel": "Conditions:",
+        "joinButton": "Apply",
+        "notAccepting": "Not currently accepting new members."
+    },
+    "details": {
+        "about": "About Us",
+        "noDescription": "No description provided.",
+        "valuesAndTopics": "Values & Topics",
+        "vision": "Vision",
+        "principles": "Principles",
+        "annualGoals": "Annual Goals",
+        "foundedYear": "Founded: {{year}}",
+        "memberCount": "{{count}} members",
+        "foundedLabel": "Founded",
+        "country": "Country",
+        "city": "City",
+        "houseRules": "House Rules"
+    },
+    "volunteer": {
+        "seekingBadge": "Seeking volunteers",
+        "title": "We're looking for volunteers!",
+        "helpWith": "How you can help:",
+        "applyButton": "Apply as a volunteer"
+    },
+    "claims": {
+        "title": "Do you lead this community?",
+        "description": "This profile was created from public data. If you are its representative, claim your editing rights!",
+        "pending": "Claim in progress",
+        "submit": "Claim ownership",
+        "loginRequired": "Log in to claim.",
+        "success": "Claim submitted! Awaiting admin approval."
+    },
+    "contact": {
+        "title": "Contact",
+        "loginRequired": "Log in to view contact details.",
+        "showButton": "Show contact details",
+        "noContact": "No contact details provided.",
+        "website": "View website"
+    },
+    "adminPanel": {
+        "title": "Membership applications",
+        "noPending": "No pending applications.",
+        "newCount": "{{count}} new"
+    },
+    "relations": {
+        "upcomingEvents": "Upcoming events",
+        "pastEvents": "Past events",
+        "initiatives": "Initiatives",
+        "pitches": "Pitches",
+        "socialIssues": "Social issues",
+        "signals": "Signals",
+        "causes": "Causes",
+        "members": "Members",
+        "empty": "No linked items yet."
+    }
+}

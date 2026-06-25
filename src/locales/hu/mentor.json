@@ -1,0 +1,167 @@
+{
+  "title": "Mentorálás",
+  "becomeMentor": "Mentorrá válás",
+  "requestMentor": "Mentor kérése",
+  "browseMentors": "Mentorok böngészése",
+  "findMentor": "Mentor keresése",
+  "noMentorsAvailable": "Jelenleg nincs elérhető mentor",
+  "yearsExperience": "év tapasztalat",
+  "mentorProfile": "Mentor Profil",
+  "backToMentors": "Vissza a mentorokhoz",
+  "maxConcurrent": "Max. egyidejű",
+  "editMentorProfile": "Mentor Profil Szerkesztése",
+  "updateMentoringDetails": "Frissítsd mentorálási adataid",
+  "shareExpertise": "Oszd meg szakértelmedet...",
+  "myMentorProfile": "Mentor Profilom",
+  "createMentorProfile": "Mentor Profil Létrehozása",
+  "comingSoon": "hamarosan",
+  "myMentoringRelationships": "Mentorálási Kapcsolataim",
+  "nav": {
+    "find": "Mentor keresése",
+    "offer": "Mentorrá válás",
+    "relationships": "Kapcsolataim"
+  },
+  "distinction": "A mentor tanácsot ad — tapasztalatból mondhatja, hogy 'én ezt nem tenném'. Ez különbözik a coachingtól.",
+  "find": {
+    "title": "Mentor keresése",
+    "subtitle": "Iránymutatás valakitől, aki hasonló terepen járt. Őszinte véleményt kapsz.",
+    "filters": {
+      "domain": "Terület",
+      "experience": "Tapasztalati évek",
+      "arcLength": "Ív hossza"
+    },
+    "empty": "Nincs a szűrőknek megfelelő mentorprofil.",
+    "loading": "Profilok betöltése..."
+  },
+  "profile": {
+    "create": "Mentorprofil létrehozása",
+    "edit": "Profil szerkesztése",
+    "domain": "Tapasztalati terület",
+    "yearsExperience": "Tapasztalati évek",
+    "whatCanOffer": "Mit tudsz nyújtani (ítélőképesség, navigáció, őszinte perspektíva)",
+    "arcLengthPreference": "Preferált ív hossza",
+    "maxConcurrent": "Maximális egyidejű mentoráltak száma"
+  },
+  "request": {
+    "create": "Mentorálás kérése",
+    "domain": "Milyen területen navigálsz?",
+    "domainLabel": "Terület",
+    "inflectionPoint": "Írd le, milyen fordulópontnál tartasz",
+    "inflectionPointLabel": "Fordulópont",
+    "inflectionPointPlaceholder": "Milyen élet/munka fordulópontnál tartasz?",
+    "guidanceSought": "Milyen iránymutatást keresel?",
+    "guidanceSoughtLabel": "Keresett iránymutatás",
+    "guidanceSoughtPlaceholder": "Milyen iránymutatást keresel?",
+    "minChars": "Legalább {{min}} karakter ({{current}}/{{min}})",
+    "submitting": "Küldés…",
+    "submit": "Kérés beküldése",
+    "successMessage": "Mentorálási kérés sikeresen elküldve!"
+  },
+  "relationship": {
+    "status": {
+      "EXPLORING": "Ismerkedés",
+      "ACTIVE": "Aktív",
+      "PAUSING": "Szünet",
+      "CLOSED": "Lezárt"
+    },
+    "accept": "Kérés elfogadása",
+    "decline": "Elutasítás",
+    "setArc": "Ív hossza és találkozó ritmus beállítása",
+    "arcLength": "Ív hossza",
+    "checkInRhythm": "Találkozó ritmus",
+    "close": "Kapcsolat lezárása",
+    "withdraw": "Kérés visszavonása"
+  },
+  "feedback": {
+    "midArc": {
+      "title": "Köztes reflexió",
+      "prompt": "Mi működik ebben a kapcsolatban? Mit kerülsz el? Hogyan nézne ki egy őszintébb változat?"
+    },
+    "postArc": {
+      "title": "Záró reflexió",
+      "prompt": "Mi változott? Mit hozott mindkét fél? Mit mondanál valakinek, aki mentorálásba kezd?"
+    },
+    "submit": "Reflexió beküldése",
+    "publicNote": "Ez a reflexió látható lesz a kapcsolat rekordján."
+  },
+  "card": {
+    "by": "Ajánlja",
+    "domain": "Terület",
+    "experience": "Tapasztalat",
+    "years": "év",
+    "arcLabel": "Ív: {{arc}}",
+    "viewProfile": "Profil megtekintése",
+    "request": "Mentorálás kérése"
+  },
+  "myRequests": {
+    "title": "Mentorálási kéréseim",
+    "subtitle": "Függő mentorálási kéréseid. Vonj vissza egy kérést, ha már nincs rá szükséged.",
+    "empty": "Nincs függő mentorálási kérésed.",
+    "cardTitle": "Mentorálási kérés",
+    "domainLabel": "Szakterület",
+    "inflectionPointLabel": "Fordulópont",
+    "guidanceSoughtLabel": "Keresett útmutatás",
+    "withdraw": "Visszavonás",
+    "withdrawConfirm": "Visszavonjuk ezt a kérést?",
+    "withdrawYes": "Igen, visszavonom",
+    "withdrawPending": "Visszavonás…",
+    "withdrawError": "Nem sikerült visszavonni a kérést."
+  },
+  "requests": {
+    "incomingTitle": "Beérkező mentorálási kérések",
+    "incomingSubtitle": "Nyitott kérések változáscsinálóktól, akik mentorálást keresnek. Fogadj el egy kérést a kapcsolat indításához.",
+    "incomingEmpty": "Jelenleg nincs nyitott mentorálási kérés.",
+    "cardTitle": "Mentorálási kérés",
+    "acceptButton": "Kérés elfogadása",
+    "acceptPending": "Elfogadás…",
+    "acceptError": "Nem sikerült elfogadni a kérést.",
+    "cancelAccept": "Mégsem",
+    "arcLengthLabel": "Ív hossza",
+    "arcLengthPlaceholder": "pl. 3–6 hónap",
+    "checkInRhythmLabel": "Találkozás ritmusa",
+    "checkInRhythmPlaceholder": "pl. kéthetente, havonta"
+  },
+  "profileForm": {
+    "created": "Mentorprofil sikeresen létrehozva!",
+    "updated": "Mentorprofil frissítve!",
+    "domain": "Terület",
+    "yearsExperience": "Tapasztalati évek",
+    "whatCanOffer": "Mit tudsz nyújtani?",
+    "whatCanOfferHint": "Írd le, mit hozol — ez nem értékelés, hanem meghívás.",
+    "minChars": "Legalább {{min}} karakter",
+    "min": "{{min}} min",
+    "arcLengthPreference": "Preferált ív hossza",
+    "arcLengthPlaceholder": "pl. 3–6 hónap",
+    "maxConcurrent": "Max. egyidejű kapcsolatok",
+    "saving": "Mentés…",
+    "update": "Mentorprofil frissítése",
+    "create": "Mentorprofil létrehozása"
+  },
+  "relationshipList": {
+    "empty": "Még nincs mentorálási kapcsolat.",
+    "defaultMentorName": "Mentor",
+    "arcLabel": "Ív: {{arc}}",
+    "checkInLabel": "Találkozó: {{rhythm}}",
+    "mentorLabel": "Mentor: {{name}}",
+    "closedReflectionPrompt": "Ez az ív le van zárva. Egy reflexió írása segít feldolgozni, amit kaptál — ez nem értékelés.",
+    "writeReflection": "Reflexió írása",
+    "subtitle": "Kövesd nyomon az aktív és korábbi mentorálási kapcsolataidat."
+  },
+  "overview": {
+    "carryTitle": "Mit hordozol, amire másnak szüksége lehet?",
+    "carryBody": "Ha már végigmentél egy nehéz átmeneten - karrierben, mozgalomban, vezetésben vagy veszteségben -, a tapasztalatod valódi érték.",
+    "browseDescription": "Keress mentorokat tématerület és tapasztalat alapján. A kapcsolat kíváncsisággal kezdődik, nem algoritmussal.",
+    "relationshipsDescription": "Kövesd az aktív és lezárt mentorálási íveket. Reflektálj félidőben és lezáráskor.",
+    "myRequests": "Kéréseim",
+    "myRequestsDescription": "Tekintsd meg és vonj vissza függő mentorálási kéréseket.",
+    "incomingRequests": "Beérkező kérések",
+    "incomingRequestsDescription": "Böngészd a nyitott mentorálási kéréseket és fogadd el őket mentorként.",
+    "howTitle": "Hogyan működik",
+    "howItems": [
+      "A mentorok beállítják a maximális párhuzamos kapcsolatszámot, ezt automatikusan tiszteletben tartjuk",
+      "Nincsenek nyilvános értékelések. A reflexiók a kapcsolat rekordján maradnak, nem a profilon",
+      "A PIHEN vagy REFLEKTÁL elérhetőségű mentorok nem jelennek meg a böngészésben",
+      "Bármelyik fél lezárhatja a kapcsolatot; a mentorált reflexióra kap meghívást"
+    ]
+  }
+}

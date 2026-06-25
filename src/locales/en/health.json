@@ -1,0 +1,16 @@
+{
+  "title": "System Status",
+  "description": "Current status of the platform and its services.",
+  "allSystemsOperational": "All Systems Operational",
+  "serviceOutage": "Service Outage",
+  "webInterface": "Web Interface",
+  "webInterfaceDesc": "Availability of the main web application and user interface",
+  "available": "Available",
+  "online": "Online",
+  "databaseService": "Database Service",
+  "databaseDesc": "Response time of the central database and storage systems",
+  "connected": "Connected",
+  "connectionError": "Connection error",
+  "offline": "Offline",
+  "lastUpdated": "Last updated:"
+}

@@ -1,0 +1,174 @@
+{
+  "loading": "Loading map...",
+  "title": "Map",
+  "discover": "Discover",
+  "layers": {
+    "title": "Layers",
+    "communities": "Communities",
+    "individuals": "People",
+    "events": "Events",
+    "issues": "Social Issues",
+    "projects": "Projects",
+    "all": "All",
+    "showLayer": "Show layer",
+    "hideLayer": "Hide layer",
+    "signals": "Signals"
+  },
+  "filters": {
+    "title": "Filters",
+    "clear": "Clear filters",
+    "apply": "Apply filters",
+    "search": "Search...",
+    "location": {
+      "title": "Distance",
+      "radius": "Radius",
+      "km5": "5 km",
+      "km30": "30 km",
+      "km100": "100 km",
+      "km500": "500 km",
+      "anywhere": "Anywhere"
+    },
+    "communityType": {
+      "title": "Community Type",
+      "all": "Any type",
+      "natureConnectedEcoHub": "Nature-Connected Eco Hub",
+      "healingSanctuary": "Healing Sanctuary",
+      "inclusiveSupportNetwork": "Inclusive Support Network",
+      "creativeArtsColony": "Creative Arts Colony",
+      "egalitarianLiving": "Egalitarian Living",
+      "spiritualHaven": "Spiritual Haven",
+      "knowledgeHub": "Knowledge Hub",
+      "nomadicNetwork": "Nomadic Network",
+      "regenerativeEconomic": "Regenerative Economic",
+      "visionaryModelCity": "Visionary Model City",
+      "earthRegenerationCenter": "Earth Regeneration Center",
+      "frontlineActivist": "Frontline Activist",
+      "other": "Other"
+    },
+    "changemakeLevel": {
+      "title": "Futuremaker Level",
+      "all": "Any level",
+      "level1": "1. Passive Empathizer",
+      "level2": "2. Conscious Consumer",
+      "level3": "3. Vocal Advocate",
+      "level4": "4. Local Organizer",
+      "level5": "5. Solution Innovator",
+      "level6": "6. Strategic Scaler",
+      "level7": "7. Systems Thinker",
+      "level8": "8. Paradigm Shifter",
+      "level9": "9. Global Catalyst"
+    },
+    "archetype": {
+      "title": "Archetype",
+      "all": "All types",
+      "placeholder": "Select archetypes..."
+    },
+    "rdg": {
+      "title": "RDG Areas",
+      "placeholder": "Select RDG areas..."
+    },
+    "availability": {
+      "title": "Availability",
+      "placeholder": "Select availability..."
+    },
+    "skills": {
+      "title": "Skills",
+      "placeholder": "Select skills..."
+    },
+    "values": {
+      "title": "Values",
+      "placeholder": "Select values..."
+    },
+    "needs": {
+      "title": "Needs",
+      "placeholder": "Select needs..."
+    },
+    "offers": {
+      "title": "Offers",
+      "placeholder": "Select offers..."
+    },
+    "interests": {
+      "title": "Interests",
+      "select": "Select interests"
+    }
+  },
+  "searchableFilter": {
+    "selectPlaceholder": "Select...",
+    "searchPlaceholder": "Search...",
+    "noResults": "No results found.",
+    "clearAll": "Clear all"
+  },
+  "search": {
+    "placeholder": "Search communities, people...",
+    "noResults": "No results found",
+    "tryDifferent": "Try different filters"
+  },
+  "controls": {
+    "searchPlaceholder": "Search...",
+    "mapView": "Map view",
+    "listView": "List view",
+    "zoomIn": "Zoom in",
+    "zoomOut": "Zoom out",
+    "myLocation": "My location"
+  },
+  "listView": {
+    "noResults": "No results found"
+  },
+  "accessibility": {
+    "signal": "signal",
+    "signalMarker": "{{name}}, {{domain}}, {{confidence}} confidence",
+    "clusterMembers": "Cluster members",
+    "recentlyActive": "Recently active"
+  },
+  "preview": {
+    "memberCount": "{{count}} members",
+    "appreciateCount": "{{count}} Appreciate",
+    "changemakeLevel": "Level {{level}} Futuremaker",
+    "viewSignal": "View Signal",
+    "viewProfile": "View Profile",
+    "viewCommunity": "View Community",
+    "viewEvent": "View Event",
+    "viewIssue": "View Issue"
+  },
+  "planet": {
+    "title": "Planet View",
+    "activeChangemakers": "{{count}} active changemakers",
+    "map2dView": "2D Map View",
+    "globeUnavailable": "3D globe view is unavailable on this device. Showing the 2D map instead.",
+    "filterMarkerType": "Marker Type",
+    "filterRdg": "RDG Areas",
+    "closePopup": "Close",
+    "loading": "Loading planet...",
+    "detailsAbout": "About",
+    "detailsLocation": "Location",
+    "detailsProfile": "Details",
+    "detailsArchetypes": "Archetypes",
+    "detailsRdgs": "RDG areas",
+    "detailsSkills": "Skills",
+    "detailsOffers": "Offers",
+    "detailsNeeds": "Needs",
+    "detailsValues": "Values",
+    "detailsAvailability": "Availability",
+    "detailsTags": "Tags",
+    "latitude": "Latitude",
+    "longitude": "Longitude",
+    "changemakeLevel": "Futuremaker level",
+    "communityType": "Community type",
+    "eventType": "Event type",
+    "issueCategory": "Issue category",
+    "issueSeverity": "Severity",
+    "signalDomain": "Signal domain",
+    "signalConfidence": "Confidence",
+    "signalNovelty": "Novelty",
+    "feedToggle": "Feed",
+    "eventsToggle": "Events",
+    "feedPanelKicker": "Planet stream",
+    "feedPanelTitle": "Feed",
+    "eventsPanelKicker": "Upcoming",
+    "eventsPanelTitle": "Events",
+    "openFullFeed": "Open feed",
+    "openFullEvents": "Open events",
+    "closeSidebar": "Close sidebar",
+    "eventsEmpty": "No upcoming events yet"
+  }
+}

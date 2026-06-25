@@ -1,0 +1,40 @@
+{
+  "title": "Oszd meg a visszajelzésed",
+  "like": "Tetszik",
+  "dislike": "Nem tetszik",
+  "whatLiked": "Mi tetszett?",
+  "whatExpected": "Mit vártál?",
+  "whatHappened": "Mi történt helyette?",
+  "improvement": "Mivel lehetne jobb?",
+  "placeholders": {
+    "like": "pl. A térkép segített megtalálni a közeli csoportokat...",
+    "dislike": "pl. Szerettem volna régió szerint szűrni...",
+    "reality": "pl. A térkép nem frissült kattintás után...",
+    "improvement": "Javaslataid..."
+  },
+  "submit": "Visszajelzés küldése",
+  "sending": "Küldés...",
+  "success": "Visszajelzés elküldve! Köszönjük.",
+  "error": "Valami hiba történt",
+  "failed": "Nem sikerült elküldeni a visszajelzést",
+  "validation": {
+    "like": "Írd meg, mi tetszett",
+    "dislike": "Töltsd ki a kötelező mezőket"
+  },
+  "privacyNote": "Automatikusan rögzítjük a böngésző verzióját és a rendszerinformációkat a hibaelhárításhoz.",
+  "publishAsIdea": {
+    "label": "Tedd közzé nyilvános ötletként is az útitervben",
+    "hint": "Mások szavazhatnak rá és hozzászólhatnak. A visszajelzésed részletei priváták maradnak.",
+    "titleLabel": "Ötlet címe",
+    "titlePlaceholder": "Rövid, világos cím",
+    "titleRequired": "Adj meg egy rövid címet az ötletedhez.",
+    "typeLabel": "Kategória",
+    "types": {
+      "PAIN_POINT": "Probléma",
+      "FEATURE_IDEA": "Funkcióötlet",
+      "BUG_FIX": "Hibajavítás"
+    },
+    "success": "Közzétéve a közösségi táblán.",
+    "failed": "Nem sikerült közzétenni a közösségi táblán."
+  }
+}

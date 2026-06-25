@@ -1,0 +1,2 @@
+ALTER TABLE "User"
+ALTER COLUMN "showOnMap" SET DEFAULT true;

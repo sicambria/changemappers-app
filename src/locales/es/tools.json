@@ -1,0 +1,216 @@
+{
+  "metaTitle": "Herramientas de Análisis",
+  "metaDescription": "Modelos interactivos y analizadores para comprender el cambio sistémico.",
+  "impactDashboard": {
+    "metaTitle": "Panel de potencial de impacto social",
+    "metaDescription": "Modela las condiciones que aumentan o reducen la probabilidad de impacto social positivo.",
+    "clientTitle": "Panel de Potencial de Impacto Social",
+    "clientDescription": "Ajusta los controles deslizantes para modelar el potencial de cambio positivo de tu sistema. El modelo evalúa Capacidades Básicas, Multiplicadores Estructurales, dinámicas Psico-Sociales, coherencia Narrativa y factores de Emergencia contra fuerzas negativas.",
+    "highExample": "Ejemplo alto",
+    "lowExample": "Ejemplo bajo",
+    "probabilityOfPositiveImpact": "Probabilidad de Impacto Positivo",
+    "recommendations": "Recomendaciones",
+    "strengthsToBuildOn": "Fortalezas para construir",
+    "strengthDescription": "Gran fortaleza aquí. Aprovéchala para fortalecer áreas más débiles.",
+    "bottlenecksToAddress": "Cuellos de botella a abordar",
+    "bottleneckDescription": "Cuello de botella crítico. Un enfoque estratégico aquí podría liberar un potencial significativo del sistema.",
+    "resetAllSliders": "Restablecer todos los controles"
+  },
+  "preMeetingAudit": {
+    "metaTitle": "Lienzo de Programa Regenerativo Holístico",
+    "metaDescription": "Planifica, evalúa e integra tus eventos con armonía sistémica profunda.",
+    "title": "Herramienta de Auditoría Pre-Reunión"
+  },
+  "participationIndex": {
+    "metaTitle": "Índice de Participación",
+    "metaDescription": "Mide el nivel real de participación ciudadana y distingue la inclusión genuina del teatro de relaciones públicas."
+  },
+  "valueCompass": {
+    "metaTitle": "Brújula de Valores Personales",
+    "metaDescription": "Identifica y equilibra tus valores fundamentales para navegar la vida con propósito."
+  },
+  "principles": {
+    "metaTitle": "Principios Comunitarios Universales",
+    "metaDescription": "Explora más de 200 principios atemporales para construir comunidades humanas sostenibles y armoniosas."
+  },
+  "innerHelpers": {
+    "metaTitle": "Ayudantes de la Brújula Interior",
+    "metaDescription": "Herramientas de análisis profundo para identificar y resolver bloqueos internos y patrones cognitivos."
+  },
+  "externalNotice": {
+    "eyebrow": "Aviso de terceros",
+    "summary": "Esta herramienta se muestra dentro de una página incrustada. La mayoría de los recursos frontend ahora están autoalojados, pero algunas herramientas aún pueden conectarse a servicios externos o abrir enlaces de terceros.",
+    "ipDisclosure": "Si una herramienta se conecta a un servicio externo, tu dirección IP puede quedar visible para ese servicio.",
+    "refererDisclosure": "Tu navegador también puede enviar la página actual como Referer cuando ocurren esas solicitudes externas.",
+    "domains": "Las conexiones actuales con terceros dependen de la herramienta específica y son más limitadas que la configuración anterior basada en CDN.",
+    "remember": "Tu elección se recuerda para esta herramienta durante la sesión actual del navegador.",
+    "accept": "Cargar herramienta externa",
+    "decline": "Volver a herramientas"
+  },
+  "draw": {
+    "metaTitle": "Pizarra local",
+    "metaDescription": "Una pizarra Excalidraw totalmente local integrada directamente en Changemappers.",
+    "title": "Pizarra local",
+    "description": "Bocetos, mapas y diagramas directamente en la app con un espacio de trabajo Excalidraw totalmente local.",
+    "badge": "SOLO LOCAL",
+    "backToTools": "Volver a Herramientas",
+    "clearCanvas": "Limpiar lienzo local",
+    "reloadLocalScene": "Recargar escena guardada",
+    "localOnly": "Se ejecuta dentro de Changemappers con recursos autoalojados y sin dependencia de iframe.",
+    "autosave": "Tu escena se autoguarda en este navegador para que puedas volver al trabajo sin terminar.",
+    "exportHint": "Usa el menú de exportación integrado de Excalidraw para archivos PNG, SVG o .excalidraw.",
+    "helpTitle": "Ayuda de la pizarra local",
+    "helpIntro": "Bocetos, mapas y diagramas directamente en la app con un espacio de trabajo Excalidraw totalmente local.",
+    "helpClear": "Limpiar lienzo local",
+    "helpReload": "Recargar escena guardada",
+    "helpSelfHosted": "Se ejecuta dentro de Changemappers con recursos autoalojados y sin dependencia de iframe.",
+    "helpAutosave": "Tu escena se autoguarda en este navegador para que puedas volver al trabajo sin terminar.",
+    "helpExport": "Usa el menú de exportación integrado de Excalidraw para archivos PNG, SVG o .excalidraw.",
+    "helpLimitations": "Esta pizarra conserva una sola escena local en tu navegador. Para varios diagramas guardados, cambiar entre ellos, ajustes de visibilidad o flujos compartibles de equipo, usa Canvas.",
+    "openCanvas": "Ir a Canvas",
+    "openHelp": "Ayuda",
+    "closeHelp": "Cerrar"
+  },
+  "openPlatform": {
+    "metaTitle": "Analizador de plataformas abiertas",
+    "metaDescription": "Compara plataformas regenerativas, redes cívicas y herramientas de inteligencia colectiva.",
+    "title": "Analizador de portales regenerativos",
+    "subtitle": "Compara plataformas de código abierto, redes y sistemas de inteligencia colectiva en el ecosistema Game B.",
+    "searchLabel": "Buscar por nombre o descripción",
+    "searchPlaceholder": "p. ej. Wikipedia, web3...",
+    "dimensions": "Dimensiones",
+    "filterLogic": "Lógica de filtro",
+    "clear": "Borrar filtros",
+    "results": "{{count}} portales encontrados",
+    "gridView": "Vista de cuadrícula",
+    "tableView": "Vista de tabla",
+    "visit": "Visitar plataforma",
+    "portal": "Portal / Plataforma",
+    "score": "Puntuación",
+    "features": "Funciones clave",
+    "audience": "Audiencia / enfoque",
+    "dimensionsList": [
+      "Desarrollo vertical",
+      "Mentoría / RPS",
+      "Conexiones / P2P",
+      "Código abierto",
+      "Visualización avanzada",
+      "Gobernanza colectiva",
+      "Web3 / tokenómica",
+      "Enfoque biorregional",
+      "Asignación económica",
+      "Sin reputación gamificada"
+    ],
+    "portals": [
+      {
+        "name": "Changemappers",
+        "type": "Referencia",
+        "url": "https://changemappers.org/",
+        "score": 100,
+        "audience": "Agentes de cambio e innovadores sistémicos",
+        "features": [
+          "Desarrollo vertical",
+          "Mentoría / RPS",
+          "Conexiones / P2P",
+          "Código abierto",
+          "Gobernanza colectiva",
+          "Sin reputación gamificada"
+        ],
+        "description": "Emparejamiento por complementariedad de arquetipos, apoyo regenerativo entre pares y coordinación orientada a RDG para agentes de cambio."
+      },
+      {
+        "name": "Hylo",
+        "type": "Ecosistema de alta afinidad",
+        "url": "https://www.hylo.com",
+        "score": 92,
+        "audience": "Grupos con propósito y comunidades locales",
+        "features": [
+          "Conexiones / P2P",
+          "Código abierto",
+          "Enfoque biorregional",
+          "Gobernanza colectiva",
+          "Sin reputación gamificada"
+        ],
+        "description": "Plataforma de coordinación liderada por comunidades para organización biorregional, agricultura regenerativa y resiliencia."
+      },
+      {
+        "name": "CoDo / Kamooni",
+        "type": "Ecosistema de alta afinidad",
+        "url": "https://kamooni.org/",
+        "score": 88,
+        "audience": "Activistas cívicos y gestores ambientales",
+        "features": [
+          "Conexiones / P2P",
+          "Código abierto",
+          "Gobernanza colectiva",
+          "Asignación económica"
+        ],
+        "description": "Sistema cívico de código abierto con mecanismos de billetera altruista y democracia líquida."
+      },
+      {
+        "name": "OpenCivics",
+        "type": "Ecosistema de alta afinidad",
+        "url": "https://opencivics.co",
+        "score": 85,
+        "audience": "Instituciones, constructores sistémicos, DAO",
+        "features": [
+          "Código abierto",
+          "Gobernanza colectiva",
+          "Asignación económica"
+        ],
+        "description": "Red descentralizada de solidaridad centrada en puentes institucionales y financiación sistémica."
+      },
+      {
+        "name": "Decidim",
+        "type": "Plataforma participativa",
+        "url": "https://decidim.org",
+        "score": null,
+        "audience": "Ciudadanía y municipios",
+        "features": [
+          "Gobernanza colectiva",
+          "Código abierto"
+        ],
+        "description": "Plataforma de código abierto para democracia participativa, asambleas, propuestas, debates y votaciones."
+      },
+      {
+        "name": "Polis",
+        "type": "Herramienta de sentido colectivo",
+        "url": "https://pol.is",
+        "score": null,
+        "audience": "Grupos grandes, ciudadanía, investigadores",
+        "features": [
+          "Gobernanza colectiva",
+          "Código abierto",
+          "Visualización avanzada"
+        ],
+        "description": "Plataforma de conversación que usa análisis en tiempo real para revelar consensos y divisiones."
+      },
+      {
+        "name": "Terraso",
+        "type": "Coordinador de paisajes",
+        "url": "https://terraso.org",
+        "score": 55,
+        "audience": "Propietarios de tierras, ecólogos, gobiernos locales",
+        "features": [
+          "Código abierto",
+          "Visualización avanzada",
+          "Enfoque biorregional"
+        ],
+        "description": "Plataforma GIS de mapeo para alianzas territoriales y restauración ecológica."
+      },
+      {
+        "name": "SEEDS / Hypha DHO",
+        "type": "DeFi y tokenizado",
+        "url": "https://joinseeds.earth",
+        "score": 60,
+        "audience": "Comunidad Web3 y finanzas regenerativas",
+        "features": [
+          "Web3 / tokenómica",
+          "Gobernanza colectiva",
+          "Asignación económica"
+        ],
+        "description": "Ecosistema financiero basado en blockchain que usa tokenómica e incentivos para la regeneración."
+      }
+    ]
+  }
+}

@@ -1,0 +1,199 @@
+{
+  "title": "Systems Canvas",
+  "nav": {
+    "canvases": "Canvases",
+    "patterns": "Pattern Library",
+    "new": "New Canvas"
+  },
+  "drawingBoard": {
+    "title": "Drawing Board",
+    "subtitle": "Create and share diagrams, maps and visual models with your community.",
+    "newDiagram": "New diagram",
+    "noDiagrams": "No diagrams yet. Create one to start collaborating.",
+    "backToBoard": "← Drawing Board",
+    "viewOnly": "View only",
+    "saving": "Saving…",
+    "saved": "✓ Saved",
+    "saveFailed": "Save failed — try again",
+    "savedLocally": "Saved locally, waiting for network",
+    "syncToCloud": "Sync to cloud",
+    "save": "Save",
+    "by": "by",
+    "unknown": "Unknown"
+  },
+  "form": {
+    "newDiagram": "New Diagram",
+    "subtitle": "Name your diagram and choose who can view it. You'll be taken straight to the editor.",
+    "diagramTitle": "Diagram title",
+    "diagramTitleRequired": "Diagram title",
+    "diagramTitlePlaceholder": "e.g., Food System Map, Q2 Strategy, …",
+    "description": "Description",
+    "descriptionOptional": "Description",
+    "descriptionPlaceholder": "What is this diagram about?",
+    "whoCanView": "Who can view this diagram?",
+    "visibilityPublic": "Public — anyone, including visitors",
+    "visibilityRegistered": "Registered users only",
+    "visibilityCommunity": "Community members only",
+    "visibilityNote": "Only you can edit. Others with access can view.",
+    "visibilityNoteCommunity": " Community visibility requires active membership.",
+    "visibilityNoteNoCommunity": " Community visibility requires a linked community.",
+    "createAndOpen": "Create & open editor",
+    "creating": "Creating…",
+    "errorPrefix": "Something went wrong. Please try again."
+  },
+  "visibility": {
+    "PUBLIC": "Public",
+    "REGISTERED": "Members",
+    "MEMBERS_ONLY": "Members only",
+    "COMMUNITY": "Community",
+    "COMMUNITY_ONLY": "Community only"
+  },
+  "metadata": {
+    "newTitle": "New Diagram | Drawing Board",
+    "newDescription": "Create a new diagram on the Drawing Board."
+  },
+  "find": {
+    "title": "Community Systems Canvases",
+    "subtitle": "Collective sensemaking — from a felt sense that something is wrong to a shared map of what's producing it.",
+    "empty": "No canvases yet. Create the first one.",
+    "active": "Active",
+    "archived": "Archived"
+  },
+  "canvas": {
+    "create": "Create Canvas",
+    "edit": "Edit Canvas",
+    "title": "Title",
+    "description": "Description (optional)",
+    "archive": "Archive canvas",
+    "community": "Community (optional)"
+  },
+  "node": {
+    "add": "Add node",
+    "edit": "Edit node",
+    "delete": "Delete node",
+    "title": "Title",
+    "description": "Description (optional)",
+    "types": {
+      "PROBLEM": "Problem",
+      "PATTERN": "Pattern",
+      "ROOT_CAUSE": "Root Cause",
+      "SOLUTION_PATTERN": "Solution Pattern",
+      "INTERVENTION": "Intervention"
+    },
+    "typeDescriptions": {
+      "PROBLEM": "A concrete, observed issue grounded in specific experience",
+      "PATTERN": "The recurring dynamic behind multiple problems",
+      "ROOT_CAUSE": "Underlying structural or behavioral condition producing the pattern",
+      "SOLUTION_PATTERN": "A proven practice that addresses specific patterns",
+      "INTERVENTION": "A concrete experiment the community is running or has run"
+    }
+  },
+  "link": {
+    "add": "Add link",
+    "from": "From",
+    "to": "To",
+    "types": {
+      "CAUSES": "Causes",
+      "REINFORCES": "Reinforces",
+      "CONTRIBUTES_TO": "Contributes to",
+      "MITIGATES": "Mitigates",
+      "SOLVED_BY": "Solved by",
+      "RELATED_PATTERN": "Related pattern"
+    }
+  },
+  "diagnostic": {
+    "title": "Root Cause Diagnostic",
+    "subtitle": "Quick orientation questions to help locate root causes. These are conversation starters, not instruments.",
+    "decisionClarity": "How clear are decision-making roles to everyone affected? (1 = very unclear, 10 = crystal clear)",
+    "preDecisionDisagreement": "How much does disagreement surface before decisions are finalized? (1 = rarely, 10 = always)",
+    "coordinationAwareness": "How often do people act without knowing what others are doing? (1 = very often, 10 = rarely)",
+    "submit": "Run diagnostic"
+  },
+  "patterns": {
+    "title": "Pattern Library",
+    "subtitle": "Community-governed commons of proven practices. Context-dependent — what works in one community may not transfer.",
+    "propose": "Propose a pattern",
+    "proposedBy": "Proposed by {{name}}",
+    "edit": "Edit pattern",
+    "retire": "Retire pattern",
+    "status": {
+      "PROPOSED": "Proposed",
+      "VALIDATED": "Validated",
+      "RETIRED": "Retired"
+    },
+    "name": "Pattern name",
+    "category": "Category",
+    "applicableContexts": "Applicable contexts",
+    "requirements": "What it requires",
+    "limitations": "What it doesn't solve",
+    "examples": "Documented examples",
+    "categories": {
+      "GOVERNANCE": "Governance & Authority",
+      "DECISION_MAKING": "Decision-Making",
+      "COORDINATION": "Coordination & Flow",
+      "COMMUNICATION": "Communication & Transparency",
+      "TRUST_CONFLICT": "Trust & Conflict",
+      "RESOURCE": "Resource Allocation",
+      "ENGAGEMENT": "Community Engagement"
+    }
+  },
+  "intervention": {
+    "add": "Add intervention record",
+    "outcome": "Outcome",
+    "reflection": "What was tried, under what conditions, what happened, what you'd tell another community",
+    "outcomes": {
+      "TRYING": "Currently trying",
+      "HELPED": "Helped",
+      "DIDNT_HELP": "Didn't help",
+      "MADE_WORSE": "Made it worse"
+    }
+  },
+  "comment": {
+    "add": "Add comment",
+    "reply": "Reply",
+    "delete": "Delete",
+    "placeholder": "Comment on this node..."
+  },
+  "suggestions": {
+    "title": "Suggested patterns",
+    "subtitle": "Based on the problem or pattern you've described."
+  },
+  "contextMenu": {
+    "selectType": "Select node type",
+    "selectEntity": "Select entity type",
+    "selectState": "Select energy state",
+    "nodeTypes": {
+      "PROBLEM": "Problem",
+      "PATTERN": "Pattern",
+      "ROOT_CAUSE": "Root Cause",
+      "SOLUTION_PATTERN": "Solution Pattern",
+      "INTERVENTION": "Intervention"
+    }
+  },
+  "editSidebar": {
+    "editNode": "Edit Node",
+    "title": "Title",
+    "titlePlaceholder": "Node title",
+    "type": "Type",
+    "description": "Description",
+    "descriptionPlaceholder": "Add a description…",
+    "position": "Position",
+    "posX": "X",
+    "posY": "Y",
+    "links": "Links",
+    "noLinks": "No links",
+    "comments": "Comments",
+    "unknown": "Unknown",
+    "moreComments": "+{{count}} more comments",
+    "remove": "Remove",
+    "saving": "Saving...",
+    "deleteNode": "Delete Node",
+    "deleteConfirm": "Delete this node? This cannot be undone."
+  },
+  "keyboard": {
+    "add": "Press N to add",
+    "link": "Press L to link",
+    "undo": "Ctrl+Z to undo",
+    "redo": "Ctrl+Shift+Z to redo"
+  }
+}

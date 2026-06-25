@@ -1,0 +1,623 @@
+{
+  "metaTitle": "Glosario",
+  "metaDescription": "Conceptos clave del cambio social — arquetipos, mentalidades y términos fundamentales del ecosistema Changemappers.",
+  "categories": {
+    "all": "Todo",
+    "self": "Sí mismo",
+    "nature": "Naturaleza",
+    "others": "Otros",
+    "regenerative": "Principios Regenerativos",
+    "systems": "Pensamiento Sistémico",
+    "change": "Cambio"
+  },
+  "categoryDescriptions": {
+    "self": "Transformación Interior y Conciencia — construye la base interior para un liderazgo auténtico y resiliente.",
+    "nature": "Sabiduría Ecológica — reencuadra a los humanos como participantes en sistemas vivos.",
+    "others": "Dinámicas Relacionales y Sociales — fortalece la empatía, la comunidad y el poder colectivo.",
+    "regenerative": "Diseño de Sistemas Vivos — va más allá de la sostenibilidad hacia la curación activa y la abundancia.",
+    "systems": "Patrones Interconectados — revela cómo todo influye en todo lo demás.",
+    "change": "Transformación y Apalancamiento — te equipa para catalizar cambios profundos y duraderos."
+  },
+  "terms": {
+    "self-awareness": {
+      "term": "Autoconciencia",
+      "definition": "La capacidad de observar tus propios pensamientos, emociones, sesgos e impacto; esencial para evitar la proyección y liderar con claridad.",
+      "category": "self",
+      "emoji": "🪞"
+    },
+    "emotional-intelligence": {
+      "term": "Inteligencia Emocional (EQ)",
+      "definition": "Reconocer, entender y gestionar tus emociones y las de otros; clave para navegar la complejidad sin reactividad.",
+      "category": "self",
+      "emoji": "💝"
+    },
+    "self-regulation": {
+      "term": "Autorregulación",
+      "definition": "Gestionar impulsos y respuestas en alineación con valores; fundamental para la acción sostenida bajo presión.",
+      "category": "self",
+      "emoji": "⚖️"
+    },
+    "mindfulness": {
+      "term": "Atención Plena",
+      "definition": "Conciencia del momento presente sin juicio; cultiva la quietud interior necesaria para la percepción profunda.",
+      "category": "self",
+      "emoji": "🧘"
+    },
+    "shadow-work": {
+      "term": "Trabajo con la Sombra",
+      "definition": "Integrar partes reprimidas o inconscientes del ser; previene que patrones no examinados saboteen los esfuerzos de cambio.",
+      "category": "self",
+      "emoji": "🌘"
+    },
+    "presencing": {
+      "term": "Presencing",
+      "definition": "Estar completamente presente a lo que está emergiendo (Theory U); cambia de reaccionar a descargar el futuro.",
+      "category": "self",
+      "emoji": "✨"
+    },
+    "open-mind-heart-will": {
+      "term": "Mente/Corazón/Voluntad Abiertos",
+      "definition": "Tres capacidades (Theory U) para suspender el juicio, empatizar y soltar hacia la posibilidad.",
+      "category": "self",
+      "emoji": "🌀"
+    },
+    "individuation": {
+      "term": "Individuación",
+      "definition": "Proceso junguiano de volverse completo integrando opuestos; fomenta un propósito auténtico.",
+      "category": "self",
+      "emoji": "🔮"
+    },
+    "growth-mindset": {
+      "term": "Mentalidad de Crecimiento",
+      "definition": "Creer que las habilidades pueden desarrollarse; alimenta el aprendizaje continuo y la resiliencia en el hacer-cambio.",
+      "category": "self",
+      "emoji": "🌱"
+    },
+    "vulnerability": {
+      "term": "Vulnerabilidad",
+      "definition": "Disposición a ser visto como imperfecto; construye confianza y permite la conexión verdadera.",
+      "category": "self",
+      "emoji": "💫"
+    },
+    "somatic-awareness": {
+      "term": "Conciencia Somática",
+      "definition": "Sintonizar con las señales del cuerpo; fundamenta la intuición y previene el agotamiento.",
+      "category": "self",
+      "emoji": "🫀"
+    },
+    "metacognition": {
+      "term": "Metacognición",
+      "definition": "Pensar sobre tu pensamiento; revela modelos mentales que dan forma a las decisiones.",
+      "category": "self",
+      "emoji": "🧠"
+    },
+    "personal-purpose-alignment": {
+      "term": "Alineación con el Propósito Personal",
+      "definition": "Clarificar tu único \"por qué\"; ancla toda acción en motivación intrínseca.",
+      "category": "self",
+      "emoji": "🎯"
+    },
+    "active-hope": {
+      "term": "Esperanza Activa",
+      "definition": "Práctica de Joanna Macy de reconocer el duelo mientras se compromete a la acción; sostiene el trabajo de cambio a largo plazo.",
+      "category": "self",
+      "emoji": "🌅"
+    },
+    "self-compassion": {
+      "term": "Autocompasión",
+      "definition": "Tratarte con amabilidad durante la lucha; previene el agotamiento activista.",
+      "category": "self",
+      "emoji": "💚"
+    },
+    "reflexivity": {
+      "term": "Reflexividad",
+      "definition": "Autoexaminación continua de tu rol en los sistemas; permite la evolución personal.",
+      "category": "self",
+      "emoji": "🔄"
+    },
+    "ego-dissolution": {
+      "term": "Disolución del Ego",
+      "definition": "Liberación temporal de la ilusión del ser separado; abre la conciencia no dual para la percepción colectiva.",
+      "category": "self",
+      "emoji": "🌊"
+    },
+    "biodiversity": {
+      "term": "Biodiversidad",
+      "definition": "Variedad de vida a todas las escalas; la base de la salud y resiliencia del ecosistema.",
+      "category": "nature",
+      "emoji": "🦋"
+    },
+    "ecosystem": {
+      "term": "Ecosistema",
+      "definition": "Componentes vivos y no vivos que interactúan; enseña la interdependencia holística.",
+      "category": "nature",
+      "emoji": "🌿"
+    },
+    "ecological-resilience": {
+      "term": "Resiliencia Ecológica",
+      "definition": "Capacidad de los ecosistemas para absorber disturbios y reorganizarse; modelo para sistemas humanos.",
+      "category": "nature",
+      "emoji": "🔄"
+    },
+    "symbiosis": {
+      "term": "Simbiosis / Mutualismo",
+      "definition": "Relaciones mutuamente beneficiosas; estrategia central de la naturaleza para prosperar.",
+      "category": "nature",
+      "emoji": "🤝"
+    },
+    "nutrient-cycles": {
+      "term": "Ciclos de Nutrientes",
+      "definition": "Flujos de circuito cerrado de energía y materia; inspira diseño sin residuos.",
+      "category": "nature",
+      "emoji": "♻️"
+    },
+    "biomimicry": {
+      "term": "Biomimética",
+      "definition": "Emular conscientemente los 3.800 millones de años de estrategias probadas de la naturaleza.",
+      "category": "nature",
+      "emoji": "🔬"
+    },
+    "lifes-principles": {
+      "term": "Principios de la Vida",
+      "definition": "Patrones generales de la biomimética (evolucionar, adaptar, sintonizar localmente, etc.); referencias de diseño para regeneración.",
+      "category": "nature",
+      "emoji": "📐"
+    },
+    "waste-equals-food": {
+      "term": "Residuo = Alimento",
+      "definition": "Cada salida se convierte en entrada para otro proceso (Cradle to Cradle); elimina el pensamiento lineal.",
+      "category": "nature",
+      "emoji": "🔄"
+    },
+    "keystone-species": {
+      "term": "Especies Clave",
+      "definition": "Especies que apoyan desproporcionadamente la función del ecosistema; los humanos pueden elegir convertirse en una.",
+      "category": "nature",
+      "emoji": "🗝️"
+    },
+    "mycorrhizal-networks": {
+      "term": "Redes Micorrízicas",
+      "definition": "Red fúngica subterránea \"web amplia de madera\"; metáfora de la inteligencia relacional invisible.",
+      "category": "nature",
+      "emoji": "🍄"
+    },
+    "ecological-succession": {
+      "term": "Sucesión Ecológica",
+      "definition": "Progresión natural hacia mayor complejidad y estabilidad.",
+      "category": "nature",
+      "emoji": "🌲"
+    },
+    "gaia-hypothesis": {
+      "term": "Hipótesis Gaia",
+      "definition": "La Tierra como sistema vivo autorregulador; cambia la visión del mundo de mecánica a viva.",
+      "category": "nature",
+      "emoji": "🌍"
+    },
+    "carrying-capacity": {
+      "term": "Capacidad de Carga",
+      "definition": "Población máxima sostenible que un sistema puede soportar; nos recuerda los límites.",
+      "category": "nature",
+      "emoji": "📊"
+    },
+    "rewilding": {
+      "term": "Resilvestración",
+      "definition": "Restaurar procesos silvestres autosostenibles; sana paisajes y psiques degradados.",
+      "category": "nature",
+      "emoji": "🐺"
+    },
+    "soil-health": {
+      "term": "Salud del Suelo",
+      "definition": "Suelo vivo y rico en carbono como base de toda vida terrestre; estrella polar de la agricultura regenerativa.",
+      "category": "nature",
+      "emoji": "🌱"
+    },
+    "agroecology": {
+      "term": "Agroecología",
+      "definition": "Ciencia + movimiento que imita ecosistemas naturales mientras alimenta personas justamente.",
+      "category": "nature",
+      "emoji": "🌾"
+    },
+    "agroforestry": {
+      "term": "Agroforestería",
+      "definition": "Integrar árboles con cultivos/animales; crea sistemas alimentarios en capas y resilientes.",
+      "category": "nature",
+      "emoji": "🌳"
+    },
+    "empathy": {
+      "term": "Empatía",
+      "definition": "Sentir con otro; requisito previo para la conexión genuina y la justicia.",
+      "category": "others",
+      "emoji": "💜"
+    },
+    "nvc": {
+      "term": "Comunicación No Violenta (CNV)",
+      "definition": "Proceso de Marshall Rosenberg de observaciones, sentimientos, necesidades, peticiones; transforma el conflicto.",
+      "category": "others",
+      "emoji": "🕊️"
+    },
+    "universal-human-needs": {
+      "term": "Necesidades Humanas Universales",
+      "definition": "Necesidades básicas compartidas (conexión, autonomía, etc.) bajo todas las estrategias.",
+      "category": "others",
+      "emoji": "💛"
+    },
+    "empathic-connection": {
+      "term": "Conexión Empática",
+      "definition": "Contacto psicológico corazón a corazón; la verdadera meta de la comunicación.",
+      "category": "others",
+      "emoji": "🫂"
+    },
+    "interdependence": {
+      "term": "Interdependencia",
+      "definition": "Necesitamos unos de otros para prosperar; contrarresta el individualismo.",
+      "category": "others",
+      "emoji": "🕸️"
+    },
+    "reciprocity": {
+      "term": "Reciprocidad",
+      "definition": "Dar y recibir en equilibrio; construye confianza y tejido social.",
+      "category": "others",
+      "emoji": "⚖️"
+    },
+    "belonging": {
+      "term": "Pertenencia",
+      "definition": "Sentido profundo de ser valorado en un grupo; antídoto al aislamiento.",
+      "category": "others",
+      "emoji": "🏠"
+    },
+    "social-capital": {
+      "term": "Capital Social",
+      "definition": "Redes de confianza y reciprocidad; acelera la acción colectiva.",
+      "category": "others",
+      "emoji": "🔗"
+    },
+    "collective-intelligence": {
+      "term": "Inteligencia Colectiva",
+      "definition": "Sabiduría grupal mayor que la suma de las partes; emerge en diálogo seguro.",
+      "category": "others",
+      "emoji": "🧠"
+    },
+    "generative-dialogue": {
+      "term": "Diálogo Generativo",
+      "definition": "Conversación que crea nueva comprensión en lugar de debate.",
+      "category": "others",
+      "emoji": "💬"
+    },
+    "conflict-transformation": {
+      "term": "Transformación de Conflictos",
+      "definition": "Convertir diferencias en energía creativa en lugar de supresión.",
+      "category": "others",
+      "emoji": "⚡"
+    },
+    "trust-building": {
+      "term": "Construcción de Confianza",
+      "definition": "Actos acumulativos de fiabilidad y vulnerabilidad.",
+      "category": "others",
+      "emoji": "🤝"
+    },
+    "community-of-practice": {
+      "term": "Comunidad de Práctica",
+      "definition": "Aprendizaje grupal y evolución juntos a través de práctica compartida.",
+      "category": "others",
+      "emoji": "👥"
+    },
+    "co-creation": {
+      "term": "Co-creación",
+      "definition": "Emergencia colaborativa de soluciones; honra dones diversos.",
+      "category": "others",
+      "emoji": "🎨"
+    },
+    "relational-intelligence": {
+      "term": "Inteligencia Relacional",
+      "definition": "Navegación hábil de las relaciones humanas como sistemas vivos.",
+      "category": "others",
+      "emoji": "🌊"
+    },
+    "compassionate-action": {
+      "term": "Acción Compasiva",
+      "definition": "Empatía traducida en ayuda efectiva sin agotamiento.",
+      "category": "others",
+      "emoji": "💝"
+    },
+    "inclusion-equity": {
+      "term": "Inclusión y Equidad",
+      "definition": "Asegurar que la voz y necesidades de todos moldeen los resultados.",
+      "category": "others",
+      "emoji": "🌈"
+    },
+    "earth-care-people-care-fair-share": {
+      "term": "Cuidar la Tierra, Cuidar a las Personas, Compartir Equitativamente",
+      "definition": "Las tres éticas de la permacultura; orientación fundamental.",
+      "category": "regenerative",
+      "emoji": "🌍"
+    },
+    "observe-and-interact": {
+      "term": "Observar e Interactuar",
+      "definition": "Primer principio de permacultura; escucha profunda antes de actuar.",
+      "category": "regenerative",
+      "emoji": "👁️"
+    },
+    "catch-and-store-energy": {
+      "term": "Capturar y Almacenar Energía",
+      "definition": "Capturar abundancia cuando está disponible para tiempos escasos.",
+      "category": "regenerative",
+      "emoji": "☀️"
+    },
+    "produce-no-waste": {
+      "term": "No Producir Residuos",
+      "definition": "Todo es un recurso; cierra los ciclos.",
+      "category": "regenerative",
+      "emoji": "♻️"
+    },
+    "use-and-value-diversity": {
+      "term": "Usar y Valorar la Diversidad",
+      "definition": "La resiliencia emerge de la variedad.",
+      "category": "regenerative",
+      "emoji": "🌈"
+    },
+    "integrate-rather-than-segregate": {
+      "term": "Integrar en Lugar de Segregar",
+      "definition": "Las relaciones crean valor; apila funciones.",
+      "category": "regenerative",
+      "emoji": "🔗"
+    },
+    "use-small-and-slow-solutions": {
+      "term": "Usar Soluciones Pequeñas y Lentas",
+      "definition": "Comienza modestamente, escala lo que funciona.",
+      "category": "regenerative",
+      "emoji": "🐢"
+    },
+    "creatively-use-and-respond-to-change": {
+      "term": "Usar y Responder Creativamente al Cambio",
+      "definition": "Abraza la evolución como oportunidad.",
+      "category": "regenerative",
+      "emoji": "🌀"
+    },
+    "holism-holons": {
+      "term": "Holismo / Holones",
+      "definition": "Todo es un todo y una parte; realidad anidada.",
+      "category": "regenerative",
+      "emoji": "🪆"
+    },
+    "reciprocity-regenerative": {
+      "term": "Reciprocidad (Regenerativa)",
+      "definition": "Devolver más de lo que tomas de los sistemas vivos.",
+      "category": "regenerative",
+      "emoji": "⚖️"
+    },
+    "closed-loops": {
+      "term": "Ciclos Cerrados / Circular",
+      "definition": "Imitar los ciclos sin fin de la naturaleza.",
+      "category": "regenerative",
+      "emoji": "🔄"
+    },
+    "place-based-design": {
+      "term": "Diseño Basado en el Lugar",
+      "definition": "Soluciones arraigadas en el contexto y cultura locales.",
+      "category": "regenerative",
+      "emoji": "📍"
+    },
+    "antifragility": {
+      "term": "Antifragilidad",
+      "definition": "Sistemas que mejoran bajo estrés.",
+      "category": "regenerative",
+      "emoji": "💪"
+    },
+    "regeneration": {
+      "term": "Regeneración",
+      "definition": "Aumentar activamente la vida, el suelo, la biodiversidad y el bienestar.",
+      "category": "regenerative",
+      "emoji": "🌱"
+    },
+    "land-stewardship": {
+      "term": "Custodia de la Tierra",
+      "definition": "Cuidar la tierra como un fideicomiso vivo, no como mercancía.",
+      "category": "regenerative",
+      "emoji": "🌾"
+    },
+    "perpetual-commons": {
+      "term": "Bienes Comunes Perpetuos",
+      "definition": "Tierra en fideicomiso para siempre para la comunidad y la naturaleza.",
+      "category": "regenerative",
+      "emoji": "🏛️"
+    },
+    "guardians-of-nature": {
+      "term": "Guardianes de la Naturaleza",
+      "definition": "Representar los derechos de los ecosistemas en las decisiones.",
+      "category": "regenerative",
+      "emoji": "🌿"
+    },
+    "interconnectedness": {
+      "term": "Interconexión",
+      "definition": "Nada existe en aislamiento; cambio de mentalidad fundamental.",
+      "category": "systems",
+      "emoji": "🕸️"
+    },
+    "emergence": {
+      "term": "Emergencia",
+      "definition": "Propiedades novedosas surgen de las interacciones, no solo de las partes.",
+      "category": "systems",
+      "emoji": "✨"
+    },
+    "feedback-loops": {
+      "term": "Ciclos de Retroalimentación",
+      "definition": "Ciclos reforzadores (crecimiento) y de equilibrio (estabilidad) que impulsan el comportamiento.",
+      "category": "systems",
+      "emoji": "🔄"
+    },
+    "leverage-points": {
+      "term": "Puntos de Apalancamiento",
+      "definition": "Los 12 lugares de Donella Meadows para intervenir con gran cambio.",
+      "category": "systems",
+      "emoji": "🎯"
+    },
+    "system-boundaries": {
+      "term": "Límites del Sistema",
+      "definition": "Elegir qué está \"dentro\" vs. \"fuera\" da forma a lo que ves.",
+      "category": "systems",
+      "emoji": "🔲"
+    },
+    "system-purpose": {
+      "term": "Propósito del Sistema",
+      "definition": "El impulsor más profundo del comportamiento; a menudo no declarado.",
+      "category": "systems",
+      "emoji": "🧭"
+    },
+    "synthesis": {
+      "term": "Síntesis",
+      "definition": "Entender todos y relaciones, no solo descomponer en partes.",
+      "category": "systems",
+      "emoji": "🔮"
+    },
+    "iceberg-model": {
+      "term": "Modelo del Iceberg",
+      "definition": "Eventos → patrones → estructuras → modelos mentales.",
+      "category": "systems",
+      "emoji": "🧊"
+    },
+    "mental-models": {
+      "term": "Modelos Mentales",
+      "definition": "Supuestos profundos que gobiernan los sistemas; cámbialos para cambiar todo.",
+      "category": "systems",
+      "emoji": "🧠"
+    },
+    "complex-adaptive-systems": {
+      "term": "Sistemas Adaptativos Complejos",
+      "definition": "Sistemas vivos que aprenden y evolucionan.",
+      "category": "systems",
+      "emoji": "🧬"
+    },
+    "homeostasis": {
+      "term": "Homeostasis",
+      "definition": "Tendencia a resistir el cambio; explica por qué los sistemas permanecen atascados.",
+      "category": "systems",
+      "emoji": "⚖️"
+    },
+    "stocks-and-flows": {
+      "term": "Existencias y Flujos",
+      "definition": "Acumulaciones y tasas que crean dinámicas.",
+      "category": "systems",
+      "emoji": "📊"
+    },
+    "delays": {
+      "term": "Retrasos",
+      "definition": "Lagunas de tiempo entre acción y efecto; fuente común de sobre-paso.",
+      "category": "systems",
+      "emoji": "⏳"
+    },
+    "system-archetypes": {
+      "term": "Arquetipos de Sistema",
+      "definition": "Patrones recurrentes (ej. límites al crecimiento, tragedia de los comunes).",
+      "category": "systems",
+      "emoji": "📚"
+    },
+    "stip-principles": {
+      "term": "Relacional / Perspectiva / Adaptativo STiP",
+      "definition": "Tres principios del pensamiento sistémico en práctica.",
+      "category": "systems",
+      "emoji": "🔺"
+    },
+    "whole-systems-view": {
+      "term": "Visión de Sistemas Integrales",
+      "definition": "Ver el bosque, los árboles y las relaciones simultáneamente.",
+      "category": "systems",
+      "emoji": "🌳"
+    },
+    "nested-systems": {
+      "term": "Sistemas Anidados",
+      "definition": "Sistemas dentro de sistemas; la escala importa.",
+      "category": "systems",
+      "emoji": "🪆"
+    },
+    "tipping-points": {
+      "term": "Puntos de Inflexión",
+      "definition": "Umbrales donde pequeños cambios causan desplazamientos rápidos e irreversibles.",
+      "category": "change",
+      "emoji": "⚡"
+    },
+    "transformation": {
+      "term": "Transformación",
+      "definition": "Cambio fundamental en la identidad y reglas del sistema (vs. reforma incremental).",
+      "category": "change",
+      "emoji": "🌀"
+    },
+    "theory-u-process": {
+      "term": "Proceso Theory U",
+      "definition": "Sensar → presencing → cristalizar → prototipar → ejecutar.",
+      "category": "change",
+      "emoji": "🛤️"
+    },
+    "prototyping": {
+      "term": "Prototipado",
+      "definition": "Experimentos rápidos y de bajo riesgo para aprender lo que quiere emerger.",
+      "category": "change",
+      "emoji": "🔬"
+    },
+    "co-sensing-co-creating": {
+      "term": "Co-sentir / Co-crear",
+      "definition": "Descubrimiento colectivo y moldeado del futuro.",
+      "category": "change",
+      "emoji": "🤝"
+    },
+    "systemic-leverage": {
+      "term": "Apalancamiento Sistémico",
+      "definition": "Apuntar a intervenciones de alto impacto.",
+      "category": "change",
+      "emoji": "🎯"
+    },
+    "positive-disruption": {
+      "term": "Disrupción Positiva",
+      "definition": "Rupturas intencionales en patrones dañinos.",
+      "category": "change",
+      "emoji": "💥"
+    },
+    "adaptive-capacity": {
+      "term": "Capacidad Adaptativa",
+      "definition": "Habilidad para ajustarse y prosperar en medio de la incertidumbre.",
+      "category": "change",
+      "emoji": "🌊"
+    },
+    "scaling-deep-wide-out": {
+      "term": "Escalar en Profundidad/Amplitud/Salida",
+      "definition": "Cambios internos, replicación y difusión cultural.",
+      "category": "change",
+      "emoji": "📈"
+    },
+    "regenerative-change": {
+      "term": "Cambio Regenerativo",
+      "definition": "Cambio que deja a los sistemas más saludables que antes.",
+      "category": "change",
+      "emoji": "🌱"
+    },
+    "butterfly-effect": {
+      "term": "Efecto Mariposa",
+      "definition": "Pequeñas acciones en sistemas complejos pueden tener impacto desproporcionado.",
+      "category": "change",
+      "emoji": "🦋"
+    },
+    "agency": {
+      "term": "Agencia (Individual y Colectiva)",
+      "definition": "Poder y libertad para actuar significativamente.",
+      "category": "change",
+      "emoji": "✊"
+    },
+    "evolutionary-leadership": {
+      "term": "Liderazgo Evolutivo",
+      "definition": "Liderar de formas que evolucionan la conciencia misma.",
+      "category": "change",
+      "emoji": "🧭"
+    },
+    "futures-thinking": {
+      "term": "Pensamiento de Futuros",
+      "definition": "Explorar múltiples futuros plausibles para informar acción más sabia.",
+      "category": "change",
+      "emoji": "🔮"
+    },
+    "continuous-reflexivity": {
+      "term": "Reflexividad Continua",
+      "definition": "Cuestionamiento continuo de supuestos durante el cambio; previene nuevos dogmas.",
+      "category": "change",
+      "emoji": "🔄"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "title": "Iniciativas",
+  "board": {
+    "states": {
+      "imagined": "Imaginado",
+      "exploring": "Explorando",
+      "planned": "Planificado",
+      "inProgress": "En Progreso",
+      "integrating": "Integrando",
+      "completed": "Completado"
+    },
+    "cardOptions": "Opciones de tarjeta",
+    "viewDetails": "Ver Detalles",
+    "edit": "Editar",
+    "archive": "Archivar",
+    "update": "actualización",
+    "updates": "actualizaciones",
+    "retrospective": "Retrospectiva",
+    "dragToReorder": "Arrastra para reordenar",
+    "dropHere": "Suelta aquí",
+    "addInitiative": "Añadir iniciativa",
+    "archivedViaKanban": "Archivado vía tablero kanban",
+    "role": "rol",
+    "roles": "roles",
+    "noInitiatives": "Sin iniciativas",
+    "age": {
+      "y": "a",
+      "mo": "m",
+      "w": "s",
+      "d": "d",
+      "h": "h"
+    }
+  },
+  "backlog": "Lista de Espera",
+  "startInitiative": "Iniciar iniciativa",
+  "resonance": "resonancia",
+  "initiativeNotFound": "Iniciativa no encontrada",
+  "backToBoard": "Volver al tablero",
+  "roles": "Roles",
+  "updates": "Actualizaciones",
+  "startAnInitiative": "Iniciar una Iniciativa",
+  "nameTheChange": "Nombra el cambio que estás organizando",
+  "initiativeIntro": "Las iniciativas empiezan como imaginación y avanzan hacia la acción.",
+  "metrics": "Métricas",
+  "metricsSubtitle": "Métricas Lean y análisis de rendimiento",
+  "metaTitle": "Iniciar una iniciativa | Changemappers",
+  "backlogEmpty": "La lista de espera está vacía. Añade ideas para ver qué resuena.",
+  "statuses": {
+    "imagined": "Imaginado",
+    "exploring": "Explorando",
+    "planned": "Planificado",
+    "inProgress": "En Progreso",
+    "integrating": "Integrando",
+    "completed": "Completado",
+    "backlog": "Lista de Espera"
+  },
+  "actions": {
+    "startInitiative": "Iniciar Iniciativa",
+    "backToBoard": "Volver al Tablero",
+    "back": "Atrás"
+  },
+  "labels": {
+    "roles": "Roles",
+    "updates": "Actualizaciones",
+    "resonance": "Resonancia",
+    "metrics": "Métricas"
+  },
+  "messages": {
+    "initiativeNotFound": "Iniciativa no encontrada",
+    "theBacklogIsEmpty": "La lista de espera está vacía",
+    "startAnInitiative": "Iniciar una iniciativa",
+    "nameTheChange": "Nombra el cambio"
+  },
+  "boardTypes": {
+    "personalBoard": "Tablero Personal",
+    "communityBoard": "Tablero Comunitario",
+    "internationalBoard": "Tablero Internacional"
+  },
+  "backlogSubtitle": "Ideas ordenadas por {{resonance}} comunitaria.",
+  "backlogBy": "por {{name}}",
+  "showGlobalBacklog": "Mostrar backlog global",
+  "showingAllIdeas": "Mostrando todas las ideas comunitarias y globales",
+  "communityBacklogSubtitle": "Ideas comunitarias ordenadas por resonancia.",
+  "allBacklogSubtitle": "Todas las ideas ordenadas por resonancia comunitaria.",
+  "backlogByPrefix": "por"
+}

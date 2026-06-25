@@ -1,0 +1,1078 @@
+{
+  "profile": {
+    "tabs": {
+      "profile": "Profile",
+      "rdg": "RDG",
+      "activity": "Activity",
+      "settings": "Account and Privacy",
+      "advanced": "Advanced",
+      "invite": "Invite",
+      "security": "Security"
+    },
+    "settings": {
+      "deleteAccountTitle": "Delete account",
+      "deleteConfirmKeyword": "DELETE",
+      "deleteConfirmLabel": "To confirm, type:",
+      "deleteConfirmError": "Please type the confirmation word",
+      "deleteAccountConfirmButton": "Permanently delete account",
+      "gdprTitle": "Data management (GDPR)",
+      "notificationsTitle": "Email notifications",
+      "notificationsDesc": "Receive a daily digest when you have unread messages.",
+      "notificationsEnabled": "Email digest enabled",
+      "notificationsDisabled": "Email digest disabled",
+      "notificationsSaving": "Saving…",
+      "notificationsSaved": "Saved"
+    },
+    "page": {
+      "completenessTitle": "Profile {{percentage}}% complete",
+      "completenessHint": "Click to see missing items",
+      "completenessTooltip": "Click for profile completion tasks",
+      "noBio": "No introduction yet",
+      "website": "Website",
+      "notSet": "Not set yet",
+      "retakeTest": "Retake test",
+      "assessLevel": "Assess level",
+      "editRdg": "Edit",
+      "rdgTitle": "Regenerative Development Goals (RDG)",
+      "rdgSelectCTA": "Select RDG Goals",
+      "rdgHint": "Which development goals resonate most with you?",
+      "mainCommunity": "Main community",
+      "intentionsTitle": "Intentions & Availability",
+      "currentFocus": "Current focus",
+      "enjoysTitle": "What they enjoy doing",
+      "collaborationTitle": "Collaboration formats",
+      "remoteCapable": "Open to online / remote collaboration",
+      "constraintsTitle": "Boundaries / Capacity",
+      "fediverseSectionTitle": "Public visibility & fediverse",
+      "gdprDesc": "The data export contains all your personal data. Account deletion is irreversible.",
+      "signedExportBtn": "Signed P2P export",
+      "signedExportLoading": "Exporting...",
+      "deleteAccountBtn": "Delete account",
+      "localNetworkTitle": "Local network peers",
+      "localNetworkDesc": "mDNS discovery is active when running locally; returns an empty list in cloud environments.",
+      "localNetworkEmpty": "No local Changemappers instance discovered.",
+      "experimentalFeaturesTitle": "Experimental Features",
+      "experimentalFeaturesDesc": "These features are experimental and can be toggled on/off individually.",
+      "experimentalFeatureOptIn": "Opt-in (default off)",
+      "experimentalFeatureOptOut": "Opt-out (default on)",
+      "experimentalFeaturesError": "Failed to update experimental feature preferences.",
+      "routeOverridesTitle": "Feature Visibility",
+      "routeOverridesEmpty": "No admin-hidden features that you could re-enable.",
+      "routeOverridesCardTitle": "Re-enableable Features",
+      "routeOverridesDesc": "These features are hidden by default but you can re-enable them.",
+      "routeEnabled": "Enabled",
+      "routeDisabled": "Disabled",
+      "savingLabel": "Saving...",
+      "saveSettings": "Save Settings",
+      "savedConfirmation": "✓ Saved",
+      "signedExportError": "Failed to create signed export",
+      "deleteIrreversible": "This action is <strong>irreversible</strong>.",
+      "deleteBullet1": "Personal data, profile photo, bio",
+      "deleteBullet2": "Contact details and location",
+      "deleteBullet3": "Skills, values, competencies"
+    },
+    "connected": "✓ Connected",
+    "pendingSent": "⏳ Request sent",
+    "pendingReceived": "⏳ Request received",
+    "errorLoading": "Unable to load profile",
+    "noOffers": "None specified",
+    "noNeeds": "None specified",
+    "security": {
+      "title": "Security",
+      "passwordTitle": "Change password",
+      "passwordDescription": "Update the password used for email/password login. Use at least 12 characters, with upper and lower case letters, a number, and a symbol.",
+      "currentPassword": "Current password",
+      "newPassword": "New password",
+      "confirmPassword": "Confirm new password",
+      "currentPasswordPlaceholder": "Enter your current password",
+      "newPasswordPlaceholder": "Enter a stronger password",
+      "confirmPasswordPlaceholder": "Repeat the new password",
+      "submit": "Change password",
+      "saving": "Changing...",
+      "success": "Password changed successfully.",
+      "mismatch": "The new passwords do not match.",
+      "genericError": "Could not change password."
+    }
+  },
+  "individual": {
+    "title": "Profile",
+    "editProfile": "Edit Profile",
+    "viewProfile": "View Profile",
+    "exportData": "Download My Data (JSON)",
+    "basicInfo": {
+      "title": "Basic Info",
+      "name": "Name",
+      "displayName": "Display name",
+      "bio": "Introduction",
+      "bioPlaceholder": "Tell us about yourself...",
+      "pronouns": "Pronouns",
+      "location": "Location",
+      "motto": "Motto",
+      "timezone": "Timezone",
+      "organizationName": "Organization name",
+      "organizationDescription": "Organization or project description",
+      "joined": "Joined",
+      "memberSince": "Member since {{date}}"
+    },
+    "archetypes": {
+      "title": "Changemappers Archetypes",
+      "notSet": "Not set yet",
+      "takeQuiz": "Take the quiz",
+      "localpractitioner": "Local Practitioner",
+      "localpractitionerDesc": "Works directly in the local community, on the front lines.",
+      "networkweaver": "Network Weaver",
+      "networkweaverDesc": "Builds connections between individuals, organizations and sectors.",
+      "institutionalchangemaker": "Institutional Changemaker",
+      "institutionalchangemakerDesc": "Initiates change from within institutions.",
+      "globalamplifier": "Global Amplifier",
+      "globalamplifierDesc": "Amplifies the voice of initiatives to a wide audience.",
+      "resourcemobilizer": "Resource Mobilizer",
+      "resourcemobilizerDesc": "Secures the resources needed for projects.",
+      "innovationcatalyst": "Innovation Catalyst",
+      "innovationcatalystDesc": "Develops new approaches and tools.",
+      "systemdisruptor": "System Disruptor",
+      "systemdisruptorDesc": "Points to system flaws and forces new thinking.",
+      "strategicadvisor": "Strategic Advisor",
+      "strategicadvisorDesc": "Creates vision and provides professional guidance.",
+      "mycelium": "Mycelium",
+      "myceliumDesc": "Quietly builds underground networks, connecting people and resources invisibly.",
+      "keystone": "Keystone",
+      "keystoneDesc": "A pivotal figure whose presence holds the ecosystem together.",
+      "pollinator": "Pollinator",
+      "pollinatorDesc": "Carries ideas and energy across contexts, cross-fertilising movements.",
+      "prism": "Prism",
+      "prismDesc": "Refracts complexity into clarity, making the invisible visible.",
+      "compost": "Compost",
+      "compostDesc": "Transforms what has broken down into fertile ground for new growth.",
+      "sentinel": "Sentinel",
+      "sentinelDesc": "Guards boundaries, monitors systems, and sounds the alarm when needed.",
+      "alchemist": "Alchemist",
+      "alchemistDesc": "Transforms raw challenges into creative breakthroughs and new forms.",
+      "canopy": "Canopy",
+      "canopyDesc": "Provides shelter, resources, and conditions for others to thrive beneath.",
+      "spark": "Spark",
+      "sparkDesc": "Ignites action where there was stagnation; catalyses rapid change.",
+      "echo": "Echo",
+      "echoDesc": "Amplifies voices and stories that need to be heard more widely.",
+      "tide": "Tide",
+      "tideDesc": "Creates rhythmic, powerful waves of change that reshape the shoreline.",
+      "horizon": "Horizon",
+      "horizonDesc": "Holds the long view, guiding collective direction toward a regenerative future."
+    },
+    "changemakeLevel": {
+      "title": "Futuremaker level",
+      "subtitle": "Where are you on your futuremaker journey?",
+      "phases": {
+        "inertia": "Phase I: Inertia and Awakening",
+        "inertiaFocus": "Focus: myself",
+        "activation": "Phase II: Activation and Connection",
+        "activationFocus": "Focus: my community",
+        "systemic": "Phase III: Systemic and Global Impact",
+        "systemicFocus": "Focus: my journey"
+      },
+      "level0": {
+        "name": "Passive Observer",
+        "description": "You are completely untouched by social issues. You operate automatically, focusing on immediate survival or personal comfort.",
+        "quality": "Apathy",
+        "mindset": "\"This is not my problem.\""
+      },
+      "level1": {
+        "name": "Passive Empathizer",
+        "description": "You are aware of problems (climate, inequality). You feel bad when you see them in the news but haven't yet changed your behavior.",
+        "quality": "Latent empathy",
+        "mindset": "\"I wish someone would solve this.\""
+      },
+      "level2": {
+        "name": "Conscious Consumer",
+        "description": "You begin aligning your personal habits with your values. You recycle, buy fair trade, reduce consumption. You are changing yourself.",
+        "quality": "Personal responsibility",
+        "mindset": "\"I'm doing my part.\""
+      },
+      "level3": {
+        "name": "Vocal Advocate",
+        "description": "You no longer stay silent. You share information, educate your friends and family. You are willing to be socially uncomfortable for a cause.",
+        "quality": "Courageous communication",
+        "mindset": "\"People need to know about this.\""
+      },
+      "level4": {
+        "name": "Local Organizer",
+        "description": "You move from talking to collective action. You organize a neighborhood cleanup, a workplace committee or volunteer. You bring people together.",
+        "quality": "Community building",
+        "mindset": "\"Together we are stronger.\""
+      },
+      "level5": {
+        "name": "Solution Innovator",
+        "description": "You don't wait for existing systems to work — you build a new micro-solution. This could be an app, a social enterprise or a new method. You prototype the future.",
+        "quality": "Creative problem solving",
+        "mindset": "\"There must be a better way, and I'll build it.\""
+      },
+      "level6": {
+        "name": "Strategic Scaler",
+        "description": "You have a proven solution and now you scale it. You lead an organization or movement that replicates success. You manage resources and people.",
+        "quality": "Operational leadership",
+        "mindset": "\"How do we reach the most people effectively?\""
+      },
+      "level7": {
+        "name": "Systems Thinker",
+        "description": "You don't treat symptoms, you attack root causes. You analyze policy, economics and incentives. You change laws or corporate structures.",
+        "quality": "Seeing connections",
+        "mindset": "\"We need to fix the machine, not just the product.\""
+      },
+      "level8": {
+        "name": "Paradigm Shifter",
+        "description": "You work at the level of mindsets and culture. You introduce regenerative thinking — moving beyond sustainability toward restorative systems.",
+        "quality": "Regenerative wisdom",
+        "mindset": "\"We need to shift from extraction to restoration.\""
+      },
+      "level9": {
+        "name": "Global Catalyst",
+        "description": "You lead change efforts across borders. You unite diverse global coalitions to address humanity's existential challenges.",
+        "quality": "Global consciousness",
+        "mindset": "\"We live on one planet; crises have no borders.\""
+      }
+    },
+    "interests": {
+      "title": "Interests",
+      "add": "Add interest",
+      "permaculture": "Permaculture",
+      "transition": "Transition initiatives",
+      "activism": "Activism",
+      "ecovillage": "Ecovillages",
+      "sustainability": "Sustainability",
+      "community": "Community building",
+      "regenerative": "Regenerative practices",
+      "education": "Education",
+      "art": "Art and culture",
+      "technology": "Appropriate technology",
+      "food": "Food systems",
+      "health": "Health & wellbeing",
+      "governance": "Community governance",
+      "economics": "Alternative economics"
+    },
+    "values": {
+      "title": "Values",
+      "add": "Add value"
+    },
+    "skills": {
+      "title": "Skills",
+      "offered": "What I offer",
+      "seeking": "What I seek",
+      "add": "Add skill"
+    },
+    "seeking": {
+      "title": "What are you looking for?",
+      "connections": "Connections",
+      "romance": "Romantic relationship",
+      "coFounders": "Co-founders",
+      "support": "Support",
+      "community": "Community",
+      "advice": "Advice",
+      "funding": "Funding",
+      "partners": "Partners",
+      "mentoring": "Mentoring",
+      "space": "Space",
+      "volunteers": "Volunteers",
+      "visibility": "Visibility"
+    },
+    "offers": {
+      "title": "What can you offer?",
+      "mentoring": "Mentoring",
+      "space": "Space",
+      "tools": "Tools",
+      "time": "Time",
+      "transport": "Transport",
+      "facilitation": "Facilitation",
+      "projectManagement": "Project management",
+      "permaculture": "Permaculture",
+      "coding": "Coding",
+      "cooking": "Cooking",
+      "design": "Design",
+      "marketing": "Marketing",
+      "translation": "Translation",
+      "eventPlanning": "Event planning",
+      "funding": "Funding",
+      "networking": "Networking",
+      "training": "Training"
+    },
+    "valuesList": {
+      "sustainability": "Sustainability",
+      "spirituality": "Spirituality",
+      "pragmatism": "Pragmatism",
+      "parenting": "Parenting",
+      "neurodiversity": "Neurodiversity",
+      "techoriented": "Tech-oriented",
+      "localfirst": "Local first",
+      "socialjustice": "Social justice",
+      "arts": "Arts",
+      "community": "Community",
+      "regenerative": "Regenerative",
+      "solidarity": "Solidarity",
+      "transparency": "Transparency",
+      "ecology": "Ecology"
+    },
+    "collaborationStyles": {
+      "onetwoone": "One-to-one (1:1)",
+      "group": "Group",
+      "occasional": "Occasional",
+      "ongoing": "Ongoing",
+      "remote": "Online / Remote",
+      "inperson": "In person"
+    },
+    "skillsList": {
+      "facilitation": "Facilitation",
+      "projectmanagement": "Project management",
+      "permaculture": "Permaculture",
+      "coding": "Coding",
+      "cooking": "Cooking",
+      "design": "Design",
+      "marketing": "Marketing",
+      "mentoring": "Mentoring",
+      "translation": "Translation",
+      "eventplanning": "Event planning",
+      "writing": "Writing",
+      "research": "Research",
+      "fundraising": "Fundraising",
+      "communication": "Communication",
+      "leadership": "Leadership"
+    },
+    "availability": {
+      "title": "Availability",
+      "available": "Available",
+      "busy": "Busy",
+      "away": "Away",
+      "unavailable": "Not available"
+    },
+    "completeness": {
+      "title": "Profile completeness",
+      "percentage": "{{percent}}% complete",
+      "tips": "Improvement tips",
+      "addPhoto": "Add a profile photo",
+      "addBio": "Write an introduction",
+      "addInterests": "Add interests",
+      "addLocation": "Add your location"
+    },
+    "verification": {
+      "title": "Verification",
+      "selfDeclared": "Self-declared",
+      "peerVouched": "Peer vouched",
+      "communityVerified": "Community verified",
+      "adminVerified": "Admin verified",
+      "emailVerified": "Email verified",
+      "unverified": "Unverified",
+      "levels": {
+        "selfDeclared": "Self-declared",
+        "peerVouched": "Peer vouched",
+        "communityVerified": "Community verified",
+        "adminVerified": "Officially verified"
+      }
+    },
+    "activity": {
+      "title": "Activity",
+      "empty": "No activity to display",
+      "lastActive": "Last active {{time}}",
+      "responseTime": "Average response time: {{time}}",
+      "joined": "Joined {{date}}"
+    },
+    "appreciateCount": "{{count}} connections",
+    "connections": {
+      "title": "Connections",
+      "connect": "Connect",
+      "disconnect": "Disconnect",
+      "pending": "Pending",
+      "accepted": "Accepted",
+      "declined": "Declined",
+      "blocked": "Blocked",
+      "sendRequest": "Send connection request",
+      "acceptRequest": "Accept",
+      "declineRequest": "Decline",
+      "message": "Message",
+      "connectionTypes": {
+        "general": "General connection",
+        "romantic": "Romantic interest",
+        "coFounder": "Co-founder search",
+        "support": "Support request",
+        "communityMember": "Community membership"
+      },
+      "addMessage": "Add message (recommended)",
+      "sendRequestTo": "Send connection request to",
+      "connectionTypeLabel": "Connection type",
+      "messagePlaceholder": "Why would you like to connect?",
+      "count": "{{count}} connections",
+      "findConnections": "Find connections",
+      "modal": {
+        "forRecipient": "to {{name}}",
+        "miniTrainingTitle": "Mini Guide: What to Expect",
+        "messageLabel": "Opening message (optional, but recommended)",
+        "messagePlaceholder": "Write a short message so the other person understands your intention for connecting...",
+        "sending": "Sending...",
+        "successMessage": "Request sent successfully!",
+        "errorMessage": "An error occurred while sending.",
+        "unexpectedError": "An unexpected error occurred.",
+        "types": {
+          "MENTORING": {
+            "title": "Request Mentoring Connection",
+            "subtitle": "Asymmetric knowledge transfer",
+            "rules": [
+              "Be proactive: You are the leader of this relationship. Come with specific questions.",
+              "Respect expertise: Don't expect instant solutions, but new perspectives.",
+              "Time boundaries: Respect your mentor's time and follow up on agreed steps."
+            ],
+            "buttonText": "Request mentor"
+          },
+          "PEER_LEARNING": {
+            "title": "Peer Learning Connection",
+            "subtitle": "Learning and exploring together",
+            "rules": [
+              "Equality: You figure out challenges together — neither of you is the absolute expert.",
+              "Openness: Expect experimental, brainstorming conversations.",
+              "Regularity: Most effective when you have a shared rhythm (e.g. 30-min weekly check-in)."
+            ],
+            "buttonText": "Add as peer"
+          },
+          "SUPPORT": {
+            "title": "Supportive Connection",
+            "subtitle": "A safe space for working through difficulties",
+            "rules": [
+              "Vulnerability: Dare to be honest about your energy levels.",
+              "Consent: Always ask: \"Do you have capacity for a harder conversation right now?\"",
+              "Attention: Expect primarily listening and validation, not immediate problem-solving."
+            ],
+            "buttonText": "Request support connection"
+          },
+          "default": {
+            "title": "General Connection Request",
+            "subtitle": "Networking and collaboration",
+            "rules": [
+              "Reciprocity: Strive for mutual value creation.",
+              "Brief intro: Write why you'd like to connect."
+            ],
+            "buttonText": "Send connection request"
+          }
+        }
+      },
+      "requestSent": "Connection request sent"
+    }
+  },
+  "community": {
+    "title": "Community",
+    "create": "Create community",
+    "edit": "Edit community",
+    "view": "View community",
+    "basics": {
+      "name": "Community name",
+      "namePlaceholder": "Community name",
+      "description": "Description",
+      "descriptionPlaceholder": "What does the community believe and do?",
+      "foundingYear": "Founding year",
+      "website": "Website",
+      "websitePlaceholder": "https://...",
+      "contact": "Contact"
+    },
+    "type": {
+      "title": "Community type",
+      "ecovillage": "Ecovillage",
+      "transitionTown": "Transition town",
+      "project": "Project",
+      "network": "Network",
+      "cohousing": "Co-housing",
+      "intentionalCommunity": "Intentional community",
+      "other": "Other"
+    },
+    "membership": {
+      "title": "Membership",
+      "memberCount": "{{count}} members",
+      "acceptingMembers": "Accepting new members",
+      "notAccepting": "Not accepting new members",
+      "conditionally": "Conditionally accepting",
+      "joiningProcess": "Joining process",
+      "joiningConditions": "Joining conditions"
+    },
+    "facilities": {
+      "title": "Facilities",
+      "housing": "Housing",
+      "garden": "Garden",
+      "workshop": "Workshop",
+      "kitchen": "Shared kitchen",
+      "guestRooms": "Guest rooms",
+      "meetingSpace": "Meeting space"
+    },
+    "governance": {
+      "title": "Decision making",
+      "consensus": "Consensus",
+      "sociocracy": "Sociocracy",
+      "democratic": "Democratic",
+      "other": "Other"
+    },
+    "types": {
+      "ecovillage": "Ecovillage",
+      "transitionInitiative": "Transition initiative",
+      "intentionalCommunity": "Intentional community",
+      "natureConnectedEcoHub": "Nature-connected eco hub",
+      "healingSanctuary": "Healing sanctuary",
+      "inclusiveSupportNetwork": "Inclusive support network",
+      "creativeArtsColony": "Creative arts colony",
+      "egalitarianLiving": "Egalitarian living community",
+      "spiritualHaven": "Spiritual haven",
+      "knowledgeHub": "Knowledge hub",
+      "nomadicNetwork": "Nomadic network",
+      "regenerativeEconomic": "Regenerative economic community",
+      "visionaryModelCity": "Visionary model city",
+      "earthRegenerationCenter": "Earth regeneration center",
+      "frontlineActivist": "Frontline activist community",
+      "other": "Other"
+    },
+    "acceptingMembers": "Accepting new members",
+    "form": {
+      "createTitle": "Create new community",
+      "editTitle": "Edit community",
+      "nameLabel": "Community name",
+      "namePlaceholder": "e.g. Sunlight Ecovillage",
+      "typeLabel": "Type",
+      "typePlaceholder": "Select a type",
+      "foundingYearLabel": "Founding year",
+      "foundingYearPlaceholder": "e.g. 2010",
+      "countryLabel": "Country",
+      "countryPlaceholder": "e.g. United States",
+      "cityLabel": "City",
+      "websiteLabel": "Website",
+      "contactLabel": "Contact details (Only visible to registered members)",
+      "contactEmailPlaceholder": "Email address",
+      "contactPhonePlaceholder": "Phone number",
+      "valuesLabel": "Community Values (tags)",
+      "valuesPlaceholder": "Type a value and press Enter...",
+      "coverImageLabel": "Cover image",
+      "coverImageUpload": "Click to upload image",
+      "descriptionLabel": "Short introduction",
+      "descriptionPlaceholder": "General description of the community...",
+      "acceptingMembersLabel": "Welcoming new members",
+      "targetMemberLabel": "Who are we looking for?",
+      "targetMemberPlaceholder": "Description of target audience...",
+      "membershipCostLabel": "Membership conditions (financial, other)",
+      "membershipCostPlaceholder": "e.g. Monthly contribution, one-time fee...",
+      "joiningProcessLabel": "Joining process",
+      "joiningProcessPlaceholder": "How can someone apply?",
+      "seekingVolunteersLabel": "Accepting volunteers",
+      "volunteerDescLabel": "What kind of help do we need?",
+      "volunteerDescPlaceholder": "Description of volunteer opportunities...",
+      "volunteerCapabilitiesLabel": "Required skills (tags)",
+      "volunteerCapabilitiesPlaceholder": "e.g. gardening, construction...",
+      "detailsSectionTitle": "Detailed information (Optional)",
+      "visionLabel": "Vision",
+      "visionPlaceholder": "How do we envision the future?",
+      "principlesLabel": "Principles",
+      "principlesPlaceholder": "What principles do we operate by?",
+      "houseRulesLabel": "House rules / Regulations",
+      "houseRulesPlaceholder": "Key rules...",
+      "annualGoalsLabel": "Annual Goals",
+      "annualGoalsPlaceholder": "What are our plans for this year?",
+      "delete": "Delete",
+      "deleteConfirm": "Are you sure you want to delete this community? This action cannot be undone.",
+      "saving": "Saving...",
+      "creating": "Creating...",
+      "saveChanges": "Save changes",
+      "createCommunity": "Create community",
+      "loginRequired": "Login required",
+      "genericError": "An error occurred",
+      "commError": "A communication error occurred",
+      "deleteFailed": "Delete failed",
+      "deleteCommError": "An error occurred while deleting",
+      "types": {
+        "NATURE_CONNECTED_ECO_HUB": "Nature-Connected Eco Hub",
+        "HEALING_SANCTUARY": "Healing & Retreat Sanctuary",
+        "INCLUSIVE_SUPPORT_NETWORK": "Inclusive Support Network",
+        "CREATIVE_ARTS_COLONY": "Creative Arts Colony",
+        "EGALITARIAN_LIVING": "Egalitarian Living",
+        "SPIRITUAL_HAVEN": "Spiritual & Religious Haven",
+        "KNOWLEDGE_HUB": "Knowledge & Education Hub",
+        "NOMADIC_NETWORK": "Nomadic & Traveler Network",
+        "REGENERATIVE_ECONOMIC": "Regenerative Economic Cooperative",
+        "VISIONARY_MODEL_CITY": "Visionary Model City",
+        "EARTH_REGENERATION_CENTER": "Earth Regeneration Center",
+        "FRONTLINE_ACTIVIST": "Frontline Activist Community"
+      }
+    }
+  },
+  "edit": {
+    "title": "Edit Profile",
+    "displayName": "Display name",
+    "offers": "What I offer",
+    "needs": "What I seek",
+    "causes": "Causes",
+    "valuesAndInterests": "Values and interests",
+    "questionnaire": "Additional details",
+    "displayNamePlaceholder": "How you want to be called",
+    "bio": "Introduction",
+    "bioPlaceholder": "Tell us about yourself, your journey, your goals...",
+    "bioHelp": "Maximum 500 characters",
+    "location": "Location",
+    "locationPlaceholder": "e.g. New York, USA",
+    "skills": "Skills",
+    "skillsPlaceholder": "e.g. permaculture, facilitation, gardening",
+    "skillsHelp": "Comma separated",
+    "interests": "Interests",
+    "interestsPlaceholder": "e.g. ecovillage, community building, transition",
+    "website": "Website",
+    "websitePlaceholder": "e.g. https://your-site.com",
+    "socialLinks": "Social profiles & links",
+    "editProfilePhoto": "Edit profile photo",
+    "editCoverPhoto": "Edit cover photo",
+    "coverImageLabel": "Cover image",
+    "coverImageHint": "Recommended size: 1200x600px",
+    "changeImageAria": "Change image",
+    "removeCoverImageAria": "Remove cover image",
+    "mainCommunity": "Main community",
+    "mainCommunityPlaceholder": "e.g. Transition Town Budapest",
+    "mainCommunityHelp": "Which community matters most to you?",
+    "isRemoteCapable": "Online / remote participation possible",
+    "profileDetails": "Profile details",
+    "enjoyDoing": "What you enjoy doing",
+    "currentIntention": "Current focus / intention",
+    "constraints": "Boundaries / constraints (optional)",
+    "collaborationPreference": "Collaboration form",
+    "intentionsBoundaries": "Intentions and boundaries",
+    "identitySection": "Identity",
+    "archetypeHelp": "What is your role in change? At least 1 is required.",
+    "archetypesMax": "(Max 3)",
+    "quizArchetypesReadonly": "Archetype quiz result (read-only):",
+    "quizArchetypesHint": "To retake the quiz, visit your profile page.",
+    "causesSection": "Social causes",
+    "mainCauses": "Main causes (max 3)",
+    "interestedCauses": "Other causes that interest you",
+    "customTagOther": "Other",
+    "availability": {
+      "title": "Availability / spare capacity",
+      "toggleDay": "{{day}} - all",
+      "toggleSlot": "{{slot}} - all days",
+      "help": "Click a day or time slot to select all"
+    },
+    "placeholders": {
+      "skills": "e.g. facilitation...",
+      "offers": "e.g. time, tools...",
+      "needs": "e.g. mentoring, space...",
+      "values": "e.g. solidarity...",
+      "interests": "e.g. permaculture...",
+      "enjoyDoing": "What gives you energy?",
+      "currentIntention": "What are you working on now?",
+      "constraints": "e.g. no travel, online only, no weekends..."
+    },
+    "intentions": {
+      "seekingLocalEcoCommunity": "Are you looking for an ecological community where you can live?",
+      "seekingIntentionalCommunity": "Are you looking for or organizing an intentional community?",
+      "highStakesProjectHelp": "Do you have a high-stakes social project for your community and life that needs immediate help?",
+      "strictNoRomance": "You do not want any romantic approaches or messages",
+      "strictNoRomanceWarning": "Violating this request results in a permanent ban for the offender."
+    }
+  },
+  "completeness": {
+    "title": "Profile completeness",
+    "displayName": "Display name provided",
+    "bio": "Introduction (min. 20 characters)",
+    "location": "Location provided",
+    "archetype": "Archetype quiz completed",
+    "photo": "Profile photo uploaded",
+    "skills": "Skills provided",
+    "emailVerified": "Email address verified",
+    "encouragement": "A more complete profile opens up more connection opportunities!"
+  },
+  "completenessModal": {
+    "title": "Profile Completeness",
+    "percentage": "{{percent}}% complete",
+    "categories": {
+      "basic": "Basic Information",
+      "skills": "Skills & Resources",
+      "questionnaire": "Intentions & Preferences",
+      "links": "Links & Causes",
+      "verification": "Verification"
+    },
+    "fields": {
+      "displayName": "Display name",
+      "bio": "Introduction",
+      "location": "Location",
+      "profilePhoto": "Profile photo",
+      "archetypes": "Archetypes",
+      "skills": "Skills",
+      "offers": "What you offer",
+      "needs": "What you seek",
+      "values": "Values",
+      "interests": "Interests",
+      "enjoyDoing": "What you enjoy doing",
+      "currentIntention": "Current intention",
+      "collaborationPreference": "Collaboration preferences",
+      "availabilityDetails": "Availability",
+      "isRemoteCapable": "Remote capability",
+      "website": "Website",
+      "socialLinks": "Social links",
+      "mainCauses": "Main causes",
+      "interestedCauses": "Interested causes",
+      "emailVerified": "Email verified"
+    },
+    "benefits": "A more complete profile improves your visibility in matchmaking and increases your chances of receiving help and connections from others.",
+    "editProfile": "Edit Profile",
+    "close": "Close"
+  },
+  "completenessBadge": {
+    "label": "Profile: {{percent}}% complete",
+    "clickHint": "Click to see details"
+  },
+  "publicProfile": {
+    "community": {
+      "title": "Community",
+      "connections": "Connections",
+      "communities": "Communities",
+      "events": "Events"
+    },
+    "sections": {
+      "values": "Values",
+      "interests": "Interests"
+    },
+    "details": {
+      "enjoyDoing": "What I enjoy doing",
+      "currentIntention": "Current intention",
+      "availability": "Availability",
+      "constraints": "Boundaries / obstacles",
+      "collaboration": "Collaboration"
+    }
+  },
+  "invites": {
+    "title": "Invites",
+    "myInvites": "My invites",
+    "expires": "Expires: {{date}}",
+    "errors": {
+      "loadFailed": "Could not load invite data",
+      "createFailed": "Could not create invite code",
+      "emailFailed": "Could not send invite email"
+    },
+    "status": {
+      "created": "Created",
+      "sent": "Sent",
+      "opened": "Opened",
+      "accepted": "Accepted",
+      "expired": "Expired",
+      "revoked": "Revoked"
+    },
+    "sendDialog": {
+      "title": "Send invite by email",
+      "recipientEmail": "Recipient email address",
+      "recipientEmailPlaceholder": "example@email.com",
+      "inviteCodePrefix": "Invite code:"
+    },
+    "stats": {
+      "available": "Available",
+      "active": "Active",
+      "accepted": "Accepted",
+      "nextSlot": "Next slot",
+      "maxReached": "Max reached"
+    },
+    "actions": {
+      "send": "Send",
+      "sending": "Sending...",
+      "creating": "Creating...",
+      "createCode": "Create new invite code"
+    },
+    "empty": {
+      "title": "You do not have invites yet",
+      "nextSlotHint": "You will receive a new invite slot on Monday"
+    },
+    "info": {
+      "weeklySlots": "• You receive 2 invite slots every Monday (they do not accumulate)",
+      "expiry": "• Invites are valid for 7 days",
+      "revokedSlot": "• If an invite is revoked, the slot becomes available again"
+    }
+  },
+  "photo": {
+    "coverImage": "Cover image",
+    "changeImage": "Change image",
+    "removeCoverImage": "Remove cover image",
+    "coverImageHelp": "Recommended size: 1200×600px"
+  },
+  "questionnaire": {
+    "title": "Changemaker Assessment",
+    "progress": "Question {{current}} of {{total}}",
+    "step": "Step {{current}} of {{total}}",
+    "result": {
+      "title": "Assessment Complete!",
+      "description": "Based on your answers, your current changemaker orientation is:",
+      "level": "Level {{level}}",
+      "levelPrefix": "Level"
+    },
+    "actions": {
+      "toProfile": "Back to Profile",
+      "finish": "Finish Assessment",
+      "processing": "Processing..."
+    },
+    "errors": {
+      "answerRequired": "Please select an answer to continue.",
+      "maxSelectable": "You can select at most {{count}} options.",
+      "maxTotal": "You can select at most {{count}} options in total.",
+      "saveFailed": "Failed to save result.",
+      "requestFailed": "Something went wrong."
+    },
+    "questions": {
+      "q1": {
+        "text": "How closely do you follow sustainability and social issues?",
+        "options": [
+          "I do not really engage with them; I have enough of my own problems.",
+          "I sometimes read an article, but I do not go deep.",
+          "I stay regularly informed, and the current situation concerns me.",
+          "I actively look for solutions and positive examples."
+        ]
+      },
+      "q2": {
+        "text": "How willing are you to change your consumption habits for the environment or society?",
+        "options": [
+          "Not at all; convenience matters most to me.",
+          "Yes, if it does not require major sacrifice or extra cost.",
+          "I consciously watch what I buy and am willing to pay more for sustainability.",
+          "I have fundamentally reorganized my lifestyle around sustainability."
+        ]
+      },
+      "q3": {
+        "text": "How often do you share information or publicly stand up for an important social or ecological cause?",
+        "options": [
+          "Never; I do not like conflict.",
+          "I only talk about this with close friends.",
+          "I often share articles or petitions and own my opinion publicly.",
+          "I organize campaigns, write articles, or give talks myself."
+        ]
+      },
+      "q4": {
+        "text": "How much do you participate in local community life or volunteer work?",
+        "options": [
+          "Not at all; I do not have the time or energy.",
+          "Rarely, I join occasional cleanups or charity actions when invited.",
+          "I regularly volunteer with an organization or local initiative.",
+          "I start and lead local community projects myself."
+        ]
+      },
+      "q5": {
+        "text": "Have you developed your own new solution to a problem?",
+        "options": [
+          "No, I usually follow proven paths.",
+          "I introduce smaller innovations in my work or personal life.",
+          "Yes, I developed something useful for a smaller community or organization.",
+          "I created an innovative model or project with measurable broader impact."
+        ]
+      },
+      "q6": {
+        "text": "When you face a problem, what time horizon do you usually use for solutions?",
+        "options": [
+          "How I can get past the immediate discomfort fastest.",
+          "How I can solve it so it will not be a problem for a while.",
+          "I look for durable solutions that understand root causes.",
+          "I think systemically and focus on changing root structures over decades."
+        ]
+      },
+      "q7": {
+        "text": "How able are you to mobilize and coordinate resources for a goal?",
+        "options": [
+          "I mostly work alone and organizing is not my strength.",
+          "I can involve a few acquaintances in smaller things.",
+          "I can lead and motivate a team or secure smaller support.",
+          "I successfully mobilize larger groups, coordinate organizations, or bring in significant resources."
+        ]
+      },
+      "q8": {
+        "text": "What level is your network-building ability?",
+        "options": [
+          "I do not like meeting new people and mostly talk to people I already know.",
+          "I am open to new connections when I meet like-minded people.",
+          "I actively build relationships across fields to reach my goals.",
+          "My main activity is connecting people, projects, and systems into shared platforms."
+        ]
+      },
+      "q9": {
+        "text": "What do you see as your main personal task or calling?",
+        "options": [
+          "Survive everyday life and care for my family.",
+          "Do work that does no harm while enjoying life.",
+          "Actively improve my own environment and community.",
+          "Help build the foundations of a new sustainable and just social or economic paradigm."
+        ]
+      },
+      "q10": {
+        "text": "How do you relate to international and transnational collaboration?",
+        "options": [
+          "I am only interested in my immediate micro-environment.",
+          "I follow international news but am not part of such networks.",
+          "I sometimes learn from examples abroad or attend international events.",
+          "I actively participate in international networks and exchange knowledge globally."
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy",
+    "levels": {
+      "public": "Public",
+      "registered": "Registered users",
+      "connections": "Connections only",
+      "private": "Private"
+    },
+    "visibility": {
+      "title": "Visibility",
+      "profile": "Profile visibility",
+      "location": "Location visibility",
+      "email": "Email visibility"
+    },
+    "discoverability": {
+      "title": "Discoverability",
+      "showOnMap": "Show on map",
+      "showOnMapDesc": "Your nickname may appear on the Discovery map. Anonymous visitors only receive a country-level marker; signed-in users see the precision you choose below.",
+      "allowConnections": "Allow connection requests",
+      "allowConnectionsDesc": "Others can send you connection requests",
+      "allowMessages": "Allow messages",
+      "locationPrecision": "Map location precision",
+      "precision": {
+        "country": {
+          "label": "Country",
+          "example": "Hungary only; marker is placed around the country center."
+        },
+        "city": {
+          "label": "City",
+          "example": "Budapest area; not your street."
+        },
+        "exact": {
+          "label": "Precise",
+          "example": "Exact selected place; coordinates only, no address stored."
+        }
+      }
+    }
+  },
+  "profileLinks": {
+    "communities": "Communities",
+    "events": "Events",
+    "pitches": "Pitches",
+    "causes": "Causes",
+    "empty": "No linked items yet."
+  },
+  "fediverse": {
+    "cardTitle": "Fediverse and public sharing",
+    "whatThisControls": "What this controls",
+    "whatThisControlsDesc": "These settings decide what appears on your public profile page, what can be exposed through ActivityPub, and whether external profile links should be marked with rel=\"me\" for identity verification.",
+    "privacyNote": "Important privacy note",
+    "privacyNoteDesc": "Changemappers can stop exposing future data immediately, but remote fediverse servers may already have copied public content. Use ActivityPub only for information you are comfortable making broadly public.",
+    "publicProfile": "Public profile page",
+    "activitypub": "ActivityPub exposure",
+    "activitypubBlocked": "Your overall profile visibility is currently <strong>{{visibility}}</strong>. ActivityPub export only works while your profile visibility is <strong>PUBLIC</strong>.",
+    "verification": "Verification helpers",
+    "consentStatus": "Consent status: {{status}}",
+    "consentGranted": "granted",
+    "consentNotGranted": "not granted",
+    "firstConsentRecorded": "First consent recorded: {{date}}",
+    "firstConsentNotRecorded": "First consent recorded: not yet recorded",
+    "saveButton": "Save sharing settings",
+    "savedMessage": "Fediverse and public sharing settings saved.",
+    "saveFailed": "Saving failed",
+    "toggles": {
+      "showAvatar": {
+        "label": "Show avatar",
+        "desc": "Allow your profile photo to appear on your public profile page."
+      },
+      "showCoverImage": {
+        "label": "Show cover image",
+        "desc": "Allow your cover image to appear on your public profile page."
+      },
+      "showBio": {
+        "label": "Show bio",
+        "desc": "Expose your written introduction on your public profile."
+      },
+      "showLocation": {
+        "label": "Show location",
+        "desc": "Show your city and country on your public profile."
+      },
+      "showWebsite": {
+        "label": "Show website",
+        "desc": "Display your website on the public profile page."
+      },
+      "showSocialLinks": {
+        "label": "Show social links",
+        "desc": "Display external social/profile links on the public profile page."
+      },
+      "showSkills": {
+        "label": "Show skills",
+        "desc": "Expose your general skills on the public profile page."
+      },
+      "showValues": {
+        "label": "Show values",
+        "desc": "Expose your values on the public profile page."
+      },
+      "showInterests": {
+        "label": "Show interests",
+        "desc": "Expose your interests on the public profile page."
+      },
+      "showIntentions": {
+        "label": "Show intentions and availability",
+        "desc": "Expose current intentions, availability, and collaboration preferences on the public profile page."
+      },
+      "enableActivityPub": {
+        "label": "Enable ActivityPub",
+        "desc": "Allow Changemappers to expose a machine-readable fediverse actor for your public profile."
+      },
+      "discoverableActor": {
+        "label": "Discoverable actor",
+        "desc": "Mark your actor as discoverable to compatible fediverse software."
+      },
+      "exposeProfile": {
+        "label": "Expose profile through ActivityPub",
+        "desc": "Make your public profile available through ActivityPub actor endpoints."
+      },
+      "exposePublicPosts": {
+        "label": "Expose public feed posts through ActivityPub",
+        "desc": "Allow only feed posts already marked PUBLIC to appear in your ActivityPub outbox and note endpoints."
+      },
+      "showWebsiteInActor": {
+        "label": "Include website in actor profile",
+        "desc": "Expose your website as profile metadata in ActivityPub."
+      },
+      "showSocialLinksInActor": {
+        "label": "Include social links in actor profile",
+        "desc": "Expose your external profile links in ActivityPub actor metadata."
+      },
+      "showLocationInActor": {
+        "label": "Include location in actor profile",
+        "desc": "Expose your city/country as ActivityPub metadata."
+      },
+      "relMeLinks": {
+        "label": "Mark external links with rel=\"me\"",
+        "desc": "Useful for Mastodon-style profile verification. Only enable this for links that really belong to you."
+      },
+      "showOffers": {
+        "label": "Show offers",
+        "desc": "Expose what you can offer on the public profile page."
+      },
+      "showNeeds": {
+        "label": "Show needs",
+        "desc": "Expose what you are looking for on the public profile page."
+      },
+      "showRdgAreas": {
+        "label": "Show RDG areas",
+        "desc": "Expose your regenerative development areas on the public profile page."
+      },
+      "showCauses": {
+        "label": "Show causes",
+        "desc": "Expose your main and interested causes on the public profile page."
+      },
+      "showArchetypes": {
+        "label": "Show archetypes",
+        "desc": "Expose your changemaker archetypes on the public profile page."
+      },
+      "showChangemakerLevel": {
+        "label": "Show futuremaker level",
+        "desc": "Expose your futuremaker level on the public profile page."
+      },
+      "showBoundaries": {
+        "label": "Show boundaries",
+        "desc": "Expose capacity boundaries and collaboration limits on the public profile page."
+      }
+    },
+    "consent": {
+      "title": "First-time fediverse consent",
+      "body1": "Enabling ActivityPub can make your public profile and public posts available to remote servers outside Changemappers.",
+      "body2": "Those servers may cache copies, index your public content, and apply their own moderation and retention rules. Turning this off later cannot guarantee immediate removal everywhere.",
+      "body3": "Only profiles with overall visibility set to <strong>PUBLIC</strong> can be exposed through ActivityPub. Registered-only or connections-only profiles remain blocked from protocol export.",
+      "checkboxLabel": "I understand that enabling fediverse sharing can publish my public data beyond this site and may continue to be visible on remote servers after I change settings later.",
+      "cancel": "Cancel",
+      "confirm": "I consent and enable"
+    }
+  }
+}

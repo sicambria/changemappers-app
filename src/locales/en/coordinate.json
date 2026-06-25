@@ -1,0 +1,197 @@
+{
+  "title": "Coordinate",
+  "nav": {
+    "board": "Initiative Board",
+    "backlog": "Backlog",
+    "new": "Propose Initiative",
+    "metrics": "Metrics",
+    "myBoard": "My Board"
+  },
+  "philosophy": "This is an initiative commons — a shared map of what the community is working on, what is stuck, what needs people, and what has been learned.",
+  "board": {
+    "title": "Initiative Board",
+    "subtitle": "What the community is holding and working on.",
+    "empty": "No initiatives in this state.",
+    "whatNeeded": "What's needed now",
+    "personal": "Personal Board",
+    "communityInternal": "Community Board (Internal)",
+    "communityPublic": "Community Board (Public)",
+    "bioregional": "Bioregional",
+    "national": "National",
+    "international": "International Board"
+  },
+  "states": {
+    "IMAGINED": "Imagined",
+    "EXPLORING": "Exploring",
+    "PLANNED": "Planned",
+    "IN_PROGRESS": "In Progress",
+    "INTEGRATING": "Integrating",
+    "COMPLETED": "Completed",
+    "ARCHIVED": "Archived"
+  },
+  "stateDescriptions": {
+    "IMAGINED": "A direction or question, not yet a defined initiative",
+    "EXPLORING": "Active sense-making; the shape of the work is forming",
+    "PLANNED": "Defined enough to invite specific contributions",
+    "IN_PROGRESS": "Active",
+    "INTEGRATING": "Wrapping up; learning is being captured before closure",
+    "COMPLETED": "Done; documentation in the commons",
+    "ARCHIVED": "Stopped or paused; reason documented"
+  },
+  "initiative": {
+    "create": "Propose Initiative",
+    "edit": "Edit Initiative",
+    "title": "Title",
+    "description": "What this initiative is trying to do",
+    "why": "Why it matters",
+    "rdgAlignment": "RDG goal alignment",
+    "rdgAlignmentOptional": "RDG goal alignment (optional)",
+    "rdgDomain": "RDG domain",
+    "rdgDomainHint": "Select the primary domain this initiative contributes to.",
+    "rdgGoalHint": "Optionally, select specific goals within the domain.",
+    "canvasNode": "Linked canvas node (optional)",
+    "state": "State",
+    "moveState": "Move to",
+    "archiveReason": "Reason for archiving",
+    "archive": "Archive initiative",
+    "complete": "Mark as completed"
+  },
+  "domains": {
+    "1": "Human Development & Inner Capacity",
+    "2": "Living Systems Regeneration",
+    "3": "Regenerative Economy & Infrastructure",
+    "4": "Governance & Collective Intelligence",
+    "5": "Long-term Stewardship & Civilizational Resilience"
+  },
+  "roles": {
+    "title": "Contribution roles",
+    "add": "Add contribution role",
+    "remove": "Remove",
+    "roleType": "Role type",
+    "contributionType": "What you're contributing",
+    "types": {
+      "CONTRIBUTOR": "Contributor",
+      "COORDINATOR": "Coordinator",
+      "STEWARD": "Steward",
+      "NODE_FACILITATOR": "Node facilitator",
+      "SYSTEMS_STEWARD": "Systems steward"
+    }
+  },
+  "updates": {
+    "title": "Updates",
+    "add": "Add narrative update",
+    "narrative": "What's happening",
+    "whatShifting": "What's shifting (optional)",
+    "whatHard": "What's hard (optional)",
+    "helpNeeded": "What help would actually change things (optional)"
+  },
+  "retrospective": {
+    "title": "Retrospective",
+    "prompt": "What we set out to do, what happened, what we'd do differently, what we're leaving in the commons for the next community facing something similar.",
+    "submit": "Share retrospective",
+    "publicNote": "This retrospective lives in the commons."
+  },
+  "backlog": {
+    "title": "Community Backlog",
+    "subtitle": "Ideas and emerging work the community holds as worth attention. Sorted by community resonance — not top-down priority.",
+    "add": "Add to backlog",
+    "resonance": "resonance",
+    "flagResonance": "I see potential here",
+    "proposedBy": "Proposed by {{name}}",
+    "unflagResonance": "Remove my resonance",
+    "empty": "The backlog is empty.",
+    "filters": {
+      "rdgGoal": "RDG goal",
+      "domain": "Domain"
+    },
+    "item": {
+      "title": "Title",
+      "description": "Description",
+      "rdgGoal": "RDG goal (optional)",
+      "domain": "Domain (optional)"
+    }
+  },
+  "card": {
+    "state": "State",
+    "contributions": "contributions",
+    "retrospective": "✓ Retrospective",
+    "updated": "Last updated"
+  },
+  "wip": {
+    "title": "WIP Limits",
+    "configure": "Configure WIP Limits",
+    "description": "Set work-in-progress limits for each column. Items cannot be moved into a column that has reached its limit.",
+    "noLimit": "No limit",
+    "atLimit": "At limit",
+    "overLimit": "Over limit",
+    "limitReached": "WIP limit reached for {{state}} (max: {{limit}})",
+    "saveLimits": "Save limits"
+  },
+  "metrics": {
+    "title": "Metrics",
+    "subtitle": "Lean metrics and performance analysis",
+    "cycleTime": "Avg Cycle Time",
+    "leadTime": "Avg Lead Time",
+    "throughput": "Throughput",
+    "throughputUnit": "items/30d",
+    "wip": "Work in Progress",
+    "flowEfficiency": "Flow Efficiency",
+    "completionRate": "Completion Rate",
+    "distributionByState": "Distribution by State",
+    "weeklyThroughput": "Weekly Throughput",
+    "blockedItems": "Blocked Items",
+    "blockedItemsDescription": "Items in the same state for more than 30 days",
+    "moreBlocked": "more blocked items",
+    "backToBoard": "Back to Board",
+    "na": "N/A",
+    "flowEfficiencyDescription": "Percentage of active time vs total time in process",
+    "completedOf": "{{completed}} of {{total}}",
+    "week1": "Wk 1",
+    "week2": "Wk 2",
+    "week3": "Wk 3",
+    "week4": "Wk 4",
+    "completed": "Completed"
+  },
+  "retrospectiveForm": {
+    "submitted": "Retrospective shared",
+    "submittedMessage": "Thank you for sharing what was learned.",
+    "submitTitle": "Share retrospective",
+    "publicNarrative": "Public narrative",
+    "placeholder": "What we set out to do, what happened, what we'd do differently...",
+    "submitting": "Submitting\u2026"
+  },
+  "age": {
+    "hours": "h",
+    "days": "d",
+    "weeks": "w",
+    "months": "mo",
+    "years": "y"
+  },
+  "form": {
+    "section1Title": "Basic Information",
+    "section1Subtitle": "What are you calling this initiative?",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Initiative title",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Describe this initiative",
+    "whyLabel": "Why",
+    "whyPlaceholder": "Why does this matter? What's the change you're seeking?",
+    "minChars": "Minimum 20 characters",
+    "minCharsShort": "{{length}}/20 min",
+    "typeLabel": "Initiative Type",
+    "typePlaceholder": "Search and select initiative type...",
+    "typeSearchPlaceholder": "Search types...",
+    "typeNoResults": "No types found.",
+    "rdgPlaceholder": "Select an RDG alignment...",
+    "rdgSearchPlaceholder": "Search RDGs...",
+    "rdgNoResults": "No RDGs found.",
+    "section2Title": "RDG Alignment",
+    "section2Subtitle": "Connect this initiative to the regenerative development framework.",
+    "selectDomain": "Select domain...",
+    "errorType": "Please select an initiative type.",
+    "errorDomain": "Please select a domain.",
+    "errorGeneric": "Failed to create initiative. Please try again.",
+    "creating": "Creating...",
+    "createCta": "Create initiative"
+  }
+}

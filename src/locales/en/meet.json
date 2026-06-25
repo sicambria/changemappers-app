@@ -1,0 +1,18 @@
+{
+  "title": "Meet",
+  "metaTitle": "Find Our Time | Changemappers",
+  "metaDescription": "Create a scheduling poll to find the best time for your group to meet.",
+  "createPoll": "Create Poll",
+  "joinPoll": "Join Poll",
+  "managePoll": "Manage Poll",
+  "errors": {
+    "pollNotFound": "Poll not found"
+  },
+  "labels": {
+    "findOurTime": "Find Our Time",
+    "createSchedulingPoll": "Create a Scheduling Poll",
+    "joinSchedulingPoll": "Join scheduling poll",
+    "manageSchedulingPoll": "Manage your scheduling poll",
+    "pollNotFound": "Poll Not Found"
+  }
+}

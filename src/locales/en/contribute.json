@@ -1,0 +1,332 @@
+{
+  "title": "Contribute",
+  "nav": {
+    "find": "Find Contributions",
+    "offer": "Offer Contribution",
+    "request": "Request Contribution",
+    "connections": "My Connections"
+  },
+  "philosophy": "Everyone is simultaneously a receiver and a giver. The question is not who has and who needs — it is what do you currently carry, and who is at the place you've already moved through?",
+  "find": {
+    "title": "Find Contributions",
+    "subtitle": "Browse what people are carrying that someone else needs.",
+    "filters": {
+      "type": "Contribution type",
+      "domain": "Domain"
+    },
+    "empty": "No contribution offers match your filters.",
+    "loading": "Loading offers...",
+    "health": "Community contribution health"
+  },
+  "types": {
+    "SKILL_OFFERING": "Skill offering",
+    "ACCOMPANIMENT": "Accompaniment",
+    "KNOWLEDGE_COMMONS": "Knowledge commons",
+    "HOLDING_SPACE": "Holding space"
+  },
+  "typeDescriptions": {
+    "SKILL_OFFERING": "A specific capacity, deployable now",
+    "ACCOMPANIMENT": "Walking alongside someone through a process you've already navigated",
+    "KNOWLEDGE_COMMONS": "Documenting something for future reuse — async, low barrier",
+    "HOLDING_SPACE": "Peer emotional support"
+  },
+  "offer": {
+    "create": "Create Contribution Offer",
+    "edit": "Edit Offer",
+    "type": "Contribution type",
+    "domain": "Domain (optional)",
+    "timeCommitment": "Time commitment",
+    "format": "Format",
+    "availability": "Availability",
+    "prerequisites": "What needs to be true before you'll accept a request (optional)",
+    "targetAudience": "Target Audience",
+    "impactType": "Impact Type"
+  },
+  "targetAudience": {
+    "INDIVIDUALS": "Individuals",
+    "COMMUNITIES": "Communities",
+    "NGOS": "NGOs",
+    "SCHOOLS": "Schools",
+    "PUBLIC_INSTITUTIONS": "Public Institutions",
+    "BUSINESSES": "Businesses",
+    "POLICYMAKERS": "Policymakers",
+    "RESEARCHERS": "Researchers",
+    "OTHER": "Other"
+  },
+  "impactType": {
+    "DIRECT_SERVICE": "Direct Service",
+    "CAPACITY_BUILDING": "Capacity Building",
+    "SYSTEMIC_CHANGE": "Systemic Change",
+    "AWARENESS_RAISING": "Awareness Raising",
+    "RESEARCH_DOCUMENTATION": "Research & Documentation",
+    "NETWORK_BUILDING": "Network Building",
+    "POLICY_INFLUENCE": "Policy Influence",
+    "RESOURCE_CREATION": "Resource Creation",
+    "OTHER": "Other"
+  },
+  "request": {
+    "create": "Create Contribution Request",
+    "type": "What kind of contribution do you need?",
+    "whatNeeded": "What do you need?",
+    "alreadyTried": "What have you already tried? (optional)",
+    "willDoWith": "What will you do with what you receive? (optional — not a gate, a cue)"
+  },
+  "connection": {
+    "status": {
+      "PENDING": "Pending",
+      "ACTIVE": "Active",
+      "COMPLETED": "Completed",
+      "CANCELLED": "Cancelled"
+    },
+    "accept": "Accept",
+    "decline": "Decline",
+    "cancel": "Cancel",
+    "complete": "Mark complete"
+  },
+  "feedback": {
+    "title": "Reflect on this contribution",
+    "prompt": "What happened? What did you receive? What did you bring? What shifted?",
+    "required": "Reflection is required to complete this connection.",
+    "submit": "Send reflection",
+    "publicNote": "This reflection lives on the connection record — not on either person's profile."
+  },
+  "forwardReciprocity": {
+    "title": "What do you now carry that someone else needs?",
+    "body": "You've received something of value. The forward move: offer something to someone earlier in the journey than you.",
+    "createOffer": "Create an offer"
+  },
+  "health": {
+    "title": "Community contribution health",
+    "delivering": "Delivering",
+    "building": "Building",
+    "between": "Between",
+    "reflecting": "Reflecting",
+    "resting": "Resting",
+    "alert": "Fewer than 15% of members are in reflection or rest. The community may be depleting its contributors.",
+    "members": "members"
+  },
+  "card": {
+    "by": "Offered by",
+    "type": "Type",
+    "time": "Time",
+    "request": "Request this contribution"
+  },
+  "landing": {
+    "title": "What do you carry that someone else needs?",
+    "subtitle": "Contribution flows in all directions. Offer what you have, ask for what you need, or find someone already offering it.",
+    "offerCard": {
+      "title": "Offer something",
+      "description": "Share a skill, knowledge, or your presence with the community."
+    },
+    "requestCard": {
+      "title": "Request support",
+      "description": "Be honest about what you need. Someone out there has it."
+    },
+    "browseCard": {
+      "title": "Browse offers",
+      "description": "See what the community is already offering."
+    },
+    "viewConnections": "View my connections",
+    "contributionSection": {
+      "title": "Contribution exchange",
+      "subtitle": "Offer what you carry, request what you need, browse available offers, or follow up on active connections."
+    },
+    "volunteerSection": {
+      "title": "Volunteer opportunities",
+      "subtitle": "Find concrete places to help or post a request for volunteers without mixing volunteer filters into contribution offers."
+    },
+    "connectionsCard": {
+      "title": "View connections",
+      "description": "Follow active contribution connections and complete reflections."
+    },
+    "myRequestsCard": {
+      "title": "My requests",
+      "description": "View and withdraw your pending contribution requests."
+    },
+    "volunteerBrowseCard": {
+      "title": "Browse volunteer opportunities",
+      "description": "Explore published volunteer requests by domain, format, and commitment."
+    },
+    "volunteerPostCard": {
+      "title": "Post a volunteer request",
+      "description": "Create a structured opportunity for people who want to help."
+    }
+  },
+  "browse": {
+    "title": "Browse Offers",
+    "count": "{{count}} contribution available",
+    "count_plural": "{{count}} contributions available",
+    "empty": "No offers available yet. Be the first to contribute.",
+    "offerSomething": "Offer something",
+    "connect": "Connect"
+  },
+  "connections": {
+    "title": "My Connections",
+    "empty": "No connections yet. Browse offers to get started.",
+    "offerBy": "Offer by {{name}}",
+    "requestedBy": "Requested by {{name}}",
+    "addReflection": "Add a public reflection to mark this connection complete.",
+    "messagePartner": "Message partner"
+  },
+  "newOffer": {
+    "title": "Post a contribution offer",
+    "subtitle": "Describe what you carry and who it might serve."
+  },
+  "editOffer": {
+    "title": "Edit Contribution Offer",
+    "subtitle": "Update your contribution offer details."
+  },
+  "myOffers": {
+    "title": "My Contribution Offers",
+    "newOffer": "New Offer",
+    "empty": "You have not created any contribution offers yet.",
+    "noDomain": "No domain"
+  },
+  "metadata": {
+    "newRequest": {
+      "title": "Request Support",
+      "description": "Ask the community for the contribution, skill, or accompaniment you need right now."
+    },
+    "newOffer": {
+      "title": "Offer a Contribution",
+      "description": "Share what you carry and how it might serve others."
+    },
+    "myOffers": {
+      "title": "My Contribution Offers"
+    },
+    "detailOffer": {
+      "title": "Contribution Offer"
+    },
+    "editOffer": {
+      "title": "Edit Contribution Offer"
+    }
+  },
+  "anonymous": "Anonymous",
+  "newRequest": {
+    "title": "Request Support",
+    "subtitle": "Be honest about what you need. Someone out there carries exactly that."
+  },
+  "detailOffer": {
+    "backToOffers": "Back to offers",
+    "editOffer": "Edit offer",
+    "prerequisites": "Prerequisites",
+    "contributor": "Contributor"
+  },
+  "form": {
+    "genericError": "Something went wrong. Please try again.",
+    "searchPlaceholder": "Search...",
+    "noOptionsFound": "No options found.",
+    "domainLabel": "Domain",
+    "domainPlaceholder": "Select an RDG domain...",
+    "targetAudiencePlaceholder": "Select target audience...",
+    "impactTypePlaceholder": "Select impact type...",
+    "typeQuestion": "What kind of contribution are you offering?",
+    "typeHint": "Choose the nature of what you bring.",
+    "typeOptions": {
+      "SKILL_OFFERING": {
+        "label": "Skill Offering",
+        "description": "Share a practical skill or expertise you have developed."
+      },
+      "ACCOMPANIMENT": {
+        "label": "Accompaniment",
+        "description": "Walk alongside someone through a process or challenge."
+      },
+      "KNOWLEDGE_COMMONS": {
+        "label": "Knowledge Commons",
+        "description": "Contribute knowledge freely to a shared common resource."
+      },
+      "HOLDING_SPACE": {
+        "label": "Holding Space",
+        "description": "Offer a safe, supportive presence for someone's process."
+      }
+    },
+    "domainQuestion": "Domain or area of focus",
+    "domainHint": "What field or cause does this contribution relate to?",
+    "whoServesQuestion": "Who does this serve?",
+    "whoServesHint": "Help others understand who benefits from your contribution.",
+    "logisticsQuestion": "How does it work in practice?",
+    "logisticsHint": "Help people understand what working with you looks like.",
+    "timeCommitmentSuggestions": [
+      "1-2 hours/month",
+      "2-4 hours/month",
+      "1 hour/week",
+      "2-3 hours/week",
+      "Half-day per month",
+      "One full day",
+      "Flexible / as needed",
+      "Ongoing, no fixed hours"
+    ],
+    "timeCommitmentPlaceholder": "e.g. 2-4 hours/month",
+    "timeCommitmentHint": "How much time will this take from the other person?",
+    "formatSuggestions": [
+      "Remote (video calls)",
+      "Async (written, email)",
+      "In-person",
+      "Hybrid (remote + in-person)",
+      "Group sessions",
+      "1-on-1 sessions",
+      "Written resources and feedback",
+      "Workshop or retreat"
+    ],
+    "formatPlaceholder": "e.g. Remote (video calls)",
+    "formatHint": "How will the contribution be delivered?",
+    "availabilityLabel": "Your availability",
+    "availabilitySuggestions": [
+      "Weekday mornings",
+      "Weekday afternoons",
+      "Weekday evenings",
+      "Weekends",
+      "Flexible timing",
+      "By appointment only",
+      "Specific dates TBD"
+    ],
+    "availabilityPlaceholder": "e.g. Weekday evenings",
+    "availabilityHint": "When are you generally available for this?",
+    "prereqsQuestion": "Any requirements for participants?",
+    "prereqsHint": "Optional — leave blank if anyone is welcome.",
+    "prereqsLabel": "Prerequisites",
+    "prerequisitesPlaceholder": "e.g. Basic familiarity with systems thinking, openness to reflective practice...",
+    "postOffer": "Post offer",
+    "updateOffer": "Update offer",
+    "saving": "Saving…",
+    "successCreated": "Contribution offer created!",
+    "successUpdated": "Contribution offer updated!",
+    "redirecting": "Redirecting you now…",
+    "fillRequired": "Please fill in time commitment, format, and availability to continue."
+  },
+  "requestForm": {
+    "successTitle": "Your request has been submitted.",
+    "successBody": "Browse offers to find someone who can help.",
+    "typeLabel": "Type of support needed",
+    "whatNeededPlaceholder": "Describe specifically what you're looking for and why it matters.",
+    "minimumChars": "Minimum 20 characters",
+    "minCount": "{{count}}/20 min",
+    "alreadyTriedPlaceholder": "Context helps contributors understand where you're starting from.",
+    "willDoWithLabel": "What will you do with this?",
+    "willDoWithHint": "optional — not a gate",
+    "willDoWithPlaceholder": "Sharing your intent helps contributors decide if they're a good fit.",
+    "submit": "Send request",
+    "submitting": "Submitting…"
+  },
+  "myRequests": {
+    "title": "My Contribution Requests",
+    "subtitle": "Your pending contribution requests. Withdraw a request if it is no longer needed.",
+    "empty": "You have no pending contribution requests.",
+    "cardTitle": "{{type}} Request",
+    "whatNeededLabel": "What is needed",
+    "alreadyTriedLabel": "Already tried",
+    "willDoWithLabel": "Will do with",
+    "withdraw": "Withdraw",
+    "withdrawConfirm": "Withdraw this request?",
+    "withdrawYes": "Yes, withdraw",
+    "withdrawPending": "Withdrawing…",
+    "withdrawError": "Failed to withdraw request."
+  },
+  "common": {
+    "optional": "optional"
+  },
+  "offerCard": {
+    "formatLabel": "Format:",
+    "timeLabel": "Time:"
+  }
+}

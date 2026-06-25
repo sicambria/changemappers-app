@@ -1,0 +1,174 @@
+{
+  "loading": "Cargando mapa...",
+  "title": "Mapa",
+  "discover": "Descubrir",
+  "layers": {
+    "title": "Capas",
+    "communities": "Comunidades",
+    "individuals": "Personas",
+    "events": "Eventos",
+    "issues": "Problemas sociales",
+    "projects": "Proyectos",
+    "all": "Todo",
+    "showLayer": "Mostrar capa",
+    "hideLayer": "Ocultar capa",
+    "signals": "Señales"
+  },
+  "filters": {
+    "title": "Filtros",
+    "clear": "Limpiar filtros",
+    "apply": "Aplicar filtros",
+    "search": "Buscar...",
+    "location": {
+      "title": "Distancia",
+      "radius": "Radio",
+      "km5": "5 km",
+      "km30": "30 km",
+      "km100": "100 km",
+      "km500": "500 km",
+      "anywhere": "En cualquier lugar"
+    },
+    "communityType": {
+      "title": "Tipo de Comunidad",
+      "all": "Cualquier tipo",
+      "natureConnectedEcoHub": "Hub Eco Conectado con la Naturaleza",
+      "healingSanctuary": "Santuario de Sanación",
+      "inclusiveSupportNetwork": "Red de Apoyo Inclusiva",
+      "creativeArtsColony": "Colonia de Artes Creativas",
+      "egalitarianLiving": "Vida Egalitaria",
+      "spiritualHaven": "Refugio Espiritual",
+      "knowledgeHub": "Centro de Conocimiento",
+      "nomadicNetwork": "Red Nómada",
+      "regenerativeEconomic": "Economía Regenerativa",
+      "visionaryModelCity": "Ciudad Modelo Visionaria",
+      "earthRegenerationCenter": "Centro de Regeneración Terrestre",
+      "frontlineActivist": "Activista de Primera Línea",
+      "other": "Otro"
+    },
+    "changemakeLevel": {
+      "title": "Nivel de Transformador",
+      "all": "Cualquier nivel",
+      "level1": "1. Observador Empático",
+      "level2": "2. Consumidor Consciente",
+      "level3": "3. Defensor Vocal",
+      "level4": "4. Organizador Local",
+      "level5": "5. Innovador de Soluciones",
+      "level6": "6. Escalador Estratégico",
+      "level7": "7. Pensador Sistémico",
+      "level8": "8. Cambiador de Paradigma",
+      "level9": "9. Catalizador Global"
+    },
+    "archetype": {
+      "title": "Arquetipo",
+      "all": "Todos los tipos",
+      "placeholder": "Seleccionar arquetipos..."
+    },
+    "rdg": {
+      "title": "Áreas RDG",
+      "placeholder": "Seleccionar áreas RDG..."
+    },
+    "availability": {
+      "title": "Disponibilidad",
+      "placeholder": "Seleccionar disponibilidad..."
+    },
+    "skills": {
+      "title": "Habilidades",
+      "placeholder": "Seleccionar habilidades..."
+    },
+    "values": {
+      "title": "Valores",
+      "placeholder": "Seleccionar valores..."
+    },
+    "needs": {
+      "title": "Necesidades",
+      "placeholder": "Seleccionar necesidades..."
+    },
+    "offers": {
+      "title": "Ofertas",
+      "placeholder": "Seleccionar ofertas..."
+    },
+    "interests": {
+      "title": "Intereses",
+      "select": "Seleccionar intereses"
+    }
+  },
+  "searchableFilter": {
+    "selectPlaceholder": "Seleccionar...",
+    "searchPlaceholder": "Buscar...",
+    "noResults": "No se encontraron resultados.",
+    "clearAll": "Limpiar todo"
+  },
+  "search": {
+    "placeholder": "Buscar comunidades, personas...",
+    "noResults": "No se encontraron resultados",
+    "tryDifferent": "Prueba filtros diferentes"
+  },
+  "controls": {
+    "searchPlaceholder": "Buscar...",
+    "mapView": "Vista de mapa",
+    "listView": "Vista de lista",
+    "zoomIn": "Acercar",
+    "zoomOut": "Alejar",
+    "myLocation": "Mi ubicación"
+  },
+  "listView": {
+    "noResults": "No se encontraron resultados"
+  },
+  "accessibility": {
+    "signal": "señal",
+    "signalMarker": "{{name}}, {{domain}}, {{confidence}} confianza",
+    "clusterMembers": "Miembros del grupo",
+    "recentlyActive": "Activo recientemente"
+  },
+  "preview": {
+    "memberCount": "{{count}} miembros",
+    "appreciateCount": "{{count}} Appreciate",
+    "changemakeLevel": "Transformador de nivel {{level}}",
+    "viewSignal": "Ver señal",
+    "viewProfile": "Ver perfil",
+    "viewCommunity": "Ver comunidad",
+    "viewEvent": "Ver evento",
+    "viewIssue": "Ver problema"
+  },
+  "planet": {
+    "title": "Vista del planeta",
+    "activeChangemakers": "{{count}} agentes de cambio activos",
+    "map2dView": "Vista de mapa 2D",
+    "globeUnavailable": "La vista 3D del globo no está disponible en este dispositivo. Se muestra el mapa 2D en su lugar.",
+    "filterMarkerType": "Tipo de marcador",
+    "filterRdg": "Áreas RDG",
+    "closePopup": "Cerrar",
+    "loading": "Cargando planeta...",
+    "detailsAbout": "Acerca de",
+    "detailsLocation": "Ubicación",
+    "detailsProfile": "Detalles",
+    "detailsArchetypes": "Arquetipos",
+    "detailsRdgs": "Áreas RDG",
+    "detailsSkills": "Habilidades",
+    "detailsOffers": "Ofertas",
+    "detailsNeeds": "Necesidades",
+    "detailsValues": "Valores",
+    "detailsAvailability": "Disponibilidad",
+    "detailsTags": "Etiquetas",
+    "latitude": "Latitud",
+    "longitude": "Longitud",
+    "changemakeLevel": "Nivel de transformador",
+    "communityType": "Tipo de comunidad",
+    "eventType": "Tipo de evento",
+    "issueCategory": "Categoría del problema",
+    "issueSeverity": "Severidad",
+    "signalDomain": "Dominio de señal",
+    "signalConfidence": "Confianza",
+    "signalNovelty": "Novedad",
+    "feedToggle": "Actividad",
+    "eventsToggle": "Eventos",
+    "feedPanelKicker": "Flujo del planeta",
+    "feedPanelTitle": "Feed",
+    "eventsPanelKicker": "Próximos",
+    "eventsPanelTitle": "Eventos",
+    "openFullFeed": "Abrir feed",
+    "openFullEvents": "Abrir eventos",
+    "closeSidebar": "Cerrar panel",
+    "eventsEmpty": "Aún no hay eventos próximos"
+  }
+}

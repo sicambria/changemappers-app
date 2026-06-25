@@ -1,0 +1,14 @@
+{
+  "minLength": "Minimum {{min}} characters required",
+  "maxLength": "Maximum {{max}} characters allowed",
+  "email": "Please enter a valid email address",
+  "url": "Please enter a valid URL (https://...)",
+  "required": "This field is required",
+  "password": {
+    "minLength": "At least 12 characters",
+    "uppercase": "Must contain an uppercase letter",
+    "lowercase": "Must contain a lowercase letter",
+    "number": "Must contain a number",
+    "special": "Must contain a special character"
+  }
+}

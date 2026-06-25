@@ -1,0 +1,183 @@
+{
+  "title": "Hírek",
+  "description": "Oszd meg frissítéseidet, kapcsolódj a közösséghez",
+  "backToFeed": "Vissza a hírcsatornához",
+  "post": {
+    "title": "Új Bejegyzés",
+    "placeholder": "Oszd meg gondolataid a közösséggel...",
+    "inspirationPlaceholder": "Mi inspirál ma?",
+    "composerDialogLabel": "Bejegyzés létrehozása",
+    "submit": "Küldés",
+    "edit": "Bejegyzés Szerkesztése",
+    "delete": "Bejegyzés törlése",
+    "deleteConfirm": "Biztosan törölni szeretnéd ezt a bejegyzést?",
+    "visibility": "Láthatóság",
+    "visibilityPublic": "Nyilvános",
+    "visibilityRegistered": "Tagok",
+    "visibilityInternal": "Belső",
+    "sourceType": "Bejegyzés Típusa",
+    "sourcePersonal": "Személyes",
+    "sourceCommunity": "Közösségi",
+    "sourceEvent": "Esemény",
+    "createSuccess": "Bejegyzés sikeresen létrehozva",
+    "deleteSuccess": "Bejegyzés törölve",
+    "deleteError": "Nem sikerült törölni a bejegyzést",
+    "updateVisibilitySuccess": "Láthatóság frissítve",
+    "updateVisibilityError": "Nem sikerült frissíteni a láthatóságot",
+    "changeVisibility": "Láthatóság módosítása",
+    "showLess": "Kevesebb",
+    "readMore": "Több",
+    "watchOnWikimedia": "Megtekintés a Wikimedia Commons-on",
+    "moreOptions": "További lehetőségek",
+    "reactionDetails": "Részletek",
+    "reactionDetailsTitle": "Reakció részletei",
+    "noReactionsYet": "Még nincs reakció."
+  },
+  "comments": {
+    "title": "Hozzászólások",
+    "placeholder": "Írj hozzászólást...",
+    "submit": "Küldés",
+    "reply": "Válasz",
+    "edit": "Szerkesztés",
+    "delete": "Törlés",
+    "noComments": "Még nincs hozzászólás. Legyél te az első!",
+    "loginPrompt": "Jelentkezz be a hozzászóláshoz",
+    "showReplies": "Válaszok megjelenítése",
+    "hideReplies": "Válaszok elrejtése",
+    "showRepliesCount": "{{count}} válasz megjelenítése",
+    "replyingTo": "Válasz neki:",
+    "cancelReply": "Válasz elvetése",
+    "loadMore": "További hozzászólások betöltése"
+  },
+  "share": {
+    "title": "Bejegyzés megosztása",
+    "linkCopied": "Hivatkozás másolva a vágólapra",
+    "linkCopiedShort": "Link másolva",
+    "share": "Megosztás",
+    "copyLink": "Link másolása"
+  },
+  "filters": {
+    "all": "Mind",
+    "source": "Forrás",
+    "visibility": "Láthatóság",
+    "proximity": "Közelség",
+    "allSources": "Minden forrás",
+    "allVisibility": "Minden láthatóság",
+    "allProximity": "Mind",
+    "connections": "Kapcsolatok",
+    "community": "Közösségem",
+    "global": "Globális"
+  },
+  "timeAgo": {
+    "justNow": "Épp most",
+    "minutesAgo": "{{count}} perce",
+    "hoursAgo_one": "{{count}} órája",
+    "hoursAgo_other": "{{count}} órája",
+    "daysAgo_one": "{{count}} napja",
+    "daysAgo_other": "{{count}} napja"
+  },
+  "author": {
+    "by": "közzétette",
+    "in": "itt:"
+  },
+  "empty": {
+    "title": "Még nincs bejegyzés",
+    "description": "Legyél te az első, aki megoszt valamit!",
+    "action": "Bejegyzés létrehozása",
+    "noMore": "Nincs több betölthető bejegyzés"
+  },
+  "errors": {
+    "notFound": "Bejegyzés nem található",
+    "unauthorized": "Be kell jelentkezned",
+    "forbidden": "Nincs jogosultságod",
+    "createFailed": "Nem sikerült létrehozni a bejegyzést",
+    "updateFailed": "Nem sikerült frissíteni a bejegyzést",
+    "deleteFailed": "Nem sikerült törölni a bejegyzést",
+    "commentFailed": "Nem sikerült elküldeni a hozzászólást",
+    "repliesFailed": "Nem sikerült betölteni a válaszokat"
+  },
+  "rss": {
+    "sourceLabel": "Külső forrás",
+    "fetchedFrom": "Külső forrásból származik"
+  },
+  "editor": {
+    "imageUrlPrompt": "Kép URL",
+    "linkUrlPrompt": "Hivatkozás URL",
+    "videoUrlPrompt": "Videó URL\n\nTámogatott: {{platforms}}\n\nIlleszd be az oldal URL-jét — nem a beágyazási URL-t.",
+    "videoUrlNotRecognised": "Az URL nem felismerhető. Támogatott platformok: {{platforms}}",
+    "bold": "Félkövér",
+    "italic": "Dőlt",
+    "addLink": "Hivatkozás hozzáadása",
+    "addImage": "Kép hozzáadása",
+    "embedVideo": "Videó beágyazása ({{platforms}})",
+    "posting": "Küldés…",
+    "placeholder": "Írd ide a posztodat...",
+    "moreOptions": "További lehetőségek"
+  },
+  "hoverCard": {
+    "unableToLoad": "Nem sikerült betölteni a profilt",
+    "connected": "✓ Ismerős",
+    "requestSent": "⏳ Felkérés elküldve",
+    "requestReceived": "⏳ Felkérés érkezett"
+  },
+  "like": "Tetszik",
+  "unlike": "Már nem tetszik",
+  "onboarding": {
+    "feedReactionsTitle": "Hírfolyam reakciók",
+    "feedReactionsCopy": "Reakciókkal jelölheted, mit ad egy bejegyzés, az RDG-k és válogatott címkék pedig kontextust adnak a felfedezéshez.",
+    "feedReactionsDone": "Rendben"
+  },
+  "annotations": {
+    "author": "Szerző",
+    "community": "Közösség",
+    "rdgs": "RDG-k",
+    "tags": {
+      "header": "Címkék",
+      "categories": {
+        "initiative": "Kezdeményezés",
+        "event": "Esemény",
+        "contribution": "Hozzájárulás",
+        "training": "Képzés"
+      },
+      "labels": {
+        "community_building": "Közösségépítés",
+        "research_development": "Kutatás és fejlesztés",
+        "advocacy_campaign": "Érdekképviseleti kampány",
+        "education_training": "Oktatás és képzés",
+        "systems_change": "Rendszerváltás",
+        "ecological_restoration": "Ökológiai helyreállítás",
+        "economic_innovation": "Gazdasági innováció",
+        "cultural_arts": "Kulturális művészetek",
+        "health_wellbeing": "Egészség és jólét",
+        "governance_politics": "Kormányzás és politika",
+        "technology_infrastructure": "Technológiai infrastruktúra",
+        "workshop": "Műhely",
+        "meetup": "Találkozó",
+        "workday": "Munkanap",
+        "training": "Képzés",
+        "retreat": "Elvonulás",
+        "skill_offering": "Készség felajánlás",
+        "accompaniment": "Kísérés",
+        "knowledge_commons": "Tudásközkincs",
+        "holding_space": "Tér tartása",
+        "course": "Tanfolyam",
+        "demo": "Bemutató",
+        "resource": "Erőforrás",
+        "guided_practice": "Vezetett gyakorlás"
+      }
+    },
+    "saved": "Annotációk mentve",
+    "saveFailed": "Nem sikerült menteni az annotációkat",
+    "annotate": "Annotálás"
+  },
+  "reactions": {
+    "labels": {
+      "INSPIRED": "Inspirált",
+      "LEARNED": "Tanultam",
+      "CAN_HELP": "Segíthetek",
+      "CAN_CONNECT": "Összekapcsolhatok",
+      "WORTH_DEEPER_LISTENING": "Mélyebb meghallgatást érdemel",
+      "REGENERATIVE": "Regeneratív"
+    }
+  }
+}

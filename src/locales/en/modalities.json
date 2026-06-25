@@ -1,0 +1,235 @@
+{
+  "menu": {
+    "connect": "Connect",
+    "act": "Act",
+    "connectSubtitle": "Find what you need",
+    "actSubtitle": "Put what you carry into the world"
+  },
+  "selector": {
+    "training": {
+      "label": "Training",
+      "description": "Structured skill or knowledge transfer — you'll come away knowing something you didn't"
+    },
+    "mentoring": {
+      "label": "Mentoring",
+      "description": "Guidance from someone who's been where you are — they can give you their honest take"
+    },
+    "peer": {
+      "label": "Peer support",
+      "description": "Accompaniment from someone in a similar situation — no advice unless you ask for it"
+    },
+    "coaching": {
+      "label": "Coaching",
+      "description": "Facilitated thinking — your coach won't tell you what to do, they'll help you find what you already know"
+    },
+    "contribute": {
+      "label": "Contribute",
+      "description": "Offer a skill, knowledge, or your presence to someone who needs what you carry"
+    }
+  },
+  "availability": {
+    "DELIVERING": "Delivering",
+    "BUILDING": "Building",
+    "BETWEEN": "Between",
+    "REFLECTING": "Reflecting",
+    "RESTING": "Resting",
+    "descriptions": {
+      "DELIVERING": "Actively working on a commitment",
+      "BUILDING": "In a learning arc — available for both giving and receiving",
+      "BETWEEN": "In transition — fully available",
+      "REFLECTING": "Integrating recent experience — can browse, not surfaced to others",
+      "RESTING": "Recovery — removed from all matching queues"
+    }
+  },
+  "forwardReciprocity": {
+    "title": "What do you now carry that someone else needs?",
+    "body": "After receiving something of value, the next move is forward — not returning the favour, but offering something to someone earlier in the journey than you.",
+    "createOffer": "Create an offer",
+    "skip": "Not right now"
+  },
+  "noScores": {
+    "note": "No ratings or scores — only written reflections. The effort of writing is the filter."
+  },
+  "act": {
+    "prompt": "What do you carry that someone else needs?",
+    "subtitle": "Before connecting with what you need, consider what you're ready to offer."
+  },
+  "connectNature": {
+    "headerTag": "Interactive Field Guide",
+    "heroTitle": "Rewilding the Everyday",
+    "heroSub": "Practical, accessible ways to restore your connection to the natural world—whether you are deep in a forest or looking out a city window.",
+    "heroBtn": "Explore the Practices ↓",
+    "contextTitle": "The Disconnection Gap",
+    "contextDesc": "Understanding why we feel separated from nature is the first step to bridging the gap. It's not just about location; it's about attention.",
+    "whyLoseTitle": "Why We Lose Connection",
+    "whyLose1": "<strong>The Attention Economy:</strong> Screens and notifications keep our focus narrow, fast, and constantly shifting.",
+    "whyLose2": "<strong>Indoor Architecture:</strong> Climate control and artificial lighting insulate us from sensory variations.",
+    "whyLose3": "<strong>Utility Mindset:</strong> Viewing nature solely as a 'resource' or a 'gym' prevents relational thinking.",
+    "justBeingTitle": "Why 'Just Being There' Isn't Enough",
+    "justBeingSub": "Many people hike through beautiful forests but return feeling unchanged. Why?",
+    "justBeing1": "<strong>Mental Transportation:</strong> You can physically be in the woods while your mind is entirely at the office.",
+    "justBeing2": "<strong>Sensory Filtering:</strong> Adult brains filter out 'irrelevant' data unless you actively engage with it.",
+    "justBeing3": "<strong>Pacing:</strong> Moving at 'city speed' in a 'nature space' causes friction. Nature operates on a slower rhythm.",
+    "catalogTitle": "The Practice Catalog",
+    "catalogDesc": "Select a category below to explore specific, low-cost practices. The radar chart illustrates the mental and physical profile of each category.",
+    "profileTitle": "Practice Profile",
+    "whyHelpsTitle": "Why it helps restore connection",
+    "examplesTitle": "Concrete Examples (Everyday & Low Cost)",
+    "adaptTitle": "How to Adapt This",
+    "adaptForest": "In a Forest",
+    "adaptPark": "City Park",
+    "adaptBalcony": "On a Balcony",
+    "adaptIndoor": "Indoors/Window",
+    "smallestTitle": "The Smallest Possible Action",
+    "smallestSub": "What if you have exactly 10 seconds?",
+    "smallestName": "The Sky Breath",
+    "smallestDesc": "Go to a window. Look exclusively at the sky (bypassing buildings). Take one single, deep breath while watching the clouds, light, or darkness. Recognize that this is the exact same sky covering the deepest wilderness on Earth.",
+    "shortlistTitle": "The Beginner's Daily Shortlist",
+    "shortlistDesc": "If you are overwhelmed, ignore the rest of the guide and just pick one of these 3 highly effective, no-cost daily practices to start today:",
+    "sl1Title": "1. The Morning Weather Check (Sensory)",
+    "sl1Desc": "Before looking at a screen in the morning, step outside (or open a window wide). Feel the temperature on your skin, smell the air, and assess the weather with your body, not an app. Takes 30 seconds.",
+    "sl2Title": "2. The Textural Commute (Movement/Attention)",
+    "sl2Desc": "During a walk to work or the store, purposely step on different textures. Crunch a dry leaf, step on a patch of grass instead of pavement, run your hand along a rough brick wall.",
+    "sl3Title": "3. Find the Non-Human (Observation)",
+    "sl3Desc": "Once a day, purposely locate and observe one non-human living thing for 1 minute. A weed cracking through a sidewalk, a pigeon, a houseplant. Notice one detail.",
+    "footerText": "A structured approach to natural reconnection. Built for accessibility and daily integration.",
+    "chartBaseline": "City Baseline",
+    "chartLabels": {
+      "accessibility": "Accessibility",
+      "sensoryDepth": "Sensory Depth",
+      "physicalMovement": "Physical Movement",
+      "cognitiveRest": "Cognitive Rest",
+      "timeEfficiency": "Time Efficiency"
+    },
+    "categories": {
+      "SEN-01": {
+        "title": "Sensory Connection",
+        "explanation": "Directly engaging your five senses to bypass cognitive overthinking and root your awareness in the present physical environment.",
+        "why": "Modern life is heavily biased toward sight and sound via screens. Activating touch, smell, and spatial hearing immediately pulls the nervous system out of 'future-planning' mode, lowering cortisol.",
+        "examples": {
+          "0": "Close your eyes and try to identify three distinct layers of sound (near, medium, far).",
+          "1": "Take off your shoes and stand on natural ground for two minutes.",
+          "2": "Crush a fallen leaf between your fingers and inhale the scent deeply."
+        },
+        "adaptations": {
+          "forest": "Walk barefoot on moss. Taste pine tips (if safely identified).",
+          "park": "Lie flat on your back in the grass, feeling the ground support your body.",
+          "balcony": "Close your eyes and feel the direction of the wind on your face.",
+          "indoor": "Bury your fingers slightly into the soil of a houseplant to feel its moisture."
+        }
+      },
+      "ATT-02": {
+        "title": "Attention & Presence",
+        "explanation": "Shifting the quality of your focus from 'narrow and fast' (screen mode) to 'soft and wide' (nature mode).",
+        "why": "In nature, our ancestors used 'soft fascination'—a relaxed state of awareness where attention drifts naturally to interesting stimuli without demanding intense focus. This restores mental fatigue.",
+        "examples": {
+          "0": "Practice 'Owl Eyes': Look straight ahead, but expand your awareness to your extreme peripheral vision.",
+          "1": "Sit still and watch a single natural object (a cloud, a branch) for 5 unbroken minutes.",
+          "2": "Count how many different shades of green you can see from where you are sitting."
+        },
+        "adaptations": {
+          "forest": "Sit at the base of a tree and watch the canopy sway.",
+          "park": "Watch the movement of shadows on the grass as clouds pass.",
+          "balcony": "Track the slow, imperceptible movement of a cloud across the sky.",
+          "indoor": "Watch the dust motes dancing in a beam of sunlight."
+        }
+      },
+      "MOV-03": {
+        "title": "Movement & Body Awareness",
+        "explanation": "Moving through space in non-linear, unpredictable ways that require your brain and body to work together.",
+        "why": "Cities dictate how we move (flat sidewalks, 90-degree corners). Moving over uneven terrain engages proprioception, reminding your brain that your body is part of a dynamic physical world.",
+        "examples": {
+          "0": "Balance walking: Walk along a fallen log, low wall, or curb.",
+          "1": "Move quietly: Try to walk 20 steps over crunchy leaves making no noise.",
+          "2": "Change your level: Squat down to look at something on the ground."
+        },
+        "adaptations": {
+          "forest": "Step over roots, duck under branches. Let terrain dictate steps.",
+          "park": "Walk up a grassy hill sideways or backwards.",
+          "balcony": "Do slow, deliberate stretches while looking at the horizon.",
+          "indoor": "Sit on the floor instead of a chair to change your physical geometry."
+        }
+      },
+      "REL-04": {
+        "title": "Relationship & Reciprocity",
+        "explanation": "Shifting from seeing nature as a 'backdrop' to treating elements of the natural world as subjects and neighbors.",
+        "why": "Fostering a psychological sense of kinship with non-human life creates a sense of belonging to a wider community. It shifts the ego-centric worldview to an eco-centric one.",
+        "examples": {
+          "0": "Adopt a 'sit spot': Return to the exact same outdoor spot often.",
+          "1": "Learn the name of the street tree outside your home and greet it silently.",
+          "2": "Pick up three pieces of trash you didn't drop."
+        },
+        "adaptations": {
+          "forest": "Silently ask permission before stepping off a trail.",
+          "park": "Observe interactions between species (a bird interacting with a tree).",
+          "balcony": "Tend to a potted plant not just for decor, but as a living roommate.",
+          "indoor": "Trace the origin of your food while chopping vegetables."
+        }
+      },
+      "OBS-05": {
+        "title": "Observation & Learning",
+        "explanation": "Curiously investigating the mechanics, patterns, and behaviors of the natural world.",
+        "why": "Curiosity stimulates dopamine. When you start noticing patterns, the previously 'invisible' green blur becomes a rich, readable landscape.",
+        "examples": {
+          "0": "Download an app like Seek and identify one unknown species a day.",
+          "1": "Find an insect and watch it navigate obstacles for 2 minutes.",
+          "2": "Look for the 'micro-wilderness': Moss growing in a brick wall."
+        },
+        "adaptations": {
+          "forest": "Look for animal tracks in mud or signs on dead trees.",
+          "park": "Notice which trees lose their leaves first.",
+          "balcony": "Observe what types of insects visit your balcony.",
+          "indoor": "Watch how a houseplant leans toward the window."
+        }
+      },
+      "RIT-06": {
+        "title": "Ritual & Meaning",
+        "explanation": "Creating simple, intentional habits that acknowledge transitions in the day or season.",
+        "why": "Rituals bypass pure logic and speak to human emotional needs. In a world of endless homogenous digital time, nature rituals provide punctuation and meaning.",
+        "examples": {
+          "0": "Watch the sunrise or sunset in silence, even through a window.",
+          "1": "Drink your morning coffee/tea outside or by an open window.",
+          "2": "Collect a small natural item (acorn, stone) to keep in your pocket."
+        },
+        "adaptations": {
+          "forest": "Build a tiny, temporary mandala out of fallen leaves.",
+          "park": "Always enter the park through the same gate and take a deep breath.",
+          "balcony": "Have a designated chair where you sit for 5 minutes of silence.",
+          "indoor": "Create a small 'nature shelf' for stones or dried leaves."
+        }
+      },
+      "SEA-07": {
+        "title": "Seasonal & Daily Rhythm",
+        "explanation": "Aligning your personal habits and expectations with the reality of the earth's cycles.",
+        "why": "We expect ourselves to be 100% productive all year. Nature rests in winter and explodes in spring. Aligning with these rhythms reduces burnout.",
+        "examples": {
+          "0": "Eat seasonal foods. Notice how root vegetables feel grounding in winter.",
+          "1": "Dim artificial lights after sunset to mimic the fading of light.",
+          "2": "Notice the first sign of a changing season (the smell of autumn)."
+        },
+        "adaptations": {
+          "forest": "Observe how the acoustic environment changes (snow dampens sound).",
+          "park": "Take photos of the exact same tree once a month.",
+          "balcony": "Feel the difference in the angle of the sun in summer vs. winter.",
+          "indoor": "Rely only on natural light coming through the window for as long as possible."
+        }
+      },
+      "MIC-08": {
+        "title": "Micro-practices",
+        "explanation": "Tiny, almost invisible actions that inject nature awareness into heavily urbanized routines.",
+        "why": "When time and access are zero, micro-practices are the only option. They prove that nature isn't just a place you go; it's a reality you are always embedded in.",
+        "examples": {
+          "0": "Look at the sky instead of your phone while waiting for the elevator.",
+          "1": "Listen for the wind rattling windows between buildings.",
+          "2": "Keep a piece of nature (a smooth stone) on your desk and touch it during calls."
+        },
+        "adaptations": {
+          "forest": "(N/A - Focus is urban, but practice micro-pauses).",
+          "park": "Trace the edge where manicured lawn meets wilder bushes.",
+          "balcony": "Filter out city machines and try to only hear wind/birds.",
+          "indoor": "Listen to a 2-minute high-quality audio of a real forest with closed eyes."
+        }
+      }
+    }
+  }
+}

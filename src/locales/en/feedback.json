@@ -1,0 +1,40 @@
+{
+  "title": "Share your feedback",
+  "like": "I like it",
+  "dislike": "I don't like it",
+  "whatLiked": "What did you like?",
+  "whatExpected": "What did you expect?",
+  "whatHappened": "What happened instead?",
+  "improvement": "What could be better?",
+  "placeholders": {
+    "like": "e.g. The map made it easy to find nearby groups...",
+    "dislike": "e.g. I wanted to filter by region...",
+    "reality": "e.g. The map didn't update after I clicked...",
+    "improvement": "Your suggestions..."
+  },
+  "submit": "Send feedback",
+  "sending": "Sending...",
+  "success": "Feedback sent! Thank you.",
+  "error": "Something went wrong",
+  "failed": "Failed to submit feedback",
+  "validation": {
+    "like": "Please tell us what you liked",
+    "dislike": "Please fill in the mandatory fields"
+  },
+  "privacyNote": "We automatically capture your browser version and system info to help us troubleshoot.",
+  "publishAsIdea": {
+    "label": "Also publish this as a public idea on the roadmap",
+    "hint": "Others can upvote and comment on it. Your feedback details stay private.",
+    "titleLabel": "Idea title",
+    "titlePlaceholder": "A short, clear title",
+    "titleRequired": "Please add a short title for your idea.",
+    "typeLabel": "Category",
+    "types": {
+      "PAIN_POINT": "Pain point",
+      "FEATURE_IDEA": "Feature idea",
+      "BUG_FIX": "Bug fix"
+    },
+    "success": "Published to the community board.",
+    "failed": "Could not publish to the community board."
+  }
+}

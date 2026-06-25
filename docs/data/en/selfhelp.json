@@ -1,0 +1,723 @@
+{
+  "schemas": {
+    "standards": {
+      "label": "Unrelenting Standards",
+      "color": "text-blue-600 bg-blue-50 border-blue-200"
+    },
+    "isolation": {
+      "label": "Social Isolation",
+      "color": "text-slate-600 bg-slate-100 border-slate-200"
+    },
+    "approval": {
+      "label": "Approval-Seeking",
+      "color": "text-purple-600 bg-purple-50 border-purple-200"
+    },
+    "vulnerability": {
+      "label": "Vulnerability to Harm",
+      "color": "text-amber-600 bg-amber-50 border-amber-200"
+    },
+    "deprivation": {
+      "label": "Emotional Deprivation",
+      "color": "text-cyan-600 bg-cyan-50 border-cyan-200"
+    },
+    "negativity": {
+      "label": "Negativity/Pessimism",
+      "color": "text-gray-600 bg-gray-50 border-gray-200"
+    },
+    "self_control": {
+      "label": "Insufficient Self-Control",
+      "color": "text-red-600 bg-red-50 border-red-200"
+    },
+    "failure": {
+      "label": "Failure",
+      "color": "text-orange-600 bg-orange-50 border-orange-200"
+    },
+    "self_sacrifice": {
+      "label": "Self-Sacrifice",
+      "color": "text-rose-600 bg-rose-50 border-rose-200"
+    },
+    "dependence": {
+      "label": "Dependence/Incompetence",
+      "color": "text-lime-600 bg-lime-50 border-lime-200"
+    },
+    "mistrust": {
+      "label": "Mistrust/Abuse",
+      "color": "text-stone-600 bg-stone-100 border-stone-200"
+    },
+    "entitlement": {
+      "label": "Entitlement/Grandiosity",
+      "color": "text-yellow-600 bg-yellow-50 border-yellow-200"
+    },
+    "inhibition": {
+      "label": "Emotional Inhibition",
+      "color": "text-teal-600 bg-teal-50 border-teal-200"
+    },
+    "punitiveness": {
+      "label": "Punitiveness",
+      "color": "text-fuchsia-600 bg-fuchsia-50 border-fuchsia-200"
+    },
+    "abandonment": {
+      "label": "Abandonment/Instability",
+      "color": "text-pink-600 bg-pink-50 border-pink-200"
+    },
+    "impaired_limits": {
+      "label": "Impaired Limits",
+      "color": "text-indigo-600 bg-indigo-50 border-indigo-200"
+    },
+    "enmeshment": {
+      "label": "Enmeshment/Undeveloped Self",
+      "color": "text-violet-600 bg-violet-50 border-violet-200"
+    },
+    "overvigilance": {
+      "label": "Hypervigilance",
+      "color": "text-emerald-600 bg-emerald-50 border-emerald-200"
+    },
+    "defectiveness": {
+      "label": "Defectiveness/Shame",
+      "color": "text-zinc-600 bg-zinc-100 border-zinc-200"
+    },
+    "subjugation": {
+      "label": "Subjugation",
+      "color": "text-sky-600 bg-sky-50 border-sky-200"
+    }
+  },
+  "problemsData": [
+    {
+      "id": 1,
+      "schema": "standards",
+      "surface": "I have no time for anything",
+      "layer1": "Overcommitment, lack of priorities",
+      "layer2": "Fear of saying no",
+      "layer3": "Feeling worthless without achievement",
+      "layer4": "Conditional love tied to performance",
+      "core": "Instability of self-esteem",
+      "wrongSolutions": "Sleep deprivation, caffeine overdose, downloading new productivity apps",
+      "rightSolutions": "Say no to a request this week without explanation; Turn off notifications for 2 hours; Write a 'not-to-do' list",
+      "lesson": "To learn: Rest is not a reward, but a necessity. | To let go of: The illusion of indispensability."
+    },
+    {
+      "id": 2,
+      "schema": "isolation",
+      "surface": "I feel lonely",
+      "layer1": "Superficial relationships, lack of intimacy",
+      "layer2": "Avoiding vulnerability",
+      "layer3": "Fear of rejection",
+      "layer4": "Early emotional abandonment",
+      "core": "Lack of intimate connection",
+      "wrongSolutions": "Aimless scrolling on social media, superficial chatting, escaping into binge-watching",
+      "rightSolutions": "Call someone on video instead of texting; Share an honest, imperfect story with a friend; Join an offline club/group",
+      "lesson": "To learn: Vulnerability is not weakness, but a bridge. | To let go of: The perfect mask."
+    },
+    {
+      "id": 3,
+      "schema": "approval",
+      "surface": "I'm not successful enough",
+      "layer1": "Dependence on external validation",
+      "layer2": "Lack of internal standards",
+      "layer3": "Lack of self-acceptance",
+      "layer4": "Conditional love in childhood",
+      "core": "Lack of internal sense of worth",
+      "wrongSolutions": "Comparing yourself to others, hoarding degrees just for the paper, relentless hustle without rest",
+      "rightSolutions": "Write a list of 5 qualities that are not achievements; Celebrate a small success today; Unfollow 'successful' acquaintances who make you feel bad",
+      "lesson": "To learn: Your worth does not depend on your productivity. | To let go of: Constant comparison with others."
+    },
+    {
+      "id": 4,
+      "schema": "vulnerability",
+      "surface": "I worry all the time",
+      "layer1": "The illusion of control",
+      "layer2": "Inability to tolerate uncertainty",
+      "layer3": "Lack of inner safety",
+      "layer4": "Unpredictable childhood environment",
+      "core": "Lack of basic trust",
+      "wrongSolutions": "Over-insuring, constantly reading the news, checking on others excessively",
+      "rightSolutions": "Schedule 15 mins of 'worry time' daily, ban it otherwise; 5-4-3-2-1 grounding exercise; Write down the worst-case scenario, then tear it up",
+      "lesson": "To learn: Uncertainty is a part of life. | To let go of: The desire to control the future."
+    },
+    {
+      "id": 5,
+      "schema": "deprivation",
+      "surface": "I can't find happiness in my relationship",
+      "layer1": "Unrealistic expectations of the partner",
+      "layer2": "Expecting happiness from the other person",
+      "layer3": "Projecting one's own shortcomings",
+      "layer4": "Early attachment injuries",
+      "core": "Incomplete identity",
+      "wrongSolutions": "Constant partner switching, the urge to change the other, sulking",
+      "rightSolutions": "Spend an evening alone with a hobby; List what you expect from the other and give it to yourself; Book couple's or individual therapy",
+      "lesson": "To learn: Emotional self-regulation. | To let go of: Waiting for a savior."
+    },
+    {
+      "id": 6,
+      "schema": "negativity",
+      "surface": "I am depressed",
+      "layer1": "Feeling of meaninglessness",
+      "layer2": "Suppressed emotions, unspoken needs",
+      "layer3": "Alienation from oneself",
+      "layer4": "Loss of connection with the authentic self",
+      "core": "Lack of joy in life",
+      "wrongSolutions": "Alcohol, locking yourself in a dark room, suppressing feelings",
+      "rightSolutions": "Seek professional help (psychiatrist/psychologist); 10 mins walk in sunlight daily; Cold shower; Journaling about feelings",
+      "lesson": "To learn: The power of small actions. | To let go of: 'I'll do it when I feel better'."
+    },
+    {
+      "id": 7,
+      "schema": "self_control",
+      "surface": "I am overweight",
+      "layer1": "Unhealthy relationship with food",
+      "layer2": "Emotional eating, seeking comfort",
+      "layer3": "Unprocessed trauma, stress",
+      "layer4": "Lack of safety, the body as armor",
+      "core": "Lack of emotional self-regulation",
+      "wrongSolutions": "Starvation, fad diets, body image obsession, self-hatred",
+      "rightSolutions": "Keep an emotion journal: 'What do I feel before eating?'; Put down the cutlery after every bite; Find other sources of joy (e.g. hot bath)",
+      "lesson": "To learn: To experience emotions, not eat them. | To let go of: Food as a comforting function."
+    },
+    {
+      "id": 8,
+      "schema": "failure",
+      "surface": "I never achieve anything",
+      "layer1": "Paralysis caused by perfectionism",
+      "layer2": "Inability to tolerate failure",
+      "layer3": "Fragile self-image",
+      "layer4": "Internalized critical parental voice",
+      "core": "The prohibition of making mistakes",
+      "wrongSolutions": "Giving up goals, self-torment, procrastination in the name of perfection",
+      "rightSolutions": "Do something intentionally wrong (e.g. ugly drawing) and don't fix it; Use time-boxing for a task; Rewrite the inner critic's sentences",
+      "lesson": "To learn: Done is better than perfect. | To let go of: All-or-nothing thinking."
+    },
+    {
+      "id": 9,
+      "schema": "self_sacrifice",
+      "surface": "Everyone takes advantage of me",
+      "layer1": "Lack of boundaries",
+      "layer2": "Neglecting one's own needs",
+      "layer3": "People pleasing",
+      "layer4": "Hunger for love",
+      "core": "Lack of assertiveness",
+      "wrongSolutions": "Playing the martyr, passive sulking, mistrusting everyone",
+      "rightSolutions": "Practice saying 'Let me think about it' instead of an immediate yes; Write down your rights on paper; Say: 'I don't have the capacity for this right now'",
+      "lesson": "To learn: Boundaries inspire respect. | To let go of: The fear of not being loved if you say no."
+    },
+    {
+      "id": 10,
+      "schema": "self_control",
+      "surface": "I am an addict",
+      "layer1": "Escaping into addictive behavior",
+      "layer2": "Pain relief",
+      "layer3": "Unprocessed trauma",
+      "layer4": "Emotional void, impaired self-regulation",
+      "core": "The unbearableness of the present moment",
+      "wrongSolutions": "Flexing willpower without help, self-flagellation, replacing one addiction with another",
+      "rightSolutions": "Find an anonymous group or addictologist today; Delete tempting phone numbers/apps; Make an emergency plan for cravings",
+      "lesson": "To learn: Asking for help is strength. | To let go of: Shame and secrecy."
+    },
+    {
+      "id": 11,
+      "schema": "dependence",
+      "surface": "I can't make decisions",
+      "layer1": "Decision paralysis",
+      "layer2": "The illusion of the perfect choice",
+      "layer3": "Fear of making mistakes",
+      "layer4": "Memory of bad decisions or criticism",
+      "core": "Lack of self-confidence",
+      "wrongSolutions": "Shifting the decision to others, endless pros and cons lists, delaying until the decision is moot",
+      "rightSolutions": "Flip a coin and observe your feelings at the result; Give yourself 2 mins for small decisions (e.g. at a restaurant); Take risks with small stakes",
+      "lesson": "To learn: There is no perfect decision, only a chosen path. | To let go of: Retrospective rumination (FOMO)."
+    },
+    {
+      "id": 12,
+      "schema": "mistrust",
+      "surface": "Everyone is against me",
+      "layer1": "Paranoid mindset",
+      "layer2": "General mistrust",
+      "layer3": "Projection (own shadow self)",
+      "layer4": "Experience of betrayal in the past",
+      "core": "Lack of fundamental sense of security",
+      "wrongSolutions": "Isolation, aggressive demeanor, looking for ulterior motives behind every word",
+      "rightSolutions": "Do a reality check with a trusted friend ('I see it this way, is it realistic?'); Keep a gratitude journal of positive interactions; Seek professional help",
+      "lesson": "To learn: The world is not just black and white. | To let go of: The victim narrative."
+    },
+    {
+      "id": 13,
+      "schema": "standards",
+      "surface": "I can't switch off",
+      "layer1": "Compulsion to act",
+      "layer2": "Restlessness in silence",
+      "layer3": "Avoiding meeting oneself",
+      "layer4": "Feeling of inner void",
+      "core": "Fear of simply existing",
+      "wrongSolutions": "Even more training, work, or partying to exhaustion, unjustified use of sleeping pills",
+      "rightSolutions": "Sit for 5 mins in silence without devices; Walk in nature without music/podcasts; Practice progressive muscle relaxation",
+      "lesson": "To learn: 'Being' is just as important as 'doing'. | To let go of: The belief that idleness is a sin."
+    },
+    {
+      "id": 14,
+      "schema": "deprivation",
+      "surface": "I am envious of others",
+      "layer1": "Compulsion to compare",
+      "layer2": "Dissatisfaction with one's own life",
+      "layer3": "Projecting internal feelings of lack",
+      "layer4": "Childhood experience of deprivation",
+      "core": "Lack of gratitude and contentment",
+      "wrongSolutions": "Obsessively watching social media, belittling others, gossiping",
+      "rightSolutions": "Write down 3 things daily you are grateful for; Unfollow those who trigger envy; Turn envy into a goal: 'What can I do to have that too?'",
+      "lesson": "To learn: Another's success is not your failure. | To let go of: The lack-focus."
+    },
+    {
+      "id": 15,
+      "schema": "defectiveness",
+      "surface": "I don't love myself",
+      "layer1": "Self-criticism, negative self-talk",
+      "layer2": "Internalized critical parent",
+      "layer3": "Conditional love in childhood",
+      "layer4": "Fundamental feeling of unacceptability",
+      "core": "Lack of self-love",
+      "wrongSolutions": "Forced positive affirmations in the mirror, series of plastic surgeries, self-punishment",
+      "rightSolutions": "Write a letter to yourself as if addressing a friend; Touch your chest when you have heavy feelings (self-compassion); Work with a pro on your inner critic",
+      "lesson": "To learn: You can be kind to yourself too. | To let go of: The voice of the inner tyrant."
+    },
+    {
+      "id": 16,
+      "schema": "subjugation",
+      "surface": "I am afraid of conflicts",
+      "layer1": "Conflict avoidance",
+      "layer2": "Suppression of aggression and anger",
+      "layer3": "Fear of losing the relationship",
+      "layer4": "Abusive or neglectful childhood environment",
+      "core": "Prohibition of self-assertion",
+      "wrongSolutions": "Nodding to everything, passive-aggressive remarks, fleeing the room",
+      "rightSolutions": "Practice 'I-statements' ('It hurts when...'); Disagree on a low-stakes issue (e.g. what movie to watch); Stand your ground, don't walk away",
+      "lesson": "To learn: Conflict can clarify a relationship. | To let go of: The 'good kid' role."
+    },
+    {
+      "id": 17,
+      "schema": "inhibition",
+      "surface": "I don't feel anything",
+      "layer1": "Emotional numbness",
+      "layer2": "Dissociation (detachment from reality)",
+      "layer3": "Defense mechanism against trauma",
+      "layer4": "Survival strategy",
+      "core": "Disconnection from the emotional self",
+      "wrongSolutions": "Extreme sports without calculated risk, drugs, self-harm just to feel something",
+      "rightSolutions": "Seek body-oriented therapy; Hot-cold contrast shower; Touch textures around you; Name objects in the room out loud",
+      "lesson": "To learn: Being in the body is safe. | To let go of: The fear of pain."
+    },
+    {
+      "id": 18,
+      "schema": "vulnerability",
+      "surface": "I am constantly sick",
+      "layer1": "Weak immune system, chronic symptoms",
+      "layer2": "Psychosomatic signals",
+      "layer3": "Emotions trapped in the body",
+      "layer4": "Expressing unspoken needs through symptoms",
+      "core": "The body as a communication channel",
+      "wrongSolutions": "Hoarding symptom-suppressing drugs without investigating the cause, blaming the body, raging at the illness",
+      "rightSolutions": "Keep a symptom diary with emotional context; Learn relaxation techniques (autogenic training); Ask your symptom: 'What do you force me to do / save me from?'",
+      "lesson": "To learn: The body is your friend that signals. | To let go of: Treating the body as an object."
+    },
+    {
+      "id": 19,
+      "schema": "punitiveness",
+      "surface": "I can't forgive",
+      "layer1": "Nursing anger and resentment",
+      "layer2": "Unprocessed injustice",
+      "layer3": "Lack of acknowledgment of one's own pain",
+      "layer4": "Feeling of powerlessness",
+      "core": "Identity built around grievances",
+      "wrongSolutions": "Planning revenge, endlessly repeating the story to others, passive punishment",
+      "rightSolutions": "Write a letter to the offender, don't send it, burn/tear it; Acknowledge your own pain by crying/raging (in safety); Seek a pro for grief counseling",
+      "lesson": "To learn: Forgiveness is about your freedom. | To let go of: The desire for the past to change."
+    },
+    {
+      "id": 20,
+      "schema": "failure",
+      "surface": "I leave everything halfway",
+      "layer1": "A pile of unfinished projects",
+      "layer2": "Loss of initial momentum (lack of perseverance)",
+      "layer3": "Fear of failure or success",
+      "layer4": "Feeling of unworthiness",
+      "core": "Difficulty with commitment",
+      "wrongSolutions": "Starting newer and newer projects, self-flagellation, seeking external enforcers",
+      "rightSolutions": "Break the task into micro-steps; Finish one tiny, long-overdue thing this week; Celebrate partial results",
+      "lesson": "To learn: Motivation follows action, not the other way around. | To let go of: Constantly chasing the magic of novelty."
+    },
+    {
+      "id": 21,
+      "schema": "standards",
+      "surface": "I am burned out",
+      "layer1": "Physical and mental exhaustion",
+      "layer2": "Chronic neglect of one's own needs",
+      "layer3": "Incompatibility with values",
+      "layer4": "Identity based solely on performance",
+      "core": "Loss of life force",
+      "wrongSolutions": "Increasing coffee and energy drinks, 'I can just survive this week' attitude, alcohol",
+      "rightSolutions": "Go on vacation without your laptop; Start a hobby that has no 'utility'; Sleep 8 hours daily; Find a career counselor or therapist",
+      "lesson": "To learn: You are not a machine. | To let go of: The belief that rest must be earned."
+    },
+    {
+      "id": 22,
+      "schema": "abandonment",
+      "surface": "I abandon relationships halfway",
+      "layer1": "Avoidant attachment style",
+      "layer2": "Fear of closeness and intimacy",
+      "layer3": "Rejection of vulnerability",
+      "layer4": "Early experience of abandonment or engulfment",
+      "core": "Lack of secure attachment",
+      "wrongSolutions": "Ghosting, finding flaws in the other, escaping under the guise of freedom",
+      "rightSolutions": "Stay in the situation even if it's uncomfortable (a little longer); Talk about your fears to your partner; Therapy for attachment patterns",
+      "lesson": "To learn: Independence and attachment can coexist. | To let go of: Fleeing as the primary reaction."
+    },
+    {
+      "id": 23,
+      "schema": "self_control",
+      "surface": "I live in financial chaos",
+      "layer1": "Financial irresponsibility",
+      "layer2": "Avoiding facing money",
+      "layer3": "Emotional shopping",
+      "layer4": "Negative beliefs about money or unworthiness",
+      "core": "Lack of abundance mindset and responsibility",
+      "wrongSolutions": "Taking out more loans, gambling, leaving bills unopened",
+      "rightSolutions": "Download an expense tracking app and log everything; Open all envelopes today; Set up automatic savings (even a tiny amount)",
+      "lesson": "To learn: Money is a tool, not an enemy. | To let go of: The desire for instant gratification."
+    },
+    {
+      "id": 24,
+      "schema": "entitlement",
+      "surface": "Everyone is stupid, only I am smart",
+      "layer1": "Feeling of superiority",
+      "layer2": "Narcissistic defense",
+      "layer3": "Compensating for deep feelings of inferiority",
+      "layer4": "Fragile self-esteem",
+      "core": "Lack of true self-confidence",
+      "wrongSolutions": "Lecturing others, cynical remarks, intellectual isolation",
+      "rightSolutions": "Listen to someone completely without interrupting or judging; Apologize if you were wrong; Find an environment where you are a beginner (learn something new)",
+      "lesson": "To learn: Humility is not humiliation. | To let go of: The need to always be right."
+    },
+    {
+      "id": 25,
+      "schema": "negativity",
+      "surface": "I can't throw anything away",
+      "layer1": "Compulsive hoarding",
+      "layer2": "Clinging to the past",
+      "layer3": "Lack of grief processing",
+      "layer4": "Need for control through objects",
+      "core": "Inability to accept change",
+      "wrongSolutions": "Renting storage units, buying organizer boxes instead of decluttering, 'it will be good for something later' mindset",
+      "rightSolutions": "Throw away/donate 3 items today; Take a photo of the memory before discarding the object; Practice non-attachment (mindfulness)",
+      "lesson": "To learn: Your memories are inside you, not in objects. | To let go of: Junk that provides false security."
+    },
+    {
+      "id": 26,
+      "schema": "impaired_limits",
+      "surface": "I am always late",
+      "layer1": "Time management disorder",
+      "layer2": "Passive-aggressive rebellion",
+      "layer3": "Fear of waiting",
+      "layer4": "Rebellion against authority figures/rules",
+      "core": "Feeling of loss of autonomy",
+      "wrongSolutions": "Setting the clock forward, making excuses, rushing with a taxi",
+      "rightSolutions": "Leave 15 minutes early intentionally; Bring a book so waiting isn't an issue; Admit: 'I'm late, I'm sorry' (without excuses)",
+      "lesson": "To learn: Punctuality is respecting the other's time. | To let go of: Childish defiance."
+    },
+    {
+      "id": 27,
+      "schema": "standards",
+      "surface": "I am not creative",
+      "layer1": "Creative block",
+      "layer2": "Paralysis of perfectionism",
+      "layer3": "Excessive inner criticism",
+      "layer4": "Childhood negative feedback during creation",
+      "core": "Loss of playfulness",
+      "wrongSolutions": "Copying others, forced brainstorming, giving up on creating",
+      "rightSolutions": "Buy a cheap notebook and scribble in it ugly; Dance at home to music alone; Do something purely for the process, without an end goal",
+      "lesson": "To learn: Every human is a creative being. | To let go of: Performance anxiety in creation."
+    },
+    {
+      "id": 28,
+      "schema": "enmeshment",
+      "surface": "I can't talk to my family",
+      "layer1": "Communication breakdown",
+      "layer2": "Rigid family roles",
+      "layer3": "Generational traumas",
+      "layer4": "Unspoken family secrets",
+      "core": "Systemic dysfunction",
+      "wrongSolutions": "Screaming, total silence, expecting them to change on their own",
+      "rightSolutions": "Set your boundaries: 'I don't want to talk about this'; Try family constellation or therapy; Accept that you can't change them, only your attitude",
+      "lesson": "To learn: As an adult, you can redefine the relationship. | To let go of: The desire for the perfect family."
+    },
+    {
+      "id": 29,
+      "schema": "enmeshment",
+      "surface": "I don't know what I want",
+      "layer1": "Aimless drifting",
+      "layer2": "Lack of self-knowledge",
+      "layer3": "Conforming to others' expectations",
+      "layer4": "Loss of authentic self",
+      "core": "Lack of an inner compass",
+      "wrongSolutions": "Following others, going to a psychic instead of deciding, endless procrastination",
+      "rightSolutions": "Try a new activity every week; Write a list of what you DO NOT want; Spend time in silence to hear your own thoughts",
+      "lesson": "To learn: The answers are within you, not outside. | To let go of: Conformity."
+    },
+    {
+      "id": 30,
+      "schema": "enmeshment",
+      "surface": "My child is always sick",
+      "layer1": "The child as a symptom bearer",
+      "layer2": "Hidden family tensions",
+      "layer3": "Projection of parental anxiety",
+      "layer4": "Need for attention or system stabilization",
+      "core": "Imbalance in the family system",
+      "wrongSolutions": "Only treating the child medically, blaming the child, excessive worrying and overprotection",
+      "rightSolutions": "Address your own stress levels and relationship; Ask for family therapy consultation; Let the child sometimes 'just be', don't treat them as a patient",
+      "lesson": "To learn: Children reflect their environment. | To let go of: Guilt and excessive control."
+    },
+    {
+      "id": 31,
+      "schema": "defectiveness",
+      "surface": "I am afraid of success",
+      "layer1": "Self-sabotage",
+      "layer2": "Visibility feels dangerous",
+      "layer3": "Fear of responsibility and envy",
+      "layer4": "Belief: 'being small is safe'",
+      "core": "Fear of shining",
+      "wrongSolutions": "Withdrawing at the last minute, downplaying achievements, hiding",
+      "rightSolutions": "Visualize success and the feelings that come with it; Share your achievement proudly with one person; Practice accepting compliments ('Thank you' without excuses)",
+      "lesson": "To learn: You have the right to abundance and success. | To let go of: False modesty."
+    },
+    {
+      "id": 32,
+      "schema": "self_control",
+      "surface": "I procrastinate everything",
+      "layer1": "Procrastination",
+      "layer2": "Perfectionism or defiance",
+      "layer3": "Fear that it won't be good enough",
+      "layer4": "Avoidance of criticism",
+      "core": "Action paralysis",
+      "wrongSolutions": "Self-discipline through scolding, unrealistic deadlines, 'tomorrow I will do this all day' illusion",
+      "rightSolutions": "5-minute rule: Just do it for 5 mins, then you can stop; Break the task into ridiculously small steps; Reward yourself for starting",
+      "lesson": "To learn: Action reduces anxiety. | To let go of: Waiting for perfect conditions."
+    },
+    {
+      "id": 33,
+      "schema": "negativity",
+      "surface": "I suffer from my past",
+      "layer1": "Traumatized past",
+      "layer2": "Intrusion of unprocessed events",
+      "layer3": "PTSD symptoms",
+      "layer4": "Loss of sense of security",
+      "core": "Lack of memory integration",
+      "wrongSolutions": "Violent suppression of memories, alcohol, avoidant behavior",
+      "rightSolutions": "Seek trauma therapy (e.g. EMDR, Somatic Experiencing); Grounding exercises (touch 3 objects); Rewrite the end of your story on paper",
+      "lesson": "To learn: The past is gone, you can be safe in the present. | To let go of: Self-blame for what happened."
+    },
+    {
+      "id": 34,
+      "schema": "approval",
+      "surface": "I depend on others' opinions",
+      "layer1": "Compulsion for external validation",
+      "layer2": "Lack of internal judgment of worth",
+      "layer3": "Instability of self-esteem",
+      "layer4": "Conditional acceptance in childhood",
+      "core": "Lack of an inner anchor",
+      "wrongSolutions": "Asking everyone ('Do you think this is good?'), hunting for likes, self-abandonment",
+      "rightSolutions": "Make a decision without asking anyone; Wear clothes you like, not what's fashionable; Write down your values",
+      "lesson": "To learn: You are living your life, not them. | To let go of: The desire for popularity."
+    },
+    {
+      "id": 35,
+      "schema": "overvigilance",
+      "surface": "I can never relax",
+      "layer1": "Constant tension",
+      "layer2": "Continuous danger perception (readiness)",
+      "layer3": "Lack of safety",
+      "layer4": "Traumatized nervous system",
+      "core": "Inability to soothe oneself",
+      "wrongSolutions": "Alcohol to relax, compulsive TV watching, collapsing from exhaustion",
+      "rightSolutions": "Practice long exhalations; Use a weighted blanket; Somatic therapy; Rocking or slow walking",
+      "lesson": "To learn: A sense of safety must be built in the body. | To let go of: Continuous control."
+    },
+    {
+      "id": 36,
+      "schema": "isolation",
+      "surface": "I am introverted, and that's a problem",
+      "layer1": "Labeling a personality trait as a flaw",
+      "layer2": "Compulsive pursuit of the extroverted ideal",
+      "layer3": "Lack of self-acceptance",
+      "layer4": "Internalizing societal expectations",
+      "core": "Rejection of authenticity",
+      "wrongSolutions": "Forced social life, acting, guilt over solitude",
+      "rightSolutions": "Acknowledge your strengths (e.g. deep attention); Say no to big parties without guilt; Recharge alone with a book/walk",
+      "lesson": "To learn: Quiet strength is also strength. | To let go of: The pressure to conform to a noisy world."
+    },
+    {
+      "id": 37,
+      "schema": "overvigilance",
+      "surface": "I think too much",
+      "layer1": "Overthinking",
+      "layer2": "Analysis paralysis (instead of action)",
+      "layer3": "Illusion of control",
+      "layer4": "Lack of trust in the flow of life",
+      "core": "Lack of presence",
+      "wrongSolutions": "Thinking even more about the solution, night-time rumination, indecisiveness",
+      "rightSolutions": "Do something on the physical plane (dishwashing, running); Brain dump thoughts on paper so they don't circle your head; Meditation (focus on breath)",
+      "lesson": "To learn: Thoughts are not facts. | To let go of: Overthinking as a problem-solving strategy."
+    },
+    {
+      "id": 38,
+      "schema": "inhibition",
+      "surface": "I have no hobbies",
+      "layer1": "Lack of sources of joy",
+      "layer2": "Only obligations exist",
+      "layer3": "Loss of playfulness",
+      "layer4": "Productivity compulsion",
+      "core": "One's own value without performance",
+      "wrongSolutions": "Compulsive search for 'useful' hobbies, learning languages instead of resting, envying others",
+      "rightSolutions": "Remember what you liked in childhood; Try something without stakes (e.g. coloring); Go to a trial class somewhere",
+      "lesson": "To learn: Joy itself is a goal. | To let go of: Utilitarianism."
+    },
+    {
+      "id": 39,
+      "schema": "defectiveness",
+      "surface": "I always get offended",
+      "layer1": "Oversensitivity",
+      "layer2": "Taking everything personally",
+      "layer3": "Fragile self-image",
+      "layer4": "Deep trace of early criticism",
+      "core": "Instability of self-worth",
+      "wrongSolutions": "Passive sulking, creating drama, abruptly cutting off relationships",
+      "rightSolutions": "Ask: 'How exactly did you mean that?'; Wait 24 hours before reacting; Realize: the other person's behavior is about them, not you",
+      "lesson": "To learn: Others' opinions are not your reality. | To let go of: Assumptions."
+    },
+    {
+      "id": 40,
+      "schema": "subjugation",
+      "surface": "I can't defend myself",
+      "layer1": "Lack of assertiveness",
+      "layer2": "Prohibition of anger and aggression",
+      "layer3": "Victim role",
+      "layer4": "Belief: 'anger is dangerous'",
+      "core": "Giving up the right to self-defense",
+      "wrongSolutions": "Swallowing it, then exploding; grumbling to yourself; avoidance",
+      "rightSolutions": "Practice saying 'No' in front of a mirror; Enroll in self-defense class or assertiveness training; Stand up straight in posture",
+      "lesson": "To learn: Your anger is a warning system that protects you. | To let go of: The fear of conflict."
+    },
+    {
+      "id": 41,
+      "schema": "self_sacrifice",
+      "surface": "They take advantage of my empathy",
+      "layer1": "Empathetic burnout",
+      "layer2": "Lack of boundaries",
+      "layer3": "Taking on others' emotions",
+      "layer4": "Neglecting one's own feelings",
+      "core": "Lack of energy management",
+      "wrongSolutions": "Total isolation, cynicism, playing the martyr",
+      "rightSolutions": "Set a time limit for listening to complaints; Imagine a bubble around yourself; Say: 'I can't listen right now because I am tired'",
+      "lesson": "To learn: You can't help others if your cup is empty. | To let go of: The savior of the world role."
+    },
+    {
+      "id": 42,
+      "schema": "vulnerability",
+      "surface": "I can't let go of control",
+      "layer1": "Control freakery",
+      "layer2": "Micromanagement",
+      "layer3": "Reducing anxiety with control",
+      "layer4": "Terror of uncertainty",
+      "core": "Lack of trust",
+      "wrongSolutions": "Doing everything alone, constantly correcting others, checking things late into the night",
+      "rightSolutions": "Delegate a task and DO NOT check it; Trust someone with a small detail; Practice accepting 'good enough'",
+      "lesson": "To learn: Control is an illusion. | To let go of: Responsibility for everything and everyone."
+    },
+    {
+      "id": 43,
+      "schema": "defectiveness",
+      "surface": "I don't feel feminine/masculine enough",
+      "layer1": "Gender identity insecurity",
+      "layer2": "Internalizing stereotypes",
+      "layer3": "Pressure to conform to society",
+      "layer4": "Conditional acceptance",
+      "core": "Lack of authentic gender expression",
+      "wrongSolutions": "Overacting roles, compulsive conformity in appearances, self-blame",
+      "rightSolutions": "Wear clothes/accessories that you like; Follow people who freely express their gender; Redefine what it means for you to be a man/woman",
+      "lesson": "To learn: Gender is a spectrum and an individual experience. | To let go of: Boxes and labels."
+    },
+    {
+      "id": 44,
+      "schema": "abandonment",
+      "surface": "I can't be alone",
+      "layer1": "Inability to tolerate solitude",
+      "layer2": "Codependency",
+      "layer3": "Avoiding facing oneself",
+      "layer4": "Abandonment anxiety",
+      "core": "Lack of independent identity",
+      "wrongSolutions": "Jumping from one relationship to another, keeping the TV on for background noise, constantly calling people",
+      "rightSolutions": "Go to the movies or a restaurant alone; Spend a weekend with a 'digital detox' alone; Get to know yourself (journal, self-knowledge group)",
+      "lesson": "To learn: To be your own best company. | To let go of: Clinging to others."
+    },
+    {
+      "id": 45,
+      "schema": "defectiveness",
+      "surface": "I lie constantly",
+      "layer1": "Compulsive lying",
+      "layer2": "Inability to bear reality",
+      "layer3": "Escaping from shame",
+      "layer4": "Belief: 'my true self is unlovable'",
+      "core": "Lack of integrity",
+      "wrongSolutions": "More lies to avoid exposure, pretending, believing your own lies",
+      "rightSolutions": "Admit a small lie to someone; Start practicing 'radical honesty' in small things; Seek a therapist to process shame",
+      "lesson": "To learn: The truth sets you free. | To let go of: The fear of being exposed."
+    },
+    {
+      "id": 46,
+      "schema": "standards",
+      "surface": "I am behind in life",
+      "layer1": "Pressure of societal expectations",
+      "layer2": "Missing milestones",
+      "layer3": "Comparing with others",
+      "layer4": "The illusion of 'timing'",
+      "core": "Rejection of one's own life rhythm",
+      "wrongSolutions": "Panic-driven midlife crisis decisions, sinking into depression, envying",
+      "rightSolutions": "List everything you have achieved so far (that is not a societal expectation); Formulate your own goals; Talk to older people about the curves in their life path",
+      "lesson": "To learn: Life is not a race. | To let go of: 'Should' thoughts."
+    },
+    {
+      "id": 47,
+      "schema": "self_sacrifice",
+      "surface": "I can't stop helping others",
+      "layer1": "Savior syndrome",
+      "layer2": "Pushing own needs to the background",
+      "layer3": "Feeling of worth only through serving others",
+      "layer4": "Codependency",
+      "core": "Self-redemption through others",
+      "wrongSolutions": "Giving unsolicited advice, taking on others' problems, getting offended if help is not accepted",
+      "rightSolutions": "Help only when asked (make it a rule); Ask: 'How can I help?' instead of just doing; Turn the focus on yourself: 'What do I need?'",
+      "lesson": "To learn: Everyone is responsible for their own life. | To let go of: Taking responsibility for others."
+    },
+    {
+      "id": 48,
+      "schema": "mistrust",
+      "surface": "Everyone hurts me",
+      "layer1": "Constant feeling of being offended",
+      "layer2": "Victim mentality",
+      "layer3": "Shifting responsibility",
+      "layer4": "Feeling of powerlessness",
+      "core": "Victim identity",
+      "wrongSolutions": "Complaining to everyone, passivity, waiting for miracles or apologies",
+      "rightSolutions": "Examine your own role in conflicts; Take responsibility for your feelings ('I feel this way'); Act instead of reacting",
+      "lesson": "To learn: You are the author of your life, not an extra. | To let go of: Blaming."
+    },
+    {
+      "id": 49,
+      "schema": "negativity",
+      "surface": "I am unable to change",
+      "layer1": "Resistance to change",
+      "layer2": "The captivity of habit",
+      "layer3": "Fear of the unknown",
+      "layer4": "Terror of losing control",
+      "core": "Inflexibility",
+      "wrongSolutions": "Forced drastic changes that fail immediately; looking for excuses; procrastination",
+      "rightSolutions": "Change one tiny routine in the morning (e.g. different route, different mug); Acknowledge your fear; Ask for support (coach, friend)",
+      "lesson": "To learn: Change is the only constant. | To let go of: Clinging to the old self."
+    }
+  ]
+}

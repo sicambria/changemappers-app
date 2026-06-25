@@ -1,0 +1,723 @@
+{
+  "schemas": {
+    "standards": {
+      "label": "Estándares Inflexibles",
+      "color": "text-blue-600 bg-blue-50 border-blue-200"
+    },
+    "isolation": {
+      "label": "Aislamiento Social",
+      "color": "text-slate-600 bg-slate-100 border-slate-200"
+    },
+    "approval": {
+      "label": "Búsqueda de Aprobación",
+      "color": "text-purple-600 bg-purple-50 border-purple-200"
+    },
+    "vulnerability": {
+      "label": "Vulnerabilidad al Daño",
+      "color": "text-amber-600 bg-amber-50 border-amber-200"
+    },
+    "deprivation": {
+      "label": "Privación Emocional",
+      "color": "text-cyan-600 bg-cyan-50 border-cyan-200"
+    },
+    "negativity": {
+      "label": "Negatividad/Pesimismo",
+      "color": "text-gray-600 bg-gray-50 border-gray-200"
+    },
+    "self_control": {
+      "label": "Autocontrol Insuficiente",
+      "color": "text-red-600 bg-red-50 border-red-200"
+    },
+    "failure": {
+      "label": "Fracaso",
+      "color": "text-orange-600 bg-orange-50 border-orange-200"
+    },
+    "self_sacrifice": {
+      "label": "Auto-sacrificio",
+      "color": "text-rose-600 bg-rose-50 border-rose-200"
+    },
+    "dependence": {
+      "label": "Dependencia/Incompetencia",
+      "color": "text-lime-600 bg-lime-50 border-lime-200"
+    },
+    "mistrust": {
+      "label": "Desconfianza/Abuso",
+      "color": "text-stone-600 bg-stone-100 border-stone-200"
+    },
+    "entitlement": {
+      "label": "Derecho/Grandiosidad",
+      "color": "text-yellow-600 bg-yellow-50 border-yellow-200"
+    },
+    "inhibition": {
+      "label": "Inhibición Emocional",
+      "color": "text-teal-600 bg-teal-50 border-teal-200"
+    },
+    "punitiveness": {
+      "label": "Punitividad",
+      "color": "text-fuchsia-600 bg-fuchsia-50 border-fuchsia-200"
+    },
+    "abandonment": {
+      "label": "Abandono/Inestabilidad",
+      "color": "text-pink-600 bg-pink-50 border-pink-200"
+    },
+    "impaired_limits": {
+      "label": "Límites Deteriorados",
+      "color": "text-indigo-600 bg-indigo-50 border-indigo-200"
+    },
+    "enmeshment": {
+      "label": "Enmeshment/Yo No Desarrollado",
+      "color": "text-violet-600 bg-violet-50 border-violet-200"
+    },
+    "overvigilance": {
+      "label": "Hipervigilancia",
+      "color": "text-emerald-600 bg-emerald-50 border-emerald-200"
+    },
+    "defectiveness": {
+      "label": "Defectuosidad/Vergüenza",
+      "color": "text-zinc-600 bg-zinc-100 border-zinc-200"
+    },
+    "subjugation": {
+      "label": "Sometimiento",
+      "color": "text-sky-600 bg-sky-50 border-sky-200"
+    }
+  },
+  "problemsData": [
+    {
+      "id": 1,
+      "schema": "standards",
+      "surface": "No tengo tiempo para nada",
+      "layer1": "Exceso de compromisos, falta de prioridades",
+      "layer2": "Miedo a decir no",
+      "layer3": "Sentirse indigno sin logros",
+      "layer4": "Amor condicional ligado al rendimiento",
+      "core": "Inestabilidad de la autoestima",
+      "wrongSolutions": "Privación de sueño, sobredosis de cafeína, descargar nuevas aplicaciones de productividad",
+      "rightSolutions": "Di no a una petición esta semana sin explicación; Apaga las notificaciones por 2 horas; Escribe una lista de 'no-hacer'",
+      "lesson": "Aprender: El descanso no es una recompensa, sino una necesidad. | Soltar: La ilusión de ser indispensable."
+    },
+    {
+      "id": 2,
+      "schema": "isolation",
+      "surface": "Me siento solo",
+      "layer1": "Relaciones superficiales, falta de intimidad",
+      "layer2": "Evitar la vulnerabilidad",
+      "layer3": "Miedo al rechazo",
+      "layer4": "Abandono emocional temprano",
+      "core": "Falta de conexión íntima",
+      "wrongSolutions": "Navegar sin rumbo en redes sociales, conversaciones superficiales, escapar viendo series",
+      "rightSolutions": "Llama a alguien por video en lugar de enviar mensajes; Comparte una historia honesta e imperfecta con un amigo; Únete a un club/grupo presencial",
+      "lesson": "Aprender: La vulnerabilidad no es debilidad, sino un puente. | Soltar: La máscara perfecta."
+    },
+    {
+      "id": 3,
+      "schema": "approval",
+      "surface": "No soy lo suficientemente exitoso",
+      "layer1": "Dependencia de la validación externa",
+      "layer2": "Falta de estándares internos",
+      "layer3": "Falta de autoaceptación",
+      "layer4": "Amor condicional en la infancia",
+      "core": "Falta de sentido interno de valor",
+      "wrongSolutions": "Compararte con otros, acumular títulos solo por el papel, hustle implacable sin descanso",
+      "rightSolutions": "Escribe una lista de 5 cualidades que no sean logros; Celebra un pequeño éxito hoy; Deja de seguir a conocidos 'exitosos' que te hacen sentir mal",
+      "lesson": "Aprender: Tu valor no depende de tu productividad. | Soltar: La comparación constante con otros."
+    },
+    {
+      "id": 4,
+      "schema": "vulnerability",
+      "surface": "Me preocupo todo el tiempo",
+      "layer1": "La ilusión de control",
+      "layer2": "Incapacidad para tolerar la incertidumbre",
+      "layer3": "Falta de seguridad interior",
+      "layer4": "Ambiente infantil impredecible",
+      "core": "Falta de confianza básica",
+      "wrongSolutions": "Sobre-asegurarse, leer constantemente las noticias, verificar excesivamente a otros",
+      "rightSolutions": "Programa 15 minutos de 'tiempo de preocupación' diario, prohíbelo el resto; Ejercicio de conexión 5-4-3-2-1; Escribe el peor escenario posible, luego rómpelo",
+      "lesson": "Aprender: La incertidumbre es parte de la vida. | Soltar: El deseo de controlar el futuro."
+    },
+    {
+      "id": 5,
+      "schema": "deprivation",
+      "surface": "No puedo encontrar felicidad en mi relación",
+      "layer1": "Expectativas irreales de la pareja",
+      "layer2": "Esperar felicidad del otro",
+      "layer3": "Proyectar las propias deficiencias",
+      "layer4": "Heridas de apego temprano",
+      "core": "Identidad incompleta",
+      "wrongSolutions": "Cambiar constantemente de pareja, el impulso de cambiar al otro, hacer pucheros",
+      "rightSolutions": "Pasa una noche solo con un hobby; Lista lo que esperas del otro y dátelo a ti mismo; Reserva terapia de pareja o individual",
+      "lesson": "Aprender: Auto-regulación emocional. | Soltar: Esperar un salvador."
+    },
+    {
+      "id": 6,
+      "schema": "negativity",
+      "surface": "Estoy deprimido",
+      "layer1": "Sentimiento de falta de sentido",
+      "layer2": "Emociones reprimidas, necesidades no expresadas",
+      "layer3": "Alienación de uno mismo",
+      "layer4": "Pérdida de conexión con el yo auténtico",
+      "core": "Falta de alegría en la vida",
+      "wrongSolutions": "Alcohol, encerrarse en una habitación oscura, suprimir sentimientos",
+      "rightSolutions": "Busca ayuda profesional (psiquiatra/psicólogo); 10 minutos de caminata al sol diariamente; Ducha fría; Escribir un diario sobre sentimientos",
+      "lesson": "Aprender: El poder de las pequeñas acciones. | Soltar: 'Lo haré cuando me sienta mejor'."
+    },
+    {
+      "id": 7,
+      "schema": "self_control",
+      "surface": "Tengo sobrepeso",
+      "layer1": "Relación poco saludable con la comida",
+      "layer2": "Comer emocional, buscar consuelo",
+      "layer3": "Trauma no procesado, estrés",
+      "layer4": "Falta de seguridad, el cuerpo como armadura",
+      "core": "Falta de auto-regulación emocional",
+      "wrongSolutions": "Inanición, dietas de moda, obsesión con la imagen corporal, auto-odio",
+      "rightSolutions": "Lleva un diario de emociones: '¿Qué siento antes de comer?'; Deja los cubiertos después de cada bocado; Encuentra otras fuentes de alegría (ej. baño caliente)",
+      "lesson": "Aprender: Experimentar emociones, no comerlas. | Soltar: La comida como función reconfortante."
+    },
+    {
+      "id": 8,
+      "schema": "failure",
+      "surface": "Nunca logro nada",
+      "layer1": "Parálisis causada por el perfeccionismo",
+      "layer2": "Incapacidad para tolerar el fracaso",
+      "layer3": "Autoimagen frágil",
+      "layer4": "Voz parental crítica internalizada",
+      "core": "La prohibición de cometer errores",
+      "wrongSolutions": "Renunciar a metas, auto-tormento, procrastinación en nombre de la perfección",
+      "rightSolutions": "Haz algo intencionalmente mal (ej. dibujo feo) y no lo arregles; Usa time-boxing para una tarea; Reescribe las frases del crítico interior",
+      "lesson": "Aprender: Hecho es mejor que perfecto. | Soltar: Pensamiento de todo o nada."
+    },
+    {
+      "id": 9,
+      "schema": "self_sacrifice",
+      "surface": "Todos se aprovechan de mí",
+      "layer1": "Falta de límites",
+      "layer2": "Negligencia de las propias necesidades",
+      "layer3": "Complacencia",
+      "layer4": "Hambre de amor",
+      "core": "Falta de asertividad",
+      "wrongSolutions": "Jugar el mártir, hacer pucheros pasivos, desconfiar de todos",
+      "rightSolutions": "Practica decir 'Déjame pensarlo' en lugar de un sí inmediato; Escribe tus derechos en papel; Di: 'No tengo capacidad para esto ahora'",
+      "lesson": "Aprender: Los límites inspiran respeto. | Soltar: El miedo a no ser amado si dices no."
+    },
+    {
+      "id": 10,
+      "schema": "self_control",
+      "surface": "Soy un adicto",
+      "layer1": "Escapar hacia conductas adictivas",
+      "layer2": "Alivio del dolor",
+      "layer3": "Trauma no procesado",
+      "layer4": "Vacío emocional, auto-regulación deteriorada",
+      "core": "La insoportabilidad del momento presente",
+      "wrongSolutions": "Hacer alarde de fuerza de voluntad sin ayuda, auto-flagelación, reemplazar una adicción por otra",
+      "rightSolutions": "Encuentra un grupo anónimo o adictólogo hoy; Borra números de teléfono/apps tentadoras; Haz un plan de emergencia para los antojos",
+      "lesson": "Aprender: Pedir ayuda es fortaleza. | Soltar: Vergüenza y secretos."
+    },
+    {
+      "id": 11,
+      "schema": "dependence",
+      "surface": "No puedo tomar decisiones",
+      "layer1": "Parálisis de decisión",
+      "layer2": "La ilusión de la elección perfecta",
+      "layer3": "Miedo a cometer errores",
+      "layer4": "Memoria de malas decisiones o críticas",
+      "core": "Falta de autoconfianza",
+      "wrongSolutions": "Trasladar la decisión a otros, listas interminables de pros y contras, retrasar hasta que la decisión sea irrelevante",
+      "rightSolutions": "Lanza una moneda y observa tus sentimientos ante el resultado; Date 2 minutos para pequeñas decisiones (ej. en un restaurante); Toma riesgos con apuestas pequeñas",
+      "lesson": "Aprender: No hay decisión perfecta, solo un camino elegido. | Soltar: Rumiación retrospectiva (FOMO)."
+    },
+    {
+      "id": 12,
+      "schema": "mistrust",
+      "surface": "Todos están en mi contra",
+      "layer1": "Mentalidad paranoide",
+      "layer2": "Desconfianza general",
+      "layer3": "Proyección (propia sombra)",
+      "layer4": "Experiencia de traición en el pasado",
+      "core": "Falta de sentido fundamental de seguridad",
+      "wrongSolutions": "Aislamiento, comportamiento agresivo, buscar motivos ocultos detrás de cada palabra",
+      "rightSolutions": "Haz una verificación de realidad con un amigo de confianza ('Lo veo así, ¿es realista?'); Lleva un diario de gratitud de interacciones positivas; Busca ayuda profesional",
+      "lesson": "Aprender: El mundo no es solo blanco y negro. | Soltar: La narrativa de víctima."
+    },
+    {
+      "id": 13,
+      "schema": "standards",
+      "surface": "No puedo desconectar",
+      "layer1": "Compulsión a actuar",
+      "layer2": "Inquietud en el silencio",
+      "layer3": "Evitar encontrarse a uno mismo",
+      "layer4": "Sentimiento de vacío interior",
+      "core": "Miedo a simplemente existir",
+      "wrongSolutions": "Aún más entrenamiento, trabajo o fiesta hasta el agotamiento, uso injustificado de pastillas para dormir",
+      "rightSolutions": "Siéntate 5 minutos en silencio sin dispositivos; Camina en la naturaleza sin música/podcasts; Practica relajación muscular progresiva",
+      "lesson": "Aprender: 'Ser' es tan importante como 'hacer'. | Soltar: La creencia de que la inactividad es un pecado."
+    },
+    {
+      "id": 14,
+      "schema": "deprivation",
+      "surface": "Envidio a otros",
+      "layer1": "Compulsión a comparar",
+      "layer2": "Insatisfacción con la propia vida",
+      "layer3": "Proyectar sentimientos internos de carencia",
+      "layer4": "Experiencia infantil de privación",
+      "core": "Falta de gratitud y contentamiento",
+      "wrongSolutions": "Observar obsesivamente redes sociales, menospreciar a otros, chismorrear",
+      "rightSolutions": "Escribe 3 cosas diarias por las que estés agradecido; Deja de seguir a quienes despiertan envidia; Convierte la envidia en meta: '¿Qué puedo hacer para tener eso también?'",
+      "lesson": "Aprender: El éxito de otro no es tu fracaso. | Soltar: El enfoque en la carencia."
+    },
+    {
+      "id": 15,
+      "schema": "defectiveness",
+      "surface": "No me amo a mí mismo",
+      "layer1": "Auto-crítica, diálogo interno negativo",
+      "layer2": "Padre crítico internalizado",
+      "layer3": "Amor condicional en la infancia",
+      "layer4": "Sentimiento fundamental de inaceptabilidad",
+      "core": "Falta de auto-amor",
+      "wrongSolutions": "Afirmaciones positivas forzadas frente al espejo, serie de cirugías plásticas, auto-castigo",
+      "rightSolutions": "Escribe una carta a ti mismo como si te dirigieras a un amigo; Toca tu pecho cuando tengas sentimientos intensos (auto-compasión); Trabaja con un profesional en tu crítico interior",
+      "lesson": "Aprender: Puedes ser amable contigo mismo también. | Soltar: La voz del tirano interior."
+    },
+    {
+      "id": 16,
+      "schema": "subjugation",
+      "surface": "Tengo miedo de los conflictos",
+      "layer1": "Evitación del conflicto",
+      "layer2": "Supresión de agresión e ira",
+      "layer3": "Miedo a perder la relación",
+      "layer4": "Ambiente infantil abusivo o negligente",
+      "core": "Prohibición de la auto-afirmación",
+      "wrongSolutions": "Asentir a todo, comentarios pasivo-agresivos, huir de la habitación",
+      "rightSolutions": "Practica 'declaraciones en primera persona' ('Me duele cuando...'); Disiente en un tema de bajo riesgo (ej. qué película ver); Mantente firme, no te vayas",
+      "lesson": "Aprender: El conflicto puede clarificar una relación. | Soltar: El rol de 'niño bueno'."
+    },
+    {
+      "id": 17,
+      "schema": "inhibition",
+      "surface": "No siento nada",
+      "layer1": "Entumecimiento emocional",
+      "layer2": "Disociación (desapego de la realidad)",
+      "layer3": "Mecanismo de defensa contra el trauma",
+      "layer4": "Estrategia de supervivencia",
+      "core": "Desconexión del yo emocional",
+      "wrongSolutions": "Deportes extremos sin riesgo calculado, drogas, auto-daño solo para sentir algo",
+      "rightSolutions": "Busca terapia orientada al cuerpo; Ducha de contraste caliente-frío; Toca texturas a tu alrededor; Nombra objetos en la habitación en voz alta",
+      "lesson": "Aprender: Estar en el cuerpo es seguro. | Soltar: El miedo al dolor."
+    },
+    {
+      "id": 18,
+      "schema": "vulnerability",
+      "surface": "Estoy constantemente enfermo",
+      "layer1": "Sistema inmune débil, síntomas crónicos",
+      "layer2": "Señales psicosomáticas",
+      "layer3": "Emociones atrapadas en el cuerpo",
+      "layer4": "Expresar necesidades no dichas a través de síntomas",
+      "core": "El cuerpo como canal de comunicación",
+      "wrongSolutions": "Acumular medicamentos supresores de síntomas sin investigar la causa, culpar al cuerpo, enfurecerse contra la enfermedad",
+      "rightSolutions": "Lleva un diario de síntomas con contexto emocional; Aprende técnicas de relajación (entrenamiento autógeno); Pregunta a tu síntoma: '¿Qué me obligas a hacer / de qué me salvas?'",
+      "lesson": "Aprender: El cuerpo es tu amigo que señala. | Soltar: Tratar el cuerpo como un objeto."
+    },
+    {
+      "id": 19,
+      "schema": "punitiveness",
+      "surface": "No puedo perdonar",
+      "layer1": "Alimentar ira y resentimiento",
+      "layer2": "Injusticia no procesada",
+      "layer3": "Falta de reconocimiento del propio dolor",
+      "layer4": "Sentimiento de impotencia",
+      "core": "Identidad construida alrededor de agravios",
+      "wrongSolutions": "Planear venganza, repetir la historia interminablemente a otros, castigo pasivo",
+      "rightSolutions": "Escribe una carta al ofensor, no la envíes, quémalal/rómpela; Reconoce tu propio dolor llorando/enfureciéndote (en seguridad); Busca un profesional para counseling de duelo",
+      "lesson": "Aprender: El perdón trata sobre tu libertad. | Soltar: El deseo de que el pasado cambie."
+    },
+    {
+      "id": 20,
+      "schema": "failure",
+      "surface": "Dejo todo a medias",
+      "layer1": "Un montón de proyectos sin terminar",
+      "layer2": "Pérdida del ímpetu inicial (falta de perseverancia)",
+      "layer3": "Miedo al fracaso o al éxito",
+      "layer4": "Sentimiento de indignidad",
+      "core": "Dificultad con el compromiso",
+      "wrongSolutions": "Empezar proyectos más y más nuevos, auto-flagelación, buscar enforcement externo",
+      "rightSolutions": "Divide la tarea en micro-pasos; Termina una pequeña cosa pendiente esta semana; Celebra resultados parciales",
+      "lesson": "Aprender: La motivación sigue a la acción, no al revés. | Soltar: Perseguir constantemente la magia de la novedad."
+    },
+    {
+      "id": 21,
+      "schema": "standards",
+      "surface": "Estoy agotado",
+      "layer1": "Agotamiento físico y mental",
+      "layer2": "Negligencia crónica de las propias necesidades",
+      "layer3": "Incompatibilidad con los valores",
+      "layer4": "Identidad basada únicamente en el rendimiento",
+      "core": "Pérdida de fuerza vital",
+      "wrongSolutions": "Aumentar café y bebidas energéticas, actitud de 'puedo sobrevivir esta semana', alcohol",
+      "rightSolutions": "Vete de vacaciones sin tu laptop; Empieza un hobby que no tenga 'utilidad'; Duerme 8 horas diarias; Encuentra un consejero de carrera o terapeuta",
+      "lesson": "Aprender: No eres una máquina. | Soltar: La creencia de que el descanso debe ganarse."
+    },
+    {
+      "id": 22,
+      "schema": "abandonment",
+      "surface": "Abandono las relaciones a medias",
+      "layer1": "Estilo de apego evitativo",
+      "layer2": "Miedo a la cercanía e intimidad",
+      "layer3": "Rechazo de la vulnerabilidad",
+      "layer4": "Experiencia temprana de abandono o absorción",
+      "core": "Falta de apego seguro",
+      "wrongSolutions": "Ghosting, encontrar defectos en el otro, escapar bajo la excusa de la libertad",
+      "rightSolutions": "Quédate en la situación aunque sea incómodo (un poco más); Habla de tus miedos a tu pareja; Terapia sobre patrones de apego",
+      "lesson": "Aprender: Independencia y apego pueden coexistir. | Soltar: Huir como reacción primaria."
+    },
+    {
+      "id": 23,
+      "schema": "self_control",
+      "surface": "Vivo en caos financiero",
+      "layer1": "Irresponsabilidad financiera",
+      "layer2": "Evitar enfrentar el dinero",
+      "layer3": "Compras emocionales",
+      "layer4": "Creencias negativas sobre el dinero o indignidad",
+      "core": "Falta de mentalidad de abundancia y responsabilidad",
+      "wrongSolutions": "Tomar más préstamos, apostar, dejar facturas sin abrir",
+      "rightSolutions": "Descarga una app de seguimiento de gastos y registra todo; Abre todos los sobres hoy; Configura ahorro automático (incluso una cantidad mínima)",
+      "lesson": "Aprender: El dinero es una herramienta, no un enemigo. | Soltar: El deseo de gratificación instantánea."
+    },
+    {
+      "id": 24,
+      "schema": "entitlement",
+      "surface": "Todos son tontos, solo yo soy inteligente",
+      "layer1": "Sentimiento de superioridad",
+      "layer2": "Defensa narcisista",
+      "layer3": "Compensar profundos sentimientos de inferioridad",
+      "layer4": "Autoestima frágil",
+      "core": "Falta de verdadera autoconfianza",
+      "wrongSolutions": "Dar conferencias a otros, comentarios cínicos, aislamiento intelectual",
+      "rightSolutions": "Escucha a alguien completamente sin interrumpir ni juzgar; Discúlpate si estabas equivocado; Encuentra un ambiente donde seas principiante (aprende algo nuevo)",
+      "lesson": "Aprender: La humildad no es humillación. | Soltar: La necesidad de tener siempre la razón."
+    },
+    {
+      "id": 25,
+      "schema": "negativity",
+      "surface": "No puedo tirar nada",
+      "layer1": "Acumulación compulsiva",
+      "layer2": "Aferrarse al pasado",
+      "layer3": "Falta de procesamiento del duelo",
+      "layer4": "Necesidad de control a través de objetos",
+      "core": "Incapacidad para aceptar el cambio",
+      "wrongSolutions": "Alquilar unidades de almacenamiento, comprar cajas organizadoras en lugar de deshacerse de cosas, mentalidad de 'servirá para algo más tarde'",
+      "rightSolutions": "Tira/dona 3 items hoy; Toma una foto del recuerdo antes de descartar el objeto; Practica el no-apego (mindfulness)",
+      "lesson": "Aprender: Tus recuerdos están dentro de ti, no en los objetos. | Soltar: Chatarra que proporciona falsa seguridad."
+    },
+    {
+      "id": 26,
+      "schema": "impaired_limits",
+      "surface": "Siempre llego tarde",
+      "layer1": "Trastorno de gestión del tiempo",
+      "layer2": "Rebelión pasivo-agresiva",
+      "layer3": "Miedo a esperar",
+      "layer4": "Rebelión contra figuras de autoridad/reglas",
+      "core": "Sentimiento de pérdida de autonomía",
+      "wrongSolutions": "Adelantar el reloj, hacer excusas, apresurarse en taxi",
+      "rightSolutions": "Sal 15 minutos antes intencionalmente; Lleva un libro para que esperar no sea problema; Admite: 'Llegué tarde, lo siento' (sin excusas)",
+      "lesson": "Aprender: La puntualidad es respetar el tiempo del otro. | Soltar: Desafío infantil."
+    },
+    {
+      "id": 27,
+      "schema": "standards",
+      "surface": "No soy creativo",
+      "layer1": "Bloqueo creativo",
+      "layer2": "Parálisis del perfeccionismo",
+      "layer3": "Crítica interior excesiva",
+      "layer4": "Retroalimentación negativa infantil durante la creación",
+      "core": "Pérdida de ludicidad",
+      "wrongSolutions": "Copiar a otros, lluvia de ideas forzada, renunciar a crear",
+      "rightSolutions": "Compra una libreta barata y garabatea feo; Baila en casa con música solo; Haz algo puramente por el proceso, sin un objetivo final",
+      "lesson": "Aprender: Todo ser humano es un ser creativo. | Soltar: Ansiedad de rendimiento en la creación."
+    },
+    {
+      "id": 28,
+      "schema": "enmeshment",
+      "surface": "No puedo hablar con mi familia",
+      "layer1": "Ruptura de comunicación",
+      "layer2": "Roles familiares rígidos",
+      "layer3": "Traumas generacionales",
+      "layer4": "Secretos familiares no dichos",
+      "core": "Disfunción sistémica",
+      "wrongSolutions": "Gritar, silencio total, esperar que cambien por su cuenta",
+      "rightSolutions": "Establece tus límites: 'No quiero hablar de esto'; Prueba constelación familiar o terapia; Acepta que no puedes cambiarlos, solo tu actitud",
+      "lesson": "Aprender: Como adulto, puedes redefinir la relación. | Soltar: El deseo de la familia perfecta."
+    },
+    {
+      "id": 29,
+      "schema": "enmeshment",
+      "surface": "No sé lo que quiero",
+      "layer1": "Deriva sin rumbo",
+      "layer2": "Falta de autoconocimiento",
+      "layer3": "Conformarse con las expectativas de otros",
+      "layer4": "Pérdida del yo auténtico",
+      "core": "Falta de una brújula interior",
+      "wrongSolutions": "Seguir a otros, ir a un psíquico en lugar de decidir, procrastinación infinita",
+      "rightSolutions": "Prueba una nueva actividad cada semana; Escribe una lista de lo que NO quieres; Pasa tiempo en silencio para escuchar tus propios pensamientos",
+      "lesson": "Aprender: Las respuestas están dentro de ti, no fuera. | Soltar: Conformidad."
+    },
+    {
+      "id": 30,
+      "schema": "enmeshment",
+      "surface": "Mi hijo siempre está enfermo",
+      "layer1": "El hijo como portador de síntomas",
+      "layer2": "Tensiones familiares ocultas",
+      "layer3": "Proyección de ansiedad parental",
+      "layer4": "Necesidad de atención o estabilización del sistema",
+      "core": "Desequilibrio en el sistema familiar",
+      "wrongSolutions": "Solo tratar al niño médicamente, culpar al niño, preocupación excesiva y sobreprotección",
+      "rightSolutions": "Aborda tus propios niveles de estrés y relación; Pide consulta de terapia familiar; Deja que el niño a veces 'simplemente sea', no lo trates como paciente",
+      "lesson": "Aprender: Los niños reflejan su ambiente. | Soltar: Culpa y control excesivo."
+    },
+    {
+      "id": 31,
+      "schema": "defectiveness",
+      "surface": "Tengo miedo del éxito",
+      "layer1": "Auto-sabotaje",
+      "layer2": "La visibilidad se siente peligrosa",
+      "layer3": "Miedo a la responsabilidad y la envidia",
+      "layer4": "Creencia: 'ser pequeño es seguro'",
+      "core": "Miedo a brillar",
+      "wrongSolutions": "Retirarse en el último minuto, minimizar logros, esconderse",
+      "rightSolutions": "Visualiza el éxito y los sentimientos que vienen con él; Comparte tu logro orgullosamente con una persona; Practica aceptar cumplidos ('Gracias' sin excusas)",
+      "lesson": "Aprender: Tienes derecho a la abundancia y el éxito. | Soltar: Falsa modestia."
+    },
+    {
+      "id": 32,
+      "schema": "self_control",
+      "surface": "Procrastino todo",
+      "layer1": "Procrastinación",
+      "layer2": "Perfeccionismo o desafío",
+      "layer3": "Miedo de que no sea suficientemente bueno",
+      "layer4": "Evitación de la crítica",
+      "core": "Parálisis de acción",
+      "wrongSolutions": "Auto-disciplina a través de regaños, plazos irreales, ilusión de 'mañana haré esto todo el día'",
+      "rightSolutions": "Regla de 5 minutos: Solo hazlo por 5 minutos, luego puedes parar; Divide la tarea en pasos ridículamente pequeños; Recompénsate por empezar",
+      "lesson": "Aprender: La acción reduce la ansiedad. | Soltar: Esperar condiciones perfectas."
+    },
+    {
+      "id": 33,
+      "schema": "negativity",
+      "surface": "Sufro de mi pasado",
+      "layer1": "Pasado traumatizado",
+      "layer2": "Intrusión de eventos no procesados",
+      "layer3": "Síntomas de TEPT",
+      "layer4": "Pérdida de sentido de seguridad",
+      "core": "Falta de integración de recuerdos",
+      "wrongSolutions": "Supresión violenta de recuerdos, alcohol, comportamiento evitativo",
+      "rightSolutions": "Busca terapia de trauma (ej. EMDR, Experiencia Somática); Ejercicios de conexión (toca 3 objetos); Reescribe el final de tu historia en papel",
+      "lesson": "Aprender: El pasado se fue, puedes estar seguro en el presente. | Soltar: Auto-culpa por lo que pasó."
+    },
+    {
+      "id": 34,
+      "schema": "approval",
+      "surface": "Dependo de las opiniones de otros",
+      "layer1": "Compulsión por validación externa",
+      "layer2": "Falta de juicio interno de valor",
+      "layer3": "Inestabilidad de la autoestima",
+      "layer4": "Aceptación condicional en la infancia",
+      "core": "Falta de un ancla interior",
+      "wrongSolutions": "Preguntar a todos ('¿Crees que esto es bueno?'), cazar likes, auto-abandono",
+      "rightSolutions": "Toma una decisión sin preguntar a nadie; Usa ropa que te guste, no lo que está de moda; Escribe tus valores",
+      "lesson": "Aprender: Tú estás viviendo tu vida, no ellos. | Soltar: El deseo de popularidad."
+    },
+    {
+      "id": 35,
+      "schema": "overvigilance",
+      "surface": "Nunca puedo relajarme",
+      "layer1": "Tensión constante",
+      "layer2": "Percepción continua de peligro (preparación)",
+      "layer3": "Falta de seguridad",
+      "layer4": "Sistema nervioso traumatizado",
+      "core": "Incapacidad de auto-calmar",
+      "wrongSolutions": "Alcohol para relajarse, ver TV compulsivamente, colapsar de agotamiento",
+      "rightSolutions": "Practica exhalaciones largas; Usa una manta pesada; Terapia somática; Mecimiento o caminata lenta",
+      "lesson": "Aprender: El sentido de seguridad debe construirse en el cuerpo. | Soltar: Control continuo."
+    },
+    {
+      "id": 36,
+      "schema": "isolation",
+      "surface": "Soy introvertido, y eso es un problema",
+      "layer1": "Etiquetar un rasgo de personalidad como defecto",
+      "layer2": "Búsqueda compulsiva del ideal extrovertido",
+      "layer3": "Falta de auto-aceptación",
+      "layer4": "Internalizar expectativas sociales",
+      "core": "Rechazo de la autenticidad",
+      "wrongSolutions": "Vida social forzada, actuar, culpa por la soledad",
+      "rightSolutions": "Reconoce tus fortalezas (ej. atención profunda); Di no a fiestas grandes sin culpa; Recárgate solo con un libro/caminata",
+      "lesson": "Aprender: La fuerza tranquila también es fuerza. | Soltar: La presión de conformarse a un mundo ruidoso."
+    },
+    {
+      "id": 37,
+      "schema": "overvigilance",
+      "surface": "Pienso demasiado",
+      "layer1": "Pensar en exceso",
+      "layer2": "Parálisis por análisis (en lugar de acción)",
+      "layer3": "Ilusión de control",
+      "layer4": "Falta de confianza en el flujo de la vida",
+      "core": "Falta de presencia",
+      "wrongSolutions": "Pensar aún más sobre la solución, rumiación nocturna, indecisión",
+      "rightSolutions": "Haz algo en el plano físico (lavar platos, correr); Vuelca pensamientos en papel para que no circulen en tu cabeza; Meditación (enfoque en la respiración)",
+      "lesson": "Aprender: Los pensamientos no son hechos. | Soltar: Pensar en exceso como estrategia de resolución de problemas."
+    },
+    {
+      "id": 38,
+      "schema": "inhibition",
+      "surface": "No tengo hobbies",
+      "layer1": "Falta de fuentes de alegría",
+      "layer2": "Solo existen obligaciones",
+      "layer3": "Pérdida de ludicidad",
+      "layer4": "Compulsión de productividad",
+      "core": "El propio valor sin rendimiento",
+      "wrongSolutions": "Búsqueda compulsiva de hobbies 'útiles', aprender idiomas en lugar de descansar, envidiar a otros",
+      "rightSolutions": "Recuerda qué te gustaba en la infancia; Prueba algo sin apuestas (ej. colorear); Ve a una clase de prueba en algún lugar",
+      "lesson": "Aprender: La alegría en sí misma es un objetivo. | Soltar: Utilitarismo."
+    },
+    {
+      "id": 39,
+      "schema": "defectiveness",
+      "surface": "Siempre me ofendo",
+      "layer1": "Hipersensibilidad",
+      "layer2": "Tomar todo personalmente",
+      "layer3": "Autoimagen frágil",
+      "layer4": "Huella profunda de crítica temprana",
+      "core": "Inestabilidad del auto-valía",
+      "wrongSolutions": "Hacer pucheros pasivos, crear drama, cortar relaciones abruptamente",
+      "rightSolutions": "Pregunta: '¿Cómo exactamente quisiste decir eso?'; Espera 24 horas antes de reaccionar; Date cuenta: el comportamiento del otro es sobre ellos, no sobre ti",
+      "lesson": "Aprender: Las opiniones de otros no son tu realidad. | Soltar: Suposiciones."
+    },
+    {
+      "id": 40,
+      "schema": "subjugation",
+      "surface": "No puedo defenderme",
+      "layer1": "Falta de asertividad",
+      "layer2": "Prohibición de ira y agresión",
+      "layer3": "Rol de víctima",
+      "layer4": "Creencia: 'la ira es peligrosa'",
+      "core": "Renunciar al derecho de auto-defensa",
+      "wrongSolutions": "Tragar, luego explotar; refunfuñar para ti mismo; evitación",
+      "rightSolutions": "Practica decir 'No' frente al espejo; Inscríbete en clase de defensa personal o entrenamiento de asertividad; Ponte derecho en tu postura",
+      "lesson": "Aprender: Tu ira es un sistema de advertencia que te protege. | Soltar: El miedo al conflicto."
+    },
+    {
+      "id": 41,
+      "schema": "self_sacrifice",
+      "surface": "Aprovechan mi empatía",
+      "layer1": "Agotamiento empático",
+      "layer2": "Falta de límites",
+      "layer3": "Asumir emociones de otros",
+      "layer4": "Negligencia de los propios sentimientos",
+      "core": "Falta de gestión de energía",
+      "wrongSolutions": "Aislamiento total, cinismo, jugar al mártir",
+      "rightSolutions": "Establece un límite de tiempo para escuchar quejas; Imagina una burbuja a tu alrededor; Di: 'No puedo escuchar ahora porque estoy cansado'",
+      "lesson": "Aprender: No puedes ayudar a otros si tu copa está vacía. | Soltar: El rol de salvador del mundo."
+    },
+    {
+      "id": 42,
+      "schema": "vulnerability",
+      "surface": "No puedo soltar el control",
+      "layer1": "Manía de control",
+      "layer2": "Microgestión",
+      "layer3": "Reducir ansiedad con control",
+      "layer4": "Terror a la incertidumbre",
+      "core": "Falta de confianza",
+      "wrongSolutions": "Hacer todo solo, corregir constantemente a otros, verificar cosas hasta tarde en la noche",
+      "rightSolutions": "Delega una tarea y NO la verifiques; Confía en alguien con un pequeño detalle; Practica aceptar 'suficientemente bueno'",
+      "lesson": "Aprender: El control es una ilusión. | Soltar: Responsabilidad por todo y todos."
+    },
+    {
+      "id": 43,
+      "schema": "defectiveness",
+      "surface": "No me siento suficientemente femenino/masculino",
+      "layer1": "Inseguridad de identidad de género",
+      "layer2": "Internalizar estereotipos",
+      "layer3": "Presión para conformarse a la sociedad",
+      "layer4": "Aceptación condicional",
+      "core": "Falta de expresión auténtica de género",
+      "wrongSolutions": "Sobre-actuar roles, conformidad compulsiva en apariencias, auto-culpa",
+      "rightSolutions": "Usa ropa/accesorios que te gusten; Sigue personas que expresan libremente su género; Redefine qué significa para ti ser hombre/mujer",
+      "lesson": "Aprender: El género es un espectro y una experiencia individual. | Soltar: Cajas y etiquetas."
+    },
+    {
+      "id": 44,
+      "schema": "abandonment",
+      "surface": "No puedo estar solo",
+      "layer1": "Incapacidad para tolerar la soledad",
+      "layer2": "Codependencia",
+      "layer3": "Evitar enfrentarse a uno mismo",
+      "layer4": "Ansiedad de abandono",
+      "core": "Falta de identidad independiente",
+      "wrongSolutions": "Saltar de una relación a otra, mantener la TV encendida como ruido de fondo, llamar constantemente a personas",
+      "rightSolutions": "Ve al cine o restaurante solo; Pasa un fin de semana con 'detox digital' solo; Conócete a ti mismo (diario, grupo de autoconocimiento)",
+      "lesson": "Aprender: Ser tu propia mejor compañía. | Soltar: Aferrarse a otros."
+    },
+    {
+      "id": 45,
+      "schema": "defectiveness",
+      "surface": "Miento constantemente",
+      "layer1": "Mentira compulsiva",
+      "layer2": "Incapacidad para soportar la realidad",
+      "layer3": "Escapar de la vergüenza",
+      "layer4": "Creencia: 'mi verdadero yo no es amable'",
+      "core": "Falta de integridad",
+      "wrongSolutions": "Más mentiras para evitar la exposición, fingir, creer tus propias mentiras",
+      "rightSolutions": "Admite una pequeña mentira a alguien; Empieza a practicar 'honestidad radical' en cosas pequeñas; Busca un terapeuta para procesar la vergüenza",
+      "lesson": "Aprender: La verdad te libera. | Soltar: El miedo a ser expuesto."
+    },
+    {
+      "id": 46,
+      "schema": "standards",
+      "surface": "Voy tarde en la vida",
+      "layer1": "Presión de expectativas sociales",
+      "layer2": "Hitos faltantes",
+      "layer3": "Compararse con otros",
+      "layer4": "La ilusión del 'momento'",
+      "core": "Rechazo del propio ritmo de vida",
+      "wrongSolutions": "Decisiones de crisis de mediana edad impulsadas por pánico, hundirse en depresión, envidiar",
+      "rightSolutions": "Lista todo lo que has logrado hasta ahora (que no sea expectativa social); Formula tus propias metas; Habla con personas mayores sobre las curvas en su camino de vida",
+      "lesson": "Aprender: La vida no es una carrera. | Soltar: Pensamientos de 'debería'."
+    },
+    {
+      "id": 47,
+      "schema": "self_sacrifice",
+      "surface": "No puedo dejar de ayudar a otros",
+      "layer1": "Síndrome de salvador",
+      "layer2": "Empujar las propias necesidades al fondo",
+      "layer3": "Sentimiento de valor solo a través de servir a otros",
+      "layer4": "Codependencia",
+      "core": "Auto-redención a través de otros",
+      "wrongSolutions": "Dar consejos no solicitados, asumir problemas de otros, ofenderse si la ayuda no es aceptada",
+      "rightSolutions": "Ayuda solo cuando te lo pidan (hazlo una regla); Pregunta: '¿Cómo puedo ayudar?' en lugar de solo hacer; Vuelve el enfoque a ti: '¿Qué necesito?'",
+      "lesson": "Aprender: Todos son responsables de su propia vida. | Soltar: Asumir responsabilidad por otros."
+    },
+    {
+      "id": 48,
+      "schema": "mistrust",
+      "surface": "Todos me lastiman",
+      "layer1": "Sentimiento constante de estar ofendido",
+      "layer2": "Mentalidad de víctima",
+      "layer3": "Desplazar la responsabilidad",
+      "layer4": "Sentimiento de impotencia",
+      "core": "Identidad de víctima",
+      "wrongSolutions": "Quejarse a todos, pasividad, esperar milagros o disculpas",
+      "rightSolutions": "Examina tu propio rol en conflictos; Asume responsabilidad por tus sentimientos ('Me siento así'); Actúa en lugar de reaccionar",
+      "lesson": "Aprender: Eres el autor de tu vida, no un extra. | Soltar: Culpar."
+    },
+    {
+      "id": 49,
+      "schema": "negativity",
+      "surface": "No puedo cambiar",
+      "layer1": "Resistencia al cambio",
+      "layer2": "El cautiverio del hábito",
+      "layer3": "Miedo a lo desconocido",
+      "layer4": "Terror a perder el control",
+      "core": "Inflexibilidad",
+      "wrongSolutions": "Cambios drásticos forzados que fallan inmediatamente; buscar excusas; procrastinación",
+      "rightSolutions": "Cambia una pequeña rutina en la mañana (ej. ruta diferente, taza diferente); Reconoce tu miedo; Pide apoyo (coach, amigo)",
+      "lesson": "Aprender: El cambio es la única constante. | Soltar: Aferrarse al viejo yo."
+    }
+  ]
+}

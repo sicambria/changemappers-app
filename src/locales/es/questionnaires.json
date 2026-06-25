@@ -1,0 +1,149 @@
+{
+  "changemakerLevel": {
+    "title": "Evaluación de Nivel de Changemaker",
+    "q1": {
+      "text": "¿Con qué frecuencia sigues los problemas de sostenibilidad y sociales?",
+      "opt0": "Realmente no me ocupo de ellos, tengo mis propios problemas.",
+      "opt1": "A veces leo algún artículo, pero no profundizo en ellos.",
+      "opt2": "Me informo regularmente y la situación actual me preocupa.",
+      "opt3": "Busco activamente soluciones y ejemplos positivos."
+    },
+    "q2": {
+      "text": "¿Hasta qué punto estás dispuesto a cambiar tus hábitos de consumo por el bien del medio ambiente o la sociedad?",
+      "opt0": "Para nada, la comodidad es lo más importante para mí.",
+      "opt1": "Si no implica un gran sacrificio o un costo extra, entonces sí.",
+      "opt2": "Observo conscientemente lo que compro y estoy dispuesto a pagar más por lo sostenible.",
+      "opt3": "He reorganizado fundamentalmente mi estilo de vida en espíritu de sostenibilidad (ej. residuo cero, veganismo, independencia energética)."
+    },
+    "q3": {
+      "text": "¿Con qué frecuencia compartes información o defiendes públicamente una causa social o ecológica importante?",
+      "opt0": "Nunca, no me gustan los conflictos.",
+      "opt1": "Solo hablo de estas cosas en un círculo estrecho de amigos.",
+      "opt2": "A menudo comparto artículos, peticiones en redes sociales y tomo posición.",
+      "opt3": "También organizo campañas, escribo artículos o doy conferencias yo mismo."
+    },
+    "q4": {
+      "text": "¿Cuánto participas en la vida de tu comunidad local o en trabajo voluntario?",
+      "opt0": "Para nada, no tengo tiempo ni energía.",
+      "opt1": "Raramente, participo en una limpieza o acción benéfica si me invitan.",
+      "opt2": "Soy voluntario regularmente en una ONG o en una iniciativa local.",
+      "opt3": "Yo mismo inicio y dirijo proyectos comunitarios locales (ej. huerto comunitario, recaudación de fondos)."
+    },
+    "q5": {
+      "text": "¿Alguna vez has desarrollado tu propia solución nueva para un problema?",
+      "opt0": "No, suelo seguir caminos probados.",
+      "opt1": "Suelo introducir pequeñas innovaciones en mi trabajo o vida privada.",
+      "opt2": "Sí, desarrollé una novedad útil para una pequeña comunidad u organización.",
+      "opt3": "He creado un modelo/proyecto innovador que tiene un impacto medible y más amplio."
+    },
+    "q6": {
+      "text": "Cuando te enfrentas a un problema, ¿en qué horizontes temporales sueles pensar para la solución?",
+      "opt0": "Cómo puedo deshacerme del inconveniente actual lo más rápido posible.",
+      "opt1": "Cómo puedo resolverlo para que no haya problemas con él por un tiempo.",
+      "opt2": "Busco una solución que funcione permanentemente, durante años, entendiendo las causas del problema.",
+      "opt3": "Pienso a nivel de sistema y trato de cambiar la raíz del problema y las estructuras subyacentes, enfocándome en las próximas décadas."
+    },
+    "q7": {
+      "text": "¿Qué tan capaz eres de movilizar y coordinar recursos (personas, dinero, conocimiento) para un objetivo?",
+      "opt0": "Prefiero trabajar solo, no soy bueno organizando.",
+      "opt1": "Puedo involucrar a unos pocos conocidos en algunas cosas pequeñas.",
+      "opt2": "Soy capaz de liderar y motivar a un equipo, u obtener pequeñas subvenciones.",
+      "opt3": "Movilizo con éxito grandes masas, coordino múltiples organizaciones y/o involucro recursos significativos."
+    },
+    "q8": {
+      "text": "¿A qué nivel opera tu capacidad de establecer contactos (networking)?",
+      "opt0": "No me gusta conocer gente, solo me comunico con quienes ya conozco bien.",
+      "opt1": "Estoy abierto a nuevas conexiones si conozco a personas con ideas afines.",
+      "opt2": "Construyo activamente mi red con representantes de diferentes campos para lograr mi propio objetivo.",
+      "opt3": "Mi actividad principal es conectar personas, proyectos y sistemas, construyendo alianzas y plataformas para sinergias comunes."
+    },
+    "q9": {
+      "text": "¿Cuál ves como tu principal tarea personal, vocación?",
+      "opt0": "Sobrevivir al día a día y cuidar de mi familia.",
+      "opt1": "Hacer un trabajo que no dañe y disfrutar de la vida mientras tanto.",
+      "opt2": "Hacer algo activamente para que mi propio entorno y comunidad sean un lugar mejor.",
+      "opt3": "Crear las bases de un nuevo paradigma social / económico sostenible y justo."
+    },
+    "q10": {
+      "text": "¿Cómo estás con las colaboraciones internacionales y transnacionales?",
+      "opt0": "Solo me interesa mi propio microentorno.",
+      "opt1": "Sigo las noticias internacionales, pero no formo parte de tales redes.",
+      "opt2": "A veces aprendo de ejemplos extranjeros o participo en un evento internacional.",
+      "opt3": "Asumo un papel activo en redes y procesos internacionales, intercambio conocimientos y creo estrategias a nivel global."
+    }
+  },
+  "archetypeTest": {
+    "title": "Prueba de Arquetipo Comunitario",
+    "description": "¿Qué papel juegas en la creación de cambio?",
+    "a1": {
+      "text": "¿Dónde te sientes más efectivo promoviendo el cambio?",
+      "opt0": "En mi propio entorno inmediato, en el trabajo práctico local.",
+      "opt1": "Conectando a diferentes personas y grupos.",
+      "opt2": "Logrando reformas dentro de instituciones o sistemas existentes.",
+      "opt3": "En la comunicación amplia de temas y el aumento de su visibilidad.",
+      "opt4": "Proporcionando recursos, apoyo y herramientas para otros.",
+      "opt5": "Creando ideas novedosas e iterando soluciones innovadoras.",
+      "opt6": "Sacudiendo y transformando los cimientos de sistemas obsoletos y disfuncionales.",
+      "opt7": "Desarrollando directrices, estrategias a largo plazo y brindando asesoramiento."
+    },
+    "a2": {
+      "text": "¿Qué tipo de tarea te llena de más energía?",
+      "opt0": "Trabajo manual, organización comunitaria local, permacultura.",
+      "opt1": "Facilitar negociaciones y reuniones entre organizaciones.",
+      "opt2": "Hacer que las estructuras organizativas, directrices y regulaciones sean más comprensibles.",
+      "opt3": "Gestionar campañas, contar historias, inspirar.",
+      "opt4": "Escribir propuestas, elaborar presupuestos, recaudar fondos.",
+      "opt5": "Construir prototipos, experimentar, pensamiento original (out-of-the-box).",
+      "opt6": "Cuestionar el status quo, protestas, acciones innovadoras radicales.",
+      "opt7": "Analizar problemas complejos, planificación a nivel de sistema, mentoría."
+    },
+    "a3": {
+      "text": "¿Cómo ves los conflictos y obstáculos?",
+      "opt0": "Intento resolverlos con armonía y construcción comunitaria en mis microcircunstancias.",
+      "opt1": "Cultivando relaciones y construyendo confianza, tiendo puentes entre las partes opuestas.",
+      "opt2": "Paso a paso, cambiando las regulaciones existentes.",
+      "opt3": "Doy voz a las perspectivas oprimidas para iniciar el cambio a través de la concienciación.",
+      "opt4": "Puedo proporcionar la energía / espacio necesarios incluso si la situación es difícil.",
+      "opt5": "Los problemas son oportunidades brillantes para desarrollar nuevos caminos creativos.",
+      "opt6": "Son un acompañamiento necesario a la decadencia de lo viejo, entro en confrontación si sirve a la causa.",
+      "opt7": "Veo a través de las motivaciones de los actores y sugiero tácticas a largo plazo mientras observo la línea de tiempo."
+    }
+  },
+  "rdgTest": {
+    "title": "Objetivos de Desarrollo Regenerativo (RDG)",
+    "description": "¿Qué áreas están más cerca de ti? (Selecciona un máximo de 3)",
+    "rdg1": {
+      "text": "¡Marca los 3 objetivos más importantes para ti!",
+      "opt0": "1. Adaptación Profunda y Resiliencia Climática",
+      "opt1": "2. Agricultura Regenerativa y Soberanía Alimentaria",
+      "opt2": "3. Economía Local, Circular y Solidaridad",
+      "opt3": "4. Desarrollo Interior, Conciencia y Autocuidado",
+      "opt4": "5. Salud Holística y Bienestar Físico-Mental",
+      "opt5": "6. Democracia Real y Gobernanza Comunitaria (Sociocracia)",
+      "opt6": "7. Reconexión con la Naturaleza y Protección de la Tierra",
+      "opt7": "8. Arquitectura Alternativa y Vivienda Sostenible",
+      "opt8": "9. Intercambio de Conocimientos y Educación de Código Abierto",
+      "opt9": "10. Transición Cultural Pacífica y Construcción Comunitaria",
+      "opt10": "11. Agua Limpia y Saneamiento para Todos",
+      "opt11": "12. Biodiversidad Global y Protección de Ecosistemas",
+      "opt12": "13. Salud Mental y Bienestar Emocional",
+      "opt13": "14. Educación de Calidad e Integral",
+      "opt14": "15. Derechos del Niño y Crianza Segura",
+      "opt15": "16. Dignidad de los Mayores y Solidaridad Intergeneracional",
+      "opt16": "17. Energía Limpia y Renovable para Todos",
+      "opt17": "18. Igualdad Social y Equidad",
+      "opt18": "19. Vivienda Segura y Digna",
+      "opt19": "20. Trabajo Centrado en el Humano y Creador de Valor",
+      "opt20": "21. Ética Tecnológica y Bienestar Digital",
+      "opt21": "22. Construcción de la Paz y Resolución no Violenta de Conflictos",
+      "opt22": "23. Bienestar Animal y Trato Humano",
+      "opt23": "24. Ciencia Abierta e Intercambio Global de Conocimientos",
+      "opt24": "25. Preservación del Patrimonio Cultural y Diversidad Humana",
+      "opt25": "26. Protección ante Desastres y Resiliencia Comunitaria",
+      "opt26": "27. Gestión de Riesgos Existenciales a Largo Plazo",
+      "opt27": "28. Conciencia Planetaria y la Tierra como Sistema Vivo",
+      "opt28": "29. Alternativas Económicas Comunitarias (Cooperativas, Trueque)",
+      "opt29": "30. Bienes Comunes Digitales e Infraestructura Abierta"
+    }
+  }
+}
